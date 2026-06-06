@@ -1,0 +1,39 @@
+Play a 17-round game (one for each game)
+The player has to build up a team
+
+POSITIONS
+Simple Mode:
+	- QB (Passing yds/game, TD ratio, INT ratio, QBR)
+	- WR1 (Rec yds/game, TDs/game)
+	- WR2
+	- RB (Rush yds/game, TDs/game)
+	- O-Line (Sacks allowed/game, Rush YPC/game, Rush TD%, normalized rank of that year)
+	- D-Line (Sacks/game, Rush YPC allowed/game, Rush TD%)
+	- Secondary (Completion %, Yds/attempt, TD%, INT%)
+	- K (Accuracy)
+	- + backups for injuries
+
+GAMEPLAY
+- Player has to build a team and simulate each game
+- Before each game, a random generator chooses 1/32 teams, and then a random year 2000-2026. Users must choose a position/player from this randomly generated roster
+- You’ll be able to see the opposing team for each upcoming game, along with their stats:
+	- X/32 offense (avg YPG)
+	- X/32 defense (avg YPG)
+	- QB (average YPG)
+	- RB (average YPG)
+	- WR (average YPG)
+	- Def (avg points allowed)
+- You’ll be able to see the weather/conditions before each game
+- You get 1 random Team/Era player roll before each game, and an extra one if you decide to drop - a player
+- You can sub bench players in as starters before each game
+- Injuries can randomly occur, so backup players are important to have
+- Consider normalizing player stats according to year, and/or expanding to season average
+- After selecting players, user's team stats can be viewed:
+	- Pass yds/game
+	- Rush yds/game
+	- O-line rank
+	- D-line rank
+	- Secondary Rank
+
+GAME SIMULATION
+- TBD
