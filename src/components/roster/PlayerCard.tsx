@@ -1,6 +1,7 @@
 import { Button } from '../ui/Button'
 import { Badge } from '../ui/Badge'
 import { StatBar } from '../ui/StatBar'
+import { getTeamColor } from '../../logic/teamColors'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
 interface PlayerCardProps {
@@ -89,7 +90,10 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: P
   const name = 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
 
   return (
-    <div className="bg-gray-900 border border-gray-800 rounded-xl p-4 flex flex-col gap-3">
+    <div
+      className="bg-gray-900 border border-gray-800 border-l-4 rounded-xl p-4 flex flex-col gap-3"
+      style={{ borderLeftColor: getTeamColor(slot.team) }}
+    >
       <div className="flex items-start justify-between">
         <div>
           <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
