@@ -12,6 +12,10 @@ export default function App() {
 
   useEffect(() => { initGame() }, [])
 
+  useEffect(() => {
+    if (phase === 'complete') setShowRoster(false)
+  }, [phase])
+
   if (isLoading && phase === 'setup' && !roster.QB) {
     return (
       <div className="min-h-screen bg-gray-950 flex items-center justify-center">
