@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002942_CLE_2000",
+      "name": "Darrin Chiaverini",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 12.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003535_CLE_2000",
+      "name": "Tim Couch",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "passYPG": 212.0,
+        "tdRatio": 0.0332,
+        "intRatio": 0.0427,
+        "qbr": 50.2
+      },
+      "eraNormFactor": 1.3325
+    },
+    {
+      "id": "p_00-0008560_CLE_2000",
+      "name": "Kevin Johnson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012642_CLE_2000",
+      "name": "David Patten",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 45.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012726_CLE_2000",
+      "name": "Doug Pederson",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "passYPG": 104.7,
+        "tdRatio": 0.0095,
+        "intRatio": 0.0381,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6581
+    },
+    {
+      "id": "p_00-0013622_CLE_2000",
+      "name": "Errict Rhett",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 51.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019057_CLE_2000",
+      "name": "Jamel White",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 14.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019564_CLE_2000",
+      "name": "Aaron Shea",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019609_CLE_2000",
+      "name": "Travis Prentice",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 33.1,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019650_CLE_2000",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_CLE_2000",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2000",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.18,
+        "rushTDPct": 0.0211,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2000",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2000",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

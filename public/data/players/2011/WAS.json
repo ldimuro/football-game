@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020494_WAS_2011",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021147_WAS_2011",
+      "name": "Donte' Stallworth",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021163_WAS_2011",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 59.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022121_WAS_2011",
+      "name": "Rex Grossman",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "passYPG": 242.4,
+        "tdRatio": 0.0349,
+        "intRatio": 0.0437,
+        "qbr": 39.3
+      },
+      "eraNormFactor": 1.2207
+    },
+    {
+      "id": "p_00-0025427_WAS_2011",
+      "name": "John Beck",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "passYPG": 214.5,
+        "tdRatio": 0.0152,
+        "intRatio": 0.0303,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0802
+    },
+    {
+      "id": "p_00-0026188_WAS_2011",
+      "name": "Fred Davis",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 66.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026279_WAS_2011",
+      "name": "Ryan Torain",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 25.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026289_WAS_2011",
+      "name": "Tim Hightower",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 59.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026465_WAS_2011",
+      "name": "Anthony Armstrong",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 10.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027813_WAS_2011",
+      "name": "Terrence Austin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028017_WAS_2011",
+      "name": "Leonard Hankerson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028043_WAS_2011",
+      "name": "Roy Helu",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 42.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028115_WAS_2011",
+      "name": "Evan Royster",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 54.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_WAS_2011",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.7561
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2011",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0201,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2011",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2011",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031273_TB_2019",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2019",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 89.0,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_TB_2019",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "passYPG": 319.3,
+        "tdRatio": 0.0527,
+        "intRatio": 0.0479,
+        "qbr": 76.8
+      },
+      "eraNormFactor": 1.5322
+    },
+    {
+      "id": "p_00-0032054_TB_2019",
+      "name": "Breshad Perriman",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 46.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032741_TB_2019",
+      "name": "Peyton Barber",
+      "position": "RB",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 29.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033879_TB_2019",
+      "name": "O.J. Howard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2019",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 95.2,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034386_TB_2019",
+      "name": "Justin Watson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034816_TB_2019",
+      "name": "Ronald Jones",
+      "position": "RB",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035298_TB_2019",
+      "name": "Scott Miller",
+      "position": "WR",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035269_TB_2019",
+      "name": "M.Gay",
+      "position": "K",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7714
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2019",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.72,
+        "rushTDPct": 0.0367,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2019",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2019",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024243_JAX_2015",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 15.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027595_JAX_2015",
+      "name": "Bryan Walters",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 33.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027725_JAX_2015",
+      "name": "Clay Harbor",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028067_JAX_2015",
+      "name": "Julius Thomas",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030547_JAX_2015",
+      "name": "Denard Robinson",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 22.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030821_JAX_2015",
+      "name": "Allen Hurns",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 68.7,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031407_JAX_2015",
+      "name": "Blake Bortles",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "passYPG": 276.8,
+        "tdRatio": 0.0578,
+        "intRatio": 0.0297,
+        "qbr": 53.4
+      },
+      "eraNormFactor": 1.3598
+    },
+    {
+      "id": "p_00-0031428_JAX_2015",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 87.5,
+        "tdPerGame": 0.875
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031431_JAX_2015",
+      "name": "Marqise Lee",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032170_JAX_2015",
+      "name": "Rashad Greene",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "recYPG": 10.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032209_JAX_2015",
+      "name": "T.J. Yeldon",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 61.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_JAX_2015",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2015",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0141,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2015",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2015",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

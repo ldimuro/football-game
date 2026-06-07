@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2009",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "passYPG": 251.3,
+        "tdRatio": 0.053,
+        "intRatio": 0.0275,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5346
+    },
+    {
+      "id": "p_00-0023545_NYG_2009",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 55.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024345_NYG_2009",
+      "name": "Domenik Hixon",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "recYPG": 15.6,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025438_NYG_2009",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "recYPG": 76.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025540_NYG_2009",
+      "name": "Kevin Boss",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "recYPG": 37.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025637_NYG_2009",
+      "name": "Ahmad Bradshaw",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 51.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026235_NYG_2009",
+      "name": "Mario Manningham",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "recYPG": 58.7,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027005_NYG_2009",
+      "name": "Hakeem Nicks",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019778_NYG_2009",
+      "name": "L.Tynes",
+      "position": "K",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2009",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.0316,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2009",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2009",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030506_KC_2021",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 74.9,
+        "tdPerGame": 0.632
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031376_KC_2021",
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 21.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032775_KC_2021",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 20.0,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_KC_2021",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 76.2,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033873_KC_2021",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "passYPG": 294.8,
+        "tdRatio": 0.0615,
+        "intRatio": 0.0205,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6786
+    },
+    {
+      "id": "p_00-0034297_KC_2021",
+      "name": "Byron Pringle",
+      "position": "WR",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034301_KC_2021",
+      "name": "Darrel Williams",
+      "position": "RB",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 31.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035140_KC_2021",
+      "name": "Mecole Hardman",
+      "position": "WR",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035715_KC_2021",
+      "name": "Derrick Gore",
+      "position": "RB",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 28.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036360_KC_2021",
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 51.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033303_KC_2021",
+      "name": "H.Butker",
+      "position": "K",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8649
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2021",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.73,
+        "rushTDPct": 0.0357,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2021",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2021",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020337_BAL_2016",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "recYPG": 57.1,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2016",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "passYPG": 269.8,
+        "tdRatio": 0.0298,
+        "intRatio": 0.0223,
+        "qbr": 33.5
+      },
+      "eraNormFactor": 1.3256
+    },
+    {
+      "id": "p_00-0026373_BAL_2016",
+      "name": "Justin Forsett",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026901_BAL_2016",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "recYPG": 63.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027714_BAL_2016",
+      "name": "Dennis Pitta",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028497_BAL_2016",
+      "name": "Kamar Aiken",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031375_BAL_2016",
+      "name": "Terrance West",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 48.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032054_BAL_2016",
+      "name": "Breshad Perriman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "recYPG": 33.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032411_BAL_2016",
+      "name": "Kenneth Dixon",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 31.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2016",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.9744
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2016",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0272,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2016",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2016",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

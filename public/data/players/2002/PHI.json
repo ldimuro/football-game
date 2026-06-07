@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005562_PHI_2002",
+      "name": "Antonio Freeman",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009829_PHI_2002",
+      "name": "Dorsey Levens",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 22.8,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009842_PHI_2002",
+      "name": "Chad Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011022_PHI_2002",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "passYPG": 231.6,
+        "tdRatio": 0.0409,
+        "intRatio": 0.0159,
+        "qbr": 35.1
+      },
+      "eraNormFactor": 1.2792
+    },
+    {
+      "id": "p_00-0015523_PHI_2002",
+      "name": "Duce Staley",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 63.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016440_PHI_2002",
+      "name": "James Thrash",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019606_PHI_2002",
+      "name": "Todd Pinkston",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 52.8,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020305_PHI_2002",
+      "name": "A.J. Feeley",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "passYPG": 168.5,
+        "tdRatio": 0.039,
+        "intRatio": 0.0325,
+        "qbr": 57.0
+      },
+      "eraNormFactor": 0.9307
+    },
+    {
+      "id": "p_00-0020497_PHI_2002",
+      "name": "Freddie Mitchell",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 9.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2002",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 12.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2002",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8684
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2002",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.46,
+        "rushTDPct": 0.0299,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2002",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2002",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

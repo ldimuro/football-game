@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_ARI_2013",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "passYPG": 267.1,
+        "tdRatio": 0.042,
+        "intRatio": 0.0385,
+        "qbr": 58.0
+      },
+      "eraNormFactor": 1.2542
+    },
+    {
+      "id": "p_00-0022921_ARI_2013",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 59.6,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026163_ARI_2013",
+      "name": "Rashard Mendenhall",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 45.8,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027691_ARI_2013",
+      "name": "Andre Roberts",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027825_ARI_2013",
+      "name": "Jim Dray",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028007_ARI_2013",
+      "name": "Rob Housler",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028606_ARI_2013",
+      "name": "Kerry Taylor",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029638_ARI_2013",
+      "name": "Michael Floyd",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 65.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030282_ARI_2013",
+      "name": "Stepfan Taylor",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 10.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030287_ARI_2013",
+      "name": "Andre Ellington",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 43.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_ARI_2013",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2013",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.65,
+        "rushTDPct": 0.0284,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2013",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2013",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

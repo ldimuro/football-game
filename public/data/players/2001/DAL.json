@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002942_DAL_2001",
+      "name": "Darrin Chiaverini",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 8.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005720_DAL_2001",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006949_DAL_2001",
+      "name": "Jackie Harris",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 11.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008060_DAL_2001",
+      "name": "Raghib Ismail",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 59.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010146_DAL_2001",
+      "name": "Mike Lucky",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 9.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015165_DAL_2001",
+      "name": "Emmitt Smith",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 72.9,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019516_DAL_2001",
+      "name": "Troy Hambrick",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 36.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019614_DAL_2001",
+      "name": "Michael Wiley",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 16.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020404_DAL_2001",
+      "name": "Quincy Carter",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "passYPG": 134.0,
+        "tdRatio": 0.0284,
+        "intRatio": 0.0398,
+        "qbr": 24.1
+      },
+      "eraNormFactor": 0.7586
+    },
+    {
+      "id": "p_00-0018949_DAL_2001",
+      "name": "T.Seder",
+      "position": "K",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2001",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.32,
+        "rushTDPct": 0.0158,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2001",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2001",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

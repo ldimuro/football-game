@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024243_JAX_2016",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027531_JAX_2016",
+      "name": "Chris Ivory",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 39.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027595_JAX_2016",
+      "name": "Bryan Walters",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028067_JAX_2016",
+      "name": "Julius Thomas",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 31.2,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030547_JAX_2016",
+      "name": "Denard Robinson",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 24.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030821_JAX_2016",
+      "name": "Allen Hurns",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 43.4,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031407_JAX_2016",
+      "name": "Blake Bortles",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "passYPG": 244.1,
+        "tdRatio": 0.0368,
+        "intRatio": 0.0256,
+        "qbr": 18.9
+      },
+      "eraNormFactor": 1.1993
+    },
+    {
+      "id": "p_00-0031428_JAX_2016",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 55.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031431_JAX_2016",
+      "name": "Marqise Lee",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 53.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031731_JAX_2016",
+      "name": "Corey Grant",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 32.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032139_JAX_2016",
+      "name": "Ben Koyack",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "recYPG": 17.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032209_JAX_2016",
+      "name": "T.J. Yeldon",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 31.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_JAX_2016",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.7941
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2016",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0204,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2016",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2016",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

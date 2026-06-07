@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033943_DEN_2024",
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034348_DEN_2024",
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 68.0,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035406_DEN_2024",
+      "name": "Lil'Jordan Humphrey",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036422_DEN_2024",
+      "name": "Adam Trautman",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 13.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036997_DEN_2024",
+      "name": "Javonte Williams",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 30.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037539_DEN_2024",
+      "name": "Lucas Krull",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 14.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038794_DEN_2024",
+      "name": "Jaleel McLaughlin",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 29.1,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038976_DEN_2024",
+      "name": "Marvin Mims",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039373_DEN_2024",
+      "name": "Audric Estime",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039424_DEN_2024",
+      "name": "Devaughn Vele",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039732_DEN_2024",
+      "name": "Bo Nix",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "passYPG": 217.7,
+        "tdRatio": 0.0509,
+        "intRatio": 0.0204,
+        "qbr": 65.5
+      },
+      "eraNormFactor": 1.2946
+    },
+    {
+      "id": "p_00-0039868_DEN_2024",
+      "name": "Troy Franklin",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032569_DEN_2024",
+      "name": "W.Lutz",
+      "position": "K",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2024",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0251,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2024",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2024",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

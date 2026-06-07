@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026144_LV_2013",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 37.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026349_LV_2013",
+      "name": "Matt Flynn",
+      "position": "QB",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "passYPG": 198.9,
+        "tdRatio": 0.04,
+        "intRatio": 0.025,
+        "qbr": 13.4
+      },
+      "eraNormFactor": 0.9339
+    },
+    {
+      "id": "p_00-0027155_LV_2013",
+      "name": "Rashad Jennings",
+      "position": "RB",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 48.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027709_LV_2013",
+      "name": "Jacoby Ford",
+      "position": "WR",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "recYPG": 7.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028086_LV_2013",
+      "name": "Denarius Moore",
+      "position": "WR",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "recYPG": 53.5,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028263_LV_2013",
+      "name": "Andre Holmes",
+      "position": "WR",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029129_LV_2013",
+      "name": "Rod Streater",
+      "position": "WR",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030419_LV_2013",
+      "name": "Matt McGloin",
+      "position": "QB",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "passYPG": 221.0,
+        "tdRatio": 0.0379,
+        "intRatio": 0.0379,
+        "qbr": 56.1
+      },
+      "eraNormFactor": 1.0377
+    },
+    {
+      "id": "p_00-0030514_LV_2013",
+      "name": "Mychal Rivera",
+      "position": "WR",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2013",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.7
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2013",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.58,
+        "rushTDPct": 0.0366,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2013",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2013",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

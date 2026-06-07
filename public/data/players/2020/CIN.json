@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027942_CIN_2020",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 32.7,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030456_CIN_2020",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 26.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032434_CIN_2020",
+      "name": "Brandon Allen",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "passYPG": 185.0,
+        "tdRatio": 0.0352,
+        "intRatio": 0.0282,
+        "qbr": 31.0
+      },
+      "eraNormFactor": 0.9996
+    },
+    {
+      "id": "p_00-0033009_CIN_2020",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 56.1,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033114_CIN_2020",
+      "name": "Mike Thomas",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033526_CIN_2020",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 27.4,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033897_CIN_2020",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 71.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034686_CIN_2020",
+      "name": "Auden Tate",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035631_CIN_2020",
+      "name": "Drew Sample",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036410_CIN_2020",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 60.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036442_CIN_2020",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "passYPG": 268.8,
+        "tdRatio": 0.0322,
+        "intRatio": 0.0124,
+        "qbr": 99.0
+      },
+      "eraNormFactor": 1.4524
+    },
+    {
+      "id": "p_00-0029421_CIN_2020",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.7941
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2020",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.06,
+        "rushTDPct": 0.0316,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2020",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2020",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

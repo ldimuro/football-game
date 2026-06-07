@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002068_NE_2004",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_NE_2004",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 107.1,
+        "tdPerGame": 0.778
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2004",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 26.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012642_NE_2004",
+      "name": "David Patten",
+      "position": "WR",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019533_NE_2004",
+      "name": "Patrick Pass",
+      "position": "RB",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 10.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2004",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "passYPG": 225.1,
+        "tdRatio": 0.0595,
+        "intRatio": 0.0252,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2791
+    },
+    {
+      "id": "p_00-0021154_NE_2004",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "recYPG": 25.3,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_NE_2004",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021353_NE_2004",
+      "name": "David Givens",
+      "position": "WR",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "recYPG": 57.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_NE_2004",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.9474
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2004",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0305,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2004",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2004",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

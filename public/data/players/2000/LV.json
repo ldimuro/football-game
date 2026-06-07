@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001766_LV_2000",
+      "name": "Jeremy Brigham",
+      "position": "WR",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "recYPG": 10.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002058_LV_2000",
+      "name": "Tim Brown",
+      "position": "WR",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "recYPG": 64.7,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003663_LV_2000",
+      "name": "Zack Crockett",
+      "position": "RB",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 10.2,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004574_LV_2000",
+      "name": "Rickey Dudley",
+      "position": "WR",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "recYPG": 21.0,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005741_LV_2000",
+      "name": "Rich Gannon",
+      "position": "QB",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "passYPG": 197.3,
+        "tdRatio": 0.0577,
+        "intRatio": 0.0258,
+        "qbr": 92.6
+      },
+      "eraNormFactor": 1.2401
+    },
+    {
+      "id": "p_00-0008400_LV_2000",
+      "name": "James Jett",
+      "position": "WR",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008921_LV_2000",
+      "name": "Randy Jordan",
+      "position": "RB",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 13.5,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009038_LV_2000",
+      "name": "Napoleon Kaufman",
+      "position": "RB",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 33.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013770_LV_2000",
+      "name": "Andre Rison",
+      "position": "WR",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017486_LV_2000",
+      "name": "Tyrone Wheatley",
+      "position": "RB",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 68.5,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2000",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.6842
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2000",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.47,
+        "rushTDPct": 0.0419,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2000",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2000",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

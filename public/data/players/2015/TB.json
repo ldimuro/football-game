@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023496_TB_2015",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 54.3,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_TB_2015",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 87.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2015",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 24.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031390_TB_2015",
+      "name": "Charles Sims",
+      "position": "RB",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 33.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2015",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 80.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031418_TB_2015",
+      "name": "Austin Seferian-Jenkins",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 48.3,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_TB_2015",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "passYPG": 252.6,
+        "tdRatio": 0.0411,
+        "intRatio": 0.028,
+        "qbr": 80.8
+      },
+      "eraNormFactor": 1.2409
+    },
+    {
+      "id": "p_00-0032008_TB_2015",
+      "name": "Donteea Dye",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 14.7,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032009_TB_2015",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026138_TB_2015",
+      "name": "C.Barth",
+      "position": "K",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.725
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2015",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.75,
+        "rushTDPct": 0.0264,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2015",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2015",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

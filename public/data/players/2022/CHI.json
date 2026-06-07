@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0034279_CHI_2022",
+      "name": "Equanimeous St. Brown",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034860_CHI_2022",
+      "name": "Dante Pettis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035685_CHI_2022",
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 50.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036290_CHI_2022",
+      "name": "Cole Kmet",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 32.0,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036309_CHI_2022",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036906_CHI_2022",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 56.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036945_CHI_2022",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "passYPG": 149.5,
+        "tdRatio": 0.0535,
+        "intRatio": 0.0346,
+        "qbr": 6.2
+      },
+      "eraNormFactor": 0.8184
+    },
+    {
+      "id": "p_00-0031203_CHI_2022",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9259
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2022",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.4,
+        "rushTDPct": 0.0323,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2022",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2022",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

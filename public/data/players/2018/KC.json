@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030155_KC_2018",
+      "name": "Demetrius Harris",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 13.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030414_KC_2018",
+      "name": "Spencer Ware",
+      "position": "RB",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 20.5,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030506_KC_2018",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 81.5,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030874_KC_2018",
+      "name": "Damien Williams",
+      "position": "RB",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 34.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031325_KC_2018",
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032128_KC_2018",
+      "name": "Chris Conley",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032775_KC_2018",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 21.0,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_KC_2018",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 88.5,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033873_KC_2018",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "passYPG": 315.0,
+        "tdRatio": 0.0813,
+        "intRatio": 0.0184,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6143
+    },
+    {
+      "id": "p_00-0033923_KC_2018",
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 74.9,
+        "tdPerGame": 0.636
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033303_KC_2018",
+      "name": "H.Butker",
+      "position": "K",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8966
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2018",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.81,
+        "rushTDPct": 0.0486,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2018",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2018",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

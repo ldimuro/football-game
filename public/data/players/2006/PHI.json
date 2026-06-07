@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005755_PHI_2006",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "passYPG": 170.2,
+        "tdRatio": 0.0482,
+        "intRatio": 0.008,
+        "qbr": 71.6
+      },
+      "eraNormFactor": 0.9705
+    },
+    {
+      "id": "p_00-0011022_PHI_2006",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "passYPG": 261.2,
+        "tdRatio": 0.057,
+        "intRatio": 0.019,
+        "qbr": 86.7
+      },
+      "eraNormFactor": 1.4893
+    },
+    {
+      "id": "p_00-0020270_PHI_2006",
+      "name": "Correll Buckhalter",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 20.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021147_PHI_2006",
+      "name": "Donte' Stallworth",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 66.6,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2006",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 86.7,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021508_PHI_2006",
+      "name": "Greg Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022126_PHI_2006",
+      "name": "L.J. Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023470_PHI_2006",
+      "name": "Reggie Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024013_PHI_2006",
+      "name": "Hank Baskett",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2006",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8148
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2006",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.91,
+        "rushTDPct": 0.0343,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2006",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2006",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

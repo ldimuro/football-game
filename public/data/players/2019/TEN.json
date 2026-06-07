@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024389_TEN_2019",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028087_TEN_2019",
+      "name": "Dion Lewis",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029701_TEN_2019",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "passYPG": 207.4,
+        "tdRatio": 0.078,
+        "intRatio": 0.0202,
+        "qbr": 94.0
+      },
+      "eraNormFactor": 0.9952
+    },
+    {
+      "id": "p_00-0032009_TEN_2019",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032268_TEN_2019",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "passYPG": 134.1,
+        "tdRatio": 0.0435,
+        "intRatio": 0.0124,
+        "qbr": 41.6
+      },
+      "eraNormFactor": 0.6435
+    },
+    {
+      "id": "p_00-0032764_TEN_2019",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 110.3,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032778_TEN_2019",
+      "name": "Tajae Sharpe",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033455_TEN_2019",
+      "name": "Anthony Firkser",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_TEN_2019",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033871_TEN_2019",
+      "name": "Corey Davis",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035676_TEN_2019",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "recYPG": 58.7,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_TEN_2019",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.4737
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2019",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.0,
+        "rushTDPct": 0.044,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2019",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2019",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

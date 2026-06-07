@@ -1,0 +1,195 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023367_TEN_2014",
+      "name": "Nate Washington",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024296_TEN_2014",
+      "name": "Charlie Whitehurst",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "passYPG": 189.4,
+        "tdRatio": 0.0378,
+        "intRatio": 0.0108,
+        "qbr": 44.5
+      },
+      "eraNormFactor": 0.944
+    },
+    {
+      "id": "p_00-0024297_TEN_2014",
+      "name": "Derek Hagan",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024389_TEN_2014",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 59.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026899_TEN_2014",
+      "name": "Shonn Greene",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 30.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027651_TEN_2014",
+      "name": "Dexter McCluster",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027946_TEN_2014",
+      "name": "Jake Locker",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "passYPG": 141.9,
+        "tdRatio": 0.0342,
+        "intRatio": 0.0479,
+        "qbr": 3.6
+      },
+      "eraNormFactor": 0.7072
+    },
+    {
+      "id": "p_00-0029708_TEN_2014",
+      "name": "Kendall Wright",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 51.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030521_TEN_2014",
+      "name": "Justin Hunter",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 41.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031266_TEN_2014",
+      "name": "Zach Mettenberger",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "passYPG": 201.7,
+        "tdRatio": 0.0447,
+        "intRatio": 0.0391,
+        "qbr": 8.3
+      },
+      "eraNormFactor": 1.0053
+    },
+    {
+      "id": "p_00-0031413_TEN_2014",
+      "name": "Bishop Sankey",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 35.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_TEN_2014",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8636
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2014",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.06,
+        "rushTDPct": 0.0169,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2014",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2014",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

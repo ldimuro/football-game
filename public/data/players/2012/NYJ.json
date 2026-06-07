@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024240_NYJ_2012",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 68.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026170_NYJ_2012",
+      "name": "Dustin Keller",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 39.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026366_NYJ_2012",
+      "name": "Chaz Schilens",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 24.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026898_NYJ_2012",
+      "name": "Mark Sanchez",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "passYPG": 192.2,
+        "tdRatio": 0.0287,
+        "intRatio": 0.0397,
+        "qbr": 7.4
+      },
+      "eraNormFactor": 0.937
+    },
+    {
+      "id": "p_00-0026899_NYJ_2012",
+      "name": "Shonn Greene",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 66.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027321_NYJ_2012",
+      "name": "Jeff Cumberland",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 25.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027712_NYJ_2012",
+      "name": "Joe McKnight",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 14.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028049_NYJ_2012",
+      "name": "Clyde Gates",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2012",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 31.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2012",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 51.7,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028995_NYJ_2012",
+      "name": "Stephen Hill",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NYJ_2012",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.7778
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2012",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.84,
+        "rushTDPct": 0.0243,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2012",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2012",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

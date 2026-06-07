@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033009_CIN_2023",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033897_CIN_2023",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 60.8,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034613_CIN_2023",
+      "name": "Tanner Hudson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034970_CIN_2023",
+      "name": "Irv Smith",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 12.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035100_CIN_2023",
+      "name": "Jake Browning",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 215.1,
+        "tdRatio": 0.0494,
+        "intRatio": 0.0288,
+        "qbr": 74.8
+      },
+      "eraNormFactor": 1.1986
+    },
+    {
+      "id": "p_00-0035341_CIN_2023",
+      "name": "Trenton Irwin",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 31.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035631_CIN_2023",
+      "name": "Drew Sample",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 11.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036410_CIN_2023",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 54.7,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036442_CIN_2023",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 230.9,
+        "tdRatio": 0.0411,
+        "intRatio": 0.0164,
+        "qbr": 56.1
+      },
+      "eraNormFactor": 1.2866
+    },
+    {
+      "id": "p_00-0036900_CIN_2023",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 76.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038597_CIN_2023",
+      "name": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 17.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038619_CIN_2023",
+      "name": "Andrei Iosivas",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 12.9,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036854_CIN_2023",
+      "name": "E.McPherson",
+      "position": "K",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8387
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2023",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0313,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2023",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2023",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

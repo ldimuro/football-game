@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001661_JAX_2001",
+      "name": "Kyle Brady",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002110_JAX_2001",
+      "name": "Mark Brunell",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "passYPG": 220.6,
+        "tdRatio": 0.0211,
+        "intRatio": 0.0275,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.2489
+    },
+    {
+      "id": "p_00-0004077_JAX_2001",
+      "name": "Sean Dawkins",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010240_JAX_2001",
+      "name": "Stacey Mack",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 54.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010668_JAX_2001",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "recYPG": 69.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015218_JAX_2001",
+      "name": "Jimmy Smith",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "recYPG": 85.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019889_JAX_2001",
+      "name": "Elvis Joseph",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 24.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007622_JAX_2001",
+      "name": "M.Hollis",
+      "position": "K",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2001",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.3,
+        "rushTDPct": 0.0296,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2001",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2001",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

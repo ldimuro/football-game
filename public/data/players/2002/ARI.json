@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001532_ARI_2002",
+      "name": "David Boston",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 64.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008357_ARI_2002",
+      "name": "MarTay Jenkins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008749_ARI_2002",
+      "name": "Freddie Jones",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013042_ARI_2002",
+      "name": "Jake Plummer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "passYPG": 185.8,
+        "tdRatio": 0.034,
+        "intRatio": 0.0377,
+        "qbr": 15.0
+      },
+      "eraNormFactor": 1.0263
+    },
+    {
+      "id": "p_00-0014328_ARI_2002",
+      "name": "Frank Sanders",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_ARI_2002",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 56.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020021_ARI_2002",
+      "name": "Nate Poole",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020022_ARI_2002",
+      "name": "Marcel Shipp",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 59.6,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020256_ARI_2002",
+      "name": "Kevin Kasper",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 45.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021094_ARI_2002",
+      "name": "Jason McAddley",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 40.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020296_ARI_2002",
+      "name": "B.Gramatica",
+      "position": "K",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7143
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2002",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.0242,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2002",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2002",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

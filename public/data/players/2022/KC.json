@@ -1,74 +1,190 @@
 {
   "players": [
     {
-      "id": "p_mahomes_kc_2022",
-      "name": "Patrick Mahomes",
-      "position": "QB",
-      "team": "KC",
-      "year": 2022,
-      "stats": { "passYPG": 317.4, "tdRatio": 0.067, "intRatio": 0.011, "qbr": 74.2 },
-      "eraNormFactor": 1.08
-    },
-    {
-      "id": "p_kelce_kc_2022",
+      "id": "p_00-0030506_KC_2022",
       "name": "Travis Kelce",
       "position": "WR",
       "team": "KC",
       "year": 2022,
-      "stats": { "recYPG": 84.5, "tdPerGame": 0.47 },
-      "eraNormFactor": 1.18
+      "stats": {
+        "recYPG": 79.8,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_hardman_kc_2022",
+      "id": "p_00-0031376_KC_2022",
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 17.6,
+        "tdPerGame": 0.05
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_KC_2022",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 53.8,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033873_KC_2022",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "passYPG": 297.6,
+        "tdRatio": 0.0642,
+        "intRatio": 0.016,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6292
+    },
+    {
+      "id": "p_00-0034272_KC_2022",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034386_KC_2022",
+      "name": "Justin Watson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035140_KC_2022",
       "name": "Mecole Hardman",
       "position": "WR",
       "team": "KC",
       "year": 2022,
-      "stats": { "recYPG": 38.2, "tdPerGame": 0.24 },
-      "eraNormFactor": 0.82
+      "stats": {
+        "recYPG": 34.1,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_pacheco_kc_2022",
+      "id": "p_00-0036360_KC_2022",
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 30.2,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036637_KC_2022",
+      "name": "Noah Gray",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.05
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037197_KC_2022",
       "name": "Isiah Pacheco",
       "position": "RB",
       "team": "KC",
       "year": 2022,
-      "stats": { "rushYPG": 62.1, "tdPerGame": 0.41 },
-      "eraNormFactor": 0.94
+      "stats": {
+        "rushYPG": 51.4,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_butker_kc_2022",
-      "name": "Harrison Butker",
+      "id": "p_00-0038090_KC_2022",
+      "name": "Skyy Moore",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033303_KC_2022",
+      "name": "H.Butker",
       "position": "K",
       "team": "KC",
       "year": 2022,
-      "stats": { "fgAccuracy": 0.923 },
-      "eraNormFactor": 1.05
+      "stats": {
+        "fgAccuracy": 0.7692
+      },
+      "eraNormFactor": 1.0
     }
   ],
   "units": [
     {
-      "id": "u_kc_oline_2022",
+      "id": "u_KC_OLine_2022",
       "position": "OLine",
       "team": "KC",
       "year": 2022,
-      "stats": { "sacksAllowedPerGame": 2.1, "rushYPC": 4.8, "rushTDPct": 0.052, "normalizedRank": 8 },
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.69,
+        "rushTDPct": 0.0385,
+        "normalizedRank": 9
+      },
       "eraNormFactor": 1.0
     },
     {
-      "id": "u_kc_dline_2022",
+      "id": "u_KC_DLine_2022",
       "position": "DLine",
       "team": "KC",
       "year": 2022,
-      "stats": { "sacksPerGame": 3.2, "rushYPCAllowed": 4.1, "rushTDPctAllowed": 0.038, "normalizedRank": 10 },
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
       "eraNormFactor": 1.0
     },
     {
-      "id": "u_kc_secondary_2022",
+      "id": "u_KC_Secondary_2022",
       "position": "Secondary",
       "team": "KC",
       "year": 2022,
-      "stats": { "completionPctAllowed": 0.634, "yardsPerAttemptAllowed": 6.8, "tdPctAllowed": 0.038, "intPct": 0.027, "normalizedRank": 11 },
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
       "eraNormFactor": 1.0
     }
   ]

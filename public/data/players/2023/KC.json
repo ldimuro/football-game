@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030506_KC_2023",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 70.5,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033873_KC_2023",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "passYPG": 261.7,
+        "tdRatio": 0.0442,
+        "intRatio": 0.0201,
+        "qbr": 93.5
+      },
+      "eraNormFactor": 1.4582
+    },
+    {
+      "id": "p_00-0034272_KC_2023",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034386_KC_2023",
+      "name": "Justin Watson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036360_KC_2023",
+      "name": "Clyde Edwards-Helaire",
+      "position": "RB",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 14.5,
+        "tdPerGame": 0.053
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036637_KC_2023",
+      "name": "Noah Gray",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036913_KC_2023",
+      "name": "Kadarius Toney",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037197_KC_2023",
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 69.3,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038090_KC_2023",
+      "name": "Skyy Moore",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039067_KC_2023",
+      "name": "Rashee Rice",
+      "position": "WR",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "recYPG": 60.0,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033303_KC_2023",
+      "name": "H.Butker",
+      "position": "K",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9565
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2023",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.28,
+        "rushTDPct": 0.0223,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2023",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2023",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

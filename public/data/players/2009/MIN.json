@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005106_MIN_2009",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "passYPG": 263.7,
+        "tdRatio": 0.0631,
+        "intRatio": 0.015,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6103
+    },
+    {
+      "id": "p_00-0021314_MIN_2009",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 21.3,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022054_MIN_2009",
+      "name": "Visanthe Shiancoe",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 36.7,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022807_MIN_2009",
+      "name": "Bernard Berrian",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025394_MIN_2009",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 87.4,
+        "tdPerGame": 1.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025431_MIN_2009",
+      "name": "Sidney Rice",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 83.1,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026998_MIN_2009",
+      "name": "Percy Harvin",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_MIN_2009",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.9333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2009",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.09,
+        "rushTDPct": 0.041,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2009",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2009",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

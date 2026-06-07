@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001098_CIN_2003",
+      "name": "Brandon Bennett",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 12.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_CIN_2003",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 41.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009311_CIN_2003",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "passYPG": 225.3,
+        "tdRatio": 0.0499,
+        "intRatio": 0.0288,
+        "qbr": 80.3
+      },
+      "eraNormFactor": 1.3953
+    },
+    {
+      "id": "p_00-0019455_CIN_2003",
+      "name": "Peter Warrick",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020268_CIN_2003",
+      "name": "Tony Stewart",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2003",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 84.7,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020407_CIN_2003",
+      "name": "Rudi Johnson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 74.4,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021084_CIN_2003",
+      "name": "Matt Schobel",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022171_CIN_2003",
+      "name": "Kelley Washington",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_CIN_2003",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.88
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2003",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.0251,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2003",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2003",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

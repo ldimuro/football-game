@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002058_TB_2004",
+      "name": "Tim Brown",
+      "position": "WR",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 20.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004294_TB_2004",
+      "name": "Ken Dilger",
+      "position": "WR",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 23.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005720_TB_2004",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 41.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006423_TB_2004",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "passYPG": 239.3,
+        "tdRatio": 0.0595,
+        "intRatio": 0.0357,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3598
+    },
+    {
+      "id": "p_00-0008442_TB_2004",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "passYPG": 168.5,
+        "tdRatio": 0.0291,
+        "intRatio": 0.0291,
+        "qbr": 16.8
+      },
+      "eraNormFactor": 0.9575
+    },
+    {
+      "id": "p_00-0008962_TB_2004",
+      "name": "Joe Jurevicius",
+      "position": "WR",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 37.0,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2004",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 71.2,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022725_TB_2004",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 74.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006223_TB_2004",
+      "name": "M.Gramatica",
+      "position": "K",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.625
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2004",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.79,
+        "rushTDPct": 0.0229,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2004",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2004",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

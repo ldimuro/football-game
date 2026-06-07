@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020494_WAS_2013",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026314_WAS_2013",
+      "name": "Josh Morgan",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 16.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026345_WAS_2013",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 84.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027215_WAS_2013",
+      "name": "Logan Paulsen",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 19.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028017_WAS_2013",
+      "name": "Leonard Hankerson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 37.5,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028043_WAS_2013",
+      "name": "Roy Helu",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 17.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028116_WAS_2013",
+      "name": "Aldrick Robinson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029141_WAS_2013",
+      "name": "Alfred Morris",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 79.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029604_WAS_2013",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "passYPG": 170.8,
+        "tdRatio": 0.0258,
+        "intRatio": 0.0452,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.802
+    },
+    {
+      "id": "p_00-0029665_WAS_2013",
+      "name": "Robert Griffin",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "passYPG": 246.4,
+        "tdRatio": 0.0351,
+        "intRatio": 0.0263,
+        "qbr": 55.8
+      },
+      "eraNormFactor": 1.157
+    },
+    {
+      "id": "p_00-0030472_WAS_2013",
+      "name": "Jordan Reed",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "recYPG": 55.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028787_WAS_2013",
+      "name": "K.Forbath",
+      "position": "K",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2013",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.78,
+        "rushTDPct": 0.0309,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2013",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2013",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

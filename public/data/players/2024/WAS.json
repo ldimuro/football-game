@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030061_WAS_2024",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033591_WAS_2024",
+      "name": "Noah Brown",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_WAS_2024",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 30.4,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033955_WAS_2024",
+      "name": "Jeremy McNichols",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 16.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035208_WAS_2024",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035659_WAS_2024",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 66.2,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036626_WAS_2024",
+      "name": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037746_WAS_2024",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 54.6,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038611_WAS_2024",
+      "name": "Chris Rodriguez",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 28.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039355_WAS_2024",
+      "name": "Luke McCaffrey",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "recYPG": 12.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039910_WAS_2024",
+      "name": "Jayden Daniels",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "passYPG": 219.5,
+        "tdRatio": 0.0505,
+        "intRatio": 0.0168,
+        "qbr": 94.9
+      },
+      "eraNormFactor": 1.3053
+    },
+    {
+      "id": "p_00-0035145_WAS_2024",
+      "name": "A.Seibert",
+      "position": "K",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.82
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2024",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.76,
+        "rushTDPct": 0.0463,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2024",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2024",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

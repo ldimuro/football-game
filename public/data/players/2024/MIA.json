@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031687_MIA_2024",
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 23.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_MIA_2024",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_MIA_2024",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 52.0,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035993_MIA_2024",
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "passYPG": 165.8,
+        "tdRatio": 0.0226,
+        "intRatio": 0.0226,
+        "qbr": 14.3
+      },
+      "eraNormFactor": 0.9859
+    },
+    {
+      "id": "p_00-0036212_MIA_2024",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "passYPG": 260.6,
+        "tdRatio": 0.0476,
+        "intRatio": 0.0175,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5497
+    },
+    {
+      "id": "p_00-0036613_MIA_2024",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 49.6,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039040_MIA_2024",
+      "name": "Devon Achane",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 53.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039874_MIA_2024",
+      "name": "Jaylen Wright",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 19.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039880_MIA_2024",
+      "name": "Malik Washington",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034794_MIA_2024",
+      "name": "J.Sanders",
+      "position": "K",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.9024
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2024",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.01,
+        "rushTDPct": 0.0268,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2024",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2024",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

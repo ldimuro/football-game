@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023921_CLE_2014",
+      "name": "Miles Austin",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 47.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026281_CLE_2014",
+      "name": "Gary Barnidge",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026625_CLE_2014",
+      "name": "Brian Hoyer",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "passYPG": 237.6,
+        "tdRatio": 0.0274,
+        "intRatio": 0.0297,
+        "qbr": 48.6
+      },
+      "eraNormFactor": 1.1842
+    },
+    {
+      "id": "p_00-0027825_CLE_2014",
+      "name": "Jim Dray",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027890_CLE_2014",
+      "name": "Ben Tate",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 32.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027918_CLE_2014",
+      "name": "Andrew Hawkins",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 54.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028040_CLE_2014",
+      "name": "Jordan Cameron",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 42.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_CLE_2014",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029664_CLE_2014",
+      "name": "Josh Gordon",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 60.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030656_CLE_2014",
+      "name": "Isaiah Crowell",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 40.5,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031228_CLE_2014",
+      "name": "Taylor Gabriel",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031375_CLE_2014",
+      "name": "Terrance West",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 48.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020972_CLE_2014",
+      "name": "B.Cundiff",
+      "position": "K",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.7812
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2014",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.62,
+        "rushTDPct": 0.0356,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2014",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2014",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

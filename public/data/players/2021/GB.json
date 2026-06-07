@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_GB_2021",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "passYPG": 255.3,
+        "tdRatio": 0.0661,
+        "intRatio": 0.0071,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4537
+    },
+    {
+      "id": "p_00-0024243_GB_2021",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 15.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028002_GB_2021",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 31.2,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031381_GB_2021",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 96.6,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033293_GB_2021",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 52.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033757_GB_2021",
+      "name": "Robert Tonyan",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 25.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034272_GB_2021",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034521_GB_2021",
+      "name": "Allen Lazard",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036265_GB_2021",
+      "name": "A.J. Dillon",
+      "position": "RB",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 46.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036332_GB_2021",
+      "name": "Josiah Deguara",
+      "position": "WR",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2021",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.7222
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2021",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.22,
+        "rushTDPct": 0.03,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2021",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2021",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

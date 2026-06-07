@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0013042_DEN_2006",
+      "name": "Jake Plummer",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "passYPG": 166.2,
+        "tdRatio": 0.0347,
+        "intRatio": 0.041,
+        "qbr": 28.2
+      },
+      "eraNormFactor": 0.9477
+    },
+    {
+      "id": "p_00-0015290_DEN_2006",
+      "name": "Rod Smith",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 32.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021153_DEN_2006",
+      "name": "Javon Walker",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 67.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022893_DEN_2006",
+      "name": "Tatum Bell",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 78.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024011_DEN_2006",
+      "name": "Mike Bell",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 48.4,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024226_DEN_2006",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "passYPG": 200.2,
+        "tdRatio": 0.0657,
+        "intRatio": 0.0365,
+        "qbr": 35.9
+      },
+      "eraNormFactor": 1.1415
+    },
+    {
+      "id": "p_00-0024334_DEN_2006",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 38.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004811_DEN_2006",
+      "name": "J.Elam",
+      "position": "K",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.931
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2006",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.41,
+        "rushTDPct": 0.0246,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2006",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2006",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

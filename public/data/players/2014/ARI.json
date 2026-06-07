@@ -1,0 +1,207 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_ARI_2014",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 271.0,
+        "tdRatio": 0.0491,
+        "intRatio": 0.0134,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3507
+    },
+    {
+      "id": "p_00-0022921_ARI_2014",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 54.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_ARI_2014",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 13.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025430_ARI_2014",
+      "name": "Drew Stanton",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 190.1,
+        "tdRatio": 0.0292,
+        "intRatio": 0.0208,
+        "qbr": 55.0
+      },
+      "eraNormFactor": 0.9475
+    },
+    {
+      "id": "p_00-0026178_ARI_2014",
+      "name": "John Carlson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029531_ARI_2014",
+      "name": "Ryan Lindley",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 161.0,
+        "tdRatio": 0.0248,
+        "intRatio": 0.0496,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8024
+    },
+    {
+      "id": "p_00-0029638_ARI_2014",
+      "name": "Michael Floyd",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030117_ARI_2014",
+      "name": "Kerwynn Williams",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 53.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030282_ARI_2014",
+      "name": "Stepfan Taylor",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030287_ARI_2014",
+      "name": "Andre Ellington",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 55.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030300_ARI_2014",
+      "name": "Jaron Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 17.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_ARI_2014",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030896_ARI_2014",
+      "name": "C.Catanzaro",
+      "position": "K",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8788
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2014",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.24,
+        "rushTDPct": 0.017,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2014",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2014",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

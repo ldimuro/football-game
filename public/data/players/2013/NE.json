@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_NE_2013",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "passYPG": 267.7,
+        "tdRatio": 0.0376,
+        "intRatio": 0.0159,
+        "qbr": 96.2
+      },
+      "eraNormFactor": 1.257
+    },
+    {
+      "id": "p_00-0026035_NE_2013",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 50.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027150_NE_2013",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 68.3,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_NE_2013",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 52.4,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027656_NE_2013",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 84.6,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027732_NE_2013",
+      "name": "Michael Hoomanawanui",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 14.6,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027994_NE_2013",
+      "name": "Shane Vereen",
+      "position": "RB",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 25.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028011_NE_2013",
+      "name": "Stevan Ridley",
+      "position": "RB",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 52.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029239_NE_2013",
+      "name": "Brandon Bolden",
+      "position": "RB",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 27.1,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030000_NE_2013",
+      "name": "Kenbrell Thompkins",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030540_NE_2013",
+      "name": "Aaron Dobson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 46.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2013",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9286
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2013",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.44,
+        "rushTDPct": 0.0489,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2013",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2013",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

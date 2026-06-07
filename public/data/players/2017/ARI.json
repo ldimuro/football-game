@@ -1,0 +1,219 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_ARI_2017",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 282.6,
+        "tdRatio": 0.0337,
+        "intRatio": 0.0262,
+        "qbr": 45.4
+      },
+      "eraNormFactor": 1.3664
+    },
+    {
+      "id": "p_00-0022921_ARI_2017",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 72.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025430_ARI_2017",
+      "name": "Drew Stanton",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 178.8,
+        "tdRatio": 0.0377,
+        "intRatio": 0.0314,
+        "qbr": 5.5
+      },
+      "eraNormFactor": 0.8645
+    },
+    {
+      "id": "p_00-0026164_ARI_2017",
+      "name": "Chris Johnson",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 28.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_ARI_2017",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 23.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027948_ARI_2017",
+      "name": "Blaine Gabbert",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 217.2,
+        "tdRatio": 0.0351,
+        "intRatio": 0.0351,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0502
+    },
+    {
+      "id": "p_00-0030117_ARI_2017",
+      "name": "Kerwynn Williams",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 28.4,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030300_ARI_2017",
+      "name": "Jaron Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 34.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031044_ARI_2017",
+      "name": "Troy Niklas",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_ARI_2017",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032112_ARI_2017",
+      "name": "J.J. Nelson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032813_ARI_2017",
+      "name": "Elijhaa Penny",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 17.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033611_ARI_2017",
+      "name": "Ricky Seals-Jones",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 25.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_ARI_2017",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2017",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.39,
+        "rushTDPct": 0.0147,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2017",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2017",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

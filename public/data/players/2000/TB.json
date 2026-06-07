@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000387_TB_2000",
+      "name": "Reidel Anthony",
+      "position": "WR",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "recYPG": 14.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004640_TB_2000",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 64.6,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006331_TB_2000",
+      "name": "Jacquez Green",
+      "position": "WR",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "recYPG": 42.7,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008561_TB_2000",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "recYPG": 54.6,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009266_TB_2000",
+      "name": "Shaun King",
+      "position": "QB",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "passYPG": 167.1,
+        "tdRatio": 0.0399,
+        "intRatio": 0.0288,
+        "qbr": 43.7
+      },
+      "eraNormFactor": 1.0503
+    },
+    {
+      "id": "p_00-0011551_TB_2000",
+      "name": "Dave Moore",
+      "position": "WR",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006223_TB_2000",
+      "name": "M.Gramatica",
+      "position": "K",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8286
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2000",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.11,
+        "rushTDPct": 0.0359,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2000",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2000",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021976_KC_2009",
+      "name": "Larry Johnson",
+      "position": "RB",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 40.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022144_KC_2009",
+      "name": "Bobby Wade",
+      "position": "WR",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022817_KC_2009",
+      "name": "Sean Ryan",
+      "position": "WR",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023474_KC_2009",
+      "name": "Mark Bradley",
+      "position": "WR",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 26.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023662_KC_2009",
+      "name": "Matt Cassel",
+      "position": "QB",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "passYPG": 194.9,
+        "tdRatio": 0.0324,
+        "intRatio": 0.0324,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1902
+    },
+    {
+      "id": "p_00-0024287_KC_2009",
+      "name": "Leonard Pope",
+      "position": "WR",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 14.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025410_KC_2009",
+      "name": "Dwayne Bowe",
+      "position": "WR",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 53.5,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026213_KC_2009",
+      "name": "Jamaal Charles",
+      "position": "RB",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 74.7,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_KC_2009",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2009",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0183,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2009",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2009",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

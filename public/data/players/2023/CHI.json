@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033925_CHI_2023",
+      "name": "D'Onta Foreman",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 47.2,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034827_CHI_2023",
+      "name": "DJ Moore",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 80.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036290_CHI_2023",
+      "name": "Cole Kmet",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 47.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036297_CHI_2023",
+      "name": "Darrynton Evans",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 20.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036309_CHI_2023",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036326_CHI_2023",
+      "name": "Chase Claypool",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 11.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036906_CHI_2023",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 50.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036945_CHI_2023",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "passYPG": 197.1,
+        "tdRatio": 0.0432,
+        "intRatio": 0.0243,
+        "qbr": 22.1
+      },
+      "eraNormFactor": 1.0983
+    },
+    {
+      "id": "p_00-0038416_CHI_2023",
+      "name": "Tyson Bagent",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "passYPG": 171.8,
+        "tdRatio": 0.021,
+        "intRatio": 0.042,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9573
+    },
+    {
+      "id": "p_00-0038941_CHI_2023",
+      "name": "Tyler Scott",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 12.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039021_CHI_2023",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 23.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_CHI_2023",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9211
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2023",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.49,
+        "rushTDPct": 0.03,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2023",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2023",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

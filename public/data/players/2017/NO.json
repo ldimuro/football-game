@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2017",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "passYPG": 278.0,
+        "tdRatio": 0.046,
+        "intRatio": 0.0181,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3442
+    },
+    {
+      "id": "p_00-0025394_NO_2017",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 52.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_NO_2017",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 57.3,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027966_NO_2017",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 65.1,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029697_NO_2017",
+      "name": "Coby Fleener",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030216_NO_2017",
+      "name": "Josh Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 19.0,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030663_NO_2017",
+      "name": "Willie Snead",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030801_NO_2017",
+      "name": "Brandon Coleman",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032765_NO_2017",
+      "name": "Michael Thomas",
+      "position": "WR",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "recYPG": 81.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033906_NO_2017",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 44.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032569_NO_2017",
+      "name": "W.Lutz",
+      "position": "K",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2017",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.47,
+        "rushTDPct": 0.051,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2017",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2017",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

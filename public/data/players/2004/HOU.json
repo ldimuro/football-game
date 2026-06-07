@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001627_HOU_2004",
+      "name": "Corey Bradford",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020608_HOU_2004",
+      "name": "David Carr",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "passYPG": 221.2,
+        "tdRatio": 0.0343,
+        "intRatio": 0.03,
+        "qbr": 69.3
+      },
+      "eraNormFactor": 1.2569
+    },
+    {
+      "id": "p_00-0021163_HOU_2004",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "recYPG": 45.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021223_HOU_2004",
+      "name": "Jonathan Wells",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 23.0,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021406_HOU_2004",
+      "name": "Derick Armstrong",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "recYPG": 31.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021979_HOU_2004",
+      "name": "Domanick Williams",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 78.7,
+        "tdPerGame": 0.867
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2004",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "recYPG": 71.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_HOU_2004",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7083
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2004",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0334,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2004",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2004",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

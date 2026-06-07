@@ -1,0 +1,215 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025394_DET_2020",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 37.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026035_DET_2020",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 43.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026498_DET_2020",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "passYPG": 255.2,
+        "tdRatio": 0.0492,
+        "intRatio": 0.0189,
+        "qbr": 84.9
+      },
+      "eraNormFactor": 1.3789
+    },
+    {
+      "id": "p_00-0029293_DET_2020",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 61.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032135_DET_2020",
+      "name": "Jesse James",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 10.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033094_DET_2020",
+      "name": "Marvin Hall",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033572_DET_2020",
+      "name": "Jamal Agnew",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 6.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033932_DET_2020",
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 67.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034349_DET_2020",
+      "name": "Kerryon Johnson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 12.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035229_DET_2020",
+      "name": "T.J. Hockenson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 45.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035537_DET_2020",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 25.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036275_DET_2020",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 40.1,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036277_DET_2020",
+      "name": "Quintez Cephus",
+      "position": "WR",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "recYPG": 31.7,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DET_2020",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2020",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.08,
+        "rushTDPct": 0.0463,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2020",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2020",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

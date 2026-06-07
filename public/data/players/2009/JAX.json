@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007681_JAX_2009",
+      "name": "Torry Holt",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021231_JAX_2009",
+      "name": "David Garrard",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "passYPG": 224.8,
+        "tdRatio": 0.0291,
+        "intRatio": 0.0194,
+        "qbr": 44.7
+      },
+      "eraNormFactor": 1.3728
+    },
+    {
+      "id": "p_00-0022901_JAX_2009",
+      "name": "Ernest Wilford",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 11.2,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024243_JAX_2009",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024275_JAX_2009",
+      "name": "Maurice Jones-Drew",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 86.9,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025466_JAX_2009",
+      "name": "Mike Sims-Walker",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027076_JAX_2009",
+      "name": "Mike Thomas",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 32.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027125_JAX_2009",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027155_JAX_2009",
+      "name": "Rashad Jennings",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 13.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022874_JAX_2009",
+      "name": "J.Scobee",
+      "position": "K",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.6429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2009",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.55,
+        "rushTDPct": 0.0426,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2009",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2009",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

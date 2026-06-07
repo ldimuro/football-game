@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001627_HOU_2005",
+      "name": "Corey Bradford",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "recYPG": 36.3,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020187_HOU_2005",
+      "name": "Marcellus Rivers",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "recYPG": 15.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020608_HOU_2005",
+      "name": "David Carr",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "passYPG": 155.5,
+        "tdRatio": 0.0331,
+        "intRatio": 0.026,
+        "qbr": 7.6
+      },
+      "eraNormFactor": 0.9114
+    },
+    {
+      "id": "p_00-0021163_HOU_2005",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "recYPG": 35.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021223_HOU_2005",
+      "name": "Jonathan Wells",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 25.0,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021979_HOU_2005",
+      "name": "Domanick Williams",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 88.7,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2005",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "recYPG": 57.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023508_HOU_2005",
+      "name": "Vernand Morency",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 30.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_HOU_2005",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7647
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2005",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0206,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2005",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2005",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

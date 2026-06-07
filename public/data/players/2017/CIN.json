@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027681_CIN_2017",
+      "name": "Brandon LaFell",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027942_CIN_2017",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 67.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2017",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "passYPG": 207.5,
+        "tdRatio": 0.0504,
+        "intRatio": 0.0242,
+        "qbr": 30.6
+      },
+      "eraNormFactor": 1.0033
+    },
+    {
+      "id": "p_00-0030456_CIN_2017",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 28.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031301_CIN_2017",
+      "name": "Jeremy Hill",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032214_CIN_2017",
+      "name": "Tyler Kroft",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033009_CIN_2017",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033897_CIN_2017",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 44.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_CIN_2017",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.9
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2017",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.62,
+        "rushTDPct": 0.0159,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2017",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2017",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

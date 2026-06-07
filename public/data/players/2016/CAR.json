@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025396_CAR_2016",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "recYPG": 47.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CAR_2016",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "recYPG": 67.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026153_CAR_2016",
+      "name": "Jonathan Stewart",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 63.4,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2016",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "passYPG": 233.9,
+        "tdRatio": 0.0373,
+        "intRatio": 0.0275,
+        "qbr": 34.3
+      },
+      "eraNormFactor": 1.1492
+    },
+    {
+      "id": "p_00-0029731_CAR_2016",
+      "name": "Fozzy Whittaker",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031118_CAR_2016",
+      "name": "Corey Brown",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "recYPG": 18.4,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031359_CAR_2016",
+      "name": "Kelvin Benjamin",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "recYPG": 58.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032055_CAR_2016",
+      "name": "Devin Funchess",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_CAR_2016",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.7895
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2016",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.0,
+        "rushTDPct": 0.0353,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2016",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2016",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

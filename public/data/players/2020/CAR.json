@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031237_CAR_2020",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "passYPG": 248.9,
+        "tdRatio": 0.0305,
+        "intRatio": 0.0224,
+        "qbr": 72.3
+      },
+      "eraNormFactor": 1.3449
+    },
+    {
+      "id": "p_00-0032063_CAR_2020",
+      "name": "Mike Davis",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 45.9,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032688_CAR_2020",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "recYPG": 68.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_CAR_2020",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "recYPG": 56.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034365_CAR_2020",
+      "name": "Ian Thomas",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "recYPG": 11.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034827_CAR_2020",
+      "name": "D.J. Moore",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "recYPG": 79.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035957_CAR_2020",
+      "name": "Rodney Smith",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 22.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035192_CAR_2020",
+      "name": "J.Slye",
+      "position": "K",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.8056
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2020",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.19,
+        "rushTDPct": 0.0467,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2020",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2020",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030279_LAC_2020",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 70.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_LAC_2020",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 43.8,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033536_LAC_2020",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 54.0,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_LAC_2020",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 53.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034440_LAC_2020",
+      "name": "Justin Jackson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 33.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035329_LAC_2020",
+      "name": "Donald Parham",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 15.9,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035414_LAC_2020",
+      "name": "Jalen Guyton",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 31.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035457_LAC_2020",
+      "name": "Tyron Johnson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "recYPG": 36.2,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036355_LAC_2020",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "passYPG": 289.1,
+        "tdRatio": 0.0521,
+        "intRatio": 0.0168,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5621
+    },
+    {
+      "id": "p_00-0036370_LAC_2020",
+      "name": "Joshua Kelley",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 27.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034084_LAC_2020",
+      "name": "M.Badgley",
+      "position": "K",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2020",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.83,
+        "rushTDPct": 0.0258,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2020",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2020",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023682_NYJ_2016",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "passYPG": 193.6,
+        "tdRatio": 0.0298,
+        "intRatio": 0.0422,
+        "qbr": 37.1
+      },
+      "eraNormFactor": 0.9512
+    },
+    {
+      "id": "p_00-0024334_NYJ_2016",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_NYJ_2016",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 58.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2016",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 45.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031023_NYJ_2016",
+      "name": "Quincy Enunwa",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "recYPG": 53.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031568_NYJ_2016",
+      "name": "Bryce Petty",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "passYPG": 134.8,
+        "tdRatio": 0.0226,
+        "intRatio": 0.0526,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6623
+    },
+    {
+      "id": "p_00-0032688_NYJ_2016",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032694_NYJ_2016",
+      "name": "Jalin Marshall",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032959_NYJ_2016",
+      "name": "Charone Peake",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NYJ_2016",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2016",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.31,
+        "rushTDPct": 0.0239,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2016",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2016",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

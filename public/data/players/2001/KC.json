@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000145_KC_2001",
+      "name": "Derrick Alexander",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 36.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006101_KC_2001",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 57.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006355_KC_2001",
+      "name": "Trent Green",
+      "position": "QB",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "passYPG": 236.4,
+        "tdRatio": 0.0325,
+        "intRatio": 0.0459,
+        "qbr": 45.1
+      },
+      "eraNormFactor": 1.3384
+    },
+    {
+      "id": "p_00-0007661_KC_2001",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 97.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012569_KC_2001",
+      "name": "Larry Parker",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013712_KC_2001",
+      "name": "Mikhael Ricks",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016232_KC_2001",
+      "name": "Chris Thomas",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020272_KC_2001",
+      "name": "Snoop Minnis",
+      "position": "WR",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 39.3,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012875_KC_2001",
+      "name": "T. Peterson",
+      "position": "K",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.7714
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2001",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0357,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2001",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2001",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026986_LV_2015",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 57.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028263_LV_2015",
+      "name": "Andre Holmes",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 15.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030513_LV_2015",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 66.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030514_LV_2015",
+      "name": "Mychal Rivera",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031166_LV_2015",
+      "name": "Seth Roberts",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031280_LV_2015",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "passYPG": 249.2,
+        "tdRatio": 0.0558,
+        "intRatio": 0.0227,
+        "qbr": 47.8
+      },
+      "eraNormFactor": 1.2242
+    },
+    {
+      "id": "p_00-0031544_LV_2015",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 67.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032256_LV_2015",
+      "name": "Clive Walford",
+      "position": "WR",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2015",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2015",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.94,
+        "rushTDPct": 0.0189,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2015",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2015",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

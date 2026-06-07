@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027057_CIN_2014",
+      "name": "Brandon Tate",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 14.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_CIN_2014",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027942_CIN_2014",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 86.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2014",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "passYPG": 209.0,
+        "tdRatio": 0.0368,
+        "intRatio": 0.0329,
+        "qbr": 43.8
+      },
+      "eraNormFactor": 1.0417
+    },
+    {
+      "id": "p_00-0029632_CIN_2014",
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 48.3,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030456_CIN_2014",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 49.0,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030780_CIN_2014",
+      "name": "Ryan Hewitt",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "recYPG": 17.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031301_CIN_2014",
+      "name": "Jeremy Hill",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 68.9,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023482_CIN_2014",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.7941
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2014",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.039,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2014",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2014",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

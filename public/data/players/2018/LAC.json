@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2018",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 24.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2018",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "passYPG": 266.6,
+        "tdRatio": 0.0592,
+        "intRatio": 0.022,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3663
+    },
+    {
+      "id": "p_00-0028142_LAC_2018",
+      "name": "Virgil Green",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 14.6,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_LAC_2018",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 14.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2018",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 76.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032144_LAC_2018",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 67.1,
+        "tdPerGame": 0.857
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032160_LAC_2018",
+      "name": "Tyrell Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 44.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033536_LAC_2018",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "recYPG": 43.0,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_LAC_2018",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 36.4,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034440_LAC_2018",
+      "name": "Justin Jackson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 21.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034084_LAC_2018",
+      "name": "M.Badgley",
+      "position": "K",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8286
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2018",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0407,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2018",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2018",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

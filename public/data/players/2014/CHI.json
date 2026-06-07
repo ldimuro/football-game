@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024226_CHI_2014",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 254.1,
+        "tdRatio": 0.0499,
+        "intRatio": 0.0321,
+        "qbr": 30.9
+      },
+      "eraNormFactor": 1.2665
+    },
+    {
+      "id": "p_00-0024334_CHI_2014",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025542_CHI_2014",
+      "name": "Dante Rosario",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 8.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2014",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 64.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_CHI_2014",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 57.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_CHI_2014",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 70.8,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030047_CHI_2014",
+      "name": "Marquess Wilson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031057_CHI_2014",
+      "name": "Ka'Deem Carey",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 15.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2014",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2014",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.06,
+        "rushTDPct": 0.0225,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2014",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2014",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

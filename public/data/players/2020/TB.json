@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_TB_2020",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "passYPG": 284.7,
+        "tdRatio": 0.0668,
+        "intRatio": 0.0201,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5383
+    },
+    {
+      "id": "p_00-0027656_TB_2020",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.45
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027793_TB_2020",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 51.3,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2020",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2020",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 60.5,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033856_TB_2020",
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 41.7,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2020",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 67.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034816_TB_2020",
+      "name": "Ronald Jones",
+      "position": "RB",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 65.7,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035298_TB_2020",
+      "name": "Scott Miller",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036427_TB_2020",
+      "name": "Tyler Johnson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036450_TB_2020",
+      "name": "Ke'Shawn Vaughn",
+      "position": "RB",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 18.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_TB_2020",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.925
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2020",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.1,
+        "rushTDPct": 0.0408,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2020",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2020",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

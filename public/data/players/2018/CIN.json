@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027942_CIN_2018",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 77.1,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2018",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "passYPG": 233.3,
+        "tdRatio": 0.0575,
+        "intRatio": 0.0301,
+        "qbr": 74.9
+      },
+      "eraNormFactor": 1.1956
+    },
+    {
+      "id": "p_00-0030456_CIN_2018",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 17.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032134_CIN_2018",
+      "name": "C.J. Uzomah",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 27.4,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032436_CIN_2018",
+      "name": "Jeff Driskel",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "passYPG": 125.4,
+        "tdRatio": 0.0341,
+        "intRatio": 0.0114,
+        "qbr": 32.2
+      },
+      "eraNormFactor": 0.6426
+    },
+    {
+      "id": "p_00-0032543_CIN_2018",
+      "name": "Alex Erickson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032795_CIN_2018",
+      "name": "Cody Core",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033009_CIN_2018",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 73.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033460_CIN_2018",
+      "name": "John Ross",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.2,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033897_CIN_2018",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 83.4,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_CIN_2018",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8261
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2018",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.69,
+        "rushTDPct": 0.0362,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2018",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2018",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

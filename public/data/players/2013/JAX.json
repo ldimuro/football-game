@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024243_JAX_2013",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 35.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024275_JAX_2013",
+      "name": "Maurice Jones-Drew",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 53.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026197_JAX_2013",
+      "name": "Chad Henne",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "passYPG": 216.1,
+        "tdRatio": 0.0258,
+        "intRatio": 0.0278,
+        "qbr": 27.6
+      },
+      "eraNormFactor": 1.0147
+    },
+    {
+      "id": "p_00-0027725_JAX_2013",
+      "name": "Clay Harbor",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028052_JAX_2013",
+      "name": "Cecil Shorts",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028121_JAX_2013",
+      "name": "Jordan Todman",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 17.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029155_JAX_2013",
+      "name": "Mike Brown",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 40.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029707_JAX_2013",
+      "name": "Justin Blackmon",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 103.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030550_JAX_2013",
+      "name": "Ace Sanders",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022874_JAX_2013",
+      "name": "J.Scobee",
+      "position": "K",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.92
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2013",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.33,
+        "rushTDPct": 0.0185,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2013",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2013",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

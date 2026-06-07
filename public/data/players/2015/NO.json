@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2015",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "passYPG": 324.7,
+        "tdRatio": 0.051,
+        "intRatio": 0.0175,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5951
+    },
+    {
+      "id": "p_00-0022943_NO_2015",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 51.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2015",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026289_NO_2015",
+      "name": "Tim Hightower",
+      "position": "RB",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 62.5,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027861_NO_2015",
+      "name": "C.J. Spiller",
+      "position": "RB",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 8.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027966_NO_2015",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 64.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030216_NO_2015",
+      "name": "Josh Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 9.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030348_NO_2015",
+      "name": "Khiry Robinson",
+      "position": "RB",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 22.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030663_NO_2015",
+      "name": "Willie Snead",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 65.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030801_NO_2015",
+      "name": "Brandon Coleman",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031236_NO_2015",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "recYPG": 71.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028787_NO_2015",
+      "name": "K.Forbath",
+      "position": "K",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.6923
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2015",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.76,
+        "rushTDPct": 0.0403,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2015",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2015",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

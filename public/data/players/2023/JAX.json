@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033572_JAX_2023",
+      "name": "Jamal Agnew",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_JAX_2023",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 56.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033891_JAX_2023",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034775_JAX_2023",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 65.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034837_JAX_2023",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035628_JAX_2023",
+      "name": "D'Ernest Johnson",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 7.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036971_JAX_2023",
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "passYPG": 251.0,
+        "tdRatio": 0.0372,
+        "intRatio": 0.0248,
+        "qbr": 50.5
+      },
+      "eraNormFactor": 1.3986
+    },
+    {
+      "id": "p_00-0036973_JAX_2023",
+      "name": "Travis Etienne",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 59.3,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038555_JAX_2023",
+      "name": "Tank Bigsby",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 10.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038606_JAX_2023",
+      "name": "Parker Washington",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "recYPG": 22.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_JAX_2023",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8108
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2023",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.63,
+        "rushTDPct": 0.0375,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2023",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2023",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

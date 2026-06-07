@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0014655_WAS_2009",
+      "name": "Mike Sellers",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 12.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020494_WAS_2009",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021179_WAS_2009",
+      "name": "Clinton Portis",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 61.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021184_WAS_2009",
+      "name": "Ladell Betts",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 21.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021357_WAS_2009",
+      "name": "Rock Cartwright",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 20.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022738_WAS_2009",
+      "name": "Chris Cooley",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 55.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023460_WAS_2009",
+      "name": "Jason Campbell",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "passYPG": 226.1,
+        "tdRatio": 0.0394,
+        "intRatio": 0.0296,
+        "qbr": 50.8
+      },
+      "eraNormFactor": 1.3807
+    },
+    {
+      "id": "p_00-0024460_WAS_2009",
+      "name": "Quinton Ganther",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 24.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024561_WAS_2009",
+      "name": "Marcus Mason",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 14.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026174_WAS_2009",
+      "name": "Devin Thomas",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 25.0,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026188_WAS_2009",
+      "name": "Fred Davis",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026191_WAS_2009",
+      "name": "Malcolm Kelly",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023001_WAS_2009",
+      "name": "S.Suisham",
+      "position": "K",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.88
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2009",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.85,
+        "rushTDPct": 0.0204,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2009",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2009",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

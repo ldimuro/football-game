@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020397_CIN_2005",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 87.7,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020407_CIN_2005",
+      "name": "Rudi Johnson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 89.1,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2005",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 65.4,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021084_CIN_2005",
+      "name": "Matt Schobel",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021429_CIN_2005",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "passYPG": 229.5,
+        "tdRatio": 0.0627,
+        "intRatio": 0.0235,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3451
+    },
+    {
+      "id": "p_00-0021931_CIN_2005",
+      "name": "Kevin Walter",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022926_CIN_2005",
+      "name": "Chris Perry",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023518_CIN_2005",
+      "name": "Chris Henry",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_CIN_2005",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8788
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2005",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.18,
+        "rushTDPct": 0.0335,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2005",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2005",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

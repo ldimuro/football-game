@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007091_IND_2015",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "passYPG": 211.2,
+        "tdRatio": 0.0352,
+        "intRatio": 0.0195,
+        "qbr": 49.9
+      },
+      "eraNormFactor": 1.0375
+    },
+    {
+      "id": "p_00-0022044_IND_2015",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 31.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023500_IND_2015",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 60.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025637_IND_2015",
+      "name": "Ahmad Bradshaw",
+      "position": "RB",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 14.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029033_IND_2015",
+      "name": "Griff Whalen",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029608_IND_2015",
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 70.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029668_IND_2015",
+      "name": "Andrew Luck",
+      "position": "QB",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "passYPG": 268.7,
+        "tdRatio": 0.0512,
+        "intRatio": 0.041,
+        "qbr": 38.1
+      },
+      "eraNormFactor": 1.32
+    },
+    {
+      "id": "p_00-0029689_IND_2015",
+      "name": "Dwayne Allen",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 9.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029697_IND_2015",
+      "name": "Coby Fleener",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 32.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031339_IND_2015",
+      "name": "Donte Moncrief",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 45.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032208_IND_2015",
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2015",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.9259
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2015",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.63,
+        "rushTDPct": 0.0152,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2015",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2015",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

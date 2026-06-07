@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0006101_KC_2004",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "recYPG": 78.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006355_KC_2004",
+      "name": "Trent Green",
+      "position": "QB",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "passYPG": 286.8,
+        "tdRatio": 0.0486,
+        "intRatio": 0.0306,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6297
+    },
+    {
+      "id": "p_00-0007661_KC_2004",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 111.5,
+        "tdPerGame": 1.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009163_KC_2004",
+      "name": "Eddie Kennison",
+      "position": "WR",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "recYPG": 77.6,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011727_KC_2004",
+      "name": "Johnnie Morton",
+      "position": "WR",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "recYPG": 61.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019539_KC_2004",
+      "name": "Dante Hall",
+      "position": "WR",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "recYPG": 17.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020315_KC_2004",
+      "name": "Derrick Blaylock",
+      "position": "RB",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 44.9,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021976_KC_2004",
+      "name": "Larry Johnson",
+      "position": "RB",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 72.6,
+        "tdPerGame": 1.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019778_KC_2004",
+      "name": "L.Tynes",
+      "position": "K",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7391
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2004",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.61,
+        "rushTDPct": 0.0625,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2004",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2004",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

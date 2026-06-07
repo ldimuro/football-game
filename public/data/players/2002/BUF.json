@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001361_BUF_2002",
+      "name": "Drew Bledsoe",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "passYPG": 272.4,
+        "tdRatio": 0.0393,
+        "intRatio": 0.0246,
+        "qbr": 86.7
+      },
+      "eraNormFactor": 1.5046
+    },
+    {
+      "id": "p_00-0011551_BUF_2002",
+      "name": "Dave Moore",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 14.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011770_BUF_2002",
+      "name": "Eric Moulds",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 80.8,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013232_BUF_2002",
+      "name": "Peerless Price",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 78.2,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013728_BUF_2002",
+      "name": "Jay Riemersma",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020471_BUF_2002",
+      "name": "Travis Henry",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 89.9,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021166_BUF_2002",
+      "name": "Josh Reed",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007622_BUF_2002",
+      "name": "M.Hollis",
+      "position": "K",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7576
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2002",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.11,
+        "rushTDPct": 0.0438,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2002",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2002",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

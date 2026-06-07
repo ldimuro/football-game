@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031381_LV_2024",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 75.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032104_LV_2024",
+      "name": "Ameer Abdullah",
+      "position": "RB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 23.9,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034960_LV_2024",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 68.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034972_LV_2024",
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 30.0,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035289_LV_2024",
+      "name": "Gardner Minshew",
+      "position": "QB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "passYPG": 201.3,
+        "tdRatio": 0.0294,
+        "intRatio": 0.0327,
+        "qbr": 2.9
+      },
+      "eraNormFactor": 1.197
+    },
+    {
+      "id": "p_00-0036527_LV_2024",
+      "name": "D.J. Turner",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037509_LV_2024",
+      "name": "Sincere McCormick",
+      "position": "RB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 45.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038040_LV_2024",
+      "name": "Zamir White",
+      "position": "RB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 22.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038563_LV_2024",
+      "name": "Tre Tucker",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 31.7,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038579_LV_2024",
+      "name": "Aidan O'Connell",
+      "position": "QB",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "passYPG": 179.1,
+        "tdRatio": 0.0329,
+        "intRatio": 0.0165,
+        "qbr": 54.8
+      },
+      "eraNormFactor": 1.065
+    },
+    {
+      "id": "p_00-0039066_LV_2024",
+      "name": "Michael Mayer",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 14.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039338_LV_2024",
+      "name": "Brock Bowers",
+      "position": "WR",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "recYPG": 70.2,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034161_LV_2024",
+      "name": "D.Carlson",
+      "position": "K",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.85
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2024",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.0263,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2024",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2024",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004640_ATL_2007",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 44.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007744_ATL_2007",
+      "name": "Joe Horn",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019709_ATL_2007",
+      "name": "Chris Redman",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "passYPG": 179.8,
+        "tdRatio": 0.0671,
+        "intRatio": 0.0336,
+        "qbr": 31.0
+      },
+      "eraNormFactor": 1.1278
+    },
+    {
+      "id": "p_00-0020285_ATL_2007",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_ATL_2007",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "passYPG": 184.6,
+        "tdRatio": 0.0201,
+        "intRatio": 0.023,
+        "qbr": 18.3
+      },
+      "eraNormFactor": 1.1579
+    },
+    {
+      "id": "p_00-0022781_ATL_2007",
+      "name": "Michael Jenkins",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023462_ATL_2007",
+      "name": "Roddy White",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 75.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024294_ATL_2007",
+      "name": "Jerious Norwood",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 41.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025462_ATL_2007",
+      "name": "Laurent Robinson",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000282_ATL_2007",
+      "name": "M.Andersen",
+      "position": "K",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.7647
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2007",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.95,
+        "rushTDPct": 0.0182,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2007",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2007",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

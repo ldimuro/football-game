@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002068_NE_2001",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 76.4,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004888_NE_2001",
+      "name": "Bert Emanuel",
+      "position": "WR",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 30.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2001",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 10.8,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008454_NE_2001",
+      "name": "Charles Johnson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 11.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012642_NE_2001",
+      "name": "David Patten",
+      "position": "WR",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 50.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015091_NE_2001",
+      "name": "Antowain Smith",
+      "position": "RB",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 71.6,
+        "tdPerGame": 0.632
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017644_NE_2001",
+      "name": "Jermaine Wiggins",
+      "position": "WR",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 15.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2001",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "passYPG": 189.7,
+        "tdRatio": 0.0373,
+        "intRatio": 0.0255,
+        "qbr": 55.3
+      },
+      "eraNormFactor": 1.074
+    },
+    {
+      "id": "p_00-0019722_NE_2001",
+      "name": "J.R. Redmond",
+      "position": "RB",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 9.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_NE_2001",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8108
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2001",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.73,
+        "rushTDPct": 0.0289,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2001",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2001",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

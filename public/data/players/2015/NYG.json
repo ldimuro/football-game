@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2015",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "passYPG": 277.0,
+        "tdRatio": 0.0566,
+        "intRatio": 0.0227,
+        "qbr": 85.5
+      },
+      "eraNormFactor": 1.3608
+    },
+    {
+      "id": "p_00-0027155_NYG_2015",
+      "name": "Rashad Jennings",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 53.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027994_NYG_2015",
+      "name": "Shane Vereen",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028114_NYG_2015",
+      "name": "Dwayne Harris",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028838_NYG_2015",
+      "name": "Larry Donnell",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029262_NYG_2015",
+      "name": "Rueben Randle",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 50.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030274_NYG_2015",
+      "name": "Myles White",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 9.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030860_NYG_2015",
+      "name": "Orleans Darkwa",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031055_NYG_2015",
+      "name": "Andre Williams",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 16.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031235_NYG_2015",
+      "name": "Odell Beckham",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 96.7,
+        "tdPerGame": 0.867
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032004_NYG_2015",
+      "name": "Will Tye",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_NYG_2015",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.9375
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2015",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0124,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2015",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2015",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

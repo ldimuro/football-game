@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023436_KC_2014",
+      "name": "Alex Smith",
+      "position": "QB",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "passYPG": 217.7,
+        "tdRatio": 0.0388,
+        "intRatio": 0.0129,
+        "qbr": 92.3
+      },
+      "eraNormFactor": 1.085
+    },
+    {
+      "id": "p_00-0024268_KC_2014",
+      "name": "Anthony Fasano",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 16.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025410_KC_2014",
+      "name": "Dwayne Bowe",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 50.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026173_KC_2014",
+      "name": "Donnie Avery",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026213_KC_2014",
+      "name": "Jamaal Charles",
+      "position": "RB",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 68.9,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029311_KC_2014",
+      "name": "Junior Hemingway",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030280_KC_2014",
+      "name": "Knile Davis",
+      "position": "RB",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 30.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030506_KC_2014",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 53.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030669_KC_2014",
+      "name": "Albert Wilson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 37.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031060_KC_2014",
+      "name": "De'Anthony Thomas",
+      "position": "WR",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_KC_2014",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2014",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.57,
+        "rushTDPct": 0.0429,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2014",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2014",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

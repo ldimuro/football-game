@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002058_LV_2003",
+      "name": "Tim Brown",
+      "position": "WR",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003663_LV_2003",
+      "name": "Zack Crockett",
+      "position": "RB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 10.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005741_LV_2003",
+      "name": "Rich Gannon",
+      "position": "QB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "passYPG": 181.4,
+        "tdRatio": 0.0268,
+        "intRatio": 0.0179,
+        "qbr": 13.4
+      },
+      "eraNormFactor": 1.1234
+    },
+    {
+      "id": "p_00-0005779_LV_2003",
+      "name": "Charlie Garner",
+      "position": "RB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 39.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011378_LV_2003",
+      "name": "Rick Mirer",
+      "position": "QB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "passYPG": 140.8,
+        "tdRatio": 0.0136,
+        "intRatio": 0.0226,
+        "qbr": 8.4
+      },
+      "eraNormFactor": 0.872
+    },
+    {
+      "id": "p_00-0013639_LV_2003",
+      "name": "Jerry Rice",
+      "position": "WR",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "recYPG": 53.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017486_LV_2003",
+      "name": "Tyrone Wheatley",
+      "position": "RB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019703_LV_2003",
+      "name": "Jerry Porter",
+      "position": "WR",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021183_LV_2003",
+      "name": "Doug Jolley",
+      "position": "WR",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022093_LV_2003",
+      "name": "Justin Fargas",
+      "position": "RB",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 22.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2003",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2003",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.31,
+        "rushTDPct": 0.0354,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2003",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2003",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

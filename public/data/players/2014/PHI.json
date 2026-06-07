@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023564_PHI_2014",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 21.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025549_PHI_2014",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026898_PHI_2014",
+      "name": "Mark Sanchez",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 268.7,
+        "tdRatio": 0.0453,
+        "intRatio": 0.0356,
+        "qbr": 93.1
+      },
+      "eraNormFactor": 1.3392
+    },
+    {
+      "id": "p_00-0026995_PHI_2014",
+      "name": "Jeremy Maclin",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 82.4,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027029_PHI_2014",
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 82.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027758_PHI_2014",
+      "name": "Riley Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 36.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029438_PHI_2014",
+      "name": "Chris Polk",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029567_PHI_2014",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "passYPG": 270.4,
+        "tdRatio": 0.0418,
+        "intRatio": 0.0322,
+        "qbr": 63.5
+      },
+      "eraNormFactor": 1.3477
+    },
+    {
+      "id": "p_00-0030061_PHI_2014",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 43.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031299_PHI_2014",
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "recYPG": 54.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030850_PHI_2014",
+      "name": "C.Parkey",
+      "position": "K",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2014",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.2,
+        "rushTDPct": 0.0338,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2014",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2014",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

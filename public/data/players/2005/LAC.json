@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010668_LAC_2005",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "recYPG": 57.3,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020531_LAC_2005",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "passYPG": 223.5,
+        "tdRatio": 0.048,
+        "intRatio": 0.03,
+        "qbr": 90.0
+      },
+      "eraNormFactor": 1.31
+    },
+    {
+      "id": "p_00-0020536_LAC_2005",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 91.5,
+        "tdPerGame": 1.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020904_LAC_2005",
+      "name": "Eric Parker",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "recYPG": 51.8,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021176_LAC_2005",
+      "name": "Reche Caldwell",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "recYPG": 32.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2005",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "recYPG": 73.4,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022821_LAC_2005",
+      "name": "Michael Turner",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 30.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022737_LAC_2005",
+      "name": "N.Kaeding",
+      "position": "K",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2005",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.44,
+        "rushTDPct": 0.0472,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2005",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2005",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

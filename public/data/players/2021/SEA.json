@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029263_SEA_2021",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "passYPG": 222.4,
+        "tdRatio": 0.0625,
+        "intRatio": 0.015,
+        "qbr": 61.8
+      },
+      "eraNormFactor": 1.2663
+    },
+    {
+      "id": "p_00-0032211_SEA_2021",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 73.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032426_SEA_2021",
+      "name": "Alex Collins",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 37.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033594_SEA_2021",
+      "name": "Chris Carson",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 58.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033895_SEA_2021",
+      "name": "Gerald Everett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 31.9,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034159_SEA_2021",
+      "name": "Will Dissly",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034750_SEA_2021",
+      "name": "Rashaad Penny",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 74.9,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035640_SEA_2021",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 56.9,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036247_SEA_2021",
+      "name": "Freddie Swain",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 21.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036425_SEA_2021",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 12.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036620_SEA_2021",
+      "name": "D'Wayne Eskridge",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "recYPG": 8.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_SEA_2021",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.7391
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2021",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.02,
+        "rushTDPct": 0.0436,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2021",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2021",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

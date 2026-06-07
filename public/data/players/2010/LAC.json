@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021236_LAC_2010",
+      "name": "Randy McMichael",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2010",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 78.2,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2010",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 65.2,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022766_LAC_2010",
+      "name": "Patrick Crayton",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 64.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2010",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "passYPG": 294.4,
+        "tdRatio": 0.0555,
+        "intRatio": 0.024,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5699
+    },
+    {
+      "id": "p_00-0023496_LAC_2010",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 62.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023564_LAC_2010",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 16.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025417_LAC_2010",
+      "name": "Craig Davis",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 37.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025559_LAC_2010",
+      "name": "Legedu Naanee",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027581_LAC_2010",
+      "name": "Seyi Ajirotutu",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_LAC_2010",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 56.2,
+        "tdPerGame": 0.583
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022737_LAC_2010",
+      "name": "N.Kaeding",
+      "position": "K",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2010",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.96,
+        "rushTDPct": 0.0394,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2010",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2010",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

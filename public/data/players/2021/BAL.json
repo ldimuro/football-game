@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030496_BAL_2021",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 12.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030513_BAL_2021",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 35.8,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031285_BAL_2021",
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 36.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031325_BAL_2021",
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034753_BAL_2021",
+      "name": "Mark Andrews",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 80.1,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034796_BAL_2021",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "passYPG": 240.2,
+        "tdRatio": 0.0419,
+        "intRatio": 0.034,
+        "qbr": 66.0
+      },
+      "eraNormFactor": 1.3677
+    },
+    {
+      "id": "p_00-0035662_BAL_2021",
+      "name": "Marquise Brown",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 63.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035993_BAL_2021",
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "passYPG": 154.4,
+        "tdRatio": 0.016,
+        "intRatio": 0.0213,
+        "qbr": 8.9
+      },
+      "eraNormFactor": 0.8791
+    },
+    {
+      "id": "p_00-0036133_BAL_2021",
+      "name": "James Proche",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036331_BAL_2021",
+      "name": "Devin Duvernay",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036457_BAL_2021",
+      "name": "Ty'Son Williams",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 26.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036550_BAL_2021",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2021",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.9459
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2021",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.79,
+        "rushTDPct": 0.0348,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2021",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2021",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

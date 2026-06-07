@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026143_ATL_2018",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "passYPG": 307.8,
+        "tdRatio": 0.0576,
+        "intRatio": 0.0115,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5774
+    },
+    {
+      "id": "p_00-0027944_ATL_2018",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 104.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029632_ATL_2018",
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 52.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031570_ATL_2018",
+      "name": "Justin Hardy",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032058_ATL_2018",
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 50.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032392_ATL_2018",
+      "name": "Austin Hooper",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034378_ATL_2018",
+      "name": "Ito Smith",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 24.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034837_ATL_2018",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 51.3,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_ATL_2018",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9615
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2018",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0313,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2018",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2018",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

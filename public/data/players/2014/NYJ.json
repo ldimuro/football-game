@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020245_NYJ_2014",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "passYPG": 67.1,
+        "tdRatio": 0.0248,
+        "intRatio": 0.0165,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.3344
+    },
+    {
+      "id": "p_00-0026164_NYJ_2014",
+      "name": "Chris Johnson",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 41.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027321_NYJ_2014",
+      "name": "Jeff Cumberland",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "recYPG": 16.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027531_NYJ_2014",
+      "name": "Chris Ivory",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 51.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027690_NYJ_2014",
+      "name": "Eric Decker",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "recYPG": 64.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028050_NYJ_2014",
+      "name": "Greg Salas",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2014",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 10.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2014",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "recYPG": 25.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030565_NYJ_2014",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "passYPG": 180.4,
+        "tdRatio": 0.0354,
+        "intRatio": 0.0354,
+        "qbr": 41.8
+      },
+      "eraNormFactor": 0.8991
+    },
+    {
+      "id": "p_00-0031042_NYJ_2014",
+      "name": "Jace Amaro",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NYJ_2014",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8205
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2014",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0217,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2014",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2014",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

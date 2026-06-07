@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025399_SEA_2014",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 85.5,
+        "tdPerGame": 0.789
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026998_SEA_2014",
+      "name": "Percy Harvin",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028434_SEA_2014",
+      "name": "Doug Baldwin",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 51.2,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028442_SEA_2014",
+      "name": "Ricardo Lockette",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029159_SEA_2014",
+      "name": "Jermaine Kearse",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 41.4,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029263_SEA_2014",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "passYPG": 221.0,
+        "tdRatio": 0.0496,
+        "intRatio": 0.0229,
+        "qbr": 76.8
+      },
+      "eraNormFactor": 1.1015
+    },
+    {
+      "id": "p_00-0029273_SEA_2014",
+      "name": "Robert Turbin",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029534_SEA_2014",
+      "name": "Cooper Helfet",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030089_SEA_2014",
+      "name": "Luke Willson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 31.5,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030432_SEA_2014",
+      "name": "Christine Michael",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 17.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031257_SEA_2014",
+      "name": "Paul Richardson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 24.3,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025944_SEA_2014",
+      "name": "S.Hauschka",
+      "position": "K",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2014",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.22,
+        "rushTDPct": 0.0373,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2014",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2014",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031280_LV_2021",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "passYPG": 284.1,
+        "tdRatio": 0.0353,
+        "intRatio": 0.0221,
+        "qbr": 72.4
+      },
+      "eraNormFactor": 1.6176
+    },
+    {
+      "id": "p_00-0031610_LV_2021",
+      "name": "Darren Waller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 61.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032741_LV_2021",
+      "name": "Peyton Barber",
+      "position": "RB",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 23.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033118_LV_2021",
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 21.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033891_LV_2021",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034981_LV_2021",
+      "name": "Foster Moreau",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 28.7,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034983_LV_2021",
+      "name": "Hunter Renfrow",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 60.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035700_LV_2021",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 59.7,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036357_LV_2021",
+      "name": "Henry Ruggs",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 67.0,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036365_LV_2021",
+      "name": "Bryan Edwards",
+      "position": "WR",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034161_LV_2021",
+      "name": "D.Carlson",
+      "position": "K",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.9362
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2021",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0327,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2021",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2021",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

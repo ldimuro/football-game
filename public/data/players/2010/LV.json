@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023460_LV_2010",
+      "name": "Jason Campbell",
+      "position": "QB",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "passYPG": 183.6,
+        "tdRatio": 0.0395,
+        "intRatio": 0.0243,
+        "qbr": 60.8
+      },
+      "eraNormFactor": 0.9791
+    },
+    {
+      "id": "p_00-0024408_LV_2010",
+      "name": "Bruce Gradkowski",
+      "position": "QB",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "passYPG": 176.5,
+        "tdRatio": 0.0316,
+        "intRatio": 0.0443,
+        "qbr": 15.9
+      },
+      "eraNormFactor": 0.9412
+    },
+    {
+      "id": "p_00-0025425_LV_2010",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "recYPG": 45.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025486_LV_2010",
+      "name": "Johnnie Lee Higgins",
+      "position": "WR",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "recYPG": 10.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_LV_2010",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 46.8,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026144_LV_2010",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 89.0,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_LV_2010",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027089_LV_2010",
+      "name": "Louis Murphy",
+      "position": "WR",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "recYPG": 43.5,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027709_LV_2010",
+      "name": "Jacoby Ford",
+      "position": "WR",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2010",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8049
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2010",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.96,
+        "rushTDPct": 0.0378,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2010",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2010",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

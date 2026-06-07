@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0016550_NYG_2008",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_NYG_2008",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "recYPG": 50.4,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022770_NYG_2008",
+      "name": "Derrick Ward",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 63.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022803_NYG_2008",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "passYPG": 200.4,
+        "tdRatio": 0.0413,
+        "intRatio": 0.0236,
+        "qbr": 70.4
+      },
+      "eraNormFactor": 1.102
+    },
+    {
+      "id": "p_00-0023545_NYG_2008",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 84.4,
+        "tdPerGame": 1.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024345_NYG_2008",
+      "name": "Domenik Hixon",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "recYPG": 45.2,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025438_NYG_2008",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "recYPG": 34.8,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025540_NYG_2008",
+      "name": "Kevin Boss",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "recYPG": 36.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025637_NYG_2008",
+      "name": "Ahmad Bradshaw",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002655_NYG_2008",
+      "name": "J.Carney",
+      "position": "K",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8864
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2008",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.97,
+        "rushTDPct": 0.0356,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2008",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2008",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

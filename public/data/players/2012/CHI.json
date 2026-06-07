@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024226_CHI_2012",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "passYPG": 202.2,
+        "tdRatio": 0.0438,
+        "intRatio": 0.0323,
+        "qbr": 35.5
+      },
+      "eraNormFactor": 0.9858
+    },
+    {
+      "id": "p_00-0024272_CHI_2012",
+      "name": "Devin Hester",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024334_CHI_2012",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 94.2,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_CHI_2012",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 31.6,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2012",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 72.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026210_CHI_2012",
+      "name": "Earl Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 31.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026298_CHI_2012",
+      "name": "Kellen Davis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 16.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_CHI_2012",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 36.7,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2012",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2012",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.19,
+        "rushTDPct": 0.0234,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2012",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2012",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

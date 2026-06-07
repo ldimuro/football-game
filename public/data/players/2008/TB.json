@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004640_TB_2008",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 52.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005755_TB_2008",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "passYPG": 226.0,
+        "tdRatio": 0.0318,
+        "intRatio": 0.0159,
+        "qbr": 84.4
+      },
+      "eraNormFactor": 1.2427
+    },
+    {
+      "id": "p_00-0006423_TB_2008",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "passYPG": 214.6,
+        "tdRatio": 0.0272,
+        "intRatio": 0.038,
+        "qbr": 3.8
+      },
+      "eraNormFactor": 1.18
+    },
+    {
+      "id": "p_00-0007468_TB_2008",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021159_TB_2008",
+      "name": "Jerramy Stevens",
+      "position": "WR",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.0,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021191_TB_2008",
+      "name": "Antonio Bryant",
+      "position": "WR",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "recYPG": 83.2,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021755_TB_2008",
+      "name": "Earnest Graham",
+      "position": "RB",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 56.3,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022725_TB_2008",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023440_TB_2008",
+      "name": "Cadillac Williams",
+      "position": "RB",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 38.8,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023506_TB_2008",
+      "name": "Alex Smith",
+      "position": "WR",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_TB_2008",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8421
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2008",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.09,
+        "rushTDPct": 0.0289,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2008",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2008",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

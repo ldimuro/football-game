@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003035_DEN_2001",
+      "name": "Desmond Clark",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004054_DEN_2001",
+      "name": "Terrell Davis",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 87.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005816_DEN_2001",
+      "name": "Olandis Gary",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 28.5,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006423_DEN_2001",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "passYPG": 188.5,
+        "tdRatio": 0.051,
+        "intRatio": 0.0421,
+        "qbr": 37.9
+      },
+      "eraNormFactor": 1.0672
+    },
+    {
+      "id": "p_00-0009163_DEN_2001",
+      "name": "Eddie Kennison",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015290_DEN_2001",
+      "name": "Rod Smith",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 89.5,
+        "tdPerGame": 0.733
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019109_DEN_2001",
+      "name": "Scottie Montgomery",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 12.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019594_DEN_2001",
+      "name": "Mike Anderson",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 42.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004811_DEN_2001",
+      "name": "J.Elam",
+      "position": "K",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8611
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2001",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0146,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2001",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2001",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

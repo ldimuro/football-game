@@ -1,0 +1,121 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001532_LAC_2003",
+      "name": "David Boston",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 62.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005363_LAC_2003",
+      "name": "Doug Flutie",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "passYPG": 156.7,
+        "tdRatio": 0.0539,
+        "intRatio": 0.024,
+        "qbr": 62.2
+      },
+      "eraNormFactor": 0.9705
+    },
+    {
+      "id": "p_00-0020531_LAC_2003",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "passYPG": 191.6,
+        "tdRatio": 0.0309,
+        "intRatio": 0.0421,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1866
+    },
+    {
+      "id": "p_00-0020536_LAC_2003",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 102.8,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2003",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 43.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002975_LAC_2003",
+      "name": "S. Christie",
+      "position": "K",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2003",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.15,
+        "rushTDPct": 0.0384,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2003",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2003",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

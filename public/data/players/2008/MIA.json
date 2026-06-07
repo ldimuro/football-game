@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017915_MIA_2008",
+      "name": "Ricky Williams",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 39.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019559_MIA_2008",
+      "name": "Chad Pennington",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "passYPG": 229.7,
+        "tdRatio": 0.0389,
+        "intRatio": 0.0214,
+        "qbr": 95.8
+      },
+      "eraNormFactor": 1.2631
+    },
+    {
+      "id": "p_00-0020332_MIA_2008",
+      "name": "David Martin",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023408_MIA_2008",
+      "name": "Greg Camarillo",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 55.7,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023437_MIA_2008",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 55.0,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024268_MIA_2008",
+      "name": "Anthony Fasano",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_MIA_2008",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026000_MIA_2008",
+      "name": "Davone Bess",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026003_MIA_2008",
+      "name": "D.Carpenter",
+      "position": "K",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2008",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.13,
+        "rushTDPct": 0.0382,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2008",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2008",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

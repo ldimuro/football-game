@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_LV_2011",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "passYPG": 275.3,
+        "tdRatio": 0.0396,
+        "intRatio": 0.0488,
+        "qbr": 84.4
+      },
+      "eraNormFactor": 1.3864
+    },
+    {
+      "id": "p_00-0023460_LV_2011",
+      "name": "Jason Campbell",
+      "position": "QB",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "passYPG": 195.0,
+        "tdRatio": 0.0364,
+        "intRatio": 0.0242,
+        "qbr": 83.9
+      },
+      "eraNormFactor": 0.982
+    },
+    {
+      "id": "p_00-0024297_LV_2011",
+      "name": "Derek Hagan",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_LV_2011",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 61.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025540_LV_2011",
+      "name": "Kevin Boss",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026144_LV_2011",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 87.7,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026366_LV_2011",
+      "name": "Chaz Schilens",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_LV_2011",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 69.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027089_LV_2011",
+      "name": "Louis Murphy",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027135_LV_2011",
+      "name": "Brandon Myers",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 12.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027709_LV_2011",
+      "name": "Jacoby Ford",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028086_LV_2011",
+      "name": "Denarius Moore",
+      "position": "WR",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "recYPG": 47.5,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2011",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2011",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.53,
+        "rushTDPct": 0.0343,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2011",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2011",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023500_MIA_2018",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 51.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026035_MIA_2018",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 38.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029682_MIA_2018",
+      "name": "Brock Osweiler",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "passYPG": 178.1,
+        "tdRatio": 0.0337,
+        "intRatio": 0.0225,
+        "qbr": 36.4
+      },
+      "eraNormFactor": 0.9127
+    },
+    {
+      "id": "p_00-0029701_MIA_2018",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "passYPG": 179.9,
+        "tdRatio": 0.062,
+        "intRatio": 0.0328,
+        "qbr": 1.1
+      },
+      "eraNormFactor": 0.9219
+    },
+    {
+      "id": "p_00-0030085_MIA_2018",
+      "name": "Kenny Stills",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 36.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030669_MIA_2018",
+      "name": "Albert Wilson",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 55.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031547_MIA_2018",
+      "name": "DeVante Parker",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032791_MIA_2018",
+      "name": "Jakeem Grant",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033118_MIA_2018",
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 33.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034799_MIA_2018",
+      "name": "Kalen Ballage",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034829_MIA_2018",
+      "name": "Mike Gesicki",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034794_MIA_2018",
+      "name": "J.Sanders",
+      "position": "K",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2018",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.68,
+        "rushTDPct": 0.0189,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2018",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2018",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

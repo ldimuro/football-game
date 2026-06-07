@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030431_HOU_2023",
+      "name": "Robert Woods",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 29.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033591_HOU_2023",
+      "name": "Noah Brown",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034383_HOU_2023",
+      "name": "Dalton Schultz",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035250_HOU_2023",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 51.9,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036554_HOU_2023",
+      "name": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 85.9,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036556_HOU_2023",
+      "name": "Brevin Jordan",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037258_HOU_2023",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 29.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037614_HOU_2023",
+      "name": "John Metchie III",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038618_HOU_2023",
+      "name": "Xavier Hutchinson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 7.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038977_HOU_2023",
+      "name": "Tank Dell",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "recYPG": 70.9,
+        "tdPerGame": 0.7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039163_HOU_2023",
+      "name": "C.J. Stroud",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "passYPG": 268.1,
+        "tdRatio": 0.047,
+        "intRatio": 0.009,
+        "qbr": 94.1
+      },
+      "eraNormFactor": 1.4939
+    },
+    {
+      "id": "p_00-0032726_HOU_2023",
+      "name": "K.Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.878
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2023",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.65,
+        "rushTDPct": 0.0229,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2023",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2023",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

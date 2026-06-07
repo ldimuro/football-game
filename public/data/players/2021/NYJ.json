@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030108_NYJ_2021",
+      "name": "Ryan Griffin",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031941_NYJ_2021",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032058_NYJ_2021",
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 32.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032214_NYJ_2021",
+      "name": "Tyler Kroft",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033681_NYJ_2021",
+      "name": "Keelan Cole",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033871_NYJ_2021",
+      "name": "Corey Davis",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 54.7,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034401_NYJ_2021",
+      "name": "Mike White",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "passYPG": 238.2,
+        "tdRatio": 0.0379,
+        "intRatio": 0.0606,
+        "qbr": 57.4
+      },
+      "eraNormFactor": 1.3563
+    },
+    {
+      "id": "p_00-0034419_NYJ_2021",
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 28.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035537_NYJ_2021",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 15.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036255_NYJ_2021",
+      "name": "Denzel Mims",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 13.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036924_NYJ_2021",
+      "name": "Michael Carter",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 45.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036980_NYJ_2021",
+      "name": "Elijah Moore",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "recYPG": 48.9,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037013_NYJ_2021",
+      "name": "Zach Wilson",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "passYPG": 179.5,
+        "tdRatio": 0.0235,
+        "intRatio": 0.0287,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0221
+    },
+    {
+      "id": "p_00-0036469_NYJ_2021",
+      "name": "M.Ammendola",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.7778
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2021",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0368,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2021",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2021",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

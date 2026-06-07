@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0016098_JAX_2006",
+      "name": "Fred Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 76.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021231_JAX_2006",
+      "name": "David Garrard",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "passYPG": 173.5,
+        "tdRatio": 0.0415,
+        "intRatio": 0.0373,
+        "qbr": 31.9
+      },
+      "eraNormFactor": 0.9893
+    },
+    {
+      "id": "p_00-0021980_JAX_2006",
+      "name": "George Wrighster",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022177_JAX_2006",
+      "name": "Byron Leftwich",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "passYPG": 193.0,
+        "tdRatio": 0.038,
+        "intRatio": 0.0272,
+        "qbr": 54.0
+      },
+      "eraNormFactor": 1.1005
+    },
+    {
+      "id": "p_00-0022889_JAX_2006",
+      "name": "Reggie Williams",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "recYPG": 38.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022901_JAX_2006",
+      "name": "Ernest Wilford",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023456_JAX_2006",
+      "name": "Matt Jones",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "recYPG": 49.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024275_JAX_2006",
+      "name": "Maurice Jones-Drew",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 58.8,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022874_JAX_2006",
+      "name": "J.Scobee",
+      "position": "K",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2006",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.99,
+        "rushTDPct": 0.045,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2006",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2006",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

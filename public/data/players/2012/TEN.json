@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007091_TEN_2012",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "passYPG": 170.9,
+        "tdRatio": 0.0317,
+        "intRatio": 0.0226,
+        "qbr": 31.4
+      },
+      "eraNormFactor": 0.8332
+    },
+    {
+      "id": "p_00-0023367_TEN_2012",
+      "name": "Nate Washington",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 46.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026164_TEN_2012",
+      "name": "Chris Johnson",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 77.7,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026225_TEN_2012",
+      "name": "Craig Stevens",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027006_TEN_2012",
+      "name": "Kenny Britt",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027061_TEN_2012",
+      "name": "Jared Cook",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 40.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027893_TEN_2012",
+      "name": "Damian Williams",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027946_TEN_2012",
+      "name": "Jake Locker",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "passYPG": 197.8,
+        "tdRatio": 0.0318,
+        "intRatio": 0.035,
+        "qbr": 28.3
+      },
+      "eraNormFactor": 0.9643
+    },
+    {
+      "id": "p_00-0029708_TEN_2012",
+      "name": "Kendall Wright",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 41.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020962_TEN_2012",
+      "name": "R.Bironas",
+      "position": "K",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.8065
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2012",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.46,
+        "rushTDPct": 0.0265,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2012",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2012",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

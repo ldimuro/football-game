@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027942_CIN_2015",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 80.5,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2015",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 250.0,
+        "tdRatio": 0.0648,
+        "intRatio": 0.0181,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2281
+    },
+    {
+      "id": "p_00-0029293_CIN_2015",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 49.9,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029632_CIN_2015",
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030456_CIN_2015",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 44.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030549_CIN_2015",
+      "name": "Tyler Eifert",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.929
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031288_CIN_2015",
+      "name": "AJ McCarron",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 133.2,
+        "tdRatio": 0.0438,
+        "intRatio": 0.0188,
+        "qbr": 51.9
+      },
+      "eraNormFactor": 0.6544
+    },
+    {
+      "id": "p_00-0031301_CIN_2015",
+      "name": "Jeremy Hill",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 49.6,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023482_CIN_2015",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8276
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2015",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.86,
+        "rushTDPct": 0.0387,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2015",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2015",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

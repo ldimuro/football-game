@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021678_DAL_2013",
+      "name": "Tony Romo",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "passYPG": 255.2,
+        "tdRatio": 0.0579,
+        "intRatio": 0.0187,
+        "qbr": 90.8
+      },
+      "eraNormFactor": 1.1983
+    },
+    {
+      "id": "p_00-0022127_DAL_2013",
+      "name": "Jason Witten",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 53.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023921_DAL_2013",
+      "name": "Miles Austin",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027902_DAL_2013",
+      "name": "Dez Bryant",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 77.1,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028009_DAL_2013",
+      "name": "DeMarco Murray",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 80.1,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029000_DAL_2013",
+      "name": "Cole Beasley",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 26.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029004_DAL_2013",
+      "name": "Lance Dunbar",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 21.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030388_DAL_2013",
+      "name": "Joseph Randle",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 32.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030542_DAL_2013",
+      "name": "Terrance Williams",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 49.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028660_DAL_2013",
+      "name": "D.Bailey",
+      "position": "K",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2013",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0357,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2013",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2013",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

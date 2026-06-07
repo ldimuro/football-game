@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024221_WAS_2017",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 40.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028825_WAS_2017",
+      "name": "Terrelle Pryor",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029604_WAS_2017",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "passYPG": 255.8,
+        "tdRatio": 0.05,
+        "intRatio": 0.0241,
+        "qbr": 60.3
+      },
+      "eraNormFactor": 1.2368
+    },
+    {
+      "id": "p_00-0030404_WAS_2017",
+      "name": "Chris Thompson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 29.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030472_WAS_2017",
+      "name": "Jordan Reed",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031068_WAS_2017",
+      "name": "Ryan Grant",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031941_WAS_2017",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 52.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032371_WAS_2017",
+      "name": "Rob Kelley",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 27.7,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032760_WAS_2017",
+      "name": "Josh Doctson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "recYPG": 33.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033526_WAS_2017",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 46.4,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030098_WAS_2017",
+      "name": "D.Hopkins",
+      "position": "K",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2017",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.61,
+        "rushTDPct": 0.0249,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2017",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2017",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

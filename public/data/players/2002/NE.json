@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002068_NE_2002",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 63.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003103_NE_2002",
+      "name": "Cameron Cleeland",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 14.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2002",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 18.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005101_NE_2002",
+      "name": "Christian Fauria",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007144_NE_2002",
+      "name": "Donald Hayes",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 12.1,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012642_NE_2002",
+      "name": "David Patten",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015091_NE_2002",
+      "name": "Antowain Smith",
+      "position": "RB",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 61.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2002",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "passYPG": 235.2,
+        "tdRatio": 0.0466,
+        "intRatio": 0.0233,
+        "qbr": 58.1
+      },
+      "eraNormFactor": 1.2991
+    },
+    {
+      "id": "p_00-0021154_NE_2002",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 15.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_NE_2002",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 37.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_NE_2002",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.9
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2002",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.82,
+        "rushTDPct": 0.0228,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2002",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2002",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

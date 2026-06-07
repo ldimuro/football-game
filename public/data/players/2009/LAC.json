@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020446_LAC_2009",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020536_LAC_2009",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 50.3,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2009",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 73.5,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2009",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 47.4,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2009",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "passYPG": 267.8,
+        "tdRatio": 0.0551,
+        "intRatio": 0.0209,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6354
+    },
+    {
+      "id": "p_00-0023496_LAC_2009",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 79.9,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023564_LAC_2009",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 22.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025559_LAC_2009",
+      "name": "Legedu Naanee",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022737_LAC_2009",
+      "name": "N.Kaeding",
+      "position": "K",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8421
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2009",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.33,
+        "rushTDPct": 0.0404,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2009",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2009",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

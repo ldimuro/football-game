@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022943_BAL_2017",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2017",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "passYPG": 196.3,
+        "tdRatio": 0.0328,
+        "intRatio": 0.0237,
+        "qbr": 17.1
+      },
+      "eraNormFactor": 0.9492
+    },
+    {
+      "id": "p_00-0026901_BAL_2017",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 49.9,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026995_BAL_2017",
+      "name": "Jeremy Maclin",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 36.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031025_BAL_2017",
+      "name": "Michael Campanaro",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031375_BAL_2017",
+      "name": "Terrance West",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 27.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031577_BAL_2017",
+      "name": "Javorius Allen",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 36.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031598_BAL_2017",
+      "name": "Nick Boyle",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032054_BAL_2017",
+      "name": "Breshad Perriman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 7.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032398_BAL_2017",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032426_BAL_2017",
+      "name": "Alex Collins",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 64.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2017",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.9189
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2017",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.03,
+        "rushTDPct": 0.0304,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2017",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2017",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

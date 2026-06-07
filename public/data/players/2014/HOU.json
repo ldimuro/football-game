@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022044_HOU_2014",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "recYPG": 62.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023682_HOU_2014",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "passYPG": 206.9,
+        "tdRatio": 0.0545,
+        "intRatio": 0.0256,
+        "qbr": 89.9
+      },
+      "eraNormFactor": 1.0312
+    },
+    {
+      "id": "p_00-0026796_HOU_2014",
+      "name": "Arian Foster",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 95.8,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027718_HOU_2014",
+      "name": "Garrett Graham",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "recYPG": 19.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029435_HOU_2014",
+      "name": "Damaris Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.7,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029510_HOU_2014",
+      "name": "Jonathan Grimes",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 17.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_HOU_2014",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "recYPG": 75.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031075_HOU_2014",
+      "name": "Alfred Blue",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 33.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_HOU_2014",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2014",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0218,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2014",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2014",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

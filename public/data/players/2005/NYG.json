@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000745_NYG_2005",
+      "name": "Tiki Barber",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 111.8,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016550_NYG_2005",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "recYPG": 47.7,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_NYG_2005",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "recYPG": 75.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021148_NYG_2005",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "recYPG": 58.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022770_NYG_2005",
+      "name": "Derrick Ward",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 12.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022803_NYG_2005",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "passYPG": 227.9,
+        "tdRatio": 0.0417,
+        "intRatio": 0.0347,
+        "qbr": 65.4
+      },
+      "eraNormFactor": 1.3358
+    },
+    {
+      "id": "p_00-0023545_NYG_2005",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 7.6,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_NYG_2005",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2005",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.66,
+        "rushTDPct": 0.0352,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2005",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2005",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

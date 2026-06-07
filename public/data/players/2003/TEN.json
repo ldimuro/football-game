@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005883_TEN_2003",
+      "name": "Eddie George",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 64.8,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010500_TEN_2003",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 78.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011024_TEN_2003",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "passYPG": 225.9,
+        "tdRatio": 0.0579,
+        "intRatio": 0.0245,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.399
+    },
+    {
+      "id": "p_00-0018343_TEN_2003",
+      "name": "Frank Wycheck",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019659_TEN_2003",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 22.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019976_TEN_2003",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 51.7,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020381_TEN_2003",
+      "name": "Justin McCareins",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 49.8,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022087_TEN_2003",
+      "name": "Tyrone Calico",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022092_TEN_2003",
+      "name": "Chris Brown",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 24.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000313_TEN_2003",
+      "name": "G.Anderson",
+      "position": "K",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2003",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.4,
+        "rushTDPct": 0.0236,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2003",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2003",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

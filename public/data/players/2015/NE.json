@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_NE_2015",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "passYPG": 299.0,
+        "tdRatio": 0.054,
+        "intRatio": 0.0125,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4688
+    },
+    {
+      "id": "p_00-0022736_NE_2015",
+      "name": "Steven Jackson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 18.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025516_NE_2015",
+      "name": "Scott Chandler",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026035_NE_2015",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 44.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027150_NE_2015",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 76.8,
+        "tdPerGame": 0.636
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_NE_2015",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 58.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027656_NE_2015",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 82.5,
+        "tdPerGame": 0.824
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027681_NE_2015",
+      "name": "Brandon LaFell",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 43.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028087_NE_2015",
+      "name": "Dion Lewis",
+      "position": "RB",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 33.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029239_NE_2015",
+      "name": "Brandon Bolden",
+      "position": "RB",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 16.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029415_NE_2015",
+      "name": "Keshawn Martin",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030540_NE_2015",
+      "name": "Aaron Dobson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2015",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.925
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2015",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.59,
+        "rushTDPct": 0.0386,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2015",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2015",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

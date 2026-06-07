@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010346_IND_2010",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "passYPG": 289.7,
+        "tdRatio": 0.0482,
+        "intRatio": 0.0241,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5448
+    },
+    {
+      "id": "p_00-0019863_IND_2010",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 51.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2010",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 79.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2010",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 57.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024245_IND_2010",
+      "name": "Joseph Addai",
+      "position": "RB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 61.7,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026267_IND_2010",
+      "name": "Jacob Tamme",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 61.5,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026342_IND_2010",
+      "name": "Mike Hart",
+      "position": "RB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 30.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026345_IND_2010",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 61.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_IND_2010",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 38.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027092_IND_2010",
+      "name": "Austin Collie",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 68.6,
+        "tdPerGame": 0.889
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027467_IND_2010",
+      "name": "Javarris James",
+      "position": "RB",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 14.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027477_IND_2010",
+      "name": "Blair White",
+      "position": "WR",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "recYPG": 34.1,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2010",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.9355
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2010",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.75,
+        "rushTDPct": 0.031,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2010",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2010",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

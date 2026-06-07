@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029137_PHI_2019",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 54.4,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030061_PHI_2019",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 60.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_PHI_2019",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 33.0,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032780_PHI_2019",
+      "name": "Jordan Howard",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 58.3,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032950_PHI_2019",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "passYPG": 237.8,
+        "tdRatio": 0.0442,
+        "intRatio": 0.0115,
+        "qbr": 71.9
+      },
+      "eraNormFactor": 1.1411
+    },
+    {
+      "id": "p_00-0033555_PHI_2019",
+      "name": "Mack Hollins",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033733_PHI_2019",
+      "name": "Greg Ward",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034351_PHI_2019",
+      "name": "Dallas Goedert",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034414_PHI_2019",
+      "name": "Boston Scott",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 30.0,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035243_PHI_2019",
+      "name": "Miles Sanders",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 52.2,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035246_PHI_2019",
+      "name": "J.J. Arcega-Whiteside",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033787_PHI_2019",
+      "name": "J.Elliott",
+      "position": "K",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2019",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.29,
+        "rushTDPct": 0.0333,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2019",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2019",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

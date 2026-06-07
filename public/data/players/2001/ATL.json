@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002876_ATL_2001",
+      "name": "Chris Chandler",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "passYPG": 203.4,
+        "tdRatio": 0.0438,
+        "intRatio": 0.0384,
+        "qbr": 63.3
+      },
+      "eraNormFactor": 1.1515
+    },
+    {
+      "id": "p_00-0005231_ATL_2001",
+      "name": "Brian Finneran",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008313_ATL_2001",
+      "name": "Shawn Jefferson",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 38.5,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009119_ATL_2001",
+      "name": "Reggie Kelly",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 10.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009443_ATL_2001",
+      "name": "Brian Kozlowski",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010477_ATL_2001",
+      "name": "Tony Martin",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 49.8,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010539_ATL_2001",
+      "name": "Terance Mathis",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016321_ATL_2001",
+      "name": "Rodney Thomas",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 15.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018977_ATL_2001",
+      "name": "Maurice Smith",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 54.3,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020245_ATL_2001",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "passYPG": 98.1,
+        "tdRatio": 0.0177,
+        "intRatio": 0.0265,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.5554
+    },
+    {
+      "id": "p_00-0020285_ATL_2001",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 22.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_ATL_2001",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.7838
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2001",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.01,
+        "rushTDPct": 0.0205,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2001",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2001",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026143_IND_2022",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "passYPG": 254.8,
+        "tdRatio": 0.0304,
+        "intRatio": 0.0282,
+        "qbr": 29.4
+      },
+      "eraNormFactor": 1.3949
+    },
+    {
+      "id": "p_00-0033217_IND_2022",
+      "name": "Mo Alie-Cox",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035021_IND_2022",
+      "name": "Ashton Dulin",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035639_IND_2022",
+      "name": "Parris Campbell",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036223_IND_2022",
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 78.3,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036252_IND_2022",
+      "name": "Michael Pittman",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 57.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036493_IND_2022",
+      "name": "Deon Jackson",
+      "position": "RB",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 19.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036876_IND_2022",
+      "name": "Kylen Granson",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 23.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036879_IND_2022",
+      "name": "Sam Ehlinger",
+      "position": "QB",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "passYPG": 143.2,
+        "tdRatio": 0.0297,
+        "intRatio": 0.0297,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7839
+    },
+    {
+      "id": "p_00-0037664_IND_2022",
+      "name": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 37.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037755_IND_2022",
+      "name": "Jelani Woods",
+      "position": "WR",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "recYPG": 26.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035358_IND_2022",
+      "name": "C.McLaughlin",
+      "position": "K",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8205
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2022",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0182,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2022",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2022",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

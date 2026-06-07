@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0008241_ARI_2006",
+      "name": "Edgerrin James",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 72.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017200_ARI_2006",
+      "name": "Kurt Warner",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "passYPG": 229.5,
+        "tdRatio": 0.0357,
+        "intRatio": 0.0298,
+        "qbr": 67.3
+      },
+      "eraNormFactor": 1.3086
+    },
+    {
+      "id": "p_00-0019552_ARI_2006",
+      "name": "Troy Walters",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 19.0,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022084_ARI_2006",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_ARI_2006",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 49.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022921_ARI_2006",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 72.4,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024225_ARI_2006",
+      "name": "Matt Leinart",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "passYPG": 211.8,
+        "tdRatio": 0.0293,
+        "intRatio": 0.0319,
+        "qbr": 53.1
+      },
+      "eraNormFactor": 1.2077
+    },
+    {
+      "id": "p_00-0019676_ARI_2006",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7568
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2006",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.18,
+        "rushTDPct": 0.0285,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2006",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2006",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

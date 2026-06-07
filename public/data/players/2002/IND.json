@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007024_IND_2002",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "recYPG": 104.1,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008059_IND_2002",
+      "name": "Qadry Ismail",
+      "position": "WR",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "recYPG": 33.0,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008241_IND_2002",
+      "name": "Edgerrin James",
+      "position": "RB",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 66.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2002",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "passYPG": 255.1,
+        "tdRatio": 0.0434,
+        "intRatio": 0.0338,
+        "qbr": 87.1
+      },
+      "eraNormFactor": 1.409
+    },
+    {
+      "id": "p_00-0013080_IND_2002",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019552_IND_2002",
+      "name": "Troy Walters",
+      "position": "WR",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2002",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "recYPG": 45.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020700_IND_2002",
+      "name": "James Mungro",
+      "position": "RB",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 37.2,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016830_IND_2002",
+      "name": "M.Vanderjagt",
+      "position": "K",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7188
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2002",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.6,
+        "rushTDPct": 0.0268,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2002",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2002",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

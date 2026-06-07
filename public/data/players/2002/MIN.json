@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000145_MIN_2002",
+      "name": "Derrick Alexander",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000869_MIN_2002",
+      "name": "D'Wayne Bates",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 49.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002861_MIN_2002",
+      "name": "Byron Chamberlain",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003739_MIN_2002",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "passYPG": 240.8,
+        "tdRatio": 0.0328,
+        "intRatio": 0.0419,
+        "qbr": 67.9
+      },
+      "eraNormFactor": 1.3301
+    },
+    {
+      "id": "p_00-0009323_MIN_2002",
+      "name": "Jimmy Kleinsasser",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_MIN_2002",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 84.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017892_MIN_2002",
+      "name": "Moe Williams",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 25.9,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020514_MIN_2002",
+      "name": "Michael Bennett",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 81.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020754_MIN_2002",
+      "name": "Kelly Campbell",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000313_MIN_2002",
+      "name": "G.Anderson",
+      "position": "K",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7931
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2002",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.3,
+        "rushTDPct": 0.055,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2002",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2002",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

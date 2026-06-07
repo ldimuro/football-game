@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001823_NO_2001",
+      "name": "Aaron Brooks",
+      "position": "QB",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "passYPG": 239.5,
+        "tdRatio": 0.0466,
+        "intRatio": 0.0394,
+        "qbr": 56.6
+      },
+      "eraNormFactor": 1.3559
+    },
+    {
+      "id": "p_00-0003103_NO_2001",
+      "name": "Cameron Cleeland",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 17.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003378_NO_2001",
+      "name": "Albert Connell",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007744_NO_2001",
+      "name": "Joe Horn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 79.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008210_NO_2001",
+      "name": "Willie Jackson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 65.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017915_NO_2001",
+      "name": "Ricky Williams",
+      "position": "RB",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 77.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018056_NO_2001",
+      "name": "Robert Wilson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020171_NO_2001",
+      "name": "Boo Williams",
+      "position": "WR",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "recYPG": 20.2,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002655_NO_2001",
+      "name": "J.Carney",
+      "position": "K",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2001",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.09,
+        "rushTDPct": 0.0191,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2001",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2001",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

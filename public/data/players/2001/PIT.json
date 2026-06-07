@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001215_PIT_2001",
+      "name": "Jerome Bettis",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 90.0,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004780_PIT_2001",
+      "name": "Troy Edwards",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "recYPG": 17.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005620_PIT_2001",
+      "name": "Chris Fuamatu-Ma'afala",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 32.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014729_PIT_2001",
+      "name": "Bobby Shaw",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015700_PIT_2001",
+      "name": "Kordell Stewart",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "passYPG": 195.4,
+        "tdRatio": 0.0296,
+        "intRatio": 0.0296,
+        "qbr": 80.4
+      },
+      "eraNormFactor": 1.1063
+    },
+    {
+      "id": "p_00-0016677_PIT_2001",
+      "name": "Jerame Tuman",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "recYPG": 9.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017162_PIT_2001",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "recYPG": 61.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018501_PIT_2001",
+      "name": "Amos Zereoue",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 34.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_PIT_2001",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "recYPG": 64.4,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_PIT_2001",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6735
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2001",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.59,
+        "rushTDPct": 0.0323,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2001",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2001",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

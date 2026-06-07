@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005755_SF_2002",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "passYPG": 214.9,
+        "tdRatio": 0.0392,
+        "intRatio": 0.0228,
+        "qbr": 90.5
+      },
+      "eraNormFactor": 1.187
+    },
+    {
+      "id": "p_00-0007180_SF_2002",
+      "name": "Garrison Hearst",
+      "position": "RB",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 57.9,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012478_SF_2002",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 94.5,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015751_SF_2002",
+      "name": "J.J. Stokes",
+      "position": "WR",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015811_SF_2002",
+      "name": "Tai Streets",
+      "position": "WR",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020452_SF_2002",
+      "name": "Cedrick Wilson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 18.7,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020455_SF_2002",
+      "name": "Eric Johnson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "recYPG": 29.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020474_SF_2002",
+      "name": "Kevan Barlow",
+      "position": "RB",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 43.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003501_SF_2002",
+      "name": "J.Cortez",
+      "position": "K",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7436
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2002",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.59,
+        "rushTDPct": 0.0345,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2002",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2002",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

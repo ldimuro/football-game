@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0012478_CIN_2010",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 75.6,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2010",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 59.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021429_CIN_2010",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "passYPG": 248.1,
+        "tdRatio": 0.0444,
+        "intRatio": 0.0341,
+        "qbr": 72.3
+      },
+      "eraNormFactor": 1.323
+    },
+    {
+      "id": "p_00-0023439_CIN_2010",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 69.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026186_CIN_2010",
+      "name": "Jerome Simpson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 69.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026237_CIN_2010",
+      "name": "Andre Caldwell",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 38.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026941_CIN_2010",
+      "name": "Bernard Scott",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 21.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027687_CIN_2010",
+      "name": "Jordan Shipley",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_CIN_2010",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "recYPG": 31.4,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023482_CIN_2010",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.7742
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2010",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.56,
+        "rushTDPct": 0.0187,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2010",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2010",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

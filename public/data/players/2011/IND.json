@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020498_IND_2011",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "recYPG": 60.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2011",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023578_IND_2011",
+      "name": "Dan Orlovsky",
+      "position": "QB",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "passYPG": 150.1,
+        "tdRatio": 0.0311,
+        "intRatio": 0.0207,
+        "qbr": 56.1
+      },
+      "eraNormFactor": 0.7559
+    },
+    {
+      "id": "p_00-0024245_IND_2011",
+      "name": "Joseph Addai",
+      "position": "RB",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 36.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026267_IND_2011",
+      "name": "Jacob Tamme",
+      "position": "WR",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "recYPG": 19.7,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026345_IND_2011",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "recYPG": 59.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_IND_2011",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 53.8,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027092_IND_2011",
+      "name": "Austin Collie",
+      "position": "WR",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027134_IND_2011",
+      "name": "Curtis Painter",
+      "position": "QB",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "passYPG": 171.2,
+        "tdRatio": 0.0247,
+        "intRatio": 0.037,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8621
+    },
+    {
+      "id": "p_00-0028057_IND_2011",
+      "name": "Delone Carter",
+      "position": "RB",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 25.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2011",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8519
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2011",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0209,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2011",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2011",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

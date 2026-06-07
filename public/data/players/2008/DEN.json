@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0013013_DEN_2008",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 40.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015754_DEN_2008",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021154_DEN_2008",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022893_DEN_2008",
+      "name": "Tatum Bell",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 41.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023764_DEN_2008",
+      "name": "Andre Hall",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 20.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024226_DEN_2008",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 282.8,
+        "tdRatio": 0.0406,
+        "intRatio": 0.0292,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5551
+    },
+    {
+      "id": "p_00-0024276_DEN_2008",
+      "name": "Tony Scheffler",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 53.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024334_DEN_2008",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 84.3,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024549_DEN_2008",
+      "name": "Selvin Young",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 37.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026182_DEN_2008",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 65.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026367_DEN_2008",
+      "name": "Peyton Hillis",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 49.0,
+        "tdPerGame": 0.714
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DEN_2008",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.7353
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2008",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.81,
+        "rushTDPct": 0.0388,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2008",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2008",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

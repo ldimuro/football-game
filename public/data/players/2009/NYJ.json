@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019641_NYJ_2009",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 79.9,
+        "tdPerGame": 0.789
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022811_NYJ_2009",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "recYPG": 59.7,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024332_NYJ_2009",
+      "name": "Leon Washington",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 47.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025544_NYJ_2009",
+      "name": "David Clowney",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "recYPG": 19.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025622_NYJ_2009",
+      "name": "Chansi Stuckey",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026170_NYJ_2009",
+      "name": "Dustin Keller",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "recYPG": 37.0,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026898_NYJ_2009",
+      "name": "Mark Sanchez",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "passYPG": 165.7,
+        "tdRatio": 0.0371,
+        "intRatio": 0.051,
+        "qbr": 19.0
+      },
+      "eraNormFactor": 1.0119
+    },
+    {
+      "id": "p_00-0026899_NYJ_2009",
+      "name": "Shonn Greene",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 52.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_NYJ_2009",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8049
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2009",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.44,
+        "rushTDPct": 0.0335,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2009",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2009",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2014",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "passYPG": 275.6,
+        "tdRatio": 0.0499,
+        "intRatio": 0.0233,
+        "qbr": 91.5
+      },
+      "eraNormFactor": 1.3736
+    },
+    {
+      "id": "p_00-0023752_NYG_2014",
+      "name": "Daniel Fells",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027155_NYG_2014",
+      "name": "Rashad Jennings",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 58.1,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027265_NYG_2014",
+      "name": "Victor Cruz",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 56.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027450_NYG_2014",
+      "name": "Preston Parker",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028838_NYG_2014",
+      "name": "Larry Donnell",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029262_NYG_2014",
+      "name": "Rueben Randle",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 58.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031055_NYG_2014",
+      "name": "Andre Williams",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 45.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031235_NYG_2014",
+      "name": "Odell Beckham",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "recYPG": 108.8,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_NYG_2014",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.9231
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2014",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.029,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2014",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2014",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

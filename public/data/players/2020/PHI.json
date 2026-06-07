@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026189_PHI_2020",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 47.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030061_PHI_2020",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 30.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031384_PHI_2020",
+      "name": "Richard Rodgers",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032950_PHI_2020",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "passYPG": 218.3,
+        "tdRatio": 0.0366,
+        "intRatio": 0.0343,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1795
+    },
+    {
+      "id": "p_00-0033733_PHI_2020",
+      "name": "Greg Ward",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034351_PHI_2020",
+      "name": "Dallas Goedert",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 47.6,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034414_PHI_2020",
+      "name": "Boston Scott",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 23.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035243_PHI_2020",
+      "name": "Miles Sanders",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 72.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035592_PHI_2020",
+      "name": "Travis Fulgham",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 44.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036387_PHI_2020",
+      "name": "Jalen Reagor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036389_PHI_2020",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "passYPG": 75.8,
+        "tdRatio": 0.0405,
+        "intRatio": 0.027,
+        "qbr": 46.7
+      },
+      "eraNormFactor": 0.4096
+    },
+    {
+      "id": "p_00-0036398_PHI_2020",
+      "name": "John Hightower",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033787_PHI_2020",
+      "name": "J.Elliott",
+      "position": "K",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.7368
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2020",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.03,
+        "rushTDPct": 0.0397,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2020",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2020",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

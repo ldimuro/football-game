@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000145_KC_2000",
+      "name": "Derrick Alexander",
+      "position": "WR",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 84.3,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000279_KC_2000",
+      "name": "Kimble Anders",
+      "position": "RB",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 29.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006101_KC_2000",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 77.3,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006300_KC_2000",
+      "name": "Elvis Grbac",
+      "position": "QB",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "passYPG": 274.9,
+        "tdRatio": 0.0432,
+        "intRatio": 0.0255,
+        "qbr": 90.4
+      },
+      "eraNormFactor": 1.7278
+    },
+    {
+      "id": "p_00-0010007_KC_2000",
+      "name": "Kevin Lockett",
+      "position": "WR",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019471_KC_2000",
+      "name": "Frank Moreau",
+      "position": "RB",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 13.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019726_KC_2000",
+      "name": "Sylvester Morris",
+      "position": "WR",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012875_KC_2000",
+      "name": "T.Peterson",
+      "position": "K",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7083
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2000",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.85,
+        "rushTDPct": 0.0317,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2000",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2000",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

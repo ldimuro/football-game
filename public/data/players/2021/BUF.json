@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027685_BUF_2021",
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 42.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029000_BUF_2021",
+      "name": "Cole Beasley",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_BUF_2021",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 68.0,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033466_BUF_2021",
+      "name": "Isaiah McKenzie",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034857_BUF_2021",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "passYPG": 265.5,
+        "tdRatio": 0.0636,
+        "intRatio": 0.0212,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5117
+    },
+    {
+      "id": "p_00-0035250_BUF_2021",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 51.4,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035689_BUF_2021",
+      "name": "Dawson Knox",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 40.3,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036196_BUF_2021",
+      "name": "Gabe Davis",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "recYPG": 46.5,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036251_BUF_2021",
+      "name": "Zack Moss",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 24.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036162_BUF_2021",
+      "name": "T.Bass",
+      "position": "K",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2021",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.84,
+        "rushTDPct": 0.0447,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2021",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2021",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

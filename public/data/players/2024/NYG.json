@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0035250_NYG_2024",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 29.1,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035535_NYG_2024",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035704_NYG_2024",
+      "name": "Drew Lock",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "passYPG": 153.0,
+        "tdRatio": 0.0331,
+        "intRatio": 0.0276,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9098
+    },
+    {
+      "id": "p_00-0035710_NYG_2024",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "passYPG": 207.0,
+        "tdRatio": 0.0235,
+        "intRatio": 0.0205,
+        "qbr": 16.6
+      },
+      "eraNormFactor": 1.2309
+    },
+    {
+      "id": "p_00-0038117_NYG_2024",
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "recYPG": 41.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039337_NYG_2024",
+      "name": "Malik Nabers",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "recYPG": 80.3,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039384_NYG_2024",
+      "name": "Tyrone Tracy",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 49.4,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039847_NYG_2024",
+      "name": "Theo Johnson",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "recYPG": 33.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034450_NYG_2024",
+      "name": "G.Joseph",
+      "position": "K",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2024",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.21,
+        "rushTDPct": 0.0307,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2024",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2024",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

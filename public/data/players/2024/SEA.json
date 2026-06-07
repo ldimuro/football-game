@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030565_SEA_2024",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "passYPG": 254.1,
+        "tdRatio": 0.0363,
+        "intRatio": 0.026,
+        "qbr": 64.5
+      },
+      "eraNormFactor": 1.511
+    },
+    {
+      "id": "p_00-0032211_SEA_2024",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.3,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035640_SEA_2024",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 66.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035644_SEA_2024",
+      "name": "Noah Fant",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038134_SEA_2024",
+      "name": "Kenneth Walker",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 52.1,
+        "tdPerGame": 0.636
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038543_SEA_2024",
+      "name": "Jaxon Smith-Njigba",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 66.5,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038636_SEA_2024",
+      "name": "Kenny McIntosh",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 24.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039165_SEA_2024",
+      "name": "Zach Charbonnet",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 33.5,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039793_SEA_2024",
+      "name": "A.J. Barner",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_SEA_2024",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2024",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0444,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2024",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2024",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

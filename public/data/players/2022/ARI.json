@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027688_ARI_2022",
+      "name": "Colt McCoy",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "passYPG": 195.0,
+        "tdRatio": 0.0076,
+        "intRatio": 0.0227,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0675
+    },
+    {
+      "id": "p_00-0027942_ARI_2022",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030061_ARI_2022",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_ARI_2022",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 79.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_ARI_2022",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 60.2,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035228_ARI_2022",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "passYPG": 215.3,
+        "tdRatio": 0.0359,
+        "intRatio": 0.0179,
+        "qbr": 33.4
+      },
+      "eraNormFactor": 1.1786
+    },
+    {
+      "id": "p_00-0035500_ARI_2022",
+      "name": "Greg Dortch",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035662_ARI_2022",
+      "name": "Marquise Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 59.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036383_ARI_2022",
+      "name": "Eno Benjamin",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 26.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036936_ARI_2022",
+      "name": "Rondale Moore",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 51.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037744_ARI_2022",
+      "name": "Trey McBride",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_ARI_2022",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2022",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.32,
+        "rushTDPct": 0.0346,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2022",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2022",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

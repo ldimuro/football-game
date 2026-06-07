@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0015754_DEN_2009",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 29.7,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020270_DEN_2009",
+      "name": "Correll Buckhalter",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 45.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021154_DEN_2009",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021163_DEN_2009",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 45.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023541_DEN_2009",
+      "name": "Kyle Orton",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "passYPG": 237.6,
+        "tdRatio": 0.0388,
+        "intRatio": 0.0222,
+        "qbr": 68.9
+      },
+      "eraNormFactor": 1.4509
+    },
+    {
+      "id": "p_00-0024276_DEN_2009",
+      "name": "Tony Scheffler",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024334_DEN_2009",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 74.7,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026182_DEN_2009",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026988_DEN_2009",
+      "name": "Knowshon Moreno",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 59.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DEN_2009",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2009",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0205,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2009",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2009",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

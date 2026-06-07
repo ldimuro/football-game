@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027696_SEA_2016",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 54.6,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028434_SEA_2016",
+      "name": "Doug Baldwin",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 72.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029159_SEA_2016",
+      "name": "Jermaine Kearse",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029263_SEA_2016",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "passYPG": 259.3,
+        "tdRatio": 0.0413,
+        "intRatio": 0.0215,
+        "qbr": 83.2
+      },
+      "eraNormFactor": 1.274
+    },
+    {
+      "id": "p_00-0030089_SEA_2016",
+      "name": "Luke Willson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 11.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030432_SEA_2016",
+      "name": "Christine Michael",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 37.7,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031257_SEA_2016",
+      "name": "Paul Richardson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 32.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031897_SEA_2016",
+      "name": "Thomas Rawls",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 49.5,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032211_SEA_2016",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032393_SEA_2016",
+      "name": "C.J. Prosise",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 28.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032426_SEA_2016",
+      "name": "Alex Collins",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 13.8,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025944_SEA_2016",
+      "name": "S.Hauschka",
+      "position": "K",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.9024
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2016",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.05,
+        "rushTDPct": 0.0303,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2016",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2016",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

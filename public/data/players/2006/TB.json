@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005720_TB_2006",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 75.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007468_TB_2006",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2006",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 15.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019623_TB_2006",
+      "name": "Tim Rattay",
+      "position": "QB",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "passYPG": 187.0,
+        "tdRatio": 0.0396,
+        "intRatio": 0.0198,
+        "qbr": 72.8
+      },
+      "eraNormFactor": 1.0663
+    },
+    {
+      "id": "p_00-0022725_TB_2006",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 29.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023440_TB_2006",
+      "name": "Cadillac Williams",
+      "position": "RB",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 57.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023506_TB_2006",
+      "name": "Alex Smith",
+      "position": "WR",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024408_TB_2006",
+      "name": "Bruce Gradkowski",
+      "position": "QB",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "passYPG": 127.8,
+        "tdRatio": 0.0274,
+        "intRatio": 0.0274,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7287
+    },
+    {
+      "id": "p_00-0020578_TB_2006",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7727
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2006",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.77,
+        "rushTDPct": 0.0149,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2006",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2006",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

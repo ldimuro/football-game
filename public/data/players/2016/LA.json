@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029621_LA_2016",
+      "name": "G.Zuerlein",
+      "position": "K",
+      "team": "LA",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8636
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2016",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.34,
+        "rushTDPct": 0.024,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_DLine_2016",
+      "position": "DLine",
+      "team": "LA",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_Secondary_2016",
+      "position": "Secondary",
+      "team": "LA",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

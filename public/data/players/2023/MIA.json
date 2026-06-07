@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031687_MIA_2023",
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 65.3,
+        "tdPerGame": 1.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_MIA_2023",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "recYPG": 109.5,
+        "tdPerGame": 0.824
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034115_MIA_2023",
+      "name": "Jeff Wilson",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034418_MIA_2023",
+      "name": "Cedrick Wilson Jr.",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034419_MIA_2023",
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "recYPG": 17.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034798_MIA_2023",
+      "name": "Durham Smythe",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036212_MIA_2023",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "passYPG": 267.9,
+        "tdRatio": 0.0501,
+        "intRatio": 0.025,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4928
+    },
+    {
+      "id": "p_00-0036613_MIA_2023",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "recYPG": 69.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039040_MIA_2023",
+      "name": "De'Von Achane",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 67.4,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034794_MIA_2023",
+      "name": "J.Sanders",
+      "position": "K",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2023",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.03,
+        "rushTDPct": 0.057,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2023",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2023",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

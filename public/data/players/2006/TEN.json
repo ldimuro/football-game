@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019976_TEN_2006",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 56.7,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020471_TEN_2006",
+      "name": "Travis Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 86.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022092_TEN_2006",
+      "name": "Chris Brown",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 31.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022144_TEN_2006",
+      "name": "Bobby Wade",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023531_TEN_2006",
+      "name": "Brandon Jones",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 29.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023612_TEN_2006",
+      "name": "Bo Scaife",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024218_TEN_2006",
+      "name": "Vince Young",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "passYPG": 146.6,
+        "tdRatio": 0.0337,
+        "intRatio": 0.0365,
+        "qbr": 18.6
+      },
+      "eraNormFactor": 0.8359
+    },
+    {
+      "id": "p_00-0024260_TEN_2006",
+      "name": "LenDale White",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020962_TEN_2006",
+      "name": "R.Bironas",
+      "position": "K",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2006",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.73,
+        "rushTDPct": 0.0321,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2006",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2006",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

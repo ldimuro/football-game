@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010500_BAL_2005",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 67.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018272_BAL_2005",
+      "name": "Anthony Wright",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "passYPG": 197.8,
+        "tdRatio": 0.0226,
+        "intRatio": 0.0338,
+        "qbr": 17.4
+      },
+      "eraNormFactor": 1.1593
+    },
+    {
+      "id": "p_00-0019693_BAL_2005",
+      "name": "Jamal Lewis",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 60.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020127_BAL_2005",
+      "name": "Daniel Wilcox",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2005",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 53.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_BAL_2005",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 34.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022164_BAL_2005",
+      "name": "Kyle Boller",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "passYPG": 199.9,
+        "tdRatio": 0.0375,
+        "intRatio": 0.041,
+        "qbr": 37.1
+      },
+      "eraNormFactor": 1.1716
+    },
+    {
+      "id": "p_00-0023457_BAL_2005",
+      "name": "Mark Clayton",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 36.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_BAL_2005",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2005",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.0111,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2005",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2005",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

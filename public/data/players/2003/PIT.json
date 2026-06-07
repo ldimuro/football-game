@@ -1,0 +1,119 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001215_PIT_2003",
+      "name": "Jerome Bettis",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 50.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010261_PIT_2003",
+      "name": "Tommy Maddox",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "passYPG": 213.4,
+        "tdRatio": 0.0347,
+        "intRatio": 0.0328,
+        "qbr": 34.8
+      },
+      "eraNormFactor": 1.3216
+    },
+    {
+      "id": "p_00-0017162_PIT_2003",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "recYPG": 72.7,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018501_PIT_2003",
+      "name": "Amos Zereoue",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 27.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_PIT_2003",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "recYPG": 53.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020737_PIT_2003",
+      "name": "J. Reed",
+      "position": "K",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7188
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2003",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.37,
+        "rushTDPct": 0.0225,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2003",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2003",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

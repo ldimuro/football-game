@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029604_MIN_2021",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "passYPG": 263.8,
+        "tdRatio": 0.0588,
+        "intRatio": 0.0125,
+        "qbr": 94.8
+      },
+      "eraNormFactor": 1.5021
+    },
+    {
+      "id": "p_00-0030035_MIN_2021",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 55.8,
+        "tdPerGame": 0.769
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032104_MIN_2021",
+      "name": "Ameer Abdullah",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 11.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033893_MIN_2021",
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 89.2,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034270_MIN_2021",
+      "name": "Tyler Conklin",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034972_MIN_2021",
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 30.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036322_MIN_2021",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 95.1,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036345_MIN_2021",
+      "name": "K.J. Osborn",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 38.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034450_MIN_2021",
+      "name": "G.Joseph",
+      "position": "K",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8684
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2021",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.3,
+        "rushTDPct": 0.0223,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2021",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2021",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

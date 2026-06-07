@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0008442_MIN_2006",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "passYPG": 183.3,
+        "tdRatio": 0.0228,
+        "intRatio": 0.0342,
+        "qbr": 1.5
+      },
+      "eraNormFactor": 1.0452
+    },
+    {
+      "id": "p_00-0013888_MIN_2006",
+      "name": "Marcus Robinson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 47.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017644_MIN_2006",
+      "name": "Jermaine Wiggins",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019721_MIN_2006",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_MIN_2006",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 80.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022006_MIN_2006",
+      "name": "Artose Pinner",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 24.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022135_MIN_2006",
+      "name": "Billy McMullen",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 25.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023442_MIN_2006",
+      "name": "Troy Williamson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_MIN_2006",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.84
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2006",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.1,
+        "rushTDPct": 0.027,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2006",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2006",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004293_SEA_2001",
+      "name": "Trent Dilfer",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "passYPG": 169.0,
+        "tdRatio": 0.0574,
+        "intRatio": 0.0328,
+        "qbr": 86.3
+      },
+      "eraNormFactor": 0.9568
+    },
+    {
+      "id": "p_00-0004915_SEA_2001",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "recYPG": 25.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005101_SEA_2001",
+      "name": "Christian Fauria",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "recYPG": 12.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2001",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "passYPG": 155.6,
+        "tdRatio": 0.0218,
+        "intRatio": 0.0249,
+        "qbr": 32.5
+      },
+      "eraNormFactor": 0.8809
+    },
+    {
+      "id": "p_00-0017322_SEA_2001",
+      "name": "Ricky Watters",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 63.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019647_SEA_2001",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 82.4,
+        "tdPerGame": 0.875
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019663_SEA_2001",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "recYPG": 67.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020490_SEA_2001",
+      "name": "Koren Robinson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "recYPG": 33.5,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_SEA_2001",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.625
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2001",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.13,
+        "rushTDPct": 0.032,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2001",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2001",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030470_PIT_2019",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "recYPG": 19.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_PIT_2019",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 46.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_PIT_2019",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "recYPG": 46.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034331_PIT_2019",
+      "name": "Jaylen Samuels",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 13.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034676_PIT_2019",
+      "name": "James Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "recYPG": 49.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034771_PIT_2019",
+      "name": "Mason Rudolph",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "passYPG": 176.5,
+        "tdRatio": 0.0459,
+        "intRatio": 0.0318,
+        "qbr": 32.6
+      },
+      "eraNormFactor": 0.847
+    },
+    {
+      "id": "p_00-0035216_PIT_2019",
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035217_PIT_2019",
+      "name": "Benny Snell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 38.7,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035577_PIT_2019",
+      "name": "Devlin Hodges",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "passYPG": 132.9,
+        "tdRatio": 0.0312,
+        "intRatio": 0.05,
+        "qbr": 22.6
+      },
+      "eraNormFactor": 0.6377
+    },
+    {
+      "id": "p_00-0031136_PIT_2019",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.9355
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2019",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.66,
+        "rushTDPct": 0.0177,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2019",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2019",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

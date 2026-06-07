@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010346_IND_2009",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "passYPG": 287.2,
+        "tdRatio": 0.0558,
+        "intRatio": 0.0258,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.7538
+    },
+    {
+      "id": "p_00-0020498_IND_2009",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.579
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2009",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "recYPG": 67.7,
+        "tdPerGame": 0.579
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024245_IND_2009",
+      "name": "Joseph Addai",
+      "position": "RB",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 56.0,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026342_IND_2009",
+      "name": "Mike Hart",
+      "position": "RB",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 12.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026345_IND_2009",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_IND_2009",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 23.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027092_IND_2009",
+      "name": "Austin Collie",
+      "position": "WR",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "recYPG": 48.3,
+        "tdPerGame": 0.474
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_IND_2009",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8148
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2009",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.54,
+        "rushTDPct": 0.0392,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2009",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2009",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

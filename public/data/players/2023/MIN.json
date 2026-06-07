@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029604_MIN_2023",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 291.4,
+        "tdRatio": 0.0579,
+        "intRatio": 0.0161,
+        "qbr": 96.4
+      },
+      "eraNormFactor": 1.6237
+    },
+    {
+      "id": "p_00-0033246_MIN_2023",
+      "name": "Johnny Mundt",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 19.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033319_MIN_2023",
+      "name": "Nick Mullens",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 261.2,
+        "tdRatio": 0.0473,
+        "intRatio": 0.0541,
+        "qbr": 74.6
+      },
+      "eraNormFactor": 1.4555
+    },
+    {
+      "id": "p_00-0034646_MIN_2023",
+      "name": "Brandon Powell",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034972_MIN_2023",
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 43.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035229_MIN_2023",
+      "name": "T.J. Hockenson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 64.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035249_MIN_2023",
+      "name": "Josh Oliver",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036322_MIN_2023",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 107.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036345_MIN_2023",
+      "name": "K.J. Osborn",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037276_MIN_2023",
+      "name": "Ty Chandler",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 35.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038994_MIN_2023",
+      "name": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 53.6,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034450_MIN_2023",
+      "name": "G.Joseph",
+      "position": "K",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2023",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.95,
+        "rushTDPct": 0.0178,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2023",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2023",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004052_CAR_2005",
+      "name": "Stephen Davis",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 42.0,
+        "tdPerGame": 0.923
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004161_CAR_2005",
+      "name": "Jake Delhomme",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "passYPG": 214.5,
+        "tdRatio": 0.0552,
+        "intRatio": 0.0381,
+        "qbr": 79.6
+      },
+      "eraNormFactor": 1.2572
+    },
+    {
+      "id": "p_00-0010333_CAR_2005",
+      "name": "Kris Mangum",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "recYPG": 16.0,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013268_CAR_2005",
+      "name": "Ricky Proehl",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019831_CAR_2005",
+      "name": "Nick Goings",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 15.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020337_CAR_2005",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "recYPG": 99.9,
+        "tdPerGame": 0.789
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021164_CAR_2005",
+      "name": "DeShaun Foster",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 63.9,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022726_CAR_2005",
+      "name": "Keary Colbert",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009028_CAR_2005",
+      "name": "J.Kasay",
+      "position": "K",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2005",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.58,
+        "rushTDPct": 0.0313,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2005",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2005",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

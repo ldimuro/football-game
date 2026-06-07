@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003535_CLE_2001",
+      "name": "Tim Couch",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "passYPG": 190.0,
+        "tdRatio": 0.0374,
+        "intRatio": 0.0463,
+        "qbr": 13.1
+      },
+      "eraNormFactor": 1.0757
+    },
+    {
+      "id": "p_00-0008560_CLE_2001",
+      "name": "Kevin Johnson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 68.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014350_CLE_2001",
+      "name": "O.J. Santiago",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 13.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019057_CLE_2001",
+      "name": "Jamel White",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 27.7,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019461_CLE_2001",
+      "name": "JaJuan Dawson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 25.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019564_CLE_2001",
+      "name": "Aaron Shea",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 9.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019650_CLE_2001",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 26.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020417_CLE_2001",
+      "name": "Benjamin Gay",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 28.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020427_CLE_2001",
+      "name": "Quincy Morgan",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020430_CLE_2001",
+      "name": "James Jackson",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 50.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_CLE_2001",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.88
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2001",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.24,
+        "rushTDPct": 0.0192,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2001",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2001",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

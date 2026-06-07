@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027966_NO_2022",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 23.3,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_NO_2022",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "passYPG": 205.1,
+        "tdRatio": 0.0476,
+        "intRatio": 0.0238,
+        "qbr": 62.9
+      },
+      "eraNormFactor": 1.1228
+    },
+    {
+      "id": "p_00-0030513_NO_2022",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 58.5,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031382_NO_2022",
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033906_NO_2022",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 59.8,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034765_NO_2022",
+      "name": "Tre'Quan Smith",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036040_NO_2022",
+      "name": "Juwan Johnson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036219_NO_2022",
+      "name": "Marquez Callaway",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036422_NO_2022",
+      "name": "Adam Trautman",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 17.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037239_NO_2022",
+      "name": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 69.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037545_NO_2022",
+      "name": "Rashid Shaheed",
+      "position": "WR",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "recYPG": 44.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032569_NO_2022",
+      "name": "W.Lutz",
+      "position": "K",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.7419
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2022",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.26,
+        "rushTDPct": 0.0258,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2022",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2022",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029239_NE_2021",
+      "name": "Brandon Bolden",
+      "position": "RB",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 13.3,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_NE_2021",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 32.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_NE_2021",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033307_NE_2021",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_NE_2021",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034960_NE_2021",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 53.3,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035624_NE_2021",
+      "name": "N'Keal Harry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035657_NE_2021",
+      "name": "Damien Harris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 59.9,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036875_NE_2021",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 48.7,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036972_NE_2021",
+      "name": "Mac Jones",
+      "position": "QB",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "passYPG": 224.1,
+        "tdRatio": 0.0429,
+        "intRatio": 0.0268,
+        "qbr": 80.1
+      },
+      "eraNormFactor": 1.276
+    },
+    {
+      "id": "p_00-0025565_NE_2021",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.925
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2021",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.0472,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2021",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2021",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

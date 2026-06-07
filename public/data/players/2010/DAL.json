@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0009311_DAL_2010",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "passYPG": 236.5,
+        "tdRatio": 0.0503,
+        "intRatio": 0.0377,
+        "qbr": 74.1
+      },
+      "eraNormFactor": 1.2611
+    },
+    {
+      "id": "p_00-0021678_DAL_2010",
+      "name": "Tony Romo",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "passYPG": 267.5,
+        "tdRatio": 0.0516,
+        "intRatio": 0.0329,
+        "qbr": 92.4
+      },
+      "eraNormFactor": 1.4265
+    },
+    {
+      "id": "p_00-0022127_DAL_2010",
+      "name": "Jason Witten",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 62.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022909_DAL_2010",
+      "name": "Roy Williams",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 35.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023544_DAL_2010",
+      "name": "Marion Barber",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 28.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023921_DAL_2010",
+      "name": "Miles Austin",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 65.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023953_DAL_2010",
+      "name": "Sam Hurd",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026162_DAL_2010",
+      "name": "Felix Jones",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 50.0,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_DAL_2010",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026262_DAL_2010",
+      "name": "Tashard Choice",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 20.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027902_DAL_2010",
+      "name": "Dez Bryant",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 46.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027119_DAL_2010",
+      "name": "D.Buehler",
+      "position": "K",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2010",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0234,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2010",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2010",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

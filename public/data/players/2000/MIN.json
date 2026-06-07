@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002721_MIN_2000",
+      "name": "Cris Carter",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 78.8,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003739_MIN_2000",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "passYPG": 238.4,
+        "tdRatio": 0.0683,
+        "intRatio": 0.0323,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4984
+    },
+    {
+      "id": "p_00-0004004_MIN_2000",
+      "name": "John Davis",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007103_MIN_2000",
+      "name": "Matt Hatchette",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 12.8,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011068_MIN_2000",
+      "name": "Johnny McWilliams",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_MIN_2000",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 86.3,
+        "tdPerGame": 0.944
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015286_MIN_2000",
+      "name": "Robert Smith",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 89.8,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017110_MIN_2000",
+      "name": "Chris Walsh",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 16.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000313_MIN_2000",
+      "name": "G.Anderson",
+      "position": "K",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.96
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2000",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.88,
+        "rushTDPct": 0.0324,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2000",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2000",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

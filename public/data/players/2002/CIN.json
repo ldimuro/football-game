@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001098_CIN_2002",
+      "name": "Brandon Bennett",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 15.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_CIN_2002",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 81.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009311_CIN_2002",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "passYPG": 244.5,
+        "tdRatio": 0.0338,
+        "intRatio": 0.0338,
+        "qbr": 37.2
+      },
+      "eraNormFactor": 1.3505
+    },
+    {
+      "id": "p_00-0017470_CIN_2002",
+      "name": "Michael Westbrook",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 11.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019455_CIN_2002",
+      "name": "Peter Warrick",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019708_CIN_2002",
+      "name": "Ron Dugans",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2002",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 72.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2002",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 32.8,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021084_CIN_2002",
+      "name": "Matt Schobel",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 15.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_CIN_2002",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2002",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.06,
+        "rushTDPct": 0.0305,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2002",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2002",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

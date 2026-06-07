@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000745_NYG_2002",
+      "name": "Tiki Barber",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 88.4,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002565_NYG_2002",
+      "name": "Dan Campbell",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 12.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003292_NYG_2002",
+      "name": "Kerry Collins",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "passYPG": 259.7,
+        "tdRatio": 0.0391,
+        "intRatio": 0.0255,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4345
+    },
+    {
+      "id": "p_00-0007468_NYG_2002",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 55.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016550_NYG_2002",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 87.0,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019643_NYG_2002",
+      "name": "Ron Dayne",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 25.4,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019662_NYG_2002",
+      "name": "Ron Dixon",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 39.0,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021148_NYG_2002",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 60.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021330_NYG_2002",
+      "name": "Daryl Jones",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "recYPG": 9.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_NYG_2002",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7941
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2002",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.87,
+        "rushTDPct": 0.0291,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2002",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2002",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

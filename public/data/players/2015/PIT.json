@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2015",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "passYPG": 321.9,
+        "tdRatio": 0.041,
+        "intRatio": 0.0298,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5813
+    },
+    {
+      "id": "p_00-0023465_PIT_2015",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024242_PIT_2015",
+      "name": "DeAngelo Williams",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 56.7,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_PIT_2015",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027793_PIT_2015",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "recYPG": 114.9,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030460_PIT_2015",
+      "name": "Markus Wheaton",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "recYPG": 44.6,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030496_PIT_2015",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 92.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031332_PIT_2015",
+      "name": "Fitzgerald Toussaint",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 27.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031373_PIT_2015",
+      "name": "Martavis Bryant",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "recYPG": 72.9,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2015",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2015",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.53,
+        "rushTDPct": 0.039,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2015",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2015",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

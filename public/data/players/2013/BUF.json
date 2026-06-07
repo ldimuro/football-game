@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024204_BUF_2013",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 55.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025516_BUF_2013",
+      "name": "Scott Chandler",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026262_BUF_2013",
+      "name": "Tashard Choice",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 13.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026364_BUF_2013",
+      "name": "Steve Johnson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 49.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027253_BUF_2013",
+      "name": "Thad Lewis",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "passYPG": 218.4,
+        "tdRatio": 0.0255,
+        "intRatio": 0.0191,
+        "qbr": 50.8
+      },
+      "eraNormFactor": 1.0255
+    },
+    {
+      "id": "p_00-0027861_BUF_2013",
+      "name": "C.J. Spiller",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 62.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029660_BUF_2013",
+      "name": "Trevor Graham",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030068_BUF_2013",
+      "name": "Marquise Goodwin",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 31.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030431_BUF_2013",
+      "name": "Robert Woods",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030526_BUF_2013",
+      "name": "EJ Manuel",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "passYPG": 197.2,
+        "tdRatio": 0.0359,
+        "intRatio": 0.0294,
+        "qbr": 7.6
+      },
+      "eraNormFactor": 0.9259
+    },
+    {
+      "id": "p_00-0026003_BUF_2013",
+      "name": "D.Carpenter",
+      "position": "K",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2013",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.23,
+        "rushTDPct": 0.0275,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2013",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2013",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

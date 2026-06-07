@@ -1,0 +1,195 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004161_CLE_2010",
+      "name": "Jake Delhomme",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "passYPG": 174.4,
+        "tdRatio": 0.0134,
+        "intRatio": 0.047,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.93
+    },
+    {
+      "id": "p_00-0022055_CLE_2010",
+      "name": "Seneca Wallace",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "passYPG": 115.7,
+        "tdRatio": 0.0396,
+        "intRatio": 0.0198,
+        "qbr": 58.6
+      },
+      "eraNormFactor": 0.617
+    },
+    {
+      "id": "p_00-0022943_CLE_2010",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 47.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023176_CLE_2010",
+      "name": "Josh Cribbs",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024359_CLE_2010",
+      "name": "Jerome Harrison",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 30.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025622_CLE_2010",
+      "name": "Chansi Stuckey",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026123_CLE_2010",
+      "name": "Evan Moore",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026367_CLE_2010",
+      "name": "Peyton Hillis",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 73.6,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027012_CLE_2010",
+      "name": "Brian Robiskie",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027026_CLE_2010",
+      "name": "Mohamed Massaquoi",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "recYPG": 32.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027688_CLE_2010",
+      "name": "Colt McCoy",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "passYPG": 197.0,
+        "tdRatio": 0.027,
+        "intRatio": 0.0405,
+        "qbr": 50.4
+      },
+      "eraNormFactor": 1.0505
+    },
+    {
+      "id": "p_00-0004091_CLE_2010",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2010",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.98,
+        "rushTDPct": 0.0314,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2010",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2010",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

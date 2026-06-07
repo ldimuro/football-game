@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023682_NYJ_2015",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "passYPG": 244.1,
+        "tdRatio": 0.0552,
+        "intRatio": 0.0267,
+        "qbr": 95.3
+      },
+      "eraNormFactor": 1.1992
+    },
+    {
+      "id": "p_00-0024334_NYJ_2015",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 93.9,
+        "tdPerGame": 0.875
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027531_NYJ_2015",
+      "name": "Chris Ivory",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 71.3,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027690_NYJ_2015",
+      "name": "Eric Decker",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 68.5,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028011_NYJ_2015",
+      "name": "Stevan Ridley",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 11.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2015",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 28.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2015",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030000_NYJ_2015",
+      "name": "Kenbrell Thompkins",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030536_NYJ_2015",
+      "name": "Zac Stacy",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 14.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031023_NYJ_2015",
+      "name": "Quincy Enunwa",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 28.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031934_NYJ_2015",
+      "name": "Devin Smith",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "recYPG": 16.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_NYJ_2015",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2015",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0246,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2015",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2015",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

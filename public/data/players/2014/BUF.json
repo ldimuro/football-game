@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023541_BUF_2014",
+      "name": "Kyle Orton",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "passYPG": 251.5,
+        "tdRatio": 0.0403,
+        "intRatio": 0.0224,
+        "qbr": 56.1
+      },
+      "eraNormFactor": 1.2535
+    },
+    {
+      "id": "p_00-0024204_BUF_2014",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 37.5,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025516_BUF_2014",
+      "name": "Scott Chandler",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027772_BUF_2014",
+      "name": "Anthony Dixon",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 33.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027861_BUF_2014",
+      "name": "C.J. Spiller",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 33.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028237_BUF_2014",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029429_BUF_2014",
+      "name": "Bryce Brown",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 18.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030431_BUF_2014",
+      "name": "Robert Woods",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030526_BUF_2014",
+      "name": "EJ Manuel",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "passYPG": 209.5,
+        "tdRatio": 0.0382,
+        "intRatio": 0.0229,
+        "qbr": 13.3
+      },
+      "eraNormFactor": 1.0442
+    },
+    {
+      "id": "p_00-0031325_BUF_2014",
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 61.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026003_BUF_2014",
+      "name": "D.Carpenter",
+      "position": "K",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8947
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2014",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.69,
+        "rushTDPct": 0.0174,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2014",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2014",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

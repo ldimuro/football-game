@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025399_LV_2018",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 62.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026176_LV_2018",
+      "name": "Jordy Nelson",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 49.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027061_LV_2018",
+      "name": "Jared Cook",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 56.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_LV_2018",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031166_LV_2018",
+      "name": "Seth Roberts",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 32.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031280_LV_2018",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "passYPG": 253.1,
+        "tdRatio": 0.0344,
+        "intRatio": 0.0181,
+        "qbr": 49.2
+      },
+      "eraNormFactor": 1.2971
+    },
+    {
+      "id": "p_00-0031373_LV_2018",
+      "name": "Martavis Bryant",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 38.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031544_LV_2018",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 69.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032940_LV_2018",
+      "name": "DeAndre Washington",
+      "position": "RB",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 14.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033025_LV_2018",
+      "name": "Jalen Richard",
+      "position": "RB",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034747_LV_2018",
+      "name": "Marcell Ateman",
+      "position": "WR",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034161_LV_2018",
+      "name": "D.Carlson",
+      "position": "K",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2018",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.21,
+        "rushTDPct": 0.0233,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2018",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2018",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029263_PIT_2024",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "passYPG": 229.3,
+        "tdRatio": 0.0493,
+        "intRatio": 0.0137,
+        "qbr": 56.0
+      },
+      "eraNormFactor": 1.3635
+    },
+    {
+      "id": "p_00-0030578_PIT_2024",
+      "name": "Cordarrelle Patterson",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 10.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036415_PIT_2024",
+      "name": "Van Jefferson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036893_PIT_2024",
+      "name": "Najee Harris",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 58.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036894_PIT_2024",
+      "name": "Pat Freiermuth",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "recYPG": 37.1,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036945_PIT_2024",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "passYPG": 100.5,
+        "tdRatio": 0.0309,
+        "intRatio": 0.0062,
+        "qbr": 57.3
+      },
+      "eraNormFactor": 0.5976
+    },
+    {
+      "id": "p_00-0037228_PIT_2024",
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037247_PIT_2024",
+      "name": "George Pickens",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "recYPG": 65.8,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037837_PIT_2024",
+      "name": "Calvin Austin",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038558_PIT_2024",
+      "name": "Darnell Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "recYPG": 14.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2024",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.9318
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2024",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.03,
+        "rushTDPct": 0.0257,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2024",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2024",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

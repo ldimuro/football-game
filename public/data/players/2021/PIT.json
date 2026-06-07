@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2021",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "passYPG": 232.6,
+        "tdRatio": 0.037,
+        "intRatio": 0.0154,
+        "qbr": 21.6
+      },
+      "eraNormFactor": 1.3244
+    },
+    {
+      "id": "p_00-0033857_PIT_2021",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 25.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034407_PIT_2021",
+      "name": "Ray-Ray McCloud",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034676_PIT_2021",
+      "name": "James Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 20.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035216_PIT_2021",
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 70.3,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035217_PIT_2021",
+      "name": "Benny Snell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 8.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035222_PIT_2021",
+      "name": "Zach Gentry",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036326_PIT_2021",
+      "name": "Chase Claypool",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 55.3,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036893_PIT_2021",
+      "name": "Najee Harris",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 68.3,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036894_PIT_2021",
+      "name": "Pat Freiermuth",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2021",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.9
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2021",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0232,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2021",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2021",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

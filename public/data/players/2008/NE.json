@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005091_NE_2008",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 33.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_NE_2008",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "recYPG": 63.0,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019484_NE_2008",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 55.9,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020462_NE_2008",
+      "name": "LaMont Jordan",
+      "position": "RB",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 45.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021163_NE_2008",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022427_NE_2008",
+      "name": "Wes Welker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "recYPG": 72.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022943_NE_2008",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023662_NE_2008",
+      "name": "Matt Cassel",
+      "position": "QB",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "passYPG": 230.8,
+        "tdRatio": 0.0405,
+        "intRatio": 0.0212,
+        "qbr": 97.7
+      },
+      "eraNormFactor": 1.2691
+    },
+    {
+      "id": "p_00-0025860_NE_2008",
+      "name": "BenJarvus Green-Ellis",
+      "position": "RB",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 34.4,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2008",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.9
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2008",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.43,
+        "rushTDPct": 0.0408,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2008",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2008",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

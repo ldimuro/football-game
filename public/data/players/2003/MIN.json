@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003739_MIN_2003",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "passYPG": 248.5,
+        "tdRatio": 0.0551,
+        "intRatio": 0.0242,
+        "qbr": 93.3
+      },
+      "eraNormFactor": 1.539
+    },
+    {
+      "id": "p_00-0009323_MIN_2003",
+      "name": "Jimmy Kleinsasser",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 28.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_MIN_2003",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 102.0,
+        "tdPerGame": 1.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017892_MIN_2003",
+      "name": "Moe Williams",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 46.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020514_MIN_2003",
+      "name": "Michael Bennett",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 55.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020754_MIN_2003",
+      "name": "Kelly Campbell",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 37.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021999_MIN_2003",
+      "name": "Nate Burleson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "recYPG": 35.0,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022138_MIN_2003",
+      "name": "Onterrio Smith",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 57.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021080_MIN_2003",
+      "name": "A. Elling",
+      "position": "K",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.72
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2003",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.76,
+        "rushTDPct": 0.0305,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2003",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2003",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_TB_2014",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "passYPG": 200.5,
+        "tdRatio": 0.0336,
+        "intRatio": 0.0428,
+        "qbr": 23.2
+      },
+      "eraNormFactor": 0.9993
+    },
+    {
+      "id": "p_00-0023496_TB_2014",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "recYPG": 62.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027089_TB_2014",
+      "name": "Louis Murphy",
+      "position": "WR",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027135_TB_2014",
+      "name": "Brandon Myers",
+      "position": "WR",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029384_TB_2014",
+      "name": "Bobby Rainey",
+      "position": "RB",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 33.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_TB_2014",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 44.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030520_TB_2014",
+      "name": "Mike Glennon",
+      "position": "QB",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "passYPG": 236.2,
+        "tdRatio": 0.0493,
+        "intRatio": 0.0296,
+        "qbr": 49.1
+      },
+      "eraNormFactor": 1.1773
+    },
+    {
+      "id": "p_00-0031390_TB_2014",
+      "name": "Charles Sims",
+      "position": "RB",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 23.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2014",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "recYPG": 70.1,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031418_TB_2014",
+      "name": "Austin Seferian-Jenkins",
+      "position": "WR",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030626_TB_2014",
+      "name": "P.Murray",
+      "position": "K",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2014",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0198,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2014",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2014",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

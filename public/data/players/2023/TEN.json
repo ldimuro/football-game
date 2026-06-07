@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029701_TEN_2023",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 179.6,
+        "tdRatio": 0.0174,
+        "intRatio": 0.0304,
+        "qbr": 24.6
+      },
+      "eraNormFactor": 1.0008
+    },
+    {
+      "id": "p_00-0030564_TEN_2023",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 62.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032398_TEN_2023",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032764_TEN_2023",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 68.6,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036182_TEN_2023",
+      "name": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037273_TEN_2023",
+      "name": "Kyle Philips",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037742_TEN_2023",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037809_TEN_2023",
+      "name": "Chig Okonkwo",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039032_TEN_2023",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 26.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039152_TEN_2023",
+      "name": "Will Levis",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "passYPG": 200.9,
+        "tdRatio": 0.0314,
+        "intRatio": 0.0157,
+        "qbr": 34.6
+      },
+      "eraNormFactor": 1.1195
+    },
+    {
+      "id": "p_00-0025565_TEN_2023",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2023",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.036,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2023",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2023",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

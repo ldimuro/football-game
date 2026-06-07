@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002159_DET_2003",
+      "name": "Shawn Bryson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 37.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005816_DET_2003",
+      "name": "Olandis Gary",
+      "position": "RB",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 29.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006627_DET_2003",
+      "name": "Az-Zahir Hakim",
+      "position": "WR",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013712_DET_2003",
+      "name": "Mikhael Ricks",
+      "position": "WR",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "recYPG": 33.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014489_DET_2003",
+      "name": "Bill Schroeder",
+      "position": "WR",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_DET_2003",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "passYPG": 180.0,
+        "tdRatio": 0.0307,
+        "intRatio": 0.0397,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1148
+    },
+    {
+      "id": "p_00-0021525_DET_2003",
+      "name": "Casey Fitzsimmons",
+      "position": "WR",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "recYPG": 16.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022072_DET_2003",
+      "name": "Charles Rogers",
+      "position": "WR",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "recYPG": 48.6,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2003",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.9565
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2003",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.61,
+        "rushTDPct": 0.0134,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2003",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2003",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

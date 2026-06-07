@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0016098_JAX_2007",
+      "name": "Fred Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 76.3,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019650_JAX_2007",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020613_JAX_2007",
+      "name": "Quinn Gray",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "passYPG": 123.2,
+        "tdRatio": 0.0694,
+        "intRatio": 0.0347,
+        "qbr": 80.2
+      },
+      "eraNormFactor": 0.7728
+    },
+    {
+      "id": "p_00-0021231_JAX_2007",
+      "name": "David Garrard",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "passYPG": 209.1,
+        "tdRatio": 0.0554,
+        "intRatio": 0.0158,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3116
+    },
+    {
+      "id": "p_00-0022889_JAX_2007",
+      "name": "Reggie Williams",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "recYPG": 42.3,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022897_JAX_2007",
+      "name": "Greg Jones",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 7.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022901_JAX_2007",
+      "name": "Ernest Wilford",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023456_JAX_2007",
+      "name": "Matt Jones",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024243_JAX_2007",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024275_JAX_2007",
+      "name": "Maurice Jones-Drew",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 48.0,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022874_JAX_2007",
+      "name": "J.Scobee",
+      "position": "K",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2007",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.53,
+        "rushTDPct": 0.0348,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2007",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2007",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002586_CLE_2002",
+      "name": "Mark Campbell",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 13.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003535_CLE_2002",
+      "name": "Tim Couch",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "passYPG": 203.0,
+        "tdRatio": 0.0406,
+        "intRatio": 0.0406,
+        "qbr": 51.1
+      },
+      "eraNormFactor": 1.1213
+    },
+    {
+      "id": "p_00-0007576_CLE_2002",
+      "name": "Kelly Holcomb",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "passYPG": 243.8,
+        "tdRatio": 0.0738,
+        "intRatio": 0.0336,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3466
+    },
+    {
+      "id": "p_00-0008560_CLE_2002",
+      "name": "Kevin Johnson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 49.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019057_CLE_2002",
+      "name": "Jamel White",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 31.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019650_CLE_2002",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 53.3,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020427_CLE_2002",
+      "name": "Quincy Morgan",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 58.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021150_CLE_2002",
+      "name": "William Green",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 53.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021175_CLE_2002",
+      "name": "Andre Davis",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_CLE_2002",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2002",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.81,
+        "rushTDPct": 0.0253,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2002",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2002",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2012",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "recYPG": 35.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2012",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2012",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "passYPG": 225.4,
+        "tdRatio": 0.0493,
+        "intRatio": 0.0285,
+        "qbr": 48.7
+      },
+      "eraNormFactor": 1.0989
+    },
+    {
+      "id": "p_00-0023437_LAC_2012",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 15.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025414_LAC_2012",
+      "name": "Robert Meachem",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "recYPG": 23.0,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025701_LAC_2012",
+      "name": "Jackie Battle",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 22.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026182_LAC_2012",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "recYPG": 23.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026745_LAC_2012",
+      "name": "Curtis Brinkley",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 19.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_LAC_2012",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 58.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027912_LAC_2012",
+      "name": "Danario Alexander",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "recYPG": 65.8,
+        "tdPerGame": 0.7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_LAC_2012",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.9259
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2012",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.55,
+        "rushTDPct": 0.0097,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2012",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2012",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

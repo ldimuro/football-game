@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0006101_KC_2008",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "recYPG": 66.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021976_KC_2008",
+      "name": "Larry Johnson",
+      "position": "RB",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 72.8,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023474_KC_2008",
+      "name": "Mark Bradley",
+      "position": "WR",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "recYPG": 47.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025410_KC_2008",
+      "name": "Dwayne Bowe",
+      "position": "WR",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "recYPG": 63.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025535_KC_2008",
+      "name": "Kolby Smith",
+      "position": "RB",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 14.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025604_KC_2008",
+      "name": "Tyler Thigpen",
+      "position": "QB",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "passYPG": 186.3,
+        "tdRatio": 0.0429,
+        "intRatio": 0.0286,
+        "qbr": 37.6
+      },
+      "eraNormFactor": 1.0244
+    },
+    {
+      "id": "p_00-0026213_KC_2008",
+      "name": "Jamaal Charles",
+      "position": "RB",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 22.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026138_KC_2008",
+      "name": "C.Barth",
+      "position": "K",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2008",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.78,
+        "rushTDPct": 0.0237,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2008",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2008",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003035_CHI_2009",
+      "name": "Desmond Clark",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 14.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024226_CHI_2009",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "passYPG": 229.1,
+        "tdRatio": 0.0486,
+        "intRatio": 0.0468,
+        "qbr": 19.5
+      },
+      "eraNormFactor": 1.399
+    },
+    {
+      "id": "p_00-0024272_CHI_2009",
+      "name": "Devin Hester",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 58.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024447_CHI_2009",
+      "name": "Devin Aromashodu",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CHI_2009",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2009",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 58.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026210_CHI_2009",
+      "name": "Earl Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026579_CHI_2009",
+      "name": "Kahlil Bell",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 31.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026913_CHI_2009",
+      "name": "Johnny Knox",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "recYPG": 35.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2009",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2009",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.016,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2009",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2009",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

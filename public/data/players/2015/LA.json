@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029621_LA_2015",
+      "name": "G.Zuerlein",
+      "position": "K",
+      "team": "LA",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.6774
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2015",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.56,
+        "rushTDPct": 0.0373,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

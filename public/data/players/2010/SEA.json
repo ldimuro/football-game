@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007091_SEA_2010",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "passYPG": 220.5,
+        "tdRatio": 0.0362,
+        "intRatio": 0.0343,
+        "qbr": 45.7
+      },
+      "eraNormFactor": 1.1758
+    },
+    {
+      "id": "p_00-0015754_SEA_2010",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 39.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_SEA_2010",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 54.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022840_SEA_2010",
+      "name": "Julius Jones",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 20.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023452_SEA_2010",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 55.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024463_SEA_2010",
+      "name": "Ben Obomanu",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 43.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026178_SEA_2010",
+      "name": "John Carlson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026373_SEA_2010",
+      "name": "Justin Forsett",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 30.7,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026963_SEA_2010",
+      "name": "Cameron Morrah",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027063_SEA_2010",
+      "name": "Deon Butler",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027891_SEA_2010",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_SEA_2010",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2010",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.82,
+        "rushTDPct": 0.0333,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2010",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2010",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

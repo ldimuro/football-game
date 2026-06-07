@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001335_ARI_2003",
+      "name": "Jeff Blake",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "passYPG": 173.2,
+        "tdRatio": 0.0353,
+        "intRatio": 0.0408,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0726
+    },
+    {
+      "id": "p_00-0008749_ARI_2003",
+      "name": "Freddie Jones",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015165_ARI_2003",
+      "name": "Emmitt Smith",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 25.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020022_ARI_2003",
+      "name": "Marcel Shipp",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 51.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021206_ARI_2003",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "passYPG": 145.4,
+        "tdRatio": 0.0303,
+        "intRatio": 0.0364,
+        "qbr": 27.1
+      },
+      "eraNormFactor": 0.9005
+    },
+    {
+      "id": "p_00-0022084_ARI_2003",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 86.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_ARI_2003",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 33.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_ARI_2003",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.6923
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2003",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0124,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2003",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2003",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

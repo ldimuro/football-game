@@ -1,0 +1,195 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001477_MIA_2007",
+      "name": "Marty Booker",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 37.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006355_MIA_2007",
+      "name": "Trent Green",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "passYPG": 197.4,
+        "tdRatio": 0.0355,
+        "intRatio": 0.0496,
+        "qbr": 44.2
+      },
+      "eraNormFactor": 1.2382
+    },
+    {
+      "id": "p_00-0020332_MIA_2007",
+      "name": "David Martin",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020446_MIA_2007",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 65.7,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020565_MIA_2007",
+      "name": "Cleo Lemon",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "passYPG": 197.0,
+        "tdRatio": 0.0194,
+        "intRatio": 0.0194,
+        "qbr": 31.4
+      },
+      "eraNormFactor": 1.2357
+    },
+    {
+      "id": "p_00-0020820_MIA_2007",
+      "name": "Jesse Chatman",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 46.8,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021227_MIA_2007",
+      "name": "Justin Peelle",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023437_MIA_2007",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 86.0,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024297_MIA_2007",
+      "name": "Derek Hagan",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 37.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_MIA_2007",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025427_MIA_2007",
+      "name": "John Beck",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "passYPG": 111.8,
+        "tdRatio": 0.0093,
+        "intRatio": 0.028,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7013
+    },
+    {
+      "id": "p_00-0019770_MIA_2007",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.913
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2007",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0358,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2007",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2007",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

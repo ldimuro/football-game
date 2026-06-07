@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010500_NYJ_2011",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "recYPG": 15.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_NYJ_2011",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020536_NYJ_2011",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 20.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024240_NYJ_2011",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026170_NYJ_2011",
+      "name": "Dustin Keller",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "recYPG": 50.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026898_NYJ_2011",
+      "name": "Mark Sanchez",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "passYPG": 217.1,
+        "tdRatio": 0.0479,
+        "intRatio": 0.0331,
+        "qbr": 14.0
+      },
+      "eraNormFactor": 1.0933
+    },
+    {
+      "id": "p_00-0026899_NYJ_2011",
+      "name": "Shonn Greene",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 65.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027712_NYJ_2011",
+      "name": "Joe McKnight",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 12.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2011",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NYJ_2011",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.76
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2011",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.82,
+        "rushTDPct": 0.0316,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2011",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2011",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

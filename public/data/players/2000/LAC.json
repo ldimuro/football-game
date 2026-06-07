@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003396_LAC_2000",
+      "name": "Curtis Conway",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 52.8,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005110_LAC_2000",
+      "name": "Jermaine Fazande",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 33.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005324_LAC_2000",
+      "name": "Terrell Fletcher",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 24.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006210_LAC_2000",
+      "name": "Jeff Graham",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 69.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006808_LAC_2000",
+      "name": "Jim Harbaugh",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "passYPG": 198.4,
+        "tdRatio": 0.0402,
+        "intRatio": 0.0503,
+        "qbr": 62.5
+      },
+      "eraNormFactor": 1.247
+    },
+    {
+      "id": "p_00-0008749_LAC_2000",
+      "name": "Freddie Jones",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 44.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008841_LAC_2000",
+      "name": "Reggie Jones",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 29.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009715_LAC_2000",
+      "name": "Ryan Leaf",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "passYPG": 177.9,
+        "tdRatio": 0.0361,
+        "intRatio": 0.0557,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1182
+    },
+    {
+      "id": "p_00-0019670_LAC_2000",
+      "name": "Trevor Gaylor",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002655_LAC_2000",
+      "name": "J.Carney",
+      "position": "K",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7391
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2000",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.0,
+        "rushTDPct": 0.021,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2000",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2000",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

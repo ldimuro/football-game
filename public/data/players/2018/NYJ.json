@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_NYJ_2018",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "passYPG": 134.8,
+        "tdRatio": 0.0091,
+        "intRatio": 0.0364,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6908
+    },
+    {
+      "id": "p_00-0028064_NYJ_2018",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 49.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028825_NYJ_2018",
+      "name": "Terrelle Pryor",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 31.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029159_NYJ_2018",
+      "name": "Jermaine Kearse",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030656_NYJ_2018",
+      "name": "Isaiah Crowell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 52.7,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031023_NYJ_2018",
+      "name": "Quincy Enunwa",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032688_NYJ_2018",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 53.7,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033295_NYJ_2018",
+      "name": "Elijah McGuire",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 34.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033953_NYJ_2018",
+      "name": "Jordan Leggett",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 8.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034164_NYJ_2018",
+      "name": "Trenton Cannon",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 10.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034766_NYJ_2018",
+      "name": "Christopher Herndon",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "recYPG": 35.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034869_NYJ_2018",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "passYPG": 220.4,
+        "tdRatio": 0.0411,
+        "intRatio": 0.0362,
+        "qbr": 39.9
+      },
+      "eraNormFactor": 1.1295
+    },
+    {
+      "id": "p_00-0031492_NYJ_2018",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2018",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.96,
+        "rushTDPct": 0.0269,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2018",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2018",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

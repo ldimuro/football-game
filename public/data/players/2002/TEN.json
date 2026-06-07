@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004694_TEN_2002",
+      "name": "Kevin Dyson",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005883_TEN_2002",
+      "name": "Eddie George",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 70.3,
+        "tdPerGame": 0.722
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010500_TEN_2002",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 68.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011024_TEN_2002",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "passYPG": 217.7,
+        "tdRatio": 0.0437,
+        "intRatio": 0.0297,
+        "qbr": 96.6
+      },
+      "eraNormFactor": 1.2025
+    },
+    {
+      "id": "p_00-0018343_TEN_2002",
+      "name": "Frank Wycheck",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 31.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019659_TEN_2002",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 18.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019976_TEN_2002",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 36.5,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020381_TEN_2002",
+      "name": "Justin McCareins",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011970_TEN_2002",
+      "name": "J.Nedney",
+      "position": "K",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2002",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.79,
+        "rushTDPct": 0.0347,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2002",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2002",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

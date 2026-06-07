@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017162_PIT_2006",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "recYPG": 69.6,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020452_PIT_2006",
+      "name": "Cedrick Wilson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021252_PIT_2006",
+      "name": "Najeh Davenport",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 17.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022250_PIT_2006",
+      "name": "Willie Parker",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 93.4,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022924_PIT_2006",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "passYPG": 235.2,
+        "tdRatio": 0.0383,
+        "intRatio": 0.0489,
+        "qbr": 56.2
+      },
+      "eraNormFactor": 1.3411
+    },
+    {
+      "id": "p_00-0023367_PIT_2006",
+      "name": "Nate Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "recYPG": 39.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023465_PIT_2006",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024240_PIT_2006",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020737_PIT_2006",
+      "name": "J.Reed",
+      "position": "K",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7407
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2006",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.24,
+        "rushTDPct": 0.0341,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2006",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2006",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

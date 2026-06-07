@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003739_DET_2009",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "passYPG": 118.1,
+        "tdRatio": 0.0191,
+        "intRatio": 0.0382,
+        "qbr": 20.8
+      },
+      "eraNormFactor": 0.7212
+    },
+    {
+      "id": "p_00-0019650_DET_2009",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_DET_2009",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 27.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021525_DET_2009",
+      "name": "Casey Fitzsimmons",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 18.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021756_DET_2009",
+      "name": "Will Heller",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 18.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_DET_2009",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 26.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025389_DET_2009",
+      "name": "Calvin Johnson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 70.3,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026204_DET_2009",
+      "name": "Kevin Smith",
+      "position": "RB",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 57.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026498_DET_2009",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "passYPG": 226.7,
+        "tdRatio": 0.0345,
+        "intRatio": 0.0531,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.3844
+    },
+    {
+      "id": "p_00-0026996_DET_2009",
+      "name": "Brandon Pettigrew",
+      "position": "WR",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2009",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2009",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.94,
+        "rushTDPct": 0.022,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2009",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2009",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

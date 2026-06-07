@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030061_ARI_2023",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 26.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_ARI_2023",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 80.0,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033949_ARI_2023",
+      "name": "Joshua Dobbs",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "passYPG": 189.5,
+        "tdRatio": 0.0312,
+        "intRatio": 0.024,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0559
+    },
+    {
+      "id": "p_00-0035228_ARI_2023",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "passYPG": 224.9,
+        "tdRatio": 0.0373,
+        "intRatio": 0.0187,
+        "qbr": 33.9
+      },
+      "eraNormFactor": 1.2532
+    },
+    {
+      "id": "p_00-0035500_ARI_2023",
+      "name": "Greg Dortch",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035662_ARI_2023",
+      "name": "Marquise Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 44.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036936_ARI_2023",
+      "name": "Rondale Moore",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 20.7,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037299_ARI_2023",
+      "name": "Keaontay Ingram",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 10.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037744_ARI_2023",
+      "name": "Trey McBride",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 48.5,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038559_ARI_2023",
+      "name": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 43.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038705_ARI_2023",
+      "name": "Emari Demercado",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 25.8,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_ARI_2023",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2023",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.02,
+        "rushTDPct": 0.0361,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2023",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2023",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

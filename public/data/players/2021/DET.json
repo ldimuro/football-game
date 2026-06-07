@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032464_DET_2021",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033106_DET_2021",
+      "name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "passYPG": 231.8,
+        "tdRatio": 0.0385,
+        "intRatio": 0.0162,
+        "qbr": 29.4
+      },
+      "eraNormFactor": 1.3198
+    },
+    {
+      "id": "p_00-0033948_DET_2021",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 46.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034854_DET_2021",
+      "name": "KhaDarel Hodge",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034930_DET_2021",
+      "name": "Trinity Benson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 14.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035229_DET_2021",
+      "name": "T.J. Hockenson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 48.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035567_DET_2021",
+      "name": "Craig Reynolds",
+      "position": "RB",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 46.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036275_DET_2021",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 47.5,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036277_DET_2021",
+      "name": "Quintez Cephus",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036963_DET_2021",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "recYPG": 57.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036816_DET_2021",
+      "name": "R.Patterson",
+      "position": "K",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2021",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0281,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2021",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2021",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

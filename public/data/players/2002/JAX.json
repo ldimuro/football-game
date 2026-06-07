@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001661_JAX_2002",
+      "name": "Kyle Brady",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002110_JAX_2002",
+      "name": "Mark Brunell",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "passYPG": 185.9,
+        "tdRatio": 0.0241,
+        "intRatio": 0.0169,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0268
+    },
+    {
+      "id": "p_00-0008598_JAX_2002",
+      "name": "Pat Johnson",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "recYPG": 23.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010240_JAX_2002",
+      "name": "Stacey Mack",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 29.1,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011425_JAX_2002",
+      "name": "Pete Mitchell",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "recYPG": 18.9,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014729_JAX_2002",
+      "name": "Bobby Shaw",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "recYPG": 32.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015218_JAX_2002",
+      "name": "Jimmy Smith",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "recYPG": 64.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016098_JAX_2002",
+      "name": "Fred Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 82.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018949_JAX_2002",
+      "name": "T.Seder",
+      "position": "K",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7037
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2002",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.59,
+        "rushTDPct": 0.0418,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2002",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2002",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

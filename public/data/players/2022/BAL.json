@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032775_BAL_2022",
+      "name": "Demarcus Robinson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033118_BAL_2022",
+      "name": "Kenyan Drake",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 40.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034184_BAL_2022",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 47.2,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034753_BAL_2022",
+      "name": "Mark Andrews",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 57.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034796_BAL_2022",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "passYPG": 186.8,
+        "tdRatio": 0.0521,
+        "intRatio": 0.0215,
+        "qbr": 57.9
+      },
+      "eraNormFactor": 1.0226
+    },
+    {
+      "id": "p_00-0034975_BAL_2022",
+      "name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 18.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035249_BAL_2022",
+      "name": "Josh Oliver",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035993_BAL_2022",
+      "name": "Tyler Huntley",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "passYPG": 147.3,
+        "tdRatio": 0.0284,
+        "intRatio": 0.0284,
+        "qbr": 43.8
+      },
+      "eraNormFactor": 0.8064
+    },
+    {
+      "id": "p_00-0036158_BAL_2022",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 64.7,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036331_BAL_2022",
+      "name": "Devin Duvernay",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036550_BAL_2022",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 47.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037838_BAL_2022",
+      "name": "Isaiah Likely",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "recYPG": 26.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2022",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8636
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2022",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.12,
+        "rushTDPct": 0.025,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2022",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2022",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

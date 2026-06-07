@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2018",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "passYPG": 320.6,
+        "tdRatio": 0.0504,
+        "intRatio": 0.0237,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.643
+    },
+    {
+      "id": "p_00-0027793_PIT_2018",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 86.5,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030470_PIT_2018",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032135_PIT_2018",
+      "name": "Jesse James",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_PIT_2018",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 74.8,
+        "tdPerGame": 0.923
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033562_PIT_2018",
+      "name": "Ryan Switzer",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_PIT_2018",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 89.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034331_PIT_2018",
+      "name": "Jaylen Samuels",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 28.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034676_PIT_2018",
+      "name": "James Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2018",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.6957
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2018",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.19,
+        "rushTDPct": 0.0464,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2018",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2018",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

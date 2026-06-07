@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003700_DET_2002",
+      "name": "Germane Crowell",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 22.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006627_DET_2002",
+      "name": "Az-Zahir Hakim",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 54.1,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013712_DET_2002",
+      "name": "Mikhael Ricks",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014450_DET_2002",
+      "name": "Cory Schlesinger",
+      "position": "RB",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 9.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014489_DET_2002",
+      "name": "Bill Schroeder",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015698_DET_2002",
+      "name": "James Stewart",
+      "position": "RB",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 72.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019231_DET_2002",
+      "name": "Larry Foster",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 12.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020308_DET_2002",
+      "name": "Mike McMahon",
+      "position": "QB",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "passYPG": 109.2,
+        "tdRatio": 0.0476,
+        "intRatio": 0.0612,
+        "qbr": 10.7
+      },
+      "eraNormFactor": 0.6032
+    },
+    {
+      "id": "p_00-0020370_DET_2002",
+      "name": "Scotty Anderson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "recYPG": 21.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_DET_2002",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "passYPG": 163.9,
+        "tdRatio": 0.028,
+        "intRatio": 0.0373,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9053
+    },
+    {
+      "id": "p_00-0006800_DET_2002",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2002",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.13,
+        "rushTDPct": 0.0251,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2002",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2002",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

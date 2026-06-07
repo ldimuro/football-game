@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011022_PHI_2005",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "passYPG": 278.6,
+        "tdRatio": 0.0448,
+        "intRatio": 0.0252,
+        "qbr": 67.4
+      },
+      "eraNormFactor": 1.6329
+    },
+    {
+      "id": "p_00-0012478_PHI_2005",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 109.0,
+        "tdPerGame": 0.857
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020308_PHI_2005",
+      "name": "Mike McMahon",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "passYPG": 128.7,
+        "tdRatio": 0.0242,
+        "intRatio": 0.0386,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7543
+    },
+    {
+      "id": "p_00-0021209_PHI_2005",
+      "name": "Lamar Gordon",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 14.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2005",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 51.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021508_PHI_2005",
+      "name": "Greg Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022126_PHI_2005",
+      "name": "L.J. Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023470_PHI_2005",
+      "name": "Reggie Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023512_PHI_2005",
+      "name": "Ryan Moats",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 46.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2005",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7586
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2005",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.95,
+        "rushTDPct": 0.0302,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2005",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2005",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

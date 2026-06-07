@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023436_KC_2016",
+      "name": "Alex Smith",
+      "position": "QB",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "passYPG": 229.6,
+        "tdRatio": 0.0306,
+        "intRatio": 0.0172,
+        "qbr": 74.9
+      },
+      "eraNormFactor": 1.128
+    },
+    {
+      "id": "p_00-0026995_KC_2016",
+      "name": "Jeremy Maclin",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 43.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030155_KC_2016",
+      "name": "Demetrius Harris",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 8.8,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030414_KC_2016",
+      "name": "Spencer Ware",
+      "position": "RB",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 63.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030506_KC_2016",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 70.7,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030668_KC_2016",
+      "name": "Charcandrick West",
+      "position": "RB",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 18.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030669_KC_2016",
+      "name": "Albert Wilson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032128_KC_2016",
+      "name": "Chris Conley",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_KC_2016",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 36.5,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_KC_2016",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2016",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0376,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2016",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2016",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

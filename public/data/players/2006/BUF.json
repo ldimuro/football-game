@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0013232_BUF_2006",
+      "name": "Peerless Price",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "recYPG": 25.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020403_BUF_2006",
+      "name": "Anthony Thomas",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 27.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021166_BUF_2006",
+      "name": "Josh Reed",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021273_BUF_2006",
+      "name": "Robert Royal",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022178_BUF_2006",
+      "name": "Willis McGahee",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 70.7,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022910_BUF_2006",
+      "name": "Lee Evans",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "recYPG": 80.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022912_BUF_2006",
+      "name": "J.P. Losman",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "passYPG": 190.6,
+        "tdRatio": 0.0442,
+        "intRatio": 0.0326,
+        "qbr": 34.2
+      },
+      "eraNormFactor": 1.0868
+    },
+    {
+      "id": "p_00-0023490_BUF_2006",
+      "name": "Roscoe Parrish",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "recYPG": 35.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_BUF_2006",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.92
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2006",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.7,
+        "rushTDPct": 0.0214,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2006",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2006",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

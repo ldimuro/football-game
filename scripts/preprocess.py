@@ -14,7 +14,7 @@ from pathlib import Path
 import nfl_data_py as nfl
 import pandas as pd
 
-YEARS = list(range(2000, 2026))
+YEARS = list(range(2000, 2025))
 OUT = Path(__file__).parent.parent / "public" / "data"
 
 TEAM_ABBR_MAP = {
@@ -43,6 +43,8 @@ def era_factor(series: pd.Series, value: float) -> float:
 def compute_league_averages(weekly: pd.DataFrame) -> dict:
     """Compute per-year league averages for era normalization."""
     avgs = {}
+    weekly = weekly.copy()
+    weekly["games"] = 1
     for year, grp in weekly.groupby("season"):
         qbs = grp[grp["position"] == "QB"].copy()
         qbs = qbs.groupby("player_id").agg({"passing_yards": "sum", "games": "sum"}).query("games >= 4")
@@ -361,7 +363,7 @@ def main():
 
     print("Fetching play-by-play for kicker stats (this may take a while)...")
     try:
-        pbp = nfl.import_pbp_data(YEARS, columns=["season", "posteam", "play_type", "field_goal_result", "kicker_player_name", "kicker_player_id"])
+        pbp = nfl.import_pbp_data(YEARS, columns=["season", "posteam", "play_type", "field_goal_result", "kicker_player_name", "kicker_player_id"], include_participation=False)
         process_kickers(pbp, roster_map)
     except Exception as e:
         print(f"Warning: Could not process kicker data: {e}")

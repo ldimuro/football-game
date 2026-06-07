@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001281_NE_2000",
+      "name": "Eric Bjornson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001361_NE_2000",
+      "name": "Drew Bledsoe",
+      "position": "QB",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "passYPG": 202.9,
+        "tdRatio": 0.0323,
+        "intRatio": 0.0247,
+        "qbr": 43.5
+      },
+      "eraNormFactor": 1.2753
+    },
+    {
+      "id": "p_00-0002068_NE_2000",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 59.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002713_NE_2000",
+      "name": "Tony Carter",
+      "position": "RB",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 6.0,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2000",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 38.0,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006043_NE_2000",
+      "name": "Terry Glenn",
+      "position": "WR",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 57.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014211_NE_2000",
+      "name": "Rod Rutledge",
+      "position": "WR",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 11.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014918_NE_2000",
+      "name": "Tony Simmons",
+      "position": "WR",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019722_NE_2000",
+      "name": "J.R. Redmond",
+      "position": "RB",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 36.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_NE_2000",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2000",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.29,
+        "rushTDPct": 0.0213,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2000",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2000",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

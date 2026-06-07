@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029293_JAX_2021",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 48.9,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030525_JAX_2021",
+      "name": "Tavon Austin",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031045_JAX_2021",
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 23.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031951_JAX_2021",
+      "name": "James O'Shaughnessy",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032951_JAX_2021",
+      "name": "Laquon Treadwell",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 36.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033572_JAX_2021",
+      "name": "Jamal Agnew",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033854_JAX_2021",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 13.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035831_JAX_2021",
+      "name": "James Robinson",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 54.8,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036268_JAX_2021",
+      "name": "Laviska Shenault",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "recYPG": 38.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036971_JAX_2021",
+      "name": "Trevor Lawrence",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "passYPG": 214.2,
+        "tdRatio": 0.0199,
+        "intRatio": 0.0282,
+        "qbr": 14.7
+      },
+      "eraNormFactor": 1.2196
+    },
+    {
+      "id": "p_00-0035189_JAX_2021",
+      "name": "M.Wright",
+      "position": "K",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.7778
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2021",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0332,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2021",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2021",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

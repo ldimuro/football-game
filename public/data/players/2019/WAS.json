@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025394_WAS_2019",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 59.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028986_WAS_2019",
+      "name": "Case Keenum",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "passYPG": 170.7,
+        "tdRatio": 0.0445,
+        "intRatio": 0.0202,
+        "qbr": 46.8
+      },
+      "eraNormFactor": 0.8191
+    },
+    {
+      "id": "p_00-0030404_WAS_2019",
+      "name": "Chris Thompson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 12.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031257_WAS_2019",
+      "name": "Paul Richardson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 24.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033528_WAS_2019",
+      "name": "Jeremy Sprinkle",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 16.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034339_WAS_2019",
+      "name": "Trey Quinn",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 16.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034358_WAS_2019",
+      "name": "Derrius Guice",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 49.0,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034928_WAS_2019",
+      "name": "Steven Sims",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035232_WAS_2019",
+      "name": "Dwayne Haskins",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "passYPG": 151.7,
+        "tdRatio": 0.0345,
+        "intRatio": 0.0345,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.728
+    },
+    {
+      "id": "p_00-0035297_WAS_2019",
+      "name": "Kelvin Harmon",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035659_WAS_2019",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "recYPG": 65.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030098_WAS_2019",
+      "name": "D.Hopkins",
+      "position": "K",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2019",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.45,
+        "rushTDPct": 0.0253,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2019",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2019",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

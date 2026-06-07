@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003739_LV_2007",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "passYPG": 190.3,
+        "tdRatio": 0.027,
+        "intRatio": 0.027,
+        "qbr": 50.6
+      },
+      "eraNormFactor": 1.1937
+    },
+    {
+      "id": "p_00-0019703_LV_2007",
+      "name": "Jerry Porter",
+      "position": "WR",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "recYPG": 44.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019863_LV_2007",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 50.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020462_LV_2007",
+      "name": "LaMont Jordan",
+      "position": "RB",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 49.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021206_LV_2007",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "passYPG": 127.9,
+        "tdRatio": 0.0524,
+        "intRatio": 0.0576,
+        "qbr": 23.5
+      },
+      "eraNormFactor": 0.8023
+    },
+    {
+      "id": "p_00-0021337_LV_2007",
+      "name": "Ronald Curry",
+      "position": "WR",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022093_LV_2007",
+      "name": "Justin Fargas",
+      "position": "RB",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 72.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025425_LV_2007",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2007",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.7188
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2007",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0217,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2007",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2007",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

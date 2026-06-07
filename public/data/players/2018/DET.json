@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026498_DET_2018",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "passYPG": 236.1,
+        "tdRatio": 0.0378,
+        "intRatio": 0.0198,
+        "qbr": 56.4
+      },
+      "eraNormFactor": 1.2099
+    },
+    {
+      "id": "p_00-0027325_DET_2018",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 26.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027891_DET_2018",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 50.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029293_DET_2018",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030107_DET_2018",
+      "name": "Theo Riddick",
+      "position": "RB",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 12.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030443_DET_2018",
+      "name": "Levine Toilolo",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031189_DET_2018",
+      "name": "T.J. Jones",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031665_DET_2018",
+      "name": "Zach Zenner",
+      "position": "RB",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 37.9,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032707_DET_2018",
+      "name": "Andy Jones",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033559_DET_2018",
+      "name": "Michael Roberts",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 14.3,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033932_DET_2018",
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "recYPG": 70.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034349_DET_2018",
+      "name": "Kerryon Johnson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 64.1,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DET_2018",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2018",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.11,
+        "rushTDPct": 0.0272,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2018",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2018",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

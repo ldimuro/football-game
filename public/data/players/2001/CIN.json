@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000883_CIN_2001",
+      "name": "Marco Battaglia",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001098_CIN_2001",
+      "name": "Brandon Bennett",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 15.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_CIN_2001",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 82.2,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009311_CIN_2001",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "passYPG": 201.0,
+        "tdRatio": 0.0207,
+        "intRatio": 0.0379,
+        "qbr": 27.6
+      },
+      "eraNormFactor": 1.138
+    },
+    {
+      "id": "p_00-0010859_CIN_2001",
+      "name": "Tony McGee",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014544_CIN_2001",
+      "name": "Darnay Scott",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 51.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019455_CIN_2001",
+      "name": "Peter Warrick",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 41.7,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019543_CIN_2001",
+      "name": "Danny Farmer",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019708_CIN_2001",
+      "name": "Ron Dugans",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2001",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2001",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_CIN_2001",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6071
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2001",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.88,
+        "rushTDPct": 0.0249,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2001",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2001",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

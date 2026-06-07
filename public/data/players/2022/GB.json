@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_GB_2022",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "passYPG": 217.4,
+        "tdRatio": 0.048,
+        "intRatio": 0.0221,
+        "qbr": 46.3
+      },
+      "eraNormFactor": 1.1901
+    },
+    {
+      "id": "p_00-0028002_GB_2022",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031325_GB_2022",
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 33.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033293_GB_2022",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 65.9,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033757_GB_2022",
+      "name": "Robert Tonyan",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 27.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034521_GB_2022",
+      "name": "Allen Lazard",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036265_GB_2022",
+      "name": "A.J. Dillon",
+      "position": "RB",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 45.3,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036991_GB_2022",
+      "name": "Amari Rodgers",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037816_GB_2022",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 32.7,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038124_GB_2022",
+      "name": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2022",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2022",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.63,
+        "rushTDPct": 0.0263,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2022",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2022",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

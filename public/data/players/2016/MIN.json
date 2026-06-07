@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027854_MIN_2016",
+      "name": "Sam Bradford",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "passYPG": 258.5,
+        "tdRatio": 0.0362,
+        "intRatio": 0.0091,
+        "qbr": 74.2
+      },
+      "eraNormFactor": 1.27
+    },
+    {
+      "id": "p_00-0027981_MIN_2016",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028198_MIN_2016",
+      "name": "Matt Asiata",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 25.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029683_MIN_2016",
+      "name": "Ronnie Hillman",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 16.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030035_MIN_2016",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "recYPG": 60.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030113_MIN_2016",
+      "name": "Charles D. Johnson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031376_MIN_2016",
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 35.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_MIN_2016",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "recYPG": 69.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029576_MIN_2016",
+      "name": "B.Walsh",
+      "position": "K",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2016",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.17,
+        "rushTDPct": 0.0237,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2016",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2016",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

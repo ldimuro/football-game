@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022084_SF_2014",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 66.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022097_SF_2014",
+      "name": "Brandon Lloyd",
+      "position": "WR",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 24.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023500_SF_2014",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 69.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2014",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026364_SF_2014",
+      "name": "Steve Johnson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 33.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026986_SF_2014",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027974_SF_2014",
+      "name": "Colin Kaepernick",
+      "position": "QB",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "passYPG": 210.6,
+        "tdRatio": 0.0397,
+        "intRatio": 0.0209,
+        "qbr": 52.0
+      },
+      "eraNormFactor": 1.0497
+    },
+    {
+      "id": "p_00-0031045_SF_2014",
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_SF_2014",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8065
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2014",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.63,
+        "rushTDPct": 0.0213,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2014",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2014",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

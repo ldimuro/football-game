@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025418_CAR_2018",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2018",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "passYPG": 242.5,
+        "tdRatio": 0.051,
+        "intRatio": 0.0276,
+        "qbr": 73.0
+      },
+      "eraNormFactor": 1.2427
+    },
+    {
+      "id": "p_00-0027996_CAR_2018",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029572_CAR_2018",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029854_CAR_2018",
+      "name": "C.J. Anderson",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 49.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032055_CAR_2018",
+      "name": "Devin Funchess",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033280_CAR_2018",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 68.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_CAR_2018",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034365_CAR_2018",
+      "name": "Ian Thomas",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 33.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034827_CAR_2018",
+      "name": "D.J. Moore",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "recYPG": 49.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_CAR_2018",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9048
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2018",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.13,
+        "rushTDPct": 0.0409,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2018",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2018",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

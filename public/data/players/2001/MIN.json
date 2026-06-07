@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002721_MIN_2001",
+      "name": "Cris Carter",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 54.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002861_MIN_2001",
+      "name": "Byron Chamberlain",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 41.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003739_MIN_2001",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "passYPG": 237.5,
+        "tdRatio": 0.0383,
+        "intRatio": 0.0355,
+        "qbr": 53.3
+      },
+      "eraNormFactor": 1.3446
+    },
+    {
+      "id": "p_00-0009323_MIN_2001",
+      "name": "Jimmy Kleinsasser",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_MIN_2001",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 77.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013512_MIN_2001",
+      "name": "Jake Reed",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019712_MIN_2001",
+      "name": "Doug Chapman",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 15.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020514_MIN_2001",
+      "name": "Michael Bennett",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 52.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000313_MIN_2001",
+      "name": "G.Anderson",
+      "position": "K",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2001",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.28,
+        "rushTDPct": 0.0266,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2001",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2001",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

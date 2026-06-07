@@ -1,0 +1,207 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000865_DET_2001",
+      "name": "Charlie Batch",
+      "position": "QB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "passYPG": 239.2,
+        "tdRatio": 0.0352,
+        "intRatio": 0.0352,
+        "qbr": 33.9
+      },
+      "eraNormFactor": 1.3542
+    },
+    {
+      "id": "p_00-0003700_DET_2001",
+      "name": "Germane Crowell",
+      "position": "WR",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "recYPG": 57.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004230_DET_2001",
+      "name": "Ty Detmer",
+      "position": "QB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "passYPG": 226.5,
+        "tdRatio": 0.0199,
+        "intRatio": 0.0662,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.2823
+    },
+    {
+      "id": "p_00-0011727_DET_2001",
+      "name": "Johnnie Morton",
+      "position": "WR",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "recYPG": 72.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014450_DET_2001",
+      "name": "Cory Schlesinger",
+      "position": "RB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 9.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015048_DET_2001",
+      "name": "David Sloan",
+      "position": "WR",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "recYPG": 29.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015698_DET_2001",
+      "name": "James Stewart",
+      "position": "RB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 62.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017218_DET_2001",
+      "name": "Lamont Warren",
+      "position": "RB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 11.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019231_DET_2001",
+      "name": "Larry Foster",
+      "position": "WR",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019610_DET_2001",
+      "name": "Reuben Droughns",
+      "position": "RB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 18.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020308_DET_2001",
+      "name": "Mike McMahon",
+      "position": "QB",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "passYPG": 95.9,
+        "tdRatio": 0.0261,
+        "intRatio": 0.0087,
+        "qbr": 23.8
+      },
+      "eraNormFactor": 0.5429
+    },
+    {
+      "id": "p_00-0020370_DET_2001",
+      "name": "Scotty Anderson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "recYPG": 26.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2001",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.7
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2001",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.98,
+        "rushTDPct": 0.0228,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2001",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2001",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

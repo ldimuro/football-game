@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002068_NE_2006",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_NE_2006",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 49.0,
+        "tdPerGame": 0.789
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2006",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 11.0,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2006",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "passYPG": 224.1,
+        "tdRatio": 0.0456,
+        "intRatio": 0.0252,
+        "qbr": 92.8
+      },
+      "eraNormFactor": 1.2778
+    },
+    {
+      "id": "p_00-0021154_NE_2006",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021163_NE_2006",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 38.6,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021176_NE_2006",
+      "name": "Reche Caldwell",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 49.3,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022102_NE_2006",
+      "name": "Doug Gabriel",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022943_NE_2006",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "recYPG": 46.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024236_NE_2006",
+      "name": "Laurence Maroney",
+      "position": "RB",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 48.9,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2006",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8235
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2006",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0379,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2006",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2006",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

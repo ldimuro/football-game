@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2013",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "recYPG": 49.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2013",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "passYPG": 267.9,
+        "tdRatio": 0.0596,
+        "intRatio": 0.0187,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2579
+    },
+    {
+      "id": "p_00-0023437_LAC_2013",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 16.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026019_LAC_2013",
+      "name": "Danny Woodhead",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 28.4,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026182_LAC_2013",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_LAC_2013",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 74.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028020_LAC_2013",
+      "name": "Vincent Brown",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029275_LAC_2013",
+      "name": "Ladarius Green",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2013",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "recYPG": 71.1,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_LAC_2013",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9024
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2013",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.09,
+        "rushTDPct": 0.0202,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2013",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2013",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

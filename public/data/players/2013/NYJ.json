@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022922_NYJ_2013",
+      "name": "Kellen Winslow",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 35.3,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024240_NYJ_2013",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027321_NYJ_2013",
+      "name": "Jeff Cumberland",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027322_NYJ_2013",
+      "name": "David Nelson",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027531_NYJ_2013",
+      "name": "Chris Ivory",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 55.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028049_NYJ_2013",
+      "name": "Clyde Gates",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 20.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2013",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 43.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2013",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028995_NYJ_2013",
+      "name": "Stephen Hill",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030565_NYJ_2013",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "passYPG": 190.4,
+        "tdRatio": 0.0271,
+        "intRatio": 0.0474,
+        "qbr": 12.6
+      },
+      "eraNormFactor": 0.894
+    },
+    {
+      "id": "p_00-0025565_NYJ_2013",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2013",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.38,
+        "rushTDPct": 0.0243,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2013",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2013",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

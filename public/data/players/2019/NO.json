@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2019",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "passYPG": 265.6,
+        "tdRatio": 0.0681,
+        "intRatio": 0.0122,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2745
+    },
+    {
+      "id": "p_00-0025396_NO_2019",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 27.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027061_NO_2019",
+      "name": "Jared Cook",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 50.6,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030216_NO_2019",
+      "name": "Josh Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 16.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030513_NO_2019",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 38.7,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031237_NO_2019",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "passYPG": 153.8,
+        "tdRatio": 0.0459,
+        "intRatio": 0.0102,
+        "qbr": 76.6
+      },
+      "eraNormFactor": 0.738
+    },
+    {
+      "id": "p_00-0032765_NO_2019",
+      "name": "Michael Thomas",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 105.6,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033357_NO_2019",
+      "name": "Taysom Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033906_NO_2019",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 54.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034765_NO_2019",
+      "name": "Tre'Quan Smith",
+      "position": "WR",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "recYPG": 21.3,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032569_NO_2019",
+      "name": "W.Lutz",
+      "position": "K",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8718
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2019",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.35,
+        "rushTDPct": 0.0308,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2019",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2019",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004293_SF_2007",
+      "name": "Trent Dilfer",
+      "position": "QB",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "passYPG": 166.6,
+        "tdRatio": 0.032,
+        "intRatio": 0.0548,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.045
+    },
+    {
+      "id": "p_00-0019663_SF_2007",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "recYPG": 33.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022064_SF_2007",
+      "name": "Arnaz Battle",
+      "position": "WR",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023436_SF_2007",
+      "name": "Alex Smith",
+      "position": "QB",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "passYPG": 130.6,
+        "tdRatio": 0.0104,
+        "intRatio": 0.0207,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8192
+    },
+    {
+      "id": "p_00-0023500_SF_2007",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 73.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2007",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024389_SF_2007",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011970_SF_2007",
+      "name": "J.Nedney",
+      "position": "K",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8947
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2007",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0224,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2007",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2007",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

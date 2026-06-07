@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031236_HOU_2022",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 53.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032208_HOU_2022",
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 18.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032398_HOU_2022",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 36.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033439_HOU_2022",
+      "name": "Pharaoh Brown",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033854_HOU_2022",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 11.2,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033879_HOU_2022",
+      "name": "O.J. Howard",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034364_HOU_2022",
+      "name": "Jordan Akins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 33.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034838_HOU_2022",
+      "name": "Royce Freeman",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 29.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036554_HOU_2022",
+      "name": "Nico Collins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036556_HOU_2022",
+      "name": "Brevin Jordan",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "recYPG": 14.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036898_HOU_2022",
+      "name": "Davis Mills",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "passYPG": 207.9,
+        "tdRatio": 0.0355,
+        "intRatio": 0.0313,
+        "qbr": 0.4
+      },
+      "eraNormFactor": 1.1381
+    },
+    {
+      "id": "p_00-0037258_HOU_2022",
+      "name": "Dameon Pierce",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 72.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032726_HOU_2022",
+      "name": "K.Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9355
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2022",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.71,
+        "rushTDPct": 0.0176,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2022",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2022",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

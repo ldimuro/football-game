@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033009_CIN_2022",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033526_CIN_2022",
+      "name": "Samaje Perine",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033897_CIN_2022",
+      "name": "Joe Mixon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 57.5,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034830_CIN_2022",
+      "name": "Hayden Hurst",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 34.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035341_CIN_2022",
+      "name": "Trenton Irwin",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035771_CIN_2022",
+      "name": "Mitchell Wilcox",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036410_CIN_2022",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 69.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036442_CIN_2022",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "passYPG": 273.5,
+        "tdRatio": 0.0545,
+        "intRatio": 0.0196,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4973
+    },
+    {
+      "id": "p_00-0036900_CIN_2022",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 84.4,
+        "tdPerGame": 0.733
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036854_CIN_2022",
+      "name": "E.McPherson",
+      "position": "K",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8529
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2022",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.89,
+        "rushTDPct": 0.0363,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2022",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2022",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

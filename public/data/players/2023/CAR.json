@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030035_CAR_2023",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 59.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034777_CAR_2023",
+      "name": "DJ Chark",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 37.5,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034830_CAR_2023",
+      "name": "Hayden Hurst",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035243_CAR_2023",
+      "name": "Miles Sanders",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 27.0,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036438_CAR_2023",
+      "name": "Stephen Sullivan",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 12.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036555_CAR_2023",
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 53.1,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036955_CAR_2023",
+      "name": "Terrace Marshall Jr.",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037005_CAR_2023",
+      "name": "Tommy Tremble",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 14.9,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039062_CAR_2023",
+      "name": "Jonathan Mingo",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039150_CAR_2023",
+      "name": "Bryce Young",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "passYPG": 179.8,
+        "tdRatio": 0.0209,
+        "intRatio": 0.019,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0019
+    },
+    {
+      "id": "p_00-0034173_CAR_2023",
+      "name": "E.Pineiro",
+      "position": "K",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2023",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.98,
+        "rushTDPct": 0.0157,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2023",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2023",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

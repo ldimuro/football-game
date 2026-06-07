@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000387_TB_2001",
+      "name": "Reidel Anthony",
+      "position": "WR",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 16.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004640_TB_2001",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 34.0,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006331_TB_2001",
+      "name": "Jacquez Green",
+      "position": "WR",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008442_TB_2001",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "passYPG": 212.2,
+        "tdRatio": 0.0218,
+        "intRatio": 0.0252,
+        "qbr": 48.3
+      },
+      "eraNormFactor": 1.2014
+    },
+    {
+      "id": "p_00-0008561_TB_2001",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 83.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011551_TB_2001",
+      "name": "Dave Moore",
+      "position": "WR",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 19.9,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017847_TB_2001",
+      "name": "Karl Williams",
+      "position": "WR",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006223_TB_2001",
+      "name": "M.Gramatica",
+      "position": "K",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8158
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2001",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.33,
+        "rushTDPct": 0.0394,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2001",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2001",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

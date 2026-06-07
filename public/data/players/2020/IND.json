@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022942_IND_2020",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "passYPG": 263.4,
+        "tdRatio": 0.0441,
+        "intRatio": 0.0187,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4232
+    },
+    {
+      "id": "p_00-0029608_IND_2020",
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 49.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030181_IND_2020",
+      "name": "Jack Doyle",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030710_IND_2020",
+      "name": "Trey Burton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 23.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032980_IND_2020",
+      "name": "Marcus Johnson",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 31.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033217_IND_2020",
+      "name": "Mo Alie-Cox",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033251_IND_2020",
+      "name": "Zach Pascal",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034367_IND_2020",
+      "name": "Nyheim Miller-Hines",
+      "position": "RB",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 26.8,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034400_IND_2020",
+      "name": "Jordan Wilkins",
+      "position": "RB",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 25.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036223_IND_2020",
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 77.9,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036252_IND_2020",
+      "name": "Michael Pittman",
+      "position": "WR",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "recYPG": 42.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035849_IND_2020",
+      "name": "R.Blankenship",
+      "position": "K",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2020",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0429,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2020",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2020",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

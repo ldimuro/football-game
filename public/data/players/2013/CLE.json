@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022178_CLE_2013",
+      "name": "Willis McGahee",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 34.3,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023460_CLE_2013",
+      "name": "Jason Campbell",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "passYPG": 223.9,
+        "tdRatio": 0.0347,
+        "intRatio": 0.0252,
+        "qbr": 22.9
+      },
+      "eraNormFactor": 1.0513
+    },
+    {
+      "id": "p_00-0026000_CLE_2013",
+      "name": "Davone Bess",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027140_CLE_2013",
+      "name": "Chris Ogbonnaya",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 15.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027997_CLE_2013",
+      "name": "Greg Little",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028040_CLE_2013",
+      "name": "Jordan Cameron",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 61.1,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029384_CLE_2013",
+      "name": "Bobby Rainey",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 47.2,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029664_CLE_2013",
+      "name": "Josh Gordon",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "recYPG": 117.6,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029677_CLE_2013",
+      "name": "Brandon Weeden",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "passYPG": 216.4,
+        "tdRatio": 0.0337,
+        "intRatio": 0.0337,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0161
+    },
+    {
+      "id": "p_00-0020972_CLE_2013",
+      "name": "B.Cundiff",
+      "position": "K",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2013",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.97,
+        "rushTDPct": 0.0115,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2013",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2013",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

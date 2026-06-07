@@ -1,0 +1,219 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032688_CAR_2022",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033275_CAR_2022",
+      "name": "P.J. Walker",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "passYPG": 121.8,
+        "tdRatio": 0.0283,
+        "intRatio": 0.0283,
+        "qbr": 16.8
+      },
+      "eraNormFactor": 0.6668
+    },
+    {
+      "id": "p_00-0033280_CAR_2022",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 68.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033925_CAR_2022",
+      "name": "D'Onta Foreman",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 57.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034365_CAR_2022",
+      "name": "Ian Thomas",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034827_CAR_2022",
+      "name": "D.J. Moore",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034855_CAR_2022",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "passYPG": 180.2,
+        "tdRatio": 0.0299,
+        "intRatio": 0.0239,
+        "qbr": 8.0
+      },
+      "eraNormFactor": 0.9865
+    },
+    {
+      "id": "p_00-0034869_CAR_2022",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "passYPG": 190.5,
+        "tdRatio": 0.05,
+        "intRatio": 0.0214,
+        "qbr": 85.1
+      },
+      "eraNormFactor": 1.0429
+    },
+    {
+      "id": "p_00-0036268_CAR_2022",
+      "name": "Laviska Shenault",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036555_CAR_2022",
+      "name": "Chuba Hubbard",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 38.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036572_CAR_2022",
+      "name": "Shi Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 19.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036955_CAR_2022",
+      "name": "Terrace Marshall",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 37.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037005_CAR_2022",
+      "name": "Tommy Tremble",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "recYPG": 12.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034173_CAR_2022",
+      "name": "E.Pineiro",
+      "position": "K",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2022",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.58,
+        "rushTDPct": 0.0331,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2022",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2022",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

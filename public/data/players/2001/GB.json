@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001627_GB_2001",
+      "name": "Corey Bradford",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 36.7,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004541_GB_2001",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 16.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005106_GB_2001",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "passYPG": 248.4,
+        "tdRatio": 0.0617,
+        "intRatio": 0.0377,
+        "qbr": 89.8
+      },
+      "eraNormFactor": 1.4063
+    },
+    {
+      "id": "p_00-0005562_GB_2001",
+      "name": "Antonio Freeman",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 53.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006305_GB_2001",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 87.1,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009829_GB_2001",
+      "name": "Dorsey Levens",
+      "position": "RB",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 10.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014489_GB_2001",
+      "name": "Bill Schroeder",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 61.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019644_GB_2001",
+      "name": "Bubba Franks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 21.3,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020332_GB_2001",
+      "name": "David Martin",
+      "position": "WR",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_GB_2001",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6765
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2001",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0261,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2001",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2001",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

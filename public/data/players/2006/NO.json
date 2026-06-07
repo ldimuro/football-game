@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002586_NO_2006",
+      "name": "Mark Campbell",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 14.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007744_NO_2006",
+      "name": "Joe Horn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 67.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011236_NO_2006",
+      "name": "Billy Miller",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020527_NO_2006",
+      "name": "Deuce McAllister",
+      "position": "RB",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 71.9,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020531_NO_2006",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "passYPG": 278.9,
+        "tdRatio": 0.0456,
+        "intRatio": 0.0189,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5903
+    },
+    {
+      "id": "p_00-0022388_NO_2006",
+      "name": "Terrance Copper",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022929_NO_2006",
+      "name": "Devery Henderson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 69.8,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024217_NO_2006",
+      "name": "Reggie Bush",
+      "position": "RB",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 34.9,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2006",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "recYPG": 82.6,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002655_NO_2006",
+      "name": "J.Carney",
+      "position": "K",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2006",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.89,
+        "rushTDPct": 0.0442,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2006",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2006",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

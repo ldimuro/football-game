@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031280_NO_2023",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "passYPG": 228.1,
+        "tdRatio": 0.0456,
+        "intRatio": 0.0146,
+        "qbr": 65.2
+      },
+      "eraNormFactor": 1.271
+    },
+    {
+      "id": "p_00-0032765_NO_2023",
+      "name": "Michael Thomas",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033357_NO_2023",
+      "name": "Taysom Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033906_NO_2023",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 53.4,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033948_NO_2023",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 23.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034981_NO_2023",
+      "name": "Foster Moreau",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036040_NO_2023",
+      "name": "Juwan Johnson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037239_NO_2023",
+      "name": "Chris Olave",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 70.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037545_NO_2023",
+      "name": "Rashid Shaheed",
+      "position": "WR",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "recYPG": 47.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038551_NO_2023",
+      "name": "Kendre Miller",
+      "position": "RB",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 22.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038905_NO_2023",
+      "name": "B.Grupe",
+      "position": "K",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.8108
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2023",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.63,
+        "rushTDPct": 0.0271,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2023",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2023",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

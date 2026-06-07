@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023500_BUF_2019",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 38.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029000_BUF_2019",
+      "name": "Cole Beasley",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 51.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_BUF_2019",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 69.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032945_BUF_2019",
+      "name": "Duke Williams",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 43.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033466_BUF_2019",
+      "name": "Isaiah McKenzie",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 21.3,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033891_BUF_2019",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034857_BUF_2019",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "passYPG": 197.2,
+        "tdRatio": 0.0394,
+        "intRatio": 0.0178,
+        "qbr": 40.3
+      },
+      "eraNormFactor": 0.9463
+    },
+    {
+      "id": "p_00-0035250_BUF_2019",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 64.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035689_BUF_2019",
+      "name": "Dawson Knox",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "recYPG": 25.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025944_BUF_2019",
+      "name": "S.Hauschka",
+      "position": "K",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2019",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.5,
+        "rushTDPct": 0.0263,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2019",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2019",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

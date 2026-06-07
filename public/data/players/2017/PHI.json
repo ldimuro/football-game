@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025549_PHI_2017",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 10.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_PHI_2017",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 47.2,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027996_PHI_2017",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_PHI_2017",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 53.1,
+        "tdPerGame": 0.632
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029567_PHI_2017",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 150.8,
+        "tdRatio": 0.0531,
+        "intRatio": 0.0145,
+        "qbr": 87.5
+      },
+      "eraNormFactor": 0.7291
+    },
+    {
+      "id": "p_00-0030061_PHI_2017",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030710_PHI_2017",
+      "name": "Trey Burton",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_PHI_2017",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 49.2,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032782_PHI_2017",
+      "name": "Wendell Smallwood",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 21.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032950_PHI_2017",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 253.5,
+        "tdRatio": 0.075,
+        "intRatio": 0.0159,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2257
+    },
+    {
+      "id": "p_00-0033555_PHI_2017",
+      "name": "Mack Hollins",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033725_PHI_2017",
+      "name": "Corey Clement",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 20.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033787_PHI_2017",
+      "name": "J.Elliott",
+      "position": "K",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.878
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2017",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0214,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2017",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2017",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

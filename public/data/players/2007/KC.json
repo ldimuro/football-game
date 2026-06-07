@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0006101_KC_2007",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "recYPG": 73.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007661_KC_2007",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 34.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007835_KC_2007",
+      "name": "Damon Huard",
+      "position": "QB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "passYPG": 205.2,
+        "tdRatio": 0.0331,
+        "intRatio": 0.0392,
+        "qbr": 26.1
+      },
+      "eraNormFactor": 1.2871
+    },
+    {
+      "id": "p_00-0020514_KC_2007",
+      "name": "Michael Bennett",
+      "position": "RB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 18.4,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021976_KC_2007",
+      "name": "Larry Johnson",
+      "position": "RB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 69.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022714_KC_2007",
+      "name": "Kris Wilson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "recYPG": 12.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022754_KC_2007",
+      "name": "Samie Parker",
+      "position": "WR",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024300_KC_2007",
+      "name": "Brodie Croyle",
+      "position": "QB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "passYPG": 136.3,
+        "tdRatio": 0.0268,
+        "intRatio": 0.0268,
+        "qbr": 13.1
+      },
+      "eraNormFactor": 0.855
+    },
+    {
+      "id": "p_00-0024404_KC_2007",
+      "name": "Jeff Webb",
+      "position": "WR",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "recYPG": 28.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025410_KC_2007",
+      "name": "Dwayne Bowe",
+      "position": "WR",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "recYPG": 66.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025535_KC_2007",
+      "name": "Kolby Smith",
+      "position": "RB",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023635_KC_2007",
+      "name": "D.Rayner",
+      "position": "K",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.7037
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2007",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.25,
+        "rushTDPct": 0.0156,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2007",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2007",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

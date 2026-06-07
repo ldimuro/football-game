@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025860_CIN_2013",
+      "name": "BenJarvus Green-Ellis",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 46.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_CIN_2013",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 34.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027918_CIN_2013",
+      "name": "Andrew Hawkins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 24.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027942_CIN_2013",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 85.9,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2013",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "passYPG": 272.2,
+        "tdRatio": 0.0534,
+        "intRatio": 0.0345,
+        "qbr": 84.3
+      },
+      "eraNormFactor": 1.2781
+    },
+    {
+      "id": "p_00-0029293_CIN_2013",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 49.5,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029632_CIN_2013",
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030456_CIN_2013",
+      "name": "Giovani Bernard",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 43.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030549_CIN_2013",
+      "name": "Tyler Eifert",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023482_CIN_2013",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8261
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2013",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.69,
+        "rushTDPct": 0.0277,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2013",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2013",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

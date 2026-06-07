@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027061_LAC_2021",
+      "name": "Jared Cook",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 35.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2021",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 71.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033536_LAC_2021",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 71.6,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_LAC_2021",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 56.9,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034440_LAC_2021",
+      "name": "Justin Jackson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 28.0,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035329_LAC_2021",
+      "name": "Donald Parham",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035414_LAC_2021",
+      "name": "Jalen Guyton",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036355_LAC_2021",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "passYPG": 294.9,
+        "tdRatio": 0.0565,
+        "intRatio": 0.0223,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6791
+    },
+    {
+      "id": "p_00-0036370_LAC_2021",
+      "name": "Joshua Kelley",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036650_LAC_2021",
+      "name": "Larry Rountree",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 10.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036988_LAC_2021",
+      "name": "Josh Palmer",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030098_LAC_2021",
+      "name": "D.Hopkins",
+      "position": "K",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2021",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.34,
+        "rushTDPct": 0.0426,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2021",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2021",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

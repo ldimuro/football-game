@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022165_TB_2012",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023496_TB_2012",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 86.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026993_TB_2012",
+      "name": "Josh Freeman",
+      "position": "QB",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "passYPG": 254.1,
+        "tdRatio": 0.0484,
+        "intRatio": 0.0305,
+        "qbr": 65.9
+      },
+      "eraNormFactor": 1.2388
+    },
+    {
+      "id": "p_00-0027156_TB_2012",
+      "name": "Tiquan Underwood",
+      "position": "WR",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 30.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_TB_2012",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 15.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027702_TB_2012",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 62.2,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028042_TB_2012",
+      "name": "Luke Stocker",
+      "position": "WR",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 13.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_TB_2012",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 90.9,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026138_TB_2012",
+      "name": "C.Barth",
+      "position": "K",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2012",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0312,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2012",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2012",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

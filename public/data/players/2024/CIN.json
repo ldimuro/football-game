@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0034613_CIN_2024",
+      "name": "Tanner Hudson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 17.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034829_CIN_2024",
+      "name": "Mike Gesicki",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 41.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035631_CIN_2024",
+      "name": "Drew Sample",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 9.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036251_CIN_2024",
+      "name": "Zack Moss",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 30.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036410_CIN_2024",
+      "name": "Tee Higgins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 75.9,
+        "tdPerGame": 0.833
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036442_CIN_2024",
+      "name": "Joe Burrow",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "passYPG": 289.3,
+        "tdRatio": 0.066,
+        "intRatio": 0.0138,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.7203
+    },
+    {
+      "id": "p_00-0036900_CIN_2024",
+      "name": "Ja'Marr Chase",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 100.5,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038597_CIN_2024",
+      "name": "Chase Brown",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 61.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038619_CIN_2024",
+      "name": "Andrei Iosivas",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039814_CIN_2024",
+      "name": "Erick All",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 19.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036854_CIN_2024",
+      "name": "E.McPherson",
+      "position": "K",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.7576
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2024",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0289,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2024",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2024",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

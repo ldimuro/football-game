@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022055_CLE_2011",
+      "name": "Seneca Wallace",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "passYPG": 94.5,
+        "tdRatio": 0.0187,
+        "intRatio": 0.0187,
+        "qbr": 15.7
+      },
+      "eraNormFactor": 0.4759
+    },
+    {
+      "id": "p_00-0022943_CLE_2011",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 31.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023176_CLE_2011",
+      "name": "Josh Cribbs",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023506_CLE_2011",
+      "name": "Alex Smith",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 14.6,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026123_CLE_2011",
+      "name": "Evan Moore",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026367_CLE_2011",
+      "name": "Peyton Hillis",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 58.7,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026739_CLE_2011",
+      "name": "Jordan Norwood",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027026_CLE_2011",
+      "name": "Mohamed Massaquoi",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 27.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027666_CLE_2011",
+      "name": "Montario Hardesty",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 29.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027688_CLE_2011",
+      "name": "Colt McCoy",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "passYPG": 210.2,
+        "tdRatio": 0.0302,
+        "intRatio": 0.0238,
+        "qbr": 23.2
+      },
+      "eraNormFactor": 1.0585
+    },
+    {
+      "id": "p_00-0027997_CLE_2011",
+      "name": "Greg Little",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "recYPG": 44.3,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_CLE_2011",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8276
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2011",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.69,
+        "rushTDPct": 0.0096,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2011",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2011",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027981_NYG_2021",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 17.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030520_NYG_2021",
+      "name": "Mike Glennon",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "passYPG": 131.7,
+        "tdRatio": 0.024,
+        "intRatio": 0.0599,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7499
+    },
+    {
+      "id": "p_00-0032385_NYG_2021",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 52.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032972_NYG_2021",
+      "name": "Devontae Booker",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 37.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033460_NYG_2021",
+      "name": "John Ross",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_NYG_2021",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033932_NYG_2021",
+      "name": "Kenny Golladay",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034844_NYG_2021",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 45.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035535_NYG_2021",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035710_NYG_2021",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "passYPG": 220.7,
+        "tdRatio": 0.0277,
+        "intRatio": 0.0194,
+        "qbr": 38.7
+      },
+      "eraNormFactor": 1.2566
+    },
+    {
+      "id": "p_00-0036254_NYG_2021",
+      "name": "Collin Johnson",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 15.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036913_NYG_2021",
+      "name": "Kadarius Toney",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "recYPG": 46.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_NYG_2021",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8788
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2021",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.03,
+        "rushTDPct": 0.0191,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2021",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2021",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

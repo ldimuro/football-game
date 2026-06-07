@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031687_MIA_2022",
+      "name": "Raheem Mostert",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 55.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033040_MIA_2022",
+      "name": "Tyreek Hill",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 98.8,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034487_MIA_2022",
+      "name": "Trent Sherfield",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 24.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034681_MIA_2022",
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034798_MIA_2022",
+      "name": "Durham Smythe",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 11.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034829_MIA_2022",
+      "name": "Mike Gesicki",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036212_MIA_2022",
+      "name": "Tua Tagovailoa",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "passYPG": 272.9,
+        "tdRatio": 0.0625,
+        "intRatio": 0.02,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.494
+    },
+    {
+      "id": "p_00-0036613_MIA_2022",
+      "name": "Jaylen Waddle",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 77.8,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037327_MIA_2022",
+      "name": "Skylar Thompson",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "passYPG": 94.2,
+        "tdRatio": 0.0133,
+        "intRatio": 0.0333,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.5157
+    },
+    {
+      "id": "p_00-0034794_MIA_2022",
+      "name": "J.Sanders",
+      "position": "K",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8286
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2022",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.21,
+        "rushTDPct": 0.0317,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2022",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2022",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

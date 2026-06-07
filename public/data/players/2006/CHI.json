@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003035_CHI_2006",
+      "name": "Desmond Clark",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011795_CHI_2006",
+      "name": "Muhsin Muhammad",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 50.3,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_CHI_2006",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 79.3,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022121_CHI_2006",
+      "name": "Rex Grossman",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "passYPG": 199.4,
+        "tdRatio": 0.0455,
+        "intRatio": 0.0402,
+        "qbr": 20.5
+      },
+      "eraNormFactor": 1.137
+    },
+    {
+      "id": "p_00-0022807_CHI_2006",
+      "name": "Bernard Berrian",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 59.0,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023429_CHI_2006",
+      "name": "Rashied Davis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023439_CHI_2006",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 41.7,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2006",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.9048
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2006",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.88,
+        "rushTDPct": 0.0315,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2006",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2006",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

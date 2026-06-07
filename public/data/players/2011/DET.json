@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021182_DET_2011",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 24.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021999_DET_2011",
+      "name": "Nate Burleson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "recYPG": 48.3,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024276_DET_2011",
+      "name": "Tony Scheffler",
+      "position": "WR",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025389_DET_2011",
+      "name": "Calvin Johnson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "recYPG": 111.6,
+        "tdPerGame": 1.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026204_DET_2011",
+      "name": "Kevin Smith",
+      "position": "RB",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 48.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026498_DET_2011",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "passYPG": 322.4,
+        "tdRatio": 0.0615,
+        "intRatio": 0.0251,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6235
+    },
+    {
+      "id": "p_00-0026996_DET_2011",
+      "name": "Brandon Pettigrew",
+      "position": "WR",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "recYPG": 48.6,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027214_DET_2011",
+      "name": "Keiland Williams",
+      "position": "RB",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027880_DET_2011",
+      "name": "Jahvid Best",
+      "position": "RB",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 65.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027982_DET_2011",
+      "name": "Titus Young",
+      "position": "WR",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2011",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8276
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2011",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.23,
+        "rushTDPct": 0.0297,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2011",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2011",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

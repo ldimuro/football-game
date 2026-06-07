@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001218_CAR_2000",
+      "name": "Steve Beuerlein",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "passYPG": 230.7,
+        "tdRatio": 0.0363,
+        "intRatio": 0.0344,
+        "qbr": 53.3
+      },
+      "eraNormFactor": 1.45
+    },
+    {
+      "id": "p_00-0001224_CAR_2000",
+      "name": "Tim Biakabutuka",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 52.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002469_CAR_2000",
+      "name": "Isaac Byrd",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007144_CAR_2000",
+      "name": "Donald Hayes",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "recYPG": 60.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010333_CAR_2000",
+      "name": "Kris Mangum",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "recYPG": 17.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011795_CAR_2000",
+      "name": "Muhsin Muhammad",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "recYPG": 73.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017109_CAR_2000",
+      "name": "Wesley Walls",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "recYPG": 51.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011970_CAR_2000",
+      "name": "J.Nedney",
+      "position": "K",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8824
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2000",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.28,
+        "rushTDPct": 0.0197,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2000",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2000",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

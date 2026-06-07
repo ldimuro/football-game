@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032464_DET_2022",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 38.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033106_DET_2022",
+      "name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "passYPG": 261.1,
+        "tdRatio": 0.0494,
+        "intRatio": 0.0119,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4294
+    },
+    {
+      "id": "p_00-0033943_DET_2022",
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 39.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033948_DET_2022",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 62.7,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034440_DET_2022",
+      "name": "Justin Jackson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 14.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034777_DET_2022",
+      "name": "D.J. Chark",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035229_DET_2022",
+      "name": "T.J. Hockenson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036275_DET_2022",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 38.7,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036754_DET_2022",
+      "name": "Brock Wright",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036963_DET_2022",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "recYPG": 72.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034084_DET_2022",
+      "name": "M.Badgley",
+      "position": "K",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2022",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.54,
+        "rushTDPct": 0.0479,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2022",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2022",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

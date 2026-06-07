@@ -1,0 +1,207 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026345_SF_2017",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 62.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026625_SF_2017",
+      "name": "Brian Hoyer",
+      "position": "QB",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "passYPG": 117.0,
+        "tdRatio": 0.019,
+        "intRatio": 0.019,
+        "qbr": 22.8
+      },
+      "eraNormFactor": 0.5657
+    },
+    {
+      "id": "p_00-0028116_SF_2017",
+      "name": "Aldrick Robinson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028903_SF_2017",
+      "name": "Garrett Celek",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 25.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030068_SF_2017",
+      "name": "Marquise Goodwin",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 60.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031045_SF_2017",
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 58.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031345_SF_2017",
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "passYPG": 260.0,
+        "tdRatio": 0.0393,
+        "intRatio": 0.0281,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2572
+    },
+    {
+      "id": "p_00-0033288_SF_2017",
+      "name": "George Kittle",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 34.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033292_SF_2017",
+      "name": "Trent Taylor",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 28.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033307_SF_2017",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033308_SF_2017",
+      "name": "Matt Breida",
+      "position": "RB",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 29.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033936_SF_2017",
+      "name": "C.J. Beathard",
+      "position": "QB",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "passYPG": 238.3,
+        "tdRatio": 0.0179,
+        "intRatio": 0.0268,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1522
+    },
+    {
+      "id": "p_00-0023252_SF_2017",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.9512
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2017",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.07,
+        "rushTDPct": 0.0368,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2017",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2017",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

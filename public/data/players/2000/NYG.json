@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000745_NYG_2000",
+      "name": "Tiki Barber",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 61.1,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003292_NYG_2000",
+      "name": "Kerry Collins",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "passYPG": 220.7,
+        "tdRatio": 0.0436,
+        "intRatio": 0.0291,
+        "qbr": 90.9
+      },
+      "eraNormFactor": 1.3872
+    },
+    {
+      "id": "p_00-0007468_NYG_2000",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "recYPG": 59.2,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008962_NYG_2000",
+      "name": "Joe Jurevicius",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011425_NYG_2000",
+      "name": "Pete Mitchell",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.7,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016550_NYG_2000",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "recYPG": 63.8,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019643_NYG_2000",
+      "name": "Ron Dayne",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 46.7,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019662_NYG_2000",
+      "name": "Ron Dixon",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "recYPG": 12.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003841_NYG_2000",
+      "name": "B.Daluiso",
+      "position": "K",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2000",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.84,
+        "rushTDPct": 0.0265,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2000",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2000",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

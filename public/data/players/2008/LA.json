@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021940_LA_2008",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "LA",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8611
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2008",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.94,
+        "rushTDPct": 0.0192,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

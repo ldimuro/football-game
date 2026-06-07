@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002159_BUF_2000",
+      "name": "Shawn Bryson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 39.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005363_BUF_2000",
+      "name": "Doug Flutie",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "passYPG": 165.6,
+        "tdRatio": 0.0356,
+        "intRatio": 0.0089,
+        "qbr": 78.4
+      },
+      "eraNormFactor": 1.0408
+    },
+    {
+      "id": "p_00-0008612_BUF_2000",
+      "name": "Rob Johnson",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "passYPG": 173.7,
+        "tdRatio": 0.0438,
+        "intRatio": 0.0219,
+        "qbr": 30.4
+      },
+      "eraNormFactor": 1.0918
+    },
+    {
+      "id": "p_00-0010786_BUF_2000",
+      "name": "Jeremy McDaniel",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 43.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011770_BUF_2000",
+      "name": "Eric Moulds",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 85.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013232_BUF_2000",
+      "name": "Peerless Price",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 46.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013728_BUF_2000",
+      "name": "Jay Riemersma",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015091_BUF_2000",
+      "name": "Antowain Smith",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 35.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019484_BUF_2000",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 29.0,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002975_BUF_2000",
+      "name": "S.Christie",
+      "position": "K",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2000",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.1,
+        "rushTDPct": 0.0223,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2000",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2000",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

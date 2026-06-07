@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022921_ARI_2019",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028112_ARI_2019",
+      "name": "Charles Clay",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031868_ARI_2019",
+      "name": "Damiere Byrd",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032187_ARI_2019",
+      "name": "David Johnson",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 28.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033111_ARI_2019",
+      "name": "Pharoh Cooper",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034681_ARI_2019",
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 30.3,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034775_ARI_2019",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 54.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035228_ARI_2019",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "passYPG": 234.5,
+        "tdRatio": 0.0371,
+        "intRatio": 0.0223,
+        "qbr": 50.4
+      },
+      "eraNormFactor": 1.1253
+    },
+    {
+      "id": "p_00-0035287_ARI_2019",
+      "name": "KeeSean Johnson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 18.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033862_ARI_2019",
+      "name": "Z.Gonzalez",
+      "position": "K",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2019",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.98,
+        "rushTDPct": 0.0459,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2019",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2019",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022093_LV_2009",
+      "name": "Justin Fargas",
+      "position": "RB",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 40.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024408_LV_2009",
+      "name": "Bruce Gradkowski",
+      "position": "QB",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "passYPG": 143.4,
+        "tdRatio": 0.0403,
+        "intRatio": 0.0201,
+        "qbr": 42.7
+      },
+      "eraNormFactor": 0.8757
+    },
+    {
+      "id": "p_00-0025388_LV_2009",
+      "name": "JaMarcus Russell",
+      "position": "QB",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "passYPG": 107.5,
+        "tdRatio": 0.0121,
+        "intRatio": 0.0445,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6565
+    },
+    {
+      "id": "p_00-0025425_LV_2009",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "recYPG": 53.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025486_LV_2009",
+      "name": "Johnnie Lee Higgins",
+      "position": "WR",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "recYPG": 26.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_LV_2009",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 39.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026144_LV_2009",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 29.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026366_LV_2009",
+      "name": "Chaz Schilens",
+      "position": "WR",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_LV_2009",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "recYPG": 11.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027089_LV_2009",
+      "name": "Louis Murphy",
+      "position": "WR",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2009",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8966
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2009",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.017,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2009",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2009",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0035700_GB_2024",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 78.3,
+        "tdPerGame": 0.889
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036264_GB_2024",
+      "name": "Jordan Love",
+      "position": "QB",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "passYPG": 225.1,
+        "tdRatio": 0.0546,
+        "intRatio": 0.0306,
+        "qbr": 83.4
+      },
+      "eraNormFactor": 1.3386
+    },
+    {
+      "id": "p_00-0037091_GB_2024",
+      "name": "Bo Melton",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 8.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037816_GB_2024",
+      "name": "Romeo Doubs",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 43.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038124_GB_2024",
+      "name": "Christian Watson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 44.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038393_GB_2024",
+      "name": "Dontayvion Wicks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 25.2,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038685_GB_2024",
+      "name": "Christopher Brooks",
+      "position": "RB",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 15.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038797_GB_2024",
+      "name": "Emanuel Wilson",
+      "position": "RB",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 28.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038996_GB_2024",
+      "name": "Tucker Kraft",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039146_GB_2024",
+      "name": "Jayden Reed",
+      "position": "WR",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "recYPG": 50.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_GB_2024",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.825
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2024",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.72,
+        "rushTDPct": 0.0436,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2024",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2024",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

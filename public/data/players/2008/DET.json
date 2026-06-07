@@ -1,0 +1,171 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003739_DET_2008",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "passYPG": 157.2,
+        "tdRatio": 0.0348,
+        "intRatio": 0.0522,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8644
+    },
+    {
+      "id": "p_00-0009311_DET_2008",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "passYPG": 189.5,
+        "tdRatio": 0.0417,
+        "intRatio": 0.0417,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.042
+    },
+    {
+      "id": "p_00-0020407_DET_2008",
+      "name": "Rudi Johnson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 18.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021981_DET_2008",
+      "name": "Shaun McDonald",
+      "position": "WR",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022706_DET_2008",
+      "name": "Michael Gaines",
+      "position": "WR",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022909_DET_2008",
+      "name": "Roy Williams",
+      "position": "WR",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023578_DET_2008",
+      "name": "Dan Orlovsky",
+      "position": "QB",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "passYPG": 161.6,
+        "tdRatio": 0.0314,
+        "intRatio": 0.0314,
+        "qbr": 32.6
+      },
+      "eraNormFactor": 0.8886
+    },
+    {
+      "id": "p_00-0025389_DET_2008",
+      "name": "Calvin Johnson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "recYPG": 83.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026204_DET_2008",
+      "name": "Kevin Smith",
+      "position": "RB",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 60.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2008",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.9545
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2008",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.76,
+        "rushTDPct": 0.0284,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2008",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2008",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

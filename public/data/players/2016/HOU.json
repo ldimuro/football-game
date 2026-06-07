@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029615_HOU_2016",
+      "name": "Lamar Miller",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 76.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029682_HOU_2016",
+      "name": "Brock Osweiler",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "passYPG": 195.4,
+        "tdRatio": 0.0296,
+        "intRatio": 0.033,
+        "qbr": 11.7
+      },
+      "eraNormFactor": 0.96
+    },
+    {
+      "id": "p_00-0030108_HOU_2016",
+      "name": "Ryan Griffin",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_HOU_2016",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 60.3,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031075_HOU_2016",
+      "name": "Alfred Blue",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 26.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031302_HOU_2016",
+      "name": "C.J. Fiedorowicz",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 37.1,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031560_HOU_2016",
+      "name": "Jaelen Strong",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033069_HOU_2016",
+      "name": "Braxton Miller",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 11.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033127_HOU_2016",
+      "name": "Will Fuller",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "recYPG": 43.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_HOU_2016",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8696
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2016",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0191,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2016",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2016",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

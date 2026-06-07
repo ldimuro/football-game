@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021940_LA_2009",
+      "name": "Josh.Brown",
+      "position": "K",
+      "team": "LA",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.7917
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2009",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.35,
+        "rushTDPct": 0.0097,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021678_DAL_2011",
+      "name": "Tony Romo",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "passYPG": 261.5,
+        "tdRatio": 0.0594,
+        "intRatio": 0.0192,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3169
+    },
+    {
+      "id": "p_00-0022127_DAL_2011",
+      "name": "Jason Witten",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 58.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023921_DAL_2011",
+      "name": "Miles Austin",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025462_DAL_2011",
+      "name": "Laurent Robinson",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 61.3,
+        "tdPerGame": 0.786
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026162_DAL_2011",
+      "name": "Felix Jones",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 47.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_DAL_2011",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026262_DAL_2011",
+      "name": "Tashard Choice",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 11.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026780_DAL_2011",
+      "name": "Kevin Ogletree",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027902_DAL_2011",
+      "name": "Dez Bryant",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "recYPG": 61.9,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028009_DAL_2011",
+      "name": "DeMarco Murray",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 69.0,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028660_DAL_2011",
+      "name": "D.Bailey",
+      "position": "K",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8649
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2011",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.43,
+        "rushTDPct": 0.0123,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2011",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2011",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

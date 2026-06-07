@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_LV_2012",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "passYPG": 267.9,
+        "tdRatio": 0.0389,
+        "intRatio": 0.0248,
+        "qbr": 61.3
+      },
+      "eraNormFactor": 1.3061
+    },
+    {
+      "id": "p_00-0024297_LV_2012",
+      "name": "Derek Hagan",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026144_LV_2012",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 58.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_LV_2012",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027080_LV_2012",
+      "name": "Mike Goodson",
+      "position": "RB",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 20.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027135_LV_2012",
+      "name": "Brandon Myers",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 50.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028086_LV_2012",
+      "name": "Denarius Moore",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 49.4,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029129_LV_2012",
+      "name": "Rod Streater",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029702_LV_2012",
+      "name": "Juron Criner",
+      "position": "WR",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2012",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.9118
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2012",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.78,
+        "rushTDPct": 0.0106,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2012",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2012",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

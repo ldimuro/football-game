@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007024_IND_2004",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "recYPG": 67.1,
+        "tdPerGame": 0.833
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008241_IND_2004",
+      "name": "Edgerrin James",
+      "position": "RB",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 91.7,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2004",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "passYPG": 291.8,
+        "tdRatio": 0.0927,
+        "intRatio": 0.021,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6581
+    },
+    {
+      "id": "p_00-0013080_IND_2004",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015754_IND_2004",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "recYPG": 69.1,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019863_IND_2004",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 20.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2004",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "recYPG": 81.4,
+        "tdPerGame": 0.778
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2004",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016830_IND_2004",
+      "name": "M.Vanderjagt",
+      "position": "K",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7778
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2004",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.24,
+        "rushTDPct": 0.0279,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2004",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2004",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

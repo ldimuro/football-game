@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033553_ARI_2024",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 68.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035228_ARI_2024",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "passYPG": 226.5,
+        "tdRatio": 0.0388,
+        "intRatio": 0.0203,
+        "qbr": 88.6
+      },
+      "eraNormFactor": 1.3469
+    },
+    {
+      "id": "p_00-0035500_ARI_2024",
+      "name": "Greg Dortch",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 20.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037744_ARI_2024",
+      "name": "Trey McBride",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 71.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038559_ARI_2024",
+      "name": "Michael Wilson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039041_ARI_2024",
+      "name": "Elijah Higgins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 12.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039849_ARI_2024",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 52.1,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039921_ARI_2024",
+      "name": "Trey Benson",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 24.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038567_ARI_2024",
+      "name": "C.Ryland",
+      "position": "K",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8947
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2024",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.29,
+        "rushTDPct": 0.0389,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2024",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2024",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

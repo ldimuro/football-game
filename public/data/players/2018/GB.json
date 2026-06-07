@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_GB_2018",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "passYPG": 277.6,
+        "tdRatio": 0.0419,
+        "intRatio": 0.0034,
+        "qbr": 83.0
+      },
+      "eraNormFactor": 1.4226
+    },
+    {
+      "id": "p_00-0027696_GB_2018",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 39.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027985_GB_2018",
+      "name": "Lance Kendricks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 13.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028002_GB_2018",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031381_GB_2018",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 92.4,
+        "tdPerGame": 0.867
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032200_GB_2018",
+      "name": "Ty Montgomery",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032626_GB_2018",
+      "name": "Geronimo Allison",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 60.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033293_GB_2018",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 60.7,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033948_GB_2018",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 29.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034272_GB_2018",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 38.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034279_GB_2018",
+      "name": "Equanimeous St. Brown",
+      "position": "WR",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2018",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8108
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2018",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.01,
+        "rushTDPct": 0.042,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2018",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2018",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

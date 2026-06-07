@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004915_SEA_2005",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "recYPG": 55.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2005",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "passYPG": 219.1,
+        "tdRatio": 0.0506,
+        "intRatio": 0.0199,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2842
+    },
+    {
+      "id": "p_00-0008962_SEA_2005",
+      "name": "Joe Jurevicius",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "recYPG": 45.8,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019647_SEA_2005",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 111.4,
+        "tdPerGame": 1.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019663_SEA_2005",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "recYPG": 83.3,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021159_SEA_2005",
+      "name": "Jerramy Stevens",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "recYPG": 38.7,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_SEA_2005",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 25.8,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022701_SEA_2005",
+      "name": "D.J. Hackett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "recYPG": 44.4,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_SEA_2005",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.697
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2005",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.62,
+        "rushTDPct": 0.051,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2005",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2005",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

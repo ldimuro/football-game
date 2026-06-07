@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017162_PIT_2011",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022811_PIT_2011",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 24.4,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022924_PIT_2011",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "passYPG": 272.9,
+        "tdRatio": 0.0398,
+        "intRatio": 0.0271,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3743
+    },
+    {
+      "id": "p_00-0023465_PIT_2011",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026163_PIT_2011",
+      "name": "Rashard Mendenhall",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 61.9,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026566_PIT_2011",
+      "name": "Isaac Redman",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 35.3,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026901_PIT_2011",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 71.7,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027685_PIT_2011",
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 30.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027793_PIT_2011",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "recYPG": 69.3,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023001_PIT_2011",
+      "name": "S.Suisham",
+      "position": "K",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.7647
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2011",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.51,
+        "rushTDPct": 0.0306,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2011",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2011",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

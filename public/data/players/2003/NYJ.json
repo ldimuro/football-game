@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002962_NYJ_2003",
+      "name": "Wayne Chrebet",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "recYPG": 41.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003396_NYJ_2003",
+      "name": "Curtis Conway",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010442_NYJ_2003",
+      "name": "Curtis Martin",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 81.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016193_NYJ_2003",
+      "name": "Vinny Testaverde",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "passYPG": 197.9,
+        "tdRatio": 0.0354,
+        "intRatio": 0.0101,
+        "qbr": 54.0
+      },
+      "eraNormFactor": 1.2256
+    },
+    {
+      "id": "p_00-0019457_NYJ_2003",
+      "name": "Anthony Becht",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "recYPG": 23.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019559_NYJ_2003",
+      "name": "Chad Pennington",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "passYPG": 213.9,
+        "tdRatio": 0.0438,
+        "intRatio": 0.0404,
+        "qbr": 72.6
+      },
+      "eraNormFactor": 1.3247
+    },
+    {
+      "id": "p_00-0020462_NYJ_2003",
+      "name": "LaMont Jordan",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 15.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020494_NYJ_2003",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "recYPG": 69.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001759_NYJ_2003",
+      "name": "D.Brien",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2003",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0196,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2003",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2003",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

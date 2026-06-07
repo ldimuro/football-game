@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032144_DEN_2020",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 65.7,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032394_DEN_2020",
+      "name": "Nick Vannett",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 8.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033375_DEN_2020",
+      "name": "Tim Patrick",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 49.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034109_DEN_2020",
+      "name": "Phillip Lindsay",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 45.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034370_DEN_2020",
+      "name": "DaeSean Hamilton",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 24.4,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034838_DEN_2020",
+      "name": "Royce Freeman",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 15.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035644_DEN_2020",
+      "name": "Noah Fant",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035704_DEN_2020",
+      "name": "Drew Lock",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "passYPG": 225.6,
+        "tdRatio": 0.0361,
+        "intRatio": 0.0339,
+        "qbr": 24.1
+      },
+      "eraNormFactor": 1.219
+    },
+    {
+      "id": "p_00-0036407_DEN_2020",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 53.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036412_DEN_2020",
+      "name": "K.J. Hamler",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_DEN_2020",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2020",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.34,
+        "rushTDPct": 0.0294,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2020",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2020",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

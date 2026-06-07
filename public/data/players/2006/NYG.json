@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000745_NYG_2006",
+      "name": "Tiki Barber",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 105.8,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016550_NYG_2006",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "recYPG": 45.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_NYG_2006",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "recYPG": 67.3,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021148_NYG_2006",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "recYPG": 40.5,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021174_NYG_2006",
+      "name": "Tim Carter",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022803_NYG_2006",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "passYPG": 200.3,
+        "tdRatio": 0.0492,
+        "intRatio": 0.0346,
+        "qbr": 45.2
+      },
+      "eraNormFactor": 1.1421
+    },
+    {
+      "id": "p_00-0023545_NYG_2006",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 26.9,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_NYG_2006",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2006",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.75,
+        "rushTDPct": 0.0288,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2006",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2006",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

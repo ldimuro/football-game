@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031408_TB_2023",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "recYPG": 76.3,
+        "tdPerGame": 0.737
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2023",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "recYPG": 58.4,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034681_TB_2023",
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 13.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034855_TB_2023",
+      "name": "Baker Mayfield",
+      "position": "QB",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "passYPG": 248.9,
+        "tdRatio": 0.0529,
+        "intRatio": 0.0187,
+        "qbr": 85.3
+      },
+      "eraNormFactor": 1.3869
+    },
+    {
+      "id": "p_00-0037256_TB_2023",
+      "name": "Rachaad White",
+      "position": "RB",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 58.8,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037487_TB_2023",
+      "name": "Deven Thompkins",
+      "position": "WR",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "recYPG": 6.2,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038129_TB_2023",
+      "name": "Cade Otton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "recYPG": 33.8,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039052_TB_2023",
+      "name": "Trey Palmer",
+      "position": "WR",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.211
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035358_TB_2023",
+      "name": "C.McLaughlin",
+      "position": "K",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2023",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.55,
+        "rushTDPct": 0.0166,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2023",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2023",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

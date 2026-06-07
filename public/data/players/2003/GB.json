@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2003",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005106_GB_2003",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "passYPG": 214.4,
+        "tdRatio": 0.0651,
+        "intRatio": 0.0409,
+        "qbr": 86.4
+      },
+      "eraNormFactor": 1.3278
+    },
+    {
+      "id": "p_00-0006305_GB_2003",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 116.9,
+        "tdPerGame": 0.944
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017109_GB_2003",
+      "name": "Wesley Walls",
+      "position": "WR",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 19.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019644_GB_2003",
+      "name": "Bubba Franks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 18.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020428_GB_2003",
+      "name": "Robert Ferguson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 39.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020964_GB_2003",
+      "name": "Tony Fisher",
+      "position": "RB",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 13.9,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021153_GB_2003",
+      "name": "Javon Walker",
+      "position": "WR",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 48.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021252_GB_2003",
+      "name": "Najeh Davenport",
+      "position": "RB",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 30.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_GB_2003",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2003",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.94,
+        "rushTDPct": 0.0347,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2003",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2003",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

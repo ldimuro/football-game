@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023496_TB_2016",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028052_TB_2016",
+      "name": "Cecil Shorts",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 21.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028083_TB_2016",
+      "name": "Jacquizz Rodgers",
+      "position": "RB",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 56.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_TB_2016",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 52.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030147_TB_2016",
+      "name": "Russell Shepard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2016",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 44.0,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031390_TB_2016",
+      "name": "Charles Sims",
+      "position": "RB",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 21.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2016",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 82.6,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031418_TB_2016",
+      "name": "Austin Seferian-Jenkins",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 17.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_TB_2016",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "passYPG": 255.6,
+        "tdRatio": 0.0494,
+        "intRatio": 0.0317,
+        "qbr": 82.5
+      },
+      "eraNormFactor": 1.2558
+    },
+    {
+      "id": "p_00-0032009_TB_2016",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "recYPG": 41.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032741_TB_2016",
+      "name": "Peyton Barber",
+      "position": "RB",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 24.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033102_TB_2016",
+      "name": "R.Aguayo",
+      "position": "K",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.7097
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2016",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.0177,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2016",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2016",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

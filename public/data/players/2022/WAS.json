@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031260_WAS_2022",
+      "name": "Logan Thomas",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031800_WAS_2022",
+      "name": "Taylor Heinicke",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "passYPG": 206.6,
+        "tdRatio": 0.0463,
+        "intRatio": 0.0232,
+        "qbr": 35.9
+      },
+      "eraNormFactor": 1.131
+    },
+    {
+      "id": "p_00-0032950_WAS_2022",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "passYPG": 219.4,
+        "tdRatio": 0.0399,
+        "intRatio": 0.0326,
+        "qbr": 3.4
+      },
+      "eraNormFactor": 1.2011
+    },
+    {
+      "id": "p_00-0032975_WAS_2022",
+      "name": "Jonathan Williams",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 21.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_WAS_2022",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "recYPG": 38.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035659_WAS_2022",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "recYPG": 70.1,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036328_WAS_2022",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 36.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036628_WAS_2022",
+      "name": "John Bates",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037741_WAS_2022",
+      "name": "Jahan Dotson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.583
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037746_WAS_2022",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 66.4,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035192_WAS_2022",
+      "name": "J.Slye",
+      "position": "K",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2022",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.98,
+        "rushTDPct": 0.0167,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2022",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2022",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

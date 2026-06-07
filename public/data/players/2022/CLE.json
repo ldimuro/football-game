@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031544_CLE_2022",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 68.2,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033119_CLE_2022",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "passYPG": 186.3,
+        "tdRatio": 0.0325,
+        "intRatio": 0.0163,
+        "qbr": 64.1
+      },
+      "eraNormFactor": 1.0199
+    },
+    {
+      "id": "p_00-0033537_CLE_2022",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "passYPG": 183.7,
+        "tdRatio": 0.0412,
+        "intRatio": 0.0294,
+        "qbr": 10.2
+      },
+      "eraNormFactor": 1.0057
+    },
+    {
+      "id": "p_00-0033885_CLE_2022",
+      "name": "David Njoku",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 44.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033923_CLE_2022",
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 27.5,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034791_CLE_2022",
+      "name": "Nick Chubb",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 89.7,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036232_CLE_2022",
+      "name": "Harrison Bryant",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 17.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036233_CLE_2022",
+      "name": "Donovan Peoples-Jones",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 49.4,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037257_CLE_2022",
+      "name": "David Bell",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 15.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038097_CLE_2022",
+      "name": "C.York",
+      "position": "K",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2022",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.68,
+        "rushTDPct": 0.0357,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2022",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2022",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

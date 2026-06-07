@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025418_CAR_2019",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029572_CAR_2019",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "recYPG": 18.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033280_CAR_2019",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 86.7,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_CAR_2019",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034365_CAR_2019",
+      "name": "Ian Thomas",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034577_CAR_2019",
+      "name": "Kyle Allen",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "passYPG": 255.5,
+        "tdRatio": 0.0348,
+        "intRatio": 0.0327,
+        "qbr": 28.4
+      },
+      "eraNormFactor": 1.2261
+    },
+    {
+      "id": "p_00-0034827_CAR_2019",
+      "name": "D.J. Moore",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "recYPG": 78.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035192_CAR_2019",
+      "name": "J.Slye",
+      "position": "K",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7812
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2019",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.71,
+        "rushTDPct": 0.0518,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2019",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2019",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

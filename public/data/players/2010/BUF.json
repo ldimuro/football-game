@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022910_BUF_2010",
+      "name": "Lee Evans",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023490_BUF_2010",
+      "name": "Roscoe Parrish",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "recYPG": 49.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023682_BUF_2010",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "passYPG": 230.2,
+        "tdRatio": 0.0522,
+        "intRatio": 0.034,
+        "qbr": 58.6
+      },
+      "eraNormFactor": 1.2276
+    },
+    {
+      "id": "p_00-0024204_BUF_2010",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 57.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025399_BUF_2010",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 48.3,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025479_BUF_2010",
+      "name": "Trent Edwards",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "passYPG": 130.2,
+        "tdRatio": 0.0198,
+        "intRatio": 0.0495,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6943
+    },
+    {
+      "id": "p_00-0026364_BUF_2010",
+      "name": "Steve Johnson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "recYPG": 67.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027322_BUF_2010",
+      "name": "David Nelson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "recYPG": 25.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027518_BUF_2010",
+      "name": "Donald Jones",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "recYPG": 26.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027861_BUF_2010",
+      "name": "C.J. Spiller",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 20.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_BUF_2010",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.7619
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2010",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.29,
+        "rushTDPct": 0.015,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2010",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2010",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

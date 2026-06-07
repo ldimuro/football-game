@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0013888_BAL_2003",
+      "name": "Marcus Robinson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "recYPG": 33.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018272_BAL_2003",
+      "name": "Anthony Wright",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "passYPG": 176.6,
+        "tdRatio": 0.0465,
+        "intRatio": 0.0465,
+        "qbr": 28.0
+      },
+      "eraNormFactor": 1.0937
+    },
+    {
+      "id": "p_00-0019693_BAL_2003",
+      "name": "Jamal Lewis",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 123.4,
+        "tdPerGame": 0.824
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019721_BAL_2003",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "recYPG": 42.0,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2003",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "recYPG": 45.5,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021268_BAL_2003",
+      "name": "Terry Jones",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_BAL_2003",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022164_BAL_2003",
+      "name": "Kyle Boller",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "passYPG": 126.0,
+        "tdRatio": 0.0312,
+        "intRatio": 0.0402,
+        "qbr": 9.9
+      },
+      "eraNormFactor": 0.7803
+    },
+    {
+      "id": "p_00-0015784_BAL_2003",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8537
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2003",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.78,
+        "rushTDPct": 0.0317,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2003",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2003",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,74 +1,178 @@
 {
   "players": [
     {
-      "id": "p_brady_ne_2019",
+      "id": "p_00-0019596_NE_2019",
       "name": "Tom Brady",
       "position": "QB",
       "team": "NE",
       "year": 2019,
-      "stats": { "passYPG": 240.1, "tdRatio": 0.058, "intRatio": 0.013, "qbr": 61.4 },
-      "eraNormFactor": 0.92
+      "stats": {
+        "passYPG": 250.9,
+        "tdRatio": 0.0369,
+        "intRatio": 0.0138,
+        "qbr": 66.7
+      },
+      "eraNormFactor": 1.204
     },
     {
-      "id": "p_edelman_ne_2019",
+      "id": "p_00-0022943_NE_2019",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027150_NE_2019",
       "name": "Julian Edelman",
       "position": "WR",
       "team": "NE",
       "year": 2019,
-      "stats": { "recYPG": 72.3, "tdPerGame": 0.35 },
-      "eraNormFactor": 1.02
+      "stats": {
+        "recYPG": 67.5,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_dorsett_ne_2019",
+      "id": "p_00-0029664_NE_2019",
+      "name": "Josh Gordon",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "recYPG": 38.7,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030288_NE_2019",
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 21.9,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031062_NE_2019",
+      "name": "James White",
+      "position": "RB",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 17.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032208_NE_2019",
       "name": "Phillip Dorsett",
       "position": "WR",
       "team": "NE",
       "year": 2019,
-      "stats": { "recYPG": 37.8, "tdPerGame": 0.25 },
-      "eraNormFactor": 0.79
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_michel_ne_2019",
+      "id": "p_00-0034845_NE_2019",
       "name": "Sony Michel",
       "position": "RB",
       "team": "NE",
       "year": 2019,
-      "stats": { "rushYPG": 58.4, "tdPerGame": 0.47 },
-      "eraNormFactor": 0.88
+      "stats": {
+        "rushYPG": 57.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
     },
     {
-      "id": "p_folk_ne_2019",
-      "name": "Nick Folk",
+      "id": "p_00-0034960_NE_2019",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035624_NE_2019",
+      "name": "N'Keal Harry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NE_2019",
+      "name": "N.Folk",
       "position": "K",
       "team": "NE",
       "year": 2019,
-      "stats": { "fgAccuracy": 0.917 },
-      "eraNormFactor": 1.01
+      "stats": {
+        "fgAccuracy": 0.8056
+      },
+      "eraNormFactor": 1.0
     }
   ],
   "units": [
     {
-      "id": "u_ne_oline_2019",
+      "id": "u_NE_OLine_2019",
       "position": "OLine",
       "team": "NE",
       "year": 2019,
-      "stats": { "sacksAllowedPerGame": 1.8, "rushYPC": 4.3, "rushTDPct": 0.061, "normalizedRank": 5 },
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.84,
+        "rushTDPct": 0.0384,
+        "normalizedRank": 25
+      },
       "eraNormFactor": 1.0
     },
     {
-      "id": "u_ne_dline_2019",
+      "id": "u_NE_DLine_2019",
       "position": "DLine",
       "team": "NE",
       "year": 2019,
-      "stats": { "sacksPerGame": 3.9, "rushYPCAllowed": 3.8, "rushTDPctAllowed": 0.031, "normalizedRank": 4 },
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
       "eraNormFactor": 1.0
     },
     {
-      "id": "u_ne_secondary_2019",
+      "id": "u_NE_Secondary_2019",
       "position": "Secondary",
       "team": "NE",
       "year": 2019,
-      "stats": { "completionPctAllowed": 0.571, "yardsPerAttemptAllowed": 5.9, "tdPctAllowed": 0.029, "intPct": 0.041, "normalizedRank": 1 },
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
       "eraNormFactor": 1.0
     }
   ]

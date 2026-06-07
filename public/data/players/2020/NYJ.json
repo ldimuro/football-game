@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023500_NYJ_2020",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 43.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_NYJ_2020",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "passYPG": 172.8,
+        "tdRatio": 0.0448,
+        "intRatio": 0.0224,
+        "qbr": 31.7
+      },
+      "eraNormFactor": 0.9337
+    },
+    {
+      "id": "p_00-0028237_NYJ_2020",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030496_NYJ_2020",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 27.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031941_NYJ_2020",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 58.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032054_NYJ_2020",
+      "name": "Breshad Perriman",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034419_NYJ_2020",
+      "name": "Braxton Berrios",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034766_NYJ_2020",
+      "name": "Christopher Herndon",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034799_NYJ_2020",
+      "name": "Kalen Ballage",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 27.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034869_NYJ_2020",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "passYPG": 184.0,
+        "tdRatio": 0.0247,
+        "intRatio": 0.0302,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9942
+    },
+    {
+      "id": "p_00-0035510_NYJ_2020",
+      "name": "Jeff Smith",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036255_NYJ_2020",
+      "name": "Denzel Mims",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036269_NYJ_2020",
+      "name": "La'Mical Perine",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 25.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033138_NYJ_2020",
+      "name": "S.Ficken",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2020",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.0222,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2020",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2020",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

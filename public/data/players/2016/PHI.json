@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023564_PHI_2016",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 29.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_PHI_2016",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 50.8,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030061_PHI_2016",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 58.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030710_PHI_2016",
+      "name": "Trey Burton",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 23.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030990_PHI_2016",
+      "name": "Josh Huff",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 12.6,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031299_PHI_2016",
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 57.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_PHI_2016",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 24.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032218_PHI_2016",
+      "name": "Dorial Green-Beckham",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032782_PHI_2016",
+      "name": "Wendell Smallwood",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 26.0,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032950_PHI_2016",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "passYPG": 236.4,
+        "tdRatio": 0.0264,
+        "intRatio": 0.0231,
+        "qbr": 56.0
+      },
+      "eraNormFactor": 1.1615
+    },
+    {
+      "id": "p_00-0030390_PHI_2016",
+      "name": "C.Sturgis",
+      "position": "K",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8537
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2016",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0365,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2016",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2016",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

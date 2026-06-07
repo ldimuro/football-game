@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2020",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "passYPG": 269.0,
+        "tdRatio": 0.0547,
+        "intRatio": 0.0207,
+        "qbr": 89.4
+      },
+      "eraNormFactor": 1.4535
+    },
+    {
+      "id": "p_00-0030470_PIT_2020",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 9.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031387_PIT_2020",
+      "name": "Eric Ebron",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_PIT_2020",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 54.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_PIT_2020",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034407_PIT_2020",
+      "name": "Ray-Ray McCloud",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 7.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034676_PIT_2020",
+      "name": "James Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 27.3,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035216_PIT_2020",
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 65.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035217_PIT_2020",
+      "name": "Benny Snell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036326_PIT_2020",
+      "name": "Chase Claypool",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "recYPG": 54.8,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036336_PIT_2020",
+      "name": "Anthony McFarland",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 10.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2020",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.96
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2020",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.61,
+        "rushTDPct": 0.0334,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2020",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2020",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

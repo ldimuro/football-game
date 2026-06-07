@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000534_PHI_2000",
+      "name": "Darnell Autry",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 29.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002005_PHI_2000",
+      "name": "Na Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 6.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008454_PHI_2000",
+      "name": "Charles Johnson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009842_PHI_2000",
+      "name": "Chad Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011022_PHI_2000",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "passYPG": 203.1,
+        "tdRatio": 0.0377,
+        "intRatio": 0.0204,
+        "qbr": 38.7
+      },
+      "eraNormFactor": 1.2765
+    },
+    {
+      "id": "p_00-0011399_PHI_2000",
+      "name": "Brian Mitchell",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 13.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013262_PHI_2000",
+      "name": "Stanley Pritchett",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 15.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015063_PHI_2000",
+      "name": "Torrance Small",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 39.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015523_PHI_2000",
+      "name": "Duce Staley",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 66.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019606_PHI_2000",
+      "name": "Todd Pinkston",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 10.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2000",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2000",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.63,
+        "rushTDPct": 0.0321,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2000",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2000",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

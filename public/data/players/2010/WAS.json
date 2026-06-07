@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005720_WAS_2010",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011022_WAS_2010",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "passYPG": 259.8,
+        "tdRatio": 0.0297,
+        "intRatio": 0.0318,
+        "qbr": 44.2
+      },
+      "eraNormFactor": 1.3854
+    },
+    {
+      "id": "p_00-0014655_WAS_2010",
+      "name": "Mike Sellers",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 14.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020494_WAS_2010",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 69.7,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021179_WAS_2010",
+      "name": "Clinton Portis",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 45.4,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022121_WAS_2010",
+      "name": "Rex Grossman",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "passYPG": 221.0,
+        "tdRatio": 0.0526,
+        "intRatio": 0.0301,
+        "qbr": 12.1
+      },
+      "eraNormFactor": 1.1785
+    },
+    {
+      "id": "p_00-0022738_WAS_2010",
+      "name": "Chris Cooley",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 53.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026188_WAS_2010",
+      "name": "Fred Davis",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 24.3,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026279_WAS_2010",
+      "name": "Ryan Torain",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 74.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026465_WAS_2010",
+      "name": "Anthony Armstrong",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027214_WAS_2010",
+      "name": "Keiland Williams",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 18.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_WAS_2010",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.6857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2010",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0256,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2010",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2010",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

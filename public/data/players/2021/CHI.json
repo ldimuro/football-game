@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027696_CHI_2021",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CHI_2021",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "passYPG": 189.4,
+        "tdRatio": 0.0339,
+        "intRatio": 0.0381,
+        "qbr": 11.0
+      },
+      "eraNormFactor": 1.0784
+    },
+    {
+      "id": "p_00-0030068_CHI_2021",
+      "name": "Marquise Goodwin",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030874_CHI_2021",
+      "name": "Damien Williams",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 16.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031428_CHI_2021",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031868_CHI_2021",
+      "name": "Damiere Byrd",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035685_CHI_2021",
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 65.3,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036290_CHI_2021",
+      "name": "Cole Kmet",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036309_CHI_2021",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 62.1,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036906_CHI_2021",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 30.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036945_CHI_2021",
+      "name": "Justin Fields",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "passYPG": 155.8,
+        "tdRatio": 0.0259,
+        "intRatio": 0.037,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8871
+    },
+    {
+      "id": "p_00-0031203_CHI_2021",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2021",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0295,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2021",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2021",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

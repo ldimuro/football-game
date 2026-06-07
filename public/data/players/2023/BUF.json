@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030513_BUF_2023",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 17.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_BUF_2023",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 66.1,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034487_BUF_2023",
+      "name": "Trent Sherfield",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 9.3,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034857_BUF_2023",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "passYPG": 247.1,
+        "tdRatio": 0.0509,
+        "intRatio": 0.0278,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3769
+    },
+    {
+      "id": "p_00-0035215_BUF_2023",
+      "name": "Deonte Harty",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 13.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035537_BUF_2023",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 22.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035689_BUF_2023",
+      "name": "Dawson Knox",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036196_BUF_2023",
+      "name": "Gabe Davis",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 46.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037248_BUF_2023",
+      "name": "James Cook",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 66.4,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037261_BUF_2023",
+      "name": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 38.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038933_BUF_2023",
+      "name": "Dalton Kincaid",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "recYPG": 43.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036162_BUF_2023",
+      "name": "T.Bass",
+      "position": "K",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.7647
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2023",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.0427,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2023",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2023",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

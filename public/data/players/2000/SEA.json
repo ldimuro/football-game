@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004077_SEA_2000",
+      "name": "Sean Dawkins",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005101_SEA_2000",
+      "name": "Christian Fauria",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009311_SEA_2000",
+      "name": "Jon Kitna",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "passYPG": 176.2,
+        "tdRatio": 0.0437,
+        "intRatio": 0.0461,
+        "qbr": 53.6
+      },
+      "eraNormFactor": 1.1075
+    },
+    {
+      "id": "p_00-0010599_SEA_2000",
+      "name": "Derrick Mayes",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011224_SEA_2000",
+      "name": "Itula Mili",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017322_SEA_2000",
+      "name": "Ricky Watters",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 76.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019647_SEA_2000",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 19.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019663_SEA_2000",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 44.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_SEA_2000",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2000",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.24,
+        "rushTDPct": 0.0251,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2000",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2000",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

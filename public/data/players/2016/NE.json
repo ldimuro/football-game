@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_NE_2016",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "passYPG": 312.7,
+        "tdRatio": 0.061,
+        "intRatio": 0.0087,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5363
+    },
+    {
+      "id": "p_00-0026035_NE_2016",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_NE_2016",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.368
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027150_NE_2016",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 76.2,
+        "tdPerGame": 0.211
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_NE_2016",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 66.8,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027656_NE_2016",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 67.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028087_NE_2016",
+      "name": "Dion Lewis",
+      "position": "RB",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 36.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028237_NE_2016",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 56.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031062_NE_2016",
+      "name": "James White",
+      "position": "RB",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 10.3,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032400_NE_2016",
+      "name": "Malcolm Mitchell",
+      "position": "WR",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 34.0,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2016",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8718
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2016",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.041,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2016",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2016",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

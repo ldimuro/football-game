@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005091_NE_2007",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 15.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_NE_2007",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "recYPG": 83.5,
+        "tdPerGame": 1.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019484_NE_2007",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 64.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2007",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "passYPG": 291.7,
+        "tdRatio": 0.0815,
+        "intRatio": 0.016,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.8297
+    },
+    {
+      "id": "p_00-0021147_NE_2007",
+      "name": "Donte' Stallworth",
+      "position": "WR",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "recYPG": 45.0,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021163_NE_2007",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "recYPG": 32.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022427_NE_2007",
+      "name": "Wes Welker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "recYPG": 73.1,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022943_NE_2007",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "recYPG": 29.2,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023251_NE_2007",
+      "name": "Kyle Eckel",
+      "position": "RB",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 14.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024236_NE_2007",
+      "name": "Laurence Maroney",
+      "position": "RB",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 69.7,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2007",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2007",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.038,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2007",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2007",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

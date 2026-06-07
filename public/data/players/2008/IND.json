@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007024_IND_2008",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "recYPG": 41.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2008",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "passYPG": 253.6,
+        "tdRatio": 0.0469,
+        "intRatio": 0.0201,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3945
+    },
+    {
+      "id": "p_00-0019863_IND_2008",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 34.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2008",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "recYPG": 74.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2008",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "recYPG": 55.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024245_IND_2008",
+      "name": "Joseph Addai",
+      "position": "RB",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024529_IND_2008",
+      "name": "Gijon Robinson",
+      "position": "WR",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025419_IND_2008",
+      "name": "Anthony Gonzalez",
+      "position": "WR",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2008",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2008",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.41,
+        "rushTDPct": 0.0357,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2008",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2008",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

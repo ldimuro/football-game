@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2010",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 38.6,
+        "tdPerGame": 0.211
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023459_GB_2010",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "passYPG": 264.0,
+        "tdRatio": 0.061,
+        "intRatio": 0.0214,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4078
+    },
+    {
+      "id": "p_00-0024267_GB_2010",
+      "name": "Greg Jennings",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 78.4,
+        "tdPerGame": 0.7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025450_GB_2010",
+      "name": "Brandon Jackson",
+      "position": "RB",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 36.6,
+        "tdPerGame": 0.15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025465_GB_2010",
+      "name": "James Jones",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.35
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026176_GB_2010",
+      "name": "Jordy Nelson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 43.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026231_GB_2010",
+      "name": "Jermichael Finley",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027201_GB_2010",
+      "name": "Dimitri Nance",
+      "position": "RB",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 11.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027753_GB_2010",
+      "name": "Andrew Quarless",
+      "position": "WR",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027791_GB_2010",
+      "name": "James Starks",
+      "position": "RB",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 59.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2010",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.7812
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2010",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0284,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2010",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2010",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

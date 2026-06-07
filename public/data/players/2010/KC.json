@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019641_KC_2010",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 53.6,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020446_KC_2010",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022388_KC_2010",
+      "name": "Terrance Copper",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 14.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023662_KC_2010",
+      "name": "Matt Cassel",
+      "position": "QB",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "passYPG": 199.1,
+        "tdRatio": 0.0577,
+        "intRatio": 0.0214,
+        "qbr": 84.8
+      },
+      "eraNormFactor": 1.0617
+    },
+    {
+      "id": "p_00-0025410_KC_2010",
+      "name": "Dwayne Bowe",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 72.6,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026213_KC_2010",
+      "name": "Jamaal Charles",
+      "position": "RB",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 91.1,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027429_KC_2010",
+      "name": "Verran Tucker",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027651_KC_2010",
+      "name": "Dexter McCluster",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027695_KC_2010",
+      "name": "Tony Moeaki",
+      "position": "WR",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "recYPG": 36.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_KC_2010",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.7692
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2010",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.76,
+        "rushTDPct": 0.0243,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2010",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2010",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

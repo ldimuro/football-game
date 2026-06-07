@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026143_ATL_2020",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "passYPG": 286.3,
+        "tdRatio": 0.0415,
+        "intRatio": 0.0176,
+        "qbr": 92.8
+      },
+      "eraNormFactor": 1.5469
+    },
+    {
+      "id": "p_00-0027944_ATL_2020",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "recYPG": 85.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032241_ATL_2020",
+      "name": "Todd Gurley",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033567_ATL_2020",
+      "name": "Brian Hill",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 29.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034378_ATL_2020",
+      "name": "Ito Smith",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034411_ATL_2020",
+      "name": "Russell Gage",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "recYPG": 49.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034830_ATL_2020",
+      "name": "Hayden Hurst",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034837_ATL_2020",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "recYPG": 91.6,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035208_ATL_2020",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "recYPG": 30.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033702_ATL_2020",
+      "name": "Y.Koo",
+      "position": "K",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.95
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2020",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.75,
+        "rushTDPct": 0.0318,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2020",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2020",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

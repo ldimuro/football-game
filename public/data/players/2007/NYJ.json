@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0018958_NYJ_2007",
+      "name": "Laveranues Coles",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "recYPG": 58.7,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019559_NYJ_2007",
+      "name": "Chad Pennington",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "passYPG": 196.2,
+        "tdRatio": 0.0385,
+        "intRatio": 0.0346,
+        "qbr": 47.3
+      },
+      "eraNormFactor": 1.2307
+    },
+    {
+      "id": "p_00-0019641_NYJ_2007",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 69.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021213_NYJ_2007",
+      "name": "Chris Baker",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022811_NYJ_2007",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "recYPG": 75.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024264_NYJ_2007",
+      "name": "Kellen Clemens",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "passYPG": 152.9,
+        "tdRatio": 0.02,
+        "intRatio": 0.04,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9591
+    },
+    {
+      "id": "p_00-0024332_NYJ_2007",
+      "name": "Leon Washington",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 23.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023482_NYJ_2007",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8056
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2007",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.81,
+        "rushTDPct": 0.0135,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2007",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2007",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

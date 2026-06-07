@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011754_SF_2012",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 28.7,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023436_SF_2012",
+      "name": "Alex Smith",
+      "position": "QB",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "passYPG": 173.7,
+        "tdRatio": 0.0596,
+        "intRatio": 0.0229,
+        "qbr": 83.6
+      },
+      "eraNormFactor": 0.8468
+    },
+    {
+      "id": "p_00-0023500_SF_2012",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 80.7,
+        "tdPerGame": 0.632
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2012",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 44.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024389_SF_2012",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026235_SF_2012",
+      "name": "Mario Manningham",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026986_SF_2012",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 73.2,
+        "tdPerGame": 0.632
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027608_SF_2012",
+      "name": "Kyle Williams",
+      "position": "WR",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027974_SF_2012",
+      "name": "Colin Kaepernick",
+      "position": "QB",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "passYPG": 163.2,
+        "tdRatio": 0.047,
+        "intRatio": 0.0168,
+        "qbr": 97.3
+      },
+      "eraNormFactor": 0.7956
+    },
+    {
+      "id": "p_00-0028053_SF_2012",
+      "name": "Kendall Hunter",
+      "position": "RB",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 33.7,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029260_SF_2012",
+      "name": "LaMichael James",
+      "position": "RB",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 27.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_SF_2012",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.7021
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2012",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.3,
+        "rushTDPct": 0.0438,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2012",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2012",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

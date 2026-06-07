@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027125_CHI_2017",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 29.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029319_CHI_2017",
+      "name": "Josh Bellamy",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029388_CHI_2017",
+      "name": "Deonte Thompson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 36.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029708_CHI_2017",
+      "name": "Kendall Wright",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 43.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030422_CHI_2017",
+      "name": "Dion Sims",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 15.0,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030520_CHI_2017",
+      "name": "Mike Glennon",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 208.2,
+        "tdRatio": 0.0286,
+        "intRatio": 0.0357,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0067
+    },
+    {
+      "id": "p_00-0032098_CHI_2017",
+      "name": "Daniel Brown",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "recYPG": 16.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032780_CHI_2017",
+      "name": "Jordan Howard",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 70.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033556_CHI_2017",
+      "name": "Tarik Cohen",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 23.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033869_CHI_2017",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "passYPG": 182.8,
+        "tdRatio": 0.0212,
+        "intRatio": 0.0212,
+        "qbr": 13.7
+      },
+      "eraNormFactor": 0.8839
+    },
+    {
+      "id": "p_00-0026138_CHI_2017",
+      "name": "C.Barth",
+      "position": "K",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2017",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.24,
+        "rushTDPct": 0.0308,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2017",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2017",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

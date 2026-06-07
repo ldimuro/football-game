@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "p_00-0012478_DAL_2007",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 87.8,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021678_DAL_2007",
+      "name": "Tony Romo",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "passYPG": 259.5,
+        "tdRatio": 0.0665,
+        "intRatio": 0.036,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6277
+    },
+    {
+      "id": "p_00-0022127_DAL_2007",
+      "name": "Jason Witten",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 72.1,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022766_DAL_2007",
+      "name": "Patrick Crayton",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "recYPG": 51.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022840_DAL_2007",
+      "name": "Julius Jones",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 34.8,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023544_DAL_2007",
+      "name": "Marion Barber",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 64.8,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_DAL_2007",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2007",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.22,
+        "rushTDPct": 0.0333,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2007",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2007",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

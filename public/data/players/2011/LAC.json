@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021236_LAC_2011",
+      "name": "Randy McMichael",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2011",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2011",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 71.3,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022766_LAC_2011",
+      "name": "Patrick Crayton",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 20.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2011",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "passYPG": 289.0,
+        "tdRatio": 0.0464,
+        "intRatio": 0.0344,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4554
+    },
+    {
+      "id": "p_00-0023496_LAC_2011",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 69.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026745_LAC_2011",
+      "name": "Curtis Brinkley",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 25.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_LAC_2011",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 77.9,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028020_LAC_2011",
+      "name": "Vincent Brown",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "recYPG": 32.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_LAC_2011",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2011",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.28,
+        "rushTDPct": 0.0367,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2011",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2011",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

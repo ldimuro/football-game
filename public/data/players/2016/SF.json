@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027948_SF_2016",
+      "name": "Blaine Gabbert",
+      "position": "QB",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "passYPG": 154.2,
+        "tdRatio": 0.0312,
+        "intRatio": 0.0375,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7576
+    },
+    {
+      "id": "p_00-0027974_SF_2016",
+      "name": "Colin Kaepernick",
+      "position": "QB",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "passYPG": 203.7,
+        "tdRatio": 0.0483,
+        "intRatio": 0.0121,
+        "qbr": 42.0
+      },
+      "eraNormFactor": 1.0008
+    },
+    {
+      "id": "p_00-0027996_SF_2016",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_SF_2016",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 41.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028202_SF_2016",
+      "name": "Shaun Draughn",
+      "position": "RB",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 14.0,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028409_SF_2016",
+      "name": "DuJuan Harris",
+      "position": "RB",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 17.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028903_SF_2016",
+      "name": "Garrett Celek",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029129_SF_2016",
+      "name": "Rod Streater",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 14.7,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030450_SF_2016",
+      "name": "Quinton Patton",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 31.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030470_SF_2016",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031045_SF_2016",
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 76.0,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031854_SF_2016",
+      "name": "Chris Harper",
+      "position": "WR",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_SF_2016",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2016",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.41,
+        "rushTDPct": 0.0328,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2016",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2016",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

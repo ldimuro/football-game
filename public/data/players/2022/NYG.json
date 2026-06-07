@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032980_NYG_2022",
+      "name": "Marcus Johnson",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033308_NYG_2022",
+      "name": "Matt Breida",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 13.2,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034286_NYG_2022",
+      "name": "Richie James",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034844_NYG_2022",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 79.2,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035535_NYG_2022",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 54.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035710_NYG_2022",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "passYPG": 202.3,
+        "tdRatio": 0.0318,
+        "intRatio": 0.0112,
+        "qbr": 60.6
+      },
+      "eraNormFactor": 1.1075
+    },
+    {
+      "id": "p_00-0036569_NYG_2022",
+      "name": "Gary Brightwell",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 16.8,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036913_NYG_2022",
+      "name": "Kadarius Toney",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 18.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038115_NYG_2022",
+      "name": "Daniel Bellinger",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038117_NYG_2022",
+      "name": "Wan'Dale Robinson",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "recYPG": 37.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_NYG_2022",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9091
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2022",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.88,
+        "rushTDPct": 0.0421,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2022",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2022",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

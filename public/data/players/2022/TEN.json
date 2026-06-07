@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029701_TEN_2022",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "passYPG": 211.3,
+        "tdRatio": 0.0431,
+        "intRatio": 0.0185,
+        "qbr": 66.4
+      },
+      "eraNormFactor": 1.1568
+    },
+    {
+      "id": "p_00-0030431_TEN_2022",
+      "name": "Robert Woods",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 31.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032392_TEN_2022",
+      "name": "Austin Hooper",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032764_TEN_2022",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 96.1,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036182_TEN_2022",
+      "name": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037742_TEN_2022",
+      "name": "Treylon Burks",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037809_TEN_2022",
+      "name": "Chigoziem Okonkwo",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_TEN_2022",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2022",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.38,
+        "rushTDPct": 0.0329,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2022",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2022",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

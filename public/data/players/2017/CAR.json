@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025418_CAR_2017",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026153_CAR_2017",
+      "name": "Jonathan Stewart",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 45.7,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027675_CAR_2017",
+      "name": "Ed Dickson",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2017",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "passYPG": 214.8,
+        "tdRatio": 0.0451,
+        "intRatio": 0.0301,
+        "qbr": 53.3
+      },
+      "eraNormFactor": 1.0386
+    },
+    {
+      "id": "p_00-0030147_CAR_2017",
+      "name": "Russell Shepard",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 15.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031359_CAR_2017",
+      "name": "Kelvin Benjamin",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 45.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032055_CAR_2017",
+      "name": "Devin Funchess",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 54.1,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033280_CAR_2017",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 26.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_CAR_2017",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_CAR_2017",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.9429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2017",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.28,
+        "rushTDPct": 0.0291,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2017",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2017",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

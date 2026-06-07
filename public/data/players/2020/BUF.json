@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029000_BUF_2020",
+      "name": "Cole Beasley",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 61.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_BUF_2020",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 45.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_BUF_2020",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 97.2,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033466_BUF_2020",
+      "name": "Isaiah McKenzie",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034857_BUF_2020",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "passYPG": 282.2,
+        "tdRatio": 0.0607,
+        "intRatio": 0.0159,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5248
+    },
+    {
+      "id": "p_00-0035250_BUF_2020",
+      "name": "Devin Singletary",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 39.5,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035689_BUF_2020",
+      "name": "Dawson Knox",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 25.2,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036196_BUF_2020",
+      "name": "Gabe Davis",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.368
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036251_BUF_2020",
+      "name": "Zack Moss",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 35.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036162_BUF_2020",
+      "name": "T.Bass",
+      "position": "K",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.814
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2020",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0365,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2020",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2020",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

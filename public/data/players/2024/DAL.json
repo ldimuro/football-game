@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031236_DAL_2024",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033045_DAL_2024",
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 15.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033077_DAL_2024",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "passYPG": 247.2,
+        "tdRatio": 0.0385,
+        "intRatio": 0.028,
+        "qbr": 40.8
+      },
+      "eraNormFactor": 1.47
+    },
+    {
+      "id": "p_00-0033662_DAL_2024",
+      "name": "Cooper Rush",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "passYPG": 153.7,
+        "tdRatio": 0.039,
+        "intRatio": 0.0162,
+        "qbr": 30.1
+      },
+      "eraNormFactor": 0.914
+    },
+    {
+      "id": "p_00-0036139_DAL_2024",
+      "name": "Rico Dowdle",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 67.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036358_DAL_2024",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 79.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037666_DAL_2024",
+      "name": "Jalen Tolbert",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037801_DAL_2024",
+      "name": "Kavontae Turpin",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038041_DAL_2024",
+      "name": "Jake Ferguson",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038547_DAL_2024",
+      "name": "Luke Schoonmaker",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 24.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038640_DAL_2024",
+      "name": "Jalen Brooks",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 14.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037692_DAL_2024",
+      "name": "B.Aubrey",
+      "position": "K",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8511
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2024",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.97,
+        "rushTDPct": 0.014,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2024",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2024",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

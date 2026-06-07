@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0028411_IND_2018",
+      "name": "Dontrelle Inman",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029608_IND_2018",
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 88.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029668_IND_2018",
+      "name": "Andrew Luck",
+      "position": "QB",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "passYPG": 278.8,
+        "tdRatio": 0.0594,
+        "intRatio": 0.0226,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4288
+    },
+    {
+      "id": "p_00-0030181_IND_2018",
+      "name": "Jack Doyle",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031068_IND_2018",
+      "name": "Ryan Grant",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031387_IND_2018",
+      "name": "Eric Ebron",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 45.9,
+        "tdPerGame": 0.778
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032355_IND_2018",
+      "name": "Chester Rogers",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 33.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033251_IND_2018",
+      "name": "Zach Pascal",
+      "position": "WR",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033951_IND_2018",
+      "name": "Marlon Mack",
+      "position": "RB",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 78.7,
+        "tdPerGame": 0.714
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034367_IND_2018",
+      "name": "Nyheim Hines",
+      "position": "RB",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 19.9,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034400_IND_2018",
+      "name": "Jordan Wilkins",
+      "position": "RB",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 23.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2018",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2018",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0306,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2018",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2018",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

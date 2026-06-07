@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031547_NE_2023",
+      "name": "DeVante Parker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033045_NE_2023",
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 37.8,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_NE_2023",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 32.2,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033307_NE_2023",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 50.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_NE_2023",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034829_NE_2023",
+      "name": "Mike Gesicki",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 16.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036387_NE_2023",
+      "name": "Jalen Reagor",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 15.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036875_NE_2023",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 51.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036972_NE_2023",
+      "name": "Mac Jones",
+      "position": "QB",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "passYPG": 192.7,
+        "tdRatio": 0.029,
+        "intRatio": 0.0348,
+        "qbr": 1.1
+      },
+      "eraNormFactor": 1.0738
+    },
+    {
+      "id": "p_00-0038104_NE_2023",
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 10.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038108_NE_2023",
+      "name": "Bailey Zappe",
+      "position": "QB",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "passYPG": 127.2,
+        "tdRatio": 0.0283,
+        "intRatio": 0.0425,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7088
+    },
+    {
+      "id": "p_00-0038621_NE_2023",
+      "name": "Demario Douglas",
+      "position": "WR",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038567_NE_2023",
+      "name": "C.Ryland",
+      "position": "K",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.64
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2023",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0217,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2023",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2023",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

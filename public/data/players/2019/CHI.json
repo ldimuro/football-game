@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030710_CHI_2019",
+      "name": "Trey Burton",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 10.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031228_CHI_2019",
+      "name": "Taylor Gabriel",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031428_CHI_2019",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 71.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033556_CHI_2019",
+      "name": "Tarik Cohen",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 13.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033869_CHI_2019",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "passYPG": 209.2,
+        "tdRatio": 0.0329,
+        "intRatio": 0.0194,
+        "qbr": 25.9
+      },
+      "eraNormFactor": 1.0039
+    },
+    {
+      "id": "p_00-0034353_CHI_2019",
+      "name": "Anthony Miller",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 41.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034426_CHI_2019",
+      "name": "Javon Wims",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035685_CHI_2019",
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 55.6,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034173_CHI_2019",
+      "name": "E.Pineiro",
+      "position": "K",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2019",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.69,
+        "rushTDPct": 0.0203,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2019",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2019",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

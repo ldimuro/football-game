@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005231_ATL_2008",
+      "name": "Brian Finneran",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "recYPG": 15.0,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022781_ATL_2008",
+      "name": "Michael Jenkins",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "recYPG": 51.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022821_ATL_2008",
+      "name": "Michael Turner",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 102.4,
+        "tdPerGame": 1.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023462_ATL_2008",
+      "name": "Roddy White",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "recYPG": 86.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024294_ATL_2008",
+      "name": "Jerious Norwood",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 29.5,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026143_ATL_2008",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "passYPG": 214.1,
+        "tdRatio": 0.038,
+        "intRatio": 0.0274,
+        "qbr": 98.2
+      },
+      "eraNormFactor": 1.1773
+    },
+    {
+      "id": "p_00-0026224_ATL_2008",
+      "name": "Harry Douglas",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "recYPG": 21.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004811_ATL_2008",
+      "name": "J.Elam",
+      "position": "K",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.9375
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2008",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.29,
+        "rushTDPct": 0.0411,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2008",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2008",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

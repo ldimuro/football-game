@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2013",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "passYPG": 317.8,
+        "tdRatio": 0.0567,
+        "intRatio": 0.0194,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4922
+    },
+    {
+      "id": "p_00-0022943_NO_2013",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023310_NO_2013",
+      "name": "Lance Moore",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023564_NO_2013",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 14.8,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2013",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 64.9,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024813_NO_2013",
+      "name": "Pierre Thomas",
+      "position": "RB",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 34.3,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025414_NO_2013",
+      "name": "Robert Meachem",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 25.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027696_NO_2013",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 70.4,
+        "tdPerGame": 0.889
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027966_NO_2013",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 40.9,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030085_NO_2013",
+      "name": "Kenny Stills",
+      "position": "WR",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "recYPG": 39.8,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030348_NO_2013",
+      "name": "Khiry Robinson",
+      "position": "RB",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 27.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025824_NO_2013",
+      "name": "G.Hartley",
+      "position": "K",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.7368
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2013",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0265,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2013",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2013",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

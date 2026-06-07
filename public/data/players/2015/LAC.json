@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2015",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 57.3,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2015",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2015",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "passYPG": 299.5,
+        "tdRatio": 0.0439,
+        "intRatio": 0.0197,
+        "qbr": 91.2
+      },
+      "eraNormFactor": 1.4713
+    },
+    {
+      "id": "p_00-0026019_LAC_2015",
+      "name": "Danny Woodhead",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 21.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026364_LAC_2015",
+      "name": "Steve Johnson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 55.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_LAC_2015",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 38.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028411_LAC_2015",
+      "name": "Dontrelle Inman",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 40.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029275_LAC_2015",
+      "name": "Ladarius Green",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 33.0,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2015",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 90.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030920_LAC_2015",
+      "name": "Javontee Herndon",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031277_LAC_2015",
+      "name": "Branden Oliver",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 18.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032144_LAC_2015",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 45.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032087_LAC_2015",
+      "name": "J.Lambo",
+      "position": "K",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2015",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.46,
+        "rushTDPct": 0.0102,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2015",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2015",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

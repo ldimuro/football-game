@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020428_MIN_2007",
+      "name": "Robert Ferguson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_MIN_2007",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 60.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022054_MIN_2007",
+      "name": "Visanthe Shiancoe",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022144_MIN_2007",
+      "name": "Bobby Wade",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024279_MIN_2007",
+      "name": "Tarvaris Jackson",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "passYPG": 159.2,
+        "tdRatio": 0.0306,
+        "intRatio": 0.0408,
+        "qbr": 43.8
+      },
+      "eraNormFactor": 0.9986
+    },
+    {
+      "id": "p_00-0025394_MIN_2007",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 95.8,
+        "tdPerGame": 0.857
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025431_MIN_2007",
+      "name": "Sidney Rice",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_MIN_2007",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2007",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.32,
+        "rushTDPct": 0.0444,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2007",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2007",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

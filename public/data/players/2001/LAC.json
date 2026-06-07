@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003396_LAC_2001",
+      "name": "Curtis Conway",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 70.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004673_LAC_2001",
+      "name": "Tim Dwight",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005363_LAC_2001",
+      "name": "Doug Flutie",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "passYPG": 216.5,
+        "tdRatio": 0.0288,
+        "intRatio": 0.0345,
+        "qbr": 72.3
+      },
+      "eraNormFactor": 1.2257
+    },
+    {
+      "id": "p_00-0006210_LAC_2001",
+      "name": "Jeff Graham",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008749_LAC_2001",
+      "name": "Freddie Jones",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019670_LAC_2001",
+      "name": "Trevor Gaylor",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "recYPG": 43.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020536_LAC_2001",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 77.2,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013699_LAC_2001",
+      "name": "W.Richey",
+      "position": "K",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.6977
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2001",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.03,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2001",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2001",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

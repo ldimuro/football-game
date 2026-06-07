@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_GB_2015",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "passYPG": 238.4,
+        "tdRatio": 0.0537,
+        "intRatio": 0.0138,
+        "qbr": 51.4
+      },
+      "eraNormFactor": 1.1711
+    },
+    {
+      "id": "p_00-0025465_GB_2015",
+      "name": "James Jones",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 53.9,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027791_GB_2015",
+      "name": "James Starks",
+      "position": "RB",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 37.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028002_GB_2015",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030485_GB_2015",
+      "name": "Eddie Lacy",
+      "position": "RB",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 53.5,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031001_GB_2015",
+      "name": "Jeff Janis",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 37.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031021_GB_2015",
+      "name": "Jared Abbrederis",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031381_GB_2015",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031384_GB_2015",
+      "name": "Richard Rodgers",
+      "position": "WR",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2015",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2015",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.34,
+        "rushTDPct": 0.0204,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2015",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2015",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

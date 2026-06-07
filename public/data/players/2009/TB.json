@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021159_TB_2009",
+      "name": "Jerramy Stevens",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 9.3,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021191_TB_2009",
+      "name": "Antonio Bryant",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 46.2,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022725_TB_2009",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022770_TB_2009",
+      "name": "Derrick Ward",
+      "position": "RB",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 29.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022922_TB_2009",
+      "name": "Kellen Winslow",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 55.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023440_TB_2009",
+      "name": "Cadillac Williams",
+      "position": "RB",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 51.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024305_TB_2009",
+      "name": "Maurice Stovall",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026300_TB_2009",
+      "name": "Josh Johnson",
+      "position": "QB",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "passYPG": 137.0,
+        "tdRatio": 0.032,
+        "intRatio": 0.064,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8366
+    },
+    {
+      "id": "p_00-0026953_TB_2009",
+      "name": "Sammie Stroughter",
+      "position": "WR",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026993_TB_2009",
+      "name": "Josh Freeman",
+      "position": "QB",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "passYPG": 185.7,
+        "tdRatio": 0.0344,
+        "intRatio": 0.0619,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.134
+    },
+    {
+      "id": "p_00-0026138_TB_2009",
+      "name": "C.Barth",
+      "position": "K",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.6154
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2009",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0124,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2009",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2009",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

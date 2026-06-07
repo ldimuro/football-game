@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023564_PHI_2018",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 18.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_PHI_2018",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 65.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029567_PHI_2018",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "passYPG": 268.6,
+        "tdRatio": 0.0376,
+        "intRatio": 0.0301,
+        "qbr": 79.6
+      },
+      "eraNormFactor": 1.3765
+    },
+    {
+      "id": "p_00-0030061_PHI_2018",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 70.3,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031299_PHI_2018",
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_PHI_2018",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 43.0,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031590_PHI_2018",
+      "name": "Jay Ajayi",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 46.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031763_PHI_2018",
+      "name": "DeAndre Carter",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032782_PHI_2018",
+      "name": "Wendell Smallwood",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 27.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032950_PHI_2018",
+      "name": "Carson Wentz",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "passYPG": 279.5,
+        "tdRatio": 0.0524,
+        "intRatio": 0.0175,
+        "qbr": 82.9
+      },
+      "eraNormFactor": 1.4324
+    },
+    {
+      "id": "p_00-0033725_PHI_2018",
+      "name": "Corey Clement",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 23.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034351_PHI_2018",
+      "name": "Dallas Goedert",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034457_PHI_2018",
+      "name": "Josh Adams",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 39.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033787_PHI_2018",
+      "name": "J.Elliott",
+      "position": "K",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2018",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0297,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2018",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2018",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

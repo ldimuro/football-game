@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020536_NYJ_2010",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 58.6,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022811_NYJ_2010",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "recYPG": 36.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023438_NYJ_2010",
+      "name": "Braylon Edwards",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "recYPG": 56.2,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024240_NYJ_2010",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "recYPG": 58.2,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026170_NYJ_2010",
+      "name": "Dustin Keller",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "recYPG": 44.9,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026898_NYJ_2010",
+      "name": "Mark Sanchez",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "passYPG": 217.1,
+        "tdRatio": 0.0369,
+        "intRatio": 0.0235,
+        "qbr": 53.4
+      },
+      "eraNormFactor": 1.1577
+    },
+    {
+      "id": "p_00-0026899_NYJ_2010",
+      "name": "Shonn Greene",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 53.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027712_NYJ_2010",
+      "name": "Joe McKnight",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 38.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NYJ_2010",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.7619
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2010",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0273,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2010",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2010",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

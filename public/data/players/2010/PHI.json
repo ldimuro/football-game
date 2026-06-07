@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020245_PHI_2010",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "passYPG": 254.6,
+        "tdRatio": 0.0539,
+        "intRatio": 0.0172,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3577
+    },
+    {
+      "id": "p_00-0024011_PHI_2010",
+      "name": "Mike Bell",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 8.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024324_PHI_2010",
+      "name": "Jason Avant",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025423_PHI_2010",
+      "name": "Kevin Kolb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "passYPG": 171.0,
+        "tdRatio": 0.037,
+        "intRatio": 0.037,
+        "qbr": 30.8
+      },
+      "eraNormFactor": 0.9119
+    },
+    {
+      "id": "p_00-0025549_PHI_2010",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 35.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026189_PHI_2010",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 73.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026995_PHI_2010",
+      "name": "Jeremy Maclin",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 61.0,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027029_PHI_2010",
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 70.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027758_PHI_2010",
+      "name": "Riley Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2010",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8049
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2010",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.36,
+        "rushTDPct": 0.0423,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2010",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2010",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

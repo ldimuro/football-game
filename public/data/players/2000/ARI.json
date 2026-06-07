@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001532_ARI_2000",
+      "name": "David Boston",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 67.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003175_ARI_2000",
+      "name": "Mac Cody",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006848_ARI_2000",
+      "name": "Terry Hardy",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 10.0,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008357_ARI_2000",
+      "name": "MarTay Jenkins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_ARI_2000",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 43.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013042_ARI_2000",
+      "name": "Jake Plummer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "passYPG": 203.7,
+        "tdRatio": 0.0256,
+        "intRatio": 0.0426,
+        "qbr": 19.8
+      },
+      "eraNormFactor": 1.2803
+    },
+    {
+      "id": "p_00-0014328_ARI_2000",
+      "name": "Frank Sanders",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "recYPG": 46.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_ARI_2000",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 26.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001343_ARI_2000",
+      "name": "C.Blanchard",
+      "position": "K",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.6957
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2000",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.71,
+        "rushTDPct": 0.0177,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2000",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2000",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

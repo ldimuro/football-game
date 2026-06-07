@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031260_WAS_2023",
+      "name": "Logan Thomas",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 31.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031941_WAS_2023",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033282_WAS_2023",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 38.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034297_WAS_2023",
+      "name": "Byron Pringle",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 13.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035659_WAS_2023",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 58.9,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036328_WAS_2023",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036626_WAS_2023",
+      "name": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 12.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036628_WAS_2023",
+      "name": "John Bates",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 10.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037077_WAS_2023",
+      "name": "Sam Howell",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "passYPG": 232.1,
+        "tdRatio": 0.0343,
+        "intRatio": 0.0343,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.2933
+    },
+    {
+      "id": "p_00-0037741_WAS_2023",
+      "name": "Jahan Dotson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "recYPG": 30.5,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037746_WAS_2023",
+      "name": "Brian Robinson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 48.9,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038611_WAS_2023",
+      "name": "Chris Rodriguez Jr.",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 30.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035192_WAS_2023",
+      "name": "J.Slye",
+      "position": "K",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.7917
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2023",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.43,
+        "rushTDPct": 0.039,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2023",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2023",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

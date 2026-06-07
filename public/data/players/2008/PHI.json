@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011022_PHI_2008",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "passYPG": 252.9,
+        "tdRatio": 0.0405,
+        "intRatio": 0.0217,
+        "qbr": 90.3
+      },
+      "eraNormFactor": 1.3906
+    },
+    {
+      "id": "p_00-0020270_PHI_2008",
+      "name": "Correll Buckhalter",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 24.9,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2008",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 62.1,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021508_PHI_2008",
+      "name": "Greg Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 22.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022001_PHI_2008",
+      "name": "Kevin Curtis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 50.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022126_PHI_2008",
+      "name": "L.J. Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023470_PHI_2008",
+      "name": "Reggie Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024013_PHI_2008",
+      "name": "Hank Baskett",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024324_PHI_2008",
+      "name": "Jason Avant",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025549_PHI_2008",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 33.5,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026189_PHI_2008",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 58.9,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2008",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.84
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2008",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.89,
+        "rushTDPct": 0.0323,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2008",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2008",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

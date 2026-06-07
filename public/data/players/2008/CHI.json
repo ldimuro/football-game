@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003035_CHI_2008",
+      "name": "Desmond Clark",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022097_CHI_2008",
+      "name": "Brandon Lloyd",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022782_CHI_2008",
+      "name": "Kevin Jones",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 13.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023429_CHI_2008",
+      "name": "Rashied Davis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023541_CHI_2008",
+      "name": "Kyle Orton",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "passYPG": 198.6,
+        "tdRatio": 0.0408,
+        "intRatio": 0.0258,
+        "qbr": 35.3
+      },
+      "eraNormFactor": 1.0921
+    },
+    {
+      "id": "p_00-0024272_CHI_2008",
+      "name": "Devin Hester",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 44.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CHI_2008",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "recYPG": 38.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2008",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 76.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2008",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8966
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2008",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.86,
+        "rushTDPct": 0.0347,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2008",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2008",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

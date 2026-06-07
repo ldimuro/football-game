@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030068_SEA_2022",
+      "name": "Marquise Goodwin",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 32.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030565_SEA_2022",
+      "name": "Geno Smith",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "passYPG": 251.9,
+        "tdRatio": 0.0527,
+        "intRatio": 0.0198,
+        "qbr": 68.1
+      },
+      "eraNormFactor": 1.379
+    },
+    {
+      "id": "p_00-0032211_SEA_2022",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 63.1,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034159_SEA_2022",
+      "name": "Will Dissly",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 23.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034750_SEA_2022",
+      "name": "Rashaad Penny",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 69.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035640_SEA_2022",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 65.8,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035644_SEA_2022",
+      "name": "Noah Fant",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 27.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036244_SEA_2022",
+      "name": "Colby Parkinson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036425_SEA_2022",
+      "name": "DeeJay Dallas",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038134_SEA_2022",
+      "name": "Kenneth Walker",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 69.6,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_SEA_2022",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9211
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2022",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.77,
+        "rushTDPct": 0.0289,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2022",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2022",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

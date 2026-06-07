@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030279_CHI_2024",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 49.6,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034827_CHI_2024",
+      "name": "D.J. Moore",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 56.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036275_CHI_2024",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 56.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036290_CHI_2024",
+      "name": "Cole Kmet",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036906_CHI_2024",
+      "name": "Khalil Herbert",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 16.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039021_CHI_2024",
+      "name": "Roschon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 12.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039918_CHI_2024",
+      "name": "Caleb Williams",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "passYPG": 208.3,
+        "tdRatio": 0.0356,
+        "intRatio": 0.0107,
+        "qbr": 24.2
+      },
+      "eraNormFactor": 1.2387
+    },
+    {
+      "id": "p_00-0039919_CHI_2024",
+      "name": "Rome Odunze",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "recYPG": 43.2,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_CHI_2024",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.84
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2024",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0302,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2024",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2024",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

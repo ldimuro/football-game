@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_NYJ_2017",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "passYPG": 225.1,
+        "tdRatio": 0.0453,
+        "intRatio": 0.0227,
+        "qbr": 61.0
+      },
+      "eraNormFactor": 1.0884
+    },
+    {
+      "id": "p_00-0026184_NYJ_2017",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 31.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2017",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 51.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028091_NYJ_2017",
+      "name": "Jeremy Kerley",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "recYPG": 31.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029159_NYJ_2017",
+      "name": "Jermaine Kearse",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "recYPG": 50.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031418_NYJ_2017",
+      "name": "Austin Seferian-Jenkins",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031568_NYJ_2017",
+      "name": "Bryce Petty",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "passYPG": 136.0,
+        "tdRatio": 0.0089,
+        "intRatio": 0.0268,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6576
+    },
+    {
+      "id": "p_00-0032688_NYJ_2017",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "recYPG": 58.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033295_NYJ_2017",
+      "name": "Elijah McGuire",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 21.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030896_NYJ_2017",
+      "name": "C.Catanzaro",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2017",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0304,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2017",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2017",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

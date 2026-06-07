@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000883_CIN_2000",
+      "name": "Marco Battaglia",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 7.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001098_CIN_2000",
+      "name": "Brandon Bennett",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 21.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004304_CIN_2000",
+      "name": "Corey Dillon",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 85.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010859_CIN_2000",
+      "name": "Tony McGee",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 25.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011434_CIN_2000",
+      "name": "Scott Mitchell",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "passYPG": 120.8,
+        "tdRatio": 0.0161,
+        "intRatio": 0.043,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7593
+    },
+    {
+      "id": "p_00-0015082_CIN_2000",
+      "name": "Akili Smith",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "passYPG": 113.3,
+        "tdRatio": 0.0115,
+        "intRatio": 0.0229,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7121
+    },
+    {
+      "id": "p_00-0018382_CIN_2000",
+      "name": "Craig Yeast",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 21.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019455_CIN_2000",
+      "name": "Peter Warrick",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019543_CIN_2000",
+      "name": "Danny Farmer",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019708_CIN_2000",
+      "name": "Ron Dugans",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 15.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_CIN_2000",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.5714
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2000",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.59,
+        "rushTDPct": 0.0274,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2000",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2000",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

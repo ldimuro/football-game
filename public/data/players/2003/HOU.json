@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000722_HOU_2003",
+      "name": "Tony Banks",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "passYPG": 115.5,
+        "tdRatio": 0.049,
+        "intRatio": 0.0294,
+        "qbr": 55.9
+      },
+      "eraNormFactor": 0.7153
+    },
+    {
+      "id": "p_00-0001627_HOU_2003",
+      "name": "Corey Bradford",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "recYPG": 32.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010240_HOU_2003",
+      "name": "Stacey Mack",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 31.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011236_HOU_2003",
+      "name": "Billy Miller",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "recYPG": 23.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020608_HOU_2003",
+      "name": "David Carr",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "passYPG": 167.8,
+        "tdRatio": 0.0305,
+        "intRatio": 0.0441,
+        "qbr": 27.6
+      },
+      "eraNormFactor": 1.0392
+    },
+    {
+      "id": "p_00-0021163_HOU_2003",
+      "name": "Jabar Gaffney",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021979_HOU_2003",
+      "name": "Domanick Williams",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 73.6,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2003",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "recYPG": 61.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022116_HOU_2003",
+      "name": "Tony Hollings",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 11.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_HOU_2003",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2003",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0333,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2003",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2003",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

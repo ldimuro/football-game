@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004915_SEA_2007",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 70.6,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2007",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "passYPG": 243.8,
+        "tdRatio": 0.0478,
+        "intRatio": 0.0223,
+        "qbr": 83.7
+      },
+      "eraNormFactor": 1.5293
+    },
+    {
+      "id": "p_00-0013080_SEA_2007",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 19.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019647_SEA_2007",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 52.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_SEA_2007",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 42.7,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_SEA_2007",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 66.1,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021999_SEA_2007",
+      "name": "Nate Burleson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 43.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022701_SEA_2007",
+      "name": "D.J. Hackett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "recYPG": 62.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_SEA_2007",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8421
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2007",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.69,
+        "rushTDPct": 0.0235,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2007",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2007",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

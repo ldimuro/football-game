@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020337_CAR_2011",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "recYPG": 87.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021148_CAR_2011",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024242_CAR_2011",
+      "name": "DeAngelo Williams",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 52.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CAR_2011",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "recYPG": 33.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025559_CAR_2011",
+      "name": "Legedu Naanee",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026153_CAR_2011",
+      "name": "Jonathan Stewart",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 47.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027681_CAR_2011",
+      "name": "Brandon LaFell",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2011",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "passYPG": 253.2,
+        "tdRatio": 0.0406,
+        "intRatio": 0.0329,
+        "qbr": 80.2
+      },
+      "eraNormFactor": 1.2751
+    },
+    {
+      "id": "p_00-0010373_CAR_2011",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.7857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2011",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.41,
+        "rushTDPct": 0.0584,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2011",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2011",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

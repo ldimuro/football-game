@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010500_TEN_2004",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 73.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011024_TEN_2004",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "passYPG": 167.9,
+        "tdRatio": 0.0372,
+        "intRatio": 0.0419,
+        "qbr": 55.8
+      },
+      "eraNormFactor": 0.9541
+    },
+    {
+      "id": "p_00-0015091_TEN_2004",
+      "name": "Antowain Smith",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 46.3,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019041_TEN_2004",
+      "name": "Billy Volek",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "passYPG": 248.5,
+        "tdRatio": 0.0504,
+        "intRatio": 0.028,
+        "qbr": 51.6
+      },
+      "eraNormFactor": 1.4121
+    },
+    {
+      "id": "p_00-0019659_TEN_2004",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 21.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019976_TEN_2004",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 83.1,
+        "tdPerGame": 0.733
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020476_TEN_2004",
+      "name": "Shad Meier",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020485_TEN_2004",
+      "name": "Eddie Berlin",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 23.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022092_TEN_2004",
+      "name": "Chris Brown",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 97.0,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022916_TEN_2004",
+      "name": "Ben Troupe",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 25.3,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000313_TEN_2004",
+      "name": "G.Anderson",
+      "position": "K",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7308
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2004",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.45,
+        "rushTDPct": 0.0286,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2004",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2004",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

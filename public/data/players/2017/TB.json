@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023682_TB_2017",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "passYPG": 183.8,
+        "tdRatio": 0.0429,
+        "intRatio": 0.0184,
+        "qbr": 64.9
+      },
+      "eraNormFactor": 0.8887
+    },
+    {
+      "id": "p_00-0026189_TB_2017",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 47.7,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028083_TB_2017",
+      "name": "Jacquizz Rodgers",
+      "position": "RB",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029613_TB_2017",
+      "name": "Doug Martin",
+      "position": "RB",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 36.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2017",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 36.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2017",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 66.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_TB_2017",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "passYPG": 269.5,
+        "tdRatio": 0.043,
+        "intRatio": 0.0249,
+        "qbr": 88.2
+      },
+      "eraNormFactor": 1.3031
+    },
+    {
+      "id": "p_00-0032009_TB_2017",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 39.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032741_TB_2017",
+      "name": "Peyton Barber",
+      "position": "RB",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 38.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033879_TB_2017",
+      "name": "O.J. Howard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2017",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "recYPG": 35.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030626_TB_2017",
+      "name": "P.Murray",
+      "position": "K",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.7353
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2017",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.73,
+        "rushTDPct": 0.0206,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2017",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2017",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002962_NYJ_2000",
+      "name": "Wayne Chrebet",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "recYPG": 58.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010442_NYJ_2000",
+      "name": "Curtis Martin",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 72.2,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016193_NYJ_2000",
+      "name": "Vinny Testaverde",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "passYPG": 230.8,
+        "tdRatio": 0.0361,
+        "intRatio": 0.0396,
+        "qbr": 56.0
+      },
+      "eraNormFactor": 1.4506
+    },
+    {
+      "id": "p_00-0017160_NYJ_2000",
+      "name": "Dedric Ward",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "recYPG": 50.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017644_NYJ_2000",
+      "name": "Jermaine Wiggins",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018958_NYJ_2000",
+      "name": "Laveranues Coles",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "recYPG": 34.8,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019457_NYJ_2000",
+      "name": "Anthony Becht",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "recYPG": 14.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006662_NYJ_2000",
+      "name": "J.Hall",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.6765
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2000",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.47,
+        "rushTDPct": 0.027,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2000",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2000",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

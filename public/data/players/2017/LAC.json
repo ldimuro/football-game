@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2017",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 19.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2017",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "passYPG": 282.2,
+        "tdRatio": 0.0487,
+        "intRatio": 0.0174,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3645
+    },
+    {
+      "id": "p_00-0028411_LAC_2017",
+      "name": "Dontrelle Inman",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 34.3,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_LAC_2017",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 35.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2017",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 87.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031277_LAC_2017",
+      "name": "Branden Oliver",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 10.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032144_LAC_2017",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 69.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032160_LAC_2017",
+      "name": "Tyrell Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 45.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_LAC_2017",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033536_LAC_2017",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "recYPG": 10.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_LAC_2017",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 20.0,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_LAC_2017",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.6667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2017",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.81,
+        "rushTDPct": 0.0239,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2017",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2017",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

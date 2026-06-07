@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0015754_BAL_2013",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_BAL_2013",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 31.2,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025460_BAL_2013",
+      "name": "Jacoby Jones",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2013",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "passYPG": 244.5,
+        "tdRatio": 0.0309,
+        "intRatio": 0.0358,
+        "qbr": 27.7
+      },
+      "eraNormFactor": 1.148
+    },
+    {
+      "id": "p_00-0026195_BAL_2013",
+      "name": "Ray Rice",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 44.0,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027675_BAL_2013",
+      "name": "Ed Dickson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 21.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027714_BAL_2013",
+      "name": "Dennis Pitta",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 42.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027996_BAL_2013",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 70.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028061_BAL_2013",
+      "name": "Tandon Doss",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029264_BAL_2013",
+      "name": "Bernard Pierce",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 27.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030400_BAL_2013",
+      "name": "Marlon Brown",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2013",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9268
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2013",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.14,
+        "rushTDPct": 0.0165,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2013",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2013",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

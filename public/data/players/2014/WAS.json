@@ -1,0 +1,183 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026189_WAS_2014",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "recYPG": 77.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026345_WAS_2014",
+      "name": "Pierre Garcon",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "recYPG": 47.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027688_WAS_2014",
+      "name": "Colt McCoy",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "passYPG": 211.4,
+        "tdRatio": 0.0312,
+        "intRatio": 0.0234,
+        "qbr": 49.4
+      },
+      "eraNormFactor": 1.0536
+    },
+    {
+      "id": "p_00-0027691_WAS_2014",
+      "name": "Andre Roberts",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028043_WAS_2014",
+      "name": "Roy Helu",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028093_WAS_2014",
+      "name": "Niles Paul",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "recYPG": 33.8,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029141_WAS_2014",
+      "name": "Alfred Morris",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 67.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029604_WAS_2014",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "passYPG": 285.0,
+        "tdRatio": 0.049,
+        "intRatio": 0.0441,
+        "qbr": 73.8
+      },
+      "eraNormFactor": 1.4205
+    },
+    {
+      "id": "p_00-0029665_WAS_2014",
+      "name": "Robert Griffin",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "passYPG": 188.2,
+        "tdRatio": 0.0187,
+        "intRatio": 0.028,
+        "qbr": 15.7
+      },
+      "eraNormFactor": 0.938
+    },
+    {
+      "id": "p_00-0030472_WAS_2014",
+      "name": "Jordan Reed",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "recYPG": 42.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028787_WAS_2014",
+      "name": "K.Forbath",
+      "position": "K",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2014",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.22,
+        "rushTDPct": 0.0374,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2014",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2014",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

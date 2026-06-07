@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002159_DET_2005",
+      "name": "Shawn Bryson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005755_DET_2005",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "passYPG": 156.2,
+        "tdRatio": 0.0173,
+        "intRatio": 0.0347,
+        "qbr": 17.9
+      },
+      "eraNormFactor": 0.9155
+    },
+    {
+      "id": "p_00-0013080_DET_2005",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "recYPG": 34.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_DET_2005",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "passYPG": 168.4,
+        "tdRatio": 0.0364,
+        "intRatio": 0.0364,
+        "qbr": 18.2
+      },
+      "eraNormFactor": 0.987
+    },
+    {
+      "id": "p_00-0021530_DET_2005",
+      "name": "Scott Vines",
+      "position": "WR",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022006_DET_2005",
+      "name": "Artose Pinner",
+      "position": "RB",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 26.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022782_DET_2005",
+      "name": "Kevin Jones",
+      "position": "RB",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 51.1,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022909_DET_2005",
+      "name": "Roy Williams",
+      "position": "WR",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "recYPG": 57.2,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023452_DET_2005",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "recYPG": 29.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2005",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7917
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2005",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.63,
+        "rushTDPct": 0.0247,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2005",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2005",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

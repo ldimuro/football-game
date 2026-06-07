@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022044_HOU_2013",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 87.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022787_HOU_2013",
+      "name": "Matt Schaub",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "passYPG": 231.0,
+        "tdRatio": 0.0279,
+        "intRatio": 0.0391,
+        "qbr": 17.7
+      },
+      "eraNormFactor": 1.0846
+    },
+    {
+      "id": "p_00-0024313_HOU_2013",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 50.4,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026796_HOU_2013",
+      "name": "Arian Foster",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 67.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027718_HOU_2013",
+      "name": "Garrett Graham",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 45.4,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027890_HOU_2013",
+      "name": "Ben Tate",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 55.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028986_HOU_2013",
+      "name": "Case Keenum",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "passYPG": 220.0,
+        "tdRatio": 0.0356,
+        "intRatio": 0.0237,
+        "qbr": 10.9
+      },
+      "eraNormFactor": 1.033
+    },
+    {
+      "id": "p_00-0029415_HOU_2013",
+      "name": "Keshawn Martin",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029673_HOU_2013",
+      "name": "DeVier Posey",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 17.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030108_HOU_2013",
+      "name": "Ryan Griffin",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 30.5,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030236_HOU_2013",
+      "name": "Dennis Johnson",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 22.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_HOU_2013",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "recYPG": 50.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_HOU_2013",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.7429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2013",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.21,
+        "rushTDPct": 0.0169,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2013",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2013",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

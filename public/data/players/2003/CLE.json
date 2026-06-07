@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003535_CLE_2003",
+      "name": "Tim Couch",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "passYPG": 131.9,
+        "tdRatio": 0.0345,
+        "intRatio": 0.0296,
+        "qbr": 9.1
+      },
+      "eraNormFactor": 0.8169
+    },
+    {
+      "id": "p_00-0007576_CLE_2003",
+      "name": "Kelly Holcomb",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "passYPG": 179.7,
+        "tdRatio": 0.0331,
+        "intRatio": 0.0397,
+        "qbr": 28.9
+      },
+      "eraNormFactor": 1.1129
+    },
+    {
+      "id": "p_00-0008560_CLE_2003",
+      "name": "Kevin Johnson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 42.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019057_CLE_2003",
+      "name": "Jamel White",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 16.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019650_CLE_2003",
+      "name": "Dennis Northcutt",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 48.6,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020427_CLE_2003",
+      "name": "Quincy Morgan",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 32.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020430_CLE_2003",
+      "name": "James Jackson",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 38.2,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021150_CLE_2003",
+      "name": "William Green",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 79.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021175_CLE_2003",
+      "name": "Andre Davis",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 36.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022180_CLE_2003",
+      "name": "Lee Suggs",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 72.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_CLE_2003",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2003",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.05,
+        "rushTDPct": 0.0194,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2003",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2003",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

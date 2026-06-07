@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2014",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "passYPG": 309.5,
+        "tdRatio": 0.0501,
+        "intRatio": 0.0258,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5426
+    },
+    {
+      "id": "p_00-0022943_NO_2014",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 9.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2014",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 60.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024813_NO_2014",
+      "name": "Pierre Thomas",
+      "position": "RB",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 20.2,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025414_NO_2014",
+      "name": "Robert Meachem",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 11.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027696_NO_2014",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 59.3,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027966_NO_2014",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 74.2,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029667_NO_2014",
+      "name": "Nick Toon",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030085_NO_2014",
+      "name": "Kenny Stills",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 62.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030216_NO_2014",
+      "name": "Josh Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 14.7,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030348_NO_2014",
+      "name": "Khiry Robinson",
+      "position": "RB",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 40.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031236_NO_2014",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "recYPG": 55.0,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_NO_2014",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8636
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2014",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.48,
+        "rushTDPct": 0.0394,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2014",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2014",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

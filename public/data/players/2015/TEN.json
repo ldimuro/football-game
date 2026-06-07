@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024268_TEN_2015",
+      "name": "Anthony Fasano",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024389_TEN_2015",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 72.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026224_TEN_2015",
+      "name": "Harry Douglas",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027651_TEN_2015",
+      "name": "Dexter McCluster",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029708_TEN_2015",
+      "name": "Kendall Wright",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030521_TEN_2015",
+      "name": "Justin Hunter",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030789_TEN_2015",
+      "name": "Antonio Andrews",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 37.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031266_TEN_2015",
+      "name": "Zach Mettenberger",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 133.6,
+        "tdRatio": 0.0241,
+        "intRatio": 0.0422,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6563
+    },
+    {
+      "id": "p_00-0031375_TEN_2015",
+      "name": "Terrance West",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 28.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031413_TEN_2015",
+      "name": "Bishop Sankey",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 17.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032133_TEN_2015",
+      "name": "David Cobb",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 20.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032218_TEN_2015",
+      "name": "Dorial Green-Beckham",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032268_TEN_2015",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 234.8,
+        "tdRatio": 0.0514,
+        "intRatio": 0.027,
+        "qbr": 47.3
+      },
+      "eraNormFactor": 1.1535
+    },
+    {
+      "id": "p_00-0026968_TEN_2015",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2015",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.0,
+        "rushTDPct": 0.027,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2015",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2015",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

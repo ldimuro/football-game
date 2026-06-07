@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027942_ARI_2021",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 49.9,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_ARI_2021",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 57.2,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_ARI_2021",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 48.2,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034681_ARI_2021",
+      "name": "Chase Edmonds",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 47.7,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034775_ARI_2021",
+      "name": "Christian Kirk",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 57.4,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035126_ARI_2021",
+      "name": "Antoine Wesley",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035228_ARI_2021",
+      "name": "Kyler Murray",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "passYPG": 261.6,
+        "tdRatio": 0.0466,
+        "intRatio": 0.0233,
+        "qbr": 79.6
+      },
+      "eraNormFactor": 1.4895
+    },
+    {
+      "id": "p_00-0036383_ARI_2021",
+      "name": "Eno Benjamin",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 15.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036936_ARI_2021",
+      "name": "Rondale Moore",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_ARI_2021",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8158
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2021",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0467,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2021",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2021",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

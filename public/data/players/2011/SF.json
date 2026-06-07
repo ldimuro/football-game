@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023436_SF_2011",
+      "name": "Alex Smith",
+      "position": "QB",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "passYPG": 202.2,
+        "tdRatio": 0.0429,
+        "intRatio": 0.0097,
+        "qbr": 59.9
+      },
+      "eraNormFactor": 1.0182
+    },
+    {
+      "id": "p_00-0023438_SF_2011",
+      "name": "Braylon Edwards",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 20.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023500_SF_2011",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 76.3,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2011",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 60.2,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024389_SF_2011",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 18.0,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_SF_2011",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026314_SF_2011",
+      "name": "Josh Morgan",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 44.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026986_SF_2011",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 53.1,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027608_SF_2011",
+      "name": "Kyle Williams",
+      "position": "WR",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027772_SF_2011",
+      "name": "Anthony Dixon",
+      "position": "RB",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 9.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028053_SF_2011",
+      "name": "Kendall Hunter",
+      "position": "RB",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 31.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_SF_2011",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2011",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.26,
+        "rushTDPct": 0.0274,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2011",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2011",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

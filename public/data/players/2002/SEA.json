@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004293_SEA_2002",
+      "name": "Trent Dilfer",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "passYPG": 197.0,
+        "tdRatio": 0.0238,
+        "intRatio": 0.0357,
+        "qbr": 45.2
+      },
+      "eraNormFactor": 1.0881
+    },
+    {
+      "id": "p_00-0004915_SEA_2002",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 41.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2002",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "passYPG": 236.5,
+        "tdRatio": 0.0358,
+        "intRatio": 0.0239,
+        "qbr": 96.0
+      },
+      "eraNormFactor": 1.3063
+    },
+    {
+      "id": "p_00-0011224_SEA_2002",
+      "name": "Itula Mili",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019491_SEA_2002",
+      "name": "James Williams",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 12.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019647_SEA_2002",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 73.4,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019663_SEA_2002",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 67.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020490_SEA_2002",
+      "name": "Koren Robinson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 77.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021159_SEA_2002",
+      "name": "Jerramy Stevens",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_SEA_2002",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 25.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_SEA_2002",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7931
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2002",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.05,
+        "rushTDPct": 0.0395,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2002",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2002",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

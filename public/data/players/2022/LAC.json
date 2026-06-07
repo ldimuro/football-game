@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030279_LAC_2022",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 73.9,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031763_LAC_2022",
+      "name": "DeAndre Carter",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033536_LAC_2022",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 68.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033699_LAC_2022",
+      "name": "Austin Ekeler",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 52.8,
+        "tdPerGame": 0.833
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033895_LAC_2022",
+      "name": "Gerald Everett",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 41.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034845_LAC_2022",
+      "name": "Sony Michel",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 10.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036355_LAC_2022",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "passYPG": 278.4,
+        "tdRatio": 0.035,
+        "intRatio": 0.0135,
+        "qbr": 67.3
+      },
+      "eraNormFactor": 1.5241
+    },
+    {
+      "id": "p_00-0036370_LAC_2022",
+      "name": "Joshua Kelley",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 23.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036959_LAC_2022",
+      "name": "Michael Bandy",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 12.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036988_LAC_2022",
+      "name": "Josh Palmer",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 47.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037011_LAC_2022",
+      "name": "Tre' McKitty",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "recYPG": 9.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037224_LAC_2022",
+      "name": "C.Dicker",
+      "position": "K",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9189
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2022",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.73,
+        "rushTDPct": 0.0398,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2022",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2022",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

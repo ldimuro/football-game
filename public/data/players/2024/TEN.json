@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030564_TEN_2024",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032394_TEN_2024",
+      "name": "Nick Vannett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 11.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033009_TEN_2024",
+      "name": "Tyler Boyd",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 26.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034771_TEN_2024",
+      "name": "Mason Rudolph",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "passYPG": 191.2,
+        "tdRatio": 0.0395,
+        "intRatio": 0.0395,
+        "qbr": 47.6
+      },
+      "eraNormFactor": 1.137
+    },
+    {
+      "id": "p_00-0034837_TEN_2024",
+      "name": "Calvin Ridley",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035261_TEN_2024",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 67.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036182_TEN_2024",
+      "name": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037809_TEN_2024",
+      "name": "Chigoziem Okonkwo",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038589_TEN_2024",
+      "name": "Josh Whyle",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 17.7,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039032_TEN_2024",
+      "name": "Tyjae Spears",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 26.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039152_TEN_2024",
+      "name": "Will Levis",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "passYPG": 174.2,
+        "tdRatio": 0.0432,
+        "intRatio": 0.0399,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0359
+    },
+    {
+      "id": "p_00-0025565_TEN_2024",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.9259
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2024",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.12,
+        "rushTDPct": 0.0244,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2024",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2024",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

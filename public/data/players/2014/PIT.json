@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2014",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "passYPG": 310.9,
+        "tdRatio": 0.0505,
+        "intRatio": 0.0168,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5496
+    },
+    {
+      "id": "p_00-0023310_PIT_2014",
+      "name": "Lance Moore",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 18.0,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023465_PIT_2014",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 49.2,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027325_PIT_2014",
+      "name": "LeGarrette Blount",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 40.9,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027793_PIT_2014",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 106.8,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030460_PIT_2014",
+      "name": "Markus Wheaton",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030466_PIT_2014",
+      "name": "Justin Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 15.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030496_PIT_2014",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 85.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031373_PIT_2014",
+      "name": "Martavis Bryant",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.818
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023001_PIT_2014",
+      "name": "S.Suisham",
+      "position": "K",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.9143
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2014",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.12,
+        "rushTDPct": 0.0226,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2014",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2014",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

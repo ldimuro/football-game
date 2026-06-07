@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010346_DEN_2015",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 214.5,
+        "tdRatio": 0.026,
+        "intRatio": 0.0426,
+        "qbr": 7.8
+      },
+      "eraNormFactor": 1.0537
+    },
+    {
+      "id": "p_00-0024313_DEN_2015",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.4,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026237_DEN_2015",
+      "name": "Andre Caldwell",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 7.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026739_DEN_2015",
+      "name": "Jordan Norwood",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 17.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027685_DEN_2015",
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 75.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027874_DEN_2015",
+      "name": "Demaryius Thomas",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 71.8,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029682_DEN_2015",
+      "name": "Brock Osweiler",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 245.9,
+        "tdRatio": 0.0364,
+        "intRatio": 0.0218,
+        "qbr": 56.4
+      },
+      "eraNormFactor": 1.208
+    },
+    {
+      "id": "p_00-0029683_DEN_2015",
+      "name": "Ronnie Hillman",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 48.3,
+        "tdPerGame": 0.368
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029854_DEN_2015",
+      "name": "C.J. Anderson",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 53.0,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030670_DEN_2015",
+      "name": "Bennie Fowler",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 14.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_DEN_2015",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2015",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0299,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2015",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2015",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

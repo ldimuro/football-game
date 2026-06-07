@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022781_MIN_2012",
+      "name": "Michael Jenkins",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 32.1,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024447_MIN_2012",
+      "name": "Devin Aromashodu",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025394_MIN_2012",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 129.2,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026186_MIN_2012",
+      "name": "Jerome Simpson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 22.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026998_MIN_2012",
+      "name": "Percy Harvin",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027888_MIN_2012",
+      "name": "Toby Gerhart",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 11.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027950_MIN_2012",
+      "name": "Christian Ponder",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "passYPG": 183.4,
+        "tdRatio": 0.0373,
+        "intRatio": 0.0248,
+        "qbr": 44.4
+      },
+      "eraNormFactor": 0.8941
+    },
+    {
+      "id": "p_00-0027981_MIN_2012",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 31.5,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029572_MIN_2012",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029576_MIN_2012",
+      "name": "B.Walsh",
+      "position": "K",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.9231
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2012",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.44,
+        "rushTDPct": 0.0311,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2012",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2012",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

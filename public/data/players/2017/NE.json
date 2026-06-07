@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_NE_2017",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "passYPG": 300.5,
+        "tdRatio": 0.0556,
+        "intRatio": 0.0111,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.453
+    },
+    {
+      "id": "p_00-0026035_NE_2017",
+      "name": "Danny Amendola",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 55.9,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027656_NE_2017",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 81.4,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028087_NE_2017",
+      "name": "Dion Lewis",
+      "position": "RB",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 54.3,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028237_NE_2017",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 49.2,
+        "tdPerGame": 0.583
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029689_NE_2017",
+      "name": "Dwayne Allen",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 7.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030288_NE_2017",
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 23.9,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030433_NE_2017",
+      "name": "Mike Gillislee",
+      "position": "RB",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 42.6,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031062_NE_2017",
+      "name": "James White",
+      "position": "RB",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 13.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031236_NE_2017",
+      "name": "Brandin Cooks",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 65.1,
+        "tdPerGame": 0.368
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032208_NE_2017",
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2017",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2017",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0388,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2017",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2017",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

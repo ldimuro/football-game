@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022921_ARI_2010",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 71.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023645_ARI_2010",
+      "name": "Derek Anderson",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "passYPG": 172.1,
+        "tdRatio": 0.0214,
+        "intRatio": 0.0306,
+        "qbr": 1.9
+      },
+      "eraNormFactor": 0.9177
+    },
+    {
+      "id": "p_00-0025529_ARI_2010",
+      "name": "Steve Breaston",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 59.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026221_ARI_2010",
+      "name": "Early Doucet",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026289_ARI_2010",
+      "name": "Tim Hightower",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 46.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027007_ARI_2010",
+      "name": "Beanie Wells",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 30.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027349_ARI_2010",
+      "name": "Stephen Williams",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027352_ARI_2010",
+      "name": "Max Komar",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 14.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027691_ARI_2010",
+      "name": "Andre Roberts",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027754_ARI_2010",
+      "name": "John Skelton",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "passYPG": 132.4,
+        "tdRatio": 0.0238,
+        "intRatio": 0.0159,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.706
+    },
+    {
+      "id": "p_00-0019770_ARI_2010",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2010",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.34,
+        "rushTDPct": 0.0281,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2010",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2010",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

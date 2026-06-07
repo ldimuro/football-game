@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024217_DET_2014",
+      "name": "Reggie Bush",
+      "position": "RB",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 27.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025389_DET_2014",
+      "name": "Calvin Johnson",
+      "position": "WR",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "recYPG": 83.0,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026498_DET_2014",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "passYPG": 269.4,
+        "tdRatio": 0.0357,
+        "intRatio": 0.0202,
+        "qbr": 69.8
+      },
+      "eraNormFactor": 1.3427
+    },
+    {
+      "id": "p_00-0027218_DET_2014",
+      "name": "Joique Bell",
+      "position": "RB",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 56.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027891_DET_2014",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "recYPG": 83.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028249_DET_2014",
+      "name": "Jeremy Ross",
+      "position": "WR",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030095_DET_2014",
+      "name": "Corey Fuller",
+      "position": "WR",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "recYPG": 18.3,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031387_DET_2014",
+      "name": "Eric Ebron",
+      "position": "WR",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.7,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DET_2014",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.675
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2014",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.62,
+        "rushTDPct": 0.0287,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2014",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2014",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

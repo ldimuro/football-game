@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003739_MIN_2004",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "passYPG": 295.4,
+        "tdRatio": 0.0706,
+        "intRatio": 0.0209,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6786
+    },
+    {
+      "id": "p_00-0011754_MIN_2004",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 68.3,
+        "tdPerGame": 1.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013888_MIN_2004",
+      "name": "Marcus Robinson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 45.9,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017644_MIN_2004",
+      "name": "Jermaine Wiggins",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 47.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017892_MIN_2004",
+      "name": "Moe Williams",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 11.5,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020514_MIN_2004",
+      "name": "Michael Bennett",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 28.7,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020754_MIN_2004",
+      "name": "Kelly Campbell",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 27.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021999_MIN_2004",
+      "name": "Nate Burleson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "recYPG": 62.0,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022138_MIN_2004",
+      "name": "Onterrio Smith",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 47.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022217_MIN_2004",
+      "name": "Mewelde Moore",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 47.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000282_MIN_2004",
+      "name": "M.Andersen",
+      "position": "K",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7917
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2004",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.7,
+        "rushTDPct": 0.0207,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2004",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2004",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0018958_WAS_2003",
+      "name": "Laveranues Coles",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019590_WAS_2003",
+      "name": "Chad Morton",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 16.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019649_WAS_2003",
+      "name": "Trung Canidate",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 54.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019816_WAS_2003",
+      "name": "Tim Hasselbeck",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "passYPG": 144.6,
+        "tdRatio": 0.0282,
+        "intRatio": 0.0395,
+        "qbr": 14.0
+      },
+      "eraNormFactor": 0.8955
+    },
+    {
+      "id": "p_00-0020464_WAS_2003",
+      "name": "Darnerien McCants",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020525_WAS_2003",
+      "name": "Rod Gardner",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "recYPG": 37.5,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021184_WAS_2003",
+      "name": "Ladell Betts",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 28.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021357_WAS_2003",
+      "name": "Rock Cartwright",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 27.4,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021379_WAS_2003",
+      "name": "Patrick Ramsey",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "passYPG": 197.2,
+        "tdRatio": 0.0414,
+        "intRatio": 0.0266,
+        "qbr": 26.9
+      },
+      "eraNormFactor": 1.2213
+    },
+    {
+      "id": "p_00-0006662_WAS_2003",
+      "name": "J.Hall",
+      "position": "K",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7576
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2003",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.019,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2003",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2003",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

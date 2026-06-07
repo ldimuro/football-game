@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027891_NYG_2020",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029141_NYG_2020",
+      "name": "Alfred Morris",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 26.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031285_NYG_2020",
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 34.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032385_NYG_2020",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "recYPG": 54.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_NYG_2020",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033950_NYG_2020",
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 48.7,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034988_NYG_2020",
+      "name": "Kaden Smith",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "recYPG": 8.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035535_NYG_2020",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "recYPG": 46.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035710_NYG_2020",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "passYPG": 210.2,
+        "tdRatio": 0.0246,
+        "intRatio": 0.0223,
+        "qbr": 33.2
+      },
+      "eraNormFactor": 1.1358
+    },
+    {
+      "id": "p_00-0026858_NYG_2020",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.9688
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2020",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.43,
+        "rushTDPct": 0.0326,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2020",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2020",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

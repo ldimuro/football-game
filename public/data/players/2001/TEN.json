@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004694_TEN_2001",
+      "name": "Kevin Dyson",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 51.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005883_TEN_2001",
+      "name": "Eddie George",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 58.7,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007389_TEN_2001",
+      "name": "Skip Hicks",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 37.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010500_TEN_2001",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 75.2,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011024_TEN_2001",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "passYPG": 223.3,
+        "tdRatio": 0.0487,
+        "intRatio": 0.0278,
+        "qbr": 93.7
+      },
+      "eraNormFactor": 1.2642
+    },
+    {
+      "id": "p_00-0018343_TEN_2001",
+      "name": "Frank Wycheck",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 42.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019659_TEN_2001",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019976_TEN_2001",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "recYPG": 27.4,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011970_TEN_2001",
+      "name": "J.Nedney",
+      "position": "K",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.7143
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2001",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.83,
+        "rushTDPct": 0.0256,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2001",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2001",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

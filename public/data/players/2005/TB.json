@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005720_TB_2005",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 90.4,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006423_TB_2005",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "passYPG": 189.3,
+        "tdRatio": 0.0402,
+        "intRatio": 0.0402,
+        "qbr": 35.7
+      },
+      "eraNormFactor": 1.1095
+    },
+    {
+      "id": "p_00-0007468_TB_2005",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 22.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2005",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 27.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022005_TB_2005",
+      "name": "Chris Simms",
+      "position": "QB",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "passYPG": 186.1,
+        "tdRatio": 0.0285,
+        "intRatio": 0.0256,
+        "qbr": 14.6
+      },
+      "eraNormFactor": 1.0908
+    },
+    {
+      "id": "p_00-0022725_TB_2005",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 33.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023440_TB_2005",
+      "name": "Cadillac Williams",
+      "position": "RB",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 81.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023506_TB_2005",
+      "name": "Alex Smith",
+      "position": "WR",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_TB_2005",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8214
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2005",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.94,
+        "rushTDPct": 0.029,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2005",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2005",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

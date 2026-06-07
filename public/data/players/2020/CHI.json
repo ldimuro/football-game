@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027696_CHI_2020",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029567_CHI_2020",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "passYPG": 205.8,
+        "tdRatio": 0.0321,
+        "intRatio": 0.0256,
+        "qbr": 12.6
+      },
+      "eraNormFactor": 1.112
+    },
+    {
+      "id": "p_00-0030578_CHI_2020",
+      "name": "Cordarrelle Patterson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 14.6,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031428_CHI_2020",
+      "name": "Allen Robinson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 76.8,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033869_CHI_2020",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "passYPG": 204.9,
+        "tdRatio": 0.0521,
+        "intRatio": 0.0245,
+        "qbr": 72.8
+      },
+      "eraNormFactor": 1.1071
+    },
+    {
+      "id": "p_00-0034353_CHI_2020",
+      "name": "Anthony Miller",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035685_CHI_2020",
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 68.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036290_CHI_2020",
+      "name": "Cole Kmet",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 18.5,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036309_CHI_2020",
+      "name": "Darnell Mooney",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "recYPG": 39.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031203_CHI_2020",
+      "name": "C.Santos",
+      "position": "K",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.9394
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2020",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.11,
+        "rushTDPct": 0.0291,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2020",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2020",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001218_DEN_2002",
+      "name": "Steve Beuerlein",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "passYPG": 185.0,
+        "tdRatio": 0.0513,
+        "intRatio": 0.0427,
+        "qbr": 58.9
+      },
+      "eraNormFactor": 1.0219
+    },
+    {
+      "id": "p_00-0005816_DEN_2002",
+      "name": "Olandis Gary",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 16.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006423_DEN_2002",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "passYPG": 247.2,
+        "tdRatio": 0.0344,
+        "intRatio": 0.0344,
+        "qbr": 76.8
+      },
+      "eraNormFactor": 1.3654
+    },
+    {
+      "id": "p_00-0010650_DEN_2002",
+      "name": "Ed McCaffrey",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014722_DEN_2002",
+      "name": "Shannon Sharpe",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 52.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015290_DEN_2002",
+      "name": "Rod Smith",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 64.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019594_DEN_2002",
+      "name": "Mike Anderson",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 25.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021152_DEN_2002",
+      "name": "Ashley Lelie",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "recYPG": 35.0,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021179_DEN_2002",
+      "name": "Clinton Portis",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 94.2,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004811_DEN_2002",
+      "name": "J.Elam",
+      "position": "K",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7222
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2002",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.96,
+        "rushTDPct": 0.046,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2002",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2002",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023682_BUF_2011",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "passYPG": 239.5,
+        "tdRatio": 0.0422,
+        "intRatio": 0.0404,
+        "qbr": 46.1
+      },
+      "eraNormFactor": 1.2061
+    },
+    {
+      "id": "p_00-0024204_BUF_2011",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 93.4,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025516_BUF_2011",
+      "name": "Scott Chandler",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026364_BUF_2011",
+      "name": "Steve Johnson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 62.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027220_BUF_2011",
+      "name": "Naaman Roosevelt",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027322_BUF_2011",
+      "name": "David Nelson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 41.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027518_BUF_2011",
+      "name": "Donald Jones",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027861_BUF_2011",
+      "name": "C.J. Spiller",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 35.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_BUF_2011",
+      "name": "D.Rayner",
+      "position": "K",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.7419
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2011",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.91,
+        "rushTDPct": 0.0307,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2011",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2011",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

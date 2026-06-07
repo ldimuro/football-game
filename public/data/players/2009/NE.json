@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005091_NE_2009",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 24.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_NE_2009",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 77.2,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016098_NE_2009",
+      "name": "Fred Taylor",
+      "position": "RB",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 38.6,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019484_NE_2009",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 25.2,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2009",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "passYPG": 267.8,
+        "tdRatio": 0.0494,
+        "intRatio": 0.0264,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6354
+    },
+    {
+      "id": "p_00-0021213_NE_2009",
+      "name": "Chris Baker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021915_NE_2009",
+      "name": "Sam Aiken",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 30.1,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022427_NE_2009",
+      "name": "Wes Welker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 96.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022943_NE_2009",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 31.3,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024236_NE_2009",
+      "name": "Laurence Maroney",
+      "position": "RB",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 47.4,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027150_NE_2009",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2009",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2009",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.1,
+        "rushTDPct": 0.0393,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2009",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2009",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

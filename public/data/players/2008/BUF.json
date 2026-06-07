@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021166_BUF_2008",
+      "name": "Josh Reed",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 45.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021273_BUF_2008",
+      "name": "Robert Royal",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022910_BUF_2008",
+      "name": "Lee Evans",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 67.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022912_BUF_2008",
+      "name": "J.P. Losman",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "passYPG": 116.8,
+        "tdRatio": 0.0192,
+        "intRatio": 0.0481,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.6423
+    },
+    {
+      "id": "p_00-0023490_BUF_2008",
+      "name": "Roscoe Parrish",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024204_BUF_2008",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 37.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025399_BUF_2008",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 69.8,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025479_BUF_2008",
+      "name": "Trent Edwards",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "passYPG": 192.8,
+        "tdRatio": 0.0294,
+        "intRatio": 0.0267,
+        "qbr": 57.3
+      },
+      "eraNormFactor": 1.0602
+    },
+    {
+      "id": "p_00-0019310_BUF_2008",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.7895
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2008",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.2,
+        "rushTDPct": 0.0364,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2008",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2008",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

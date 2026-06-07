@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005106_NYJ_2008",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "passYPG": 217.0,
+        "tdRatio": 0.0421,
+        "intRatio": 0.0421,
+        "qbr": 62.8
+      },
+      "eraNormFactor": 1.1932
+    },
+    {
+      "id": "p_00-0018958_NYJ_2008",
+      "name": "Laveranues Coles",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "recYPG": 53.1,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_NYJ_2008",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 82.0,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021213_NYJ_2008",
+      "name": "Chris Baker",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "recYPG": 17.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022811_NYJ_2008",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "recYPG": 53.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024332_NYJ_2008",
+      "name": "Leon Washington",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 28.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025622_NYJ_2008",
+      "name": "Chansi Stuckey",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026170_NYJ_2008",
+      "name": "Dustin Keller",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_NYJ_2008",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8276
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2008",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.75,
+        "rushTDPct": 0.0474,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2008",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2008",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

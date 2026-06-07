@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020498_IND_2013",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 71.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026983_IND_2013",
+      "name": "Darrius Heyward-Bey",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_IND_2013",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 38.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029033_IND_2013",
+      "name": "Griff Whalen",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029548_IND_2013",
+      "name": "LaVon Brazill",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029608_IND_2013",
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 78.3,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029668_IND_2013",
+      "name": "Andrew Luck",
+      "position": "QB",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "passYPG": 255.3,
+        "tdRatio": 0.0442,
+        "intRatio": 0.0244,
+        "qbr": 65.9
+      },
+      "eraNormFactor": 1.1987
+    },
+    {
+      "id": "p_00-0029697_IND_2013",
+      "name": "Coby Fleener",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030043_IND_2013",
+      "name": "Da'Rick Rogers",
+      "position": "WR",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2013",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8837
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2013",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.26,
+        "rushTDPct": 0.0356,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2013",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2013",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

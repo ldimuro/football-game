@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004915_SEA_2008",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2008",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "passYPG": 173.7,
+        "tdRatio": 0.0239,
+        "intRatio": 0.0478,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9551
+    },
+    {
+      "id": "p_00-0020490_SEA_2008",
+      "name": "Koren Robinson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_SEA_2008",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 44.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_SEA_2008",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021376_SEA_2008",
+      "name": "T.J. Duckett",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 11.5,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022055_SEA_2008",
+      "name": "Seneca Wallace",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "passYPG": 170.2,
+        "tdRatio": 0.0455,
+        "intRatio": 0.0124,
+        "qbr": 67.3
+      },
+      "eraNormFactor": 0.9359
+    },
+    {
+      "id": "p_00-0022840_SEA_2008",
+      "name": "Julius Jones",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 49.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026178_SEA_2008",
+      "name": "John Carlson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_SEA_2008",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2008",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.24,
+        "rushTDPct": 0.024,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2008",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2008",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004294_IND_2001",
+      "name": "Ken Dilger",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 21.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007024_IND_2001",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 95.2,
+        "tdPerGame": 0.938
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008241_IND_2001",
+      "name": "Edgerrin James",
+      "position": "RB",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 110.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2001",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "passYPG": 258.2,
+        "tdRatio": 0.0475,
+        "intRatio": 0.042,
+        "qbr": 64.7
+      },
+      "eraNormFactor": 1.4618
+    },
+    {
+      "id": "p_00-0012637_IND_2001",
+      "name": "Jerome Pathon",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 82.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013080_IND_2001",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 46.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017697_IND_2001",
+      "name": "Terrence Wilkins",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019054_IND_2001",
+      "name": "Trevor Insley",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 23.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019863_IND_2001",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 84.9,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2001",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "recYPG": 31.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016830_IND_2001",
+      "name": "M.Vanderjagt",
+      "position": "K",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8235
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2001",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.49,
+        "rushTDPct": 0.0365,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2001",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2001",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

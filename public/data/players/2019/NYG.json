@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2019",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "passYPG": 260.5,
+        "tdRatio": 0.0408,
+        "intRatio": 0.034,
+        "qbr": 32.5
+      },
+      "eraNormFactor": 1.25
+    },
+    {
+      "id": "p_00-0027891_NYG_2019",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 61.5,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029587_NYG_2019",
+      "name": "Rhett Ellison",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 16.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030670_NYG_2019",
+      "name": "Bennie Fowler",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 24.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031344_NYG_2019",
+      "name": "Cody Latimer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032385_NYG_2019",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 57.6,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_NYG_2019",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 58.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034844_NYG_2019",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 77.2,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034988_NYG_2019",
+      "name": "Kaden Smith",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 38.3,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035535_NYG_2019",
+      "name": "Darius Slayton",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "recYPG": 52.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035710_NYG_2019",
+      "name": "Daniel Jones",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "passYPG": 232.8,
+        "tdRatio": 0.0523,
+        "intRatio": 0.0261,
+        "qbr": 18.2
+      },
+      "eraNormFactor": 1.1171
+    },
+    {
+      "id": "p_00-0032870_NYG_2019",
+      "name": "A.Rosas",
+      "position": "K",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7059
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2019",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.65,
+        "rushTDPct": 0.0304,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2019",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2019",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

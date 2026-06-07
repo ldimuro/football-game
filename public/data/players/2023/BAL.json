@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031235_BAL_2023",
+      "name": "Odell Beckham",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_BAL_2023",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 24.0,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034184_BAL_2023",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 45.8,
+        "tdPerGame": 0.684
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034753_BAL_2023",
+      "name": "Mark Andrews",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 50.8,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034796_BAL_2023",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "passYPG": 227.9,
+        "tdRatio": 0.0523,
+        "intRatio": 0.0155,
+        "qbr": 81.6
+      },
+      "eraNormFactor": 1.2699
+    },
+    {
+      "id": "p_00-0034975_BAL_2023",
+      "name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 25.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036550_BAL_2023",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 24.0,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037838_BAL_2023",
+      "name": "Isaiah Likely",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038454_BAL_2023",
+      "name": "Keaton Mitchell",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 56.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039064_BAL_2023",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "recYPG": 56.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2023",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2023",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.96,
+        "rushTDPct": 0.0467,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2023",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2023",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

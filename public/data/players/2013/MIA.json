@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026901_MIA_2013",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026937_MIA_2013",
+      "name": "Brandon Gibson",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 46.6,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027077_MIA_2013",
+      "name": "Brian Hartline",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 63.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028000_MIA_2013",
+      "name": "Daniel Thomas",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 27.1,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028112_MIA_2013",
+      "name": "Charles Clay",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 47.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029580_MIA_2013",
+      "name": "Rishard Matthews",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029615_MIA_2013",
+      "name": "Lamar Miller",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 44.3,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029701_MIA_2013",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "passYPG": 244.6,
+        "tdRatio": 0.0408,
+        "intRatio": 0.0289,
+        "qbr": 50.1
+      },
+      "eraNormFactor": 1.1485
+    },
+    {
+      "id": "p_00-0030390_MIA_2013",
+      "name": "C.Sturgis",
+      "position": "K",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.7647
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2013",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.13,
+        "rushTDPct": 0.0229,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2013",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2013",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

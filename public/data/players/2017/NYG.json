@@ -1,0 +1,215 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2017",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "passYPG": 231.2,
+        "tdRatio": 0.0333,
+        "intRatio": 0.0228,
+        "qbr": 10.4
+      },
+      "eraNormFactor": 1.1179
+    },
+    {
+      "id": "p_00-0024334_NYG_2017",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027994_NYG_2017",
+      "name": "Shane Vereen",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 10.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029587_NYG_2017",
+      "name": "Rhett Ellison",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030091_NYG_2017",
+      "name": "Tavarres King",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030860_NYG_2017",
+      "name": "Orleans Darkwa",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 50.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031235_NYG_2017",
+      "name": "Odell Beckham",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 75.5,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032385_NYG_2017",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 66.5,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032417_NYG_2017",
+      "name": "Paul Perkins",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 12.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032659_NYG_2017",
+      "name": "Roger Lewis",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 29.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033717_NYG_2017",
+      "name": "Travis Rudolph",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_NYG_2017",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033950_NYG_2017",
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 36.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032870_NYG_2017",
+      "name": "A.Rosas",
+      "position": "K",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.72
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2017",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.93,
+        "rushTDPct": 0.0152,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2017",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2017",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

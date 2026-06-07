@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": "p_00-0039750_LA_2024",
+      "name": "J.Karty",
+      "position": "K",
+      "team": "LA",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8684
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2024",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.99,
+        "rushTDPct": 0.0304,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_DLine_2024",
+      "position": "DLine",
+      "team": "LA",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_Secondary_2024",
+      "position": "Secondary",
+      "team": "LA",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020498_IND_2012",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 86.4,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026173_IND_2012",
+      "name": "Donnie Avery",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 46.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_IND_2012",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 41.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028057_IND_2012",
+      "name": "Delone Carter",
+      "position": "RB",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 17.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029547_IND_2012",
+      "name": "Vick Ballard",
+      "position": "RB",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 53.2,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029548_IND_2012",
+      "name": "LaVon Brazill",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029608_IND_2012",
+      "name": "T.Y. Hilton",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029668_IND_2012",
+      "name": "Andrew Luck",
+      "position": "QB",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "passYPG": 274.2,
+        "tdRatio": 0.0338,
+        "intRatio": 0.0279,
+        "qbr": 53.2
+      },
+      "eraNormFactor": 1.3368
+    },
+    {
+      "id": "p_00-0029689_IND_2012",
+      "name": "Dwayne Allen",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029697_IND_2012",
+      "name": "Coby Fleener",
+      "position": "WR",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2012",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.7838
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2012",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.88,
+        "rushTDPct": 0.0234,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2012",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2012",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

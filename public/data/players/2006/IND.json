@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0007024_IND_2006",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "recYPG": 78.0,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2006",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "passYPG": 271.6,
+        "tdRatio": 0.0479,
+        "intRatio": 0.0225,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5486
+    },
+    {
+      "id": "p_00-0019863_IND_2006",
+      "name": "Dominic Rhodes",
+      "position": "RB",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 47.4,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020498_IND_2006",
+      "name": "Reggie Wayne",
+      "position": "WR",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "recYPG": 76.3,
+        "tdPerGame": 0.55
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021317_IND_2006",
+      "name": "Bryan Fletcher",
+      "position": "WR",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "recYPG": 18.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022165_IND_2006",
+      "name": "Dallas Clark",
+      "position": "WR",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "recYPG": 42.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022555_IND_2006",
+      "name": "Ben Utecht",
+      "position": "WR",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024245_IND_2006",
+      "name": "Joseph Addai",
+      "position": "RB",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 68.8,
+        "tdPerGame": 0.45
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_IND_2006",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.9091
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2006",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.04,
+        "rushTDPct": 0.0358,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2006",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2006",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

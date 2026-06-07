@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025399_SEA_2013",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 81.3,
+        "tdPerGame": 0.842
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025425_SEA_2013",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 27.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025431_SEA_2013",
+      "name": "Sidney Rice",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027891_SEA_2013",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 50.5,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028434_SEA_2013",
+      "name": "Doug Baldwin",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 51.6,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029159_SEA_2013",
+      "name": "Jermaine Kearse",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029263_SEA_2013",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "passYPG": 204.3,
+        "tdRatio": 0.0611,
+        "intRatio": 0.0189,
+        "qbr": 94.4
+      },
+      "eraNormFactor": 0.9593
+    },
+    {
+      "id": "p_00-0029273_SEA_2013",
+      "name": "Robert Turbin",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 16.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030089_SEA_2013",
+      "name": "Luke Willson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025944_SEA_2013",
+      "name": "S.Hauschka",
+      "position": "K",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.9535
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2013",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.34,
+        "rushTDPct": 0.0299,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2013",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2013",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

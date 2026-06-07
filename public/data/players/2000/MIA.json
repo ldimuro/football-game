@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004200_MIA_2000",
+      "name": "Autry Denson",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 11.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005180_MIA_2000",
+      "name": "Jay Fiedler",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "passYPG": 163.1,
+        "tdRatio": 0.0349,
+        "intRatio": 0.0474,
+        "qbr": 57.5
+      },
+      "eraNormFactor": 1.0251
+    },
+    {
+      "id": "p_00-0005668_MIA_2000",
+      "name": "Oronde Gadsden",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 48.5,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008529_MIA_2000",
+      "name": "J.J. Johnson",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 17.5,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010477_MIA_2000",
+      "name": "Tony Martin",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 38.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010824_MIA_2000",
+      "name": "O.J. McDuffie",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014790_MIA_2000",
+      "name": "Leslie Shepherd",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "recYPG": 34.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015242_MIA_2000",
+      "name": "Lamar Smith",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 78.9,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_MIA_2000",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2000",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.84,
+        "rushTDPct": 0.0351,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2000",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2000",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

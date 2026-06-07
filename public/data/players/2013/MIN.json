@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023662_MIN_2013",
+      "name": "Matt Cassel",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "passYPG": 200.8,
+        "tdRatio": 0.0433,
+        "intRatio": 0.0354,
+        "qbr": 36.8
+      },
+      "eraNormFactor": 0.9428
+    },
+    {
+      "id": "p_00-0024267_MIN_2013",
+      "name": "Greg Jennings",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 53.6,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025394_MIN_2013",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 90.4,
+        "tdPerGame": 0.714
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026178_MIN_2013",
+      "name": "John Carlson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 26.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026186_MIN_2013",
+      "name": "Jerome Simpson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 45.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027888_MIN_2013",
+      "name": "Toby Gerhart",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 23.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027950_MIN_2013",
+      "name": "Christian Ponder",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "passYPG": 183.1,
+        "tdRatio": 0.0293,
+        "intRatio": 0.0377,
+        "qbr": 24.4
+      },
+      "eraNormFactor": 0.8597
+    },
+    {
+      "id": "p_00-0027981_MIN_2013",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029572_MIN_2013",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029576_MIN_2013",
+      "name": "B.Walsh",
+      "position": "K",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2013",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.92,
+        "rushTDPct": 0.0544,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2013",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2013",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

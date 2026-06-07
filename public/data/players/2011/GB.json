@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2011",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 28.8,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022984_GB_2011",
+      "name": "Ryan Grant",
+      "position": "RB",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 37.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023459_GB_2011",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "passYPG": 306.2,
+        "tdRatio": 0.0859,
+        "intRatio": 0.0128,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.542
+    },
+    {
+      "id": "p_00-0024267_GB_2011",
+      "name": "Greg Jennings",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 70.6,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025465_GB_2011",
+      "name": "James Jones",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026176_GB_2011",
+      "name": "Jordy Nelson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 76.6,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026231_GB_2011",
+      "name": "Jermichael Finley",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 47.3,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027791_GB_2011",
+      "name": "James Starks",
+      "position": "RB",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 44.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028002_GB_2011",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2011",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2011",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.08,
+        "rushTDPct": 0.0287,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2011",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2011",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

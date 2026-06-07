@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002469_CAR_2002",
+      "name": "Isaac Byrd",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010333_CAR_2002",
+      "name": "Kris Mangum",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "recYPG": 10.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011795_CAR_2002",
+      "name": "Muhsin Muhammad",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "recYPG": 58.8,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012732_CAR_2002",
+      "name": "Rodney Peete",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "passYPG": 187.9,
+        "tdRatio": 0.0394,
+        "intRatio": 0.0367,
+        "qbr": 29.4
+      },
+      "eraNormFactor": 1.0379
+    },
+    {
+      "id": "p_00-0015242_CAR_2002",
+      "name": "Lamar Smith",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 67.0,
+        "tdPerGame": 0.636
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017109_CAR_2002",
+      "name": "Wesley Walls",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "recYPG": 20.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019831_CAR_2002",
+      "name": "Nick Goings",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 14.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020337_CAR_2002",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020376_CAR_2002",
+      "name": "Dee Brown",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 30.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_CAR_2002",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.6
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2002",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.51,
+        "rushTDPct": 0.0243,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2002",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2002",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

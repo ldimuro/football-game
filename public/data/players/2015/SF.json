@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022084_SF_2015",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 56.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2015",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027948_SF_2015",
+      "name": "Blaine Gabbert",
+      "position": "QB",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "passYPG": 253.9,
+        "tdRatio": 0.0355,
+        "intRatio": 0.0248,
+        "qbr": 11.4
+      },
+      "eraNormFactor": 1.2473
+    },
+    {
+      "id": "p_00-0027974_SF_2015",
+      "name": "Colin Kaepernick",
+      "position": "QB",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "passYPG": 179.4,
+        "tdRatio": 0.0246,
+        "intRatio": 0.0205,
+        "qbr": 19.6
+      },
+      "eraNormFactor": 0.8813
+    },
+    {
+      "id": "p_00-0027996_SF_2015",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 41.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028903_SF_2015",
+      "name": "Garrett Celek",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030450_SF_2015",
+      "name": "Quinton Patton",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 26.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030470_SF_2015",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 23.3,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031045_SF_2015",
+      "name": "Carlos Hyde",
+      "position": "RB",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 67.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032062_SF_2015",
+      "name": "Blake Bell",
+      "position": "WR",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032063_SF_2015",
+      "name": "Mike Davis",
+      "position": "RB",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 11.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_SF_2015",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2015",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.96,
+        "rushTDPct": 0.0179,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2015",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2015",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

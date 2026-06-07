@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004294_IND_2000",
+      "name": "Ken Dilger",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006322_IND_2000",
+      "name": "E.G. Green",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 40.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007024_IND_2000",
+      "name": "Marvin Harrison",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 86.5,
+        "tdPerGame": 0.824
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008241_IND_2000",
+      "name": "Edgerrin James",
+      "position": "RB",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 105.7,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010346_IND_2000",
+      "name": "Peyton Manning",
+      "position": "QB",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "passYPG": 269.5,
+        "tdRatio": 0.057,
+        "intRatio": 0.0235,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.6939
+    },
+    {
+      "id": "p_00-0012637_IND_2000",
+      "name": "Jerome Pathon",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 41.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013080_IND_2000",
+      "name": "Marcus Pollard",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 30.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017697_IND_2000",
+      "name": "Terrence Wilkins",
+      "position": "WR",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016830_IND_2000",
+      "name": "M.Vanderjagt",
+      "position": "K",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.9032
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2000",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.26,
+        "rushTDPct": 0.0311,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2000",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2000",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

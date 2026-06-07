@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001361_DAL_2005",
+      "name": "Drew Bledsoe",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "passYPG": 227.4,
+        "tdRatio": 0.0461,
+        "intRatio": 0.0341,
+        "qbr": 81.0
+      },
+      "eraNormFactor": 1.3328
+    },
+    {
+      "id": "p_00-0006043_DAL_2005",
+      "name": "Terry Glenn",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 71.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008561_DAL_2005",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 52.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020403_DAL_2005",
+      "name": "Anthony Thomas",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 10.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022127_DAL_2005",
+      "name": "Jason Witten",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 47.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022766_DAL_2005",
+      "name": "Patrick Crayton",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022840_DAL_2005",
+      "name": "Julius Jones",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 76.4,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023192_DAL_2005",
+      "name": "Tyson Thompson",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 22.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023544_DAL_2005",
+      "name": "Marion Barber",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 44.8,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003501_DAL_2005",
+      "name": "J.Cortez",
+      "position": "K",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7143
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2005",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.025,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2005",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2005",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

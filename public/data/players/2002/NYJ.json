@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002962_NYJ_2002",
+      "name": "Wayne Chrebet",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010442_NYJ_2002",
+      "name": "Curtis Martin",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 68.6,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018958_NYJ_2002",
+      "name": "Laveranues Coles",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "recYPG": 73.9,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019457_NYJ_2002",
+      "name": "Anthony Becht",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019559_NYJ_2002",
+      "name": "Chad Pennington",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "passYPG": 207.4,
+        "tdRatio": 0.0552,
+        "intRatio": 0.017,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.1456
+    },
+    {
+      "id": "p_00-0020462_NYJ_2002",
+      "name": "LaMont Jordan",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 28.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020494_NYJ_2002",
+      "name": "Santana Moss",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006662_NYJ_2002",
+      "name": "J.Hall",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7714
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2002",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.12,
+        "rushTDPct": 0.03,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2002",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2002",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

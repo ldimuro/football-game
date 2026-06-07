@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029263_SEA_2019",
+      "name": "Russell Wilson",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "passYPG": 261.8,
+        "tdRatio": 0.0572,
+        "intRatio": 0.0087,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2563
+    },
+    {
+      "id": "p_00-0030300_SEA_2019",
+      "name": "Jaron Brown",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032211_SEA_2019",
+      "name": "Tyler Lockett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 69.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032394_SEA_2019",
+      "name": "Nick Vannett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 12.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033387_SEA_2019",
+      "name": "Jacob Hollister",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 34.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033589_SEA_2019",
+      "name": "David Moore",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033594_SEA_2019",
+      "name": "Chris Carson",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 82.0,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034159_SEA_2019",
+      "name": "Will Dissly",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034750_SEA_2019",
+      "name": "Rashaad Penny",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 41.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034867_SEA_2019",
+      "name": "Malik Turner",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 22.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035594_SEA_2019",
+      "name": "Travis Homer",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 23.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035640_SEA_2019",
+      "name": "DK Metcalf",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "recYPG": 62.2,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031492_SEA_2019",
+      "name": "J.Myers",
+      "position": "K",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7812
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2019",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.47,
+        "rushTDPct": 0.0339,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2019",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2019",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005231_ATL_2010",
+      "name": "Brian Finneran",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 16.4,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006101_ATL_2010",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 39.0,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022781_ATL_2010",
+      "name": "Michael Jenkins",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 47.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022821_ATL_2010",
+      "name": "Michael Turner",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 82.9,
+        "tdPerGame": 0.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023462_ATL_2010",
+      "name": "Roddy White",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 85.1,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026143_ATL_2010",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "passYPG": 228.9,
+        "tdRatio": 0.0483,
+        "intRatio": 0.0183,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2206
+    },
+    {
+      "id": "p_00-0026224_ATL_2010",
+      "name": "Harry Douglas",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 18.5,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_ATL_2010",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.9032
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2010",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.79,
+        "rushTDPct": 0.0294,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2010",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2010",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

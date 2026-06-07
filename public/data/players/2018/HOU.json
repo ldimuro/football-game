@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029615_HOU_2018",
+      "name": "Lamar Miller",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 66.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030108_HOU_2018",
+      "name": "Ryan Griffin",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030564_HOU_2018",
+      "name": "DeAndre Hopkins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 94.6,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031075_HOU_2018",
+      "name": "Alfred Blue",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 29.8,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031326_HOU_2018",
+      "name": "Bruce Ellington",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 32.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033127_HOU_2018",
+      "name": "Will Fuller",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 71.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033537_HOU_2018",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "passYPG": 258.8,
+        "tdRatio": 0.0487,
+        "intRatio": 0.0181,
+        "qbr": 78.5
+      },
+      "eraNormFactor": 1.3263
+    },
+    {
+      "id": "p_00-0034364_HOU_2018",
+      "name": "Jordan Akins",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034366_HOU_2018",
+      "name": "Keke Coutee",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 56.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034420_HOU_2018",
+      "name": "Jordan Thomas",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032726_HOU_2018",
+      "name": "K.Fairbairn",
+      "position": "K",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.881
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2018",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.36,
+        "rushTDPct": 0.0246,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2018",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2018",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

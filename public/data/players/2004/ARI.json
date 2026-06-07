@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000552_ARI_2004",
+      "name": "Obafemi Ayanbadejo",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 9.4,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008749_ARI_2004",
+      "name": "Freddie Jones",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "recYPG": 26.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015165_ARI_2004",
+      "name": "Emmitt Smith",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 62.5,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019516_ARI_2004",
+      "name": "Troy Hambrick",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 31.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021206_ARI_2004",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "passYPG": 179.4,
+        "tdRatio": 0.027,
+        "intRatio": 0.0245,
+        "qbr": 18.7
+      },
+      "eraNormFactor": 1.0194
+    },
+    {
+      "id": "p_00-0022084_ARI_2004",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "recYPG": 62.3,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_ARI_2004",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "recYPG": 38.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022921_ARI_2004",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_ARI_2004",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.7586
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2004",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.51,
+        "rushTDPct": 0.0316,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2004",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2004",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

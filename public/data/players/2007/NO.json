@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011236_NO_2007",
+      "name": "Billy Miller",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 27.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012642_NO_2007",
+      "name": "David Patten",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 56.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015601_NO_2007",
+      "name": "Aaron Stecker",
+      "position": "RB",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 31.7,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020455_NO_2007",
+      "name": "Eric Johnson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 27.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020531_NO_2007",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "passYPG": 276.8,
+        "tdRatio": 0.0427,
+        "intRatio": 0.0275,
+        "qbr": 83.1
+      },
+      "eraNormFactor": 1.7363
+    },
+    {
+      "id": "p_00-0022929_NO_2007",
+      "name": "Devery Henderson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 34.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023310_NO_2007",
+      "name": "Lance Moore",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 21.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024217_NO_2007",
+      "name": "Reggie Bush",
+      "position": "RB",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 48.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2007",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "recYPG": 75.1,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024813_NO_2007",
+      "name": "Pierre Thomas",
+      "position": "RB",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 27.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_NO_2007",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.6818
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2007",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.75,
+        "rushTDPct": 0.0359,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2007",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2007",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

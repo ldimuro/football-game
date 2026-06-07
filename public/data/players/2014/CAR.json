@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022811_CAR_2014",
+      "name": "Jerricho Cotchery",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024242_CAR_2014",
+      "name": "DeAngelo Williams",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 31.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024324_CAR_2014",
+      "name": "Jason Avant",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CAR_2014",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 61.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026153_CAR_2014",
+      "name": "Jonathan Stewart",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 66.8,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027675_CAR_2014",
+      "name": "Ed Dickson",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2014",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "passYPG": 223.2,
+        "tdRatio": 0.0426,
+        "intRatio": 0.0291,
+        "qbr": 34.2
+      },
+      "eraNormFactor": 1.1125
+    },
+    {
+      "id": "p_00-0029394_CAR_2014",
+      "name": "Brenton Bersin",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029731_CAR_2014",
+      "name": "Fozzy Whittaker",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 15.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031118_CAR_2014",
+      "name": "Corey Brown",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031123_CAR_2014",
+      "name": "Darrin Reaves",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 15.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031359_CAR_2014",
+      "name": "Kelvin Benjamin",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "recYPG": 62.0,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026858_CAR_2014",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8205
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2014",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.33,
+        "rushTDPct": 0.0202,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2014",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2014",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

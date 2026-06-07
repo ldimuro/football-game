@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001823_NO_2002",
+      "name": "Aaron Brooks",
+      "position": "QB",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "passYPG": 223.2,
+        "tdRatio": 0.0511,
+        "intRatio": 0.0284,
+        "qbr": 55.7
+      },
+      "eraNormFactor": 1.2328
+    },
+    {
+      "id": "p_00-0007744_NO_2002",
+      "name": "Joe Horn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 82.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012637_NO_2002",
+      "name": "Jerome Pathon",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013512_NO_2002",
+      "name": "Jake Reed",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015048_NO_2002",
+      "name": "David Sloan",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 10.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020171_NO_2002",
+      "name": "Boo Williams",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 11.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020527_NO_2002",
+      "name": "Deuce McAllister",
+      "position": "RB",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 92.5,
+        "tdPerGame": 0.867
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021147_NO_2002",
+      "name": "Donte' Stallworth",
+      "position": "WR",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "recYPG": 45.7,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002655_NO_2002",
+      "name": "J.Carney",
+      "position": "K",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2002",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0376,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2002",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2002",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

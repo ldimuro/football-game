@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031544_DAL_2021",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 58.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033045_DAL_2021",
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 57.4,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033077_DAL_2021",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "passYPG": 276.6,
+        "tdRatio": 0.0595,
+        "intRatio": 0.0172,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5749
+    },
+    {
+      "id": "p_00-0033591_DAL_2021",
+      "name": "Noah Brown",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033725_DAL_2021",
+      "name": "Corey Clement",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 28.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034383_DAL_2021",
+      "name": "Dalton Schultz",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 49.8,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034418_DAL_2021",
+      "name": "Cedrick Wilson",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 44.3,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034764_DAL_2021",
+      "name": "Michael Gallup",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 49.4,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035261_DAL_2021",
+      "name": "Tony Pollard",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 45.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036358_DAL_2021",
+      "name": "CeeDee Lamb",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "recYPG": 66.1,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029621_DAL_2021",
+      "name": "G.Zuerlein",
+      "position": "K",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2021",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.45,
+        "rushTDPct": 0.0324,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2021",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2021",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

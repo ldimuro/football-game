@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004915_SEA_2006",
+      "name": "Bobby Engram",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 51.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007091_SEA_2006",
+      "name": "Matt Hasselbeck",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "passYPG": 205.5,
+        "tdRatio": 0.0477,
+        "intRatio": 0.0409,
+        "qbr": 39.9
+      },
+      "eraNormFactor": 1.1717
+    },
+    {
+      "id": "p_00-0019647_SEA_2006",
+      "name": "Shaun Alexander",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 89.4,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019663_SEA_2006",
+      "name": "Darrell Jackson",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 71.8,
+        "tdPerGame": 0.714
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021159_SEA_2006",
+      "name": "Jerramy Stevens",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021182_SEA_2006",
+      "name": "Maurice Morris",
+      "position": "RB",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 34.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_SEA_2006",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 51.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022055_SEA_2006",
+      "name": "Seneca Wallace",
+      "position": "QB",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "passYPG": 132.4,
+        "tdRatio": 0.0567,
+        "intRatio": 0.0496,
+        "qbr": 15.9
+      },
+      "eraNormFactor": 0.7549
+    },
+    {
+      "id": "p_00-0022701_SEA_2006",
+      "name": "D.J. Hackett",
+      "position": "WR",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 44.1,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_SEA_2006",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8235
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SEA_OLine_2006",
+      "position": "OLine",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0182,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_DLine_2006",
+      "position": "DLine",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SEA_Secondary_2006",
+      "position": "Secondary",
+      "team": "SEA",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

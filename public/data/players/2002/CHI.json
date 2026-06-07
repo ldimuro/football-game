@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001477_CHI_2002",
+      "name": "Marty Booker",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 74.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002876_CHI_2002",
+      "name": "Chris Chandler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "passYPG": 127.9,
+        "tdRatio": 0.0248,
+        "intRatio": 0.0248,
+        "qbr": 7.4
+      },
+      "eraNormFactor": 0.7065
+    },
+    {
+      "id": "p_00-0004004_CHI_2002",
+      "name": "John Davis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008568_CHI_2002",
+      "name": "Leon Johnson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 21.9,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011276_CHI_2002",
+      "name": "Jim Miller",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "passYPG": 194.4,
+        "tdRatio": 0.0414,
+        "intRatio": 0.0287,
+        "qbr": 40.2
+      },
+      "eraNormFactor": 1.0738
+    },
+    {
+      "id": "p_00-0013888_CHI_2002",
+      "name": "Marcus Robinson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019464_CHI_2002",
+      "name": "Dustin Lyman",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019510_CHI_2002",
+      "name": "Ahmad Merritt",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 10.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019660_CHI_2002",
+      "name": "Dez White",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "recYPG": 41.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020403_CHI_2002",
+      "name": "Anthony Thomas",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 60.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019490_CHI_2002",
+      "name": "P.Edinger",
+      "position": "K",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.7857
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2002",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.52,
+        "rushTDPct": 0.0209,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2002",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2002",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

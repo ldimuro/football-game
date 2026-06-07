@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000865_DET_2000",
+      "name": "Charlie Batch",
+      "position": "QB",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "passYPG": 164.6,
+        "tdRatio": 0.0319,
+        "intRatio": 0.0344,
+        "qbr": 4.2
+      },
+      "eraNormFactor": 1.0346
+    },
+    {
+      "id": "p_00-0000871_DET_2000",
+      "name": "Mario Bates",
+      "position": "RB",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 10.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003700_DET_2000",
+      "name": "Germane Crowell",
+      "position": "WR",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "recYPG": 47.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011568_DET_2000",
+      "name": "Herman Moore",
+      "position": "WR",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "recYPG": 31.0,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011727_DET_2000",
+      "name": "Johnnie Morton",
+      "position": "WR",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "recYPG": 47.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015048_DET_2000",
+      "name": "David Sloan",
+      "position": "WR",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "recYPG": 27.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015698_DET_2000",
+      "name": "James Stewart",
+      "position": "RB",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 73.2,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019231_DET_2000",
+      "name": "Larry Foster",
+      "position": "WR",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "recYPG": 19.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2000",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2000",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0338,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2000",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2000",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

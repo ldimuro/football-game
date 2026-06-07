@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033280_SF_2024",
+      "name": "Christian McCaffrey",
+      "position": "RB",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 50.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033288_SF_2024",
+      "name": "George Kittle",
+      "position": "WR",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 73.7,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035719_SF_2024",
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 47.9,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035973_SF_2024",
+      "name": "Patrick Taylor",
+      "position": "RB",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 36.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036259_SF_2024",
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 65.0,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036261_SF_2024",
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 53.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037525_SF_2024",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 65.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037834_SF_2024",
+      "name": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "passYPG": 257.6,
+        "tdRatio": 0.044,
+        "intRatio": 0.0264,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5318
+    },
+    {
+      "id": "p_00-0039363_SF_2024",
+      "name": "Isaac Guerendo",
+      "position": "RB",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039916_SF_2024",
+      "name": "Ricky Pearsall",
+      "position": "WR",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038562_SF_2024",
+      "name": "J.Moody",
+      "position": "K",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.7674
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2024",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.73,
+        "rushTDPct": 0.0372,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2024",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2024",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

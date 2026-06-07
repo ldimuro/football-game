@@ -1,0 +1,30 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017693_LA_2005",
+      "name": "J.Wilkins",
+      "position": "K",
+      "team": "LA",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2005",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.04,
+        "rushTDPct": 0.0342,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

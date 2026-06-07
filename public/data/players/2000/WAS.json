@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000166_WAS_2000",
+      "name": "Stephen Alexander",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "recYPG": 31.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003378_WAS_2000",
+      "name": "Albert Connell",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "recYPG": 47.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004052_WAS_2000",
+      "name": "Stephen Davis",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 86.1,
+        "tdPerGame": 0.733
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005616_WAS_2000",
+      "name": "Irving Fryar",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005885_WAS_2000",
+      "name": "Jeff George",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "passYPG": 231.5,
+        "tdRatio": 0.0365,
+        "intRatio": 0.0312,
+        "qbr": 96.9
+      },
+      "eraNormFactor": 1.455
+    },
+    {
+      "id": "p_00-0008442_WAS_2000",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "passYPG": 207.4,
+        "tdRatio": 0.0306,
+        "intRatio": 0.0418,
+        "qbr": 57.9
+      },
+      "eraNormFactor": 1.3036
+    },
+    {
+      "id": "p_00-0016440_WAS_2000",
+      "name": "James Thrash",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "recYPG": 43.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011859_WAS_2000",
+      "name": "E.Murray",
+      "position": "K",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.6667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2000",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0323,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2000",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2000",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

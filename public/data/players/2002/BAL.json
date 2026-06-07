@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001335_BAL_2002",
+      "name": "Jeff Blake",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "passYPG": 208.4,
+        "tdRatio": 0.0441,
+        "intRatio": 0.0373,
+        "qbr": 40.6
+      },
+      "eraNormFactor": 1.1511
+    },
+    {
+      "id": "p_00-0015754_BAL_2002",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 44.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019693_BAL_2002",
+      "name": "Jamal Lewis",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 82.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019709_BAL_2002",
+      "name": "Chris Redman",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "passYPG": 172.3,
+        "tdRatio": 0.0385,
+        "intRatio": 0.0165,
+        "qbr": 16.9
+      },
+      "eraNormFactor": 0.9517
+    },
+    {
+      "id": "p_00-0019721_BAL_2002",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 54.3,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2002",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021242_BAL_2002",
+      "name": "Ron Johnson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 9.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021268_BAL_2002",
+      "name": "Terry Jones",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 10.6,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_BAL_2002",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 8.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_BAL_2002",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2002",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.2,
+        "rushTDPct": 0.0211,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2002",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2002",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

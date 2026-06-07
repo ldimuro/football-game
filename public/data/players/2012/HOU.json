@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021931_HOU_2012",
+      "name": "Kevin Walter",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2012",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "recYPG": 97.5,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022787_HOU_2012",
+      "name": "Matt Schaub",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "passYPG": 256.3,
+        "tdRatio": 0.0379,
+        "intRatio": 0.0221,
+        "qbr": 96.9
+      },
+      "eraNormFactor": 1.2495
+    },
+    {
+      "id": "p_00-0024313_HOU_2012",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026373_HOU_2012",
+      "name": "Justin Forsett",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 34.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026796_HOU_2012",
+      "name": "Arian Foster",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 91.9,
+        "tdPerGame": 0.944
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027718_HOU_2012",
+      "name": "Garrett Graham",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "recYPG": 19.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027890_HOU_2012",
+      "name": "Ben Tate",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 23.3,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029415_HOU_2012",
+      "name": "Keshawn Martin",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "recYPG": 6.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_HOU_2012",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.8409
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2012",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.16,
+        "rushTDPct": 0.0368,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2012",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2012",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023682_TB_2018",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "passYPG": 295.8,
+        "tdRatio": 0.0691,
+        "intRatio": 0.0488,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5159
+    },
+    {
+      "id": "p_00-0026189_TB_2018",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 64.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028083_TB_2018",
+      "name": "Jacquizz Rodgers",
+      "position": "RB",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 8.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2018",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2018",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 95.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_TB_2018",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "passYPG": 272.0,
+        "tdRatio": 0.0503,
+        "intRatio": 0.037,
+        "qbr": 92.3
+      },
+      "eraNormFactor": 1.3939
+    },
+    {
+      "id": "p_00-0032009_TB_2018",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 51.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032741_TB_2018",
+      "name": "Peyton Barber",
+      "position": "RB",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 54.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033879_TB_2018",
+      "name": "O.J. Howard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 56.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2018",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "recYPG": 52.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030896_TB_2018",
+      "name": "C.Catanzaro",
+      "position": "K",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.7407
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2018",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0283,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2018",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2018",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_NE_2018",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "passYPG": 279.4,
+        "tdRatio": 0.0446,
+        "intRatio": 0.0201,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4318
+    },
+    {
+      "id": "p_00-0027150_NE_2018",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "recYPG": 82.5,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027656_NE_2018",
+      "name": "Rob Gronkowski",
+      "position": "WR",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "recYPG": 54.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028237_NE_2018",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "recYPG": 32.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030288_NE_2018",
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 25.6,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030578_NE_2018",
+      "name": "Cordarrelle Patterson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 13.2,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031062_NE_2018",
+      "name": "James White",
+      "position": "RB",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032208_NE_2018",
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034845_NE_2018",
+      "name": "Sony Michel",
+      "position": "RB",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 79.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024333_NE_2018",
+      "name": "S.Gostkowski",
+      "position": "K",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8421
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2018",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.26,
+        "rushTDPct": 0.0456,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2018",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2018",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

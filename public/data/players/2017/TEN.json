@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024389_TEN_2017",
+      "name": "Delanie Walker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027690_TEN_2017",
+      "name": "Eric Decker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028009_TEN_2017",
+      "name": "DeMarco Murray",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 43.9,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029580_TEN_2017",
+      "name": "Rishard Matthews",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 52.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032268_TEN_2017",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "passYPG": 217.7,
+        "tdRatio": 0.0326,
+        "intRatio": 0.0307,
+        "qbr": 47.4
+      },
+      "eraNormFactor": 1.0526
+    },
+    {
+      "id": "p_00-0032764_TEN_2017",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 51.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_TEN_2017",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 11.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033871_TEN_2017",
+      "name": "Corey Davis",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033911_TEN_2017",
+      "name": "Taywan Taylor",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 13.3,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_TEN_2017",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8372
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2017",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.29,
+        "rushTDPct": 0.0388,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2017",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2017",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

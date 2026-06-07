@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026143_ATL_2017",
+      "name": "Matt Ryan",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "passYPG": 251.3,
+        "tdRatio": 0.037,
+        "intRatio": 0.0202,
+        "qbr": 91.7
+      },
+      "eraNormFactor": 1.2151
+    },
+    {
+      "id": "p_00-0027944_ATL_2017",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 91.1,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029632_ATL_2017",
+      "name": "Mohamed Sanu",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031228_ATL_2017",
+      "name": "Taylor Gabriel",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031285_ATL_2017",
+      "name": "Devonta Freeman",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 58.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031570_ATL_2017",
+      "name": "Justin Hardy",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 18.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031682_ATL_2017",
+      "name": "Terron Ward",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 25.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032058_ATL_2017",
+      "name": "Tevin Coleman",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 43.9,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032392_ATL_2017",
+      "name": "Austin Hooper",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_ATL_2017",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8864
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2017",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.21,
+        "rushTDPct": 0.0266,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2017",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2017",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026901_MIA_2014",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 53.9,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026937_MIA_2014",
+      "name": "Brandon Gibson",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027077_MIA_2014",
+      "name": "Brian Hartline",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 29.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028000_MIA_2014",
+      "name": "Daniel Thomas",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 14.0,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028112_MIA_2014",
+      "name": "Charles Clay",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 43.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029580_MIA_2014",
+      "name": "Rishard Matthews",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 13.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029615_MIA_2014",
+      "name": "Lamar Miller",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 68.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029701_MIA_2014",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "passYPG": 252.8,
+        "tdRatio": 0.0458,
+        "intRatio": 0.0203,
+        "qbr": 67.8
+      },
+      "eraNormFactor": 1.26
+    },
+    {
+      "id": "p_00-0030422_MIA_2014",
+      "name": "Dion Sims",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030874_MIA_2014",
+      "name": "Damien Williams",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 10.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031382_MIA_2014",
+      "name": "Jarvis Landry",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "recYPG": 47.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030390_MIA_2014",
+      "name": "C.Sturgis",
+      "position": "K",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.7838
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2014",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.69,
+        "rushTDPct": 0.0301,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2014",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2014",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

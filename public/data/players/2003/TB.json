@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004294_TB_2003",
+      "name": "Ken Dilger",
+      "position": "WR",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008442_TB_2003",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "passYPG": 238.8,
+        "tdRatio": 0.0456,
+        "intRatio": 0.0368,
+        "qbr": 76.4
+      },
+      "eraNormFactor": 1.4789
+    },
+    {
+      "id": "p_00-0008561_TB_2003",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 60.1,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010668_TB_2003",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 73.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2003",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 46.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015601_TB_2003",
+      "name": "Aaron Stecker",
+      "position": "RB",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 10.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019505_TB_2003",
+      "name": "Charles Lee",
+      "position": "WR",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "recYPG": 72.0,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_TB_2003",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 41.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006223_TB_2003",
+      "name": "M.Gramatica",
+      "position": "K",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.6154
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2003",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0119,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2003",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2003",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

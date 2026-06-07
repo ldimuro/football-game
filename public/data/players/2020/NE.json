@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027150_NE_2020",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_NE_2020",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "passYPG": 177.1,
+        "tdRatio": 0.0217,
+        "intRatio": 0.0272,
+        "qbr": 47.0
+      },
+      "eraNormFactor": 0.9569
+    },
+    {
+      "id": "p_00-0030288_NE_2020",
+      "name": "Rex Burkhead",
+      "position": "RB",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 27.4,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031062_NE_2020",
+      "name": "James White",
+      "position": "RB",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 8.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031868_NE_2020",
+      "name": "Damiere Byrd",
+      "position": "WR",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034439_NE_2020",
+      "name": "Ryan Izzo",
+      "position": "WR",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "recYPG": 19.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034845_NE_2020",
+      "name": "Sony Michel",
+      "position": "RB",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 56.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034960_NE_2020",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "recYPG": 60.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035624_NE_2020",
+      "name": "N'Keal Harry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035657_NE_2020",
+      "name": "Damien Harris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 69.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NE_2020",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.9286
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2020",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.67,
+        "rushTDPct": 0.0398,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2020",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2020",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

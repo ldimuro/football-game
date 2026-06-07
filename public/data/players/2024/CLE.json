@@ -1,0 +1,207 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031503_CLE_2024",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "passYPG": 192.8,
+        "tdRatio": 0.0439,
+        "intRatio": 0.0405,
+        "qbr": 25.6
+      },
+      "eraNormFactor": 1.1465
+    },
+    {
+      "id": "p_00-0031544_CLE_2024",
+      "name": "Amari Cooper",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 36.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033537_CLE_2024",
+      "name": "Deshaun Watson",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "passYPG": 164.0,
+        "tdRatio": 0.0231,
+        "intRatio": 0.0139,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9752
+    },
+    {
+      "id": "p_00-0033885_CLE_2024",
+      "name": "David Njoku",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 45.9,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033925_CLE_2024",
+      "name": "D'Onta Foreman",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 23.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034364_CLE_2024",
+      "name": "Jordan Akins",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 24.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034791_CLE_2024",
+      "name": "Nick Chubb",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 41.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036407_CLE_2024",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 72.3,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036980_CLE_2024",
+      "name": "Elijah Moore",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 31.6,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037267_CLE_2024",
+      "name": "Jerome Ford",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 40.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038583_CLE_2024",
+      "name": "Dorian Thompson-Robinson",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "passYPG": 73.3,
+        "tdRatio": 0.0,
+        "intRatio": 0.0508,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.4359
+    },
+    {
+      "id": "p_00-0038979_CLE_2024",
+      "name": "Cedric Tillman",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 37.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030098_CLE_2024",
+      "name": "D.Hopkins",
+      "position": "K",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.6667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2024",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.11,
+        "rushTDPct": 0.0205,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2024",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2024",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

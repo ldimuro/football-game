@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002068_NE_2003",
+      "name": "Troy Brown",
+      "position": "WR",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005091_NE_2003",
+      "name": "Kevin Faulk",
+      "position": "RB",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 39.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005101_NE_2003",
+      "name": "Christian Fauria",
+      "position": "WR",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 22.3,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015091_NE_2003",
+      "name": "Antowain Smith",
+      "position": "RB",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 55.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019596_NE_2003",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "passYPG": 232.2,
+        "tdRatio": 0.0428,
+        "intRatio": 0.0214,
+        "qbr": 81.6
+      },
+      "eraNormFactor": 1.438
+    },
+    {
+      "id": "p_00-0021154_NE_2003",
+      "name": "Daniel Graham",
+      "position": "WR",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 30.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021192_NE_2003",
+      "name": "Deion Branch",
+      "position": "WR",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 54.4,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021353_NE_2003",
+      "name": "David Givens",
+      "position": "WR",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "recYPG": 51.8,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016919_NE_2003",
+      "name": "A.Vinatieri",
+      "position": "K",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2003",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.43,
+        "rushTDPct": 0.0194,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2003",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2003",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

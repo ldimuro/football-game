@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2013",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "passYPG": 238.6,
+        "tdRatio": 0.0327,
+        "intRatio": 0.049,
+        "qbr": 21.1
+      },
+      "eraNormFactor": 1.1203
+    },
+    {
+      "id": "p_00-0023545_NYG_2013",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 34.0,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026367_NYG_2013",
+      "name": "Peyton Hillis",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 35.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026931_NYG_2013",
+      "name": "Bear Pascoe",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 7.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027005_NYG_2013",
+      "name": "Hakeem Nicks",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 59.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027094_NYG_2013",
+      "name": "Andre Brown",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 61.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027135_NYG_2013",
+      "name": "Brandon Myers",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 34.8,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027265_NYG_2013",
+      "name": "Victor Cruz",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 71.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028021_NYG_2013",
+      "name": "Jerrel Jernigan",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029251_NYG_2013",
+      "name": "David Wilson",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 29.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029262_NYG_2013",
+      "name": "Rueben Randle",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021940_NYG_2013",
+      "name": "J.Brown",
+      "position": "K",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8846
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2013",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.5,
+        "rushTDPct": 0.0289,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2013",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2013",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

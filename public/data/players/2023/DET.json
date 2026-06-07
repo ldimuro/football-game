@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032464_DET_2023",
+      "name": "Kalif Raymond",
+      "position": "WR",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.8,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033106_DET_2023",
+      "name": "Jared Goff",
+      "position": "QB",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "passYPG": 270.6,
+        "tdRatio": 0.0475,
+        "intRatio": 0.0168,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5078
+    },
+    {
+      "id": "p_00-0033943_DET_2023",
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035567_DET_2023",
+      "name": "Craig Reynolds",
+      "position": "RB",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 25.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035685_DET_2023",
+      "name": "David Montgomery",
+      "position": "RB",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 70.5,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036963_DET_2023",
+      "name": "Amon-Ra St. Brown",
+      "position": "WR",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "recYPG": 94.2,
+        "tdPerGame": 0.579
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037240_DET_2023",
+      "name": "Jameson Williams",
+      "position": "WR",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039065_DET_2023",
+      "name": "Sam LaPorta",
+      "position": "WR",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "recYPG": 53.2,
+        "tdPerGame": 0.55
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039139_DET_2023",
+      "name": "Jahmyr Gibbs",
+      "position": "RB",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 60.5,
+        "tdPerGame": 0.722
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036816_DET_2023",
+      "name": "R.Patterson",
+      "position": "K",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2023",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.63,
+        "rushTDPct": 0.0586,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2023",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2023",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

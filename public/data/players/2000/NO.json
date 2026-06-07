@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000232_NO_2000",
+      "name": "Terry Allen",
+      "position": "RB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 33.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001335_NO_2000",
+      "name": "Jeff Blake",
+      "position": "QB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "passYPG": 182.2,
+        "tdRatio": 0.0439,
+        "intRatio": 0.027,
+        "qbr": 61.9
+      },
+      "eraNormFactor": 1.1452
+    },
+    {
+      "id": "p_00-0001823_NO_2000",
+      "name": "Aaron Brooks",
+      "position": "QB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "passYPG": 203.8,
+        "tdRatio": 0.0524,
+        "intRatio": 0.0337,
+        "qbr": 83.1
+      },
+      "eraNormFactor": 1.2809
+    },
+    {
+      "id": "p_00-0006047_NO_2000",
+      "name": "Andrew Glover",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007744_NO_2000",
+      "name": "Joe Horn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 78.8,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008210_NO_2000",
+      "name": "Willie Jackson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 47.2,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011573_NO_2000",
+      "name": "Jerald Moore",
+      "position": "RB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 26.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013097_NO_2000",
+      "name": "Keith Poole",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 20.3,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013512_NO_2000",
+      "name": "Jake Reed",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017915_NO_2000",
+      "name": "Ricky Williams",
+      "position": "RB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 90.8,
+        "tdPerGame": 0.727
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018056_NO_2000",
+      "name": "Robert Wilson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "recYPG": 26.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019590_NO_2000",
+      "name": "Chad Morton",
+      "position": "RB",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 8.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001759_NO_2000",
+      "name": "D.Brien",
+      "position": "K",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2000",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0258,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2000",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2000",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

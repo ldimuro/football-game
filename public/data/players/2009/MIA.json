@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017915_MIA_2009",
+      "name": "Ricky Williams",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 70.1,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023408_MIA_2009",
+      "name": "Greg Camarillo",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023437_MIA_2009",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 72.0,
+        "tdPerGame": 0.889
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024268_MIA_2009",
+      "name": "Anthony Fasano",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_MIA_2009",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026000_MIA_2009",
+      "name": "Davone Bess",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 47.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026026_MIA_2009",
+      "name": "Joey Haynos",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 11.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026197_MIA_2009",
+      "name": "Chad Henne",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "passYPG": 205.6,
+        "tdRatio": 0.0266,
+        "intRatio": 0.031,
+        "qbr": 59.7
+      },
+      "eraNormFactor": 1.2555
+    },
+    {
+      "id": "p_00-0027077_MIA_2009",
+      "name": "Brian Hartline",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "recYPG": 33.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026003_MIA_2009",
+      "name": "D.Carpenter",
+      "position": "K",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8929
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2009",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.38,
+        "rushTDPct": 0.0432,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2009",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2009",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

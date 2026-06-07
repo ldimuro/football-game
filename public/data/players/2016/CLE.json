@@ -1,0 +1,183 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_CLE_2016",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "passYPG": 220.0,
+        "tdRatio": 0.0364,
+        "intRatio": 0.0364,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.0809
+    },
+    {
+      "id": "p_00-0026281_CLE_2016",
+      "name": "Gary Barnidge",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027918_CLE_2016",
+      "name": "Andrew Hawkins",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 20.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028825_CLE_2016",
+      "name": "Terrelle Pryor",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 62.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029665_CLE_2016",
+      "name": "Robert Griffin",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "passYPG": 177.2,
+        "tdRatio": 0.0136,
+        "intRatio": 0.0204,
+        "qbr": 4.5
+      },
+      "eraNormFactor": 0.8706
+    },
+    {
+      "id": "p_00-0030656_CLE_2016",
+      "name": "Isaiah Crowell",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 59.5,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032257_CLE_2016",
+      "name": "Duke Johnson",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 22.4,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032966_CLE_2016",
+      "name": "Corey Coleman",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 41.3,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033079_CLE_2016",
+      "name": "Ricardo Louis",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "recYPG": 29.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033104_CLE_2016",
+      "name": "Cody Kessler",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "passYPG": 153.3,
+        "tdRatio": 0.0308,
+        "intRatio": 0.0103,
+        "qbr": 73.5
+      },
+      "eraNormFactor": 0.7532
+    },
+    {
+      "id": "p_00-0030850_CLE_2016",
+      "name": "C.Parkey",
+      "position": "K",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.7778
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2016",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.89,
+        "rushTDPct": 0.0371,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2016",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2016",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020516_ARI_2011",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022921_ARI_2011",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 88.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024369_ARI_2011",
+      "name": "Jeff King",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025423_ARI_2011",
+      "name": "Kevin Kolb",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "passYPG": 217.2,
+        "tdRatio": 0.0356,
+        "intRatio": 0.0316,
+        "qbr": 41.1
+      },
+      "eraNormFactor": 1.0938
+    },
+    {
+      "id": "p_00-0026221_ARI_2011",
+      "name": "Early Doucet",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 43.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026956_ARI_2011",
+      "name": "LaRod Stephens-Howling",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 11.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027007_ARI_2011",
+      "name": "Beanie Wells",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 74.8,
+        "tdPerGame": 0.714
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027346_ARI_2011",
+      "name": "Alfonso Smith",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 14.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027691_ARI_2011",
+      "name": "Andre Roberts",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 39.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027754_ARI_2011",
+      "name": "John Skelton",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "passYPG": 239.1,
+        "tdRatio": 0.04,
+        "intRatio": 0.0509,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.2041
+    },
+    {
+      "id": "p_00-0028007_ARI_2011",
+      "name": "Rob Housler",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_ARI_2011",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.7917
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2011",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.18,
+        "rushTDPct": 0.0308,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2011",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2011",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

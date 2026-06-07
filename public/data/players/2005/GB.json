@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2005",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 76.3,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005106_GB_2005",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "passYPG": 242.6,
+        "tdRatio": 0.0329,
+        "intRatio": 0.0478,
+        "qbr": 49.6
+      },
+      "eraNormFactor": 1.4219
+    },
+    {
+      "id": "p_00-0006305_GB_2005",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 51.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019644_GB_2005",
+      "name": "Bubba Franks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019997_GB_2005",
+      "name": "Antonio Chatman",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020332_GB_2005",
+      "name": "David Martin",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020428_GB_2005",
+      "name": "Robert Ferguson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 33.3,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020964_GB_2005",
+      "name": "Tony Fisher",
+      "position": "RB",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 14.4,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021252_GB_2005",
+      "name": "Najeh Davenport",
+      "position": "RB",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 21.0,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021929_GB_2005",
+      "name": "Donald Lee",
+      "position": "WR",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023074_GB_2005",
+      "name": "Samkon Gado",
+      "position": "RB",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 72.8,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_GB_2005",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7407
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2005",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.4,
+        "rushTDPct": 0.0276,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2005",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2005",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

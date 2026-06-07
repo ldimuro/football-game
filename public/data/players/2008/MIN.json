@@ -1,0 +1,145 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005589_MIN_2008",
+      "name": "Gus Frerotte",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 196.1,
+        "tdRatio": 0.0399,
+        "intRatio": 0.0498,
+        "qbr": 21.1
+      },
+      "eraNormFactor": 1.0783
+    },
+    {
+      "id": "p_00-0021314_MIN_2008",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 26.3,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022054_MIN_2008",
+      "name": "Visanthe Shiancoe",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022144_MIN_2008",
+      "name": "Bobby Wade",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022807_MIN_2008",
+      "name": "Bernard Berrian",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 66.7,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024279_MIN_2008",
+      "name": "Tarvaris Jackson",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 152.5,
+        "tdRatio": 0.0489,
+        "intRatio": 0.0163,
+        "qbr": 40.8
+      },
+      "eraNormFactor": 0.8386
+    },
+    {
+      "id": "p_00-0025394_MIN_2008",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 108.2,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_MIN_2008",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8529
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2008",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.49,
+        "rushTDPct": 0.0308,
+        "normalizedRank": 6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2008",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2008",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

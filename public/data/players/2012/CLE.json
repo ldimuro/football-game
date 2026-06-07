@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022943_CLE_2012",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 31.3,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027026_CLE_2012",
+      "name": "Mohamed Massaquoi",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027666_CLE_2012",
+      "name": "Montario Hardesty",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 27.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027997_CLE_2012",
+      "name": "Greg Little",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 40.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028040_CLE_2012",
+      "name": "Jordan Cameron",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_CLE_2012",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029664_CLE_2012",
+      "name": "Josh Gordon",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "recYPG": 50.3,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029677_CLE_2012",
+      "name": "Brandon Weeden",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "passYPG": 225.7,
+        "tdRatio": 0.0271,
+        "intRatio": 0.0329,
+        "qbr": 29.7
+      },
+      "eraNormFactor": 1.1004
+    },
+    {
+      "id": "p_00-0004091_CLE_2012",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.9355
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2012",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0303,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2012",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2012",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

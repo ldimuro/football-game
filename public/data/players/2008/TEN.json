@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003292_TEN_2008",
+      "name": "Kerry Collins",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 174.2,
+        "tdRatio": 0.0262,
+        "intRatio": 0.0175,
+        "qbr": 67.7
+      },
+      "eraNormFactor": 0.9579
+    },
+    {
+      "id": "p_00-0020285_TEN_2008",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 20.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020381_TEN_2008",
+      "name": "Justin McCareins",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 36.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021982_TEN_2008",
+      "name": "Justin Gage",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 65.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023531_TEN_2008",
+      "name": "Brandon Jones",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 31.0,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023612_TEN_2008",
+      "name": "Bo Scaife",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 34.4,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024260_TEN_2008",
+      "name": "LenDale White",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 48.1,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026164_TEN_2008",
+      "name": "Chris Johnson",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 81.2,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020962_TEN_2008",
+      "name": "R.Bironas",
+      "position": "K",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2008",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.32,
+        "rushTDPct": 0.0467,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2008",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2008",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

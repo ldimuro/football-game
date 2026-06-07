@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": "p_00-0035269_LA_2022",
+      "name": "M.Gay",
+      "position": "K",
+      "team": "LA",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.9333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2022",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.04,
+        "rushTDPct": 0.0365,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_DLine_2022",
+      "position": "DLine",
+      "team": "LA",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_Secondary_2022",
+      "position": "Secondary",
+      "team": "LA",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

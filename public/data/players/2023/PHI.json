@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027944_PHI_2023",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 10.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034351_PHI_2023",
+      "name": "Dallas Goedert",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035208_PHI_2023",
+      "name": "Olamide Zaccheaus",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 14.1,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035676_PHI_2023",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 85.6,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036271_PHI_2023",
+      "name": "Quez Watkins",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 25.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036275_PHI_2023",
+      "name": "D'Andre Swift",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 63.7,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036389_PHI_2023",
+      "name": "Jalen Hurts",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "passYPG": 228.2,
+        "tdRatio": 0.0419,
+        "intRatio": 0.0262,
+        "qbr": 83.5
+      },
+      "eraNormFactor": 1.2716
+    },
+    {
+      "id": "p_00-0036912_PHI_2023",
+      "name": "DeVonta Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "recYPG": 71.4,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036919_PHI_2023",
+      "name": "Kenneth Gainwell",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "rushYPG": 21.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033787_PHI_2023",
+      "name": "J.Elliott",
+      "position": "K",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "fgAccuracy": 0.9394
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2023",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.25,
+        "rushTDPct": 0.0419,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2023",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2023",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2023,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

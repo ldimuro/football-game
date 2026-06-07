@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023439_CIN_2011",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 67.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026186_CIN_2011",
+      "name": "Jerome Simpson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "recYPG": 44.6,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026237_CIN_2011",
+      "name": "Andre Caldwell",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "recYPG": 26.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026941_CIN_2011",
+      "name": "Bernard Scott",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 23.0,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_CIN_2011",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "recYPG": 42.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027918_CIN_2011",
+      "name": "Andrew Hawkins",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027942_CIN_2011",
+      "name": "A.J. Green",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "recYPG": 69.0,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027973_CIN_2011",
+      "name": "Andy Dalton",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "passYPG": 215.0,
+        "tdRatio": 0.0358,
+        "intRatio": 0.0287,
+        "qbr": 44.9
+      },
+      "eraNormFactor": 1.0827
+    },
+    {
+      "id": "p_00-0023482_CIN_2011",
+      "name": "M.Nugent",
+      "position": "K",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.85
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2011",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0232,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2011",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2011",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

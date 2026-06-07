@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0019596_TB_2022",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "passYPG": 280.3,
+        "tdRatio": 0.0338,
+        "intRatio": 0.0125,
+        "qbr": 82.3
+      },
+      "eraNormFactor": 1.5345
+    },
+    {
+      "id": "p_00-0027944_TB_2022",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 33.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031273_TB_2022",
+      "name": "Cameron Brate",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031408_TB_2022",
+      "name": "Mike Evans",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 74.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033856_TB_2022",
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 39.9,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033921_TB_2022",
+      "name": "Chris Godwin",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 69.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034411_TB_2022",
+      "name": "Russell Gage",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035298_TB_2022",
+      "name": "Scott Miller",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 16.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037256_TB_2022",
+      "name": "Rachaad White",
+      "position": "RB",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 30.7,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038129_TB_2022",
+      "name": "Cade Otton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "recYPG": 29.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_TB_2022",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8158
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2022",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.42,
+        "rushTDPct": 0.0126,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2022",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2022",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

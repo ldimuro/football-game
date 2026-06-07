@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000942_SF_2000",
+      "name": "Fred Beasley",
+      "position": "RB",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 9.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003039_SF_2000",
+      "name": "Greg Clark",
+      "position": "WR",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005755_SF_2000",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "passYPG": 264.9,
+        "tdRatio": 0.0564,
+        "intRatio": 0.0164,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.665
+    },
+    {
+      "id": "p_00-0005779_SF_2000",
+      "name": "Charlie Garner",
+      "position": "RB",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 69.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012478_SF_2000",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 102.6,
+        "tdPerGame": 0.929
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013639_SF_2000",
+      "name": "Jerry Rice",
+      "position": "WR",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 49.9,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015751_SF_2000",
+      "name": "J.J. Stokes",
+      "position": "WR",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 34.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015811_SF_2000",
+      "name": "Tai Streets",
+      "position": "WR",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013699_SF_2000",
+      "name": "W.Richey",
+      "position": "K",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.6818
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2000",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.35,
+        "rushTDPct": 0.037,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2000",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2000",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

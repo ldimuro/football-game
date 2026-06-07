@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2016",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 42.2,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2016",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "passYPG": 274.1,
+        "tdRatio": 0.0571,
+        "intRatio": 0.0363,
+        "qbr": 82.5
+      },
+      "eraNormFactor": 1.3467
+    },
+    {
+      "id": "p_00-0028411_LAC_2016",
+      "name": "Dontrelle Inman",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 50.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_LAC_2016",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 48.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032144_LAC_2016",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 76.7,
+        "tdPerGame": 0.769
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032160_LAC_2016",
+      "name": "Tyrell Williams",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 66.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032902_LAC_2016",
+      "name": "Kenneth Farrow",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 19.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_LAC_2016",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "recYPG": 36.8,
+        "tdPerGame": 0.615
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032087_LAC_2016",
+      "name": "J.Lambo",
+      "position": "K",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8125
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2016",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.79,
+        "rushTDPct": 0.0251,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2016",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2016",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

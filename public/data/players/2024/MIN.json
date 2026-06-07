@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033246_MIN_2024",
+      "name": "Johnny Mundt",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 12.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033293_MIN_2024",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 65.9,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034869_MIN_2024",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "passYPG": 253.6,
+        "tdRatio": 0.0615,
+        "intRatio": 0.0222,
+        "qbr": 62.0
+      },
+      "eraNormFactor": 1.508
+    },
+    {
+      "id": "p_00-0035229_MIN_2024",
+      "name": "T.J. Hockenson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 47.2,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035249_MIN_2024",
+      "name": "Josh Oliver",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036322_MIN_2024",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 88.4,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037276_MIN_2024",
+      "name": "Ty Chandler",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 18.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037291_MIN_2024",
+      "name": "Jalen Nailor",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 27.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038994_MIN_2024",
+      "name": "Jordan Addison",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "recYPG": 56.5,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039404_MIN_2024",
+      "name": "W.Reichard",
+      "position": "K",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8372
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2024",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.09,
+        "rushTDPct": 0.0188,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2024",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2024",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

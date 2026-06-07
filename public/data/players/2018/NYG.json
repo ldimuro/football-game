@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022803_NYG_2018",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "passYPG": 268.7,
+        "tdRatio": 0.0365,
+        "intRatio": 0.0191,
+        "qbr": 67.4
+      },
+      "eraNormFactor": 1.377
+    },
+    {
+      "id": "p_00-0029587_NYG_2018",
+      "name": "Rhett Ellison",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030670_NYG_2018",
+      "name": "Bennie Fowler",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "recYPG": 19.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031235_NYG_2018",
+      "name": "Odell Beckham",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "recYPG": 87.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032385_NYG_2018",
+      "name": "Sterling Shepard",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "recYPG": 54.5,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033881_NYG_2018",
+      "name": "Evan Engram",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033950_NYG_2018",
+      "name": "Wayne Gallman",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 13.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034844_NYG_2018",
+      "name": "Saquon Barkley",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 81.7,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032870_NYG_2018",
+      "name": "A.Rosas",
+      "position": "K",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9697
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2018",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.66,
+        "rushTDPct": 0.0367,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2018",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2018",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

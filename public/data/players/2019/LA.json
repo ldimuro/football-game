@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029621_LA_2019",
+      "name": "G.Zuerlein",
+      "position": "K",
+      "team": "LA",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7273
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2019",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.74,
+        "rushTDPct": 0.0499,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_DLine_2019",
+      "position": "DLine",
+      "team": "LA",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_Secondary_2019",
+      "position": "Secondary",
+      "team": "LA",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

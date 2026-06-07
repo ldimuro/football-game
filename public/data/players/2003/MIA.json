@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005180_MIA_2003",
+      "name": "Jay Fiedler",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "passYPG": 178.2,
+        "tdRatio": 0.0382,
+        "intRatio": 0.0414,
+        "qbr": 41.0
+      },
+      "eraNormFactor": 1.1036
+    },
+    {
+      "id": "p_00-0006423_MIA_2003",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "passYPG": 162.6,
+        "tdRatio": 0.0385,
+        "intRatio": 0.0462,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.007
+    },
+    {
+      "id": "p_00-0010974_MIA_2003",
+      "name": "James McKnight",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016373_MIA_2003",
+      "name": "Derrius Thompson",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "recYPG": 27.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017915_MIA_2003",
+      "name": "Ricky Williams",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 85.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020446_MIA_2003",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "recYPG": 60.2,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020448_MIA_2003",
+      "name": "Travis Minor",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 16.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021236_MIA_2003",
+      "name": "Randy McMichael",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "recYPG": 39.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_MIA_2003",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7586
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2003",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.75,
+        "rushTDPct": 0.0288,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2003",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2003",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

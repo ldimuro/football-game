@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "p_00-0006101_KC_2003",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 57.1,
+        "tdPerGame": 0.588
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006355_KC_2003",
+      "name": "Trent Green",
+      "position": "QB",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "passYPG": 250.1,
+        "tdRatio": 0.0452,
+        "intRatio": 0.0217,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.5489
+    },
+    {
+      "id": "p_00-0007661_KC_2003",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 93.9,
+        "tdPerGame": 1.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009163_KC_2003",
+      "name": "Eddie Kennison",
+      "position": "WR",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 53.2,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011727_KC_2003",
+      "name": "Johnnie Morton",
+      "position": "WR",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 47.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019539_KC_2003",
+      "name": "Dante Hall",
+      "position": "WR",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "recYPG": 27.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000282_KC_2003",
+      "name": "M. Andersen",
+      "position": "K",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7727
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2003",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.44,
+        "rushTDPct": 0.0713,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2003",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2003",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

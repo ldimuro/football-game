@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031237_DEN_2021",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "passYPG": 218.0,
+        "tdRatio": 0.0423,
+        "intRatio": 0.0164,
+        "qbr": 91.4
+      },
+      "eraNormFactor": 1.2413
+    },
+    {
+      "id": "p_00-0032144_DEN_2021",
+      "name": "Melvin Gordon",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 57.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033375_DEN_2021",
+      "name": "Tim Patrick",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 45.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034348_DEN_2021",
+      "name": "Courtland Sutton",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035644_DEN_2021",
+      "name": "Noah Fant",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035704_DEN_2021",
+      "name": "Drew Lock",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "passYPG": 131.2,
+        "tdRatio": 0.018,
+        "intRatio": 0.018,
+        "qbr": 34.6
+      },
+      "eraNormFactor": 0.747
+    },
+    {
+      "id": "p_00-0035864_DEN_2021",
+      "name": "Kendall Hinton",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036407_DEN_2021",
+      "name": "Jerry Jeudy",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 46.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036423_DEN_2021",
+      "name": "Albert Okwuegbunam",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036997_DEN_2021",
+      "name": "Javonte Williams",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 53.1,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_DEN_2021",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8387
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2021",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.45,
+        "rushTDPct": 0.0352,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2021",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2021",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

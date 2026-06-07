@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031280_LV_2020",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "passYPG": 256.4,
+        "tdRatio": 0.0522,
+        "intRatio": 0.0174,
+        "qbr": 87.6
+      },
+      "eraNormFactor": 1.3854
+    },
+    {
+      "id": "p_00-0031549_LV_2020",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "recYPG": 56.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031610_LV_2020",
+      "name": "Darren Waller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "recYPG": 74.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032972_LV_2020",
+      "name": "Devontae Booker",
+      "position": "RB",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 28.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033891_LV_2020",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "recYPG": 14.0,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034983_LV_2020",
+      "name": "Hunter Renfrow",
+      "position": "WR",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "recYPG": 41.0,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035700_LV_2020",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 71.0,
+        "tdPerGame": 0.8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036357_LV_2020",
+      "name": "Henry Ruggs",
+      "position": "WR",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "recYPG": 34.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034161_LV_2020",
+      "name": "D.Carlson",
+      "position": "K",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.9429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2020",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.19,
+        "rushTDPct": 0.0438,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2020",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2020",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

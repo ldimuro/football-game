@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024243_JAX_2017",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027531_JAX_2017",
+      "name": "Chris Ivory",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 25.6,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030821_JAX_2017",
+      "name": "Allen Hurns",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 44.3,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031407_JAX_2017",
+      "name": "Blake Bortles",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "passYPG": 225.3,
+        "tdRatio": 0.0395,
+        "intRatio": 0.0214,
+        "qbr": 70.7
+      },
+      "eraNormFactor": 1.0894
+    },
+    {
+      "id": "p_00-0031431_JAX_2017",
+      "name": "Marqise Lee",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031731_JAX_2017",
+      "name": "Corey Grant",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 25.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031951_JAX_2017",
+      "name": "James O'Shaughnessy",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 10.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032209_JAX_2017",
+      "name": "T.J. Yeldon",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 24.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033681_JAX_2017",
+      "name": "Keelan Cole",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 43.7,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033839_JAX_2017",
+      "name": "Dede Westbrook",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "recYPG": 42.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033856_JAX_2017",
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 80.1,
+        "tdPerGame": 0.812
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032087_JAX_2017",
+      "name": "J.Lambo",
+      "position": "K",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8718
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2017",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.27,
+        "rushTDPct": 0.0366,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2017",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2017",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

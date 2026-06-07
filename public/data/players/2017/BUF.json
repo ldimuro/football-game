@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027029_BUF_2017",
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 71.4,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028112_BUF_2017",
+      "name": "Charles Clay",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 40.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028118_BUF_2017",
+      "name": "Tyrod Taylor",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "passYPG": 183.3,
+        "tdRatio": 0.0306,
+        "intRatio": 0.0109,
+        "qbr": 44.9
+      },
+      "eraNormFactor": 0.8863
+    },
+    {
+      "id": "p_00-0028263_BUF_2017",
+      "name": "Andre Holmes",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031299_BUF_2017",
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032115_BUF_2017",
+      "name": "Kaelin Clay",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 9.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032117_BUF_2017",
+      "name": "Nick O'Leary",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033891_BUF_2017",
+      "name": "Zay Jones",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025944_BUF_2017",
+      "name": "S.Hauschka",
+      "position": "K",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8824
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2017",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0231,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2017",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2017",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

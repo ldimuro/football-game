@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027981_MIN_2017",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 32.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028986_MIN_2017",
+      "name": "Case Keenum",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "passYPG": 243.3,
+        "tdRatio": 0.0422,
+        "intRatio": 0.0176,
+        "qbr": 79.9
+      },
+      "eraNormFactor": 1.1764
+    },
+    {
+      "id": "p_00-0029572_MIN_2017",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030035_MIN_2017",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 76.6,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030513_MIN_2017",
+      "name": "Latavius Murray",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 50.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031376_MIN_2017",
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 35.8,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_MIN_2017",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 66.0,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032951_MIN_2017",
+      "name": "Laquon Treadwell",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 14.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033893_MIN_2017",
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 88.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028787_MIN_2017",
+      "name": "K.Forbath",
+      "position": "K",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2017",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.87,
+        "rushTDPct": 0.031,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2017",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2017",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

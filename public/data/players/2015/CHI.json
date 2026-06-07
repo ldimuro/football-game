@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0024226_CHI_2015",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "passYPG": 243.9,
+        "tdRatio": 0.0435,
+        "intRatio": 0.0228,
+        "qbr": 68.4
+      },
+      "eraNormFactor": 1.1982
+    },
+    {
+      "id": "p_00-0026182_CHI_2015",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 26.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2015",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 69.1,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_CHI_2015",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 39.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027125_CHI_2015",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 36.6,
+        "tdPerGame": 0.417
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027659_CHI_2015",
+      "name": "Jimmy Clausen",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "passYPG": 184.8,
+        "tdRatio": 0.016,
+        "intRatio": 0.032,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9078
+    },
+    {
+      "id": "p_00-0027816_CHI_2015",
+      "name": "Marc Mariani",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_CHI_2015",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 89.7,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029319_CHI_2015",
+      "name": "Josh Bellamy",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030047_CHI_2015",
+      "name": "Marquess Wilson",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 42.2,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031057_CHI_2015",
+      "name": "Ka'Deem Carey",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 22.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031569_CHI_2015",
+      "name": "Jeremy Langford",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 35.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2015",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2015",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.96,
+        "rushTDPct": 0.0278,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2015",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2015",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

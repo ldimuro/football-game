@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022084_SF_2013",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 74.0,
+        "tdPerGame": 0.421
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023500_SF_2013",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 68.0,
+        "tdPerGame": 0.526
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2013",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 50.2,
+        "tdPerGame": 0.833
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026235_SF_2013",
+      "name": "Mario Manningham",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 17.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026986_SF_2013",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 60.9,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027608_SF_2013",
+      "name": "Kyle Williams",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 12.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027772_SF_2013",
+      "name": "Anthony Dixon",
+      "position": "RB",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 4.4,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027974_SF_2013",
+      "name": "Colin Kaepernick",
+      "position": "QB",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "passYPG": 198.6,
+        "tdRatio": 0.0482,
+        "intRatio": 0.0221,
+        "qbr": 84.6
+      },
+      "eraNormFactor": 0.9325
+    },
+    {
+      "id": "p_00-0028053_SF_2013",
+      "name": "Kendall Hunter",
+      "position": "RB",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 21.3,
+        "tdPerGame": 0.158
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030470_SF_2013",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004091_SF_2013",
+      "name": "P.Dawson",
+      "position": "K",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.907
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2013",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.45,
+        "rushTDPct": 0.0352,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2013",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2013",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

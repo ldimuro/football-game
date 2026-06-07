@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2006",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 80.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005106_GB_2006",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "passYPG": 242.8,
+        "tdRatio": 0.0294,
+        "intRatio": 0.0294,
+        "qbr": 48.4
+      },
+      "eraNormFactor": 1.3844
+    },
+    {
+      "id": "p_00-0006305_GB_2006",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 75.6,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019644_GB_2006",
+      "name": "Bubba Franks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020332_GB_2006",
+      "name": "David Martin",
+      "position": "WR",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022421_GB_2006",
+      "name": "Ruvell Martin",
+      "position": "WR",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023074_GB_2006",
+      "name": "Samkon Gado",
+      "position": "RB",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 23.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023676_GB_2006",
+      "name": "Noah Herron",
+      "position": "RB",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 11.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024267_GB_2006",
+      "name": "Greg Jennings",
+      "position": "WR",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "recYPG": 45.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023635_GB_2006",
+      "name": "D.Rayner",
+      "position": "K",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7429
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2006",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.86,
+        "rushTDPct": 0.0209,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2006",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2006",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

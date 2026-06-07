@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020245_PHI_2012",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "passYPG": 236.2,
+        "tdRatio": 0.0342,
+        "intRatio": 0.0285,
+        "qbr": 47.7
+      },
+      "eraNormFactor": 1.1515
+    },
+    {
+      "id": "p_00-0024324_PHI_2012",
+      "name": "Jason Avant",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 46.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025549_PHI_2012",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026189_PHI_2012",
+      "name": "DeSean Jackson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 63.6,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026995_PHI_2012",
+      "name": "Jeremy Maclin",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 57.1,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027029_PHI_2012",
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 70.0,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027725_PHI_2012",
+      "name": "Clay Harbor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027758_PHI_2012",
+      "name": "Riley Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029429_PHI_2012",
+      "name": "Bryce Brown",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 35.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029435_PHI_2012",
+      "name": "Damaris Johnson",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "recYPG": 23.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029567_PHI_2012",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "passYPG": 242.7,
+        "tdRatio": 0.0226,
+        "intRatio": 0.0189,
+        "qbr": 27.4
+      },
+      "eraNormFactor": 1.1832
+    },
+    {
+      "id": "p_00-0028058_PHI_2012",
+      "name": "A.Henery",
+      "position": "K",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.871
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2012",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.54,
+        "rushTDPct": 0.0242,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2012",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2012",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

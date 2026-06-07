@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_GB_2019",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "passYPG": 253.9,
+        "tdRatio": 0.0472,
+        "intRatio": 0.0094,
+        "qbr": 95.2
+      },
+      "eraNormFactor": 1.2184
+    },
+    {
+      "id": "p_00-0024243_GB_2019",
+      "name": "Marcedes Lewis",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 13.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027696_GB_2019",
+      "name": "Jimmy Graham",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 30.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031381_GB_2019",
+      "name": "Davante Adams",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 92.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031787_GB_2019",
+      "name": "Jake Kumerow",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 18.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032626_GB_2019",
+      "name": "Geronimo Allison",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 18.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033293_GB_2019",
+      "name": "Aaron Jones",
+      "position": "RB",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 66.8,
+        "tdPerGame": 1.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033948_GB_2019",
+      "name": "Jamaal Williams",
+      "position": "RB",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 29.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034272_GB_2019",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 28.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034521_GB_2019",
+      "name": "Allen Lazard",
+      "position": "WR",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "recYPG": 39.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2019",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2019",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.3,
+        "rushTDPct": 0.046,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2019",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2019",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

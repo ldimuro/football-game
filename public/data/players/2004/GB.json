@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004541_GB_2004",
+      "name": "Donald Driver",
+      "position": "WR",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 75.6,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005106_GB_2004",
+      "name": "Brett Favre",
+      "position": "QB",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "passYPG": 253.1,
+        "tdRatio": 0.054,
+        "intRatio": 0.0366,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4382
+    },
+    {
+      "id": "p_00-0006305_GB_2004",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 77.7,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019644_GB_2004",
+      "name": "Bubba Franks",
+      "position": "WR",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019997_GB_2004",
+      "name": "Antonio Chatman",
+      "position": "WR",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020428_GB_2004",
+      "name": "Robert Ferguson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020964_GB_2004",
+      "name": "Tony Fisher",
+      "position": "RB",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 13.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021153_GB_2004",
+      "name": "Javon Walker",
+      "position": "WR",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "recYPG": 82.8,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021252_GB_2004",
+      "name": "Najeh Davenport",
+      "position": "RB",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 33.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010072_GB_2004",
+      "name": "R.Longwell",
+      "position": "K",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2004",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.28,
+        "rushTDPct": 0.0213,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2004",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2004",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

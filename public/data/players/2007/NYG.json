@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0016550_NYG_2007",
+      "name": "Amani Toomer",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "recYPG": 57.8,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019610_NYG_2007",
+      "name": "Reuben Droughns",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 17.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_NYG_2007",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "recYPG": 62.4,
+        "tdPerGame": 0.65
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021148_NYG_2007",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "recYPG": 44.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022770_NYG_2007",
+      "name": "Derrick Ward",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 75.2,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022803_NYG_2007",
+      "name": "Eli Manning",
+      "position": "QB",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "passYPG": 209.6,
+        "tdRatio": 0.0448,
+        "intRatio": 0.0325,
+        "qbr": 40.1
+      },
+      "eraNormFactor": 1.3147
+    },
+    {
+      "id": "p_00-0023545_NYG_2007",
+      "name": "Brandon Jacobs",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 80.5,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024259_NYG_2007",
+      "name": "Sinorice Moss",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "recYPG": 25.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025438_NYG_2007",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025637_NYG_2007",
+      "name": "Ahmad Bradshaw",
+      "position": "RB",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 44.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019778_NYG_2007",
+      "name": "L.Tynes",
+      "position": "K",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8235
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYG_OLine_2007",
+      "position": "OLine",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.38,
+        "rushTDPct": 0.0324,
+        "normalizedRank": 5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_DLine_2007",
+      "position": "DLine",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYG_Secondary_2007",
+      "position": "Secondary",
+      "team": "NYG",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

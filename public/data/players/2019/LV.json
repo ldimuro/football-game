@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031280_LV_2019",
+      "name": "Derek Carr",
+      "position": "QB",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "passYPG": 253.4,
+        "tdRatio": 0.0409,
+        "intRatio": 0.0156,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.216
+    },
+    {
+      "id": "p_00-0031610_LV_2019",
+      "name": "Darren Waller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "recYPG": 71.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032160_LV_2019",
+      "name": "Tyrell Williams",
+      "position": "WR",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "recYPG": 50.1,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032940_LV_2019",
+      "name": "DeAndre Washington",
+      "position": "RB",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 24.2,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033025_LV_2019",
+      "name": "Jalen Richard",
+      "position": "RB",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 9.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034981_LV_2019",
+      "name": "Foster Moreau",
+      "position": "WR",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "recYPG": 15.8,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034983_LV_2019",
+      "name": "Hunter Renfrow",
+      "position": "WR",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "recYPG": 46.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035700_LV_2019",
+      "name": "Josh Jacobs",
+      "position": "RB",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 88.5,
+        "tdPerGame": 0.538
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034161_LV_2019",
+      "name": "D.Carlson",
+      "position": "K",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.7308
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2019",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.33,
+        "rushTDPct": 0.0297,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2019",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2019",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

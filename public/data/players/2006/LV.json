@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001823_LV_2006",
+      "name": "Aaron Brooks",
+      "position": "QB",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "passYPG": 138.1,
+        "tdRatio": 0.0156,
+        "intRatio": 0.0417,
+        "qbr": 0.3
+      },
+      "eraNormFactor": 0.7874
+    },
+    {
+      "id": "p_00-0003663_LV_2006",
+      "name": "Zack Crockett",
+      "position": "RB",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 13.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011754_LV_2006",
+      "name": "Randy Moss",
+      "position": "WR",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "recYPG": 46.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017611_LV_2006",
+      "name": "Alvis Whitted",
+      "position": "WR",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019919_LV_2006",
+      "name": "Randal Williams",
+      "position": "WR",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020462_LV_2006",
+      "name": "LaMont Jordan",
+      "position": "RB",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 48.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021337_LV_2006",
+      "name": "Ronald Curry",
+      "position": "WR",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "recYPG": 48.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022093_LV_2006",
+      "name": "Justin Fargas",
+      "position": "RB",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 41.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022704_LV_2006",
+      "name": "Courtney Anderson",
+      "position": "WR",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023504_LV_2006",
+      "name": "Andrew Walter",
+      "position": "QB",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "passYPG": 139.8,
+        "tdRatio": 0.0109,
+        "intRatio": 0.0471,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7971
+    },
+    {
+      "id": "p_00-0019646_LV_2006",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.72
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2006",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.86,
+        "rushTDPct": 0.0127,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2006",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2006",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

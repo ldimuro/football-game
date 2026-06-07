@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0002099_SF_2008",
+      "name": "Isaac Bruce",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020679_SF_2008",
+      "name": "Shaun Hill",
+      "position": "QB",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "passYPG": 227.3,
+        "tdRatio": 0.0486,
+        "intRatio": 0.0278,
+        "qbr": 80.0
+      },
+      "eraNormFactor": 1.2499
+    },
+    {
+      "id": "p_00-0021164_SF_2008",
+      "name": "DeShaun Foster",
+      "position": "RB",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 21.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021296_SF_2008",
+      "name": "J.T. O'Sullivan",
+      "position": "QB",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "passYPG": 186.4,
+        "tdRatio": 0.0364,
+        "intRatio": 0.05,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.025
+    },
+    {
+      "id": "p_00-0022064_SF_2008",
+      "name": "Arnaz Battle",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 39.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_SF_2008",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 42.0,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023500_SF_2008",
+      "name": "Frank Gore",
+      "position": "RB",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 74.0,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024221_SF_2008",
+      "name": "Vernon Davis",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 27.5,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025463_SF_2008",
+      "name": "Jason Hill",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.4,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026314_SF_2008",
+      "name": "Josh Morgan",
+      "position": "WR",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "recYPG": 35.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011970_SF_2008",
+      "name": "J.Nedney",
+      "position": "K",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8788
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2008",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.03,
+        "rushTDPct": 0.0252,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2008",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2008",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

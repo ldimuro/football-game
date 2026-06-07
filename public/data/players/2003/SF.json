@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005755_SF_2003",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "passYPG": 208.0,
+        "tdRatio": 0.0459,
+        "intRatio": 0.0332,
+        "qbr": 65.7
+      },
+      "eraNormFactor": 1.2882
+    },
+    {
+      "id": "p_00-0007180_SF_2003",
+      "name": "Garrison Hearst",
+      "position": "RB",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 64.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012478_SF_2003",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "recYPG": 73.5,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015811_SF_2003",
+      "name": "Tai Streets",
+      "position": "WR",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017356_SF_2003",
+      "name": "Jed Weaver",
+      "position": "WR",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "recYPG": 29.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019623_SF_2003",
+      "name": "Tim Rattay",
+      "position": "QB",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "passYPG": 107.0,
+        "tdRatio": 0.0593,
+        "intRatio": 0.0169,
+        "qbr": 75.1
+      },
+      "eraNormFactor": 0.6627
+    },
+    {
+      "id": "p_00-0020452_SF_2003",
+      "name": "Cedrick Wilson",
+      "position": "WR",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "recYPG": 28.3,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020474_SF_2003",
+      "name": "Kevan Barlow",
+      "position": "RB",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 64.0,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020587_SF_2003",
+      "name": "Jamal Robertson",
+      "position": "RB",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 22.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0012875_SF_2003",
+      "name": "O.Pochman",
+      "position": "K",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.7222
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2003",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.6,
+        "rushTDPct": 0.0322,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2003",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2003",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

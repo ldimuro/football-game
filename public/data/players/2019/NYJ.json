@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027874_NYJ_2019",
+      "name": "Demaryius Thomas",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "recYPG": 39.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028064_NYJ_2019",
+      "name": "Bilal Powell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030108_NYJ_2019",
+      "name": "Ryan Griffin",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030496_NYJ_2019",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 52.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031941_NYJ_2019",
+      "name": "Jamison Crowder",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "recYPG": 52.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032688_NYJ_2019",
+      "name": "Robbie Chosen",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034631_NYJ_2019",
+      "name": "Vyncint Smith",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034869_NYJ_2019",
+      "name": "Sam Darnold",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "passYPG": 232.6,
+        "tdRatio": 0.0431,
+        "intRatio": 0.0295,
+        "qbr": 36.6
+      },
+      "eraNormFactor": 1.1162
+    },
+    {
+      "id": "p_00-0033138_NYJ_2019",
+      "name": "S.Ficken",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.6786
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2019",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.28,
+        "rushTDPct": 0.0157,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2019",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2019",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0027948_TEN_2018",
+      "name": "Blaine Gabbert",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "passYPG": 78.2,
+        "tdRatio": 0.0396,
+        "intRatio": 0.0396,
+        "qbr": 20.9
+      },
+      "eraNormFactor": 0.4008
+    },
+    {
+      "id": "p_00-0028042_TEN_2018",
+      "name": "Luke Stocker",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 13.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028087_TEN_2018",
+      "name": "Dion Lewis",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032268_TEN_2018",
+      "name": "Marcus Mariota",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "passYPG": 180.6,
+        "tdRatio": 0.0332,
+        "intRatio": 0.0242,
+        "qbr": 56.5
+      },
+      "eraNormFactor": 0.9255
+    },
+    {
+      "id": "p_00-0032764_TEN_2018",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 66.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032778_TEN_2018",
+      "name": "Tajae Sharpe",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033455_TEN_2018",
+      "name": "Anthony Firkser",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_TEN_2018",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 23.5,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033871_TEN_2018",
+      "name": "Corey Davis",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 55.7,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033911_TEN_2018",
+      "name": "Taywan Taylor",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026968_TEN_2018",
+      "name": "R.Succop",
+      "position": "K",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2018",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.46,
+        "rushTDPct": 0.033,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2018",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2018",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

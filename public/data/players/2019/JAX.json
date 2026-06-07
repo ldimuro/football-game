@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029567_JAX_2019",
+      "name": "Nick Foles",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "passYPG": 184.0,
+        "tdRatio": 0.0256,
+        "intRatio": 0.0171,
+        "qbr": 16.0
+      },
+      "eraNormFactor": 0.883
+    },
+    {
+      "id": "p_00-0031951_JAX_2019",
+      "name": "James O'Shaughnessy",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032128_JAX_2019",
+      "name": "Chris Conley",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "recYPG": 48.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033681_JAX_2019",
+      "name": "Keelan Cole",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "recYPG": 32.8,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033839_JAX_2019",
+      "name": "Dede Westbrook",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "recYPG": 44.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033856_JAX_2019",
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 76.8,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034777_JAX_2019",
+      "name": "D.J. Chark",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "recYPG": 67.2,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035268_JAX_2019",
+      "name": "Ryquell Armstead",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "rushYPG": 7.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035289_JAX_2019",
+      "name": "Gardner Minshew",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "passYPG": 233.6,
+        "tdRatio": 0.0447,
+        "intRatio": 0.0128,
+        "qbr": 40.2
+      },
+      "eraNormFactor": 1.121
+    },
+    {
+      "id": "p_00-0032087_JAX_2019",
+      "name": "J.Lambo",
+      "position": "K",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "fgAccuracy": 0.9706
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2019",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0077,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2019",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2019",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2019,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

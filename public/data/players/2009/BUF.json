@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0012478_BUF_2009",
+      "name": "Terrell Owens",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "recYPG": 51.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021166_BUF_2009",
+      "name": "Josh Reed",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "recYPG": 22.4,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022910_BUF_2009",
+      "name": "Lee Evans",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023682_BUF_2009",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "passYPG": 142.2,
+        "tdRatio": 0.0396,
+        "intRatio": 0.0441,
+        "qbr": 5.4
+      },
+      "eraNormFactor": 0.8684
+    },
+    {
+      "id": "p_00-0024204_BUF_2009",
+      "name": "Fred Jackson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 66.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025399_BUF_2009",
+      "name": "Marshawn Lynch",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 34.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025479_BUF_2009",
+      "name": "Trent Edwards",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "passYPG": 146.1,
+        "tdRatio": 0.0328,
+        "intRatio": 0.0383,
+        "qbr": 10.4
+      },
+      "eraNormFactor": 0.8922
+    },
+    {
+      "id": "p_00-0027088_BUF_2009",
+      "name": "Shawn Nelson",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "recYPG": 14.3,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019310_BUF_2009",
+      "name": "R.Lindell",
+      "position": "K",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2009",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.39,
+        "rushTDPct": 0.0141,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2009",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2009",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

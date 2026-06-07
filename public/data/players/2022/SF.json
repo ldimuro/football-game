@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031345_SF_2022",
+      "name": "Jimmy Garoppolo",
+      "position": "QB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "passYPG": 221.5,
+        "tdRatio": 0.0519,
+        "intRatio": 0.013,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2126
+    },
+    {
+      "id": "p_00-0033288_SF_2022",
+      "name": "George Kittle",
+      "position": "WR",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "recYPG": 51.6,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034115_SF_2022",
+      "name": "Jeffery Wilson",
+      "position": "RB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 51.9,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034407_SF_2022",
+      "name": "Ray-Ray McCloud",
+      "position": "WR",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035719_SF_2022",
+      "name": "Deebo Samuel",
+      "position": "WR",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "recYPG": 52.7,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036259_SF_2022",
+      "name": "Jauan Jennings",
+      "position": "WR",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "recYPG": 26.8,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036261_SF_2022",
+      "name": "Brandon Aiyuk",
+      "position": "WR",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "recYPG": 56.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036567_SF_2022",
+      "name": "Elijah Mitchell",
+      "position": "RB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 47.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037525_SF_2022",
+      "name": "Jordan Mason",
+      "position": "RB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 30.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037827_SF_2022",
+      "name": "Tyrion Davis-Price",
+      "position": "RB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 19.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037834_SF_2022",
+      "name": "Brock Purdy",
+      "position": "QB",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "passYPG": 161.9,
+        "tdRatio": 0.0687,
+        "intRatio": 0.0172,
+        "qbr": 97.4
+      },
+      "eraNormFactor": 0.8863
+    },
+    {
+      "id": "p_00-0023252_SF_2022",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_SF_OLine_2022",
+      "position": "OLine",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.61,
+        "rushTDPct": 0.0388,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_DLine_2022",
+      "position": "DLine",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_SF_Secondary_2022",
+      "position": "Secondary",
+      "team": "SF",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

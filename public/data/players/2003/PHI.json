@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0009842_PHI_2003",
+      "name": "Chad Lewis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011022_PHI_2003",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "passYPG": 198.4,
+        "tdRatio": 0.0333,
+        "intRatio": 0.0259,
+        "qbr": 38.8
+      },
+      "eraNormFactor": 1.2287
+    },
+    {
+      "id": "p_00-0015523_PHI_2003",
+      "name": "Duce Staley",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 32.3,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016440_PHI_2003",
+      "name": "James Thrash",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 32.0,
+        "tdPerGame": 0.056
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019606_PHI_2003",
+      "name": "Todd Pinkston",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020270_PHI_2003",
+      "name": "Correll Buckhalter",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 35.4,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020497_PHI_2003",
+      "name": "Freddie Mitchell",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 33.7,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2003",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "rushYPG": 40.3,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022126_PHI_2003",
+      "name": "L.J. Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2003",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2003",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.94,
+        "rushTDPct": 0.0493,
+        "normalizedRank": 3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2003",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2003",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2003,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

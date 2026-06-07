@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000166_DEN_2005",
+      "name": "Stephen Alexander",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 12.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013042_DEN_2005",
+      "name": "Jake Plummer",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "passYPG": 210.3,
+        "tdRatio": 0.0391,
+        "intRatio": 0.0195,
+        "qbr": 82.2
+      },
+      "eraNormFactor": 1.2326
+    },
+    {
+      "id": "p_00-0015290_DEN_2005",
+      "name": "Rod Smith",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 70.1,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019594_DEN_2005",
+      "name": "Mike Anderson",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 65.8,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019643_DEN_2005",
+      "name": "Ron Dayne",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 33.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021006_DEN_2005",
+      "name": "Charlie Adams",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 16.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021100_DEN_2005",
+      "name": "Jeb Putzier",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 33.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021152_DEN_2005",
+      "name": "Ashley Lelie",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 52.2,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022893_DEN_2005",
+      "name": "Tatum Bell",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 60.7,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004811_DEN_2005",
+      "name": "J.Elam",
+      "position": "K",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7714
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2005",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.61,
+        "rushTDPct": 0.0471,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2005",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2005",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

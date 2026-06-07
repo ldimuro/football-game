@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017200_ARI_2005",
+      "name": "Kurt Warner",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "passYPG": 271.3,
+        "tdRatio": 0.0293,
+        "intRatio": 0.024,
+        "qbr": 80.8
+      },
+      "eraNormFactor": 1.5901
+    },
+    {
+      "id": "p_00-0020022_ARI_2005",
+      "name": "Marcel Shipp",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 30.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021206_ARI_2005",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "passYPG": 203.6,
+        "tdRatio": 0.0333,
+        "intRatio": 0.0407,
+        "qbr": 42.1
+      },
+      "eraNormFactor": 1.1933
+    },
+    {
+      "id": "p_00-0022084_ARI_2005",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 99.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022156_ARI_2005",
+      "name": "Bryant Johnson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022921_ARI_2005",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 88.1,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023217_ARI_2005",
+      "name": "Adam Bergen",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "recYPG": 20.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023479_ARI_2005",
+      "name": "J.J. Arrington",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 24.7,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019676_ARI_2005",
+      "name": "N.Rackers",
+      "position": "K",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.9556
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2005",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.16,
+        "rushTDPct": 0.0056,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2005",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2005",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

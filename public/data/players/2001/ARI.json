@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001532_ARI_2001",
+      "name": "David Boston",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "recYPG": 99.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006848_ARI_2001",
+      "name": "Terry Hardy",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "recYPG": 11.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008357_ARI_2001",
+      "name": "MarTay Jenkins",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "recYPG": 39.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011439_ARI_2001",
+      "name": "Tywan Mitchell",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "recYPG": 15.1,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_ARI_2001",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 56.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013042_ARI_2001",
+      "name": "Jake Plummer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "passYPG": 228.3,
+        "tdRatio": 0.0343,
+        "intRatio": 0.0267,
+        "qbr": 75.1
+      },
+      "eraNormFactor": 1.2925
+    },
+    {
+      "id": "p_00-0014328_ARI_2001",
+      "name": "Frank Sanders",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019641_ARI_2001",
+      "name": "Thomas Jones",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 23.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020296_ARI_2001",
+      "name": "B.Gramatica",
+      "position": "K",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2001",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.62,
+        "rushTDPct": 0.025,
+        "normalizedRank": 28
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2001",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2001",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

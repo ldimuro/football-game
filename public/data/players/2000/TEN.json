@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005883_TEN_2000",
+      "name": "Eddie George",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 90.9,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010500_TEN_2000",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 63.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011024_TEN_2000",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "passYPG": 171.8,
+        "tdRatio": 0.0346,
+        "intRatio": 0.0323,
+        "qbr": 47.9
+      },
+      "eraNormFactor": 1.0798
+    },
+    {
+      "id": "p_00-0012953_TEN_2000",
+      "name": "Carl Pickens",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014319_TEN_2000",
+      "name": "Chris Sanders",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 32.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016214_TEN_2000",
+      "name": "Yancey Thigpen",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016321_TEN_2000",
+      "name": "Rodney Thomas",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018343_TEN_2000",
+      "name": "Frank Wycheck",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 36.9,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019659_TEN_2000",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "recYPG": 14.7,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004147_TEN_2000",
+      "name": "A.Del Greco",
+      "position": "K",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7368
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2000",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.75,
+        "rushTDPct": 0.0261,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2000",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2000",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

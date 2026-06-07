@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004640_ATL_2004",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 72.6,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005231_ATL_2004",
+      "name": "Brian Finneran",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013232_ATL_2004",
+      "name": "Peerless Price",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 37.3,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019660_ATL_2004",
+      "name": "Dez White",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 23.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020245_ATL_2004",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "passYPG": 148.9,
+        "tdRatio": 0.0443,
+        "intRatio": 0.036,
+        "qbr": 5.5
+      },
+      "eraNormFactor": 0.8461
+    },
+    {
+      "id": "p_00-0020285_ATL_2004",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 52.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021376_ATL_2004",
+      "name": "T.J. Duckett",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 42.1,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_ATL_2004",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2004",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.24,
+        "rushTDPct": 0.0406,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2004",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2004",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

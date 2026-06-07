@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0006305_HOU_2007",
+      "name": "Ahman Green",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 43.3,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019643_HOU_2007",
+      "name": "Ron Dayne",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 59.5,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020480_HOU_2007",
+      "name": "Sage Rosenfels",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "passYPG": 187.1,
+        "tdRatio": 0.0625,
+        "intRatio": 0.05,
+        "qbr": 84.5
+      },
+      "eraNormFactor": 1.1736
+    },
+    {
+      "id": "p_00-0021175_HOU_2007",
+      "name": "Andre Davis",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "recYPG": 41.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021931_HOU_2007",
+      "name": "Kevin Walter",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "recYPG": 53.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2007",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "recYPG": 94.6,
+        "tdPerGame": 0.889
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022787_HOU_2007",
+      "name": "Matt Schaub",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "passYPG": 203.7,
+        "tdRatio": 0.0311,
+        "intRatio": 0.0311,
+        "qbr": 57.7
+      },
+      "eraNormFactor": 1.2777
+    },
+    {
+      "id": "p_00-0023074_HOU_2007",
+      "name": "Samkon Gado",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 18.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024313_HOU_2007",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "recYPG": 48.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024850_HOU_2007",
+      "name": "Darius Walker",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 66.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_HOU_2007",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8621
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2007",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0288,
+        "normalizedRank": 23
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2007",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2007",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

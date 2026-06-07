@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "p_00-0009119_CIN_2006",
+      "name": "Reggie Kelly",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2006",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 85.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020407_CIN_2006",
+      "name": "Rudi Johnson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 81.8,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2006",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 77.2,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021429_CIN_2006",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "passYPG": 252.2,
+        "tdRatio": 0.0538,
+        "intRatio": 0.025,
+        "qbr": 88.9
+      },
+      "eraNormFactor": 1.438
+    },
+    {
+      "id": "p_00-0023518_CIN_2006",
+      "name": "Chris Henry",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "recYPG": 55.0,
+        "tdPerGame": 0.818
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_CIN_2006",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2006",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.77,
+        "rushTDPct": 0.0323,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2006",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2006",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

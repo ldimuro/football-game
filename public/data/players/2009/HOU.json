@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021931_HOU_2009",
+      "name": "Kevin Walter",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022044_HOU_2009",
+      "name": "Andre Johnson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 98.1,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022092_HOU_2009",
+      "name": "Chris Brown",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 19.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022787_HOU_2009",
+      "name": "Matt Schaub",
+      "position": "QB",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "passYPG": 298.1,
+        "tdRatio": 0.0497,
+        "intRatio": 0.0257,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.8204
+    },
+    {
+      "id": "p_00-0023512_HOU_2009",
+      "name": "Ryan Moats",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 48.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023630_HOU_2009",
+      "name": "Joel Dreessen",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024313_HOU_2009",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 64.9,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024465_HOU_2009",
+      "name": "David Anderson",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025460_HOU_2009",
+      "name": "Jacoby Jones",
+      "position": "WR",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026229_HOU_2009",
+      "name": "Steve Slaton",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 39.7,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026796_HOU_2009",
+      "name": "Arian Foster",
+      "position": "RB",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "rushYPG": 64.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_HOU_2009",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "fgAccuracy": 0.6562
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_HOU_OLine_2009",
+      "position": "OLine",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.48,
+        "rushTDPct": 0.0307,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_DLine_2009",
+      "position": "DLine",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_HOU_Secondary_2009",
+      "position": "Secondary",
+      "team": "HOU",
+      "year": 2009,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

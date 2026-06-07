@@ -1,0 +1,217 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026158_BAL_2018",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "passYPG": 273.9,
+        "tdRatio": 0.0317,
+        "intRatio": 0.0158,
+        "qbr": 71.3
+      },
+      "eraNormFactor": 1.4037
+    },
+    {
+      "id": "p_00-0026986_BAL_2018",
+      "name": "Michael Crabtree",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030663_BAL_2018",
+      "name": "Willie Snead",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 46.7,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_BAL_2018",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031577_BAL_2018",
+      "name": "Javorius Allen",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 10.0,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031598_BAL_2018",
+      "name": "Nick Boyle",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 17.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032398_BAL_2018",
+      "name": "Chris Moore",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 12.2,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032411_BAL_2018",
+      "name": "Kenneth Dixon",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 49.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032426_BAL_2018",
+      "name": "Alex Collins",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 41.1,
+        "tdPerGame": 0.7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034184_BAL_2018",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 61.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034753_BAL_2018",
+      "name": "Mark Andrews",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 34.3,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034796_BAL_2018",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "passYPG": 82.1,
+        "tdRatio": 0.0402,
+        "intRatio": 0.0201,
+        "qbr": 42.6
+      },
+      "eraNormFactor": 0.4207
+    },
+    {
+      "id": "p_00-0034830_BAL_2018",
+      "name": "Hayden Hurst",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.3,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2018",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.878
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2018",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.43,
+        "rushTDPct": 0.0333,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2018",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2018",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

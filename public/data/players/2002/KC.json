@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003136_KC_2002",
+      "name": "Mike Cloud",
+      "position": "RB",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 9.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006101_KC_2002",
+      "name": "Tony Gonzalez",
+      "position": "WR",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "recYPG": 48.3,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006355_KC_2002",
+      "name": "Trent Green",
+      "position": "QB",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "passYPG": 230.6,
+        "tdRatio": 0.0553,
+        "intRatio": 0.0277,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2737
+    },
+    {
+      "id": "p_00-0007661_KC_2002",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 115.4,
+        "tdPerGame": 1.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009163_KC_2002",
+      "name": "Eddie Kennison",
+      "position": "WR",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "recYPG": 56.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0011727_KC_2002",
+      "name": "Johnnie Morton",
+      "position": "WR",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "recYPG": 28.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019539_KC_2002",
+      "name": "Dante Hall",
+      "position": "WR",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "recYPG": 21.5,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020583_KC_2002",
+      "name": "Marc Boerigter",
+      "position": "WR",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "recYPG": 38.2,
+        "tdPerGame": 0.727
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000282_KC_2002",
+      "name": "M. Andersen",
+      "position": "K",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8519
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2002",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.15,
+        "rushTDPct": 0.0563,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2002",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2002",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025394_MIN_2015",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 90.0,
+        "tdPerGame": 0.647
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026901_MIN_2015",
+      "name": "Mike Wallace",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027981_MIN_2015",
+      "name": "Kyle Rudolph",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029572_MIN_2015",
+      "name": "Jarius Wright",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031237_MIN_2015",
+      "name": "Teddy Bridgewater",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "passYPG": 198.6,
+        "tdRatio": 0.0297,
+        "intRatio": 0.0191,
+        "qbr": 48.4
+      },
+      "eraNormFactor": 0.9756
+    },
+    {
+      "id": "p_00-0031376_MIN_2015",
+      "name": "Jerick McKinnon",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 16.4,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031588_MIN_2015",
+      "name": "Stefon Diggs",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "recYPG": 53.3,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029576_MIN_2015",
+      "name": "B.Walsh",
+      "position": "K",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8605
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2015",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.51,
+        "rushTDPct": 0.0358,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2015",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2015",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

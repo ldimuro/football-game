@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001661_JAX_2000",
+      "name": "Kyle Brady",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "recYPG": 45.6,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002110_JAX_2000",
+      "name": "Mark Brunell",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "passYPG": 227.5,
+        "tdRatio": 0.0391,
+        "intRatio": 0.0273,
+        "qbr": 72.9
+      },
+      "eraNormFactor": 1.4299
+    },
+    {
+      "id": "p_00-0010668_JAX_2000",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "recYPG": 75.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015218_JAX_2000",
+      "name": "Jimmy Smith",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "recYPG": 80.9,
+        "tdPerGame": 0.533
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016098_JAX_2000",
+      "name": "Fred Taylor",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 104.8,
+        "tdPerGame": 0.923
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017611_JAX_2000",
+      "name": "Alvis Whitted",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "recYPG": 13.7,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019604_JAX_2000",
+      "name": "R.Jay Soward",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007622_JAX_2000",
+      "name": "M.Hollis",
+      "position": "K",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8788
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2000",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.17,
+        "rushTDPct": 0.0381,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2000",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2000",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

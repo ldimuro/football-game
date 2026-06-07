@@ -1,0 +1,207 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030085_NO_2021",
+      "name": "Kenny Stills",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 9.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031503_NO_2021",
+      "name": "Jameis Winston",
+      "position": "QB",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "passYPG": 167.1,
+        "tdRatio": 0.087,
+        "intRatio": 0.0186,
+        "qbr": 81.2
+      },
+      "eraNormFactor": 0.9515
+    },
+    {
+      "id": "p_00-0032156_NO_2021",
+      "name": "Trevor Siemian",
+      "position": "QB",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "passYPG": 192.3,
+        "tdRatio": 0.0585,
+        "intRatio": 0.016,
+        "qbr": 38.8
+      },
+      "eraNormFactor": 1.0949
+    },
+    {
+      "id": "p_00-0032200_NO_2021",
+      "name": "Ty Montgomery",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 8.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033357_NO_2021",
+      "name": "Taysom Hill",
+      "position": "QB",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "passYPG": 81.5,
+        "tdRatio": 0.0299,
+        "intRatio": 0.0373,
+        "qbr": 40.5
+      },
+      "eraNormFactor": 0.4641
+    },
+    {
+      "id": "p_00-0033906_NO_2021",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 69.1,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034765_NO_2021",
+      "name": "Tre'Quan Smith",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 37.7,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035215_NO_2021",
+      "name": "Deonte Harty",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 43.8,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035860_NO_2021",
+      "name": "Tony Jones",
+      "position": "RB",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 14.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036040_NO_2021",
+      "name": "Juwan Johnson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036219_NO_2021",
+      "name": "Marquez Callaway",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 41.1,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036422_NO_2021",
+      "name": "Adam Trautman",
+      "position": "WR",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030332_NO_2021",
+      "name": "B.Maher",
+      "position": "K",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2021",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.9,
+        "rushTDPct": 0.0235,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2021",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2021",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

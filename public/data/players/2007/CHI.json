@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0003035_CHI_2007",
+      "name": "Desmond Clark",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 36.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006423_CHI_2007",
+      "name": "Brian Griese",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "passYPG": 257.6,
+        "tdRatio": 0.0382,
+        "intRatio": 0.0458,
+        "qbr": 50.4
+      },
+      "eraNormFactor": 1.6158
+    },
+    {
+      "id": "p_00-0011795_CHI_2007",
+      "name": "Muhsin Muhammad",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 38.0,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021306_CHI_2007",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 31.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022121_CHI_2007",
+      "name": "Rex Grossman",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "passYPG": 176.4,
+        "tdRatio": 0.0178,
+        "intRatio": 0.0311,
+        "qbr": 0
+      },
+      "eraNormFactor": 1.1065
+    },
+    {
+      "id": "p_00-0022807_CHI_2007",
+      "name": "Bernard Berrian",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 59.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023439_CHI_2007",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 61.6,
+        "tdPerGame": 0.364
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024272_CHI_2007",
+      "name": "Devin Hester",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 23.0,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CHI_2007",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 32.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025480_CHI_2007",
+      "name": "Garrett Wolfe",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 9.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2007",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8611
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2007",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.14,
+        "rushTDPct": 0.0189,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2007",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2007",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

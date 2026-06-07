@@ -1,0 +1,205 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026213_DEN_2017",
+      "name": "Jamaal Charles",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 22.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027685_DEN_2017",
+      "name": "Emmanuel Sanders",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 46.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027874_DEN_2017",
+      "name": "Demaryius Thomas",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 59.3,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028142_DEN_2017",
+      "name": "Virgil Green",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029682_DEN_2017",
+      "name": "Brock Osweiler",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "passYPG": 181.3,
+        "tdRatio": 0.0291,
+        "intRatio": 0.0291,
+        "qbr": 12.3
+      },
+      "eraNormFactor": 0.8766
+    },
+    {
+      "id": "p_00-0029854_DEN_2017",
+      "name": "C.J. Anderson",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 62.9,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030670_DEN_2017",
+      "name": "Bennie Fowler",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 25.0,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031344_DEN_2017",
+      "name": "Cody Latimer",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 28.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031609_DEN_2017",
+      "name": "A.J. Derby",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 22.2,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031697_DEN_2017",
+      "name": "Jordan Taylor",
+      "position": "WR",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "recYPG": 23.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032156_DEN_2017",
+      "name": "Trevor Siemian",
+      "position": "QB",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "passYPG": 207.7,
+        "tdRatio": 0.0344,
+        "intRatio": 0.0401,
+        "qbr": 6.6
+      },
+      "eraNormFactor": 1.0043
+    },
+    {
+      "id": "p_00-0032972_DEN_2017",
+      "name": "Devontae Booker",
+      "position": "RB",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 23.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029822_DEN_2017",
+      "name": "B.McManus",
+      "position": "K",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DEN_OLine_2017",
+      "position": "OLine",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.05,
+        "rushTDPct": 0.0175,
+        "normalizedRank": 18
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_DLine_2017",
+      "position": "DLine",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DEN_Secondary_2017",
+      "position": "Secondary",
+      "team": "DEN",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

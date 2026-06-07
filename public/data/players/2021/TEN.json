@@ -1,0 +1,215 @@
+{
+  "players": [
+    {
+      "id": "p_00-0025394_TEN_2021",
+      "name": "Adrian Peterson",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 24.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027944_TEN_2021",
+      "name": "Julio Jones",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 45.1,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029701_TEN_2021",
+      "name": "Ryan Tannehill",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "passYPG": 219.7,
+        "tdRatio": 0.0414,
+        "intRatio": 0.0306,
+        "qbr": 61.2
+      },
+      "eraNormFactor": 1.251
+    },
+    {
+      "id": "p_00-0032141_TEN_2021",
+      "name": "Geoff Swaim",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 13.1,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032355_TEN_2021",
+      "name": "Chester Rogers",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 17.9,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032764_TEN_2021",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 111.0,
+        "tdPerGame": 1.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033455_TEN_2021",
+      "name": "Anthony Firkser",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033925_TEN_2021",
+      "name": "D'Onta Foreman",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 63.2,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033943_TEN_2021",
+      "name": "Josh Reynolds",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 39.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033955_TEN_2021",
+      "name": "Jeremy McNichols",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 12.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034253_TEN_2021",
+      "name": "Dontrell Hilliard",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 43.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035676_TEN_2021",
+      "name": "A.J. Brown",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 72.2,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036182_TEN_2021",
+      "name": "Nick Westbrook-Ikhine",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "recYPG": 29.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029421_TEN_2021",
+      "name": "R.Bullock",
+      "position": "K",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2021",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.0415,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2021",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2021",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

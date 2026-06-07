@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000232_BAL_2001",
+      "name": "Terry Allen",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 59.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000552_BAL_2001",
+      "name": "Obafemi Ayanbadejo",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 12.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006300_BAL_2001",
+      "name": "Elvis Grbac",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "passYPG": 207.4,
+        "tdRatio": 0.0307,
+        "intRatio": 0.0402,
+        "qbr": 19.7
+      },
+      "eraNormFactor": 1.1742
+    },
+    {
+      "id": "p_00-0008059_BAL_2001",
+      "name": "Qadry Ismail",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 60.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014722_BAL_2001",
+      "name": "Shannon Sharpe",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 49.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015754_BAL_2001",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017892_BAL_2001",
+      "name": "Moe Williams",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 21.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019423_BAL_2001",
+      "name": "Jason Brookins",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "rushYPG": 47.8,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019721_BAL_2001",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 37.4,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2001",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "recYPG": 18.1,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_BAL_2001",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2001",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.78,
+        "rushTDPct": 0.0221,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2001",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2001",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2001,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

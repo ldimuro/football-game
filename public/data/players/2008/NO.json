@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011236_NO_2008",
+      "name": "Billy Miller",
+      "position": "WR",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "recYPG": 48.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020527_NO_2008",
+      "name": "Deuce McAllister",
+      "position": "RB",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 32.2,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020531_NO_2008",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "passYPG": 316.8,
+        "tdRatio": 0.0535,
+        "intRatio": 0.0268,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.742
+    },
+    {
+      "id": "p_00-0021148_NO_2008",
+      "name": "Jeremy Shockey",
+      "position": "WR",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "recYPG": 40.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022929_NO_2008",
+      "name": "Devery Henderson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "recYPG": 52.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023310_NO_2008",
+      "name": "Lance Moore",
+      "position": "WR",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "recYPG": 58.0,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024217_NO_2008",
+      "name": "Reggie Bush",
+      "position": "RB",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 40.4,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024466_NO_2008",
+      "name": "Marques Colston",
+      "position": "WR",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "recYPG": 76.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024813_NO_2008",
+      "name": "Pierre Thomas",
+      "position": "RB",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 44.6,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025824_NO_2008",
+      "name": "G.Hartley",
+      "position": "K",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8148
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2008",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.01,
+        "rushTDPct": 0.0503,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2008",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2008",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

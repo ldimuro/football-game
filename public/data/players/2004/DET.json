@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000166_DET_2004",
+      "name": "Stephen Alexander",
+      "position": "WR",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "recYPG": 25.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002159_DET_2004",
+      "name": "Shawn Bryson",
+      "position": "RB",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 16.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006627_DET_2004",
+      "name": "Az-Zahir Hakim",
+      "position": "WR",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "recYPG": 53.3,
+        "tdPerGame": 0.3
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015811_DET_2004",
+      "name": "Tai Streets",
+      "position": "WR",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "recYPG": 20.0,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_DET_2004",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "passYPG": 190.4,
+        "tdRatio": 0.0389,
+        "intRatio": 0.0245,
+        "qbr": 13.6
+      },
+      "eraNormFactor": 1.0819
+    },
+    {
+      "id": "p_00-0022006_DET_2004",
+      "name": "Artose Pinner",
+      "position": "RB",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 24.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022782_DET_2004",
+      "name": "Kevin Jones",
+      "position": "RB",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 75.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022909_DET_2004",
+      "name": "Roy Williams",
+      "position": "WR",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "recYPG": 58.4,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006800_DET_2004",
+      "name": "J.Hanson",
+      "position": "K",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2004",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.36,
+        "rushTDPct": 0.0172,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2004",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2004",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

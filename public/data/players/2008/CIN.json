@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0009119_CIN_2008",
+      "name": "Reggie Kelly",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 15.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019997_CIN_2008",
+      "name": "Antonio Chatman",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 27.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2008",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 41.5,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2008",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "recYPG": 64.6,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021429_CIN_2008",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 184.0,
+        "tdRatio": 0.0231,
+        "intRatio": 0.0308,
+        "qbr": 7.3
+      },
+      "eraNormFactor": 1.0118
+    },
+    {
+      "id": "p_00-0022926_CIN_2008",
+      "name": "Chris Perry",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 24.0,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023439_CIN_2008",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 62.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023682_CIN_2008",
+      "name": "Ryan Fitzpatrick",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "passYPG": 158.8,
+        "tdRatio": 0.0215,
+        "intRatio": 0.0242,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8732
+    },
+    {
+      "id": "p_00-0019536_CIN_2008",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.88
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2008",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.62,
+        "rushTDPct": 0.0143,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2008",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2008",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

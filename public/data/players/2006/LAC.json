@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010668_LAC_2006",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "recYPG": 36.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020536_LAC_2006",
+      "name": "LaDainian Tomlinson",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 114.0,
+        "tdPerGame": 1.765
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020904_LAC_2006",
+      "name": "Eric Parker",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "recYPG": 43.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021547_LAC_2006",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.529
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022821_LAC_2006",
+      "name": "Michael Turner",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 37.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2006",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "passYPG": 212.8,
+        "tdRatio": 0.0447,
+        "intRatio": 0.0203,
+        "qbr": 95.9
+      },
+      "eraNormFactor": 1.2134
+    },
+    {
+      "id": "p_00-0023496_LAC_2006",
+      "name": "Vincent Jackson",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "recYPG": 35.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022737_LAC_2006",
+      "name": "N.Kaeding",
+      "position": "K",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8667
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2006",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.92,
+        "rushTDPct": 0.0631,
+        "normalizedRank": 4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2006",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2006",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

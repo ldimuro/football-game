@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004640_ATL_2002",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 60.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005231_ATL_2002",
+      "name": "Brian Finneran",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008210_ATL_2002",
+      "name": "Willie Jackson",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 23.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008313_ATL_2002",
+      "name": "Shawn Jefferson",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009119_ATL_2002",
+      "name": "Reggie Kelly",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019670_ATL_2002",
+      "name": "Trevor Gaylor",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 32.3,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020245_ATL_2002",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "passYPG": 195.7,
+        "tdRatio": 0.0351,
+        "intRatio": 0.0207,
+        "qbr": 68.4
+      },
+      "eraNormFactor": 1.081
+    },
+    {
+      "id": "p_00-0020285_ATL_2002",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020340_ATL_2002",
+      "name": "Quentin McCord",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021376_ATL_2002",
+      "name": "T.J. Duckett",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 39.8,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019770_ATL_2002",
+      "name": "J.Feely",
+      "position": "K",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.766
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2002",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.49,
+        "rushTDPct": 0.0406,
+        "normalizedRank": 8
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2002",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2002",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

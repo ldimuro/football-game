@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000104_DAL_2000",
+      "name": "Troy Aikman",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "passYPG": 146.9,
+        "tdRatio": 0.027,
+        "intRatio": 0.0541,
+        "qbr": 23.6
+      },
+      "eraNormFactor": 0.9233
+    },
+    {
+      "id": "p_00-0003761_DAL_2000",
+      "name": "Randall Cunningham",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "passYPG": 140.0,
+        "tdRatio": 0.0484,
+        "intRatio": 0.0323,
+        "qbr": 59.9
+      },
+      "eraNormFactor": 0.8799
+    },
+    {
+      "id": "p_00-0006949_DAL_2000",
+      "name": "Jackie Harris",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 18.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008060_DAL_2000",
+      "name": "Raghib Ismail",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 43.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009550_DAL_2000",
+      "name": "David LaFleur",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 10.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010843_DAL_2000",
+      "name": "Wane McGarity",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 19.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010974_DAL_2000",
+      "name": "James McKnight",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 55.5,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015165_DAL_2000",
+      "name": "Emmitt Smith",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 74.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0016654_DAL_2000",
+      "name": "Jason Tucker",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 11.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017209_DAL_2000",
+      "name": "Chris Warren",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 25.5,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0018949_DAL_2000",
+      "name": "T.Seder",
+      "position": "K",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.7576
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2000",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.23,
+        "rushTDPct": 0.0328,
+        "normalizedRank": 10
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2000",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2000",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031339_JAX_2018",
+      "name": "Donte Moncrief",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031407_JAX_2018",
+      "name": "Blake Bortles",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "passYPG": 209.1,
+        "tdRatio": 0.0323,
+        "intRatio": 0.0273,
+        "qbr": 32.8
+      },
+      "eraNormFactor": 1.0716
+    },
+    {
+      "id": "p_00-0031951_JAX_2018",
+      "name": "James O'Shaughnessy",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032209_JAX_2018",
+      "name": "T.J. Yeldon",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 29.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033104_JAX_2018",
+      "name": "Cody Kessler",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "passYPG": 141.8,
+        "tdRatio": 0.0153,
+        "intRatio": 0.0153,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7267
+    },
+    {
+      "id": "p_00-0033681_JAX_2018",
+      "name": "Keelan Cole",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "recYPG": 37.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033839_JAX_2018",
+      "name": "Dede Westbrook",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "recYPG": 44.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033856_JAX_2018",
+      "name": "Leonard Fournette",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 54.9,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034777_JAX_2018",
+      "name": "D.J. Chark",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032087_JAX_2018",
+      "name": "J.Lambo",
+      "position": "K",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.8846
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2018",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0168,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2018",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2018",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022084_DET_2016",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "recYPG": 35.8,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026498_DET_2016",
+      "name": "Matthew Stafford",
+      "position": "QB",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "passYPG": 266.6,
+        "tdRatio": 0.0383,
+        "intRatio": 0.016,
+        "qbr": 89.2
+      },
+      "eraNormFactor": 1.3098
+    },
+    {
+      "id": "p_00-0027691_DET_2016",
+      "name": "Andre Roberts",
+      "position": "WR",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "recYPG": 14.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027891_DET_2016",
+      "name": "Golden Tate",
+      "position": "WR",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "recYPG": 64.8,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029293_DET_2016",
+      "name": "Marvin Jones",
+      "position": "WR",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "recYPG": 63.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030107_DET_2016",
+      "name": "Theo Riddick",
+      "position": "RB",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 35.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031387_DET_2016",
+      "name": "Eric Ebron",
+      "position": "WR",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "recYPG": 52.4,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031665_DET_2016",
+      "name": "Zach Zenner",
+      "position": "RB",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 30.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032450_DET_2016",
+      "name": "Dwayne Washington",
+      "position": "RB",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "rushYPG": 24.1,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023853_DET_2016",
+      "name": "M.Prater",
+      "position": "K",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "fgAccuracy": 0.8684
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DET_OLine_2016",
+      "position": "OLine",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.72,
+        "rushTDPct": 0.0247,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_DLine_2016",
+      "position": "DLine",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DET_Secondary_2016",
+      "position": "Secondary",
+      "team": "DET",
+      "year": 2016,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

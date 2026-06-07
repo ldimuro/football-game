@@ -1,0 +1,57 @@
+{
+  "players": [
+    {
+      "id": "p_00-0035269_LA_2021",
+      "name": "M.Gay",
+      "position": "K",
+      "team": "LA",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.9091
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LA_OLine_2021",
+      "position": "OLine",
+      "team": "LA",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.72,
+        "rushTDPct": 0.0222,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_DLine_2021",
+      "position": "DLine",
+      "team": "LA",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LA_Secondary_2021",
+      "position": "Secondary",
+      "team": "LA",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

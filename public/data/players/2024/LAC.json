@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0034159_LAC_2024",
+      "name": "Will Dissly",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 31.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034184_LAC_2024",
+      "name": "Gus Edwards",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 32.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036158_LAC_2024",
+      "name": "J.K. Dobbins",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 66.5,
+        "tdPerGame": 0.643
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036355_LAC_2024",
+      "name": "Justin Herbert",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "passYPG": 228.4,
+        "tdRatio": 0.0448,
+        "intRatio": 0.0131,
+        "qbr": 75.5
+      },
+      "eraNormFactor": 1.3582
+    },
+    {
+      "id": "p_00-0036988_LAC_2024",
+      "name": "Josh Palmer",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037617_LAC_2024",
+      "name": "Hassan Haskins",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 7.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038544_LAC_2024",
+      "name": "Quentin Johnston",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 44.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039391_LAC_2024",
+      "name": "Kimani Vidal",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 17.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039915_LAC_2024",
+      "name": "Ladd McConkey",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 79.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037224_LAC_2024",
+      "name": "C.Dicker",
+      "position": "K",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.9318
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2024",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0353,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2024",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2024",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

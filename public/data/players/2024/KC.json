@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030506_KC_2024",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 52.5,
+        "tdPerGame": 0.211
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_KC_2024",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033873_KC_2024",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "passYPG": 242.5,
+        "tdRatio": 0.0467,
+        "intRatio": 0.0196,
+        "qbr": 88.6
+      },
+      "eraNormFactor": 1.442
+    },
+    {
+      "id": "p_00-0033923_KC_2024",
+      "name": "Kareem Hunt",
+      "position": "RB",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 52.8,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034386_KC_2024",
+      "name": "Justin Watson",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 17.0,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035662_KC_2024",
+      "name": "Marquise Brown",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 28.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036637_KC_2024",
+      "name": "Noah Gray",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 25.1,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037197_KC_2024",
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 34.7,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039325_KC_2024",
+      "name": "Carson Steele",
+      "position": "RB",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 15.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039894_KC_2024",
+      "name": "Xavier Worthy",
+      "position": "WR",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "recYPG": 48.7,
+        "tdPerGame": 0.474
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033303_KC_2024",
+      "name": "H.Butker",
+      "position": "K",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.878
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_KC_OLine_2024",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.91,
+        "rushTDPct": 0.0367,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_DLine_2024",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_KC_Secondary_2024",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0032392_NE_2024",
+      "name": "Austin Hooper",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 28.0,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_NE_2024",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033119_NE_2024",
+      "name": "Jacoby Brissett",
+      "position": "QB",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "passYPG": 118.0,
+        "tdRatio": 0.0124,
+        "intRatio": 0.0062,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7017
+    },
+    {
+      "id": "p_00-0033307_NE_2024",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036328_NE_2024",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 31.6,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036875_NE_2024",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 53.4,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038608_NE_2024",
+      "name": "Kayshon Boutte",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 39.3,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038621_NE_2024",
+      "name": "Demario Douglas",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039851_NE_2024",
+      "name": "Drake Maye",
+      "position": "QB",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "passYPG": 175.1,
+        "tdRatio": 0.0444,
+        "intRatio": 0.0296,
+        "qbr": 28.8
+      },
+      "eraNormFactor": 1.0412
+    },
+    {
+      "id": "p_00-0039907_NE_2024",
+      "name": "Ja'Lynn Polk",
+      "position": "WR",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "recYPG": 6.7,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035192_NE_2024",
+      "name": "J.Slye",
+      "position": "K",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.7879
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2024",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.41,
+        "rushTDPct": 0.0247,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2024",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2024",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

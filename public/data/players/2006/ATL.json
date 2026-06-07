@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004640_ATL_2006",
+      "name": "Warrick Dunn",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 71.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020245_ATL_2006",
+      "name": "Mike Vick",
+      "position": "QB",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "passYPG": 154.6,
+        "tdRatio": 0.0514,
+        "intRatio": 0.0334,
+        "qbr": 8.1
+      },
+      "eraNormFactor": 0.8815
+    },
+    {
+      "id": "p_00-0020285_ATL_2006",
+      "name": "Alge Crumpler",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021152_ATL_2006",
+      "name": "Ashley Lelie",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "recYPG": 33.1,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022781_ATL_2006",
+      "name": "Michael Jenkins",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023462_ATL_2006",
+      "name": "Roddy White",
+      "position": "WR",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "recYPG": 38.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024294_ATL_2006",
+      "name": "Jerious Norwood",
+      "position": "RB",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000282_ATL_2006",
+      "name": "M.Andersen",
+      "position": "K",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7188
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ATL_OLine_2006",
+      "position": "OLine",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.47,
+        "rushTDPct": 0.0168,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_DLine_2006",
+      "position": "DLine",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ATL_Secondary_2006",
+      "position": "Secondary",
+      "team": "ATL",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

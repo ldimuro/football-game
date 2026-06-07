@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0008560_BAL_2004",
+      "name": "Kevin Johnson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 26.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019693_BAL_2004",
+      "name": "Jamal Lewis",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 83.8,
+        "tdPerGame": 0.583
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019721_BAL_2004",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 42.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020127_BAL_2004",
+      "name": "Daniel Wilcox",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 21.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2004",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 50.5,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020984_BAL_2004",
+      "name": "Randy Hymes",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 26.9,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021268_BAL_2004",
+      "name": "Terry Jones",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 15.2,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021314_BAL_2004",
+      "name": "Chester Taylor",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 44.6,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022164_BAL_2004",
+      "name": "Kyle Boller",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "passYPG": 159.9,
+        "tdRatio": 0.028,
+        "intRatio": 0.0237,
+        "qbr": 2.1
+      },
+      "eraNormFactor": 0.9086
+    },
+    {
+      "id": "p_00-0022826_BAL_2004",
+      "name": "Clarence Moore",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "recYPG": 24.4,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_BAL_2004",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.9062
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2004",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.2,
+        "rushTDPct": 0.0224,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2004",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2004",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

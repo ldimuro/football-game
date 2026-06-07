@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020531_NO_2018",
+      "name": "Drew Brees",
+      "position": "QB",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "passYPG": 267.2,
+        "tdRatio": 0.0635,
+        "intRatio": 0.0123,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3693
+    },
+    {
+      "id": "p_00-0022943_NO_2018",
+      "name": "Benjamin Watson",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_NO_2018",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 44.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027966_NO_2018",
+      "name": "Mark Ingram",
+      "position": "RB",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 52.1,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030216_NO_2018",
+      "name": "Josh Hill",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 16.6,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032765_NO_2018",
+      "name": "Michael Thomas",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 89.6,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033906_NO_2018",
+      "name": "Alvin Kamara",
+      "position": "RB",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 57.0,
+        "tdPerGame": 0.824
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034011_NO_2018",
+      "name": "Dan Arnold",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 18.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034317_NO_2018",
+      "name": "Keith Kirkwood",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 27.1,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034765_NO_2018",
+      "name": "Tre'Quan Smith",
+      "position": "WR",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "recYPG": 30.1,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032569_NO_2018",
+      "name": "W.Lutz",
+      "position": "K",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.9167
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NO_OLine_2018",
+      "position": "OLine",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.23,
+        "rushTDPct": 0.0497,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_DLine_2018",
+      "position": "DLine",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NO_Secondary_2018",
+      "position": "Secondary",
+      "team": "NO",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031549_BAL_2024",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 17.1,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032764_BAL_2024",
+      "name": "Derrick Henry",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 115.3,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034753_BAL_2024",
+      "name": "Mark Andrews",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.579
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034796_BAL_2024",
+      "name": "Lamar Jackson",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "passYPG": 242.2,
+        "tdRatio": 0.0865,
+        "intRatio": 0.0096,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4402
+    },
+    {
+      "id": "p_00-0034975_BAL_2024",
+      "name": "Justice Hill",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 17.1,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036550_BAL_2024",
+      "name": "Rashod Bateman",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 47.0,
+        "tdPerGame": 0.611
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037838_BAL_2024",
+      "name": "Isaiah Likely",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 35.5,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039064_BAL_2024",
+      "name": "Zay Flowers",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "recYPG": 62.3,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2024",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2024",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 5.78,
+        "rushTDPct": 0.0379,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2024",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2024",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

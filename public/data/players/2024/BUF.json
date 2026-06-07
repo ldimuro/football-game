@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033282_BUF_2024",
+      "name": "Curtis Samuel",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 19.6,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033555_BUF_2024",
+      "name": "Mack Hollins",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 25.4,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034272_BUF_2024",
+      "name": "Marquez Valdes-Scantling",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 31.6,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034857_BUF_2024",
+      "name": "Josh Allen",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "passYPG": 229.8,
+        "tdRatio": 0.0566,
+        "intRatio": 0.0106,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3665
+    },
+    {
+      "id": "p_00-0035537_BUF_2024",
+      "name": "Ty Johnson",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 15.4,
+        "tdPerGame": 0.05
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035689_BUF_2024",
+      "name": "Dawson Knox",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 20.9,
+        "tdPerGame": 0.059
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037248_BUF_2024",
+      "name": "James Cook",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 67.4,
+        "tdPerGame": 1.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037261_BUF_2024",
+      "name": "Khalil Shakir",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 55.3,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038933_BUF_2024",
+      "name": "Dalton Kincaid",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 32.4,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039875_BUF_2024",
+      "name": "Ray Davis",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 25.2,
+        "tdPerGame": 0.211
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039901_BUF_2024",
+      "name": "Keon Coleman",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "recYPG": 36.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036162_BUF_2024",
+      "name": "T.Bass",
+      "position": "K",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2024",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.53,
+        "rushTDPct": 0.063,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2024",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2024",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

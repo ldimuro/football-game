@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011024_TEN_2005",
+      "name": "Steve McNair",
+      "position": "QB",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "passYPG": 225.8,
+        "tdRatio": 0.0336,
+        "intRatio": 0.0231,
+        "qbr": 43.3
+      },
+      "eraNormFactor": 1.3234
+    },
+    {
+      "id": "p_00-0019659_TEN_2005",
+      "name": "Erron Kinney",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 41.8,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019976_TEN_2005",
+      "name": "Drew Bennett",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 56.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020471_TEN_2005",
+      "name": "Travis Henry",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 37.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022087_TEN_2005",
+      "name": "Tyrone Calico",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022092_TEN_2005",
+      "name": "Chris Brown",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 56.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022255_TEN_2005",
+      "name": "Jarrett Payton",
+      "position": "RB",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 11.7,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022916_TEN_2005",
+      "name": "Ben Troupe",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023503_TEN_2005",
+      "name": "Courtney Roby",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 28.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023531_TEN_2005",
+      "name": "Brandon Jones",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.222
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023570_TEN_2005",
+      "name": "Roydell Williams",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 42.7,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023612_TEN_2005",
+      "name": "Bo Scaife",
+      "position": "WR",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020962_TEN_2005",
+      "name": "R.Bironas",
+      "position": "K",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.7931
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TEN_OLine_2005",
+      "position": "OLine",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.8,
+        "rushTDPct": 0.0201,
+        "normalizedRank": 20
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_DLine_2005",
+      "position": "DLine",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TEN_Secondary_2005",
+      "position": "Secondary",
+      "team": "TEN",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

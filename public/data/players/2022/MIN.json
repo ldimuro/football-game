@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029604_MIN_2022",
+      "name": "Kirk Cousins",
+      "position": "QB",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "passYPG": 267.8,
+        "tdRatio": 0.0455,
+        "intRatio": 0.0205,
+        "qbr": 67.1
+      },
+      "eraNormFactor": 1.4661
+    },
+    {
+      "id": "p_00-0030035_MIN_2022",
+      "name": "Adam Thielen",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033246_MIN_2022",
+      "name": "Johnny Mundt",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 10.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033893_MIN_2022",
+      "name": "Dalvin Cook",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 68.5,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034970_MIN_2022",
+      "name": "Irv Smith",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034972_MIN_2022",
+      "name": "Alexander Mattison",
+      "position": "RB",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 15.7,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036322_MIN_2022",
+      "name": "Justin Jefferson",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 103.1,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036345_MIN_2022",
+      "name": "K.J. Osborn",
+      "position": "WR",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "recYPG": 37.2,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034450_MIN_2022",
+      "name": "G.Joseph",
+      "position": "K",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.7941
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIN_OLine_2022",
+      "position": "OLine",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.1,
+        "rushTDPct": 0.0452,
+        "normalizedRank": 26
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_DLine_2022",
+      "position": "DLine",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIN_Secondary_2022",
+      "position": "Secondary",
+      "team": "MIN",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

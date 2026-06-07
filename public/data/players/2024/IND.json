@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026158_IND_2024",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "passYPG": 251.6,
+        "tdRatio": 0.0484,
+        "intRatio": 0.0282,
+        "qbr": 54.3
+      },
+      "eraNormFactor": 1.4961
+    },
+    {
+      "id": "p_00-0033217_IND_2024",
+      "name": "Mo Alie-Cox",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 12.2,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036223_IND_2024",
+      "name": "Jonathan Taylor",
+      "position": "RB",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 102.2,
+        "tdPerGame": 0.786
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036252_IND_2024",
+      "name": "Michael Pittman",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 50.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036876_IND_2024",
+      "name": "Kylen Granson",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036984_IND_2024",
+      "name": "Trey Sermon",
+      "position": "RB",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 11.4,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037120_IND_2024",
+      "name": "Tyler Goodson",
+      "position": "RB",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 17.0,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037664_IND_2024",
+      "name": "Alec Pierce",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 51.5,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038997_IND_2024",
+      "name": "Josh Downs",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 57.4,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039164_IND_2024",
+      "name": "Anthony Richardson",
+      "position": "QB",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "passYPG": 164.9,
+        "tdRatio": 0.0303,
+        "intRatio": 0.0455,
+        "qbr": 15.3
+      },
+      "eraNormFactor": 0.9806
+    },
+    {
+      "id": "p_00-0039890_IND_2024",
+      "name": "Adonai Mitchell",
+      "position": "WR",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "recYPG": 18.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035269_IND_2024",
+      "name": "M.Gay",
+      "position": "K",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.8378
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_IND_OLine_2024",
+      "position": "OLine",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.67,
+        "rushTDPct": 0.0403,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_DLine_2024",
+      "position": "DLine",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_IND_Secondary_2024",
+      "position": "Secondary",
+      "team": "IND",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

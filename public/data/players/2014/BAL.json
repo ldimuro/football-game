@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020337_BAL_2014",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "recYPG": 67.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024313_BAL_2014",
+      "name": "Owen Daniels",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "recYPG": 37.5,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2014",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "passYPG": 252.1,
+        "tdRatio": 0.0525,
+        "intRatio": 0.0223,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.2565
+    },
+    {
+      "id": "p_00-0026373_BAL_2014",
+      "name": "Justin Forsett",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 79.7,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027996_BAL_2014",
+      "name": "Torrey Smith",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "recYPG": 50.4,
+        "tdPerGame": 0.706
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028497_BAL_2014",
+      "name": "Kamar Aiken",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "recYPG": 19.3,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029264_BAL_2014",
+      "name": "Bernard Pierce",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 24.9,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030400_BAL_2014",
+      "name": "Marlon Brown",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "recYPG": 20.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031066_BAL_2014",
+      "name": "Lorenzo Taliaferro",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 29.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2014",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8684
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2014",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.41,
+        "rushTDPct": 0.0339,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2014",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2014",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

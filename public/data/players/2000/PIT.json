@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001215_PIT_2000",
+      "name": "Jerome Bettis",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 81.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0002102_PIT_2000",
+      "name": "Mark Bruener",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 12.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004780_PIT_2000",
+      "name": "Troy Edwards",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 15.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006212_PIT_2000",
+      "name": "Kent Graham",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "passYPG": 109.8,
+        "tdRatio": 0.0068,
+        "intRatio": 0.0068,
+        "qbr": 6.4
+      },
+      "eraNormFactor": 0.6901
+    },
+    {
+      "id": "p_00-0007120_PIT_2000",
+      "name": "Courtney Hawkins",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 26.4,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0007969_PIT_2000",
+      "name": "Richard Huntley",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 16.5,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014729_PIT_2000",
+      "name": "Bobby Shaw",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.267
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015700_PIT_2000",
+      "name": "Kordell Stewart",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "passYPG": 121.8,
+        "tdRatio": 0.0385,
+        "intRatio": 0.028,
+        "qbr": 54.7
+      },
+      "eraNormFactor": 0.7656
+    },
+    {
+      "id": "p_00-0017162_PIT_2000",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 42.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019642_PIT_2000",
+      "name": "Plaxico Burress",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "recYPG": 24.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0001980_PIT_2000",
+      "name": "K.Brown",
+      "position": "K",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8333
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2000",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.19,
+        "rushTDPct": 0.0365,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2000",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2000",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0000722_BAL_2000",
+      "name": "Tony Banks",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "passYPG": 109.9,
+        "tdRatio": 0.0291,
+        "intRatio": 0.0291,
+        "qbr": 36.4
+      },
+      "eraNormFactor": 0.6908
+    },
+    {
+      "id": "p_00-0003142_BAL_2000",
+      "name": "Ben Coates",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 9.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004293_BAL_2000",
+      "name": "Trent Dilfer",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "passYPG": 160.2,
+        "tdRatio": 0.0505,
+        "intRatio": 0.0404,
+        "qbr": 34.1
+      },
+      "eraNormFactor": 1.0069
+    },
+    {
+      "id": "p_00-0007661_BAL_2000",
+      "name": "Priest Holmes",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 33.3,
+        "tdPerGame": 0.105
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008059_BAL_2000",
+      "name": "Qadry Ismail",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 44.7,
+        "tdPerGame": 0.278
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008598_BAL_2000",
+      "name": "Pat Johnson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 11.7,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009869_BAL_2000",
+      "name": "Jermaine Lewis",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 11.3,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014722_BAL_2000",
+      "name": "Shannon Sharpe",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 52.0,
+        "tdPerGame": 0.35
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015754_BAL_2000",
+      "name": "Brandon Stokley",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 30.6,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019693_BAL_2000",
+      "name": "Jamal Lewis",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "rushYPG": 83.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019721_BAL_2000",
+      "name": "Travis Taylor",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "recYPG": 30.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015784_BAL_2000",
+      "name": "M.Stover",
+      "position": "K",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "fgAccuracy": 0.8723
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2000",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.95,
+        "rushTDPct": 0.0202,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2000",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2000",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2000,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020337_BAL_2015",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 95.7,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2015",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "passYPG": 279.1,
+        "tdRatio": 0.0339,
+        "intRatio": 0.0291,
+        "qbr": 56.1
+      },
+      "eraNormFactor": 1.3711
+    },
+    {
+      "id": "p_00-0026373_BAL_2015",
+      "name": "Justin Forsett",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 64.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028497_BAL_2015",
+      "name": "Kamar Aiken",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 59.0,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030400_BAL_2015",
+      "name": "Marlon Brown",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 12.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030691_BAL_2015",
+      "name": "Jeremy Butler",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 45.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030992_BAL_2015",
+      "name": "Crockett Gillmore",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 41.2,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031558_BAL_2015",
+      "name": "Maxx Williams",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 24.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031577_BAL_2015",
+      "name": "Javorius Allen",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 32.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031598_BAL_2015",
+      "name": "Nick Boyle",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "recYPG": 19.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029597_BAL_2015",
+      "name": "J.Tucker",
+      "position": "K",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.825
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2015",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.86,
+        "rushTDPct": 0.0209,
+        "normalizedRank": 24
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2015",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2015",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

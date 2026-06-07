@@ -1,0 +1,157 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_CHI_2013",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "passYPG": 228.6,
+        "tdRatio": 0.058,
+        "intRatio": 0.0045,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.0734
+    },
+    {
+      "id": "p_00-0024226_CHI_2013",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "passYPG": 238.3,
+        "tdRatio": 0.0535,
+        "intRatio": 0.0338,
+        "qbr": 60.7
+      },
+      "eraNormFactor": 1.1189
+    },
+    {
+      "id": "p_00-0024334_CHI_2013",
+      "name": "Brandon Marshall",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 80.9,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_CHI_2013",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 14.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026184_CHI_2013",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 83.7,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026201_CHI_2013",
+      "name": "Martellus Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 47.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026210_CHI_2013",
+      "name": "Earl Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 17.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029137_CHI_2013",
+      "name": "Alshon Jeffery",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "recYPG": 88.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2013",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8966
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2013",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.52,
+        "rushTDPct": 0.0322,
+        "normalizedRank": 7
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2013",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2013",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

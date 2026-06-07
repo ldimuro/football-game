@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004294_TB_2002",
+      "name": "Ken Dilger",
+      "position": "WR",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "recYPG": 24.5,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0004574_TB_2002",
+      "name": "Rickey Dudley",
+      "position": "WR",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "recYPG": 13.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008442_TB_2002",
+      "name": "Brad Johnson",
+      "position": "QB",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "passYPG": 232.4,
+        "tdRatio": 0.0492,
+        "intRatio": 0.0164,
+        "qbr": 95.6
+      },
+      "eraNormFactor": 1.2837
+    },
+    {
+      "id": "p_00-0008561_TB_2002",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "recYPG": 67.5,
+        "tdPerGame": 0.316
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0008962_TB_2002",
+      "name": "Joe Jurevicius",
+      "position": "WR",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010668_TB_2002",
+      "name": "Keenan McCardell",
+      "position": "WR",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "recYPG": 42.4,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2002",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 47.4,
+        "tdPerGame": 0.053
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015601_TB_2002",
+      "name": "Aaron Stecker",
+      "position": "RB",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0006223_TB_2002",
+      "name": "M.Gramatica",
+      "position": "K",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.8222
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2002",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.57,
+        "rushTDPct": 0.019,
+        "normalizedRank": 29
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2002",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2002",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

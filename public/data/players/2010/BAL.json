@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0010500_BAL_2010",
+      "name": "Derrick Mason",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 45.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_BAL_2010",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 25.8,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020516_BAL_2010",
+      "name": "Todd Heap",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 50.0,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022084_BAL_2010",
+      "name": "Anquan Boldin",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 49.9,
+        "tdPerGame": 0.444
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022178_BAL_2010",
+      "name": "Willis McGahee",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 25.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026158_BAL_2010",
+      "name": "Joe Flacco",
+      "position": "QB",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "passYPG": 222.9,
+        "tdRatio": 0.0506,
+        "intRatio": 0.0199,
+        "qbr": 76.2
+      },
+      "eraNormFactor": 1.1886
+    },
+    {
+      "id": "p_00-0026195_BAL_2010",
+      "name": "Ray Rice",
+      "position": "RB",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "rushYPG": 72.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027675_BAL_2010",
+      "name": "Ed Dickson",
+      "position": "WR",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "recYPG": 11.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020972_BAL_2010",
+      "name": "B.Cundiff",
+      "position": "K",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "fgAccuracy": 0.9091
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BAL_OLine_2010",
+      "position": "OLine",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.68,
+        "rushTDPct": 0.0239,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_DLine_2010",
+      "position": "DLine",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BAL_Secondary_2010",
+      "position": "Secondary",
+      "team": "BAL",
+      "year": 2010,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

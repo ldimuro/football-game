@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0033869_PIT_2022",
+      "name": "Mitchell Trubisky",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "passYPG": 178.9,
+        "tdRatio": 0.0222,
+        "intRatio": 0.0278,
+        "qbr": 61.0
+      },
+      "eraNormFactor": 0.9794
+    },
+    {
+      "id": "p_00-0034928_PIT_2022",
+      "name": "Steven Sims",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 9.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035216_PIT_2022",
+      "name": "Diontae Johnson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 51.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035222_PIT_2022",
+      "name": "Zach Gentry",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 9.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036326_PIT_2022",
+      "name": "Chase Claypool",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 30.1,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036893_PIT_2022",
+      "name": "Najee Harris",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 60.8,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036894_PIT_2022",
+      "name": "Pat Freiermuth",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037228_PIT_2022",
+      "name": "Jaylen Warren",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 23.7,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037247_PIT_2022",
+      "name": "George Pickens",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "recYPG": 47.1,
+        "tdPerGame": 0.235
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038102_PIT_2022",
+      "name": "Kenny Pickett",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "passYPG": 184.9,
+        "tdRatio": 0.018,
+        "intRatio": 0.0231,
+        "qbr": 41.5
+      },
+      "eraNormFactor": 1.0122
+    },
+    {
+      "id": "p_00-0031136_PIT_2022",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.7727
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2022",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.032,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2022",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2022",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

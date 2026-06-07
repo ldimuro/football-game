@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0017162_PIT_2008",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "recYPG": 63.9,
+        "tdPerGame": 0.368
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022217_PIT_2008",
+      "name": "Mewelde Moore",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 36.1,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022250_PIT_2008",
+      "name": "Willie Parker",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 73.9,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022924_PIT_2008",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "passYPG": 210.8,
+        "tdRatio": 0.0358,
+        "intRatio": 0.0286,
+        "qbr": 55.4
+      },
+      "eraNormFactor": 1.1591
+    },
+    {
+      "id": "p_00-0023367_PIT_2008",
+      "name": "Nate Washington",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "recYPG": 40.8,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023465_PIT_2008",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "recYPG": 41.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024240_PIT_2008",
+      "name": "Santonio Holmes",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "recYPG": 58.2,
+        "tdPerGame": 0.389
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024846_PIT_2008",
+      "name": "Gary Russell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 7.2,
+        "tdPerGame": 0.455
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020737_PIT_2008",
+      "name": "Je.Reed",
+      "position": "K",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2008",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.54,
+        "rushTDPct": 0.0361,
+        "normalizedRank": 30
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2008",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2008",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

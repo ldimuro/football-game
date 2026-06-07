@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023459_NYJ_2024",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "passYPG": 229.2,
+        "tdRatio": 0.0479,
+        "intRatio": 0.0188,
+        "qbr": 56.0
+      },
+      "eraNormFactor": 1.3629
+    },
+    {
+      "id": "p_00-0033536_NYJ_2024",
+      "name": "Mike Williams",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "recYPG": 23.9,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034270_NYJ_2024",
+      "name": "Tyler Conklin",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "recYPG": 28.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034521_NYJ_2024",
+      "name": "Allen Lazard",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "recYPG": 44.2,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037740_NYJ_2024",
+      "name": "Garrett Wilson",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "recYPG": 64.9,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0037805_NYJ_2024",
+      "name": "Jeremy Ruckert",
+      "position": "WR",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "recYPG": 8.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0038120_NYJ_2024",
+      "name": "Breece Hall",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 54.8,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039794_NYJ_2024",
+      "name": "Braelon Allen",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 19.6,
+        "tdPerGame": 0.118
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0039798_NYJ_2024",
+      "name": "Isaiah Davis",
+      "position": "RB",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "rushYPG": 19.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029621_NYJ_2024",
+      "name": "G.Zuerlein",
+      "position": "K",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "fgAccuracy": 0.7143
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NYJ_OLine_2024",
+      "position": "OLine",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.3,
+        "rushTDPct": 0.022,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_DLine_2024",
+      "position": "DLine",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NYJ_Secondary_2024",
+      "position": "Secondary",
+      "team": "NYJ",
+      "year": 2024,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,203 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031260_WAS_2021",
+      "name": "Logan Thomas",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 39.2,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031763_WAS_2021",
+      "name": "DeAndre Carter",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 19.7,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031800_WAS_2021",
+      "name": "Taylor Heinicke",
+      "position": "QB",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "passYPG": 213.7,
+        "tdRatio": 0.0405,
+        "intRatio": 0.0304,
+        "qbr": 33.4
+      },
+      "eraNormFactor": 1.2168
+    },
+    {
+      "id": "p_00-0032009_WAS_2021",
+      "name": "Adam Humphries",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 22.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032602_WAS_2021",
+      "name": "J.D. McKissic",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 19.3,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033611_WAS_2021",
+      "name": "Ricky Seals-Jones",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 24.6,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034104_WAS_2021",
+      "name": "Cam Sims",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 21.1,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035659_WAS_2021",
+      "name": "Terry McLaurin",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 61.9,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036328_WAS_2021",
+      "name": "Antonio Gibson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 64.8,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036626_WAS_2021",
+      "name": "Dyami Brown",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 18.3,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036628_WAS_2021",
+      "name": "John Bates",
+      "position": "WR",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036755_WAS_2021",
+      "name": "Jaret Patterson",
+      "position": "RB",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "rushYPG": 19.0,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030098_WAS_2021",
+      "name": "D.Hopkins",
+      "position": "K",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_WAS_OLine_2021",
+      "position": "OLine",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.32,
+        "rushTDPct": 0.0273,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_DLine_2021",
+      "position": "DLine",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_WAS_Secondary_2021",
+      "position": "Secondary",
+      "team": "WAS",
+      "year": 2021,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

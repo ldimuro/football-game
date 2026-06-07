@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0031547_NE_2022",
+      "name": "DeVante Parker",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 44.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_NE_2022",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 25.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033090_NE_2022",
+      "name": "Hunter Henry",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 31.8,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033307_NE_2022",
+      "name": "Kendrick Bourne",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 27.1,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033858_NE_2022",
+      "name": "Jonnu Smith",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034960_NE_2022",
+      "name": "Jakobi Meyers",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 57.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035657_NE_2022",
+      "name": "Damien Harris",
+      "position": "RB",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 42.0,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036875_NE_2022",
+      "name": "Rhamondre Stevenson",
+      "position": "RB",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "rushYPG": 61.2,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036972_NE_2022",
+      "name": "Mac Jones",
+      "position": "QB",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "passYPG": 214.1,
+        "tdRatio": 0.0317,
+        "intRatio": 0.0249,
+        "qbr": 29.7
+      },
+      "eraNormFactor": 1.1721
+    },
+    {
+      "id": "p_00-0038104_NE_2022",
+      "name": "Tyquan Thornton",
+      "position": "WR",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "recYPG": 20.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025565_NE_2022",
+      "name": "N.Folk",
+      "position": "K",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "fgAccuracy": 0.8649
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_NE_OLine_2022",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.31,
+        "rushTDPct": 0.0282,
+        "normalizedRank": 19
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_DLine_2022",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_NE_Secondary_2022",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2022,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

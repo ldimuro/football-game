@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0029000_DAL_2018",
+      "name": "Cole Beasley",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029388_DAL_2018",
+      "name": "Deonte Thompson",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 13.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030821_DAL_2018",
+      "name": "Allen Hurns",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031900_DAL_2018",
+      "name": "Rod Smith",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 9.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032141_DAL_2018",
+      "name": "Geoff Swaim",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033045_DAL_2018",
+      "name": "Ezekiel Elliott",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "rushYPG": 95.2,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033077_DAL_2018",
+      "name": "Dak Prescott",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "passYPG": 243.2,
+        "tdRatio": 0.0406,
+        "intRatio": 0.0152,
+        "qbr": 65.9
+      },
+      "eraNormFactor": 1.2463
+    },
+    {
+      "id": "p_00-0033658_DAL_2018",
+      "name": "Blake Jarwin",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 24.2,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034764_DAL_2018",
+      "name": "Michael Gallup",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "recYPG": 37.9,
+        "tdPerGame": 0.176
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030332_DAL_2018",
+      "name": "B.Maher",
+      "position": "K",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "fgAccuracy": 0.7895
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2018",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.4,
+        "rushTDPct": 0.0343,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2018",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2018",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2018,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

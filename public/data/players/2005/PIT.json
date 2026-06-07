@@ -1,0 +1,155 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001215_PIT_2005",
+      "name": "Jerome Bettis",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 34.2,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015523_PIT_2005",
+      "name": "Duce Staley",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 37.0,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0017162_PIT_2005",
+      "name": "Hines Ward",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "recYPG": 65.0,
+        "tdPerGame": 0.737
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020452_PIT_2005",
+      "name": "Cedrick Wilson",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "recYPG": 41.7,
+        "tdPerGame": 0.125
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022250_PIT_2005",
+      "name": "Willie Parker",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 75.1,
+        "tdPerGame": 0.263
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022924_PIT_2005",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "passYPG": 199.2,
+        "tdRatio": 0.0665,
+        "intRatio": 0.0332,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.1675
+    },
+    {
+      "id": "p_00-0023465_PIT_2005",
+      "name": "Heath Miller",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "recYPG": 35.4,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023676_PIT_2005",
+      "name": "Noah Herron",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "rushYPG": 30.8,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020737_PIT_2005",
+      "name": "J.Reed",
+      "position": "K",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "fgAccuracy": 0.8438
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2005",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.98,
+        "rushTDPct": 0.0391,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2005",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2005",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2005,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

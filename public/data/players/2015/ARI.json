@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021429_ARI_2015",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "passYPG": 291.9,
+        "tdRatio": 0.0631,
+        "intRatio": 0.0275,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.434
+    },
+    {
+      "id": "p_00-0022921_ARI_2015",
+      "name": "Larry Fitzgerald",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 78.9,
+        "tdPerGame": 0.556
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026164_ARI_2015",
+      "name": "Chris Johnson",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 74.0,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027873_ARI_2015",
+      "name": "Jermaine Gresham",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 17.2,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029638_ARI_2015",
+      "name": "Michael Floyd",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 53.6,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029738_ARI_2015",
+      "name": "Darren Fells",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.8,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030287_ARI_2015",
+      "name": "Andre Ellington",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 24.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030300_ARI_2015",
+      "name": "Jaron Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 14.5,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031051_ARI_2015",
+      "name": "John Brown",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 65.2,
+        "tdPerGame": 0.412
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032112_ARI_2015",
+      "name": "J.J. Nelson",
+      "position": "WR",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 30.2,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032187_ARI_2015",
+      "name": "David Johnson",
+      "position": "RB",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 37.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030896_ARI_2015",
+      "name": "C.Catanzaro",
+      "position": "K",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.9091
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ARI_OLine_2015",
+      "position": "OLine",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.14,
+        "rushTDPct": 0.0349,
+        "normalizedRank": 14
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_DLine_2015",
+      "position": "DLine",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ARI_Secondary_2015",
+      "position": "Secondary",
+      "team": "ARI",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

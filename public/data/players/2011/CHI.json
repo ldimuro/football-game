@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022909_CHI_2011",
+      "name": "Roy Williams",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 33.8,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023544_CHI_2011",
+      "name": "Marion Barber",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 38.4,
+        "tdPerGame": 0.545
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024226_CHI_2011",
+      "name": "Jay Cutler",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "passYPG": 231.9,
+        "tdRatio": 0.0414,
+        "intRatio": 0.0223,
+        "qbr": 54.5
+      },
+      "eraNormFactor": 1.1678
+    },
+    {
+      "id": "p_00-0024272_CHI_2011",
+      "name": "Devin Hester",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 30.8,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025970_CHI_2011",
+      "name": "Caleb Hanie",
+      "position": "QB",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "passYPG": 153.2,
+        "tdRatio": 0.0294,
+        "intRatio": 0.0882,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.7715
+    },
+    {
+      "id": "p_00-0026184_CHI_2011",
+      "name": "Matt Forte",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 83.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026210_CHI_2011",
+      "name": "Earl Bennett",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026298_CHI_2011",
+      "name": "Kellen Davis",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 13.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026579_CHI_2011",
+      "name": "Kahlil Bell",
+      "position": "RB",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "rushYPG": 48.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026913_CHI_2011",
+      "name": "Johnny Knox",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 51.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028352_CHI_2011",
+      "name": "Dane Sanzenbacher",
+      "position": "WR",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "recYPG": 21.2,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023252_CHI_2011",
+      "name": "R.Gould",
+      "position": "K",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CHI_OLine_2011",
+      "position": "OLine",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.42,
+        "rushTDPct": 0.0219,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_DLine_2011",
+      "position": "DLine",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CHI_Secondary_2011",
+      "position": "Secondary",
+      "team": "CHI",
+      "year": 2011,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

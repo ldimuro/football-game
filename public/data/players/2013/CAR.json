@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0020337_CAR_2013",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "recYPG": 51.2,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024242_CAR_2013",
+      "name": "DeAngelo Williams",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 53.5,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025396_CAR_2013",
+      "name": "Ted Ginn",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "recYPG": 38.8,
+        "tdPerGame": 0.294
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025418_CAR_2013",
+      "name": "Greg Olsen",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "recYPG": 51.2,
+        "tdPerGame": 0.353
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026153_CAR_2013",
+      "name": "Jonathan Stewart",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "rushYPG": 30.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027681_CAR_2013",
+      "name": "Brandon LaFell",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "recYPG": 41.3,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027939_CAR_2013",
+      "name": "Cam Newton",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "passYPG": 214.5,
+        "tdRatio": 0.0502,
+        "intRatio": 0.0301,
+        "qbr": 69.4
+      },
+      "eraNormFactor": 1.0072
+    },
+    {
+      "id": "p_00-0026858_CAR_2013",
+      "name": "G.Gano",
+      "position": "K",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "fgAccuracy": 0.8929
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2013",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.18,
+        "rushTDPct": 0.0276,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2013",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2013",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2013,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

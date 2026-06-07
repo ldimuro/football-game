@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023439_GB_2012",
+      "name": "Cedric Benson",
+      "position": "RB",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 49.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023459_GB_2012",
+      "name": "Aaron Rodgers",
+      "position": "QB",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "passYPG": 268.1,
+        "tdRatio": 0.0673,
+        "intRatio": 0.0144,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.3071
+    },
+    {
+      "id": "p_00-0024267_GB_2012",
+      "name": "Greg Jennings",
+      "position": "WR",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 48.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025465_GB_2012",
+      "name": "James Jones",
+      "position": "WR",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 54.2,
+        "tdPerGame": 0.882
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026176_GB_2012",
+      "name": "Jordy Nelson",
+      "position": "WR",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 60.1,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026231_GB_2012",
+      "name": "Jermichael Finley",
+      "position": "WR",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 39.6,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027791_GB_2012",
+      "name": "James Starks",
+      "position": "RB",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 42.5,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028002_GB_2012",
+      "name": "Randall Cobb",
+      "position": "WR",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "recYPG": 57.9,
+        "tdPerGame": 0.471
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028034_GB_2012",
+      "name": "Alex Green",
+      "position": "RB",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 42.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028409_GB_2012",
+      "name": "DuJuan Harris",
+      "position": "RB",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "rushYPG": 42.8,
+        "tdPerGame": 0.667
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025580_GB_2012",
+      "name": "M.Crosby",
+      "position": "K",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "fgAccuracy": 0.6571
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_GB_OLine_2012",
+      "position": "OLine",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.025,
+        "normalizedRank": 22
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_DLine_2012",
+      "position": "DLine",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_GB_Secondary_2012",
+      "position": "Secondary",
+      "team": "GB",
+      "year": 2012,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005720_TB_2007",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "recYPG": 63.9,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005755_TB_2007",
+      "name": "Jeff Garcia",
+      "position": "QB",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "passYPG": 189.1,
+        "tdRatio": 0.0383,
+        "intRatio": 0.0164,
+        "qbr": 85.2
+      },
+      "eraNormFactor": 1.1862
+    },
+    {
+      "id": "p_00-0007468_TB_2007",
+      "name": "Ike Hilliard",
+      "position": "WR",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "recYPG": 46.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0013013_TB_2007",
+      "name": "Michael Pittman",
+      "position": "RB",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 26.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021755_TB_2007",
+      "name": "Earnest Graham",
+      "position": "RB",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 60.1,
+        "tdPerGame": 0.688
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022725_TB_2007",
+      "name": "Michael Clayton",
+      "position": "WR",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "recYPG": 30.9,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022864_TB_2007",
+      "name": "Luke McCown",
+      "position": "QB",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "passYPG": 201.8,
+        "tdRatio": 0.036,
+        "intRatio": 0.0216,
+        "qbr": 46.0
+      },
+      "eraNormFactor": 1.2658
+    },
+    {
+      "id": "p_00-0023440_TB_2007",
+      "name": "Cadillac Williams",
+      "position": "RB",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 52.0,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023506_TB_2007",
+      "name": "Alex Smith",
+      "position": "WR",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "recYPG": 29.4,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020578_TB_2007",
+      "name": "M.Bryant",
+      "position": "K",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.8485
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_TB_OLine_2007",
+      "position": "OLine",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.12,
+        "rushTDPct": 0.034,
+        "normalizedRank": 12
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_DLine_2007",
+      "position": "DLine",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_TB_Secondary_2007",
+      "position": "Secondary",
+      "team": "TB",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

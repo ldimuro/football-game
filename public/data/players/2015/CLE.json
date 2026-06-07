@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021206_CLE_2015",
+      "name": "Josh McCown",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "passYPG": 263.6,
+        "tdRatio": 0.0411,
+        "intRatio": 0.0137,
+        "qbr": 69.6
+      },
+      "eraNormFactor": 1.2949
+    },
+    {
+      "id": "p_00-0026281_CLE_2015",
+      "name": "Gary Barnidge",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 65.2,
+        "tdPerGame": 0.562
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027077_CLE_2015",
+      "name": "Brian Hartline",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027918_CLE_2015",
+      "name": "Andrew Hawkins",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 34.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028202_CLE_2015",
+      "name": "Shaun Draughn",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 30.3,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029269_CLE_2015",
+      "name": "Travis Benjamin",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 60.4,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029273_CLE_2015",
+      "name": "Robert Turbin",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 19.9,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030656_CLE_2015",
+      "name": "Isaiah Crowell",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 44.1,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031228_CLE_2015",
+      "name": "Taylor Gabriel",
+      "position": "WR",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.1,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031409_CLE_2015",
+      "name": "Johnny Manziel",
+      "position": "QB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "passYPG": 166.7,
+        "tdRatio": 0.0314,
+        "intRatio": 0.0224,
+        "qbr": 31.9
+      },
+      "eraNormFactor": 0.8189
+    },
+    {
+      "id": "p_00-0032257_CLE_2015",
+      "name": "Duke Johnson",
+      "position": "RB",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 23.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031112_CLE_2015",
+      "name": "T.Coons",
+      "position": "K",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.875
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CLE_OLine_2015",
+      "position": "OLine",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.02,
+        "rushTDPct": 0.0132,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_DLine_2015",
+      "position": "DLine",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CLE_Secondary_2015",
+      "position": "Secondary",
+      "team": "CLE",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

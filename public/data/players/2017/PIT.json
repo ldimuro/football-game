@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022924_PIT_2017",
+      "name": "Ben Roethlisberger",
+      "position": "QB",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "passYPG": 295.5,
+        "tdRatio": 0.0532,
+        "intRatio": 0.0242,
+        "qbr": 100
+      },
+      "eraNormFactor": 1.4288
+    },
+    {
+      "id": "p_00-0027793_PIT_2017",
+      "name": "Antonio Brown",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 111.0,
+        "tdPerGame": 0.733
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030470_PIT_2017",
+      "name": "Vance McDonald",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 30.0,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030496_PIT_2017",
+      "name": "Le'Veon Bell",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 84.9,
+        "tdPerGame": 0.625
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031373_PIT_2017",
+      "name": "Martavis Bryant",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 42.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031782_PIT_2017",
+      "name": "Eli Rogers",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 15.9,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032135_PIT_2017",
+      "name": "Jesse James",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 25.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033553_PIT_2017",
+      "name": "James Conner",
+      "position": "RB",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "rushYPG": 12.0,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033857_PIT_2017",
+      "name": "JuJu Smith-Schuster",
+      "position": "WR",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "recYPG": 65.9,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031136_PIT_2017",
+      "name": "C.Boswell",
+      "position": "K",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "fgAccuracy": 0.9211
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PIT_OLine_2017",
+      "position": "OLine",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.85,
+        "rushTDPct": 0.0286,
+        "normalizedRank": 25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_DLine_2017",
+      "position": "DLine",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PIT_Secondary_2017",
+      "position": "Secondary",
+      "team": "PIT",
+      "year": 2017,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

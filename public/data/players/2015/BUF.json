@@ -1,0 +1,179 @@
+{
+  "players": [
+    {
+      "id": "p_00-0026998_BUF_2015",
+      "name": "Percy Harvin",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 43.6,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027029_BUF_2015",
+      "name": "LeSean McCoy",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 74.6,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028112_BUF_2015",
+      "name": "Charles Clay",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 40.6,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028118_BUF_2015",
+      "name": "Tyrod Taylor",
+      "position": "QB",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "passYPG": 216.8,
+        "tdRatio": 0.0526,
+        "intRatio": 0.0158,
+        "qbr": 90.4
+      },
+      "eraNormFactor": 1.065
+    },
+    {
+      "id": "p_00-0028237_BUF_2015",
+      "name": "Chris Hogan",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 34.6,
+        "tdPerGame": 0.154
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030049_BUF_2015",
+      "name": "Chris Gragg",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 21.4,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030431_BUF_2015",
+      "name": "Robert Woods",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 39.4,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030433_BUF_2015",
+      "name": "Mike Gillislee",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 53.4,
+        "tdPerGame": 0.6
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031325_BUF_2015",
+      "name": "Sammy Watkins",
+      "position": "WR",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "recYPG": 80.5,
+        "tdPerGame": 0.692
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032152_BUF_2015",
+      "name": "Karlos Williams",
+      "position": "RB",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 47.0,
+        "tdPerGame": 0.636
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026003_BUF_2015",
+      "name": "D.Carpenter",
+      "position": "K",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8519
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_BUF_OLine_2015",
+      "position": "OLine",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.78,
+        "rushTDPct": 0.0373,
+        "normalizedRank": 1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_DLine_2015",
+      "position": "DLine",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_BUF_Secondary_2015",
+      "position": "Secondary",
+      "team": "BUF",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

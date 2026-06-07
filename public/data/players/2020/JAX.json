@@ -1,0 +1,193 @@
+{
+  "players": [
+    {
+      "id": "p_00-0030520_JAX_2020",
+      "name": "Mike Glennon",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "passYPG": 214.4,
+        "tdRatio": 0.0391,
+        "intRatio": 0.0279,
+        "qbr": 14.4
+      },
+      "eraNormFactor": 1.1585
+    },
+    {
+      "id": "p_00-0030549_JAX_2020",
+      "name": "Tyler Eifert",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 24.9,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031951_JAX_2020",
+      "name": "James O'Shaughnessy",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 17.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032128_JAX_2020",
+      "name": "Chris Conley",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 33.6,
+        "tdPerGame": 0.143
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033681_JAX_2020",
+      "name": "Keelan Cole",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 40.1,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0033854_JAX_2020",
+      "name": "Dare Ogunbowale",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 20.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0034777_JAX_2020",
+      "name": "D.J. Chark",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 54.3,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0035289_JAX_2020",
+      "name": "Gardner Minshew",
+      "position": "QB",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "passYPG": 251.0,
+        "tdRatio": 0.0489,
+        "intRatio": 0.0153,
+        "qbr": 70.6
+      },
+      "eraNormFactor": 1.3562
+    },
+    {
+      "id": "p_00-0035831_JAX_2020",
+      "name": "James Robinson",
+      "position": "RB",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "rushYPG": 76.4,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036254_JAX_2020",
+      "name": "Collin Johnson",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0036268_JAX_2020",
+      "name": "Laviska Shenault Jr.",
+      "position": "WR",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.357
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0032870_JAX_2020",
+      "name": "A.Rosas",
+      "position": "K",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "fgAccuracy": 0.72
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_JAX_OLine_2020",
+      "position": "OLine",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.51,
+        "rushTDPct": 0.0267,
+        "normalizedRank": 11
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_DLine_2020",
+      "position": "DLine",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_JAX_Secondary_2020",
+      "position": "Secondary",
+      "team": "JAX",
+      "year": 2020,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

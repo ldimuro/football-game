@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001477_MIA_2004",
+      "name": "Marty Booker",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "recYPG": 42.5,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0005180_MIA_2004",
+      "name": "Jay Fiedler",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "passYPG": 148.2,
+        "tdRatio": 0.0368,
+        "intRatio": 0.0421,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.8421
+    },
+    {
+      "id": "p_00-0016373_MIA_2004",
+      "name": "Derrius Thompson",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "recYPG": 27.6,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019484_MIA_2004",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 43.6,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020305_MIA_2004",
+      "name": "A.J. Feeley",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "passYPG": 172.1,
+        "tdRatio": 0.0309,
+        "intRatio": 0.0421,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9779
+    },
+    {
+      "id": "p_00-0020446_MIA_2004",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "recYPG": 59.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020448_MIA_2004",
+      "name": "Travis Minor",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 35.9,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021236_MIA_2004",
+      "name": "Randy McMichael",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "recYPG": 49.4,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021343_MIA_2004",
+      "name": "Leonard Henry",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "rushYPG": 33.5,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_MIA_2004",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "fgAccuracy": 0.8182
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2004",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.49,
+        "rushTDPct": 0.026,
+        "normalizedRank": 32
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2004",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2004",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2004,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

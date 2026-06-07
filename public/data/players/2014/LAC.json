@@ -1,0 +1,167 @@
+{
+  "players": [
+    {
+      "id": "p_00-0021547_LAC_2014",
+      "name": "Antonio Gates",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 51.3,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022414_LAC_2014",
+      "name": "Malcom Floyd",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 53.5,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022942_LAC_2014",
+      "name": "Philip Rivers",
+      "position": "QB",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "passYPG": 267.9,
+        "tdRatio": 0.0544,
+        "intRatio": 0.0316,
+        "qbr": 98.6
+      },
+      "eraNormFactor": 1.3352
+    },
+    {
+      "id": "p_00-0026182_LAC_2014",
+      "name": "Eddie Royal",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 48.6,
+        "tdPerGame": 0.438
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027003_LAC_2014",
+      "name": "Donald Brown",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 17.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027864_LAC_2014",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 55.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0029275_LAC_2014",
+      "name": "Ladarius Green",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 22.6,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030279_LAC_2014",
+      "name": "Keenan Allen",
+      "position": "WR",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "recYPG": 55.9,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031277_LAC_2014",
+      "name": "Branden Oliver",
+      "position": "RB",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "rushYPG": 41.6,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023096_LAC_2014",
+      "name": "N.Novak",
+      "position": "K",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "fgAccuracy": 0.8462
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LAC_OLine_2014",
+      "position": "OLine",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.43,
+        "rushTDPct": 0.0151,
+        "normalizedRank": 31
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_DLine_2014",
+      "position": "DLine",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LAC_Secondary_2014",
+      "position": "Secondary",
+      "team": "LAC",
+      "year": 2014,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0011022_PHI_2007",
+      "name": "Donovan McNabb",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "passYPG": 237.4,
+        "tdRatio": 0.0423,
+        "intRatio": 0.0148,
+        "qbr": 75.4
+      },
+      "eraNormFactor": 1.4891
+    },
+    {
+      "id": "p_00-0020270_PHI_2007",
+      "name": "Correll Buckhalter",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 24.1,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021216_PHI_2007",
+      "name": "Brian Westbrook",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 88.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022001_PHI_2007",
+      "name": "Kevin Curtis",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 69.4,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022126_PHI_2007",
+      "name": "L.J. Smith",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 26.2,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023470_PHI_2007",
+      "name": "Reggie Brown",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 48.8,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024324_PHI_2007",
+      "name": "Jason Avant",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "recYPG": 24.3,
+        "tdPerGame": 0.182
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0000108_PHI_2007",
+      "name": "D.Akers",
+      "position": "K",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.75
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2007",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.69,
+        "rushTDPct": 0.0285,
+        "normalizedRank": 2
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2007",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2007",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "players": [
+    {
+      "id": "p_00-0023564_PHI_2015",
+      "name": "Darren Sproles",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 19.8,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023921_PHI_2015",
+      "name": "Miles Austin",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 20.4,
+        "tdPerGame": 0.091
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025549_PHI_2015",
+      "name": "Brent Celek",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 33.2,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027758_PHI_2015",
+      "name": "Riley Cooper",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 27.2,
+        "tdPerGame": 0.167
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0027854_PHI_2015",
+      "name": "Sam Bradford",
+      "position": "QB",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "passYPG": 266.1,
+        "tdRatio": 0.0357,
+        "intRatio": 0.0263,
+        "qbr": 52.9
+      },
+      "eraNormFactor": 1.3072
+    },
+    {
+      "id": "p_00-0027864_PHI_2015",
+      "name": "Ryan Mathews",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 41.5,
+        "tdPerGame": 0.462
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0028009_PHI_2015",
+      "name": "DeMarco Murray",
+      "position": "RB",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "rushYPG": 46.8,
+        "tdPerGame": 0.4
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030061_PHI_2015",
+      "name": "Zach Ertz",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 56.9,
+        "tdPerGame": 0.133
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030990_PHI_2015",
+      "name": "Josh Huff",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 24.0,
+        "tdPerGame": 0.231
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031299_PHI_2015",
+      "name": "Jordan Matthews",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 62.3,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0031549_PHI_2015",
+      "name": "Nelson Agholor",
+      "position": "WR",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "recYPG": 21.8,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0030390_PHI_2015",
+      "name": "C.Sturgis",
+      "position": "K",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "fgAccuracy": 0.8077
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_PHI_OLine_2015",
+      "position": "OLine",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.94,
+        "rushTDPct": 0.0339,
+        "normalizedRank": 21
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_DLine_2015",
+      "position": "DLine",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_PHI_Secondary_2015",
+      "position": "Secondary",
+      "team": "PHI",
+      "year": 2015,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

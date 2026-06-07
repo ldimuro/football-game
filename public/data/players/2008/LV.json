@@ -1,0 +1,131 @@
+{
+  "players": [
+    {
+      "id": "p_00-0022093_LV_2008",
+      "name": "Justin Fargas",
+      "position": "RB",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 61.1,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025388_LV_2008",
+      "name": "JaMarcus Russell",
+      "position": "QB",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "passYPG": 161.5,
+        "tdRatio": 0.0354,
+        "intRatio": 0.0218,
+        "qbr": 11.1
+      },
+      "eraNormFactor": 0.8881
+    },
+    {
+      "id": "p_00-0025425_LV_2008",
+      "name": "Zach Miller",
+      "position": "WR",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "recYPG": 51.9,
+        "tdPerGame": 0.067
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025486_LV_2008",
+      "name": "Johnnie Lee Higgins",
+      "position": "WR",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "recYPG": 30.5,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0025487_LV_2008",
+      "name": "Michael Bush",
+      "position": "RB",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 38.1,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0026144_LV_2008",
+      "name": "Darren McFadden",
+      "position": "RB",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "rushYPG": 38.4,
+        "tdPerGame": 0.308
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019646_LV_2008",
+      "name": "S.Janikowski",
+      "position": "K",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "fgAccuracy": 0.8
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_LV_OLine_2008",
+      "position": "OLine",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.33,
+        "rushTDPct": 0.0196,
+        "normalizedRank": 9
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_DLine_2008",
+      "position": "DLine",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_LV_Secondary_2008",
+      "position": "Secondary",
+      "team": "LV",
+      "year": 2008,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

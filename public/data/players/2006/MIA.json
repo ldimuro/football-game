@@ -1,0 +1,169 @@
+{
+  "players": [
+    {
+      "id": "p_00-0001477_MIA_2006",
+      "name": "Marty Booker",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 53.4,
+        "tdPerGame": 0.429
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0003739_MIA_2006",
+      "name": "Daunte Culpepper",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "passYPG": 232.2,
+        "tdRatio": 0.0149,
+        "intRatio": 0.0224,
+        "qbr": 4.1
+      },
+      "eraNormFactor": 1.324
+    },
+    {
+      "id": "p_00-0019484_MIA_2006",
+      "name": "Sammy Morris",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 33.3,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020446_MIA_2006",
+      "name": "Chris Chambers",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 42.3,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021141_MIA_2006",
+      "name": "Joey Harrington",
+      "position": "QB",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "passYPG": 203.3,
+        "tdRatio": 0.0309,
+        "intRatio": 0.0387,
+        "qbr": 11.5
+      },
+      "eraNormFactor": 1.1592
+    },
+    {
+      "id": "p_00-0021236_MIA_2006",
+      "name": "Randy McMichael",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 40.0,
+        "tdPerGame": 0.188
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022427_MIA_2006",
+      "name": "Wes Welker",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 42.9,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0023437_MIA_2006",
+      "name": "Ronnie Brown",
+      "position": "RB",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 77.3,
+        "tdPerGame": 0.385
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024297_MIA_2006",
+      "name": "Derek Hagan",
+      "position": "WR",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "recYPG": 22.1,
+        "tdPerGame": 0.1
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010373_MIA_2006",
+      "name": "O.Mare",
+      "position": "K",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.7222
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_MIA_OLine_2006",
+      "position": "OLine",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.12,
+        "rushTDPct": 0.0173,
+        "normalizedRank": 13
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_DLine_2006",
+      "position": "DLine",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_MIA_Secondary_2006",
+      "position": "Secondary",
+      "team": "MIA",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

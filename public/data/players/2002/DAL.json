@@ -1,0 +1,181 @@
+{
+  "players": [
+    {
+      "id": "p_00-0005720_DAL_2002",
+      "name": "Joey Galloway",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 56.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010859_DAL_2002",
+      "name": "Tony McGee",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 24.5,
+        "tdPerGame": 0.083
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0014544_DAL_2002",
+      "name": "Darnay Scott",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 15.6,
+        "tdPerGame": 0.071
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0015165_DAL_2002",
+      "name": "Emmitt Smith",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 60.9,
+        "tdPerGame": 0.312
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019516_DAL_2002",
+      "name": "Troy Hambrick",
+      "position": "RB",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "rushYPG": 19.8,
+        "tdPerGame": 0.062
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019569_DAL_2002",
+      "name": "James Whalen",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 12.7,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020404_DAL_2002",
+      "name": "Quincy Carter",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "passYPG": 209.3,
+        "tdRatio": 0.0317,
+        "intRatio": 0.0362,
+        "qbr": 34.5
+      },
+      "eraNormFactor": 1.1561
+    },
+    {
+      "id": "p_00-0020425_DAL_2002",
+      "name": "Ken-Yon Rambo",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 16.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020562_DAL_2002",
+      "name": "Chad Hutchinson",
+      "position": "QB",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "passYPG": 172.8,
+        "tdRatio": 0.028,
+        "intRatio": 0.032,
+        "qbr": 0
+      },
+      "eraNormFactor": 0.9545
+    },
+    {
+      "id": "p_00-0021191_DAL_2002",
+      "name": "Antonio Bryant",
+      "position": "WR",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "recYPG": 45.8,
+        "tdPerGame": 0.375
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020972_DAL_2002",
+      "name": "B.Cundiff",
+      "position": "K",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "fgAccuracy": 0.6316
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_DAL_OLine_2002",
+      "position": "OLine",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 4.15,
+        "rushTDPct": 0.0165,
+        "normalizedRank": 15
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_DLine_2002",
+      "position": "DLine",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_DAL_Secondary_2002",
+      "position": "Secondary",
+      "team": "DAL",
+      "year": 2002,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

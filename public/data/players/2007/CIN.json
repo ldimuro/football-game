@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0009119_CIN_2007",
+      "name": "Reggie Kelly",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 16.2,
+        "tdPerGame": 0.0
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019808_CIN_2007",
+      "name": "Kenny Watson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 50.9,
+        "tdPerGame": 0.467
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020397_CIN_2007",
+      "name": "Chad Johnson",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 90.0,
+        "tdPerGame": 0.5
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020407_CIN_2007",
+      "name": "Rudi Johnson",
+      "position": "RB",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "rushYPG": 45.2,
+        "tdPerGame": 0.273
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020438_CIN_2007",
+      "name": "T.J. Houshmandzadeh",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 71.4,
+        "tdPerGame": 0.75
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021429_CIN_2007",
+      "name": "Carson Palmer",
+      "position": "QB",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "passYPG": 258.1,
+        "tdRatio": 0.0452,
+        "intRatio": 0.0348,
+        "qbr": 87.6
+      },
+      "eraNormFactor": 1.619
+    },
+    {
+      "id": "p_00-0023518_CIN_2007",
+      "name": "Chris Henry",
+      "position": "WR",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "recYPG": 49.0,
+        "tdPerGame": 0.286
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0019536_CIN_2007",
+      "name": "S.Graham",
+      "position": "K",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "fgAccuracy": 0.9118
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CIN_OLine_2007",
+      "position": "OLine",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.74,
+        "rushTDPct": 0.024,
+        "normalizedRank": 27
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_DLine_2007",
+      "position": "DLine",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CIN_Secondary_2007",
+      "position": "Secondary",
+      "team": "CIN",
+      "year": 2007,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

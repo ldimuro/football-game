@@ -1,0 +1,143 @@
+{
+  "players": [
+    {
+      "id": "p_00-0004161_CAR_2006",
+      "name": "Jake Delhomme",
+      "position": "QB",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "passYPG": 215.8,
+        "tdRatio": 0.0394,
+        "intRatio": 0.0255,
+        "qbr": 48.6
+      },
+      "eraNormFactor": 1.2305
+    },
+    {
+      "id": "p_00-0008561_CAR_2006",
+      "name": "Keyshawn Johnson",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "recYPG": 50.9,
+        "tdPerGame": 0.25
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0010333_CAR_2006",
+      "name": "Kris Mangum",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "recYPG": 18.9,
+        "tdPerGame": 0.111
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0020337_CAR_2006",
+      "name": "Steve Smith",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "recYPG": 83.3,
+        "tdPerGame": 0.571
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0021164_CAR_2006",
+      "name": "DeShaun Foster",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 64.1,
+        "tdPerGame": 0.214
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0022879_CAR_2006",
+      "name": "Drew Carter",
+      "position": "WR",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "recYPG": 39.7,
+        "tdPerGame": 0.333
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0024242_CAR_2006",
+      "name": "DeAngelo Williams",
+      "position": "RB",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "rushYPG": 38.5,
+        "tdPerGame": 0.077
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "p_00-0009028_CAR_2006",
+      "name": "J.Kasay",
+      "position": "K",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "fgAccuracy": 0.8889
+      },
+      "eraNormFactor": 1.0
+    }
+  ],
+  "units": [
+    {
+      "id": "u_CAR_OLine_2006",
+      "position": "OLine",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "sacksAllowedPerGame": 2.5,
+        "rushYPC": 3.92,
+        "rushTDPct": 0.0165,
+        "normalizedRank": 17
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_DLine_2006",
+      "position": "DLine",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "sacksPerGame": 2.5,
+        "rushYPCAllowed": 4.2,
+        "rushTDPctAllowed": 0.045,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_CAR_Secondary_2006",
+      "position": "Secondary",
+      "team": "CAR",
+      "year": 2006,
+      "stats": {
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 7.0,
+        "tdPctAllowed": 0.04,
+        "intPct": 0.025,
+        "normalizedRank": 16
+      },
+      "eraNormFactor": 1.0
+    }
+  ]
+}
