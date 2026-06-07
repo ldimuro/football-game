@@ -31,10 +31,12 @@ describe('generateDraftOffer', () => {
 })
 
 describe('generateOpponent', () => {
-  it('returns team stats with required fields', async () => {
-    const stats = await generateOpponent()
+  it('returns team stats and a representative roster', async () => {
+    const { stats, roster } = await generateOpponent()
     expect(stats.team).toBe('KC')
     expect(typeof stats.offenseRank).toBe('number')
     expect(typeof stats.defPointsAllowed).toBe('number')
+    expect(roster.QB?.position).toBe('QB')
+    expect(roster.OLine?.position).toBe('OLine')
   })
 })

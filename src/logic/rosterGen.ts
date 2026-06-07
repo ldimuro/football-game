@@ -1,5 +1,8 @@
 import { loadTeamMeta, loadTeamRoster } from './dataLoader'
-import type { Roster, RosterPosition, Player, TeamUnit, TeamMeta } from '../types'
+import type {
+  Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData,
+  QBStats, WRStats, RBStats, KStats,
+} from '../types'
 
 let metaCache: TeamMeta[] | null = null
 
@@ -48,5 +51,31 @@ export async function generateRandomRoster(): Promise<Roster> {
     OLine: slots[5] as TeamUnit,
     DLine: slots[6] as TeamUnit,
     Secondary: slots[7] as TeamUnit,
+  }
+}
+
+function bestBy<T extends Player | TeamUnit>(items: T[], scoreFn: (item: T) => number): T | null {
+  if (items.length === 0) return null
+  return items.reduce((best, item) => (scoreFn(item) > scoreFn(best) ? item : best))
+}
+
+/** Builds a representative roster from a team's full season data, picking the top performer at each position. */
+export function selectTopRoster(data: TeamRosterData): Roster {
+  const { players, units } = data
+  const qbs = players.filter(p => p.position === 'QB')
+  const wrs = [...players.filter(p => p.position === 'WR')]
+    .sort((a, b) => (b.stats as WRStats).recYPG - (a.stats as WRStats).recYPG)
+  const rbs = players.filter(p => p.position === 'RB')
+  const ks = players.filter(p => p.position === 'K')
+
+  return {
+    QB: bestBy(qbs, p => (p.stats as QBStats).passYPG),
+    WR1: wrs[0] ?? null,
+    WR2: wrs[1] ?? null,
+    RB: bestBy(rbs, p => (p.stats as RBStats).rushYPG),
+    K: bestBy(ks, p => (p.stats as KStats).fgAccuracy),
+    OLine: units.find(u => u.position === 'OLine') ?? null,
+    DLine: units.find(u => u.position === 'DLine') ?? null,
+    Secondary: units.find(u => u.position === 'Secondary') ?? null,
   }
 }

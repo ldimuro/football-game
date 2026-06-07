@@ -1,5 +1,6 @@
 import { loadTeamMeta, loadTeamRoster, loadTeamStats } from './dataLoader'
-import type { DraftOffer, TeamStats, TeamMeta } from '../types'
+import { selectTopRoster } from './rosterGen'
+import type { DraftOffer, TeamStats, TeamMeta, Roster } from '../types'
 
 let metaCache: TeamMeta[] | null = null
 
@@ -19,8 +20,9 @@ export async function generateDraftOffer(): Promise<DraftOffer> {
   return { team, year, players, units }
 }
 
-export async function generateOpponent(): Promise<TeamStats> {
+export async function generateOpponent(): Promise<{ stats: TeamStats; roster: Roster }> {
   const meta = await getMeta()
   const { team, year } = pickRandom(meta)
-  return loadTeamStats(year, team)
+  const [stats, rosterData] = await Promise.all([loadTeamStats(year, team), loadTeamRoster(year, team)])
+  return { stats, roster: selectTopRoster(rosterData) }
 }

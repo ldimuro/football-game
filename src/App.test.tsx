@@ -10,7 +10,7 @@ vi.mock('./store/gameStore', () => ({
 const baseState = {
   phase: 'setup', round: 1, roster: { QB: null, WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null },
   setupRerollsRemaining: 3, draftRerollAvailable: true,
-  currentOpponent: null, currentWeather: null, currentDraftOffer: null,
+  currentOpponent: null, currentOpponentRoster: null, currentWeather: null, currentDraftOffer: null,
   seasonLog: [], isLoading: false,
   initGame: vi.fn().mockResolvedValue(undefined),
   rerollSetupSlot: vi.fn(), confirmSetup: vi.fn(), viewDraftOffer: vi.fn(),
@@ -29,6 +29,7 @@ describe('App', () => {
       ...baseState,
       phase: 'round-hub',
       currentOpponent: { team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1, qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8 },
+      currentOpponentRoster: { QB: null, WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null },
       currentWeather: 'Clear',
     } as any)
     render(<App />)

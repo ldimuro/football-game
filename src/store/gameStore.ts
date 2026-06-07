@@ -14,6 +14,7 @@ interface GameStore {
   setupRerollsRemaining: number
   draftRerollAvailable: boolean
   currentOpponent: TeamStats | null
+  currentOpponentRoster: Roster | null
   currentWeather: WeatherCondition | null
   currentDraftOffer: DraftOffer | null
   seasonLog: RoundRecord[]
@@ -34,9 +35,9 @@ const EMPTY_ROSTER: Roster = {
 }
 
 async function buildNextRoundData() {
-  const [opponent, draftOffer] = await Promise.all([generateOpponent(), generateDraftOffer()])
+  const [{ stats: opponent, roster: opponentRoster }, draftOffer] = await Promise.all([generateOpponent(), generateDraftOffer()])
   const weather = generateWeather()
-  return { opponent, draftOffer, weather }
+  return { opponent, opponentRoster, draftOffer, weather }
 }
 
 export const useGameStore = create<GameStore>((set, get) => ({
@@ -46,6 +47,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   setupRerollsRemaining: 3,
   draftRerollAvailable: true,
   currentOpponent: null,
+  currentOpponentRoster: null,
   currentWeather: null,
   currentDraftOffer: null,
   seasonLog: [],
@@ -71,10 +73,11 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   confirmSetup: async () => {
     set({ isLoading: true })
-    const { opponent, draftOffer, weather } = await buildNextRoundData()
+    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
     set({
       phase: 'round-hub',
       currentOpponent: opponent,
+      currentOpponentRoster: opponentRoster,
       currentWeather: weather,
       currentDraftOffer: draftOffer,
       draftRerollAvailable: true,
@@ -112,10 +115,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
     }
 
     set({ isLoading: true })
-    const { opponent, draftOffer, weather } = await buildNextRoundData()
+    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
     set({
       roster: newRoster, seasonLog: newLog,
-      round: round + 1, currentOpponent: opponent, currentWeather: weather,
+      round: round + 1, currentOpponent: opponent, currentOpponentRoster: opponentRoster, currentWeather: weather,
       currentDraftOffer: draftOffer, draftRerollAvailable: true,
       phase: 'round-hub', isLoading: false,
     })
@@ -137,10 +140,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
     }
 
     set({ isLoading: true })
-    const { opponent, draftOffer, weather } = await buildNextRoundData()
+    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
     set({
       seasonLog: newLog, round: round + 1,
-      currentOpponent: opponent, currentWeather: weather,
+      currentOpponent: opponent, currentOpponentRoster: opponentRoster, currentWeather: weather,
       currentDraftOffer: draftOffer, draftRerollAvailable: true,
       phase: 'round-hub', isLoading: false,
     })

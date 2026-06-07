@@ -5,9 +5,9 @@ import { TeamStatsSummary } from './TeamStatsSummary'
 import { Button } from '../ui/Button'
 
 export function RoundHub() {
-  const { round, roster, currentOpponent, currentWeather, viewDraftOffer, isLoading } = useGameStore()
+  const { round, roster, currentOpponent, currentOpponentRoster, currentWeather, viewDraftOffer, isLoading } = useGameStore()
 
-  if (!currentOpponent || !currentWeather) return null
+  if (!currentOpponent || !currentOpponentRoster || !currentWeather) return null
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -21,7 +21,7 @@ export function RoundHub() {
         </Button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <OpponentPreview opponent={currentOpponent} />
+        <OpponentPreview opponent={currentOpponent} opponentRoster={currentOpponentRoster} userRoster={roster} />
         <div className="flex flex-col gap-4">
           <WeatherBadge condition={currentWeather} />
           <TeamStatsSummary roster={roster} />

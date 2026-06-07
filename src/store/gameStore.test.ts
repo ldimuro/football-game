@@ -35,8 +35,11 @@ vi.mock('../logic/draftGen', () => ({
     team: 'NE', year: 2019, players: [mockRoster.QB!], units: [mockRoster.OLine!],
   }),
   generateOpponent: vi.fn().mockResolvedValue({
-    team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1,
-    qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8,
+    stats: {
+      team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1,
+      qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8,
+    },
+    roster: mockRoster,
   }),
 }))
 
@@ -51,6 +54,7 @@ const INITIAL_STATE = {
   setupRerollsRemaining: 3,
   draftRerollAvailable: true,
   currentOpponent: null,
+  currentOpponentRoster: null,
   currentWeather: null,
   currentDraftOffer: null,
   seasonLog: [],
