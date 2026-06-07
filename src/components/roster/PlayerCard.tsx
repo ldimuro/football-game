@@ -16,7 +16,7 @@ const POSITION_LABELS: Record<RosterPosition, string> = {
   OLine: 'O-Line', DLine: 'D-Line', Secondary: 'Secondary',
 }
 
-function renderStats(slot: Player | TeamUnit) {
+export function renderStats(slot: Player | TeamUnit) {
   const s = slot.stats
   if ('passYPG' in s) {
     const q = s as QBStats
