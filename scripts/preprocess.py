@@ -172,7 +172,54 @@ def process_kickers(pbp: pd.DataFrame, roster_map: dict) -> None:
         })
 
 
-def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map: dict) -> dict:
+def compute_defense_stats(pbp: pd.DataFrame) -> dict:
+    """Derive real D-Line and Secondary unit stats per team/season from play-by-play data.
+
+    Returns {(team, year): {"dline": {...}, "secondary": {...}}} with normalizedRank
+    computed relative to other teams in the same season (lower allowed yards = better).
+    """
+    defense: dict = {}
+    plays = pbp.dropna(subset=["defteam"])
+
+    for (team_raw, yr), grp in plays.groupby(["defteam", "season"]):
+        team = normalize_team(str(team_raw))
+        yr_int = int(yr)
+        games = max(1, int(grp["week"].nunique()))
+
+        rush = grp[grp["rush_attempt"] == 1]
+        rush_attempts = len(rush)
+        sacks = float(grp["sack"].sum())
+
+        passes = grp[grp["pass_attempt"] == 1]
+        pass_attempts = len(passes)
+
+        defense[(team, yr_int)] = {
+            "dline": {
+                "sacksPerGame": round(sacks / games, 2),
+                "rushYPCAllowed": round(float(rush["rushing_yards"].sum()) / rush_attempts, 2) if rush_attempts else 0.0,
+                "rushTDPctAllowed": round(float(rush["rush_touchdown"].sum()) / rush_attempts, 4) if rush_attempts else 0.0,
+            },
+            "secondary": {
+                "completionPctAllowed": round(float(passes["complete_pass"].sum()) / pass_attempts, 4) if pass_attempts else 0.0,
+                "yardsPerAttemptAllowed": round(float(passes["passing_yards"].sum()) / pass_attempts, 2) if pass_attempts else 0.0,
+                "tdPctAllowed": round(float(passes["pass_touchdown"].sum()) / pass_attempts, 4) if pass_attempts else 0.0,
+                "intPct": round(float(passes["interception"].sum()) / pass_attempts, 4) if pass_attempts else 0.0,
+            },
+        }
+
+    for yr in set(yr for _, yr in defense.keys()):
+        yr_entries = [(team, d) for (team, y), d in defense.items() if y == yr]
+        dline_sorted = sorted(yr_entries, key=lambda x: x[1]["dline"]["rushYPCAllowed"])
+        secondary_sorted = sorted(yr_entries, key=lambda x: x[1]["secondary"]["yardsPerAttemptAllowed"])
+        for rank, (team, _) in enumerate(dline_sorted, 1):
+            defense[(team, yr)]["dline"]["normalizedRank"] = rank
+        for rank, (team, _) in enumerate(secondary_sorted, 1):
+            defense[(team, yr)]["secondary"]["normalizedRank"] = rank
+
+    return defense
+
+
+def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map: dict, defense_stats: dict) -> dict:
     """Compute O-Line, D-Line, Secondary units and team-level stats. Returns team_stats_map."""
     team_stats_map: dict = {}
 
@@ -226,29 +273,25 @@ def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map
                 "eraNormFactor": 1.0,
             })
 
-    # D-Line and Secondary: approximate from opponent passing/rushing
-    # For each team's defense, we look at what opponents gained against them via schedule
+    # D-Line and Secondary: derived from real play-by-play defensive stats (compute_defense_stats)
+    fallback_dline = {"sacksPerGame": 2.5, "rushYPCAllowed": 4.2, "rushTDPctAllowed": 0.045, "normalizedRank": 16}
+    fallback_secondary = {"completionPctAllowed": 0.635, "yardsPerAttemptAllowed": 7.0, "tdPctAllowed": 0.04, "intPct": 0.025, "normalizedRank": 16}
     for (team_raw, yr), grp in schedules.groupby(["home_team", "season"]):
-        # This is simplified; a full implementation uses PBP opponent stats
         team = normalize_team(str(team_raw))
         yr_int = int(yr)
         key = (team, yr_int)
         if key not in roster_map:
             roster_map[key] = {"players": [], "units": []}
 
-        # Placeholder secondary/dline units; populated properly after PBP processing
+        team_defense = defense_stats.get(key)
+
         if not any(u["position"] == "DLine" for u in roster_map[key].get("units", [])):
             roster_map[key]["units"].append({
                 "id": f"u_{team}_DLine_{yr_int}",
                 "position": "DLine",
                 "team": team,
                 "year": yr_int,
-                "stats": {
-                    "sacksPerGame": 2.5,
-                    "rushYPCAllowed": 4.2,
-                    "rushTDPctAllowed": 0.045,
-                    "normalizedRank": 16,
-                },
+                "stats": team_defense["dline"] if team_defense else fallback_dline,
                 "eraNormFactor": 1.0,
             })
 
@@ -258,13 +301,7 @@ def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map
                 "position": "Secondary",
                 "team": team,
                 "year": yr_int,
-                "stats": {
-                    "completionPctAllowed": 0.635,
-                    "yardsPerAttemptAllowed": 7.0,
-                    "tdPctAllowed": 0.04,
-                    "intPct": 0.025,
-                    "normalizedRank": 16,
-                },
+                "stats": team_defense["secondary"] if team_defense else fallback_secondary,
                 "eraNormFactor": 1.0,
             })
 
@@ -358,15 +395,30 @@ def main():
     print("Fetching schedules...")
     schedules = nfl.import_schedules(YEARS)
 
-    print("Processing team units and team stats...")
-    team_stats_map = process_team_units(schedules, weekly, roster_map)
-
-    print("Fetching play-by-play for kicker stats (this may take a while)...")
+    print("Fetching play-by-play data (this may take a while)...")
+    pbp_cols = [
+        "season", "week", "posteam", "defteam", "play_type",
+        "field_goal_result", "kicker_player_name", "kicker_player_id",
+        "sack", "rush_attempt", "rushing_yards", "rush_touchdown",
+        "pass_attempt", "complete_pass", "passing_yards", "pass_touchdown", "interception",
+    ]
+    pbp = None
+    defense_stats = {}
     try:
-        pbp = nfl.import_pbp_data(YEARS, columns=["season", "posteam", "play_type", "field_goal_result", "kicker_player_name", "kicker_player_id"], include_participation=False)
-        process_kickers(pbp, roster_map)
+        pbp = nfl.import_pbp_data(YEARS, columns=pbp_cols, include_participation=False)
+        defense_stats = compute_defense_stats(pbp)
     except Exception as e:
-        print(f"Warning: Could not process kicker data: {e}")
+        print(f"Warning: Could not fetch play-by-play data: {e}")
+
+    print("Processing team units and team stats...")
+    team_stats_map = process_team_units(schedules, weekly, roster_map, defense_stats)
+
+    if pbp is not None:
+        print("Processing kicker stats...")
+        try:
+            process_kickers(pbp, roster_map)
+        except Exception as e:
+            print(f"Warning: Could not process kicker data: {e}")
 
     print("Writing output files...")
     meta = write_outputs(roster_map, team_stats_map)
