@@ -2,6 +2,7 @@ import { useGameStore } from '../../store/gameStore'
 import { OpponentPreview } from './OpponentPreview'
 import { WeatherBadge } from './WeatherBadge'
 import { TeamStatsSummary } from './TeamStatsSummary'
+import { PositionMatchups } from './PositionMatchups'
 import { Button } from '../ui/Button'
 
 export function RoundHub() {
@@ -21,11 +22,14 @@ export function RoundHub() {
         </Button>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-        <OpponentPreview opponent={currentOpponent} opponentRoster={currentOpponentRoster} userRoster={roster} />
+        <OpponentPreview opponent={currentOpponent} />
         <div className="flex flex-col gap-4">
           <WeatherBadge condition={currentWeather} />
           <TeamStatsSummary roster={roster} />
         </div>
+      </div>
+      <div className="mt-4">
+        <PositionMatchups opponentTeam={currentOpponent.team} opponentRoster={currentOpponentRoster} userRoster={roster} />
       </div>
     </div>
   )
