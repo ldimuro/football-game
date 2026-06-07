@@ -56,6 +56,7 @@ function renderStats(slot: Player | TeamUnit) {
       <>
         <StatBar label="Sacks Allowed/G" value={o.sacksAllowedPerGame.toFixed(1)} />
         <StatBar label="Rush YPC" value={o.rushYPC.toFixed(1)} />
+        <StatBar label="Rush TD%" value={(o.rushTDPct * 100).toFixed(1) + '%'} />
         <StatBar label="Rank" value={`#${o.normalizedRank}`} />
       </>
     )
@@ -66,6 +67,7 @@ function renderStats(slot: Player | TeamUnit) {
       <>
         <StatBar label="Sacks/G" value={d.sacksPerGame.toFixed(1)} />
         <StatBar label="Rush YPC Allowed" value={d.rushYPCAllowed.toFixed(1)} />
+        <StatBar label="Rush TD% Allowed" value={(d.rushTDPctAllowed * 100).toFixed(1) + '%'} />
         <StatBar label="Rank" value={`#${d.normalizedRank}`} />
       </>
     )
@@ -75,6 +77,8 @@ function renderStats(slot: Player | TeamUnit) {
     <>
       <StatBar label="Comp% Allowed" value={(sec.completionPctAllowed * 100).toFixed(1) + '%'} />
       <StatBar label="Yds/Att Allowed" value={sec.yardsPerAttemptAllowed.toFixed(1)} />
+      <StatBar label="TD% Allowed" value={(sec.tdPctAllowed * 100).toFixed(1) + '%'} />
+      <StatBar label="INT%" value={(sec.intPct * 100).toFixed(1) + '%'} />
       <StatBar label="Rank" value={`#${sec.normalizedRank}`} />
     </>
   )
