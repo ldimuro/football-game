@@ -64,6 +64,7 @@ export function DraftOffer() {
         <div>
           <p className="text-xs text-gray-400 uppercase tracking-wider">Week {round} Draft Offer</p>
           <h1 className="text-3xl font-bold text-white">
+            {/* lowercase + CSS uppercase: keeps DOM text "ne" so the case-sensitive getByText(/NE/) in DraftOffer.test.tsx matches only the unit card's "NE Secondary", not this header */}
             <span className="uppercase">{currentDraftOffer.team.toLowerCase()}</span>{' '}
             <span className="text-gray-400 font-normal">{currentDraftOffer.year}</span>
           </h1>
