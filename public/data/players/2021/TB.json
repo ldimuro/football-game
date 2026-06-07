@@ -179,10 +179,13 @@
       "team": "TB",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.68,
-        "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.0313,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 92.53,
+        "rushTDPerGameAllowed": 0.65,
+        "sackPct": 0.0691,
+        "blitzPct": 0.408,
+        "pressurePct": 0.286,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -192,11 +195,12 @@
       "team": "TB",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6093,
-        "yardsPerAttemptAllowed": 6.11,
-        "tdPctAllowed": 0.0356,
-        "intPct": 0.0233,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.6544,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 238.94,
+        "passTDPerGameAllowed": 1.53,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

@@ -32,10 +32,13 @@
       "team": "LA",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 3.12,
-        "rushYPCAllowed": 4.07,
-        "rushTDPctAllowed": 0.0338,
-        "normalizedRank": 10
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 113.06,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.089,
+        "blitzPct": 0.28,
+        "pressurePct": 0.279,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -45,11 +48,12 @@
       "team": "LA",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5677,
-        "yardsPerAttemptAllowed": 6.41,
-        "tdPctAllowed": 0.0375,
-        "intPct": 0.0212,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6192,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 226.56,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

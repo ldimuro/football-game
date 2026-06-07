@@ -154,10 +154,13 @@
       "team": "NE",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.61,
-        "rushTDPctAllowed": 0.0223,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 123.71,
+        "rushTDPerGameAllowed": 0.53,
+        "sackPct": 0.0669,
+        "blitzPct": 0.233,
+        "pressurePct": 0.253,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "NE",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5657,
-        "yardsPerAttemptAllowed": 6.23,
-        "tdPctAllowed": 0.0433,
-        "intPct": 0.0383,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5929,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 187.12,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 1.35,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

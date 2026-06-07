@@ -95,10 +95,13 @@
       "team": "WAS",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.5,
-        "rushYPCAllowed": 3.83,
-        "rushTDPctAllowed": 0.0302,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 95.38,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.047,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -108,11 +111,12 @@
       "team": "WAS",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.541,
-        "yardsPerAttemptAllowed": 6.04,
-        "tdPctAllowed": 0.0299,
-        "intPct": 0.0243,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5675,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 193.44,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

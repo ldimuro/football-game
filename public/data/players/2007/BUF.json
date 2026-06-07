@@ -157,10 +157,13 @@
       "team": "BUF",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 1.56,
-        "rushYPCAllowed": 4.39,
-        "rushTDPctAllowed": 0.033,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 124.56,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0459,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "BUF",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.596,
-        "yardsPerAttemptAllowed": 6.66,
-        "tdPctAllowed": 0.032,
-        "intPct": 0.0303,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6243,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 238.38,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

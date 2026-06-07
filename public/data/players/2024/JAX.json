@@ -169,10 +169,13 @@
       "team": "JAX",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.39,
-        "rushTDPctAllowed": 0.037,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 132.59,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0586,
+        "blitzPct": 0.139,
+        "pressurePct": 0.169,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -182,10 +185,11 @@
       "team": "JAX",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6294,
-        "yardsPerAttemptAllowed": 7.45,
-        "tdPctAllowed": 0.0469,
-        "intPct": 0.0097,
+        "completionPctAllowed": 0.6707,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 257.35,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.35,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

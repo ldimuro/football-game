@@ -168,10 +168,13 @@
       "team": "IND",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.12,
         "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.0338,
-        "normalizedRank": 9
+        "rushYPGAllowed": 131.82,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0661,
+        "blitzPct": 0.175,
+        "pressurePct": 0.208,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "IND",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6473,
-        "yardsPerAttemptAllowed": 7.09,
-        "tdPctAllowed": 0.0462,
-        "intPct": 0.0274,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6936,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 229.35,
+        "passTDPerGameAllowed": 1.59,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

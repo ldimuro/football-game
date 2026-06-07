@@ -156,10 +156,13 @@
       "team": "LV",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.71,
-        "rushYPCAllowed": 4.21,
-        "rushTDPctAllowed": 0.0313,
-        "normalizedRank": 17
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 118.53,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0816,
+        "blitzPct": 0.194,
+        "pressurePct": 0.194,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "LV",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6154,
-        "yardsPerAttemptAllowed": 6.38,
-        "tdPctAllowed": 0.0344,
-        "intPct": 0.0213,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6667,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 212.35,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 0.76,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

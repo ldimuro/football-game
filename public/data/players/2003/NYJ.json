@@ -132,10 +132,13 @@
       "team": "NYJ",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 4.23,
-        "rushTDPctAllowed": 0.0314,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 143.38,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0769,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "NYJ",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5723,
-        "yardsPerAttemptAllowed": 6.6,
-        "tdPctAllowed": 0.0285,
-        "intPct": 0.0224,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6176,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 189.06,
+        "passTDPerGameAllowed": 0.88,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

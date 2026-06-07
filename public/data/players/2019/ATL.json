@@ -155,10 +155,13 @@
       "team": "ATL",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 1.75,
         "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.0307,
-        "normalizedRank": 16
+        "rushYPGAllowed": 110.94,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0522,
+        "blitzPct": 0.245,
+        "pressurePct": 0.184,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "ATL",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.6201,
-        "yardsPerAttemptAllowed": 7.31,
-        "tdPctAllowed": 0.0495,
-        "intPct": 0.0212,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6549,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 244.88,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

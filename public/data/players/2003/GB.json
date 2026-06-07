@@ -144,10 +144,13 @@
       "team": "GB",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.19,
-        "rushTDPctAllowed": 0.0284,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 106.31,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0577,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "GB",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5174,
-        "yardsPerAttemptAllowed": 5.78,
-        "tdPctAllowed": 0.0278,
-        "intPct": 0.0306,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.5535,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 212.5,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

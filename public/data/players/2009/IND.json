@@ -134,10 +134,13 @@
       "team": "IND",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 1.89,
-        "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.0187,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 126.5,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0583,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -147,11 +150,12 @@
       "team": "IND",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.608,
-        "yardsPerAttemptAllowed": 6.07,
-        "tdPctAllowed": 0.0316,
-        "intPct": 0.0261,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.6381,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 212.69,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

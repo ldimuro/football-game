@@ -157,10 +157,13 @@
       "team": "HOU",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.38,
-        "rushTDPctAllowed": 0.036,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 114.06,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0568,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "HOU",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.6246,
-        "yardsPerAttemptAllowed": 6.69,
-        "tdPctAllowed": 0.0433,
-        "intPct": 0.019,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6612,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 230.12,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

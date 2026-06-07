@@ -106,10 +106,13 @@
       "team": "DET",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 4.07,
-        "rushTDPctAllowed": 0.0365,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 125.62,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0587,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -119,11 +122,12 @@
       "team": "DET",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.6243,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0405,
-        "intPct": 0.0221,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6634,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 220.0,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

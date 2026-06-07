@@ -130,10 +130,13 @@
       "team": "CIN",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.18,
-        "rushTDPctAllowed": 0.0266,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 127.88,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0731,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "CIN",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5581,
-        "yardsPerAttemptAllowed": 6.07,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0183,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.5989,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 211.19,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

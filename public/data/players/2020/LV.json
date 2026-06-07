@@ -131,10 +131,13 @@
       "team": "LV",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.31,
-        "rushYPCAllowed": 4.59,
-        "rushTDPctAllowed": 0.0547,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 125.81,
+        "rushTDPerGameAllowed": 1.5,
+        "sackPct": 0.0362,
+        "blitzPct": 0.235,
+        "pressurePct": 0.235,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "LV",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6106,
-        "yardsPerAttemptAllowed": 7.16,
-        "tdPctAllowed": 0.0462,
-        "intPct": 0.0165,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6379,
+        "yardsPerAttemptAllowed": 7.0,
+        "passYPGAllowed": 263.25,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

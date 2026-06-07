@@ -118,10 +118,13 @@
       "team": "CAR",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 3.59,
-        "rushYPCAllowed": 3.93,
-        "rushTDPctAllowed": 0.013,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 86.94,
+        "rushTDPerGameAllowed": 0.25,
+        "sackPct": 0.1066,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "CAR",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5945,
-        "yardsPerAttemptAllowed": 6.17,
-        "tdPctAllowed": 0.0274,
-        "intPct": 0.0305,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.6661,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 214.31,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

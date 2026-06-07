@@ -131,10 +131,13 @@
       "team": "CHI",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.64,
-        "rushTDPctAllowed": 0.0138,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 80.0,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.0813,
+        "blitzPct": 0.203,
+        "pressurePct": 0.267,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "CHI",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.563,
-        "yardsPerAttemptAllowed": 5.77,
-        "tdPctAllowed": 0.0336,
-        "intPct": 0.0406,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.613,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 219.69,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 1.69,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

@@ -179,10 +179,13 @@
       "team": "DET",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.49,
-        "rushTDPctAllowed": 0.0309,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 118.06,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0625,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -192,11 +195,12 @@
       "team": "DET",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.5966,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.0448,
-        "intPct": 0.019,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.636,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 223.06,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

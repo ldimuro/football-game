@@ -130,10 +130,13 @@
       "team": "NO",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 3.31,
-        "rushYPCAllowed": 3.85,
-        "rushTDPctAllowed": 0.0337,
-        "normalizedRank": 11
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 107.19,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.1173,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "NO",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5472,
-        "yardsPerAttemptAllowed": 7.24,
-        "tdPctAllowed": 0.0591,
-        "intPct": 0.0295,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.615,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 209.69,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

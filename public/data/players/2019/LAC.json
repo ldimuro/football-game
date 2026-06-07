@@ -120,10 +120,13 @@
       "team": "LAC",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.19,
-        "rushTDPctAllowed": 0.0348,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 112.81,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0647,
+        "blitzPct": 0.137,
+        "pressurePct": 0.238,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "LAC",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.664,
-        "yardsPerAttemptAllowed": 6.87,
-        "tdPctAllowed": 0.0425,
-        "intPct": 0.0223,
-        "normalizedRank": 18
+        "completionPctAllowed": 0.7069,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 200.25,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

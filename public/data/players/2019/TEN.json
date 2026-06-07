@@ -169,10 +169,13 @@
       "team": "TEN",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.58,
-        "rushYPCAllowed": 4.19,
-        "rushTDPctAllowed": 0.0345,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 104.5,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0719,
+        "blitzPct": 0.246,
+        "pressurePct": 0.211,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -182,11 +185,12 @@
       "team": "TEN",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5875,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.037,
-        "intPct": 0.0217,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6455,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 255.0,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

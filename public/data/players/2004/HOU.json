@@ -118,10 +118,13 @@
       "team": "HOU",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 1.5,
-        "rushYPCAllowed": 4.42,
-        "rushTDPctAllowed": 0.0096,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 115.19,
+        "rushTDPerGameAllowed": 0.25,
+        "sackPct": 0.0453,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "HOU",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.6198,
-        "yardsPerAttemptAllowed": 6.8,
-        "tdPctAllowed": 0.0577,
-        "intPct": 0.0396,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6491,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 225.94,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

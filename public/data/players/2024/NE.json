@@ -156,10 +156,13 @@
       "team": "NE",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 1.65,
         "rushYPCAllowed": 4.4,
-        "rushTDPctAllowed": 0.0315,
-        "normalizedRank": 15
+        "rushYPGAllowed": 131.35,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0525,
+        "blitzPct": 0.254,
+        "pressurePct": 0.176,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "NE",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6135,
-        "yardsPerAttemptAllowed": 6.65,
-        "tdPctAllowed": 0.0479,
-        "intPct": 0.0124,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6492,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 211.53,
+        "passTDPerGameAllowed": 1.59,
+        "interceptionsPerGame": 0.41,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

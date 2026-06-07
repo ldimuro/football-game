@@ -154,10 +154,13 @@
       "team": "PHI",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.23,
-        "rushTDPctAllowed": 0.0256,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 103.25,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0615,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "PHI",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.5663,
-        "yardsPerAttemptAllowed": 6.87,
-        "tdPctAllowed": 0.0425,
-        "intPct": 0.0272,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6022,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 239.5,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

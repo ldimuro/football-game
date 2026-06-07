@@ -62,13 +62,16 @@ export function renderStats(slot: Player | TeamUnit) {
       </>
     )
   }
-  if ('sacksPerGame' in s) {
+  if ('sackPct' in s) {
     const d = s as DLineStats
     return (
       <>
-        <StatBar label="Sacks/G" value={d.sacksPerGame.toFixed(1)} />
         <StatBar label="Rush YPC Allowed" value={d.rushYPCAllowed.toFixed(1)} />
-        <StatBar label="Rush TD% Allowed" value={(d.rushTDPctAllowed * 100).toFixed(1) + '%'} />
+        <StatBar label="Rush YPG Allowed" value={d.rushYPGAllowed.toFixed(1)} />
+        <StatBar label="Rush TD/G Allowed" value={d.rushTDPerGameAllowed.toFixed(2)} />
+        <StatBar label="Sack%" value={(d.sackPct * 100).toFixed(1) + '%'} />
+        <StatBar label="Blitz%" value={(d.blitzPct * 100).toFixed(1) + '%'} />
+        <StatBar label="Pressure%" value={(d.pressurePct * 100).toFixed(1) + '%'} />
         <StatBar label="Rank" value={`#${d.normalizedRank}`} />
       </>
     )
@@ -78,8 +81,9 @@ export function renderStats(slot: Player | TeamUnit) {
     <>
       <StatBar label="Comp% Allowed" value={(sec.completionPctAllowed * 100).toFixed(1) + '%'} />
       <StatBar label="Yds/Att Allowed" value={sec.yardsPerAttemptAllowed.toFixed(1)} />
-      <StatBar label="TD% Allowed" value={(sec.tdPctAllowed * 100).toFixed(1) + '%'} />
-      <StatBar label="INT%" value={(sec.intPct * 100).toFixed(1) + '%'} />
+      <StatBar label="Pass YPG Allowed" value={sec.passYPGAllowed.toFixed(1)} />
+      <StatBar label="Pass TD/G Allowed" value={sec.passTDPerGameAllowed.toFixed(2)} />
+      <StatBar label="INTs/G" value={sec.interceptionsPerGame.toFixed(2)} />
       <StatBar label="Rank" value={`#${sec.normalizedRank}`} />
     </>
   )
@@ -88,10 +92,12 @@ export function renderStats(slot: Player | TeamUnit) {
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: PlayerCardProps) {
   const isUnit = 'position' in slot && !('name' in slot)
   const name = 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
+  const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
+  const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy)
 
   return (
     <div
-      className="bg-gray-900 border border-gray-800 border-l-4 rounded-xl p-4 flex flex-col gap-3"
+      className={`bg-gray-900 border border-gray-800 border-l-4 rounded-xl p-4 flex flex-col gap-3 ${isAwardWinner ? 'ring-2 ring-yellow-400' : ''}`}
       style={{ borderLeftColor: getTeamColor(slot.team) }}
     >
       <div className="flex items-start justify-between">
@@ -99,7 +105,7 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: P
           <span className="text-xs font-bold text-indigo-400 uppercase tracking-wider">
             {POSITION_LABELS[position]}
           </span>
-          <p className="text-white font-semibold mt-0.5">{name}</p>
+          <p className="text-white font-semibold mt-0.5">{name}{isAllPro && ' ⭐️'}</p>
           <div className="flex gap-1 mt-1">
             <Badge label={slot.team} />
             <Badge label={String(slot.year)} color="blue" />

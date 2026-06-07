@@ -178,10 +178,13 @@
       "team": "WAS",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.02,
-        "rushTDPctAllowed": 0.0223,
-        "normalizedRank": 10
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 112.44,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0783,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -191,11 +194,12 @@
       "team": "WAS",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5676,
-        "yardsPerAttemptAllowed": 6.41,
-        "tdPctAllowed": 0.0342,
-        "intPct": 0.0198,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6145,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 207.25,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

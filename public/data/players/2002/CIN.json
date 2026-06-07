@@ -142,10 +142,13 @@
       "team": "CIN",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 1.5,
-        "rushYPCAllowed": 4.01,
-        "rushTDPctAllowed": 0.032,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 125.19,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0529,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "CIN",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5992,
-        "yardsPerAttemptAllowed": 7.13,
-        "tdPctAllowed": 0.0626,
-        "intPct": 0.0188,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6322,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 203.88,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

@@ -132,10 +132,13 @@
       "team": "TB",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.18,
-        "rushYPCAllowed": 3.41,
-        "rushTDPctAllowed": 0.0234,
-        "normalizedRank": 1
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 94.69,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0756,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "TB",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.533,
-        "yardsPerAttemptAllowed": 6.02,
-        "tdPctAllowed": 0.0282,
-        "intPct": 0.0339,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.5777,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 183.06,
+        "passTDPerGameAllowed": 0.94,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

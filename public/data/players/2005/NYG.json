@@ -119,10 +119,13 @@
       "team": "NYG",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.65,
-        "rushYPCAllowed": 3.97,
-        "rushTDPctAllowed": 0.0275,
-        "normalizedRank": 17
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 103.5,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0707,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "NYG",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5301,
-        "yardsPerAttemptAllowed": 6.17,
-        "tdPctAllowed": 0.0325,
-        "intPct": 0.0263,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.5672,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 224.0,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

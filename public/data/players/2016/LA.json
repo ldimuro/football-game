@@ -32,10 +32,13 @@
       "team": "LA",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 3.91,
-        "rushTDPctAllowed": 0.0282,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 103.75,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0533,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -45,11 +48,12 @@
       "team": "LA",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6146,
-        "yardsPerAttemptAllowed": 6.39,
-        "tdPctAllowed": 0.052,
-        "intPct": 0.0163,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.6495,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 233.25,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

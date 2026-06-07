@@ -130,10 +130,13 @@
       "team": "DET",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 3.79,
-        "rushTDPctAllowed": 0.0201,
-        "normalizedRank": 8
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 117.94,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.071,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DET",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5685,
-        "yardsPerAttemptAllowed": 6.47,
-        "tdPctAllowed": 0.0503,
-        "intPct": 0.0243,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6131,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 219.62,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

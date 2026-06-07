@@ -131,10 +131,13 @@
       "team": "BAL",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.88,
-        "rushTDPctAllowed": 0.0184,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 93.94,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.0453,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "BAL",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5512,
-        "yardsPerAttemptAllowed": 5.96,
-        "tdPctAllowed": 0.0351,
-        "intPct": 0.0322,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.5856,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 224.94,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

@@ -155,10 +155,13 @@
       "team": "LAC",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.033,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 105.81,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0693,
+        "blitzPct": 0.17,
+        "pressurePct": 0.217,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "LAC",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.594,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.0388,
-        "intPct": 0.0209,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6405,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 227.88,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

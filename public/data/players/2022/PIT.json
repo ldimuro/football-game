@@ -156,9 +156,12 @@
       "team": "PIT",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.35,
-        "rushYPCAllowed": 4.16,
-        "rushTDPctAllowed": 0.0158,
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 108.12,
+        "rushTDPerGameAllowed": 0.41,
+        "sackPct": 0.0738,
+        "blitzPct": 0.315,
+        "pressurePct": 0.174,
         "normalizedRank": 9
       },
       "eraNormFactor": 1.0
@@ -169,11 +172,12 @@
       "team": "PIT",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5685,
-        "yardsPerAttemptAllowed": 6.96,
-        "tdPctAllowed": 0.0497,
-        "intPct": 0.0342,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6125,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 222.29,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 1.18,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

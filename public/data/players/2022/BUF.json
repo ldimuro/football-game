@@ -155,10 +155,13 @@
       "team": "BUF",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.0271,
-        "normalizedRank": 13
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 104.56,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0702,
+        "blitzPct": 0.194,
+        "pressurePct": 0.221,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "BUF",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5757,
-        "yardsPerAttemptAllowed": 5.98,
-        "tdPctAllowed": 0.0343,
-        "intPct": 0.0271,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.6351,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 214.56,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

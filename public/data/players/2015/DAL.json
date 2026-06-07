@@ -171,10 +171,13 @@
       "team": "DAL",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 1.94,
         "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.0347,
-        "normalizedRank": 20
+        "rushYPGAllowed": 120.69,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0613,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     },
@@ -184,11 +187,12 @@
       "team": "DAL",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.6134,
-        "yardsPerAttemptAllowed": 7.18,
-        "tdPctAllowed": 0.0353,
-        "intPct": 0.0149,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6522,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 227.25,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

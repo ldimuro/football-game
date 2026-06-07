@@ -204,10 +204,13 @@
       "team": "HOU",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.61,
-        "rushTDPctAllowed": 0.0476,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 142.24,
+        "rushTDPerGameAllowed": 1.47,
+        "sackPct": 0.0586,
+        "blitzPct": 0.195,
+        "pressurePct": 0.207,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -217,11 +220,12 @@
       "team": "HOU",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6248,
-        "yardsPerAttemptAllowed": 7.47,
-        "tdPctAllowed": 0.0465,
-        "intPct": 0.0293,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.6648,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 242.18,
+        "passTDPerGameAllowed": 1.59,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

@@ -183,10 +183,13 @@
       "team": "ATL",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.32,
-        "rushYPCAllowed": 4.47,
-        "rushTDPctAllowed": 0.0385,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 104.5,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0519,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     },
@@ -196,11 +199,12 @@
       "team": "ATL",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6045,
-        "yardsPerAttemptAllowed": 6.5,
-        "tdPctAllowed": 0.0451,
-        "intPct": 0.019,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6443,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 266.69,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

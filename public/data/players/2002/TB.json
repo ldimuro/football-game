@@ -130,10 +130,13 @@
       "team": "TB",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.84,
-        "rushYPCAllowed": 3.76,
-        "rushTDPctAllowed": 0.0197,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 97.12,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0843,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -143,10 +146,11 @@
       "team": "TB",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.4722,
-        "yardsPerAttemptAllowed": 4.98,
-        "tdPctAllowed": 0.0171,
-        "intPct": 0.0571,
+        "completionPctAllowed": 0.5078,
+        "yardsPerAttemptAllowed": 4.5,
+        "passYPGAllowed": 155.62,
+        "passTDPerGameAllowed": 0.62,
+        "interceptionsPerGame": 1.94,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

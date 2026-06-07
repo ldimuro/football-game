@@ -220,10 +220,13 @@
       "team": "CLE",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.72,
-        "rushYPCAllowed": 4.22,
-        "rushTDPctAllowed": 0.0361,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 105.47,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0916,
+        "blitzPct": 0.277,
+        "pressurePct": 0.238,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -233,11 +236,12 @@
       "team": "CLE",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5329,
-        "yardsPerAttemptAllowed": 5.64,
-        "tdPctAllowed": 0.0428,
-        "intPct": 0.0296,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.5738,
+        "yardsPerAttemptAllowed": 4.8,
+        "passYPGAllowed": 164.71,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     }

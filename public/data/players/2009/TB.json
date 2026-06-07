@@ -156,9 +156,12 @@
       "team": "TB",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.78,
-        "rushTDPctAllowed": 0.0302,
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 158.19,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0581,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0
@@ -169,11 +172,12 @@
       "team": "TB",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5902,
-        "yardsPerAttemptAllowed": 6.83,
-        "tdPctAllowed": 0.0549,
-        "intPct": 0.0373,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6245,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 207.38,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

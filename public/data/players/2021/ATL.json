@@ -143,10 +143,13 @@
       "team": "ATL",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.06,
-        "rushYPCAllowed": 4.28,
-        "rushTDPctAllowed": 0.0363,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 131.88,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0312,
+        "blitzPct": 0.245,
+        "pressurePct": 0.166,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "ATL",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6517,
-        "yardsPerAttemptAllowed": 6.84,
-        "tdPctAllowed": 0.0517,
-        "intPct": 0.02,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.6776,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 232.47,
+        "passTDPerGameAllowed": 1.82,
+        "interceptionsPerGame": 0.71,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

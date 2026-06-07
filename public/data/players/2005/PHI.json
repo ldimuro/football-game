@@ -144,10 +144,13 @@
       "team": "PHI",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 3.72,
-        "rushTDPctAllowed": 0.0296,
-        "normalizedRank": 10
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 117.69,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0577,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "PHI",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5583,
-        "yardsPerAttemptAllowed": 6.59,
-        "tdPctAllowed": 0.0451,
-        "intPct": 0.032,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.5905,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 207.69,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

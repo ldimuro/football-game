@@ -154,10 +154,13 @@
       "team": "GB",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 4.02,
-        "rushTDPctAllowed": 0.0281,
-        "normalizedRank": 3
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 99.35,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.0796,
+        "blitzPct": 0.173,
+        "pressurePct": 0.221,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "GB",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6195,
-        "yardsPerAttemptAllowed": 6.43,
-        "tdPctAllowed": 0.0393,
-        "intPct": 0.0267,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6743,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 215.18,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

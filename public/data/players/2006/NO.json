@@ -143,10 +143,13 @@
       "team": "NO",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.17,
-        "rushYPCAllowed": 4.92,
-        "rushTDPctAllowed": 0.031,
-        "normalizedRank": 31
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 128.94,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0802,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "NO",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5149,
-        "yardsPerAttemptAllowed": 6.16,
-        "tdPctAllowed": 0.0492,
-        "intPct": 0.0193,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.5633,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 178.38,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

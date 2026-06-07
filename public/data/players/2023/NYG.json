@@ -194,10 +194,13 @@
       "team": "NYG",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.72,
-        "rushTDPctAllowed": 0.0503,
-        "normalizedRank": 31
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 132.41,
+        "rushTDPerGameAllowed": 1.41,
+        "sackPct": 0.0584,
+        "blitzPct": 0.454,
+        "pressurePct": 0.209,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -207,11 +210,12 @@
       "team": "NYG",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6023,
-        "yardsPerAttemptAllowed": 6.75,
-        "tdPctAllowed": 0.0341,
-        "intPct": 0.0292,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6375,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 229.29,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

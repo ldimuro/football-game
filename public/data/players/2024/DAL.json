@@ -170,10 +170,13 @@
       "team": "DAL",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 3.06,
-        "rushYPCAllowed": 4.83,
-        "rushTDPctAllowed": 0.0518,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 137.12,
+        "rushTDPerGameAllowed": 1.47,
+        "sackPct": 0.1016,
+        "blitzPct": 0.299,
+        "pressurePct": 0.301,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -183,11 +186,12 @@
       "team": "DAL",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6166,
-        "yardsPerAttemptAllowed": 7.15,
-        "tdPctAllowed": 0.0495,
-        "intPct": 0.023,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.6816,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 218.12,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 0.76,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

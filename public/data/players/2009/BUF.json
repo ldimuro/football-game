@@ -132,9 +132,12 @@
       "team": "BUF",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.12,
         "rushYPCAllowed": 4.7,
-        "rushTDPctAllowed": 0.0356,
+        "rushYPGAllowed": 156.31,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0617,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 30
       },
       "eraNormFactor": 1.0
@@ -145,10 +148,11 @@
       "team": "BUF",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5296,
-        "yardsPerAttemptAllowed": 5.63,
-        "tdPctAllowed": 0.0251,
-        "intPct": 0.0503,
+        "completionPctAllowed": 0.5684,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 184.25,
+        "passTDPerGameAllowed": 0.88,
+        "interceptionsPerGame": 1.75,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0

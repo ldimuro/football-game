@@ -133,10 +133,13 @@
       "team": "LV",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 1.59,
-        "rushYPCAllowed": 4.57,
-        "rushTDPctAllowed": 0.0434,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 122.76,
+        "rushTDPerGameAllowed": 1.18,
+        "sackPct": 0.0458,
+        "blitzPct": 0.262,
+        "pressurePct": 0.193,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "LV",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6415,
-        "yardsPerAttemptAllowed": 6.95,
-        "tdPctAllowed": 0.0402,
-        "intPct": 0.0096,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6763,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 242.88,
+        "passTDPerGameAllowed": 1.47,
+        "interceptionsPerGame": 0.35,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

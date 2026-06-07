@@ -168,10 +168,13 @@
       "team": "CHI",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.88,
         "rushYPCAllowed": 4.4,
-        "rushTDPctAllowed": 0.029,
-        "normalizedRank": 20
+        "rushYPGAllowed": 125.12,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.1027,
+        "blitzPct": 0.226,
+        "pressurePct": 0.231,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "CHI",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5936,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0586,
-        "intPct": 0.0151,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6583,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 191.59,
+        "passTDPerGameAllowed": 1.82,
+        "interceptionsPerGame": 0.47,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

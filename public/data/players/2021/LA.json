@@ -33,10 +33,13 @@
       "team": "LA",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.95,
-        "rushYPCAllowed": 3.87,
-        "rushTDPctAllowed": 0.0407,
-        "normalizedRank": 4
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 103.18,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.08,
+        "blitzPct": 0.266,
+        "pressurePct": 0.228,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -46,11 +49,12 @@
       "team": "LA",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5979,
-        "yardsPerAttemptAllowed": 6.46,
-        "tdPctAllowed": 0.0261,
-        "intPct": 0.0273,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6656,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 241.71,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

@@ -180,10 +180,13 @@
       "team": "SF",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.83,
-        "rushTDPctAllowed": 0.0455,
-        "normalizedRank": 31
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 165.88,
+        "rushTDPerGameAllowed": 1.56,
+        "sackPct": 0.0633,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     },
@@ -193,11 +196,12 @@
       "team": "SF",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.5812,
-        "yardsPerAttemptAllowed": 7.24,
-        "tdPctAllowed": 0.0542,
-        "intPct": 0.0181,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.618,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 240.5,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

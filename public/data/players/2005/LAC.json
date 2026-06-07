@@ -120,10 +120,13 @@
       "team": "LAC",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.88,
         "rushYPCAllowed": 3.5,
-        "rushTDPctAllowed": 0.0363,
-        "normalizedRank": 2
+        "rushYPGAllowed": 84.31,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0811,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "LAC",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5505,
-        "yardsPerAttemptAllowed": 6.33,
-        "tdPctAllowed": 0.0326,
-        "intPct": 0.0163,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.5961,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 224.94,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

@@ -144,10 +144,13 @@
       "team": "PIT",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 3.29,
         "rushYPCAllowed": 4.4,
-        "rushTDPctAllowed": 0.0427,
-        "normalizedRank": 28
+        "rushYPGAllowed": 105.81,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.1122,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "PIT",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5334,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.036,
-        "intPct": 0.0274,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.5952,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 201.06,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

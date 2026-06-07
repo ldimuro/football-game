@@ -166,10 +166,13 @@
       "team": "TB",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 4.14,
-        "rushTDPctAllowed": 0.0308,
-        "normalizedRank": 8
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 97.82,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.073,
+        "blitzPct": 0.342,
+        "pressurePct": 0.241,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "TB",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6199,
-        "yardsPerAttemptAllowed": 6.64,
-        "tdPctAllowed": 0.0407,
-        "intPct": 0.0098,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6635,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 243.94,
+        "passTDPerGameAllowed": 1.59,
+        "interceptionsPerGame": 0.41,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

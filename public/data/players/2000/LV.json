@@ -155,10 +155,13 @@
       "team": "LV",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 3.81,
-        "rushTDPctAllowed": 0.0179,
-        "normalizedRank": 7
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 96.94,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0731,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "LV",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5562,
-        "yardsPerAttemptAllowed": 6.26,
-        "tdPctAllowed": 0.0375,
-        "intPct": 0.036,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6105,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 231.12,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

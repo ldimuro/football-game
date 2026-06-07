@@ -142,10 +142,13 @@
       "team": "LAC",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.72,
-        "rushYPCAllowed": 4.71,
-        "rushTDPctAllowed": 0.0174,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 117.47,
+        "rushTDPerGameAllowed": 0.41,
+        "sackPct": 0.0814,
+        "blitzPct": 0.238,
+        "pressurePct": 0.198,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "LAC",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5994,
-        "yardsPerAttemptAllowed": 6.23,
-        "tdPctAllowed": 0.0385,
-        "intPct": 0.0247,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.6496,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 206.88,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

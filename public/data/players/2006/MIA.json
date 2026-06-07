@@ -144,10 +144,13 @@
       "team": "MIA",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.94,
         "rushYPCAllowed": 3.5,
-        "rushTDPctAllowed": 0.0152,
-        "normalizedRank": 5
+        "rushYPGAllowed": 101.12,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0946,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "MIA",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5129,
-        "yardsPerAttemptAllowed": 6.02,
-        "tdPctAllowed": 0.0404,
-        "intPct": 0.0147,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5614,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 187.94,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

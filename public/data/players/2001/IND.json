@@ -155,10 +155,13 @@
       "team": "IND",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.61,
-        "rushTDPctAllowed": 0.0439,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 132.19,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.0786,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "IND",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5634,
-        "yardsPerAttemptAllowed": 6.99,
-        "tdPctAllowed": 0.0543,
-        "intPct": 0.0272,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.611,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 225.0,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

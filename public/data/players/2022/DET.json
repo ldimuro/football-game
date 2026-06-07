@@ -156,10 +156,13 @@
       "team": "DET",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.29,
-        "rushYPCAllowed": 5.22,
-        "rushTDPctAllowed": 0.0461,
-        "normalizedRank": 30
+        "rushYPCAllowed": 5.2,
+        "rushYPGAllowed": 146.53,
+        "rushTDPerGameAllowed": 1.29,
+        "sackPct": 0.0696,
+        "blitzPct": 0.312,
+        "pressurePct": 0.231,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "DET",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5835,
-        "yardsPerAttemptAllowed": 7.35,
-        "tdPctAllowed": 0.043,
-        "intPct": 0.0198,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6304,
+        "yardsPerAttemptAllowed": 7.0,
+        "passYPGAllowed": 245.82,
+        "passTDPerGameAllowed": 1.53,
+        "interceptionsPerGame": 0.71,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

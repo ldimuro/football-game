@@ -118,10 +118,13 @@
       "team": "LAC",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 3.35,
-        "rushTDPctAllowed": 0.0223,
-        "normalizedRank": 1
+        "rushYPCAllowed": 3.3,
+        "rushYPGAllowed": 94.0,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0766,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "LAC",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5484,
-        "yardsPerAttemptAllowed": 6.26,
-        "tdPctAllowed": 0.0415,
-        "intPct": 0.0329,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.5925,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 212.5,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

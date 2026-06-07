@@ -156,10 +156,13 @@
       "team": "SEA",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.14,
-        "rushTDPctAllowed": 0.0396,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 111.0,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0493,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "SEA",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.6265,
-        "yardsPerAttemptAllowed": 6.89,
-        "tdPctAllowed": 0.0452,
-        "intPct": 0.0218,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6585,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 245.44,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

@@ -154,10 +154,13 @@
       "team": "DEN",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.62,
-        "rushYPCAllowed": 4.78,
-        "rushTDPctAllowed": 0.0506,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 130.0,
+        "rushTDPerGameAllowed": 1.38,
+        "sackPct": 0.0741,
+        "blitzPct": 0.279,
+        "pressurePct": 0.262,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "DEN",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6121,
-        "yardsPerAttemptAllowed": 6.69,
-        "tdPctAllowed": 0.0344,
-        "intPct": 0.0164,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6596,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 237.94,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

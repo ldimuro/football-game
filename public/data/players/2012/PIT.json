@@ -142,10 +142,13 @@
       "team": "PIT",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.31,
         "rushYPCAllowed": 3.7,
-        "rushTDPctAllowed": 0.023,
-        "normalizedRank": 3
+        "rushYPGAllowed": 90.62,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0707,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -155,10 +158,11 @@
       "team": "PIT",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.533,
-        "yardsPerAttemptAllowed": 5.63,
-        "tdPctAllowed": 0.0339,
-        "intPct": 0.0178,
+        "completionPctAllowed": 0.5717,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 185.19,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.62,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

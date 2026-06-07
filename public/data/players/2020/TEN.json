@@ -133,10 +133,13 @@
       "team": "TEN",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.41,
-        "rushYPCAllowed": 4.67,
-        "rushTDPctAllowed": 0.0431,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 120.81,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0302,
+        "blitzPct": 0.287,
+        "pressurePct": 0.176,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "TEN",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6433,
-        "yardsPerAttemptAllowed": 6.98,
-        "tdPctAllowed": 0.0526,
-        "intPct": 0.0234,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6714,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 277.44,
+        "passTDPerGameAllowed": 2.25,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

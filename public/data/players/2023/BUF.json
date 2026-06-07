@@ -167,10 +167,13 @@
       "team": "BUF",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.89,
-        "rushYPCAllowed": 4.64,
-        "rushTDPctAllowed": 0.0327,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 110.59,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0978,
+        "blitzPct": 0.235,
+        "pressurePct": 0.244,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -180,10 +183,11 @@
       "team": "BUF",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5982,
-        "yardsPerAttemptAllowed": 6.13,
-        "tdPctAllowed": 0.0327,
-        "intPct": 0.0283,
+        "completionPctAllowed": 0.6576,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 196.59,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 1.06,
         "normalizedRank": 7
       },
       "eraNormFactor": 1.0

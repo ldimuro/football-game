@@ -143,10 +143,13 @@
       "team": "TEN",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.35,
-        "rushYPCAllowed": 3.84,
-        "rushTDPctAllowed": 0.0299,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 92.38,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0703,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "TEN",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.575,
-        "yardsPerAttemptAllowed": 5.81,
-        "tdPctAllowed": 0.0344,
-        "intPct": 0.0359,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.6134,
+        "yardsPerAttemptAllowed": 5.2,
+        "passYPGAllowed": 199.19,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

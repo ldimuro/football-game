@@ -169,10 +169,13 @@
       "team": "ARI",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.62,
-        "rushYPCAllowed": 4.18,
-        "rushTDPctAllowed": 0.0316,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 124.12,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0727,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -182,11 +185,12 @@
       "team": "ARI",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5475,
-        "yardsPerAttemptAllowed": 6.44,
-        "tdPctAllowed": 0.0274,
-        "intPct": 0.0161,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5882,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 231.0,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

@@ -181,9 +181,12 @@
       "team": "LV",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.24,
-        "rushYPCAllowed": 4.36,
-        "rushTDPctAllowed": 0.0308,
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 116.88,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0677,
+        "blitzPct": 0.263,
+        "pressurePct": 0.212,
         "normalizedRank": 13
       },
       "eraNormFactor": 1.0
@@ -194,11 +197,12 @@
       "team": "LV",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6146,
-        "yardsPerAttemptAllowed": 6.63,
-        "tdPctAllowed": 0.0482,
-        "intPct": 0.0166,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6595,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 216.24,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.59,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

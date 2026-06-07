@@ -14,7 +14,7 @@ const mockOffer = {
   ],
   units: [
     { id: 'sec_ne', position: 'Secondary' as const, team: 'NE', year: 2019,
-      stats: { completionPctAllowed: 0.571, yardsPerAttemptAllowed: 5.9, tdPctAllowed: 0.029, intPct: 0.041, normalizedRank: 1 }, eraNormFactor: 1.0 },
+      stats: { completionPctAllowed: 0.571, yardsPerAttemptAllowed: 5.9, passYPGAllowed: 195.0, passTDPerGameAllowed: 1.1, interceptionsPerGame: 1.2, normalizedRank: 1 }, eraNormFactor: 1.0 },
   ],
 }
 

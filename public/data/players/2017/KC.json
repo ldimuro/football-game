@@ -120,10 +120,13 @@
       "team": "KC",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.39,
-        "rushTDPctAllowed": 0.0336,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 118.12,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0544,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "KC",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5375,
-        "yardsPerAttemptAllowed": 6.78,
-        "tdPctAllowed": 0.0391,
-        "intPct": 0.0266,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.5702,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 247.0,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

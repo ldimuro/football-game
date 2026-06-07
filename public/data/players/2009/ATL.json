@@ -132,10 +132,13 @@
       "team": "ATL",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 3.96,
-        "rushTDPctAllowed": 0.0231,
-        "normalizedRank": 8
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 106.94,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0522,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "ATL",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5947,
-        "yardsPerAttemptAllowed": 7.16,
-        "tdPctAllowed": 0.0442,
-        "intPct": 0.0265,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.625,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 241.94,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

@@ -130,10 +130,13 @@
       "team": "TB",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 1.62,
-        "rushYPCAllowed": 4.73,
-        "rushTDPctAllowed": 0.027,
-        "normalizedRank": 31
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 131.69,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0499,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "TB",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5602,
-        "yardsPerAttemptAllowed": 6.13,
-        "tdPctAllowed": 0.042,
-        "intPct": 0.0347,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.5893,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 201.0,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

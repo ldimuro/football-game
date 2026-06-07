@@ -132,10 +132,13 @@
       "team": "ATL",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.34,
-        "rushTDPctAllowed": 0.035,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 123.94,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0602,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "ATL",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5564,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0418,
-        "intPct": 0.0273,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.5942,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 226.5,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

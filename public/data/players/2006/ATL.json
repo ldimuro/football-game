@@ -119,10 +119,13 @@
       "team": "ATL",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 3.75,
-        "rushTDPctAllowed": 0.0316,
-        "normalizedRank": 6
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 103.56,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0718,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "ATL",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5808,
-        "yardsPerAttemptAllowed": 7.07,
-        "tdPctAllowed": 0.0363,
-        "intPct": 0.0218,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.6233,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 229.25,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

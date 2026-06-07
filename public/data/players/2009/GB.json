@@ -154,10 +154,13 @@
       "team": "GB",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.24,
-        "rushYPCAllowed": 3.78,
-        "rushTDPctAllowed": 0.0152,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 83.31,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.0685,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "GB",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5269,
-        "yardsPerAttemptAllowed": 6.25,
-        "tdPctAllowed": 0.0555,
-        "intPct": 0.0489,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5444,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 201.12,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.88,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

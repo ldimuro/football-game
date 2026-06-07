@@ -193,10 +193,13 @@
       "team": "NYJ",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.45,
-        "rushTDPctAllowed": 0.0531,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 138.29,
+        "rushTDPerGameAllowed": 1.65,
+        "sackPct": 0.0562,
+        "blitzPct": 0.248,
+        "pressurePct": 0.212,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -206,10 +209,11 @@
       "team": "NYJ",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6447,
-        "yardsPerAttemptAllowed": 7.53,
-        "tdPctAllowed": 0.045,
-        "intPct": 0.0113,
+        "completionPctAllowed": 0.6831,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 259.35,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 0.41,
         "normalizedRank": 30
       },
       "eraNormFactor": 1.0

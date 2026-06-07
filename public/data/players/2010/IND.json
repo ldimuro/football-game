@@ -179,10 +179,13 @@
       "team": "IND",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 1.82,
-        "rushYPCAllowed": 4.56,
-        "rushTDPctAllowed": 0.0331,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 127.0,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0561,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -192,11 +195,12 @@
       "team": "IND",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.6254,
-        "yardsPerAttemptAllowed": 6.38,
-        "tdPctAllowed": 0.0368,
-        "intPct": 0.0184,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.6654,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 214.56,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

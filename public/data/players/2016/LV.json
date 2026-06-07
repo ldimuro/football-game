@@ -154,10 +154,13 @@
       "team": "LV",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 1.47,
-        "rushYPCAllowed": 4.3,
-        "rushTDPctAllowed": 0.0429,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 117.56,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0462,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "LV",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.5729,
-        "yardsPerAttemptAllowed": 7.43,
-        "tdPctAllowed": 0.0469,
-        "intPct": 0.0268,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6063,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 257.5,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

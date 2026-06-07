@@ -131,10 +131,13 @@
       "team": "KC",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.64,
-        "rushTDPctAllowed": 0.0452,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 114.62,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0785,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -144,10 +147,11 @@
       "team": "KC",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5532,
-        "yardsPerAttemptAllowed": 7.9,
-        "tdPctAllowed": 0.0567,
-        "intPct": 0.023,
+        "completionPctAllowed": 0.5977,
+        "yardsPerAttemptAllowed": 7.5,
+        "passYPGAllowed": 262.69,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 0.81,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

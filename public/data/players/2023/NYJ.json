@@ -168,10 +168,13 @@
       "team": "NYJ",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.82,
-        "rushYPCAllowed": 4.06,
-        "rushTDPctAllowed": 0.027,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 124.0,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.092,
+        "blitzPct": 0.163,
+        "pressurePct": 0.265,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "NYJ",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5491,
-        "yardsPerAttemptAllowed": 5.58,
-        "tdPctAllowed": 0.0333,
-        "intPct": 0.0298,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.5996,
+        "yardsPerAttemptAllowed": 5.0,
+        "passYPGAllowed": 168.29,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

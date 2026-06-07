@@ -145,10 +145,13 @@
       "team": "NE",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.22,
-        "rushTDPctAllowed": 0.0251,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 108.0,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0589,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -158,11 +161,12 @@
       "team": "NE",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.6,
-        "yardsPerAttemptAllowed": 6.72,
-        "tdPctAllowed": 0.0415,
-        "intPct": 0.037,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 258.5,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.56,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

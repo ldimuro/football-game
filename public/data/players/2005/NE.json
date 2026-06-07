@@ -131,10 +131,13 @@
       "team": "NE",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.22,
-        "rushYPCAllowed": 3.63,
-        "rushTDPctAllowed": 0.0267,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 98.75,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0626,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "NE",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5212,
-        "yardsPerAttemptAllowed": 6.86,
-        "tdPctAllowed": 0.0408,
-        "intPct": 0.0204,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.5617,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 231.44,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

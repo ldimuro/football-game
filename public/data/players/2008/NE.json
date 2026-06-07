@@ -144,9 +144,12 @@
       "team": "NE",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.13,
-        "rushTDPctAllowed": 0.0192,
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 107.62,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0654,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 15
       },
       "eraNormFactor": 1.0
@@ -157,11 +160,12 @@
       "team": "NE",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5692,
-        "yardsPerAttemptAllowed": 6.83,
-        "tdPctAllowed": 0.0534,
-        "intPct": 0.0277,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6076,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 201.38,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

@@ -144,10 +144,13 @@
       "team": "DAL",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.54,
-        "rushTDPctAllowed": 0.0385,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 125.19,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0665,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "DAL",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.5861,
-        "yardsPerAttemptAllowed": 7.13,
-        "tdPctAllowed": 0.0403,
-        "intPct": 0.0128,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6262,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 230.25,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.44,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

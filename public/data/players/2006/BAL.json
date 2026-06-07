@@ -143,9 +143,12 @@
       "team": "BAL",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 3.59,
-        "rushYPCAllowed": 3.26,
-        "rushTDPctAllowed": 0.0124,
+        "rushYPCAllowed": 3.3,
+        "rushYPGAllowed": 75.88,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.1179,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0
@@ -156,11 +159,12 @@
       "team": "BAL",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.4892,
-        "yardsPerAttemptAllowed": 5.99,
-        "tdPctAllowed": 0.0266,
-        "intPct": 0.0499,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.5481,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 188.19,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.75,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

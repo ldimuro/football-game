@@ -107,10 +107,13 @@
       "team": "LV",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.67,
-        "rushTDPctAllowed": 0.0424,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 159.69,
+        "rushTDPerGameAllowed": 1.44,
+        "sackPct": 0.0679,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -120,11 +123,12 @@
       "team": "LV",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5278,
-        "yardsPerAttemptAllowed": 6.76,
-        "tdPctAllowed": 0.0397,
-        "intPct": 0.0317,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.5648,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 201.25,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

@@ -166,10 +166,13 @@
       "team": "PHI",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.59,
-        "rushYPCAllowed": 3.96,
-        "rushTDPctAllowed": 0.0368,
-        "normalizedRank": 7
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 90.12,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0753,
+        "blitzPct": 0.268,
+        "pressurePct": 0.243,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "PHI",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5648,
-        "yardsPerAttemptAllowed": 6.88,
-        "tdPctAllowed": 0.0432,
-        "intPct": 0.017,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6095,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 241.56,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

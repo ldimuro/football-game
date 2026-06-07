@@ -168,10 +168,13 @@
       "team": "CHI",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 1.76,
-        "rushYPCAllowed": 3.77,
-        "rushTDPctAllowed": 0.0206,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 86.35,
+        "rushTDPerGameAllowed": 0.47,
+        "sackPct": 0.0486,
+        "blitzPct": 0.222,
+        "pressurePct": 0.188,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "CHI",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6298,
-        "yardsPerAttemptAllowed": 6.52,
-        "tdPctAllowed": 0.0476,
-        "intPct": 0.0338,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.6645,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 237.82,
+        "passTDPerGameAllowed": 1.82,
+        "interceptionsPerGame": 1.29,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

@@ -168,10 +168,13 @@
       "team": "PHI",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.22,
-        "rushTDPctAllowed": 0.023,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 126.31,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0619,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "PHI",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.567,
-        "yardsPerAttemptAllowed": 7.12,
-        "tdPctAllowed": 0.0641,
-        "intPct": 0.0155,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6021,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 216.88,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

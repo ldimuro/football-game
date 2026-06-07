@@ -167,10 +167,13 @@
       "team": "BAL",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 3.83,
-        "rushTDPctAllowed": 0.0159,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 105.44,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0725,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -180,11 +183,12 @@
       "team": "BAL",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5277,
-        "yardsPerAttemptAllowed": 6.62,
-        "tdPctAllowed": 0.042,
-        "intPct": 0.0269,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.5688,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 230.06,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

@@ -142,10 +142,13 @@
       "team": "NYG",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.11,
-        "rushTDPctAllowed": 0.0323,
-        "normalizedRank": 9
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 111.38,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0697,
+        "blitzPct": 0.269,
+        "pressurePct": 0.255,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "NYG",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6268,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.0355,
-        "intPct": 0.0178,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.676,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 237.94,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

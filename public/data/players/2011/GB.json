@@ -145,10 +145,13 @@
       "team": "GB",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 1.76,
-        "rushYPCAllowed": 4.54,
-        "rushTDPctAllowed": 0.0266,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 111.81,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0455,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -158,11 +161,12 @@
       "team": "GB",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5846,
-        "yardsPerAttemptAllowed": 7.56,
-        "tdPctAllowed": 0.0455,
-        "intPct": 0.0455,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6122,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 299.75,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.94,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     }

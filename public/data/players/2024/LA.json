@@ -32,10 +32,13 @@
       "team": "LA",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.84,
-        "rushYPCAllowed": 4.88,
-        "rushTDPctAllowed": 0.03,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 130.0,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.0701,
+        "blitzPct": 0.231,
+        "pressurePct": 0.214,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     },
@@ -45,11 +48,12 @@
       "team": "LA",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5979,
-        "yardsPerAttemptAllowed": 6.79,
-        "tdPctAllowed": 0.0455,
-        "intPct": 0.0212,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6531,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 223.12,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.76,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

@@ -154,10 +154,13 @@
       "team": "GB",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 4.85,
-        "rushTDPctAllowed": 0.0439,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 120.06,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0751,
+        "blitzPct": 0.227,
+        "pressurePct": 0.218,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "GB",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5559,
-        "yardsPerAttemptAllowed": 6.88,
-        "tdPctAllowed": 0.0315,
-        "intPct": 0.0268,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.5971,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 232.56,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

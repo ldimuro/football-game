@@ -159,10 +159,13 @@
       "team": "CAR",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.88,
-        "rushTDPctAllowed": 0.0307,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 88.44,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0677,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -172,11 +175,12 @@
       "team": "CAR",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5553,
-        "yardsPerAttemptAllowed": 5.83,
-        "tdPctAllowed": 0.0304,
-        "intPct": 0.0377,
-        "normalizedRank": 2
+        "completionPctAllowed": 0.6,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 234.5,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.5,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

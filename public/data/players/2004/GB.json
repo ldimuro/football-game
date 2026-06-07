@@ -142,10 +142,13 @@
       "team": "GB",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.59,
         "rushYPCAllowed": 4.6,
-        "rushTDPctAllowed": 0.0276,
-        "normalizedRank": 27
+        "rushYPGAllowed": 117.38,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0772,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "GB",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5635,
-        "yardsPerAttemptAllowed": 7.15,
-        "tdPctAllowed": 0.0626,
-        "intPct": 0.0135,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.6062,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 228.94,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

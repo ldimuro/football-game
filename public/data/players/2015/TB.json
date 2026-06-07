@@ -143,10 +143,13 @@
       "team": "TB",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 3.44,
-        "rushTDPctAllowed": 0.0257,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 100.38,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0702,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "TB",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.6528,
-        "yardsPerAttemptAllowed": 7.03,
-        "tdPctAllowed": 0.0535,
-        "intPct": 0.019,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6987,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 240.0,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

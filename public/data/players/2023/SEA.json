@@ -154,10 +154,13 @@
       "team": "SEA",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.76,
-        "rushYPCAllowed": 4.57,
-        "rushTDPctAllowed": 0.0466,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 138.35,
+        "rushTDPerGameAllowed": 1.41,
+        "sackPct": 0.0803,
+        "blitzPct": 0.222,
+        "pressurePct": 0.231,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "SEA",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6161,
-        "yardsPerAttemptAllowed": 6.73,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0174,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.6667,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 233.0,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

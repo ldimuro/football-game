@@ -154,9 +154,12 @@
       "team": "LAC",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.69,
-        "rushYPCAllowed": 4.48,
-        "rushTDPctAllowed": 0.0397,
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 119.81,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0497,
+        "blitzPct": 0.163,
+        "pressurePct": 0.238,
         "normalizedRank": 18
       },
       "eraNormFactor": 1.0
@@ -167,11 +170,12 @@
       "team": "LAC",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5923,
-        "yardsPerAttemptAllowed": 6.47,
-        "tdPctAllowed": 0.0505,
-        "intPct": 0.0209,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6262,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 223.62,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

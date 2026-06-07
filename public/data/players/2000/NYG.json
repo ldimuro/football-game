@@ -130,10 +130,13 @@
       "team": "NYG",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.29,
-        "rushTDPctAllowed": 0.0193,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.2,
+        "rushYPGAllowed": 72.25,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0752,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "NYG",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5027,
-        "yardsPerAttemptAllowed": 5.51,
-        "tdPctAllowed": 0.0338,
-        "intPct": 0.0324,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.559,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 211.88,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

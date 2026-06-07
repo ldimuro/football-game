@@ -130,10 +130,13 @@
       "team": "NYJ",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.56,
-        "rushTDPctAllowed": 0.0305,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 130.25,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0658,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "NYJ",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5585,
-        "yardsPerAttemptAllowed": 6.04,
-        "tdPctAllowed": 0.0346,
-        "intPct": 0.0264,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.594,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 201.38,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

@@ -132,10 +132,13 @@
       "team": "NYG",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.26,
-        "rushTDPctAllowed": 0.0404,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 118.62,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0536,
+        "blitzPct": 0.279,
+        "pressurePct": 0.245,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "NYG",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.6094,
-        "yardsPerAttemptAllowed": 7.12,
-        "tdPctAllowed": 0.0404,
-        "intPct": 0.0269,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6464,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 252.75,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

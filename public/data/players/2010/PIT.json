@@ -154,9 +154,12 @@
       "team": "PIT",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 3.0,
         "rushYPCAllowed": 3.0,
-        "rushTDPctAllowed": 0.0155,
+        "rushYPGAllowed": 62.75,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.0809,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -167,11 +170,12 @@
       "team": "PIT",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5603,
-        "yardsPerAttemptAllowed": 5.84,
-        "tdPctAllowed": 0.0278,
-        "intPct": 0.0278,
-        "normalizedRank": 2
+        "completionPctAllowed": 0.6121,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 214.06,
+        "passTDPerGameAllowed": 0.94,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

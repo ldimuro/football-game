@@ -142,10 +142,13 @@
       "team": "JAX",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.12,
-        "rushTDPctAllowed": 0.0305,
-        "normalizedRank": 6
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 114.76,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0582,
+        "blitzPct": 0.231,
+        "pressurePct": 0.249,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "JAX",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6028,
-        "yardsPerAttemptAllowed": 6.55,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.0193,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6406,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 238.53,
+        "passTDPerGameAllowed": 1.47,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

@@ -144,10 +144,13 @@
       "team": "SF",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.62,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.031,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 105.62,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0817,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "SF",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5566,
-        "yardsPerAttemptAllowed": 6.36,
-        "tdPctAllowed": 0.0449,
-        "intPct": 0.0413,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6031,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 202.38,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.44,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

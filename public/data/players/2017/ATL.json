@@ -144,10 +144,13 @@
       "team": "ATL",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.39,
-        "rushYPCAllowed": 4.17,
-        "rushTDPctAllowed": 0.0222,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 104.06,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0705,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "ATL",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.6077,
-        "yardsPerAttemptAllowed": 6.29,
-        "tdPctAllowed": 0.0342,
-        "intPct": 0.0119,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6546,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 214.31,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

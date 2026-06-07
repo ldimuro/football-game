@@ -142,10 +142,13 @@
       "team": "CIN",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.96,
-        "rushTDPctAllowed": 0.0318,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 98.31,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0622,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "CIN",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5518,
-        "yardsPerAttemptAllowed": 6.13,
-        "tdPctAllowed": 0.0318,
-        "intPct": 0.0318,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.5814,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 203.06,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

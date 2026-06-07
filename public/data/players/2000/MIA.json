@@ -130,10 +130,13 @@
       "team": "MIA",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.65,
-        "rushYPCAllowed": 4.08,
-        "rushTDPctAllowed": 0.0194,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 108.5,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0906,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -143,10 +146,11 @@
       "team": "MIA",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.4983,
-        "yardsPerAttemptAllowed": 5.51,
-        "tdPctAllowed": 0.0252,
-        "intPct": 0.0453,
+        "completionPctAllowed": 0.5321,
+        "yardsPerAttemptAllowed": 5.0,
+        "passYPGAllowed": 181.25,
+        "passTDPerGameAllowed": 0.81,
+        "interceptionsPerGame": 1.75,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0

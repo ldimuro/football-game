@@ -142,10 +142,13 @@
       "team": "NO",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.11,
-        "rushTDPctAllowed": 0.048,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 101.62,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0515,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "NO",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6126,
-        "yardsPerAttemptAllowed": 7.44,
-        "tdPctAllowed": 0.0438,
-        "intPct": 0.0146,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6495,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 273.75,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     }

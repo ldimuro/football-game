@@ -180,10 +180,13 @@
       "team": "DEN",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 3.34,
-        "rushTDPctAllowed": 0.021,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.3,
+        "rushYPGAllowed": 89.38,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0672,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -193,11 +196,12 @@
       "team": "DEN",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5611,
-        "yardsPerAttemptAllowed": 6.46,
-        "tdPctAllowed": 0.0553,
-        "intPct": 0.0191,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.5988,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 200.62,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

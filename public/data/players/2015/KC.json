@@ -166,10 +166,13 @@
       "team": "KC",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.78,
-        "rushYPCAllowed": 4.06,
-        "rushTDPctAllowed": 0.0189,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 98.19,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0774,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "KC",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5319,
-        "yardsPerAttemptAllowed": 6.01,
-        "tdPctAllowed": 0.0366,
-        "intPct": 0.0353,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.575,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 231.12,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

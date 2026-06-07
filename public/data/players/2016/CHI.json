@@ -206,10 +206,13 @@
       "team": "CHI",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.38,
-        "rushTDPctAllowed": 0.0404,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 121.88,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0698,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -219,11 +222,12 @@
       "team": "CHI",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6021,
-        "yardsPerAttemptAllowed": 6.74,
-        "tdPctAllowed": 0.0387,
-        "intPct": 0.0141,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6453,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 224.88,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

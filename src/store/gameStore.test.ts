@@ -18,9 +18,9 @@ const { mockRoster } = vi.hoisted(() => {
   OLine: { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,
     stats: { sacksAllowedPerGame: 2, rushYPC: 4.5, rushTDPct: 0.05, normalizedRank: 8 }, eraNormFactor: 1.0 },
   DLine: { id: 'dl1', position: 'DLine', team: 'KC', year: 2022,
-    stats: { sacksPerGame: 3, rushYPCAllowed: 4.0, rushTDPctAllowed: 0.04, normalizedRank: 10 }, eraNormFactor: 1.0 },
+    stats: { rushYPCAllowed: 4.0, rushYPGAllowed: 105.0, sackPct: 0.07, rushTDPerGameAllowed: 0.5, blitzPct: 0.25, pressurePct: 0.22, normalizedRank: 10 }, eraNormFactor: 1.0 },
   Secondary: { id: 'sec1', position: 'Secondary', team: 'KC', year: 2022,
-    stats: { completionPctAllowed: 0.63, yardsPerAttemptAllowed: 6.8, tdPctAllowed: 0.038, intPct: 0.027, normalizedRank: 11 }, eraNormFactor: 1.0 },
+    stats: { completionPctAllowed: 0.63, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 }, eraNormFactor: 1.0 },
   }
   return { mockRoster }
 })

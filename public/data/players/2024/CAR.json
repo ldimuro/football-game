@@ -180,9 +180,12 @@
       "team": "CAR",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 5.14,
-        "rushTDPctAllowed": 0.0404,
+        "rushYPCAllowed": 5.2,
+        "rushYPGAllowed": 179.82,
+        "rushTDPerGameAllowed": 1.41,
+        "sackPct": 0.0604,
+        "blitzPct": 0.29,
+        "pressurePct": 0.162,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0
@@ -193,11 +196,12 @@
       "team": "CAR",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6372,
-        "yardsPerAttemptAllowed": 7.16,
-        "tdPctAllowed": 0.0619,
-        "intPct": 0.0159,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6792,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 224.71,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.53,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

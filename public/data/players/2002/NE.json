@@ -155,10 +155,13 @@
       "team": "NE",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.71,
-        "rushTDPctAllowed": 0.0364,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 137.38,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.064,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "NE",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5558,
-        "yardsPerAttemptAllowed": 5.98,
-        "tdPctAllowed": 0.0407,
-        "intPct": 0.0319,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.5913,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 198.69,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

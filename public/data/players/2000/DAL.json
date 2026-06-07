@@ -156,9 +156,12 @@
       "team": "DAL",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 1.56,
-        "rushYPCAllowed": 4.88,
-        "rushTDPctAllowed": 0.0315,
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 164.75,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0546,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 31
       },
       "eraNormFactor": 1.0
@@ -169,11 +172,12 @@
       "team": "DAL",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5735,
-        "yardsPerAttemptAllowed": 5.97,
-        "tdPctAllowed": 0.0414,
-        "intPct": 0.0331,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6048,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 168.31,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

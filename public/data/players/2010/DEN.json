@@ -155,10 +155,13 @@
       "team": "DEN",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 1.44,
-        "rushYPCAllowed": 4.66,
-        "rushTDPctAllowed": 0.049,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 154.56,
+        "rushTDPerGameAllowed": 1.62,
+        "sackPct": 0.0458,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "DEN",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5636,
-        "yardsPerAttemptAllowed": 7.47,
-        "tdPctAllowed": 0.0493,
-        "intPct": 0.019,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.5916,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 236.25,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

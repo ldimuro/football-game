@@ -178,10 +178,13 @@
       "team": "GB",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.63,
-        "rushYPCAllowed": 4.41,
-        "rushTDPctAllowed": 0.0328,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 128.29,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.086,
+        "blitzPct": 0.293,
+        "pressurePct": 0.243,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -191,11 +194,12 @@
       "team": "GB",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6024,
-        "yardsPerAttemptAllowed": 6.61,
-        "tdPctAllowed": 0.0371,
-        "intPct": 0.0134,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6539,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 206.76,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 0.41,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

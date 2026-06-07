@@ -144,10 +144,13 @@
       "team": "BAL",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 2.86,
-        "rushTDPctAllowed": 0.0202,
-        "normalizedRank": 1
+        "rushYPCAllowed": 2.8,
+        "rushYPGAllowed": 79.25,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0653,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "BAL",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.5602,
-        "yardsPerAttemptAllowed": 7.15,
-        "tdPctAllowed": 0.0516,
-        "intPct": 0.0325,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.598,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 222.31,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

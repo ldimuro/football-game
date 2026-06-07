@@ -118,10 +118,13 @@
       "team": "JAX",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.69,
-        "rushYPCAllowed": 3.43,
-        "rushTDPctAllowed": 0.032,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 100.69,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.079,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "JAX",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.601,
-        "yardsPerAttemptAllowed": 6.38,
-        "tdPctAllowed": 0.0221,
-        "intPct": 0.0204,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6507,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 216.19,
+        "passTDPerGameAllowed": 0.81,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

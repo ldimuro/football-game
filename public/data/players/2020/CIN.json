@@ -168,10 +168,13 @@
       "team": "CIN",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.06,
-        "rushYPCAllowed": 5.11,
-        "rushTDPctAllowed": 0.0281,
-        "normalizedRank": 31
+        "rushYPCAllowed": 5.1,
+        "rushYPGAllowed": 148.0,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0314,
+        "blitzPct": 0.311,
+        "pressurePct": 0.19,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "CIN",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6061,
-        "yardsPerAttemptAllowed": 7.03,
-        "tdPctAllowed": 0.057,
-        "intPct": 0.0196,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.6285,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 241.19,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

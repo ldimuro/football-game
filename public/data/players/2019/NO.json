@@ -159,10 +159,13 @@
       "team": "NO",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 3.18,
-        "rushYPCAllowed": 4.15,
-        "rushTDPctAllowed": 0.0364,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 91.31,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0846,
+        "blitzPct": 0.327,
+        "pressurePct": 0.264,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -172,11 +175,12 @@
       "team": "NO",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5644,
-        "yardsPerAttemptAllowed": 6.43,
-        "tdPctAllowed": 0.0405,
-        "intPct": 0.0188,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.6153,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 241.75,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

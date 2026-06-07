@@ -143,10 +143,13 @@
       "team": "NO",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 3.75,
-        "rushTDPctAllowed": 0.027,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 93.88,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0808,
+        "blitzPct": 0.318,
+        "pressurePct": 0.263,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -156,10 +159,11 @@
       "team": "NO",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5522,
-        "yardsPerAttemptAllowed": 6.2,
-        "tdPctAllowed": 0.0463,
-        "intPct": 0.0269,
+        "completionPctAllowed": 0.5978,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 217.0,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 1.12,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0

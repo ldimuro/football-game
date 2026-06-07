@@ -120,10 +120,13 @@
       "team": "LAC",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.47,
         "rushYPCAllowed": 4.1,
-        "rushTDPctAllowed": 0.0242,
-        "normalizedRank": 18
+        "rushYPGAllowed": 107.0,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0757,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "LAC",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.5736,
-        "yardsPerAttemptAllowed": 6.22,
-        "tdPctAllowed": 0.0351,
-        "intPct": 0.0505,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.609,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 213.25,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.88,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

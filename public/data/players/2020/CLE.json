@@ -167,10 +167,13 @@
       "team": "CLE",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.17,
-        "rushYPCAllowed": 4.26,
-        "rushTDPctAllowed": 0.0394,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 110.81,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.065,
+        "blitzPct": 0.213,
+        "pressurePct": 0.219,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -180,11 +183,12 @@
       "team": "CLE",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6038,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0488,
-        "intPct": 0.0217,
-        "normalizedRank": 18
+        "completionPctAllowed": 0.6342,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 247.62,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

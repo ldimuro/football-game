@@ -154,9 +154,12 @@
       "team": "HOU",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.12,
         "rushYPCAllowed": 5.2,
-        "rushTDPctAllowed": 0.0487,
+        "rushYPGAllowed": 160.25,
+        "rushTDPerGameAllowed": 1.5,
+        "sackPct": 0.0628,
+        "blitzPct": 0.359,
+        "pressurePct": 0.215,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0
@@ -167,11 +170,12 @@
       "team": "HOU",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6511,
-        "yardsPerAttemptAllowed": 7.47,
-        "tdPctAllowed": 0.0518,
-        "intPct": 0.0052,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6969,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 256.5,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.19,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

@@ -119,9 +119,12 @@
       "team": "NYJ",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.52,
-        "rushTDPctAllowed": 0.0331,
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 134.62,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.064,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 28
       },
       "eraNormFactor": 1.0
@@ -132,11 +135,12 @@
       "team": "NYJ",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5783,
-        "yardsPerAttemptAllowed": 5.96,
-        "tdPctAllowed": 0.0275,
-        "intPct": 0.0344,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.6066,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 187.44,
+        "passTDPerGameAllowed": 0.88,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

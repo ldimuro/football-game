@@ -169,9 +169,12 @@
       "team": "BAL",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.45,
-        "rushYPCAllowed": 2.76,
-        "rushTDPctAllowed": 0.0135,
+        "rushYPCAllowed": 2.7,
+        "rushYPGAllowed": 60.62,
+        "rushTDPerGameAllowed": 0.31,
+        "sackPct": 0.0663,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -182,11 +185,12 @@
       "team": "BAL",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5041,
-        "yardsPerAttemptAllowed": 5.21,
-        "tdPctAllowed": 0.0149,
-        "intPct": 0.0447,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.5587,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 187.31,
+        "passTDPerGameAllowed": 0.69,
+        "interceptionsPerGame": 1.44,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

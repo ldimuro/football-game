@@ -131,10 +131,13 @@
       "team": "CHI",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.19,
-        "rushTDPctAllowed": 0.0155,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 101.69,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.0693,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "CHI",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.5512,
-        "yardsPerAttemptAllowed": 5.85,
-        "tdPctAllowed": 0.0299,
-        "intPct": 0.0378,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.5912,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 213.94,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.5,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

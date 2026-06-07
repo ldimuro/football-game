@@ -166,10 +166,13 @@
       "team": "IND",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.12,
-        "rushTDPctAllowed": 0.0345,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 101.88,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0701,
+        "blitzPct": 0.175,
+        "pressurePct": 0.21,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "IND",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.6499,
-        "yardsPerAttemptAllowed": 6.71,
-        "tdPctAllowed": 0.0325,
-        "intPct": 0.0236,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.7085,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 237.81,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

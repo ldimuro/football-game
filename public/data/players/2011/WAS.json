@@ -192,9 +192,12 @@
       "team": "WAS",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.29,
-        "rushTDPctAllowed": 0.0342,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 117.75,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0806,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 18
       },
       "eraNormFactor": 1.0
@@ -205,11 +208,12 @@
       "team": "WAS",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.56,
-        "yardsPerAttemptAllowed": 6.92,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.0236,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6051,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 222.06,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

@@ -170,10 +170,13 @@
       "team": "PIT",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.72,
-        "rushYPCAllowed": 4.35,
-        "rushTDPctAllowed": 0.0204,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 115.06,
+        "rushTDPerGameAllowed": 0.53,
+        "sackPct": 0.082,
+        "blitzPct": 0.341,
+        "pressurePct": 0.229,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -183,11 +186,12 @@
       "team": "PIT",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5634,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.0397,
-        "intPct": 0.0244,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6073,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 227.06,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

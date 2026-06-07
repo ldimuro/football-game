@@ -144,10 +144,13 @@
       "team": "DET",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.45,
-        "rushYPCAllowed": 3.84,
-        "rushTDPctAllowed": 0.038,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 88.76,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0697,
+        "blitzPct": 0.287,
+        "pressurePct": 0.282,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "DET",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5901,
-        "yardsPerAttemptAllowed": 7.4,
-        "tdPctAllowed": 0.0454,
-        "intPct": 0.0254,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.631,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 247.35,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

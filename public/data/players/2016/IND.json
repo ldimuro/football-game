@@ -155,10 +155,13 @@
       "team": "IND",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.71,
-        "rushTDPctAllowed": 0.0293,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 120.38,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0567,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "IND",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6117,
-        "yardsPerAttemptAllowed": 7.14,
-        "tdPctAllowed": 0.0437,
-        "intPct": 0.0129,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6495,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 262.5,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

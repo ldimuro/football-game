@@ -142,10 +142,13 @@
       "team": "LAC",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.34,
-        "rushTDPctAllowed": 0.0178,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 122.19,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0669,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "LAC",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5851,
-        "yardsPerAttemptAllowed": 7.39,
-        "tdPctAllowed": 0.0568,
-        "intPct": 0.0333,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6255,
+        "yardsPerAttemptAllowed": 7.0,
+        "passYPGAllowed": 224.44,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

@@ -154,10 +154,13 @@
       "team": "TB",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.42,
-        "rushTDPctAllowed": 0.0264,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 120.71,
+        "rushTDPerGameAllowed": 0.71,
+        "sackPct": 0.0789,
+        "blitzPct": 0.283,
+        "pressurePct": 0.219,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -167,10 +170,11 @@
       "team": "TB",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5957,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0505,
-        "intPct": 0.0153,
+        "completionPctAllowed": 0.6386,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 203.59,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.59,
         "normalizedRank": 9
       },
       "eraNormFactor": 1.0

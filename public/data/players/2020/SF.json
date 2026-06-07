@@ -230,10 +230,13 @@
       "team": "SF",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 3.96,
-        "rushTDPctAllowed": 0.0279,
-        "normalizedRank": 6
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 106.44,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0559,
+        "blitzPct": 0.336,
+        "pressurePct": 0.226,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -243,11 +246,12 @@
       "team": "SF",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5993,
-        "yardsPerAttemptAllowed": 6.2,
-        "tdPctAllowed": 0.0439,
-        "intPct": 0.0211,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.635,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 207.94,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

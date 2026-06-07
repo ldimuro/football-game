@@ -179,10 +179,13 @@
       "team": "DEN",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 3.61,
-        "rushYPCAllowed": 3.93,
-        "rushTDPctAllowed": 0.0234,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 96.41,
+        "rushTDPerGameAllowed": 0.59,
+        "sackPct": 0.104,
+        "blitzPct": 0.295,
+        "pressurePct": 0.277,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -192,11 +195,12 @@
       "team": "DEN",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5892,
-        "yardsPerAttemptAllowed": 6.25,
-        "tdPctAllowed": 0.0342,
-        "intPct": 0.0214,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.6485,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 220.71,
+        "passTDPerGameAllowed": 1.29,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

@@ -179,10 +179,13 @@
       "team": "WAS",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.24,
-        "rushYPCAllowed": 4.12,
-        "rushTDPctAllowed": 0.0325,
-        "normalizedRank": 9
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 104.41,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0637,
+        "blitzPct": 0.31,
+        "pressurePct": 0.242,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -192,11 +195,12 @@
       "team": "WAS",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.626,
-        "yardsPerAttemptAllowed": 7.07,
-        "tdPctAllowed": 0.0532,
-        "intPct": 0.0172,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.67,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 254.88,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

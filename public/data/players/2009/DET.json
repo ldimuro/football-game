@@ -156,10 +156,13 @@
       "team": "DET",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 1.62,
-        "rushYPCAllowed": 4.41,
-        "rushTDPctAllowed": 0.0371,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 126.56,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0477,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -169,10 +172,11 @@
       "team": "DET",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.6492,
-        "yardsPerAttemptAllowed": 7.69,
-        "tdPctAllowed": 0.0628,
-        "intPct": 0.0157,
+        "completionPctAllowed": 0.6807,
+        "yardsPerAttemptAllowed": 7.4,
+        "passYPGAllowed": 265.56,
+        "passTDPerGameAllowed": 2.19,
+        "interceptionsPerGame": 0.56,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

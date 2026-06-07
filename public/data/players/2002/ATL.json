@@ -154,10 +154,13 @@
       "team": "ATL",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.83,
-        "rushYPCAllowed": 4.51,
-        "rushTDPctAllowed": 0.0247,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 127.94,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0914,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "ATL",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5078,
-        "yardsPerAttemptAllowed": 6.37,
-        "tdPctAllowed": 0.0391,
-        "intPct": 0.0406,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.5545,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 205.44,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.5,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

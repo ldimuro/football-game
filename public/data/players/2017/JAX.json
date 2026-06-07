@@ -166,10 +166,13 @@
       "team": "JAX",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 3.26,
-        "rushYPCAllowed": 4.24,
-        "rushTDPctAllowed": 0.0221,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 116.25,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.1081,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -179,10 +182,11 @@
       "team": "JAX",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5233,
-        "yardsPerAttemptAllowed": 5.64,
-        "tdPctAllowed": 0.0339,
-        "intPct": 0.0339,
+        "completionPctAllowed": 0.5678,
+        "yardsPerAttemptAllowed": 4.8,
+        "passYPGAllowed": 169.88,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 1.31,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

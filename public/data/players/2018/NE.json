@@ -143,10 +143,13 @@
       "team": "NE",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.11,
-        "rushYPCAllowed": 4.73,
-        "rushTDPctAllowed": 0.0221,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 112.69,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0496,
+        "blitzPct": 0.309,
+        "pressurePct": 0.232,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "NE",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.5599,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.0456,
-        "intPct": 0.026,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6116,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 246.44,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

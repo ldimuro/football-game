@@ -119,10 +119,13 @@
       "team": "CAR",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 3.31,
-        "rushYPCAllowed": 5.15,
-        "rushTDPctAllowed": 0.0695,
-        "normalizedRank": 32
+        "rushYPCAllowed": 5.2,
+        "rushYPGAllowed": 143.5,
+        "rushTDPerGameAllowed": 1.94,
+        "sackPct": 0.0974,
+        "blitzPct": 0.269,
+        "pressurePct": 0.252,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "CAR",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5764,
-        "yardsPerAttemptAllowed": 6.64,
-        "tdPctAllowed": 0.0349,
-        "intPct": 0.0233,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6379,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 231.0,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

@@ -178,10 +178,13 @@
       "team": "NO",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.38,
-        "rushTDPctAllowed": 0.0315,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 112.31,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0668,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -191,11 +194,12 @@
       "team": "NO",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5785,
-        "yardsPerAttemptAllowed": 6.39,
-        "tdPctAllowed": 0.03,
-        "intPct": 0.0176,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.6194,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 193.94,
+        "passTDPerGameAllowed": 0.81,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

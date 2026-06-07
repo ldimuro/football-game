@@ -168,10 +168,13 @@
       "team": "ARI",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.52,
-        "rushTDPctAllowed": 0.0471,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 118.59,
+        "rushTDPerGameAllowed": 1.24,
+        "sackPct": 0.0607,
+        "blitzPct": 0.345,
+        "pressurePct": 0.225,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "ARI",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6561,
-        "yardsPerAttemptAllowed": 6.63,
-        "tdPctAllowed": 0.046,
-        "intPct": 0.0174,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6981,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 230.29,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

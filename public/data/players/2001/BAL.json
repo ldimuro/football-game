@@ -154,10 +154,13 @@
       "team": "BAL",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.78,
         "rushYPCAllowed": 3.4,
-        "rushTDPctAllowed": 0.0253,
-        "normalizedRank": 2
+        "rushYPGAllowed": 88.19,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0811,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "BAL",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5297,
-        "yardsPerAttemptAllowed": 5.48,
-        "tdPctAllowed": 0.0259,
-        "intPct": 0.0274,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.5784,
+        "yardsPerAttemptAllowed": 5.1,
+        "passYPGAllowed": 189.69,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

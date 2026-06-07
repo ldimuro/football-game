@@ -142,10 +142,13 @@
       "team": "BUF",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.47,
-        "rushYPCAllowed": 4.35,
-        "rushTDPctAllowed": 0.0428,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 109.76,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0792,
+        "blitzPct": 0.26,
+        "pressurePct": 0.306,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -155,10 +158,11 @@
       "team": "BUF",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5347,
-        "yardsPerAttemptAllowed": 5.52,
-        "tdPctAllowed": 0.0257,
-        "intPct": 0.0317,
+        "completionPctAllowed": 0.5604,
+        "yardsPerAttemptAllowed": 4.8,
+        "passYPGAllowed": 163.0,
+        "passTDPerGameAllowed": 0.71,
+        "interceptionsPerGame": 1.12,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

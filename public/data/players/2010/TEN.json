@@ -169,10 +169,13 @@
       "team": "TEN",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.5,
         "rushYPCAllowed": 3.9,
-        "rushTDPctAllowed": 0.0148,
-        "normalizedRank": 8
+        "rushYPGAllowed": 115.69,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.064,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -182,11 +185,12 @@
       "team": "TEN",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.6171,
-        "yardsPerAttemptAllowed": 6.46,
-        "tdPctAllowed": 0.0345,
-        "intPct": 0.0255,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.656,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 252.0,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

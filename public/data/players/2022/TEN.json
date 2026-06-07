@@ -119,9 +119,12 @@
       "team": "TEN",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.29,
-        "rushYPCAllowed": 3.33,
-        "rushTDPctAllowed": 0.023,
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 76.88,
+        "rushTDPerGameAllowed": 0.53,
+        "sackPct": 0.0581,
+        "blitzPct": 0.181,
+        "pressurePct": 0.211,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -132,11 +135,12 @@
       "team": "TEN",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.614,
-        "yardsPerAttemptAllowed": 6.9,
-        "tdPctAllowed": 0.0406,
-        "intPct": 0.0196,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6542,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 274.76,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     }

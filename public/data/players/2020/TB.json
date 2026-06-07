@@ -166,10 +166,13 @@
       "team": "TB",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.9,
-        "rushYPCAllowed": 3.77,
-        "rushTDPctAllowed": 0.0273,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 80.56,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0778,
+        "blitzPct": 0.39,
+        "pressurePct": 0.275,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "TB",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6203,
-        "yardsPerAttemptAllowed": 6.34,
-        "tdPctAllowed": 0.0409,
-        "intPct": 0.0257,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.6904,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 246.56,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

@@ -154,9 +154,12 @@
       "team": "PIT",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 3.22,
-        "rushYPCAllowed": 4.98,
-        "rushTDPctAllowed": 0.0327,
+        "rushYPCAllowed": 5.0,
+        "rushYPGAllowed": 146.06,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0977,
+        "blitzPct": 0.249,
+        "pressurePct": 0.258,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0
@@ -167,11 +170,12 @@
       "team": "PIT",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5822,
-        "yardsPerAttemptAllowed": 6.61,
-        "tdPctAllowed": 0.0452,
-        "intPct": 0.0211,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6306,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 215.06,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.76,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

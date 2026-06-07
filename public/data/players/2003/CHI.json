@@ -132,9 +132,12 @@
       "team": "CHI",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 1.19,
-        "rushYPCAllowed": 4.18,
-        "rushTDPctAllowed": 0.029,
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 116.56,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0343,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 16
       },
       "eraNormFactor": 1.0
@@ -145,11 +148,12 @@
       "team": "CHI",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5941,
-        "yardsPerAttemptAllowed": 5.82,
-        "tdPctAllowed": 0.0366,
-        "intPct": 0.0274,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.621,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 192.62,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

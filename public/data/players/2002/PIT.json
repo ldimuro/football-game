@@ -121,9 +121,12 @@
       "team": "PIT",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.94,
-        "rushYPCAllowed": 3.57,
-        "rushTDPctAllowed": 0.0449,
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 85.94,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0873,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -134,11 +137,12 @@
       "team": "PIT",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5418,
-        "yardsPerAttemptAllowed": 6.32,
-        "tdPctAllowed": 0.0334,
-        "intPct": 0.0306,
-        "normalizedRank": 18
+        "completionPctAllowed": 0.5864,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 216.25,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

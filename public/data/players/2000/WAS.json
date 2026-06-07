@@ -120,9 +120,12 @@
       "team": "WAS",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.81,
-        "rushYPCAllowed": 4.31,
-        "rushTDPctAllowed": 0.0208,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 115.81,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0974,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 22
       },
       "eraNormFactor": 1.0
@@ -133,11 +136,12 @@
       "team": "WAS",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5,
-        "yardsPerAttemptAllowed": 5.72,
-        "tdPctAllowed": 0.0236,
-        "intPct": 0.0335,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.5498,
+        "yardsPerAttemptAllowed": 5.2,
+        "passYPGAllowed": 163.81,
+        "passTDPerGameAllowed": 0.75,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

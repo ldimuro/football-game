@@ -7,10 +7,13 @@
       "team": "LAR",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.045,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 117.5,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0951,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -20,11 +23,12 @@
       "team": "LAR",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.635,
-        "yardsPerAttemptAllowed": 7.0,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.025,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6618,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 225.12,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

@@ -167,10 +167,13 @@
       "team": "SEA",
       "year": 2014,
       "stats": {
-        "sacksPerGame": 2.16,
-        "rushYPCAllowed": 3.51,
-        "rushTDPctAllowed": 0.0174,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 81.5,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.073,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -180,11 +183,12 @@
       "team": "SEA",
       "year": 2014,
       "stats": {
-        "completionPctAllowed": 0.5851,
-        "yardsPerAttemptAllowed": 5.9,
-        "tdPctAllowed": 0.0358,
-        "intPct": 0.0284,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.6174,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 185.62,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     }

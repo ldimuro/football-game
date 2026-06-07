@@ -157,10 +157,13 @@
       "team": "SF",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.68,
-        "rushYPCAllowed": 3.87,
-        "rushTDPctAllowed": 0.027,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 95.94,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.065,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "SF",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5526,
-        "yardsPerAttemptAllowed": 6.28,
-        "tdPctAllowed": 0.0309,
-        "intPct": 0.0281,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5897,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 221.0,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

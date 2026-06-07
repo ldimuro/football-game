@@ -118,10 +118,13 @@
       "team": "CHI",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.41,
-        "rushYPCAllowed": 3.71,
-        "rushTDPctAllowed": 0.0189,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 102.31,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0745,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "CHI",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5401,
-        "yardsPerAttemptAllowed": 5.55,
-        "tdPctAllowed": 0.0208,
-        "intPct": 0.0401,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.5691,
+        "yardsPerAttemptAllowed": 4.9,
+        "passYPGAllowed": 179.5,
+        "passTDPerGameAllowed": 0.62,
+        "interceptionsPerGame": 1.5,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

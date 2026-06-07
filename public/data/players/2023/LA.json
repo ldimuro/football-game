@@ -32,10 +32,13 @@
       "team": "LA",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.44,
-        "rushYPCAllowed": 4.13,
-        "rushTDPctAllowed": 0.0349,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 106.82,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0679,
+        "blitzPct": 0.243,
+        "pressurePct": 0.189,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -45,11 +48,12 @@
       "team": "LA",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5712,
-        "yardsPerAttemptAllowed": 6.57,
-        "tdPctAllowed": 0.0367,
-        "intPct": 0.0147,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6076,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 231.06,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.59,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

@@ -142,10 +142,13 @@
       "team": "NYG",
       "year": 2014,
       "stats": {
-        "sacksPerGame": 2.94,
-        "rushYPCAllowed": 4.92,
-        "rushTDPctAllowed": 0.0342,
-        "normalizedRank": 32
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 135.12,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.09,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "NYG",
       "year": 2014,
       "stats": {
-        "completionPctAllowed": 0.5664,
-        "yardsPerAttemptAllowed": 7.28,
-        "tdPctAllowed": 0.0437,
-        "intPct": 0.0297,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6207,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 240.62,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

@@ -182,9 +182,12 @@
       "team": "CLE",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.41,
-        "rushYPCAllowed": 4.52,
-        "rushTDPctAllowed": 0.0451,
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 129.71,
+        "rushTDPerGameAllowed": 1.29,
+        "sackPct": 0.0802,
+        "blitzPct": 0.264,
+        "pressurePct": 0.265,
         "normalizedRank": 21
       },
       "eraNormFactor": 1.0
@@ -195,11 +198,12 @@
       "team": "CLE",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5714,
-        "yardsPerAttemptAllowed": 7.01,
-        "tdPctAllowed": 0.047,
-        "intPct": 0.0072,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6184,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 212.41,
+        "passTDPerGameAllowed": 1.53,
+        "interceptionsPerGame": 0.24,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

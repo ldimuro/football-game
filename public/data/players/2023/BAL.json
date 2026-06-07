@@ -157,10 +157,13 @@
       "team": "BAL",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 3.26,
-        "rushYPCAllowed": 4.29,
-        "rushTDPctAllowed": 0.0151,
-        "normalizedRank": 20
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 109.41,
+        "rushTDPerGameAllowed": 0.35,
+        "sackPct": 0.0946,
+        "blitzPct": 0.219,
+        "pressurePct": 0.195,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "BAL",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5602,
-        "yardsPerAttemptAllowed": 5.35,
-        "tdPctAllowed": 0.0246,
-        "intPct": 0.0233,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.6057,
+        "yardsPerAttemptAllowed": 4.7,
+        "passYPGAllowed": 191.94,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

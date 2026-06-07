@@ -120,10 +120,13 @@
       "team": "BUF",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.51,
-        "rushTDPctAllowed": 0.045,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 137.81,
+        "rushTDPerGameAllowed": 1.38,
+        "sackPct": 0.0755,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "BUF",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5804,
-        "yardsPerAttemptAllowed": 6.58,
-        "tdPctAllowed": 0.0351,
-        "intPct": 0.0314,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6243,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 205.69,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

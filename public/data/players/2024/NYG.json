@@ -132,10 +132,13 @@
       "team": "NYG",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.65,
         "rushYPCAllowed": 4.6,
-        "rushTDPctAllowed": 0.0358,
-        "normalizedRank": 24
+        "rushYPGAllowed": 136.24,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0895,
+        "blitzPct": 0.279,
+        "pressurePct": 0.218,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "NYG",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6345,
-        "yardsPerAttemptAllowed": 7.03,
-        "tdPctAllowed": 0.0418,
-        "intPct": 0.0091,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6938,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 210.59,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 0.29,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

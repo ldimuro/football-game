@@ -118,10 +118,13 @@
       "team": "CAR",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 4.75,
-        "rushTDPctAllowed": 0.0417,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 121.0,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0496,
+        "blitzPct": 0.24,
+        "pressurePct": 0.224,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "CAR",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6451,
-        "yardsPerAttemptAllowed": 6.52,
-        "tdPctAllowed": 0.0454,
-        "intPct": 0.0113,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6803,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 239.06,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 0.44,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

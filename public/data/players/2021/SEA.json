@@ -166,10 +166,13 @@
       "team": "SEA",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.77,
-        "rushTDPctAllowed": 0.0312,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 113.65,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0517,
+        "blitzPct": 0.224,
+        "pressurePct": 0.218,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "SEA",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6383,
-        "yardsPerAttemptAllowed": 6.87,
-        "tdPctAllowed": 0.0346,
-        "intPct": 0.0159,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6733,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 265.47,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

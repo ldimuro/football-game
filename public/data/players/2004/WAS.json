@@ -120,10 +120,13 @@
       "team": "WAS",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.44,
-        "rushYPCAllowed": 3.11,
-        "rushTDPctAllowed": 0.0167,
-        "normalizedRank": 1
+        "rushYPCAllowed": 3.1,
+        "rushYPGAllowed": 81.5,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0777,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "WAS",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5278,
-        "yardsPerAttemptAllowed": 5.78,
-        "tdPctAllowed": 0.0305,
-        "intPct": 0.0323,
-        "normalizedRank": 2
+        "completionPctAllowed": 0.5709,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 186.06,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

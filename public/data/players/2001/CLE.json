@@ -154,10 +154,13 @@
       "team": "CLE",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.69,
-        "rushYPCAllowed": 4.47,
-        "rushTDPctAllowed": 0.0223,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 138.0,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0779,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "CLE",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5176,
-        "yardsPerAttemptAllowed": 5.66,
-        "tdPctAllowed": 0.0302,
-        "intPct": 0.0553,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.5598,
+        "yardsPerAttemptAllowed": 5.2,
+        "passYPGAllowed": 193.06,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 2.06,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

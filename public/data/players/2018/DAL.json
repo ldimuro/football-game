@@ -143,9 +143,12 @@
       "team": "DAL",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.22,
-        "rushYPCAllowed": 3.91,
-        "rushTDPctAllowed": 0.0337,
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 94.56,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.072,
+        "blitzPct": 0.198,
+        "pressurePct": 0.272,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0
@@ -156,11 +159,12 @@
       "team": "DAL",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.627,
-        "yardsPerAttemptAllowed": 6.9,
-        "tdPctAllowed": 0.0361,
-        "intPct": 0.0141,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6771,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 234.69,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

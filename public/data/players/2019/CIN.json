@@ -142,10 +142,13 @@
       "team": "CIN",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.71,
-        "rushTDPctAllowed": 0.0337,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 148.88,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0621,
+        "blitzPct": 0.325,
+        "pressurePct": 0.229,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "CIN",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5789,
-        "yardsPerAttemptAllowed": 7.75,
-        "tdPctAllowed": 0.047,
-        "intPct": 0.0207,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6172,
+        "yardsPerAttemptAllowed": 7.4,
+        "passYPGAllowed": 244.81,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

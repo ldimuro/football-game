@@ -130,10 +130,13 @@
       "team": "PIT",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.88,
-        "rushYPCAllowed": 3.85,
-        "rushTDPctAllowed": 0.0188,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 89.88,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0858,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "PIT",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5342,
-        "yardsPerAttemptAllowed": 6.28,
-        "tdPctAllowed": 0.0367,
-        "intPct": 0.02,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.5821,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 215.44,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

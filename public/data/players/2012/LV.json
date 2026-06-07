@@ -142,9 +142,12 @@
       "team": "LV",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 1.56,
-        "rushYPCAllowed": 4.24,
-        "rushTDPctAllowed": 0.0405,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 118.56,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0475,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 18
       },
       "eraNormFactor": 1.0
@@ -155,11 +158,12 @@
       "team": "LV",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.6298,
-        "yardsPerAttemptAllowed": 7.19,
-        "tdPctAllowed": 0.0508,
-        "intPct": 0.02,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6597,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 235.94,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

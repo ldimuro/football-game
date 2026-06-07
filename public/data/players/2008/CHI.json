@@ -130,10 +130,13 @@
       "team": "CHI",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 3.42,
-        "rushTDPctAllowed": 0.0366,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 93.5,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.045,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "CHI",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5892,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0323,
-        "intPct": 0.0338,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6158,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 241.19,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

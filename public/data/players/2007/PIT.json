@@ -119,10 +119,13 @@
       "team": "PIT",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.35,
-        "rushYPCAllowed": 4.03,
-        "rushTDPctAllowed": 0.0205,
-        "normalizedRank": 17
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 89.88,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.0672,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "PIT",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.5042,
-        "yardsPerAttemptAllowed": 5.37,
-        "tdPctAllowed": 0.0385,
-        "intPct": 0.0218,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.5448,
+        "yardsPerAttemptAllowed": 4.9,
+        "passYPGAllowed": 176.5,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

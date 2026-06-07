@@ -19,9 +19,9 @@ const mockRoster: Roster = {
   OLine: { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,
     stats: { sacksAllowedPerGame: 2.1, rushYPC: 4.8, rushTDPct: 0.052, normalizedRank: 8 }, eraNormFactor: 1.0 },
   DLine: { id: 'dl1', position: 'DLine', team: 'KC', year: 2022,
-    stats: { sacksPerGame: 3.2, rushYPCAllowed: 4.1, rushTDPctAllowed: 0.038, normalizedRank: 10 }, eraNormFactor: 1.0 },
+    stats: { rushYPCAllowed: 4.1, rushYPGAllowed: 106.0, sackPct: 0.072, rushTDPerGameAllowed: 0.48, blitzPct: 0.24, pressurePct: 0.21, normalizedRank: 10 }, eraNormFactor: 1.0 },
   Secondary: { id: 'sec1', position: 'Secondary', team: 'KC', year: 2022,
-    stats: { completionPctAllowed: 0.634, yardsPerAttemptAllowed: 6.8, tdPctAllowed: 0.038, intPct: 0.027, normalizedRank: 11 }, eraNormFactor: 1.0 },
+    stats: { completionPctAllowed: 0.634, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 }, eraNormFactor: 1.0 },
 }
 
 beforeEach(() => {

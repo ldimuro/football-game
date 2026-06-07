@@ -142,10 +142,13 @@
       "team": "DAL",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 1.5,
-        "rushYPCAllowed": 3.62,
-        "rushTDPctAllowed": 0.0254,
-        "normalizedRank": 8
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 106.88,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0491,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "DAL",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5562,
-        "yardsPerAttemptAllowed": 5.85,
-        "tdPctAllowed": 0.0388,
-        "intPct": 0.0174,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.5869,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 180.56,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

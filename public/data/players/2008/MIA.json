@@ -130,10 +130,13 @@
       "team": "MIA",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 2.41,
-        "rushYPCAllowed": 4.21,
-        "rushTDPctAllowed": 0.0309,
-        "normalizedRank": 17
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 101.25,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0726,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "MIA",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5324,
-        "yardsPerAttemptAllowed": 6.47,
-        "tdPctAllowed": 0.0291,
-        "intPct": 0.0291,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.5808,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 227.75,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

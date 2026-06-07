@@ -118,10 +118,13 @@
       "team": "HOU",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.19,
         "rushYPCAllowed": 4.1,
-        "rushTDPctAllowed": 0.0275,
-        "normalizedRank": 17
+        "rushYPGAllowed": 130.56,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0684,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "HOU",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5128,
-        "yardsPerAttemptAllowed": 6.16,
-        "tdPctAllowed": 0.042,
-        "intPct": 0.0182,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.5488,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 196.31,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

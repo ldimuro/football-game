@@ -133,10 +133,13 @@
       "team": "ATL",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 1.82,
-        "rushYPCAllowed": 4.47,
-        "rushTDPctAllowed": 0.024,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 120.65,
+        "rushTDPerGameAllowed": 0.65,
+        "sackPct": 0.0536,
+        "blitzPct": 0.206,
+        "pressurePct": 0.2,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "ATL",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6612,
-        "yardsPerAttemptAllowed": 6.55,
-        "tdPctAllowed": 0.0556,
-        "intPct": 0.0196,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.699,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 224.53,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 0.71,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

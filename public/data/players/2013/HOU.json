@@ -181,10 +181,13 @@
       "team": "HOU",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.31,
-        "rushTDPctAllowed": 0.0242,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 122.38,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0661,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -194,11 +197,12 @@
       "team": "HOU",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5541,
-        "yardsPerAttemptAllowed": 6.39,
-        "tdPctAllowed": 0.056,
-        "intPct": 0.0135,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.593,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 195.19,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.44,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

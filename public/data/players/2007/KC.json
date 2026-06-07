@@ -169,10 +169,13 @@
       "team": "KC",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.34,
-        "rushTDPctAllowed": 0.0229,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 130.56,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0801,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -182,11 +185,12 @@
       "team": "KC",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.5542,
-        "yardsPerAttemptAllowed": 6.57,
-        "tdPctAllowed": 0.0341,
-        "intPct": 0.0281,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.5974,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 188.88,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

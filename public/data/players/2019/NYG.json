@@ -168,10 +168,13 @@
       "team": "NYG",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 3.86,
-        "rushTDPctAllowed": 0.0405,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 113.25,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0647,
+        "blitzPct": 0.298,
+        "pressurePct": 0.237,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "NYG",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.6233,
-        "yardsPerAttemptAllowed": 7.55,
-        "tdPctAllowed": 0.0507,
-        "intPct": 0.0169,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.6637,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 264.06,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

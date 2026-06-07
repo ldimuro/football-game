@@ -155,10 +155,13 @@
       "team": "DET",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.53,
-        "rushYPCAllowed": 4.97,
-        "rushTDPctAllowed": 0.029,
-        "normalizedRank": 29
+        "rushYPCAllowed": 5.0,
+        "rushYPGAllowed": 128.12,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0679,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "DET",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5937,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.0418,
-        "intPct": 0.0303,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6225,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 239.44,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

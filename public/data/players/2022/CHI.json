@@ -118,10 +118,13 @@
       "team": "CHI",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 1.18,
-        "rushYPCAllowed": 4.92,
-        "rushTDPctAllowed": 0.0571,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 157.29,
+        "rushTDPerGameAllowed": 1.82,
+        "sackPct": 0.0416,
+        "blitzPct": 0.182,
+        "pressurePct": 0.156,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "CHI",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6396,
-        "yardsPerAttemptAllowed": 7.6,
-        "tdPctAllowed": 0.0436,
-        "intPct": 0.0277,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.6715,
+        "yardsPerAttemptAllowed": 7.4,
+        "passYPGAllowed": 218.59,
+        "passTDPerGameAllowed": 1.29,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

@@ -178,10 +178,13 @@
       "team": "LAC",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.0,
         "rushYPCAllowed": 4.8,
-        "rushTDPctAllowed": 0.0407,
-        "normalizedRank": 31
+        "rushYPGAllowed": 125.31,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0627,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -191,11 +194,12 @@
       "team": "LAC",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.6029,
-        "yardsPerAttemptAllowed": 7.37,
-        "tdPctAllowed": 0.0404,
-        "intPct": 0.0202,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6431,
+        "yardsPerAttemptAllowed": 7.0,
+        "passYPGAllowed": 236.62,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

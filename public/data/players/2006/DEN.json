@@ -120,10 +120,13 @@
       "team": "DEN",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.08,
-        "rushTDPctAllowed": 0.0292,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 113.31,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0651,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -133,11 +136,12 @@
       "team": "DEN",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5677,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0226,
-        "intPct": 0.0295,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.6078,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 212.94,
+        "passTDPerGameAllowed": 0.81,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

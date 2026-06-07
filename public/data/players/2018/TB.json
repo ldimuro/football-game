@@ -156,10 +156,13 @@
       "team": "TB",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.63,
-        "rushTDPctAllowed": 0.0444,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 123.94,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0712,
+        "blitzPct": 0.239,
+        "pressurePct": 0.202,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "TB",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.6754,
-        "yardsPerAttemptAllowed": 7.65,
-        "tdPctAllowed": 0.0593,
-        "intPct": 0.0157,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.7247,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 259.44,
+        "passTDPerGameAllowed": 2.12,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

@@ -144,10 +144,13 @@
       "team": "DAL",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.72,
-        "rushYPCAllowed": 3.93,
-        "rushTDPctAllowed": 0.017,
-        "normalizedRank": 6
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 90.5,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0734,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "DAL",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5541,
-        "yardsPerAttemptAllowed": 6.45,
-        "tdPctAllowed": 0.0365,
-        "intPct": 0.0175,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6014,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 225.38,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

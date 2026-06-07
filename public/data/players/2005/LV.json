@@ -118,10 +118,13 @@
       "team": "LV",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.0355,
-        "normalizedRank": 20
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 128.06,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0741,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "LV",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5649,
-        "yardsPerAttemptAllowed": 6.64,
-        "tdPctAllowed": 0.0344,
-        "intPct": 0.0095,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6091,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 202.69,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 0.31,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

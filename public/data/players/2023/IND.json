@@ -166,10 +166,13 @@
       "team": "IND",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 4.06,
-        "rushTDPctAllowed": 0.0424,
-        "normalizedRank": 10
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 123.82,
+        "rushTDPerGameAllowed": 1.29,
+        "sackPct": 0.0898,
+        "blitzPct": 0.157,
+        "pressurePct": 0.196,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "IND",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5977,
-        "yardsPerAttemptAllowed": 6.72,
-        "tdPctAllowed": 0.0339,
-        "intPct": 0.0242,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6514,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 226.0,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

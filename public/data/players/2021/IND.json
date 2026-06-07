@@ -156,10 +156,13 @@
       "team": "IND",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.37,
-        "rushTDPctAllowed": 0.0236,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 109.06,
+        "rushTDPerGameAllowed": 0.59,
+        "sackPct": 0.0553,
+        "blitzPct": 0.202,
+        "pressurePct": 0.183,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "IND",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6151,
-        "yardsPerAttemptAllowed": 6.63,
-        "tdPctAllowed": 0.0505,
-        "intPct": 0.03,
-        "normalizedRank": 18
+        "completionPctAllowed": 0.6533,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 234.12,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

@@ -143,10 +143,13 @@
       "team": "PIT",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.89,
-        "rushYPCAllowed": 3.76,
-        "rushTDPctAllowed": 0.0181,
-        "normalizedRank": 6
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 91.19,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.0768,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "PIT",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5884,
-        "yardsPerAttemptAllowed": 6.72,
-        "tdPctAllowed": 0.0396,
-        "intPct": 0.0237,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6432,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 271.88,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

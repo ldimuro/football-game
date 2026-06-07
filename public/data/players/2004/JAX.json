@@ -118,10 +118,13 @@
       "team": "JAX",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.03,
-        "rushTDPctAllowed": 0.0159,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 111.06,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0744,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "JAX",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5728,
-        "yardsPerAttemptAllowed": 6.68,
-        "tdPctAllowed": 0.0336,
-        "intPct": 0.0299,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6157,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 209.81,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

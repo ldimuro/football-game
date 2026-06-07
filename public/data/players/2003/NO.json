@@ -119,10 +119,13 @@
       "team": "NO",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.67,
-        "rushTDPctAllowed": 0.025,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 140.06,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.066,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "NO",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5097,
-        "yardsPerAttemptAllowed": 6.13,
-        "tdPctAllowed": 0.0386,
-        "intPct": 0.027,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.5443,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 187.06,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

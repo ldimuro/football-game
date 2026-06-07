@@ -156,10 +156,13 @@
       "team": "TB",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 4.31,
-        "rushTDPctAllowed": 0.0181,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 118.81,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0611,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "TB",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5465,
-        "yardsPerAttemptAllowed": 6.31,
-        "tdPctAllowed": 0.0455,
-        "intPct": 0.0436,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.5811,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 187.31,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

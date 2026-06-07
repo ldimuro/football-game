@@ -132,10 +132,13 @@
       "team": "KC",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.44,
-        "rushTDPctAllowed": 0.0311,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 133.75,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0631,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "KC",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.566,
-        "yardsPerAttemptAllowed": 6.51,
-        "tdPctAllowed": 0.0363,
-        "intPct": 0.0249,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.6029,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 197.75,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

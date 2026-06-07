@@ -130,10 +130,13 @@
       "team": "DEN",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.29,
-        "rushYPCAllowed": 3.78,
-        "rushTDPctAllowed": 0.0452,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 94.5,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0785,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DEN",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5349,
-        "yardsPerAttemptAllowed": 6.57,
-        "tdPctAllowed": 0.0376,
-        "intPct": 0.0233,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.562,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 184.19,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

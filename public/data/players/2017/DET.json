@@ -155,10 +155,13 @@
       "team": "DET",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.19,
-        "rushYPCAllowed": 4.17,
-        "rushTDPctAllowed": 0.0417,
-        "normalizedRank": 20
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 112.5,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0614,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "DET",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.603,
-        "yardsPerAttemptAllowed": 6.79,
-        "tdPctAllowed": 0.0346,
-        "intPct": 0.0313,
-        "normalizedRank": 22
+        "completionPctAllowed": 0.6421,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 243.25,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

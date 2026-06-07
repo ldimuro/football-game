@@ -131,9 +131,12 @@
       "team": "PIT",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.0416,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 115.56,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0598,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 21
       },
       "eraNormFactor": 1.0
@@ -144,10 +147,11 @@
       "team": "PIT",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5438,
-        "yardsPerAttemptAllowed": 6.2,
-        "tdPctAllowed": 0.0347,
-        "intPct": 0.0165,
+        "completionPctAllowed": 0.5782,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 221.62,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.62,
         "normalizedRank": 9
       },
       "eraNormFactor": 1.0

@@ -33,10 +33,13 @@
       "team": "LA",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 4.55,
-        "rushTDPctAllowed": 0.035,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 122.31,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0865,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -46,11 +49,12 @@
       "team": "LA",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5408,
-        "yardsPerAttemptAllowed": 6.3,
-        "tdPctAllowed": 0.0345,
-        "intPct": 0.0282,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.5838,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 217.19,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

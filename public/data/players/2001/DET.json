@@ -182,10 +182,13 @@
       "team": "DET",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.24,
-        "rushTDPctAllowed": 0.0319,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 124.56,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0603,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -195,11 +198,12 @@
       "team": "DET",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5704,
-        "yardsPerAttemptAllowed": 6.86,
-        "tdPctAllowed": 0.0548,
-        "intPct": 0.0293,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.607,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 220.5,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

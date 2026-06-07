@@ -144,10 +144,13 @@
       "team": "NYJ",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.02,
-        "rushTDPctAllowed": 0.0277,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 117.94,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0502,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "NYJ",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5595,
-        "yardsPerAttemptAllowed": 6.64,
-        "tdPctAllowed": 0.051,
-        "intPct": 0.0187,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.5896,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 234.31,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

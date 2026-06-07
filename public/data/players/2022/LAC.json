@@ -166,10 +166,13 @@
       "team": "LAC",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.33,
-        "rushYPCAllowed": 5.42,
-        "rushTDPctAllowed": 0.0355,
-        "normalizedRank": 32
+        "rushYPCAllowed": 5.4,
+        "rushYPGAllowed": 145.76,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0792,
+        "blitzPct": 0.311,
+        "pressurePct": 0.196,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "LAC",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5662,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.0469,
-        "intPct": 0.0302,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6139,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 200.35,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

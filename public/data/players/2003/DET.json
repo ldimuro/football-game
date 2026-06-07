@@ -130,10 +130,13 @@
       "team": "DET",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 3.99,
-        "rushTDPctAllowed": 0.0313,
-        "normalizedRank": 13
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 111.38,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0536,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -143,10 +146,11 @@
       "team": "DET",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.6018,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0473,
-        "intPct": 0.0273,
+        "completionPctAllowed": 0.6341,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 223.62,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 0.94,
         "normalizedRank": 28
       },
       "eraNormFactor": 1.0

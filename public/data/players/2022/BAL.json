@@ -181,9 +181,12 @@
       "team": "BAL",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.89,
-        "rushYPCAllowed": 3.8,
-        "rushTDPctAllowed": 0.0282,
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 92.12,
+        "rushTDPerGameAllowed": 0.65,
+        "sackPct": 0.0809,
+        "blitzPct": 0.213,
+        "pressurePct": 0.192,
         "normalizedRank": 3
       },
       "eraNormFactor": 1.0
@@ -194,11 +197,12 @@
       "team": "BAL",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6132,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.0309,
-        "intPct": 0.0206,
-        "normalizedRank": 18
+        "completionPctAllowed": 0.6644,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 232.18,
+        "passTDPerGameAllowed": 1.18,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

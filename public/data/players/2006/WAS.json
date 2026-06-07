@@ -132,10 +132,13 @@
       "team": "WAS",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 1.25,
-        "rushYPCAllowed": 4.47,
-        "rushTDPctAllowed": 0.0183,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 137.31,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0391,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "WAS",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5697,
-        "yardsPerAttemptAllowed": 6.97,
-        "tdPctAllowed": 0.057,
-        "intPct": 0.0118,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.5947,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 218.19,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.38,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

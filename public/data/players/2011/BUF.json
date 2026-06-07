@@ -130,10 +130,13 @@
       "team": "BUF",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 4.75,
-        "rushTDPctAllowed": 0.0406,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 139.0,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0572,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "BUF",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5989,
-        "yardsPerAttemptAllowed": 7.32,
-        "tdPctAllowed": 0.056,
-        "intPct": 0.0373,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6331,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 232.12,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

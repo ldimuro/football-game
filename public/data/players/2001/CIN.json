@@ -166,10 +166,13 @@
       "team": "CIN",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 3.0,
         "rushYPCAllowed": 3.7,
-        "rushTDPctAllowed": 0.0221,
-        "normalizedRank": 10
+        "rushYPGAllowed": 104.69,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0938,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "CIN",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5514,
-        "yardsPerAttemptAllowed": 6.16,
-        "tdPctAllowed": 0.0408,
-        "intPct": 0.023,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6074,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 197.31,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

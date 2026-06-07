@@ -154,10 +154,13 @@
       "team": "NE",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 3.18,
-        "rushYPCAllowed": 4.06,
-        "rushTDPctAllowed": 0.0158,
-        "normalizedRank": 4
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 105.47,
+        "rushTDPerGameAllowed": 0.41,
+        "sackPct": 0.0906,
+        "blitzPct": 0.219,
+        "pressurePct": 0.24,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "NE",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5583,
-        "yardsPerAttemptAllowed": 6.18,
-        "tdPctAllowed": 0.0429,
-        "intPct": 0.0291,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.6107,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 216.53,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

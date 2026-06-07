@@ -166,10 +166,13 @@
       "team": "GB",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 4.01,
-        "rushTDPctAllowed": 0.0199,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 125.62,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0814,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "GB",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5385,
-        "yardsPerAttemptAllowed": 6.15,
-        "tdPctAllowed": 0.047,
-        "intPct": 0.0214,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.586,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 167.5,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     }

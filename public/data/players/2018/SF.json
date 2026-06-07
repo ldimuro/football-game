@@ -181,10 +181,13 @@
       "team": "SF",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.07,
-        "rushTDPctAllowed": 0.0293,
-        "normalizedRank": 6
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 113.38,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0683,
+        "blitzPct": 0.204,
+        "pressurePct": 0.291,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -194,11 +197,12 @@
       "team": "SF",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.5921,
-        "yardsPerAttemptAllowed": 6.81,
-        "tdPctAllowed": 0.0602,
-        "intPct": 0.0034,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6347,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 233.25,
+        "passTDPerGameAllowed": 2.19,
+        "interceptionsPerGame": 0.12,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

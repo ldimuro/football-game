@@ -130,10 +130,13 @@
       "team": "TB",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 3.89,
-        "rushTDPctAllowed": 0.0133,
-        "normalizedRank": 11
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 109.75,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.0758,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "TB",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5362,
-        "yardsPerAttemptAllowed": 5.76,
-        "tdPctAllowed": 0.0313,
-        "intPct": 0.0391,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.5768,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 169.38,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

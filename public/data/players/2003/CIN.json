@@ -143,10 +143,13 @@
       "team": "CIN",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.79,
-        "rushTDPctAllowed": 0.039,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 138.62,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0591,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "CIN",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.548,
-        "yardsPerAttemptAllowed": 6.64,
-        "tdPctAllowed": 0.0424,
-        "intPct": 0.0258,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.5846,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 212.62,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

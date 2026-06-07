@@ -156,10 +156,13 @@
       "team": "DEN",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 3.47,
-        "rushYPCAllowed": 3.35,
-        "rushTDPctAllowed": 0.0275,
-        "normalizedRank": 1
+        "rushYPCAllowed": 3.3,
+        "rushYPGAllowed": 83.56,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0908,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -169,10 +172,11 @@
       "team": "DEN",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5322,
-        "yardsPerAttemptAllowed": 5.74,
-        "tdPctAllowed": 0.0258,
-        "intPct": 0.0219,
+        "completionPctAllowed": 0.6003,
+        "yardsPerAttemptAllowed": 5.1,
+        "passYPGAllowed": 199.56,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.88,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

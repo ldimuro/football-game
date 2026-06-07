@@ -170,10 +170,13 @@
       "team": "CLE",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 1.81,
         "rushYPCAllowed": 4.1,
-        "rushTDPctAllowed": 0.0139,
-        "normalizedRank": 12
+        "rushYPGAllowed": 129.38,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0572,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -183,11 +186,12 @@
       "team": "CLE",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5765,
-        "yardsPerAttemptAllowed": 6.92,
-        "tdPctAllowed": 0.0485,
-        "intPct": 0.0354,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6095,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 220.69,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

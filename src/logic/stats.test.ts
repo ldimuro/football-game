@@ -66,7 +66,7 @@ describe('computeAggregateStats', () => {
       },
       Secondary: {
         id: 's1', position: 'Secondary', team: 'XX', year: 2020,
-        stats: { completionPctAllowed: 0.62, yardsPerAttemptAllowed: 6.5, tdPctAllowed: 0.035, intPct: 0.03, normalizedRank: 5 },
+        stats: { completionPctAllowed: 0.62, yardsPerAttemptAllowed: 6.5, passYPGAllowed: 215.0, passTDPerGameAllowed: 1.3, interceptionsPerGame: 1.0, normalizedRank: 5 },
         eraNormFactor: 1.0,
       },
     }

@@ -144,10 +144,13 @@
       "team": "GB",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.76,
-        "rushYPCAllowed": 4.69,
-        "rushTDPctAllowed": 0.0368,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 125.0,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0816,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     },
@@ -157,10 +160,11 @@
       "team": "GB",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5631,
-        "yardsPerAttemptAllowed": 7.15,
-        "tdPctAllowed": 0.0502,
-        "intPct": 0.0194,
+        "completionPctAllowed": 0.616,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 247.25,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.69,
         "normalizedRank": 24
       },
       "eraNormFactor": 1.0

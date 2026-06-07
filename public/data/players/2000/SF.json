@@ -131,10 +131,13 @@
       "team": "SF",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.11,
-        "rushTDPctAllowed": 0.0503,
-        "normalizedRank": 18
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 112.12,
+        "rushTDPerGameAllowed": 1.38,
+        "sackPct": 0.0681,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -144,10 +147,11 @@
       "team": "SF",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5369,
-        "yardsPerAttemptAllowed": 7.02,
-        "tdPctAllowed": 0.0419,
-        "intPct": 0.0218,
+        "completionPctAllowed": 0.5735,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 244.69,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.81,
         "normalizedRank": 29
       },
       "eraNormFactor": 1.0

@@ -156,9 +156,12 @@
       "team": "NO",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 1.62,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.0319,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 134.06,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0598,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0
@@ -169,11 +172,12 @@
       "team": "NO",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5428,
-        "yardsPerAttemptAllowed": 6.79,
-        "tdPctAllowed": 0.045,
-        "intPct": 0.0225,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.5766,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 178.06,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     }

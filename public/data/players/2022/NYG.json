@@ -155,10 +155,13 @@
       "team": "NYG",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.21,
-        "rushYPCAllowed": 5.25,
-        "rushTDPctAllowed": 0.0377,
-        "normalizedRank": 31
+        "rushYPCAllowed": 5.2,
+        "rushYPGAllowed": 144.18,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0722,
+        "blitzPct": 0.397,
+        "pressurePct": 0.243,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "NYG",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.589,
-        "yardsPerAttemptAllowed": 6.43,
-        "tdPctAllowed": 0.0371,
-        "intPct": 0.0089,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.6144,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 214.0,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 0.35,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

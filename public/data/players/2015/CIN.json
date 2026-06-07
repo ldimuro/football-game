@@ -133,10 +133,13 @@
       "team": "CIN",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.71,
-        "rushYPCAllowed": 4.41,
-        "rushTDPctAllowed": 0.0214,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 92.31,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.065,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "CIN",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5951,
-        "yardsPerAttemptAllowed": 6.16,
-        "tdPctAllowed": 0.026,
-        "intPct": 0.0301,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.6424,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 248.5,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

@@ -183,10 +183,13 @@
       "team": "BAL",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.0,
         "rushYPCAllowed": 3.8,
-        "rushTDPctAllowed": 0.0344,
-        "normalizedRank": 3
+        "rushYPGAllowed": 84.47,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.0548,
+        "blitzPct": 0.311,
+        "pressurePct": 0.228,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     },
@@ -196,10 +199,11 @@
       "team": "BAL",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6015,
-        "yardsPerAttemptAllowed": 7.55,
-        "tdPctAllowed": 0.047,
-        "intPct": 0.0136,
+        "completionPctAllowed": 0.6393,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 278.94,
+        "passTDPerGameAllowed": 1.82,
+        "interceptionsPerGame": 0.53,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

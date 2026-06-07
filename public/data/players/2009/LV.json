@@ -157,10 +157,13 @@
       "team": "LV",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.54,
-        "rushTDPctAllowed": 0.0438,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 155.5,
+        "rushTDPerGameAllowed": 1.5,
+        "sackPct": 0.0845,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "LV",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5464,
-        "yardsPerAttemptAllowed": 7.45,
-        "tdPctAllowed": 0.0338,
-        "intPct": 0.0169,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.5913,
+        "yardsPerAttemptAllowed": 7.0,
+        "passYPGAllowed": 206.44,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

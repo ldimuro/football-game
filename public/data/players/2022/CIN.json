@@ -143,10 +143,13 @@
       "team": "CIN",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 1.89,
-        "rushYPCAllowed": 4.08,
-        "rushTDPctAllowed": 0.027,
-        "normalizedRank": 5
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 106.62,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0537,
+        "blitzPct": 0.204,
+        "pressurePct": 0.224,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "CIN",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5626,
-        "yardsPerAttemptAllowed": 6.53,
-        "tdPctAllowed": 0.0295,
-        "intPct": 0.0211,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.5886,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 229.06,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

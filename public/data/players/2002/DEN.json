@@ -144,10 +144,13 @@
       "team": "DEN",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 3.93,
-        "rushTDPctAllowed": 0.0554,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 93.06,
+        "rushTDPerGameAllowed": 1.31,
+        "sackPct": 0.0707,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "DEN",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5902,
-        "yardsPerAttemptAllowed": 5.88,
-        "tdPctAllowed": 0.0246,
-        "intPct": 0.0148,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.636,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 208.56,
+        "passTDPerGameAllowed": 0.94,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

@@ -143,10 +143,13 @@
       "team": "ARI",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.58,
-        "rushTDPctAllowed": 0.0377,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 94.88,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0878,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "ARI",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.5772,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0352,
-        "intPct": 0.0235,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.6289,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 210.31,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

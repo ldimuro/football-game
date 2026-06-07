@@ -180,9 +180,12 @@
       "team": "WAS",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.01,
-        "rushTDPctAllowed": 0.032,
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 109.62,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0753,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 12
       },
       "eraNormFactor": 1.0
@@ -193,11 +196,12 @@
       "team": "WAS",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5315,
-        "yardsPerAttemptAllowed": 5.74,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0245,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.5725,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 189.56,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

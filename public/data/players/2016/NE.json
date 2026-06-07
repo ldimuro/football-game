@@ -155,10 +155,13 @@
       "team": "NE",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.21,
-        "rushYPCAllowed": 3.92,
-        "rushTDPctAllowed": 0.0186,
-        "normalizedRank": 10
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 88.56,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.057,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "NE",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.5838,
-        "yardsPerAttemptAllowed": 6.42,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0226,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.6174,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 237.88,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

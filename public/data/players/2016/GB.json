@@ -166,10 +166,13 @@
       "team": "GB",
       "year": 2016,
       "stats": {
-        "sacksPerGame": 2.32,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.0288,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 94.69,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0701,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "GB",
       "year": 2016,
       "stats": {
-        "completionPctAllowed": 0.6033,
-        "yardsPerAttemptAllowed": 7.6,
-        "tdPctAllowed": 0.0543,
-        "intPct": 0.0258,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.648,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 269.25,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

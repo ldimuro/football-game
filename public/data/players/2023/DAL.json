@@ -133,10 +133,13 @@
       "team": "DAL",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.16,
-        "rushTDPctAllowed": 0.0345,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 112.35,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0904,
+        "blitzPct": 0.285,
+        "pressurePct": 0.213,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "DAL",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5586,
-        "yardsPerAttemptAllowed": 6.47,
-        "tdPctAllowed": 0.0414,
-        "intPct": 0.0293,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.6051,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 187.35,
+        "passTDPerGameAllowed": 1.24,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

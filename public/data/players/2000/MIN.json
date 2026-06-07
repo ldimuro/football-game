@@ -133,10 +133,13 @@
       "team": "MIN",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 1.89,
-        "rushYPCAllowed": 4.37,
-        "rushTDPctAllowed": 0.0372,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 111.75,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0531,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -146,11 +149,12 @@
       "team": "MIN",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.6045,
-        "yardsPerAttemptAllowed": 6.79,
-        "tdPctAllowed": 0.0424,
-        "intPct": 0.0169,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6318,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 244.56,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.5,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

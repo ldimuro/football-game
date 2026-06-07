@@ -154,10 +154,13 @@
       "team": "BUF",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 1.31,
-        "rushYPCAllowed": 4.37,
-        "rushTDPctAllowed": 0.0253,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 108.12,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0349,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "BUF",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5543,
-        "yardsPerAttemptAllowed": 6.54,
-        "tdPctAllowed": 0.0479,
-        "intPct": 0.0272,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5764,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 248.25,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

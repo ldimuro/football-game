@@ -142,10 +142,13 @@
       "team": "DEN",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.47,
-        "rushYPCAllowed": 4.96,
-        "rushTDPctAllowed": 0.0319,
-        "normalizedRank": 32
+        "rushYPCAllowed": 5.0,
+        "rushYPGAllowed": 137.12,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0734,
+        "blitzPct": 0.35,
+        "pressurePct": 0.182,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "DEN",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6191,
-        "yardsPerAttemptAllowed": 6.97,
-        "tdPctAllowed": 0.047,
-        "intPct": 0.0178,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6678,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 233.65,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

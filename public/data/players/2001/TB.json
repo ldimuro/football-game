@@ -118,10 +118,13 @@
       "team": "TB",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.65,
-        "rushYPCAllowed": 4.15,
-        "rushTDPctAllowed": 0.0202,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 106.38,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0852,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "TB",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5115,
-        "yardsPerAttemptAllowed": 6.05,
-        "tdPctAllowed": 0.0389,
-        "intPct": 0.0513,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5538,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 184.44,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.75,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

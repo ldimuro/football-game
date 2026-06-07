@@ -130,10 +130,13 @@
       "team": "ARI",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.63,
-        "rushTDPctAllowed": 0.0265,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 131.56,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0752,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "ARI",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.4963,
-        "yardsPerAttemptAllowed": 5.99,
-        "tdPctAllowed": 0.033,
-        "intPct": 0.0275,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5366,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 189.75,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

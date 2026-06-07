@@ -132,10 +132,13 @@
       "team": "MIN",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 4.68,
-        "rushTDPctAllowed": 0.0316,
-        "normalizedRank": 31
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 130.71,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0815,
+        "blitzPct": 0.261,
+        "pressurePct": 0.259,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "MIN",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5871,
-        "yardsPerAttemptAllowed": 6.85,
-        "tdPctAllowed": 0.0425,
-        "intPct": 0.0234,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6406,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 252.94,
+        "passTDPerGameAllowed": 1.71,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

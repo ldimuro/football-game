@@ -168,10 +168,13 @@
       "team": "MIA",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.78,
-        "rushTDPctAllowed": 0.035,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 145.31,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.061,
+        "blitzPct": 0.258,
+        "pressurePct": 0.258,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "MIA",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.6204,
-        "yardsPerAttemptAllowed": 7.67,
-        "tdPctAllowed": 0.0574,
-        "intPct": 0.0389,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6594,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 245.75,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

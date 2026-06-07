@@ -143,10 +143,13 @@
       "team": "JAX",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 0.88,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.0261,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 116.44,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0275,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -156,10 +159,11 @@
       "team": "JAX",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.6522,
-        "yardsPerAttemptAllowed": 7.28,
-        "tdPctAllowed": 0.0529,
-        "intPct": 0.0284,
+        "completionPctAllowed": 0.6765,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 235.88,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 0.94,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0

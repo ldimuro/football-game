@@ -142,10 +142,13 @@
       "team": "CIN",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 1.69,
-        "rushYPCAllowed": 4.43,
-        "rushTDPctAllowed": 0.0361,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 115.19,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0525,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "CIN",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.6015,
-        "yardsPerAttemptAllowed": 6.73,
-        "tdPctAllowed": 0.0387,
-        "intPct": 0.0295,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6342,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 216.81,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

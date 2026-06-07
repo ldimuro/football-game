@@ -168,10 +168,13 @@
       "team": "CLE",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 1.81,
-        "rushYPCAllowed": 4.48,
-        "rushTDPctAllowed": 0.024,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 128.44,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0568,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "CLE",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.593,
-        "yardsPerAttemptAllowed": 7.68,
-        "tdPctAllowed": 0.0626,
-        "intPct": 0.0203,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6301,
+        "yardsPerAttemptAllowed": 7.4,
+        "passYPGAllowed": 250.75,
+        "passTDPerGameAllowed": 2.12,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

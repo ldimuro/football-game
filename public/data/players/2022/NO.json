@@ -166,10 +166,13 @@
       "team": "NO",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.82,
-        "rushYPCAllowed": 4.48,
-        "rushTDPctAllowed": 0.0283,
-        "normalizedRank": 20
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 130.47,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0896,
+        "blitzPct": 0.168,
+        "pressurePct": 0.175,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -179,10 +182,11 @@
       "team": "NO",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5486,
-        "yardsPerAttemptAllowed": 5.81,
-        "tdPctAllowed": 0.029,
-        "intPct": 0.0119,
+        "completionPctAllowed": 0.6007,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 184.35,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 0.41,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0

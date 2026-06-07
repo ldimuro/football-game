@@ -135,10 +135,13 @@
       "team": "BAL",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.82,
-        "rushYPCAllowed": 3.51,
-        "rushTDPctAllowed": 0.0143,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 96.0,
+        "rushTDPerGameAllowed": 0.38,
+        "sackPct": 0.0885,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -148,11 +151,12 @@
       "team": "BAL",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.515,
-        "yardsPerAttemptAllowed": 5.51,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0449,
-        "normalizedRank": 3
+        "completionPctAllowed": 0.5574,
+        "yardsPerAttemptAllowed": 4.9,
+        "passYPGAllowed": 175.31,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.5,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

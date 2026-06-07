@@ -118,10 +118,13 @@
       "team": "SF",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 3.75,
-        "rushTDPctAllowed": 0.0389,
-        "normalizedRank": 11
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 114.5,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0486,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -131,10 +134,11 @@
       "team": "SF",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.6161,
-        "yardsPerAttemptAllowed": 7.61,
-        "tdPctAllowed": 0.0461,
-        "intPct": 0.0264,
+        "completionPctAllowed": 0.6493,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 276.69,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 1.0,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

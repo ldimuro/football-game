@@ -156,10 +156,13 @@
       "team": "CIN",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.42,
-        "rushTDPctAllowed": 0.0417,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 124.82,
+        "rushTDPerGameAllowed": 1.18,
+        "sackPct": 0.0628,
+        "blitzPct": 0.217,
+        "pressurePct": 0.232,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "CIN",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6088,
-        "yardsPerAttemptAllowed": 6.57,
-        "tdPctAllowed": 0.0491,
-        "intPct": 0.0245,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6492,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 223.47,
+        "passTDPerGameAllowed": 1.76,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

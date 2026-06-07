@@ -131,9 +131,12 @@
       "team": "CLE",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.98,
-        "rushTDPctAllowed": 0.0409,
+        "rushYPCAllowed": 5.0,
+        "rushYPGAllowed": 144.69,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0741,
+        "blitzPct": 0.382,
+        "pressurePct": 0.238,
         "normalizedRank": 30
       },
       "eraNormFactor": 1.0
@@ -144,11 +147,12 @@
       "team": "CLE",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5771,
-        "yardsPerAttemptAllowed": 6.79,
-        "tdPctAllowed": 0.0454,
-        "intPct": 0.0254,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6199,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 216.88,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

@@ -145,10 +145,13 @@
       "team": "NE",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.68,
-        "rushYPCAllowed": 4.44,
-        "rushTDPctAllowed": 0.0296,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 117.12,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0646,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     },
@@ -158,11 +161,12 @@
       "team": "NE",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5783,
-        "yardsPerAttemptAllowed": 7.39,
-        "tdPctAllowed": 0.0375,
-        "intPct": 0.031,
-        "normalizedRank": 28
+        "completionPctAllowed": 0.6236,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 293.94,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 1.44,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

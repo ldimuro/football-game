@@ -168,10 +168,13 @@
       "team": "BAL",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.08,
-        "rushTDPctAllowed": 0.0275,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 111.25,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0721,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "BAL",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.545,
-        "yardsPerAttemptAllowed": 6.06,
-        "tdPctAllowed": 0.0295,
-        "intPct": 0.036,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.5852,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 213.81,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.38,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

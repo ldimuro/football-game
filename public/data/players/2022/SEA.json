@@ -155,10 +155,13 @@
       "team": "SEA",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.88,
-        "rushTDPctAllowed": 0.0393,
-        "normalizedRank": 26
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 150.24,
+        "rushTDPerGameAllowed": 1.24,
+        "sackPct": 0.0823,
+        "blitzPct": 0.152,
+        "pressurePct": 0.208,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "SEA",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.5776,
-        "yardsPerAttemptAllowed": 6.76,
-        "tdPctAllowed": 0.0416,
-        "intPct": 0.0224,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6271,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 211.47,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 0.82,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

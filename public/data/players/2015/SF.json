@@ -168,10 +168,13 @@
       "team": "SF",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.01,
-        "rushTDPctAllowed": 0.0397,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 126.25,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.051,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "SF",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.6454,
-        "yardsPerAttemptAllowed": 7.53,
-        "tdPctAllowed": 0.0361,
-        "intPct": 0.0155,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6831,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 261.19,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

@@ -118,10 +118,13 @@
       "team": "LAC",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.61,
-        "rushYPCAllowed": 3.95,
-        "rushTDPctAllowed": 0.0316,
-        "normalizedRank": 13
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 102.56,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0463,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "LAC",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.6398,
-        "yardsPerAttemptAllowed": 6.47,
-        "tdPctAllowed": 0.0381,
-        "intPct": 0.0212,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6793,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 247.38,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

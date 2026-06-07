@@ -131,9 +131,12 @@
       "team": "TB",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 1.69,
-        "rushYPCAllowed": 3.49,
-        "rushTDPctAllowed": 0.0344,
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 82.5,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0431,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -144,11 +147,12 @@
       "team": "TB",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.625,
-        "yardsPerAttemptAllowed": 7.55,
-        "tdPctAllowed": 0.0457,
-        "intPct": 0.0274,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6539,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 297.38,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     }

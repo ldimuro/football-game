@@ -156,10 +156,13 @@
       "team": "ATL",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.47,
-        "rushYPCAllowed": 4.03,
-        "rushTDPctAllowed": 0.022,
-        "normalizedRank": 9
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 118.18,
+        "rushTDPerGameAllowed": 0.65,
+        "sackPct": 0.0765,
+        "blitzPct": 0.239,
+        "pressurePct": 0.23,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "ATL",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5734,
-        "yardsPerAttemptAllowed": 6.25,
-        "tdPctAllowed": 0.0405,
-        "intPct": 0.0135,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.6193,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 202.88,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 0.47,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

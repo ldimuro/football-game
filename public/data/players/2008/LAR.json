@@ -7,10 +7,13 @@
       "team": "LAR",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.045,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.9,
+        "rushYPGAllowed": 154.69,
+        "rushTDPerGameAllowed": 1.62,
+        "sackPct": 0.0676,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -20,11 +23,12 @@
       "team": "LAR",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.635,
-        "yardsPerAttemptAllowed": 7.0,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.025,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6261,
+        "yardsPerAttemptAllowed": 7.3,
+        "passYPGAllowed": 217.19,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

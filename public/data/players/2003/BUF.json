@@ -118,10 +118,13 @@
       "team": "BUF",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 3.44,
-        "rushTDPctAllowed": 0.0236,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 100.38,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0748,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "BUF",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5219,
-        "yardsPerAttemptAllowed": 5.36,
-        "tdPctAllowed": 0.0328,
-        "intPct": 0.0182,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.561,
+        "yardsPerAttemptAllowed": 5.0,
+        "passYPGAllowed": 169.19,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

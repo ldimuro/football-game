@@ -156,10 +156,13 @@
       "team": "KC",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.8,
-        "rushYPCAllowed": 4.64,
-        "rushTDPctAllowed": 0.0326,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 117.59,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0508,
+        "blitzPct": 0.281,
+        "pressurePct": 0.262,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "KC",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6226,
-        "yardsPerAttemptAllowed": 6.84,
-        "tdPctAllowed": 0.0454,
-        "intPct": 0.0208,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6574,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 251.35,
+        "passTDPerGameAllowed": 1.59,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

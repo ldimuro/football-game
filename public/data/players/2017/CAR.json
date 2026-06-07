@@ -142,10 +142,13 @@
       "team": "CAR",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.86,
-        "rushTDPctAllowed": 0.0239,
-        "normalizedRank": 8
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 88.06,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0909,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "CAR",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.589,
-        "yardsPerAttemptAllowed": 6.84,
-        "tdPctAllowed": 0.0425,
-        "intPct": 0.0173,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6382,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 229.06,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     }

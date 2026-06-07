@@ -155,10 +155,13 @@
       "team": "MIN",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.33,
-        "rushYPCAllowed": 4.54,
-        "rushTDPctAllowed": 0.0327,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 125.38,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0717,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "MIN",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5817,
-        "yardsPerAttemptAllowed": 7.07,
-        "tdPctAllowed": 0.0504,
-        "intPct": 0.0229,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6213,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 243.5,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

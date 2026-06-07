@@ -195,10 +195,13 @@
       "team": "CAR",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.26,
-        "rushTDPctAllowed": 0.0348,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 122.65,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0603,
+        "blitzPct": 0.292,
+        "pressurePct": 0.198,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -208,11 +211,12 @@
       "team": "CAR",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6197,
-        "yardsPerAttemptAllowed": 6.63,
-        "tdPctAllowed": 0.0405,
-        "intPct": 0.0162,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6603,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 227.53,
+        "passTDPerGameAllowed": 1.47,
+        "interceptionsPerGame": 0.59,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

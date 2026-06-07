@@ -156,10 +156,13 @@
       "team": "DAL",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.96,
-        "rushTDPctAllowed": 0.0391,
-        "normalizedRank": 30
+        "rushYPCAllowed": 5.0,
+        "rushYPGAllowed": 158.81,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.0604,
+        "blitzPct": 0.228,
+        "pressurePct": 0.228,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "DAL",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5964,
-        "yardsPerAttemptAllowed": 6.95,
-        "tdPctAllowed": 0.0618,
-        "intPct": 0.0182,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6394,
+        "yardsPerAttemptAllowed": 6.7,
+        "passYPGAllowed": 227.62,
+        "passTDPerGameAllowed": 2.12,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

@@ -157,10 +157,13 @@
       "team": "KC",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.62,
-        "rushTDPctAllowed": 0.0316,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 122.12,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0575,
+        "blitzPct": 0.357,
+        "pressurePct": 0.246,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "KC",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5896,
-        "yardsPerAttemptAllowed": 6.53,
-        "tdPctAllowed": 0.049,
-        "intPct": 0.0252,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.6266,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 236.19,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

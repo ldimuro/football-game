@@ -130,10 +130,13 @@
       "team": "DET",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.33,
-        "rushTDPctAllowed": 0.0333,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 113.94,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0515,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DET",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.5428,
-        "yardsPerAttemptAllowed": 5.88,
-        "tdPctAllowed": 0.0279,
-        "intPct": 0.0436,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.5717,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 200.62,
+        "passTDPerGameAllowed": 1.0,
+        "interceptionsPerGame": 1.56,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

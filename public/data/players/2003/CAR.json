@@ -106,10 +106,13 @@
       "team": "CAR",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.45,
-        "rushYPCAllowed": 3.94,
-        "rushTDPctAllowed": 0.0241,
-        "normalizedRank": 12
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 107.62,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0766,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     },
@@ -119,11 +122,12 @@
       "team": "CAR",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.5351,
-        "yardsPerAttemptAllowed": 5.73,
-        "tdPctAllowed": 0.0297,
-        "intPct": 0.0338,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5728,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 187.69,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

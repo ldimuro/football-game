@@ -119,10 +119,13 @@
       "team": "HOU",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.39,
-        "rushTDPctAllowed": 0.0359,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 122.25,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0554,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -132,11 +135,12 @@
       "team": "HOU",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.6154,
-        "yardsPerAttemptAllowed": 6.82,
-        "tdPctAllowed": 0.0413,
-        "intPct": 0.0206,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6495,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 215.25,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 22
       },
       "eraNormFactor": 1.0
     }

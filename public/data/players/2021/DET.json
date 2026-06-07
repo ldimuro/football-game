@@ -154,10 +154,13 @@
       "team": "DET",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.76,
-        "rushYPCAllowed": 4.41,
-        "rushTDPctAllowed": 0.0365,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 135.06,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0551,
+        "blitzPct": 0.273,
+        "pressurePct": 0.205,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "DET",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6211,
-        "yardsPerAttemptAllowed": 7.54,
-        "tdPctAllowed": 0.0536,
-        "intPct": 0.019,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6599,
+        "yardsPerAttemptAllowed": 7.2,
+        "passYPGAllowed": 244.71,
+        "passTDPerGameAllowed": 1.82,
+        "interceptionsPerGame": 0.65,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

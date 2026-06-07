@@ -131,10 +131,13 @@
       "team": "ARI",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.88,
-        "rushTDPctAllowed": 0.0302,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 110.25,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.06,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -144,10 +147,11 @@
       "team": "ARI",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.582,
-        "yardsPerAttemptAllowed": 6.68,
-        "tdPctAllowed": 0.0603,
-        "intPct": 0.0309,
+        "completionPctAllowed": 0.6248,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 221.25,
+        "passTDPerGameAllowed": 2.25,
+        "interceptionsPerGame": 0.81,
         "normalizedRank": 22
       },
       "eraNormFactor": 1.0

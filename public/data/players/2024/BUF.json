@@ -168,10 +168,13 @@
       "team": "BUF",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 4.54,
-        "rushTDPctAllowed": 0.0328,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 115.47,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.0675,
+        "blitzPct": 0.191,
+        "pressurePct": 0.236,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "BUF",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6353,
-        "yardsPerAttemptAllowed": 6.78,
-        "tdPctAllowed": 0.0456,
-        "intPct": 0.0242,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6851,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 226.06,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

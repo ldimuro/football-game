@@ -218,10 +218,13 @@
       "team": "MIA",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.52,
-        "rushTDPctAllowed": 0.0413,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 116.38,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0752,
+        "blitzPct": 0.408,
+        "pressurePct": 0.248,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -231,11 +234,12 @@
       "team": "MIA",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.5853,
-        "yardsPerAttemptAllowed": 7.46,
-        "tdPctAllowed": 0.0358,
-        "intPct": 0.0307,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6294,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 251.5,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

@@ -132,9 +132,12 @@
       "team": "SEA",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.01,
-        "rushTDPctAllowed": 0.021,
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 107.56,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0675,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 15
       },
       "eraNormFactor": 1.0
@@ -145,11 +148,12 @@
       "team": "SEA",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5631,
-        "yardsPerAttemptAllowed": 6.2,
-        "tdPctAllowed": 0.0332,
-        "intPct": 0.0233,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6021,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 217.81,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

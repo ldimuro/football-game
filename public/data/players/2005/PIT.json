@@ -130,10 +130,13 @@
       "team": "PIT",
       "year": 2005,
       "stats": {
-        "sacksPerGame": 3.1,
-        "rushYPCAllowed": 3.61,
-        "rushTDPctAllowed": 0.0269,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.4,
+        "rushYPGAllowed": 86.0,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0856,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "PIT",
       "year": 2005,
       "stats": {
-        "completionPctAllowed": 0.5273,
-        "yardsPerAttemptAllowed": 5.88,
-        "tdPctAllowed": 0.0247,
-        "intPct": 0.026,
-        "normalizedRank": 5
+        "completionPctAllowed": 0.5738,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 198.0,
+        "passTDPerGameAllowed": 0.94,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

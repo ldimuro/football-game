@@ -143,10 +143,13 @@
       "team": "MIN",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.83,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.0289,
-        "normalizedRank": 4
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 93.41,
+        "rushTDPerGameAllowed": 0.71,
+        "sackPct": 0.0769,
+        "blitzPct": 0.389,
+        "pressurePct": 0.253,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "MIN",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6028,
-        "yardsPerAttemptAllowed": 6.48,
-        "tdPctAllowed": 0.0361,
-        "intPct": 0.0333,
-        "normalizedRank": 11
+        "completionPctAllowed": 0.6515,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 242.0,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 1.41,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

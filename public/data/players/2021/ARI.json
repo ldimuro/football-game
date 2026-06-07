@@ -142,10 +142,13 @@
       "team": "ARI",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.33,
-        "rushYPCAllowed": 4.5,
-        "rushTDPctAllowed": 0.0237,
-        "normalizedRank": 25
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 114.82,
+        "rushTDPerGameAllowed": 0.59,
+        "sackPct": 0.0731,
+        "blitzPct": 0.336,
+        "pressurePct": 0.259,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "ARI",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6106,
-        "yardsPerAttemptAllowed": 6.59,
-        "tdPctAllowed": 0.0513,
-        "intPct": 0.0208,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6542,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 214.41,
+        "passTDPerGameAllowed": 1.76,
+        "interceptionsPerGame": 0.76,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     }

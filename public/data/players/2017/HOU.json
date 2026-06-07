@@ -181,10 +181,13 @@
       "team": "HOU",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.97,
-        "rushTDPctAllowed": 0.0318,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 109.19,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0639,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -194,11 +197,12 @@
       "team": "HOU",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.6,
-        "yardsPerAttemptAllowed": 7.47,
-        "tdPctAllowed": 0.0561,
-        "intPct": 0.0206,
-        "normalizedRank": 30
+        "completionPctAllowed": 0.6407,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 237.44,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

@@ -146,10 +146,13 @@
       "team": "CAR",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 1.44,
-        "rushYPCAllowed": 3.75,
-        "rushTDPctAllowed": 0.0275,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 110.69,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0428,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -159,11 +162,12 @@
       "team": "CAR",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.6018,
-        "yardsPerAttemptAllowed": 6.43,
-        "tdPctAllowed": 0.0393,
-        "intPct": 0.025,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.6276,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 214.12,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

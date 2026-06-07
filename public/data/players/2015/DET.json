@@ -130,10 +130,13 @@
       "team": "DET",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.69,
-        "rushYPCAllowed": 4.21,
-        "rushTDPctAllowed": 0.042,
-        "normalizedRank": 21
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 113.0,
+        "rushTDPerGameAllowed": 1.12,
+        "sackPct": 0.0814,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DET",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.6283,
-        "yardsPerAttemptAllowed": 7.09,
-        "tdPctAllowed": 0.0471,
-        "intPct": 0.0157,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6818,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 236.81,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

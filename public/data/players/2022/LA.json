@@ -32,10 +32,13 @@
       "team": "LA",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.24,
-        "rushYPCAllowed": 4.28,
-        "rushTDPctAllowed": 0.0263,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 115.06,
+        "rushTDPerGameAllowed": 0.71,
+        "sackPct": 0.0683,
+        "blitzPct": 0.268,
+        "pressurePct": 0.179,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     },
@@ -45,11 +48,12 @@
       "team": "LA",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6303,
-        "yardsPerAttemptAllowed": 6.88,
-        "tdPctAllowed": 0.0387,
-        "intPct": 0.0269,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6745,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 226.0,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

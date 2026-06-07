@@ -167,10 +167,13 @@
       "team": "LAC",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.94,
-        "rushYPCAllowed": 3.71,
-        "rushTDPctAllowed": 0.0347,
-        "normalizedRank": 6
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 93.75,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0963,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     },
@@ -180,10 +183,11 @@
       "team": "LAC",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5307,
-        "yardsPerAttemptAllowed": 5.84,
-        "tdPctAllowed": 0.0335,
-        "intPct": 0.0298,
+        "completionPctAllowed": 0.584,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 177.81,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

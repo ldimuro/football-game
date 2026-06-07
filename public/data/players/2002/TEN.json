@@ -130,10 +130,13 @@
       "team": "TEN",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.28,
-        "rushYPCAllowed": 3.85,
-        "rushTDPctAllowed": 0.0244,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 89.0,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0712,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "TEN",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.563,
-        "yardsPerAttemptAllowed": 6.23,
-        "tdPctAllowed": 0.0463,
-        "intPct": 0.0275,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6032,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 221.25,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

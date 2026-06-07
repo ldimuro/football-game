@@ -131,10 +131,13 @@
       "team": "CLE",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 4.15,
-        "rushTDPctAllowed": 0.0306,
-        "normalizedRank": 13
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 118.62,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0633,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "CLE",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.5915,
-        "yardsPerAttemptAllowed": 6.5,
-        "tdPctAllowed": 0.0423,
-        "intPct": 0.0266,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.63,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 245.19,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

@@ -157,10 +157,13 @@
       "team": "PIT",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.28,
-        "rushYPCAllowed": 4.28,
-        "rushTDPctAllowed": 0.0346,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 98.71,
+        "rushTDPerGameAllowed": 0.82,
+        "sackPct": 0.0687,
+        "blitzPct": 0.259,
+        "pressurePct": 0.22,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -170,11 +173,12 @@
       "team": "PIT",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.6114,
-        "yardsPerAttemptAllowed": 6.65,
-        "tdPctAllowed": 0.0384,
-        "intPct": 0.0261,
-        "normalizedRank": 20
+        "completionPctAllowed": 0.6564,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 228.0,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

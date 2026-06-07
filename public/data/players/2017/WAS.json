@@ -154,10 +154,13 @@
       "team": "WAS",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.69,
-        "rushYPCAllowed": 4.46,
-        "rushTDPctAllowed": 0.0274,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 134.12,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0791,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "WAS",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5285,
-        "yardsPerAttemptAllowed": 6.38,
-        "tdPctAllowed": 0.0397,
-        "intPct": 0.0276,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.5763,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 213.75,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

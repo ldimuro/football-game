@@ -168,10 +168,13 @@
       "team": "IND",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.59,
-        "rushYPCAllowed": 4.13,
-        "rushTDPctAllowed": 0.0391,
-        "normalizedRank": 7
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 124.06,
+        "rushTDPerGameAllowed": 1.18,
+        "sackPct": 0.0819,
+        "blitzPct": 0.164,
+        "pressurePct": 0.22,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "IND",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6207,
-        "yardsPerAttemptAllowed": 6.52,
-        "tdPctAllowed": 0.0425,
-        "intPct": 0.017,
-        "normalizedRank": 15
+        "completionPctAllowed": 0.6797,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 209.94,
+        "passTDPerGameAllowed": 1.47,
+        "interceptionsPerGame": 0.59,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

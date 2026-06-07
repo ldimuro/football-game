@@ -156,10 +156,13 @@
       "team": "NYJ",
       "year": 2014,
       "stats": {
-        "sacksPerGame": 2.81,
-        "rushYPCAllowed": 3.79,
-        "rushTDPctAllowed": 0.0254,
-        "normalizedRank": 6
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 93.06,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0836,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "NYJ",
       "year": 2014,
       "stats": {
-        "completionPctAllowed": 0.5908,
-        "yardsPerAttemptAllowed": 6.95,
-        "tdPctAllowed": 0.0531,
-        "intPct": 0.0103,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6413,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 234.12,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.38,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     }

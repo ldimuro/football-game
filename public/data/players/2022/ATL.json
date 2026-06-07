@@ -169,10 +169,13 @@
       "team": "ATL",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 1.24,
         "rushYPCAllowed": 4.4,
-        "rushTDPctAllowed": 0.0298,
-        "normalizedRank": 17
+        "rushYPGAllowed": 130.24,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0374,
+        "blitzPct": 0.163,
+        "pressurePct": 0.146,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -182,11 +185,12 @@
       "team": "ATL",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.637,
-        "yardsPerAttemptAllowed": 7.0,
-        "tdPctAllowed": 0.0445,
-        "intPct": 0.0171,
-        "normalizedRank": 29
+        "completionPctAllowed": 0.6631,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 231.88,
+        "passTDPerGameAllowed": 1.53,
+        "interceptionsPerGame": 0.59,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

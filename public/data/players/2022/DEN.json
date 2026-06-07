@@ -130,10 +130,13 @@
       "team": "DEN",
       "year": 2022,
       "stats": {
-        "sacksPerGame": 2.12,
-        "rushYPCAllowed": 4.25,
-        "rushTDPctAllowed": 0.0273,
-        "normalizedRank": 11
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 109.76,
+        "rushTDPerGameAllowed": 0.71,
+        "sackPct": 0.0595,
+        "blitzPct": 0.329,
+        "pressurePct": 0.183,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DEN",
       "year": 2022,
       "stats": {
-        "completionPctAllowed": 0.6096,
-        "yardsPerAttemptAllowed": 5.94,
-        "tdPctAllowed": 0.0311,
-        "intPct": 0.0233,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.6479,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 210.24,
+        "passTDPerGameAllowed": 1.18,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     }

@@ -130,9 +130,12 @@
       "team": "NYJ",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.19,
-        "rushYPCAllowed": 3.32,
-        "rushTDPctAllowed": 0.0287,
+        "rushYPCAllowed": 3.3,
+        "rushYPGAllowed": 86.94,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0598,
+        "blitzPct": 0.392,
+        "pressurePct": 0.211,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0
@@ -143,11 +146,12 @@
       "team": "NYJ",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5808,
-        "yardsPerAttemptAllowed": 6.4,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.0192,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6205,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 236.19,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

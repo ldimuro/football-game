@@ -144,10 +144,13 @@
       "team": "KC",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.53,
-        "rushYPCAllowed": 4.25,
-        "rushTDPctAllowed": 0.0268,
-        "normalizedRank": 17
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 110.25,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0671,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "KC",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5228,
-        "yardsPerAttemptAllowed": 6.14,
-        "tdPctAllowed": 0.038,
-        "intPct": 0.0213,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5491,
+        "yardsPerAttemptAllowed": 5.7,
+        "passYPGAllowed": 219.94,
+        "passTDPerGameAllowed": 1.44,
+        "interceptionsPerGame": 0.88,
+        "normalizedRank": 17
       },
       "eraNormFactor": 1.0
     }

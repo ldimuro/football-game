@@ -167,10 +167,13 @@
       "team": "SEA",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.44,
-        "rushYPCAllowed": 4.04,
-        "rushTDPctAllowed": 0.031,
-        "normalizedRank": 15
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 114.0,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0704,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -180,10 +183,11 @@
       "team": "SEA",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5471,
-        "yardsPerAttemptAllowed": 6.09,
-        "tdPctAllowed": 0.032,
-        "intPct": 0.0236,
+        "completionPctAllowed": 0.5866,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 209.19,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.88,
         "normalizedRank": 6
       },
       "eraNormFactor": 1.0

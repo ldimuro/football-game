@@ -167,9 +167,12 @@
       "team": "SF",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.83,
-        "rushYPCAllowed": 3.46,
-        "rushTDPctAllowed": 0.0077,
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 77.25,
+        "rushTDPerGameAllowed": 0.19,
+        "sackPct": 0.0725,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
@@ -180,11 +183,12 @@
       "team": "SF",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5371,
-        "yardsPerAttemptAllowed": 6.31,
-        "tdPctAllowed": 0.0345,
-        "intPct": 0.0332,
-        "normalizedRank": 8
+        "completionPctAllowed": 0.5751,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 230.94,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 1.44,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     }

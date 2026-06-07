@@ -166,10 +166,13 @@
       "team": "CLE",
       "year": 2018,
       "stats": {
-        "sacksPerGame": 2.31,
         "rushYPCAllowed": 4.7,
-        "rushTDPctAllowed": 0.0435,
-        "normalizedRank": 24
+        "rushYPGAllowed": 135.19,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.0591,
+        "blitzPct": 0.34,
+        "pressurePct": 0.246,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "CLE",
       "year": 2018,
       "stats": {
-        "completionPctAllowed": 0.5901,
-        "yardsPerAttemptAllowed": 6.56,
-        "tdPctAllowed": 0.0315,
-        "intPct": 0.0255,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.6278,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 257.81,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

@@ -144,9 +144,12 @@
       "team": "MIA",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.56,
         "rushYPCAllowed": 3.7,
-        "rushTDPctAllowed": 0.0194,
+        "rushYPGAllowed": 95.62,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0695,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 3
       },
       "eraNormFactor": 1.0
@@ -157,11 +160,12 @@
       "team": "MIA",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5538,
-        "yardsPerAttemptAllowed": 6.7,
-        "tdPctAllowed": 0.038,
-        "intPct": 0.0253,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.5932,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 249.5,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

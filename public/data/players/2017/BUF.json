@@ -130,10 +130,13 @@
       "team": "BUF",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 1.71,
         "rushYPCAllowed": 4.3,
-        "rushTDPctAllowed": 0.044,
-        "normalizedRank": 25
+        "rushYPGAllowed": 124.62,
+        "rushTDPerGameAllowed": 1.38,
+        "sackPct": 0.0471,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "BUF",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.6093,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0239,
-        "intPct": 0.0287,
-        "normalizedRank": 10
+        "completionPctAllowed": 0.6457,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 230.5,
+        "passTDPerGameAllowed": 0.88,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

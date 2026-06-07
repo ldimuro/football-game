@@ -118,10 +118,13 @@
       "team": "ATL",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 3.95,
-        "rushTDPctAllowed": 0.0433,
-        "normalizedRank": 11
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 105.06,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.0928,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -131,10 +134,11 @@
       "team": "ATL",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5811,
-        "yardsPerAttemptAllowed": 6.8,
-        "tdPctAllowed": 0.0362,
-        "intPct": 0.0315,
+        "completionPctAllowed": 0.6344,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 220.38,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 1.19,
         "normalizedRank": 22
       },
       "eraNormFactor": 1.0

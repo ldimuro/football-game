@@ -167,10 +167,13 @@
       "team": "CAR",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 1.62,
-        "rushYPCAllowed": 4.42,
-        "rushTDPctAllowed": 0.025,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.4,
+        "rushYPGAllowed": 143.81,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.051,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     },
@@ -180,10 +183,11 @@
       "team": "CAR",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5667,
-        "yardsPerAttemptAllowed": 7.05,
-        "tdPctAllowed": 0.0463,
-        "intPct": 0.0444,
+        "completionPctAllowed": 0.6,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 227.62,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.5,
         "normalizedRank": 28
       },
       "eraNormFactor": 1.0

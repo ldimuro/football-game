@@ -131,10 +131,13 @@
       "team": "SEA",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.41,
-        "rushYPCAllowed": 4.43,
-        "rushTDPctAllowed": 0.0374,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 126.94,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0644,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "SEA",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5665,
-        "yardsPerAttemptAllowed": 6.52,
-        "tdPctAllowed": 0.0411,
-        "intPct": 0.038,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6082,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 224.38,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 1.44,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

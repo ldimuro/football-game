@@ -142,10 +142,13 @@
       "team": "GB",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.38,
-        "rushYPCAllowed": 3.84,
-        "rushTDPctAllowed": 0.0167,
-        "normalizedRank": 9
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 101.12,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.0682,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "GB",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.516,
-        "yardsPerAttemptAllowed": 6.21,
-        "tdPctAllowed": 0.0471,
-        "intPct": 0.0353,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.5512,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 215.69,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 1.31,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     }

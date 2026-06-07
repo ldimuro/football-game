@@ -144,10 +144,13 @@
       "team": "ATL",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 1.56,
-        "rushYPCAllowed": 4.24,
-        "rushTDPctAllowed": 0.0249,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 127.06,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0466,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "ATL",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.5996,
-        "yardsPerAttemptAllowed": 6.75,
-        "tdPctAllowed": 0.048,
-        "intPct": 0.0285,
-        "normalizedRank": 24
+        "completionPctAllowed": 0.6269,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 228.44,
+        "passTDPerGameAllowed": 1.69,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 23
       },
       "eraNormFactor": 1.0
     }

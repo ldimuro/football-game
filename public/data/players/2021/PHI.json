@@ -155,10 +155,13 @@
       "team": "PHI",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 1.83,
-        "rushYPCAllowed": 3.97,
-        "rushTDPctAllowed": 0.0409,
-        "normalizedRank": 7
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 107.88,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0492,
+        "blitzPct": 0.164,
+        "pressurePct": 0.239,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "PHI",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.6606,
-        "yardsPerAttemptAllowed": 6.41,
-        "tdPctAllowed": 0.0452,
-        "intPct": 0.0181,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.6944,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 220.94,
+        "passTDPerGameAllowed": 1.65,
+        "interceptionsPerGame": 0.71,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

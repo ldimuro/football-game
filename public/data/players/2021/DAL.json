@@ -154,10 +154,13 @@
       "team": "DAL",
       "year": 2021,
       "stats": {
-        "sacksPerGame": 2.28,
-        "rushYPCAllowed": 4.45,
-        "rushTDPctAllowed": 0.032,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 112.82,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.067,
+        "blitzPct": 0.271,
+        "pressurePct": 0.274,
+        "normalizedRank": 16
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "DAL",
       "year": 2021,
       "stats": {
-        "completionPctAllowed": 0.5564,
-        "yardsPerAttemptAllowed": 6.61,
-        "tdPctAllowed": 0.0351,
-        "intPct": 0.0395,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.5948,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 238.18,
+        "passTDPerGameAllowed": 1.41,
+        "interceptionsPerGame": 1.53,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

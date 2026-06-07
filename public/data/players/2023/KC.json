@@ -155,10 +155,13 @@
       "team": "KC",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 3.05,
-        "rushYPCAllowed": 4.37,
-        "rushTDPctAllowed": 0.0222,
-        "normalizedRank": 23
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 113.24,
+        "rushTDPerGameAllowed": 0.59,
+        "sackPct": 0.1025,
+        "blitzPct": 0.329,
+        "pressurePct": 0.278,
+        "normalizedRank": 18
       },
       "eraNormFactor": 1.0
     },
@@ -168,11 +171,12 @@
       "team": "KC",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.5556,
-        "yardsPerAttemptAllowed": 5.54,
-        "tdPctAllowed": 0.031,
-        "intPct": 0.0129,
-        "normalizedRank": 2
+        "completionPctAllowed": 0.6115,
+        "yardsPerAttemptAllowed": 4.9,
+        "passYPGAllowed": 176.53,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 0.47,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

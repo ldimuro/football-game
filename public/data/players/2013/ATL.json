@@ -130,9 +130,12 @@
       "team": "ATL",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.78,
-        "rushTDPctAllowed": 0.0308,
+        "rushYPCAllowed": 4.8,
+        "rushYPGAllowed": 135.81,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.062,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 31
       },
       "eraNormFactor": 1.0
@@ -143,11 +146,12 @@
       "team": "ATL",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.62,
-        "yardsPerAttemptAllowed": 7.51,
-        "tdPctAllowed": 0.0564,
-        "intPct": 0.0182,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6609,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 243.56,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     }

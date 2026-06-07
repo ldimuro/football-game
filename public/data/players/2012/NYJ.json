@@ -166,10 +166,13 @@
       "team": "NYJ",
       "year": 2012,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 4.32,
-        "rushTDPctAllowed": 0.0343,
-        "normalizedRank": 20
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 133.62,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0607,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     },
@@ -179,11 +182,12 @@
       "team": "NYJ",
       "year": 2012,
       "stats": {
-        "completionPctAllowed": 0.5067,
-        "yardsPerAttemptAllowed": 6.11,
-        "tdPctAllowed": 0.0381,
-        "intPct": 0.021,
-        "normalizedRank": 6
+        "completionPctAllowed": 0.5385,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 189.75,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

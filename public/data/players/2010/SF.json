@@ -156,10 +156,13 @@
       "team": "SF",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.25,
-        "rushYPCAllowed": 3.46,
-        "rushTDPctAllowed": 0.0201,
-        "normalizedRank": 2
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 96.69,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.0655,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "SF",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.6109,
-        "yardsPerAttemptAllowed": 6.72,
-        "tdPctAllowed": 0.0427,
-        "intPct": 0.0256,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6509,
+        "yardsPerAttemptAllowed": 6.3,
+        "passYPGAllowed": 231.06,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

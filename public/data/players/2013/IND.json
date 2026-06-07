@@ -142,9 +142,12 @@
       "team": "IND",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 2.56,
-        "rushYPCAllowed": 4.53,
-        "rushTDPctAllowed": 0.0398,
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 125.12,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.0784,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 26
       },
       "eraNormFactor": 1.0
@@ -155,11 +158,12 @@
       "team": "IND",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.5612,
-        "yardsPerAttemptAllowed": 6.93,
-        "tdPctAllowed": 0.0382,
-        "intPct": 0.0229,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6045,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 231.94,
+        "passTDPerGameAllowed": 1.31,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 13
       },
       "eraNormFactor": 1.0
     }

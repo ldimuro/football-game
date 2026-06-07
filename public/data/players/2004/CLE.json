@@ -118,10 +118,13 @@
       "team": "CLE",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 4.35,
-        "rushTDPctAllowed": 0.0414,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 144.62,
+        "rushTDPerGameAllowed": 1.38,
+        "sackPct": 0.0696,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "CLE",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.5619,
-        "yardsPerAttemptAllowed": 6.27,
-        "tdPctAllowed": 0.0345,
-        "intPct": 0.0304,
-        "normalizedRank": 9
+        "completionPctAllowed": 0.6022,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 181.31,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     }

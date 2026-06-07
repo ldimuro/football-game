@@ -144,10 +144,13 @@
       "team": "LV",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.94,
-        "rushYPCAllowed": 4.51,
-        "rushTDPctAllowed": 0.0295,
-        "normalizedRank": 24
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 133.62,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.1,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "LV",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.4816,
-        "yardsPerAttemptAllowed": 6.41,
-        "tdPctAllowed": 0.0561,
-        "intPct": 0.0232,
-        "normalizedRank": 14
+        "completionPctAllowed": 0.5298,
+        "yardsPerAttemptAllowed": 5.9,
+        "passYPGAllowed": 189.19,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

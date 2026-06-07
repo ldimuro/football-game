@@ -130,10 +130,13 @@
       "team": "CIN",
       "year": 2014,
       "stats": {
-        "sacksPerGame": 1.24,
-        "rushYPCAllowed": 4.24,
-        "rushTDPctAllowed": 0.0365,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 116.31,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0329,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "CIN",
       "year": 2014,
       "stats": {
-        "completionPctAllowed": 0.5867,
-        "yardsPerAttemptAllowed": 6.5,
-        "tdPctAllowed": 0.0281,
-        "intPct": 0.0296,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.6003,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 243.0,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

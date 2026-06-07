@@ -154,10 +154,13 @@
       "team": "BAL",
       "year": 2015,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 3.96,
-        "rushTDPctAllowed": 0.0239,
-        "normalizedRank": 10
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 103.81,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0679,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -167,11 +170,12 @@
       "team": "BAL",
       "year": 2015,
       "stats": {
-        "completionPctAllowed": 0.5973,
-        "yardsPerAttemptAllowed": 6.75,
-        "tdPctAllowed": 0.0512,
-        "intPct": 0.0102,
-        "normalizedRank": 17
+        "completionPctAllowed": 0.6422,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 233.56,
+        "passTDPerGameAllowed": 1.88,
+        "interceptionsPerGame": 0.38,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     }

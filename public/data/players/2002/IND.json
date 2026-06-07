@@ -131,10 +131,13 @@
       "team": "IND",
       "year": 2002,
       "stats": {
-        "sacksPerGame": 2.24,
-        "rushYPCAllowed": 4.34,
-        "rushTDPctAllowed": 0.0359,
-        "normalizedRank": 22
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 124.5,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0769,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     },
@@ -144,11 +147,12 @@
       "team": "IND",
       "year": 2002,
       "stats": {
-        "completionPctAllowed": 0.5782,
-        "yardsPerAttemptAllowed": 6.37,
-        "tdPctAllowed": 0.0414,
-        "intPct": 0.0188,
-        "normalizedRank": 21
+        "completionPctAllowed": 0.6154,
+        "yardsPerAttemptAllowed": 5.8,
+        "passYPGAllowed": 182.31,
+        "passTDPerGameAllowed": 1.19,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

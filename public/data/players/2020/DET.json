@@ -192,10 +192,13 @@
       "team": "DET",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.5,
         "rushYPCAllowed": 4.4,
-        "rushTDPctAllowed": 0.0551,
-        "normalizedRank": 16
+        "rushYPGAllowed": 134.88,
+        "rushTDPerGameAllowed": 1.69,
+        "sackPct": 0.0431,
+        "blitzPct": 0.237,
+        "pressurePct": 0.175,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     },
@@ -205,11 +208,12 @@
       "team": "DET",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6558,
-        "yardsPerAttemptAllowed": 8.14,
-        "tdPctAllowed": 0.0651,
-        "intPct": 0.012,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.6876,
+        "yardsPerAttemptAllowed": 7.8,
+        "passYPGAllowed": 284.88,
+        "passTDPerGameAllowed": 2.38,
+        "interceptionsPerGame": 0.44,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

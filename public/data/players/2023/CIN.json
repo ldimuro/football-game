@@ -180,10 +180,13 @@
       "team": "CIN",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.59,
-        "rushYPCAllowed": 4.69,
-        "rushTDPctAllowed": 0.0372,
-        "normalizedRank": 30
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 126.18,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0793,
+        "blitzPct": 0.216,
+        "pressurePct": 0.221,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     },
@@ -193,11 +196,12 @@
       "team": "CIN",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6057,
-        "yardsPerAttemptAllowed": 7.45,
-        "tdPctAllowed": 0.0383,
-        "intPct": 0.0283,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.6559,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 248.41,
+        "passTDPerGameAllowed": 1.35,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

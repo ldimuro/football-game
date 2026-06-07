@@ -143,10 +143,13 @@
       "team": "DEN",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.44,
         "rushYPCAllowed": 4.5,
-        "rushTDPctAllowed": 0.024,
-        "normalizedRank": 25
+        "rushYPGAllowed": 128.69,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0765,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     },
@@ -156,10 +159,11 @@
       "team": "DEN",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5428,
-        "yardsPerAttemptAllowed": 5.87,
-        "tdPctAllowed": 0.0328,
-        "intPct": 0.031,
+        "completionPctAllowed": 0.5843,
+        "yardsPerAttemptAllowed": 5.4,
+        "passYPGAllowed": 186.31,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.06,
         "normalizedRank": 3
       },
       "eraNormFactor": 1.0

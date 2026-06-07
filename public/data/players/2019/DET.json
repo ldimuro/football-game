@@ -180,10 +180,13 @@
       "team": "DET",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 1.75,
-        "rushYPCAllowed": 4.07,
-        "rushTDPctAllowed": 0.0285,
-        "normalizedRank": 9
+        "rushYPCAllowed": 4.1,
+        "rushYPGAllowed": 115.94,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0458,
+        "blitzPct": 0.18,
+        "pressurePct": 0.188,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -193,11 +196,12 @@
       "team": "DET",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.5944,
-        "yardsPerAttemptAllowed": 7.39,
-        "tdPctAllowed": 0.0515,
-        "intPct": 0.0109,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.6236,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 284.44,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.44,
+        "normalizedRank": 32
       },
       "eraNormFactor": 1.0
     }

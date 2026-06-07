@@ -130,9 +130,12 @@
       "team": "DET",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 2.31,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.0424,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 119.44,
+        "rushTDPerGameAllowed": 1.19,
+        "sackPct": 0.0615,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 23
       },
       "eraNormFactor": 1.0
@@ -143,11 +146,12 @@
       "team": "DET",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.6573,
-        "yardsPerAttemptAllowed": 6.83,
-        "tdPctAllowed": 0.0498,
-        "intPct": 0.0265,
-        "normalizedRank": 27
+        "completionPctAllowed": 0.701,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 258.19,
+        "passTDPerGameAllowed": 2.0,
+        "interceptionsPerGame": 1.06,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

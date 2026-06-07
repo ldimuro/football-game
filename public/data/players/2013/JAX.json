@@ -142,10 +142,13 @@
       "team": "JAX",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.16,
-        "rushTDPctAllowed": 0.0394,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 131.75,
+        "rushTDPerGameAllowed": 1.25,
+        "sackPct": 0.0563,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -155,11 +158,12 @@
       "team": "JAX",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.6082,
-        "yardsPerAttemptAllowed": 7.19,
-        "tdPctAllowed": 0.0498,
-        "intPct": 0.0189,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6425,
+        "yardsPerAttemptAllowed": 6.8,
+        "passYPGAllowed": 247.62,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

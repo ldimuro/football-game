@@ -130,10 +130,13 @@
       "team": "NYG",
       "year": 2009,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.16,
-        "rushTDPctAllowed": 0.0495,
-        "normalizedRank": 13
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 110.81,
+        "rushTDPerGameAllowed": 1.31,
+        "sackPct": 0.0643,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "NYG",
       "year": 2009,
       "stats": {
-        "completionPctAllowed": 0.5902,
-        "yardsPerAttemptAllowed": 6.88,
-        "tdPctAllowed": 0.0583,
-        "intPct": 0.0244,
-        "normalizedRank": 23
+        "completionPctAllowed": 0.6305,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 214.06,
+        "passTDPerGameAllowed": 1.94,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 15
       },
       "eraNormFactor": 1.0
     }

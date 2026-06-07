@@ -143,10 +143,13 @@
       "team": "NYG",
       "year": 2011,
       "stats": {
-        "sacksPerGame": 2.95,
         "rushYPCAllowed": 4.5,
-        "rushTDPctAllowed": 0.0286,
-        "normalizedRank": 24
+        "rushYPGAllowed": 121.25,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0815,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "NYG",
       "year": 2011,
       "stats": {
-        "completionPctAllowed": 0.5604,
-        "yardsPerAttemptAllowed": 6.67,
-        "tdPctAllowed": 0.0423,
-        "intPct": 0.0274,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.6129,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 255.12,
+        "passTDPerGameAllowed": 1.75,
+        "interceptionsPerGame": 1.25,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     }

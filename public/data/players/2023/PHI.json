@@ -144,10 +144,13 @@
       "team": "PHI",
       "year": 2023,
       "stats": {
-        "sacksPerGame": 2.61,
-        "rushYPCAllowed": 4.26,
-        "rushTDPctAllowed": 0.0295,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 103.41,
+        "rushTDPerGameAllowed": 0.76,
+        "sackPct": 0.066,
+        "blitzPct": 0.22,
+        "pressurePct": 0.224,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "PHI",
       "year": 2023,
       "stats": {
-        "completionPctAllowed": 0.6049,
-        "yardsPerAttemptAllowed": 6.61,
-        "tdPctAllowed": 0.0514,
-        "intPct": 0.0122,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.6518,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 252.71,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.53,
+        "normalizedRank": 31
       },
       "eraNormFactor": 1.0
     }

@@ -130,10 +130,13 @@
       "team": "DAL",
       "year": 2003,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 3.45,
-        "rushTDPctAllowed": 0.018,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 89.06,
+        "rushTDPerGameAllowed": 0.44,
+        "sackPct": 0.065,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 3
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "DAL",
       "year": 2003,
       "stats": {
-        "completionPctAllowed": 0.4624,
-        "yardsPerAttemptAllowed": 5.56,
-        "tdPctAllowed": 0.0341,
-        "intPct": 0.0233,
-        "normalizedRank": 4
+        "completionPctAllowed": 0.4858,
+        "yardsPerAttemptAllowed": 5.0,
+        "passYPGAllowed": 164.44,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 0.81,
+        "normalizedRank": 1
       },
       "eraNormFactor": 1.0
     }

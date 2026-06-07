@@ -7,10 +7,13 @@
       "team": "LAR",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.5,
-        "rushYPCAllowed": 4.2,
-        "rushTDPctAllowed": 0.045,
-        "normalizedRank": 16
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 136.19,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0691,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 29
       },
       "eraNormFactor": 1.0
     },
@@ -20,11 +23,12 @@
       "team": "LAR",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.635,
-        "yardsPerAttemptAllowed": 7.0,
-        "tdPctAllowed": 0.04,
-        "intPct": 0.025,
-        "normalizedRank": 16
+        "completionPctAllowed": 0.5935,
+        "yardsPerAttemptAllowed": 6.0,
+        "passYPGAllowed": 198.38,
+        "passTDPerGameAllowed": 1.5,
+        "interceptionsPerGame": 0.38,
+        "normalizedRank": 11
       },
       "eraNormFactor": 1.0
     }

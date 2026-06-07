@@ -132,10 +132,13 @@
       "team": "DAL",
       "year": 2006,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.79,
-        "rushTDPctAllowed": 0.026,
-        "normalizedRank": 7
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 103.69,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0665,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 10
       },
       "eraNormFactor": 1.0
     },
@@ -145,11 +148,12 @@
       "team": "DAL",
       "year": 2006,
       "stats": {
-        "completionPctAllowed": 0.5462,
-        "yardsPerAttemptAllowed": 6.8,
-        "tdPctAllowed": 0.0462,
-        "intPct": 0.0342,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.589,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 219.12,
+        "passTDPerGameAllowed": 1.56,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     }

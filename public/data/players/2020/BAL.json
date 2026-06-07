@@ -143,10 +143,13 @@
       "team": "BAL",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 2.33,
-        "rushYPCAllowed": 4.31,
-        "rushTDPctAllowed": 0.0284,
-        "normalizedRank": 14
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 108.75,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0654,
+        "blitzPct": 0.441,
+        "pressurePct": 0.268,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -156,11 +159,12 @@
       "team": "BAL",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.598,
-        "yardsPerAttemptAllowed": 5.94,
-        "tdPctAllowed": 0.0341,
-        "intPct": 0.0156,
-        "normalizedRank": 2
+        "completionPctAllowed": 0.6376,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 221.0,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     }

@@ -118,9 +118,12 @@
       "team": "CIN",
       "year": 2007,
       "stats": {
-        "sacksPerGame": 1.38,
-        "rushYPCAllowed": 4.22,
-        "rushTDPctAllowed": 0.0245,
+        "rushYPCAllowed": 4.2,
+        "rushYPGAllowed": 118.31,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0407,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
         "normalizedRank": 21
       },
       "eraNormFactor": 1.0
@@ -131,11 +134,12 @@
       "team": "CIN",
       "year": 2007,
       "stats": {
-        "completionPctAllowed": 0.6259,
-        "yardsPerAttemptAllowed": 6.76,
-        "tdPctAllowed": 0.0514,
-        "intPct": 0.0337,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6537,
+        "yardsPerAttemptAllowed": 6.6,
+        "passYPGAllowed": 230.44,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 26
       },
       "eraNormFactor": 1.0
     }

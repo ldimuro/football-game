@@ -135,10 +135,13 @@
       "team": "IND",
       "year": 2004,
       "stats": {
-        "sacksPerGame": 2.83,
-        "rushYPCAllowed": 4.64,
-        "rushTDPctAllowed": 0.0279,
-        "normalizedRank": 29
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 127.31,
+        "rushTDPerGameAllowed": 0.75,
+        "sackPct": 0.0808,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 24
       },
       "eraNormFactor": 1.0
     },
@@ -148,11 +151,12 @@
       "team": "IND",
       "year": 2004,
       "stats": {
-        "completionPctAllowed": 0.6051,
-        "yardsPerAttemptAllowed": 6.94,
-        "tdPctAllowed": 0.0432,
-        "intPct": 0.0298,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6535,
+        "yardsPerAttemptAllowed": 6.5,
+        "passYPGAllowed": 243.25,
+        "passTDPerGameAllowed": 1.62,
+        "interceptionsPerGame": 1.19,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

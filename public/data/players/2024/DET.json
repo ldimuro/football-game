@@ -146,10 +146,13 @@
       "team": "DET",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.06,
-        "rushYPCAllowed": 4.51,
-        "rushTDPctAllowed": 0.0511,
-        "normalizedRank": 19
+        "rushYPCAllowed": 4.5,
+        "rushYPGAllowed": 98.35,
+        "rushTDPerGameAllowed": 1.06,
+        "sackPct": 0.0607,
+        "blitzPct": 0.346,
+        "pressurePct": 0.262,
+        "normalizedRank": 5
       },
       "eraNormFactor": 1.0
     },
@@ -159,11 +162,12 @@
       "team": "DET",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5792,
-        "yardsPerAttemptAllowed": 6.9,
-        "tdPctAllowed": 0.0293,
-        "intPct": 0.0235,
-        "normalizedRank": 25
+        "completionPctAllowed": 0.6115,
+        "yardsPerAttemptAllowed": 6.4,
+        "passYPGAllowed": 244.0,
+        "passTDPerGameAllowed": 1.06,
+        "interceptionsPerGame": 0.94,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

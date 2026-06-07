@@ -144,10 +144,13 @@
       "team": "BUF",
       "year": 2000,
       "stats": {
-        "sacksPerGame": 2.73,
-        "rushYPCAllowed": 3.53,
-        "rushTDPctAllowed": 0.0319,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.5,
+        "rushYPGAllowed": 97.44,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0875,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 6
       },
       "eraNormFactor": 1.0
     },
@@ -157,11 +160,12 @@
       "team": "BUF",
       "year": 2000,
       "stats": {
-        "completionPctAllowed": 0.538,
-        "yardsPerAttemptAllowed": 6.07,
-        "tdPctAllowed": 0.034,
-        "intPct": 0.03,
-        "normalizedRank": 12
+        "completionPctAllowed": 0.5896,
+        "yardsPerAttemptAllowed": 5.5,
+        "passYPGAllowed": 179.19,
+        "passTDPerGameAllowed": 1.12,
+        "interceptionsPerGame": 1.0,
+        "normalizedRank": 4
       },
       "eraNormFactor": 1.0
     }

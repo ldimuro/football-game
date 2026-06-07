@@ -156,10 +156,13 @@
       "team": "SF",
       "year": 2008,
       "stats": {
-        "sacksPerGame": 1.88,
-        "rushYPCAllowed": 3.78,
-        "rushTDPctAllowed": 0.031,
-        "normalizedRank": 8
+        "rushYPCAllowed": 3.8,
+        "rushYPGAllowed": 106.81,
+        "rushTDPerGameAllowed": 0.88,
+        "sackPct": 0.055,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 14
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "SF",
       "year": 2008,
       "stats": {
-        "completionPctAllowed": 0.5747,
-        "yardsPerAttemptAllowed": 6.36,
-        "tdPctAllowed": 0.0382,
-        "intPct": 0.0208,
-        "normalizedRank": 13
+        "completionPctAllowed": 0.6073,
+        "yardsPerAttemptAllowed": 6.1,
+        "passYPGAllowed": 219.19,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 20
       },
       "eraNormFactor": 1.0
     }

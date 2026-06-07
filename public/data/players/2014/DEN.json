@@ -156,10 +156,13 @@
       "team": "DEN",
       "year": 2014,
       "stats": {
-        "sacksPerGame": 2.41,
-        "rushYPCAllowed": 3.64,
-        "rushTDPctAllowed": 0.0265,
-        "normalizedRank": 4
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 79.75,
+        "rushTDPerGameAllowed": 0.56,
+        "sackPct": 0.064,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -169,11 +172,12 @@
       "team": "DEN",
       "year": 2014,
       "stats": {
-        "completionPctAllowed": 0.586,
-        "yardsPerAttemptAllowed": 5.67,
-        "tdPctAllowed": 0.0426,
-        "intPct": 0.0275,
-        "normalizedRank": 1
+        "completionPctAllowed": 0.6225,
+        "yardsPerAttemptAllowed": 5.3,
+        "passYPGAllowed": 225.44,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 9
       },
       "eraNormFactor": 1.0
     }

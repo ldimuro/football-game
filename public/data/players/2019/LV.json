@@ -130,10 +130,13 @@
       "team": "LV",
       "year": 2019,
       "stats": {
-        "sacksPerGame": 2.0,
-        "rushYPCAllowed": 3.88,
-        "rushTDPctAllowed": 0.037,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.9,
+        "rushYPGAllowed": 98.12,
+        "rushTDPerGameAllowed": 0.94,
+        "sackPct": 0.0608,
+        "blitzPct": 0.175,
+        "pressurePct": 0.199,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     },
@@ -143,11 +146,12 @@
       "team": "LV",
       "year": 2019,
       "stats": {
-        "completionPctAllowed": 0.6039,
-        "yardsPerAttemptAllowed": 7.8,
-        "tdPctAllowed": 0.0591,
-        "intPct": 0.0161,
-        "normalizedRank": 32
+        "completionPctAllowed": 0.6407,
+        "yardsPerAttemptAllowed": 7.4,
+        "passYPGAllowed": 256.69,
+        "passTDPerGameAllowed": 2.06,
+        "interceptionsPerGame": 0.56,
+        "normalizedRank": 25
       },
       "eraNormFactor": 1.0
     }

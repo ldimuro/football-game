@@ -168,10 +168,13 @@
       "team": "ATL",
       "year": 2001,
       "stats": {
-        "sacksPerGame": 2.31,
         "rushYPCAllowed": 4.8,
-        "rushTDPctAllowed": 0.0321,
-        "normalizedRank": 30
+        "rushYPGAllowed": 121.44,
+        "rushTDPerGameAllowed": 0.81,
+        "sackPct": 0.0718,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 21
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "ATL",
       "year": 2001,
       "stats": {
-        "completionPctAllowed": 0.5986,
-        "yardsPerAttemptAllowed": 7.47,
-        "tdPctAllowed": 0.0524,
-        "intPct": 0.0325,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6427,
+        "yardsPerAttemptAllowed": 7.1,
+        "passYPGAllowed": 243.88,
+        "passTDPerGameAllowed": 1.81,
+        "interceptionsPerGame": 1.12,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     }

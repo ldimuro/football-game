@@ -168,10 +168,13 @@
       "team": "JAX",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.12,
-        "rushYPCAllowed": 4.73,
-        "rushTDPctAllowed": 0.0444,
-        "normalizedRank": 27
+        "rushYPCAllowed": 4.7,
+        "rushYPGAllowed": 153.25,
+        "rushTDPerGameAllowed": 1.44,
+        "sackPct": 0.0338,
+        "blitzPct": 0.31,
+        "pressurePct": 0.201,
+        "normalizedRank": 30
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "JAX",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6703,
-        "yardsPerAttemptAllowed": 7.83,
-        "tdPctAllowed": 0.0616,
-        "intPct": 0.0217,
-        "normalizedRank": 31
+        "completionPctAllowed": 0.6942,
+        "yardsPerAttemptAllowed": 7.7,
+        "passYPGAllowed": 264.44,
+        "passTDPerGameAllowed": 2.12,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 27
       },
       "eraNormFactor": 1.0
     }

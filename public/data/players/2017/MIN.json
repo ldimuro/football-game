@@ -143,10 +143,13 @@
       "team": "MIN",
       "year": 2017,
       "stats": {
-        "sacksPerGame": 2.22,
-        "rushYPCAllowed": 3.64,
-        "rushTDPctAllowed": 0.0263,
-        "normalizedRank": 5
+        "rushYPCAllowed": 3.7,
+        "rushYPGAllowed": 83.56,
+        "rushTDPerGameAllowed": 0.62,
+        "sackPct": 0.0667,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     },
@@ -156,10 +159,11 @@
       "team": "MIN",
       "year": 2017,
       "stats": {
-        "completionPctAllowed": 0.5597,
-        "yardsPerAttemptAllowed": 5.93,
-        "tdPctAllowed": 0.0284,
-        "intPct": 0.0239,
+        "completionPctAllowed": 0.5838,
+        "yardsPerAttemptAllowed": 5.2,
+        "passYPGAllowed": 192.38,
+        "passTDPerGameAllowed": 0.81,
+        "interceptionsPerGame": 0.88,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0

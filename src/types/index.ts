@@ -33,17 +33,21 @@ export interface OLineStats {
 }
 
 export interface DLineStats {
-  sacksPerGame: number
   rushYPCAllowed: number
-  rushTDPctAllowed: number
+  rushYPGAllowed: number
+  sackPct: number
+  rushTDPerGameAllowed: number
+  blitzPct: number
+  pressurePct: number
   normalizedRank: number
 }
 
 export interface SecondaryStats {
   completionPctAllowed: number
   yardsPerAttemptAllowed: number
-  tdPctAllowed: number
-  intPct: number
+  passYPGAllowed: number
+  passTDPerGameAllowed: number
+  interceptionsPerGame: number
   normalizedRank: number
 }
 
@@ -55,6 +59,10 @@ export interface Player {
   year: number
   stats: QBStats | WRStats | RBStats | KStats
   eraNormFactor: number
+  is_all_pro?: boolean
+  is_mvp?: boolean
+  is_opy?: boolean
+  is_dpy?: boolean
 }
 
 export interface TeamUnit {

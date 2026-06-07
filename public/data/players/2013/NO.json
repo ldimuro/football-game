@@ -168,10 +168,13 @@
       "team": "NO",
       "year": 2013,
       "stats": {
-        "sacksPerGame": 3.0,
-        "rushYPCAllowed": 4.58,
-        "rushTDPctAllowed": 0.0315,
-        "normalizedRank": 28
+        "rushYPCAllowed": 4.6,
+        "rushYPGAllowed": 111.62,
+        "rushTDPerGameAllowed": 0.69,
+        "sackPct": 0.0966,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 19
       },
       "eraNormFactor": 1.0
     },
@@ -181,11 +184,12 @@
       "team": "NO",
       "year": 2013,
       "stats": {
-        "completionPctAllowed": 0.549,
-        "yardsPerAttemptAllowed": 6.11,
-        "tdPctAllowed": 0.0359,
-        "intPct": 0.0196,
-        "normalizedRank": 7
+        "completionPctAllowed": 0.5996,
+        "yardsPerAttemptAllowed": 5.6,
+        "passYPGAllowed": 194.06,
+        "passTDPerGameAllowed": 1.25,
+        "interceptionsPerGame": 0.75,
+        "normalizedRank": 2
       },
       "eraNormFactor": 1.0
     }

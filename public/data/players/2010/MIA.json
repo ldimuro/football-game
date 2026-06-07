@@ -118,10 +118,13 @@
       "team": "MIA",
       "year": 2010,
       "stats": {
-        "sacksPerGame": 2.44,
-        "rushYPCAllowed": 3.58,
-        "rushTDPctAllowed": 0.0179,
-        "normalizedRank": 3
+        "rushYPCAllowed": 3.6,
+        "rushYPGAllowed": 100.06,
+        "rushTDPerGameAllowed": 0.5,
+        "sackPct": 0.0777,
+        "blitzPct": 0.0,
+        "pressurePct": 0.0,
+        "normalizedRank": 7
       },
       "eraNormFactor": 1.0
     },
@@ -131,11 +134,12 @@
       "team": "MIA",
       "year": 2010,
       "stats": {
-        "completionPctAllowed": 0.5323,
-        "yardsPerAttemptAllowed": 6.6,
-        "tdPctAllowed": 0.0407,
-        "intPct": 0.0203,
-        "normalizedRank": 19
+        "completionPctAllowed": 0.5737,
+        "yardsPerAttemptAllowed": 6.2,
+        "passYPGAllowed": 209.25,
+        "passTDPerGameAllowed": 1.38,
+        "interceptionsPerGame": 0.69,
+        "normalizedRank": 8
       },
       "eraNormFactor": 1.0
     }

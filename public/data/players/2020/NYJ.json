@@ -192,10 +192,13 @@
       "team": "NYJ",
       "year": 2020,
       "stats": {
-        "sacksPerGame": 1.94,
-        "rushYPCAllowed": 4.03,
-        "rushTDPctAllowed": 0.036,
-        "normalizedRank": 7
+        "rushYPCAllowed": 4.0,
+        "rushYPGAllowed": 112.0,
+        "rushTDPerGameAllowed": 1.0,
+        "sackPct": 0.0512,
+        "blitzPct": 0.384,
+        "pressurePct": 0.217,
+        "normalizedRank": 12
       },
       "eraNormFactor": 1.0
     },
@@ -205,11 +208,12 @@
       "team": "NYJ",
       "year": 2020,
       "stats": {
-        "completionPctAllowed": 0.6562,
-        "yardsPerAttemptAllowed": 7.21,
-        "tdPctAllowed": 0.0534,
-        "intPct": 0.0157,
-        "normalizedRank": 26
+        "completionPctAllowed": 0.6909,
+        "yardsPerAttemptAllowed": 6.9,
+        "passYPGAllowed": 275.56,
+        "passTDPerGameAllowed": 2.12,
+        "interceptionsPerGame": 0.62,
+        "normalizedRank": 28
       },
       "eraNormFactor": 1.0
     }

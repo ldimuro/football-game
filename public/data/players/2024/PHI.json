@@ -145,9 +145,12 @@
       "team": "PHI",
       "year": 2024,
       "stats": {
-        "sacksPerGame": 2.71,
-        "rushYPCAllowed": 4.27,
-        "rushTDPctAllowed": 0.022,
+        "rushYPCAllowed": 4.3,
+        "rushYPGAllowed": 104.18,
+        "rushTDPerGameAllowed": 0.53,
+        "sackPct": 0.0756,
+        "blitzPct": 0.191,
+        "pressurePct": 0.179,
         "normalizedRank": 10
       },
       "eraNormFactor": 1.0
@@ -158,10 +161,11 @@
       "team": "PHI",
       "year": 2024,
       "stats": {
-        "completionPctAllowed": 0.5651,
-        "yardsPerAttemptAllowed": 5.65,
-        "tdPctAllowed": 0.0365,
-        "intPct": 0.0247,
+        "completionPctAllowed": 0.6218,
+        "yardsPerAttemptAllowed": 5.1,
+        "passYPGAllowed": 174.18,
+        "passTDPerGameAllowed": 1.29,
+        "interceptionsPerGame": 0.76,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0
