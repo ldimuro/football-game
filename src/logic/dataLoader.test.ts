@@ -28,6 +28,7 @@ beforeEach(() => {
 describe('loadTeamMeta', () => {
   it('fetches /data/meta.json and returns parsed JSON', async () => {
     vi.mocked(fetch).mockResolvedValue({
+      ok: true,
       json: () => Promise.resolve(mockMeta),
     } as Response)
 
@@ -40,6 +41,7 @@ describe('loadTeamMeta', () => {
 describe('loadTeamRoster', () => {
   it('fetches the correct path and returns roster data', async () => {
     vi.mocked(fetch).mockResolvedValue({
+      ok: true,
       json: () => Promise.resolve(mockRoster),
     } as Response)
 
@@ -52,6 +54,7 @@ describe('loadTeamRoster', () => {
 describe('loadTeamStats', () => {
   it('fetches the correct path and returns team stats', async () => {
     vi.mocked(fetch).mockResolvedValue({
+      ok: true,
       json: () => Promise.resolve(mockTeamStats),
     } as Response)
 
