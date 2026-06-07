@@ -8,7 +8,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 69.1,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 17.88
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 30.9,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 4.8,
+        "avgCatchesPerGame": 3.0
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 14.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.33,
+        "avgCatchesPerGame": 1.73
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 7.6,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "rushAttPerGame": 3.27
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +62,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 34.3,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 5.88,
+        "avgCatchesPerGame": 3.44
       },
       "eraNormFactor": 1.0
     },
@@ -68,9 +76,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 158.2,
-        "tdRatio": 0.017,
-        "intRatio": 0.0341,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.5,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5739
       },
       "eraNormFactor": 0.9943
     },
@@ -82,9 +91,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 163.5,
-        "tdRatio": 0.0289,
-        "intRatio": 0.0289,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.8,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.5523
       },
       "eraNormFactor": 1.0276
     },
@@ -96,7 +106,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 66.5,
-        "tdPerGame": 0.455
+        "tdPerGame": 0.455,
+        "avgTargetsPerGame": 9.09,
+        "avgCatchesPerGame": 4.91
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +120,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 18.7,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.64,
+        "avgCatchesPerGame": 2.09
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +134,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 9.7,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "avgTargetsPerGame": 2.33,
+        "avgCatchesPerGame": 1.11
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +147,10 @@
       "team": "CHI",
       "year": 2000,
       "stats": {
-        "fgAccuracy": 0.7778
+        "fgAccuracy": 0.7778,
+        "avgKickDistance": 37.6,
+        "avgMissDistance": 41.3,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -160,8 +179,8 @@
         "rushYPGAllowed": 114.19,
         "rushTDPerGameAllowed": 0.94,
         "sackPct": 0.0679,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 19
       },
       "eraNormFactor": 1.0

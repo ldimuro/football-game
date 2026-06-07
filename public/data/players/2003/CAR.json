@@ -8,7 +8,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 97.7,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 21.22
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 210.3,
-        "tdRatio": 0.0454,
-        "intRatio": 0.0309,
-        "qbr": 73.7
+        "qbr": 73.7,
+        "avgTDPerGame": 1.25,
+        "avgINTPerGame": 0.85,
+        "completionPct": 0.5898
       },
       "eraNormFactor": 1.3024
     },
@@ -34,7 +36,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 62.6,
-        "tdPerGame": 0.263
+        "tdPerGame": 0.263,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.63
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 33.4,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.29
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 75.7,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.3
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 34.7,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "rushAttPerGame": 8.61
       },
       "eraNormFactor": 1.0
     },
@@ -81,7 +90,10 @@
       "team": "CAR",
       "year": 2003,
       "stats": {
-        "fgAccuracy": 0.8367
+        "fgAccuracy": 0.8367,
+        "avgKickDistance": 37.2,
+        "avgMissDistance": 46.2,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }
@@ -110,8 +122,8 @@
         "rushYPGAllowed": 107.62,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0766,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 11
       },
       "eraNormFactor": 1.0

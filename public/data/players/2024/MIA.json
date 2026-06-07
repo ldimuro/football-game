@@ -8,7 +8,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 23.2,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "rushAttPerGame": 7.08
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 56.4,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "avgTargetsPerGame": 7.18,
+        "avgCatchesPerGame": 4.76
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 52.0,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 6.53,
+        "avgCatchesPerGame": 5.18
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 165.8,
-        "tdRatio": 0.0226,
-        "intRatio": 0.0226,
-        "qbr": 14.3
+        "qbr": 14.3,
+        "avgTDPerGame": 0.6,
+        "avgINTPerGame": 0.6,
+        "completionPct": 0.6466
       },
       "eraNormFactor": 0.9859
     },
@@ -58,9 +64,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 260.6,
-        "tdRatio": 0.0476,
-        "intRatio": 0.0175,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.727,
+        "avgINTPerGame": 0.636,
+        "completionPct": 0.7293
       },
       "eraNormFactor": 1.5497
     },
@@ -72,7 +79,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 49.6,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 5.53,
+        "avgCatchesPerGame": 3.87
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 53.4,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "rushAttPerGame": 11.94
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +106,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 19.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 5.23
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +119,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 18.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 2.17
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +132,10 @@
       "team": "MIA",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.9024
+        "fgAccuracy": 0.9024,
+        "avgKickDistance": 41.3,
+        "avgMissDistance": 48.5,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }

@@ -8,9 +8,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 169.0,
-        "tdRatio": 0.0574,
-        "intRatio": 0.0328,
-        "qbr": 86.3
+        "qbr": 86.3,
+        "avgTDPerGame": 1.167,
+        "avgINTPerGame": 0.667,
+        "completionPct": 0.5984
       },
       "eraNormFactor": 0.9568
     },
@@ -22,7 +23,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 25.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.19,
+        "avgCatchesPerGame": 1.81
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 12.5,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 2.67,
+        "avgCatchesPerGame": 1.4
       },
       "eraNormFactor": 1.0
     },
@@ -46,9 +51,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 155.6,
-        "tdRatio": 0.0218,
-        "intRatio": 0.0249,
-        "qbr": 32.5
+        "qbr": 32.5,
+        "avgTDPerGame": 0.538,
+        "avgINTPerGame": 0.615,
+        "completionPct": 0.5483
       },
       "eraNormFactor": 0.8809
     },
@@ -60,7 +66,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 63.6,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 14.4
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 82.4,
-        "tdPerGame": 0.875
+        "tdPerGame": 0.875,
+        "rushAttPerGame": 19.31
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +92,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 67.6,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 8.19,
+        "avgCatchesPerGame": 4.38
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +106,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 33.5,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 4.88,
+        "avgCatchesPerGame": 2.44
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,10 @@
       "team": "SEA",
       "year": 2001,
       "stats": {
-        "fgAccuracy": 0.625
+        "fgAccuracy": 0.625,
+        "avgKickDistance": 38.8,
+        "avgMissDistance": 43.8,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +151,8 @@
         "rushYPGAllowed": 107.56,
         "rushTDPerGameAllowed": 0.56,
         "sackPct": 0.0675,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 15
       },
       "eraNormFactor": 1.0

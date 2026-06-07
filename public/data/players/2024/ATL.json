@@ -8,9 +8,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 250.6,
-        "tdRatio": 0.0397,
-        "intRatio": 0.0353,
-        "qbr": 65.8
+        "qbr": 65.8,
+        "avgTDPerGame": 1.286,
+        "avgINTPerGame": 1.143,
+        "completionPct": 0.6689
       },
       "eraNormFactor": 1.4902
     },
@@ -22,7 +23,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 40.4,
-        "tdPerGame": 0.059
+        "tdPerGame": 0.059,
+        "avgTargetsPerGame": 5.12,
+        "avgCatchesPerGame": 3.65
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 62.0,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 6.62,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 35.4,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "avgTargetsPerGame": 4.35,
+        "avgCatchesPerGame": 2.76
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 74.8,
-        "tdPerGame": 0.529
+        "tdPerGame": 0.529,
+        "avgTargetsPerGame": 9.29,
+        "avgCatchesPerGame": 5.88
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -71,7 +80,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 37.9,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "rushAttPerGame": 8.06
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 85.6,
-        "tdPerGame": 0.824
+        "tdPerGame": 0.824,
+        "rushAttPerGame": 17.88
       },
       "eraNormFactor": 1.0
     },
@@ -95,9 +106,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 155.0,
-        "tdRatio": 0.0286,
-        "intRatio": 0.0286,
-        "qbr": 79.1
+        "qbr": 79.1,
+        "avgTDPerGame": 0.6,
+        "avgINTPerGame": 0.6,
+        "completionPct": 0.581
       },
       "eraNormFactor": 0.9217
     },
@@ -108,7 +120,10 @@
       "team": "ATL",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.7073
+        "fgAccuracy": 0.7073,
+        "avgKickDistance": 41.2,
+        "avgMissDistance": 46.4,
+        "longestMadeKick": 58
       },
       "eraNormFactor": 1.0
     }

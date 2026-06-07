@@ -8,9 +8,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 271.3,
-        "tdRatio": 0.0293,
-        "intRatio": 0.024,
-        "qbr": 80.8
+        "qbr": 80.8,
+        "avgTDPerGame": 1.1,
+        "avgINTPerGame": 0.9,
+        "completionPct": 0.6453
       },
       "eraNormFactor": 1.5901
     },
@@ -22,7 +23,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 30.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 10.47
       },
       "eraNormFactor": 1.0
     },
@@ -34,9 +36,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 203.6,
-        "tdRatio": 0.0333,
-        "intRatio": 0.0407,
-        "qbr": 42.1
+        "qbr": 42.1,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 1.222,
+        "completionPct": 0.6037
       },
       "eraNormFactor": 1.1933
     },
@@ -48,7 +51,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 99.9,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 7.29
       },
       "eraNormFactor": 1.0
     },
@@ -60,7 +65,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 30.9,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.86
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 88.1,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 6.44
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 20.8,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.15
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 24.7,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "rushAttPerGame": 7.47
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,10 @@
       "team": "ARI",
       "year": 2005,
       "stats": {
-        "fgAccuracy": 0.9556
+        "fgAccuracy": 0.9556,
+        "avgKickDistance": 37.4,
+        "avgMissDistance": 48.5,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -137,8 +152,8 @@
         "rushYPGAllowed": 102.0,
         "rushTDPerGameAllowed": 1.38,
         "sackPct": 0.0758,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 10
       },
       "eraNormFactor": 1.0

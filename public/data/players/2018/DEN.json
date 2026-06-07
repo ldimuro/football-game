@@ -8,7 +8,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 72.3,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 8.17,
+        "avgCatchesPerGame": 5.92
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 45.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 5.93,
+        "avgCatchesPerGame": 3.93
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +36,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 243.1,
-        "tdRatio": 0.0307,
-        "intRatio": 0.0256,
-        "qbr": 39.5
+        "qbr": 39.5,
+        "avgTDPerGame": 1.125,
+        "avgINTPerGame": 0.938,
+        "completionPct": 0.6229
       },
       "eraNormFactor": 1.2458
     },
@@ -46,7 +51,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 19.2,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 2.85,
+        "avgCatchesPerGame": 1.85
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 28.1,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 4.8,
+        "avgCatchesPerGame": 3.1
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +79,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 11.4,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "rushAttPerGame": 2.12
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 31.5,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 4.1,
+        "avgCatchesPerGame": 2.3
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 69.1,
-        "tdPerGame": 0.6
+        "tdPerGame": 0.6,
+        "rushAttPerGame": 12.8
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -107,7 +120,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 44.0,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.25,
+        "avgCatchesPerGame": 2.62
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 30.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.75,
+        "avgCatchesPerGame": 3.75
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +148,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 37.2,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "rushAttPerGame": 9.29
       },
       "eraNormFactor": 1.0
     },
@@ -142,7 +160,10 @@
       "team": "DEN",
       "year": 2018,
       "stats": {
-        "fgAccuracy": 0.8
+        "fgAccuracy": 0.8,
+        "avgKickDistance": 41.1,
+        "avgMissDistance": 55.2,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }

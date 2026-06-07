@@ -8,9 +8,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 252.9,
-        "tdRatio": 0.0405,
-        "intRatio": 0.0217,
-        "qbr": 90.3
+        "qbr": 90.3,
+        "avgTDPerGame": 1.474,
+        "avgINTPerGame": 0.789,
+        "completionPct": 0.604
       },
       "eraNormFactor": 1.3906
     },
@@ -22,7 +23,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 24.9,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "rushAttPerGame": 5.12
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +36,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 62.1,
-        "tdPerGame": 0.529
+        "tdPerGame": 0.529,
+        "rushAttPerGame": 16.65
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +49,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 22.3,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 1.82
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +63,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 50.1,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.75
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +77,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 22.5,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.86
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 33.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.5
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 30.6,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.33
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 30.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.69
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +133,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 33.5,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.29
       },
       "eraNormFactor": 1.0
     },
@@ -130,7 +147,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 58.9,
-        "tdPerGame": 0.158
+        "tdPerGame": 0.158,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.84
       },
       "eraNormFactor": 1.0
     },
@@ -141,7 +160,10 @@
       "team": "PHI",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.84
+        "fgAccuracy": 0.84,
+        "avgKickDistance": 35.3,
+        "avgMissDistance": 44.2,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -170,8 +192,8 @@
         "rushYPGAllowed": 92.25,
         "rushTDPerGameAllowed": 0.44,
         "sackPct": 0.0914,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 4
       },
       "eraNormFactor": 1.0

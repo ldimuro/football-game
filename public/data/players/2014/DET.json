@@ -8,7 +8,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 27.8,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 7.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 83.0,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": 9.71,
+        "avgCatchesPerGame": 5.43
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +35,10 @@
       "year": 2014,
       "stats": {
         "passYPG": 269.4,
-        "tdRatio": 0.0357,
-        "intRatio": 0.0202,
-        "qbr": 69.8
+        "qbr": 69.8,
+        "avgTDPerGame": 1.353,
+        "avgINTPerGame": 0.765,
+        "completionPct": 0.6071
       },
       "eraNormFactor": 1.3427
     },
@@ -46,7 +50,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 56.4,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "rushAttPerGame": 14.69
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +63,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 83.5,
-        "tdPerGame": 0.294
+        "tdPerGame": 0.294,
+        "avgTargetsPerGame": 9.0,
+        "avgCatchesPerGame": 6.18
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +77,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 19.6,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 2.25,
+        "avgCatchesPerGame": 1.5
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 18.3,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 2.62,
+        "avgCatchesPerGame": 1.23
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 20.7,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 3.85,
+        "avgCatchesPerGame": 2.15
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "DET",
       "year": 2014,
       "stats": {
-        "fgAccuracy": 0.675
+        "fgAccuracy": 0.675,
+        "avgKickDistance": 39.1,
+        "avgMissDistance": 46.2,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 69.31,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.0709,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

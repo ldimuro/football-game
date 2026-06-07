@@ -8,7 +8,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 27.4,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "rushAttPerGame": 6.67
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 66.3,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 7.62,
+        "avgCatchesPerGame": 4.19
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 13.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.82,
+        "avgCatchesPerGame": 0.73
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2011,
       "stats": {
         "passYPG": 227.3,
-        "tdRatio": 0.0397,
-        "intRatio": 0.0215,
-        "qbr": 67.9
+        "qbr": 67.9,
+        "avgTDPerGame": 1.333,
+        "avgINTPerGame": 0.722,
+        "completionPct": 0.5752
       },
       "eraNormFactor": 1.1446
     },
@@ -58,7 +64,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 82.8,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "rushAttPerGame": 18.5
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -71,7 +78,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 31.4,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "avgTargetsPerGame": 5.39,
+        "avgCatchesPerGame": 3.17
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +92,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 29.7,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 4.25,
+        "avgCatchesPerGame": 2.94
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 54.8,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 6.18,
+        "avgCatchesPerGame": 3.18
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,10 @@
       "team": "BAL",
       "year": 2011,
       "stats": {
-        "fgAccuracy": 0.7727
+        "fgAccuracy": 0.7727,
+        "avgKickDistance": 37.1,
+        "avgMissDistance": 43.9,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -135,8 +151,8 @@
         "rushYPGAllowed": 92.62,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0897,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0

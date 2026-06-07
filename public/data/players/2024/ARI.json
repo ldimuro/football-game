@@ -8,7 +8,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 68.4,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 14.75
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 226.5,
-        "tdRatio": 0.0388,
-        "intRatio": 0.0203,
-        "qbr": 88.6
+        "qbr": 88.6,
+        "avgTDPerGame": 1.235,
+        "avgINTPerGame": 0.647,
+        "completionPct": 0.6876
       },
       "eraNormFactor": 1.3469
     },
@@ -34,7 +36,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 20.1,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 2.94,
+        "avgCatchesPerGame": 2.18
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 71.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 9.19,
+        "avgCatchesPerGame": 6.94
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 34.2,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 4.44,
+        "avgCatchesPerGame": 2.94
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 12.3,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 1.71,
+        "avgCatchesPerGame": 1.43
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 52.1,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 6.82,
+        "avgCatchesPerGame": 3.65
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 24.2,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "rushAttPerGame": 5.25
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "ARI",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.8947
+        "fgAccuracy": 0.8947,
+        "avgKickDistance": 39.0,
+        "avgMissDistance": 44.2,
+        "longestMadeKick": 58
       },
       "eraNormFactor": 1.0
     }

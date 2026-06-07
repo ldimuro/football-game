@@ -8,7 +8,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 36.2,
-        "tdPerGame": 0.231
+        "tdPerGame": 0.231,
+        "avgTargetsPerGame": 5.23,
+        "avgCatchesPerGame": 2.08
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 57.3,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 7.38,
+        "avgCatchesPerGame": 4.56
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,9 +37,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 236.4,
-        "tdRatio": 0.0325,
-        "intRatio": 0.0459,
-        "qbr": 45.1
+        "qbr": 45.1,
+        "avgTDPerGame": 1.062,
+        "avgINTPerGame": 1.5,
+        "completionPct": 0.566
       },
       "eraNormFactor": 1.3384
     },
@@ -47,7 +52,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 97.2,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 20.44
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -60,7 +66,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 22.1,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": 4.33,
+        "avgCatchesPerGame": 1.67
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +80,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 22.9,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 2.73,
+        "avgCatchesPerGame": 1.64
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +94,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 30.9,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 4.75,
+        "avgCatchesPerGame": 2.38
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +108,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 39.3,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 5.15,
+        "avgCatchesPerGame": 2.54
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +121,10 @@
       "team": "KC",
       "year": 2001,
       "stats": {
-        "fgAccuracy": 0.7714
+        "fgAccuracy": 0.7714,
+        "avgKickDistance": 36.1,
+        "avgMissDistance": 40.0,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +153,8 @@
         "rushYPGAllowed": 133.75,
         "rushTDPerGameAllowed": 0.94,
         "sackPct": 0.0631,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0

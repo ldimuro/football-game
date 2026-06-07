@@ -8,7 +8,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 16.8,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 4.88,
+        "avgCatchesPerGame": 1.75
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 49.2,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 5.71,
+        "avgCatchesPerGame": 3.57
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 29.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.85,
+        "avgCatchesPerGame": 2.62
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +50,10 @@
       "year": 2002,
       "stats": {
         "passYPG": 240.8,
-        "tdRatio": 0.0328,
-        "intRatio": 0.0419,
-        "qbr": 67.9
+        "qbr": 67.9,
+        "avgTDPerGame": 1.125,
+        "avgINTPerGame": 1.438,
+        "completionPct": 0.6066
       },
       "eraNormFactor": 1.3301
     },
@@ -58,7 +65,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 28.1,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 3.57,
+        "avgCatchesPerGame": 2.64
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +79,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 84.2,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 11.5,
+        "avgCatchesPerGame": 6.62
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -83,7 +94,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 25.9,
-        "tdPerGame": 0.688
+        "tdPerGame": 0.688,
+        "rushAttPerGame": 5.25
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +107,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 81.0,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 15.94
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 29.3,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 5.33,
+        "avgCatchesPerGame": 2.17
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +133,10 @@
       "team": "MIN",
       "year": 2002,
       "stats": {
-        "fgAccuracy": 0.7931
+        "fgAccuracy": 0.7931,
+        "avgKickDistance": 33.7,
+        "avgMissDistance": 43.5,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }
@@ -147,8 +165,8 @@
         "rushYPGAllowed": 104.12,
         "rushTDPerGameAllowed": 0.94,
         "sackPct": 0.0498,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 10
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 10.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 1.75
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 39.2,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 5.33,
+        "avgCatchesPerGame": 3.22
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 71.7,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 9.62,
+        "avgCatchesPerGame": 6.12
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +50,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 13.3,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +63,10 @@
       "year": 2019,
       "stats": {
         "passYPG": 209.2,
-        "tdRatio": 0.0329,
-        "intRatio": 0.0194,
-        "qbr": 25.9
+        "qbr": 25.9,
+        "avgTDPerGame": 1.133,
+        "avgINTPerGame": 0.667,
+        "completionPct": 0.6318
       },
       "eraNormFactor": 1.0039
     },
@@ -70,7 +78,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 41.0,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 5.31,
+        "avgCatchesPerGame": 3.25
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 16.9,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 3.55,
+        "avgCatchesPerGame": 1.64
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 55.6,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "rushAttPerGame": 15.12
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "CHI",
       "year": 2019,
       "stats": {
-        "fgAccuracy": 0.8214
+        "fgAccuracy": 0.8214,
+        "avgKickDistance": 34.8,
+        "avgMissDistance": 42.6,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }

@@ -7,7 +7,10 @@
       "team": "LA",
       "year": 2016,
       "stats": {
-        "fgAccuracy": 0.8636
+        "fgAccuracy": 0.8636,
+        "avgKickDistance": 38.7,
+        "avgMissDistance": 52.7,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -36,8 +39,8 @@
         "rushYPGAllowed": 103.75,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.0533,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 16
       },
       "eraNormFactor": 1.0

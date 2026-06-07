@@ -8,7 +8,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 17.1,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 2.07,
+        "avgCatchesPerGame": 1.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 115.3,
-        "tdPerGame": 1.0
+        "tdPerGame": 1.0,
+        "rushAttPerGame": 19.32
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +36,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 40.1,
-        "tdPerGame": 0.579
+        "tdPerGame": 0.579,
+        "avgTargetsPerGame": 4.16,
+        "avgCatchesPerGame": 3.26
       },
       "eraNormFactor": 1.0
     },
@@ -45,9 +50,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 242.2,
-        "tdRatio": 0.0865,
-        "intRatio": 0.0096,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.368,
+        "avgINTPerGame": 0.263,
+        "completionPct": 0.6731
       },
       "eraNormFactor": 1.4402,
       "is_all_pro": true
@@ -60,7 +66,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 17.1,
-        "tdPerGame": 0.059
+        "tdPerGame": 0.059,
+        "rushAttPerGame": 3.47
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 47.0,
-        "tdPerGame": 0.611
+        "tdPerGame": 0.611,
+        "avgTargetsPerGame": 4.39,
+        "avgCatchesPerGame": 2.83
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 35.5,
-        "tdPerGame": 0.412
+        "tdPerGame": 0.412,
+        "avgTargetsPerGame": 3.94,
+        "avgCatchesPerGame": 2.88
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 62.3,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "avgTargetsPerGame": 6.82,
+        "avgCatchesPerGame": 4.35
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,10 @@
       "team": "BAL",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.75
+        "fgAccuracy": 0.75,
+        "avgKickDistance": 42.4,
+        "avgMissDistance": 50.2,
+        "longestMadeKick": 56
       },
       "eraNormFactor": 1.0
     }

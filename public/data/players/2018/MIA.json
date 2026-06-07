@@ -8,7 +8,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 51.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 11.14
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 38.3,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 5.27,
+        "avgCatchesPerGame": 3.93
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +35,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 178.1,
-        "tdRatio": 0.0337,
-        "intRatio": 0.0225,
-        "qbr": 36.4
+        "qbr": 36.4,
+        "avgTDPerGame": 0.857,
+        "avgINTPerGame": 0.571,
+        "completionPct": 0.6348
       },
       "eraNormFactor": 0.9127
     },
@@ -46,9 +50,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 179.9,
-        "tdRatio": 0.062,
-        "intRatio": 0.0328,
-        "qbr": 1.1
+        "qbr": 1.1,
+        "avgTDPerGame": 1.545,
+        "avgINTPerGame": 0.818,
+        "completionPct": 0.6423
       },
       "eraNormFactor": 0.9219
     },
@@ -60,7 +65,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 36.9,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": 4.27,
+        "avgCatchesPerGame": 2.47
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 55.9,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": 5.0,
+        "avgCatchesPerGame": 3.71
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 28.1,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 4.27,
+        "avgCatchesPerGame": 2.18
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 26.8,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 3.4,
+        "avgCatchesPerGame": 2.1
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +121,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 33.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 7.5
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +134,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 19.1,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "rushAttPerGame": 3.6
       },
       "eraNormFactor": 1.0
     },
@@ -132,7 +147,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 14.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.29,
+        "avgCatchesPerGame": 1.57
       },
       "eraNormFactor": 1.0
     },
@@ -143,7 +160,10 @@
       "team": "MIA",
       "year": 2018,
       "stats": {
-        "fgAccuracy": 0.9
+        "fgAccuracy": 0.9,
+        "avgKickDistance": 37.0,
+        "avgMissDistance": 46.5,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }

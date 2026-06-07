@@ -8,7 +8,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 12.6,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 4.88
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 35.8,
-        "tdPerGame": 0.429
+        "tdPerGame": 0.429,
+        "rushAttPerGame": 8.5
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +34,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 36.0,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 8.31
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +47,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 35.8,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 4.45,
+        "avgCatchesPerGame": 2.45
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +61,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 80.1,
-        "tdPerGame": 0.529
+        "tdPerGame": 0.529,
+        "avgTargetsPerGame": 9.0,
+        "avgCatchesPerGame": 6.29
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -69,9 +76,10 @@
       "year": 2021,
       "stats": {
         "passYPG": 240.2,
-        "tdRatio": 0.0419,
-        "intRatio": 0.034,
-        "qbr": 66.0
+        "qbr": 66.0,
+        "avgTDPerGame": 1.333,
+        "avgINTPerGame": 1.083,
+        "completionPct": 0.644
       },
       "eraNormFactor": 1.3677
     },
@@ -83,7 +91,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 63.0,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 9.12,
+        "avgCatchesPerGame": 5.69
       },
       "eraNormFactor": 1.0
     },
@@ -95,9 +105,10 @@
       "year": 2021,
       "stats": {
         "passYPG": 154.4,
-        "tdRatio": 0.016,
-        "intRatio": 0.0213,
-        "qbr": 8.9
+        "qbr": 8.9,
+        "avgTDPerGame": 0.429,
+        "avgINTPerGame": 0.571,
+        "completionPct": 0.6489
       },
       "eraNormFactor": 0.8791
     },
@@ -109,7 +120,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 28.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.86,
+        "avgCatchesPerGame": 2.29
       },
       "eraNormFactor": 1.0
     },
@@ -121,7 +134,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 18.1,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 3.13,
+        "avgCatchesPerGame": 2.2
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -134,7 +149,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 26.4,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -146,7 +162,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 42.9,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": 5.67,
+        "avgCatchesPerGame": 3.83
       },
       "eraNormFactor": 1.0
     },
@@ -157,7 +175,10 @@
       "team": "BAL",
       "year": 2021,
       "stats": {
-        "fgAccuracy": 0.9459
+        "fgAccuracy": 0.9459,
+        "avgKickDistance": 40.5,
+        "avgMissDistance": 48.5,
+        "longestMadeKick": 66
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true

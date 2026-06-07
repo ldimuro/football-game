@@ -8,7 +8,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 41.4,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 5.24,
+        "avgCatchesPerGame": 3.53
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2023,
       "stats": {
         "passYPG": 273.3,
-        "tdRatio": 0.06,
-        "intRatio": 0.0169,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.167,
+        "avgINTPerGame": 0.611,
+        "completionPct": 0.6938
       },
       "eraNormFactor": 1.5229,
       "is_all_pro": true
@@ -35,7 +38,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 30.6,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "avgTargetsPerGame": 3.71,
+        "avgCatchesPerGame": 2.35
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 58.9,
-        "tdPerGame": 0.389
+        "tdPerGame": 0.389,
+        "rushAttPerGame": 14.83
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 21.9,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "rushAttPerGame": 5.35
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +78,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 103.3,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "avgTargetsPerGame": 11.0,
+        "avgCatchesPerGame": 8.0
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -84,7 +93,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 19.1,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 2.71,
+        "avgCatchesPerGame": 1.57
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 47.4,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 6.33,
+        "avgCatchesPerGame": 4.5
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,10 @@
       "team": "DAL",
       "year": 2023,
       "stats": {
-        "fgAccuracy": 0.9487
+        "fgAccuracy": 0.9487,
+        "avgKickDistance": 37.7,
+        "avgMissDistance": 34.0,
+        "longestMadeKick": 60
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true

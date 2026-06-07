@@ -8,7 +8,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 55.6,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.88
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 219.1,
-        "tdRatio": 0.0506,
-        "intRatio": 0.0199,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.474,
+        "avgINTPerGame": 0.579,
+        "completionPct": 0.6438
       },
       "eraNormFactor": 1.2842,
       "is_all_pro": true
@@ -35,7 +38,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 45.8,
-        "tdPerGame": 0.556
+        "tdPerGame": 0.556,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.44
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 111.4,
-        "tdPerGame": 1.526
+        "tdPerGame": 1.526,
+        "rushAttPerGame": 22.63
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true,
@@ -62,7 +68,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 83.3,
-        "tdPerGame": 0.556
+        "tdPerGame": 0.556,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 6.44
       },
       "eraNormFactor": 1.0
     },
@@ -74,7 +82,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 38.7,
-        "tdPerGame": 0.412
+        "tdPerGame": 0.412,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.29
       },
       "eraNormFactor": 1.0
     },
@@ -86,7 +96,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 25.8,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "rushAttPerGame": 6.86
       },
       "eraNormFactor": 1.0
     },
@@ -98,7 +109,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 44.4,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.11
       },
       "eraNormFactor": 1.0
     },
@@ -109,7 +122,10 @@
       "team": "SEA",
       "year": 2005,
       "stats": {
-        "fgAccuracy": 0.697
+        "fgAccuracy": 0.697,
+        "avgKickDistance": 41.2,
+        "avgMissDistance": 48.1,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0
     }
@@ -138,8 +154,8 @@
         "rushYPGAllowed": 94.38,
         "rushTDPerGameAllowed": 0.31,
         "sackPct": 0.0876,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0

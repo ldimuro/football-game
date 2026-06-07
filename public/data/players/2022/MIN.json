@@ -8,9 +8,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 267.8,
-        "tdRatio": 0.0455,
-        "intRatio": 0.0205,
-        "qbr": 67.1
+        "qbr": 67.1,
+        "avgTDPerGame": 1.722,
+        "avgINTPerGame": 0.778,
+        "completionPct": 0.6672
       },
       "eraNormFactor": 1.4661
     },
@@ -22,7 +23,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 42.6,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 6.17,
+        "avgCatchesPerGame": 4.06
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 10.9,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 1.57,
+        "avgCatchesPerGame": 1.43
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 68.5,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "rushAttPerGame": 15.5
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 20.6,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 4.22,
+        "avgCatchesPerGame": 2.89
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 15.7,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "rushAttPerGame": 4.11
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 103.1,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 10.72,
+        "avgCatchesPerGame": 7.5
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true,
@@ -96,7 +107,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 37.2,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 5.17,
+        "avgCatchesPerGame": 3.44
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,10 @@
       "team": "MIN",
       "year": 2022,
       "stats": {
-        "fgAccuracy": 0.7941
+        "fgAccuracy": 0.7941,
+        "avgKickDistance": 39.8,
+        "avgMissDistance": 52.6,
+        "longestMadeKick": 61
       },
       "eraNormFactor": 1.0
     }

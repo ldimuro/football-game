@@ -8,7 +8,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 55.0,
-        "tdPerGame": 0.308
+        "tdPerGame": 0.308,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 131.2,
-        "tdRatio": 0.0156,
-        "intRatio": 0.0365,
-        "qbr": 20.2
+        "qbr": 20.2,
+        "avgTDPerGame": 0.375,
+        "avgINTPerGame": 0.875,
+        "completionPct": 0.5573
       },
       "eraNormFactor": 0.8125
     },
@@ -34,7 +37,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 28.9,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.93
       },
       "eraNormFactor": 1.0
     },
@@ -46,9 +51,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 157.6,
-        "tdRatio": 0.0279,
-        "intRatio": 0.0478,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.778,
+        "avgINTPerGame": 1.333,
+        "completionPct": 0.502
       },
       "eraNormFactor": 0.976
     },
@@ -60,7 +66,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 38.9,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.27
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +80,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 78.8,
-        "tdPerGame": 0.462
+        "tdPerGame": 0.462,
+        "rushAttPerGame": 18.77
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 24.1,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.87
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 47.8,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 12.5
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,10 @@
       "team": "CHI",
       "year": 2003,
       "stats": {
-        "fgAccuracy": 0.7222
+        "fgAccuracy": 0.7222,
+        "avgKickDistance": 38.4,
+        "avgMissDistance": 40.3,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +151,8 @@
         "rushYPGAllowed": 116.56,
         "rushTDPerGameAllowed": 0.81,
         "sackPct": 0.0343,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 16
       },
       "eraNormFactor": 1.0

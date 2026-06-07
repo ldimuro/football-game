@@ -8,7 +8,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 69.6,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.27
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 92.9,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "rushAttPerGame": 21.38
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +36,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 15.8,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "rushAttPerGame": 4.69
       },
       "eraNormFactor": 1.0
     },
@@ -45,7 +49,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 53.1,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.19
       },
       "eraNormFactor": 1.0
     },
@@ -57,9 +63,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 202.8,
-        "tdRatio": 0.0257,
-        "intRatio": 0.0119,
-        "qbr": 50.4
+        "qbr": 50.4,
+        "avgTDPerGame": 0.812,
+        "avgINTPerGame": 0.375,
+        "completionPct": 0.6225
       },
       "eraNormFactor": 1.1152
     },
@@ -70,7 +77,10 @@
       "team": "WAS",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.7222
+        "fgAccuracy": 0.7222,
+        "avgKickDistance": 38.7,
+        "avgMissDistance": 45.0,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }
@@ -99,8 +109,8 @@
         "rushYPGAllowed": 95.38,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.047,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 8
       },
       "eraNormFactor": 1.0

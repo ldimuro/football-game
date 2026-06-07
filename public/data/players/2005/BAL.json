@@ -8,7 +8,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 67.1,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.38
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 197.8,
-        "tdRatio": 0.0226,
-        "intRatio": 0.0338,
-        "qbr": 17.4
+        "qbr": 17.4,
+        "avgTDPerGame": 0.75,
+        "avgINTPerGame": 1.125,
+        "completionPct": 0.6165
       },
       "eraNormFactor": 1.1593
     },
@@ -34,7 +37,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 60.4,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 17.93
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 19.2,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.5
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 53.4,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.69
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 34.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 8.36
       },
       "eraNormFactor": 1.0
     },
@@ -82,9 +91,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 199.9,
-        "tdRatio": 0.0375,
-        "intRatio": 0.041,
-        "qbr": 37.1
+        "qbr": 37.1,
+        "avgTDPerGame": 1.222,
+        "avgINTPerGame": 1.333,
+        "completionPct": 0.5836
       },
       "eraNormFactor": 1.1716
     },
@@ -96,7 +106,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 36.2,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.38
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,10 @@
       "team": "BAL",
       "year": 2005,
       "stats": {
-        "fgAccuracy": 0.8571
+        "fgAccuracy": 0.8571,
+        "avgKickDistance": 36.4,
+        "avgMissDistance": 45.4,
+        "longestMadeKick": 49
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +151,8 @@
         "rushYPGAllowed": 99.44,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.08,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 9
       },
       "eraNormFactor": 1.0

@@ -8,9 +8,10 @@
       "year": 2020,
       "stats": {
         "passYPG": 256.4,
-        "tdRatio": 0.0522,
-        "intRatio": 0.0174,
-        "qbr": 87.6
+        "qbr": 87.6,
+        "avgTDPerGame": 1.688,
+        "avgINTPerGame": 0.562,
+        "completionPct": 0.6731
       },
       "eraNormFactor": 1.3854
     },
@@ -22,7 +23,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 56.0,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 5.12,
+        "avgCatchesPerGame": 3.0
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 74.8,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "avgTargetsPerGame": 9.06,
+        "avgCatchesPerGame": 6.69
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -47,7 +52,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 28.2,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 6.2
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 14.0,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 1.82,
+        "avgCatchesPerGame": 1.27
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 41.0,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 4.81,
+        "avgCatchesPerGame": 3.5
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 71.0,
-        "tdPerGame": 0.8
+        "tdPerGame": 0.8,
+        "rushAttPerGame": 18.2
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 34.8,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "avgTargetsPerGame": 3.31,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,10 @@
       "team": "LV",
       "year": 2020,
       "stats": {
-        "fgAccuracy": 0.9429
+        "fgAccuracy": 0.9429,
+        "avgKickDistance": 32.9,
+        "avgMissDistance": 41.0,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

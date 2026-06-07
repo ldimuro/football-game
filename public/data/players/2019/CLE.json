@@ -8,7 +8,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 11.5,
-        "tdPerGame": 0.231
+        "tdPerGame": 0.231,
+        "avgTargetsPerGame": 2.08,
+        "avgCatchesPerGame": 1.15
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 68.2,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 8.38,
+        "avgCatchesPerGame": 4.69
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 73.4,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 8.62,
+        "avgCatchesPerGame": 5.19
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +50,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 25.4,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 2.44,
+        "avgCatchesPerGame": 1.56
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +64,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 22.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 5.38
       },
       "eraNormFactor": 1.0
     },
@@ -68,7 +77,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 22.2,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "avgTargetsPerGame": 2.67,
+        "avgCatchesPerGame": 1.33
       },
       "eraNormFactor": 1.0
     },
@@ -80,7 +91,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 94.6,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 18.69
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -93,9 +105,10 @@
       "year": 2019,
       "stats": {
         "passYPG": 242.7,
-        "tdRatio": 0.043,
-        "intRatio": 0.0393,
-        "qbr": 46.9
+        "qbr": 46.9,
+        "avgTDPerGame": 1.438,
+        "avgINTPerGame": 1.312,
+        "completionPct": 0.5944
       },
       "eraNormFactor": 1.1646
     },
@@ -106,7 +119,10 @@
       "team": "CLE",
       "year": 2019,
       "stats": {
-        "fgAccuracy": 0.8621
+        "fgAccuracy": 0.8621,
+        "avgKickDistance": 37.5,
+        "avgMissDistance": 46.5,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }

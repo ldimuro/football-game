@@ -8,7 +8,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 64.8,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "rushAttPerGame": 19.61
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 78.9,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.83
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +35,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 225.9,
-        "tdRatio": 0.0579,
-        "intRatio": 0.0245,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.625,
+        "avgINTPerGame": 0.688,
+        "completionPct": 0.6281
       },
       "eraNormFactor": 1.399,
       "is_all_pro": true,
@@ -48,7 +52,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 17.4,
-        "tdPerGame": 0.182
+        "tdPerGame": 0.182,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 1.91
       },
       "eraNormFactor": 1.0
     },
@@ -60,7 +66,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 22.8,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.44
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +80,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 51.7,
-        "tdPerGame": 0.364
+        "tdPerGame": 0.364,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.27
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +94,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 49.8,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.83
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +108,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 33.9,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +122,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 24.4,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "rushAttPerGame": 5.69
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,10 @@
       "team": "TEN",
       "year": 2003,
       "stats": {
-        "fgAccuracy": 0.8462
+        "fgAccuracy": 0.8462,
+        "avgKickDistance": 38.0,
+        "avgMissDistance": 43.7,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }
@@ -148,8 +166,8 @@
         "rushYPGAllowed": 80.94,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0696,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

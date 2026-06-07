@@ -8,7 +8,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 66.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 14.33
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 22.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.43,
+        "avgCatchesPerGame": 1.79
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 94.6,
-        "tdPerGame": 0.647
+        "tdPerGame": 0.647,
+        "avgTargetsPerGame": 10.18,
+        "avgCatchesPerGame": 7.06
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -45,7 +50,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 29.8,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "rushAttPerGame": 8.94
       },
       "eraNormFactor": 1.0
     },
@@ -57,7 +63,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 32.0,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 6.0,
+        "avgCatchesPerGame": 4.43
       },
       "eraNormFactor": 1.0
     },
@@ -69,7 +77,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 71.9,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": 6.43,
+        "avgCatchesPerGame": 4.57
       },
       "eraNormFactor": 1.0
     },
@@ -81,9 +91,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 258.8,
-        "tdRatio": 0.0487,
-        "intRatio": 0.0181,
-        "qbr": 78.5
+        "qbr": 78.5,
+        "avgTDPerGame": 1.588,
+        "avgINTPerGame": 0.588,
+        "completionPct": 0.6751
       },
       "eraNormFactor": 1.3263
     },
@@ -95,7 +106,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 16.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.0,
+        "avgCatchesPerGame": 1.36
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 56.7,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 7.86,
+        "avgCatchesPerGame": 5.57
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 15.4,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 1.93,
+        "avgCatchesPerGame": 1.43
       },
       "eraNormFactor": 1.0
     },
@@ -130,7 +147,10 @@
       "team": "HOU",
       "year": 2018,
       "stats": {
-        "fgAccuracy": 0.881
+        "fgAccuracy": 0.881,
+        "avgKickDistance": 38.4,
+        "avgMissDistance": 50.0,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

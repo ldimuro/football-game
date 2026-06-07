@@ -8,7 +8,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 29.9,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 7.2
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 31.1,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 3.67,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 44.6,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 9.0
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +48,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 48.1,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 6.56,
+        "avgCatchesPerGame": 4.12
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +62,10 @@
       "year": 2020,
       "stats": {
         "passYPG": 182.2,
-        "tdRatio": 0.0613,
-        "intRatio": 0.0259,
-        "qbr": 76.8
+        "qbr": 76.8,
+        "avgTDPerGame": 1.529,
+        "avgINTPerGame": 0.647,
+        "completionPct": 0.6439
       },
       "eraNormFactor": 0.9845
     },
@@ -70,7 +77,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 53.6,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 6.44,
+        "avgCatchesPerGame": 3.83
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 19.1,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "avgTargetsPerGame": 2.53,
+        "avgCatchesPerGame": 1.47
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 52.4,
-        "tdPerGame": 0.588
+        "tdPerGame": 0.588,
+        "rushAttPerGame": 9.0
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 14.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 1.86,
+        "avgCatchesPerGame": 1.43
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +131,10 @@
       "team": "BAL",
       "year": 2020,
       "stats": {
-        "fgAccuracy": 0.8286
+        "fgAccuracy": 0.8286,
+        "avgKickDistance": 39.6,
+        "avgMissDistance": 48.8,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true

@@ -8,7 +8,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 32.0,
-        "tdPerGame": 0.3
+        "tdPerGame": 0.3,
+        "avgTargetsPerGame": 4.05,
+        "avgCatchesPerGame": 3.2
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 46.9,
-        "tdPerGame": 0.3
+        "tdPerGame": 0.3,
+        "avgTargetsPerGame": 5.7,
+        "avgCatchesPerGame": 4.1
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 13.1,
-        "tdPerGame": 0.053
+        "tdPerGame": 0.053,
+        "rushAttPerGame": 3.05
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 73.4,
-        "tdPerGame": 0.7
+        "tdPerGame": 0.7,
+        "rushAttPerGame": 17.95
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -57,7 +63,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 77.8,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 7.78,
+        "avgCatchesPerGame": 5.11
       },
       "eraNormFactor": 1.0
     },
@@ -69,9 +77,10 @@
       "year": 2021,
       "stats": {
         "passYPG": 285.8,
-        "tdRatio": 0.0589,
-        "intRatio": 0.0242,
-        "qbr": 99.8
+        "qbr": 99.8,
+        "avgTDPerGame": 1.95,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.6994
       },
       "eraNormFactor": 1.6273,
       "is_all_pro": true
@@ -84,7 +93,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 86.8,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "avgTargetsPerGame": 7.76,
+        "avgCatchesPerGame": 5.05
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -96,7 +107,10 @@
       "team": "CIN",
       "year": 2021,
       "stats": {
-        "fgAccuracy": 0.8958
+        "fgAccuracy": 0.8958,
+        "avgKickDistance": 40.6,
+        "avgMissDistance": 49.0,
+        "longestMadeKick": 58
       },
       "eraNormFactor": 1.0
     }

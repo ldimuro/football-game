@@ -8,7 +8,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 85.5,
-        "tdPerGame": 0.789
+        "tdPerGame": 0.789,
+        "rushAttPerGame": 18.05
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -21,7 +22,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 37.2,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 6.0,
+        "avgCatchesPerGame": 3.92
       },
       "eraNormFactor": 1.0
     },
@@ -33,7 +36,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 51.2,
-        "tdPerGame": 0.263
+        "tdPerGame": 0.263,
+        "avgTargetsPerGame": 5.89,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -45,7 +50,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 21.9,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "avgTargetsPerGame": 1.85,
+        "avgCatchesPerGame": 1.31
       },
       "eraNormFactor": 1.0
     },
@@ -57,7 +64,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 41.4,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": 4.67,
+        "avgCatchesPerGame": 2.5
       },
       "eraNormFactor": 1.0
     },
@@ -69,9 +78,10 @@
       "year": 2014,
       "stats": {
         "passYPG": 221.0,
-        "tdRatio": 0.0496,
-        "intRatio": 0.0229,
-        "qbr": 76.8
+        "qbr": 76.8,
+        "avgTDPerGame": 1.368,
+        "avgINTPerGame": 0.632,
+        "completionPct": 0.6221
       },
       "eraNormFactor": 1.1015
     },
@@ -83,7 +93,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 18.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.47
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 20.6,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 1.33
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 31.5,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 3.5,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 17.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.4
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +147,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 24.3,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": 3.83,
+        "avgCatchesPerGame": 2.5
       },
       "eraNormFactor": 1.0
     },
@@ -142,7 +160,10 @@
       "team": "SEA",
       "year": 2014,
       "stats": {
-        "fgAccuracy": 0.8462
+        "fgAccuracy": 0.8462,
+        "avgKickDistance": 36.9,
+        "avgMissDistance": 48.3,
+        "longestMadeKick": 58
       },
       "eraNormFactor": 1.0
     }
@@ -171,8 +192,8 @@
         "rushYPGAllowed": 81.5,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.073,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 3
       },
       "eraNormFactor": 1.0

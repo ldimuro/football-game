@@ -95,8 +95,8 @@ def compute_year_stats(year):
             base[abbr]['dline']['blitzPct'] = parse_pct(row['Bltz%'])
             base[abbr]['dline']['pressurePct'] = parse_pct(row['Prss%'])
         else:
-            base[abbr]['dline']['blitzPct'] = 0.0
-            base[abbr]['dline']['pressurePct'] = 0.0
+            base[abbr]['dline']['blitzPct'] = None
+            base[abbr]['dline']['pressurePct'] = None
 
     dline_sorted = sorted(base.items(), key=lambda kv: kv[1]['dline']['rushYPGAllowed'])
     secondary_sorted = sorted(base.items(), key=lambda kv: kv[1]['secondary']['passYPGAllowed'])

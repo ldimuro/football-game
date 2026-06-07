@@ -8,7 +8,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 44.4,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "avgTargetsPerGame": 5.71,
+        "avgCatchesPerGame": 3.64
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 93.5,
-        "tdPerGame": 0.615
+        "tdPerGame": 0.615,
+        "avgTargetsPerGame": 10.62,
+        "avgCatchesPerGame": 6.62
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +37,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 22.6,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "rushAttPerGame": 3.64
       },
       "eraNormFactor": 1.0
     },
@@ -45,9 +50,10 @@
       "year": 2010,
       "stats": {
         "passYPG": 273.1,
-        "tdRatio": 0.0418,
-        "intRatio": 0.0209,
-        "qbr": 98.1
+        "qbr": 98.1,
+        "avgTDPerGame": 1.5,
+        "avgINTPerGame": 0.75,
+        "completionPct": 0.6359
       },
       "eraNormFactor": 1.4563
     },
@@ -59,7 +65,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 34.5,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "avgTargetsPerGame": 3.67,
+        "avgCatchesPerGame": 2.4
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 42.8,
-        "tdPerGame": 0.182
+        "tdPerGame": 0.182,
+        "avgTargetsPerGame": 6.18,
+        "avgCatchesPerGame": 3.45
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 37.5,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 5.2,
+        "avgCatchesPerGame": 3.4
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +107,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 100.9,
-        "tdPerGame": 1.0
+        "tdPerGame": 1.0,
+        "rushAttPerGame": 20.38
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -107,7 +120,10 @@
       "team": "HOU",
       "year": 2010,
       "stats": {
-        "fgAccuracy": 0.9
+        "fgAccuracy": 0.9,
+        "avgKickDistance": 37.0,
+        "avgMissDistance": 48.3,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +152,8 @@
         "rushYPGAllowed": 109.44,
         "rushTDPerGameAllowed": 1.0,
         "sackPct": 0.0548,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 13
       },
       "eraNormFactor": 1.0

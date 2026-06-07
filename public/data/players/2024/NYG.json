@@ -8,7 +8,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 29.1,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "rushAttPerGame": 7.53
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 35.8,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 4.44,
+        "avgCatchesPerGame": 2.44
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +35,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 153.0,
-        "tdRatio": 0.0331,
-        "intRatio": 0.0276,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.857,
+        "avgINTPerGame": 0.714,
+        "completionPct": 0.5912
       },
       "eraNormFactor": 0.9098
     },
@@ -46,9 +50,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 207.0,
-        "tdRatio": 0.0235,
-        "intRatio": 0.0205,
-        "qbr": 16.6
+        "qbr": 16.6,
+        "avgTDPerGame": 0.8,
+        "avgINTPerGame": 0.7,
+        "completionPct": 0.6334
       },
       "eraNormFactor": 1.2309
     },
@@ -60,7 +65,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 41.1,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 8.24,
+        "avgCatchesPerGame": 5.47
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 80.3,
-        "tdPerGame": 0.467
+        "tdPerGame": 0.467,
+        "avgTargetsPerGame": 11.33,
+        "avgCatchesPerGame": 7.27
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 49.4,
-        "tdPerGame": 0.294
+        "tdPerGame": 0.294,
+        "rushAttPerGame": 11.29
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +106,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 33.1,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 4.3,
+        "avgCatchesPerGame": 2.9
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,10 @@
       "team": "NYG",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.8214
+        "fgAccuracy": 0.8214,
+        "avgKickDistance": 39.1,
+        "avgMissDistance": 43.6,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }

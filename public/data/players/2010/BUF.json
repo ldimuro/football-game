@@ -8,7 +8,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 48.2,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 6.92,
+        "avgCatchesPerGame": 3.08
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 49.0,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 6.62,
+        "avgCatchesPerGame": 4.12
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +36,10 @@
       "year": 2010,
       "stats": {
         "passYPG": 230.2,
-        "tdRatio": 0.0522,
-        "intRatio": 0.034,
-        "qbr": 58.6
+        "qbr": 58.6,
+        "avgTDPerGame": 1.769,
+        "avgINTPerGame": 1.154,
+        "completionPct": 0.5782
       },
       "eraNormFactor": 1.2276
     },
@@ -46,7 +51,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 57.9,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 13.88
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 48.3,
-        "tdPerGame": 0.389
+        "tdPerGame": 0.389,
+        "rushAttPerGame": 12.5
       },
       "eraNormFactor": 1.0
     },
@@ -70,9 +77,10 @@
       "year": 2010,
       "stats": {
         "passYPG": 130.2,
-        "tdRatio": 0.0198,
-        "intRatio": 0.0495,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.5,
+        "avgINTPerGame": 1.25,
+        "completionPct": 0.5446
       },
       "eraNormFactor": 0.6943
     },
@@ -84,7 +92,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 67.1,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": 8.88,
+        "avgCatchesPerGame": 5.12
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +106,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 25.2,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 3.36,
+        "avgCatchesPerGame": 2.21
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +120,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 26.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 5.12,
+        "avgCatchesPerGame": 2.25
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +134,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 20.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 5.29
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +146,10 @@
       "team": "BUF",
       "year": 2010,
       "stats": {
-        "fgAccuracy": 0.7619
+        "fgAccuracy": 0.7619,
+        "avgKickDistance": 37.3,
+        "avgMissDistance": 48.2,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -160,8 +178,8 @@
         "rushYPGAllowed": 169.62,
         "rushTDPerGameAllowed": 1.12,
         "sackPct": 0.0571,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 32
       },
       "eraNormFactor": 1.0

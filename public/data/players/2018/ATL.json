@@ -8,9 +8,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 307.8,
-        "tdRatio": 0.0576,
-        "intRatio": 0.0115,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.188,
+        "avgINTPerGame": 0.438,
+        "completionPct": 0.6941
       },
       "eraNormFactor": 1.5774
     },
@@ -22,7 +23,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 104.8,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 10.62,
+        "avgCatchesPerGame": 7.06
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -35,7 +38,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 52.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.88,
+        "avgCatchesPerGame": 4.12
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 16.6,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 2.75,
+        "avgCatchesPerGame": 1.75
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +66,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 50.0,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 10.44
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 41.2,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.5,
+        "avgCatchesPerGame": 4.44
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 24.2,
-        "tdPerGame": 0.308
+        "tdPerGame": 0.308,
+        "rushAttPerGame": 6.92
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 51.3,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": 5.75,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,10 @@
       "team": "ATL",
       "year": 2018,
       "stats": {
-        "fgAccuracy": 0.9615
+        "fgAccuracy": 0.9615,
+        "avgKickDistance": 40.9,
+        "avgMissDistance": 53.0,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }

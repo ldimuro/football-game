@@ -8,7 +8,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 45.9,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 7.0,
+        "avgCatchesPerGame": 4.31
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 58.8,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "rushAttPerGame": 16.12
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 22.9,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 4.6,
+        "avgCatchesPerGame": 2.27
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 17.1,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 4.6,
+        "avgCatchesPerGame": 1.7
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +63,10 @@
       "year": 2018,
       "stats": {
         "passYPG": 162.7,
-        "tdRatio": 0.028,
-        "intRatio": 0.0356,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.786,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5522
       },
       "eraNormFactor": 0.8338
     },
@@ -70,7 +78,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 30.0,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 4.0,
+        "avgCatchesPerGame": 2.71
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2018,
       "stats": {
         "rushYPG": 13.0,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 3.75
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2018,
       "stats": {
         "recYPG": 49.2,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.67,
+        "avgCatchesPerGame": 3.58
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "ARI",
       "year": 2018,
       "stats": {
-        "fgAccuracy": 0.7059
+        "fgAccuracy": 0.7059,
+        "avgKickDistance": 40.5,
+        "avgMissDistance": 49.8,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0
     }

@@ -8,7 +8,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 87.8,
-        "tdPerGame": 1.0
+        "tdPerGame": 1.0,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.31
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -21,9 +23,10 @@
       "year": 2007,
       "stats": {
         "passYPG": 259.5,
-        "tdRatio": 0.0665,
-        "intRatio": 0.036,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.176,
+        "avgINTPerGame": 1.176,
+        "completionPct": 0.6349
       },
       "eraNormFactor": 1.6277
     },
@@ -35,7 +38,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 72.1,
-        "tdPerGame": 0.412
+        "tdPerGame": 0.412,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 6.06
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -48,7 +53,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 51.7,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.79
       },
       "eraNormFactor": 1.0
     },
@@ -60,7 +67,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 34.8,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "rushAttPerGame": 9.94
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +80,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 64.8,
-        "tdPerGame": 0.647
+        "tdPerGame": 0.647,
+        "rushAttPerGame": 13.53
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +92,10 @@
       "team": "DAL",
       "year": 2007,
       "stats": {
-        "fgAccuracy": 0.8438
+        "fgAccuracy": 0.8438,
+        "avgKickDistance": 35.7,
+        "avgMissDistance": 40.4,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -113,8 +125,8 @@
         "rushYPGAllowed": 94.56,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.0792,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 6
       },
       "eraNormFactor": 1.0

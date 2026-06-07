@@ -8,7 +8,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 80.5,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.69
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -21,9 +23,10 @@
       "year": 2006,
       "stats": {
         "passYPG": 242.8,
-        "tdRatio": 0.0294,
-        "intRatio": 0.0294,
-        "qbr": 48.4
+        "qbr": 48.4,
+        "avgTDPerGame": 1.125,
+        "avgINTPerGame": 1.125,
+        "completionPct": 0.5595
       },
       "eraNormFactor": 1.3844
     },
@@ -35,7 +38,8 @@
       "year": 2006,
       "stats": {
         "rushYPG": 75.6,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "rushAttPerGame": 19.0
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +51,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 21.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.27
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 24.8,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.62
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 44.8,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.62
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2006,
       "stats": {
         "rushYPG": 23.3,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "rushAttPerGame": 6.22
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,8 @@
       "year": 2006,
       "stats": {
         "rushYPG": 11.5,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "rushAttPerGame": 2.85
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +119,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 45.1,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.21
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +132,10 @@
       "team": "GB",
       "year": 2006,
       "stats": {
-        "fgAccuracy": 0.7429
+        "fgAccuracy": 0.7429,
+        "avgKickDistance": 35.7,
+        "avgMissDistance": 40.9,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -147,8 +164,8 @@
         "rushYPGAllowed": 114.06,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.0893,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 13
       },
       "eraNormFactor": 1.0

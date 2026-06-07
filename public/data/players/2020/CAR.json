@@ -8,9 +8,10 @@
       "year": 2020,
       "stats": {
         "passYPG": 248.9,
-        "tdRatio": 0.0305,
-        "intRatio": 0.0224,
-        "qbr": 72.3
+        "qbr": 72.3,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 0.733,
+        "completionPct": 0.6911
       },
       "eraNormFactor": 1.3449
     },
@@ -22,7 +23,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 45.9,
-        "tdPerGame": 0.429
+        "tdPerGame": 0.429,
+        "rushAttPerGame": 11.79
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +36,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 68.5,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": 8.5,
+        "avgCatchesPerGame": 5.94
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 56.7,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 6.47,
+        "avgCatchesPerGame": 5.13
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 11.2,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 2.38,
+        "avgCatchesPerGame": 1.54
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 79.5,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "avgTargetsPerGame": 7.87,
+        "avgCatchesPerGame": 4.4
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 22.3,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 5.86
       },
       "eraNormFactor": 1.0
     },
@@ -93,7 +104,10 @@
       "team": "CAR",
       "year": 2020,
       "stats": {
-        "fgAccuracy": 0.8056
+        "fgAccuracy": 0.8056,
+        "avgKickDistance": 37.2,
+        "avgMissDistance": 51.6,
+        "longestMadeKick": 56
       },
       "eraNormFactor": 1.0
     }

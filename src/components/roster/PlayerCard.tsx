@@ -23,8 +23,9 @@ export function renderStats(slot: Player | TeamUnit) {
     return (
       <>
         <StatBar label="Pass YPG" value={q.passYPG.toFixed(1)} />
-        <StatBar label="TD Ratio" value={(q.tdRatio * 100).toFixed(1) + '%'} />
-        <StatBar label="INT Ratio" value={(q.intRatio * 100).toFixed(1) + '%'} />
+        <StatBar label="Completion%" value={(q.completionPct * 100).toFixed(1) + '%'} />
+        <StatBar label="Avg TD/G" value={q.avgTDPerGame.toFixed(2)} />
+        <StatBar label="Avg INT/G" value={q.avgINTPerGame.toFixed(2)} />
         <StatBar label="QBR" value={q.qbr.toFixed(1)} />
       </>
     )
@@ -35,6 +36,8 @@ export function renderStats(slot: Player | TeamUnit) {
       <>
         <StatBar label="Rec YPG" value={w.recYPG.toFixed(1)} />
         <StatBar label="TDs/Game" value={w.tdPerGame.toFixed(2)} />
+        <StatBar label="Avg Targets/G" value={w.avgTargetsPerGame === null ? '-' : w.avgTargetsPerGame.toFixed(1)} />
+        <StatBar label="Avg Catches/G" value={w.avgCatchesPerGame.toFixed(1)} />
       </>
     )
   }
@@ -44,12 +47,20 @@ export function renderStats(slot: Player | TeamUnit) {
       <>
         <StatBar label="Rush YPG" value={r.rushYPG.toFixed(1)} />
         <StatBar label="TDs/Game" value={r.tdPerGame.toFixed(2)} />
+        <StatBar label="Rush Att/G" value={r.rushAttPerGame.toFixed(1)} />
       </>
     )
   }
   if ('fgAccuracy' in s) {
     const k = s as KStats
-    return <StatBar label="FG Accuracy" value={(k.fgAccuracy * 100).toFixed(1) + '%'} />
+    return (
+      <>
+        <StatBar label="FG Accuracy" value={(k.fgAccuracy * 100).toFixed(1) + '%'} />
+        <StatBar label="Avg Kick Distance" value={k.avgKickDistance.toFixed(1)} />
+        <StatBar label="Avg Miss Distance" value={k.avgMissDistance.toFixed(1)} />
+        <StatBar label="Longest Made Kick" value={k.longestMadeKick} />
+      </>
+    )
   }
   if ('sacksAllowedPerGame' in s) {
     const o = s as OLineStats
@@ -70,8 +81,8 @@ export function renderStats(slot: Player | TeamUnit) {
         <StatBar label="Rush YPG Allowed" value={d.rushYPGAllowed.toFixed(1)} />
         <StatBar label="Rush TD/G Allowed" value={d.rushTDPerGameAllowed.toFixed(2)} />
         <StatBar label="Sack%" value={(d.sackPct * 100).toFixed(1) + '%'} />
-        <StatBar label="Blitz%" value={(d.blitzPct * 100).toFixed(1) + '%'} />
-        <StatBar label="Pressure%" value={(d.pressurePct * 100).toFixed(1) + '%'} />
+        <StatBar label="Blitz%" value={d.blitzPct === null ? '-' : (d.blitzPct * 100).toFixed(1) + '%'} />
+        <StatBar label="Pressure%" value={d.pressurePct === null ? '-' : (d.pressurePct * 100).toFixed(1) + '%'} />
         <StatBar label="Rank" value={`#${d.normalizedRank}`} />
       </>
     )

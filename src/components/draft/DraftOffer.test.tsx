@@ -8,9 +8,9 @@ const mockOffer = {
   team: 'NE', year: 2019,
   players: [
     { id: 'qb_brady', name: 'Tom Brady', position: 'QB' as const, team: 'NE', year: 2019,
-      stats: { passYPG: 240, tdRatio: 0.058, intRatio: 0.013, qbr: 61 }, eraNormFactor: 0.92 },
+      stats: { passYPG: 240, avgTDPerGame: 1.74, avgINTPerGame: 0.39, completionPct: 0.64, qbr: 61 }, eraNormFactor: 0.92 },
     { id: 'wr_edelman', name: 'Julian Edelman', position: 'WR' as const, team: 'NE', year: 2019,
-      stats: { recYPG: 72, tdPerGame: 0.35 }, eraNormFactor: 1.02 },
+      stats: { recYPG: 72, tdPerGame: 0.35, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.02 },
   ],
   units: [
     { id: 'sec_ne', position: 'Secondary' as const, team: 'NE', year: 2019,
@@ -20,7 +20,7 @@ const mockOffer = {
 
 const mockRoster = {
   QB: { id: 'qb_old', name: 'Old QB', position: 'QB' as const, team: 'KC', year: 2022,
-    stats: { passYPG: 317, tdRatio: 0.067, intRatio: 0.011, qbr: 74 }, eraNormFactor: 1.08 },
+    stats: { passYPG: 317, avgTDPerGame: 2.01, avgINTPerGame: 0.33, completionPct: 0.64, qbr: 74 }, eraNormFactor: 1.08 },
   WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null,
 }
 

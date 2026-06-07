@@ -8,7 +8,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 70.6,
-        "tdPerGame": 0.389
+        "tdPerGame": 0.389,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.78
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2007,
       "stats": {
         "passYPG": 243.8,
-        "tdRatio": 0.0478,
-        "intRatio": 0.0223,
-        "qbr": 83.7
+        "qbr": 83.7,
+        "avgTDPerGame": 1.667,
+        "avgINTPerGame": 0.778,
+        "completionPct": 0.6236
       },
       "eraNormFactor": 1.5293
     },
@@ -34,7 +37,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 19.7,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.07
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 52.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 15.4
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 42.7,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "rushAttPerGame": 9.8
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +77,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 66.1,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.9
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 43.9,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.33
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 62.5,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "SEA",
       "year": 2007,
       "stats": {
-        "fgAccuracy": 0.8421
+        "fgAccuracy": 0.8421,
+        "avgKickDistance": 36.8,
+        "avgMissDistance": 46.7,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 102.75,
         "rushTDPerGameAllowed": 1.0,
         "sackPct": 0.0792,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 12
       },
       "eraNormFactor": 1.0

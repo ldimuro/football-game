@@ -8,7 +8,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 22.2,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "avgTargetsPerGame": 3.22,
+        "avgCatchesPerGame": 2.56
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2012,
       "stats": {
         "rushYPG": 41.8,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 8.4
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 36.0,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "avgTargetsPerGame": 5.13,
+        "avgCatchesPerGame": 3.47
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,8 @@
       "year": 2012,
       "stats": {
         "rushYPG": 69.0,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "rushAttPerGame": 14.33
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +62,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 36.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 6.14,
+        "avgCatchesPerGame": 3.43
       },
       "eraNormFactor": 1.0
     },
@@ -68,9 +76,10 @@
       "year": 2012,
       "stats": {
         "passYPG": 208.4,
-        "tdRatio": 0.0357,
-        "intRatio": 0.0357,
-        "qbr": 5.1
+        "qbr": 5.1,
+        "avgTDPerGame": 1.1,
+        "avgINTPerGame": 1.1,
+        "completionPct": 0.539
       },
       "eraNormFactor": 1.016
     },
@@ -82,7 +91,8 @@
       "year": 2012,
       "stats": {
         "rushYPG": 20.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 5.71
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +104,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 7.7,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 2.86,
+        "avgCatchesPerGame": 1.29
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,8 @@
       "year": 2012,
       "stats": {
         "rushYPG": 28.3,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 10.1
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +131,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 40.7,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": 6.5,
+        "avgCatchesPerGame": 3.83
       },
       "eraNormFactor": 1.0
     },
@@ -130,9 +145,10 @@
       "year": 2012,
       "stats": {
         "passYPG": 166.2,
-        "tdRatio": 0.0324,
-        "intRatio": 0.0216,
-        "qbr": 12.3
+        "qbr": 12.3,
+        "avgTDPerGame": 0.9,
+        "avgINTPerGame": 0.6,
+        "completionPct": 0.5827
       },
       "eraNormFactor": 0.8103
     },
@@ -144,7 +160,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 69.9,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 7.5,
+        "avgCatchesPerGame": 3.93
       },
       "eraNormFactor": 1.0
     },
@@ -156,7 +174,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 13.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.88,
+        "avgCatchesPerGame": 1.25
       },
       "eraNormFactor": 1.0
     },
@@ -168,7 +188,9 @@
       "year": 2012,
       "stats": {
         "recYPG": 54.1,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 8.25,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -179,7 +201,10 @@
       "team": "JAX",
       "year": 2012,
       "stats": {
-        "fgAccuracy": 0.8929
+        "fgAccuracy": 0.8929,
+        "avgKickDistance": 37.5,
+        "avgMissDistance": 47.3,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }
@@ -208,8 +233,8 @@
         "rushYPGAllowed": 141.0,
         "rushTDPerGameAllowed": 1.19,
         "sackPct": 0.0374,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 30
       },
       "eraNormFactor": 1.0

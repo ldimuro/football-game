@@ -8,7 +8,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 75.9,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": 10.07,
+        "avgCatchesPerGame": 6.07
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 23.9,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "rushAttPerGame": 5.08
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 68.5,
-        "tdPerGame": 0.267
+        "tdPerGame": 0.267,
+        "avgTargetsPerGame": 8.6,
+        "avgCatchesPerGame": 5.8
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 30.0,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "rushAttPerGame": 9.43
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +62,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 201.3,
-        "tdRatio": 0.0294,
-        "intRatio": 0.0327,
-        "qbr": 2.9
+        "qbr": 2.9,
+        "avgTDPerGame": 0.9,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.6634
       },
       "eraNormFactor": 1.197
     },
@@ -70,7 +77,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 15.8,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 2.9,
+        "avgCatchesPerGame": 1.6
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 45.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 9.75
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +104,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 22.9,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 8.12
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +117,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 31.7,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 4.76,
+        "avgCatchesPerGame": 2.76
       },
       "eraNormFactor": 1.0
     },
@@ -118,9 +131,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 179.1,
-        "tdRatio": 0.0329,
-        "intRatio": 0.0165,
-        "qbr": 54.8
+        "qbr": 54.8,
+        "avgTDPerGame": 0.889,
+        "avgINTPerGame": 0.444,
+        "completionPct": 0.6337
       },
       "eraNormFactor": 1.065
     },
@@ -132,7 +146,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 14.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.91,
+        "avgCatchesPerGame": 1.91
       },
       "eraNormFactor": 1.0
     },
@@ -144,7 +160,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 70.2,
-        "tdPerGame": 0.294
+        "tdPerGame": 0.294,
+        "avgTargetsPerGame": 9.0,
+        "avgCatchesPerGame": 6.59
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -156,7 +174,10 @@
       "team": "LV",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.85
+        "fgAccuracy": 0.85,
+        "avgKickDistance": 40.0,
+        "avgMissDistance": 53.5,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

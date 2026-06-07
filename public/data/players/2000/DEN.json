@@ -8,7 +8,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 24.5,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 3.2,
+        "avgCatchesPerGame": 2.1
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 24.0,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 2.86,
+        "avgCatchesPerGame": 1.93
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 55.0,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "rushAttPerGame": 15.0
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 189.0,
-        "tdRatio": 0.0349,
-        "intRatio": 0.0349,
-        "qbr": 49.0
+        "qbr": 49.0,
+        "avgTDPerGame": 0.9,
+        "avgINTPerGame": 0.9,
+        "completionPct": 0.5814
       },
       "eraNormFactor": 1.1879
     },
@@ -58,9 +64,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 260.6,
-        "tdRatio": 0.0576,
-        "intRatio": 0.0121,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.9,
+        "avgINTPerGame": 0.4,
+        "completionPct": 0.6364
       },
       "eraNormFactor": 1.638
     },
@@ -72,7 +79,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 81.5,
-        "tdPerGame": 0.529
+        "tdPerGame": 0.529,
+        "avgTargetsPerGame": 9.53,
+        "avgCatchesPerGame": 6.29
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 96.2,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 10.53,
+        "avgCatchesPerGame": 5.94
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -97,7 +108,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 26.0,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 7.57
       },
       "eraNormFactor": 1.0
     },
@@ -109,7 +121,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 102.1,
-        "tdPerGame": 1.0
+        "tdPerGame": 1.0,
+        "rushAttPerGame": 20.67
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +133,10 @@
       "team": "DEN",
       "year": 2000,
       "stats": {
-        "fgAccuracy": 0.7714
+        "fgAccuracy": 0.7714,
+        "avgKickDistance": 33.9,
+        "avgMissDistance": 44.2,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -149,8 +165,8 @@
         "rushYPGAllowed": 99.88,
         "rushTDPerGameAllowed": 0.81,
         "sackPct": 0.0767,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 7
       },
       "eraNormFactor": 1.0

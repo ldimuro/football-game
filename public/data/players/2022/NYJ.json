@@ -8,9 +8,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 210.2,
-        "tdRatio": 0.0262,
-        "intRatio": 0.0157,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 0.6,
+        "completionPct": 0.5759
       },
       "eraNormFactor": 1.1507
     },
@@ -22,7 +23,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 19.3,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": 2.25,
+        "avgCatchesPerGame": 1.75
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 41.2,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "avgTargetsPerGame": 4.92,
+        "avgCatchesPerGame": 2.46
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 32.5,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.12,
+        "avgCatchesPerGame": 3.41
       },
       "eraNormFactor": 1.0
     },
@@ -58,9 +65,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 298.0,
-        "tdRatio": 0.0171,
-        "intRatio": 0.0229,
-        "qbr": 30.9
+        "qbr": 30.9,
+        "avgTDPerGame": 0.75,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5886
       },
       "eraNormFactor": 1.6314
     },
@@ -72,7 +80,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 9.7,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.13,
+        "avgCatchesPerGame": 1.2
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +94,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 16.0,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "rushAttPerGame": 3.0
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 17.2,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 2.75,
+        "avgCatchesPerGame": 1.88
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +121,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 20.7,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.78,
+        "avgCatchesPerGame": 1.22
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +135,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 25.1,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "rushAttPerGame": 7.12
       },
       "eraNormFactor": 1.0
     },
@@ -132,7 +148,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 31.9,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 4.64,
+        "avgCatchesPerGame": 2.64
       },
       "eraNormFactor": 1.0
     },
@@ -144,9 +162,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 187.6,
-        "tdRatio": 0.0248,
-        "intRatio": 0.0289,
-        "qbr": 9.8
+        "qbr": 9.8,
+        "avgTDPerGame": 0.667,
+        "avgINTPerGame": 0.778,
+        "completionPct": 0.5455
       },
       "eraNormFactor": 1.027
     },
@@ -158,7 +177,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 42.9,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 12.14
       },
       "eraNormFactor": 1.0
     },
@@ -170,7 +190,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 64.9,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "avgTargetsPerGame": 8.65,
+        "avgCatchesPerGame": 4.88
       },
       "eraNormFactor": 1.0
     },
@@ -182,7 +204,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 66.1,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "rushAttPerGame": 11.43
       },
       "eraNormFactor": 1.0
     },
@@ -193,7 +216,10 @@
       "team": "NYJ",
       "year": 2022,
       "stats": {
-        "fgAccuracy": 0.8108
+        "fgAccuracy": 0.8108,
+        "avgKickDistance": 42.2,
+        "avgMissDistance": 52.3,
+        "longestMadeKick": 60
       },
       "eraNormFactor": 1.0
     }

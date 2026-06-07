@@ -8,7 +8,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 80.5,
-        "tdPerGame": 0.647
+        "tdPerGame": 0.647,
+        "avgTargetsPerGame": 8.24,
+        "avgCatchesPerGame": 5.35
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -21,9 +23,10 @@
       "year": 2015,
       "stats": {
         "passYPG": 250.0,
-        "tdRatio": 0.0648,
-        "intRatio": 0.0181,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.923,
+        "avgINTPerGame": 0.538,
+        "completionPct": 0.6606
       },
       "eraNormFactor": 1.2281
     },
@@ -35,7 +38,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 49.9,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "avgTargetsPerGame": 6.47,
+        "avgCatchesPerGame": 4.06
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 24.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.18,
+        "avgCatchesPerGame": 2.12
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +66,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 44.6,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "rushAttPerGame": 9.41
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 48.1,
-        "tdPerGame": 0.929
+        "tdPerGame": 0.929,
+        "avgTargetsPerGame": 5.93,
+        "avgCatchesPerGame": 4.07
       },
       "eraNormFactor": 1.0
     },
@@ -83,9 +93,10 @@
       "year": 2015,
       "stats": {
         "passYPG": 133.2,
-        "tdRatio": 0.0438,
-        "intRatio": 0.0188,
-        "qbr": 51.9
+        "qbr": 51.9,
+        "avgTDPerGame": 0.875,
+        "avgINTPerGame": 0.375,
+        "completionPct": 0.6375
       },
       "eraNormFactor": 0.6544
     },
@@ -97,7 +108,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 49.6,
-        "tdPerGame": 0.706
+        "tdPerGame": 0.706,
+        "rushAttPerGame": 13.82
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +120,10 @@
       "team": "CIN",
       "year": 2015,
       "stats": {
-        "fgAccuracy": 0.8276
+        "fgAccuracy": 0.8276,
+        "avgKickDistance": 38.4,
+        "avgMissDistance": 44.2,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }
@@ -137,8 +152,8 @@
         "rushYPGAllowed": 92.31,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.065,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 7
       },
       "eraNormFactor": 1.0

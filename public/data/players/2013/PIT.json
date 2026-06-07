@@ -8,7 +8,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 40.1,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "avgTargetsPerGame": 5.07,
+        "avgCatchesPerGame": 3.07
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2013,
       "stats": {
         "passYPG": 266.3,
-        "tdRatio": 0.0479,
-        "intRatio": 0.024,
-        "qbr": 87.9
+        "qbr": 87.9,
+        "avgTDPerGame": 1.75,
+        "avgINTPerGame": 0.875,
+        "completionPct": 0.6421
       },
       "eraNormFactor": 1.2504
     },
@@ -34,7 +37,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 42.4,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 5.57,
+        "avgCatchesPerGame": 4.14
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 13.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.43
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 46.2,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 7.0,
+        "avgCatchesPerGame": 4.19
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 14.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.5
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 93.7,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 10.38,
+        "avgCatchesPerGame": 6.88
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -95,7 +106,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 66.2,
-        "tdPerGame": 0.615
+        "tdPerGame": 0.615,
+        "rushAttPerGame": 18.77
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,10 @@
       "team": "PIT",
       "year": 2013,
       "stats": {
-        "fgAccuracy": 0.9375
+        "fgAccuracy": 0.9375,
+        "avgKickDistance": 34.2,
+        "avgMissDistance": 33.0,
+        "longestMadeKick": 48
       },
       "eraNormFactor": 1.0
     }
@@ -135,8 +150,8 @@
         "rushYPGAllowed": 115.56,
         "rushTDPerGameAllowed": 1.12,
         "sackPct": 0.0598,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 21
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 49.6,
-        "tdPerGame": 0.467
+        "tdPerGame": 0.467,
+        "avgTargetsPerGame": 8.07,
+        "avgCatchesPerGame": 4.67
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 56.8,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "avgTargetsPerGame": 8.24,
+        "avgCatchesPerGame": 5.76
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 56.4,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "rushAttPerGame": 14.88
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 33.9,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 3.93,
+        "avgCatchesPerGame": 3.36
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +63,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 16.2,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 4.5
       },
       "eraNormFactor": 1.0
     },
@@ -68,7 +76,8 @@
       "year": 2024,
       "stats": {
         "rushYPG": 12.5,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 4.58
       },
       "eraNormFactor": 1.0
     },
@@ -80,9 +89,10 @@
       "year": 2024,
       "stats": {
         "passYPG": 208.3,
-        "tdRatio": 0.0356,
-        "intRatio": 0.0107,
-        "qbr": 24.2
+        "qbr": 24.2,
+        "avgTDPerGame": 1.176,
+        "avgINTPerGame": 0.353,
+        "completionPct": 0.6246
       },
       "eraNormFactor": 1.2387
     },
@@ -94,7 +104,9 @@
       "year": 2024,
       "stats": {
         "recYPG": 43.2,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.94,
+        "avgCatchesPerGame": 3.18
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +117,10 @@
       "team": "CHI",
       "year": 2024,
       "stats": {
-        "fgAccuracy": 0.84
+        "fgAccuracy": 0.84,
+        "avgKickDistance": 43.4,
+        "avgMissDistance": 48.2,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

@@ -8,9 +8,10 @@
       "year": 2019,
       "stats": {
         "passYPG": 288.4,
-        "tdRatio": 0.0389,
-        "intRatio": 0.0338,
-        "qbr": 92.3
+        "qbr": 92.3,
+        "avgTDPerGame": 1.438,
+        "avgINTPerGame": 1.25,
+        "completionPct": 0.6599
       },
       "eraNormFactor": 1.3839
     },
@@ -22,7 +23,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 25.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 1.71
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 74.9,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 9.31,
+        "avgCatchesPerGame": 6.5
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -47,7 +52,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 51.0,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "rushAttPerGame": 13.5
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 54.3,
-        "tdPerGame": 0.417
+        "tdPerGame": 0.417,
+        "avgTargetsPerGame": 6.33,
+        "avgCatchesPerGame": 4.58
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 66.7,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 6.0,
+        "avgCatchesPerGame": 3.27
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 34.8,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "rushAttPerGame": 8.25
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -95,7 +106,10 @@
       "team": "LAC",
       "year": 2019,
       "stats": {
-        "fgAccuracy": 0.7647
+        "fgAccuracy": 0.7647,
+        "avgKickDistance": 38.9,
+        "avgMissDistance": 44.0,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }

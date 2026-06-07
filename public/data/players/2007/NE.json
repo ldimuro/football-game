@@ -8,7 +8,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 15.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.63
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 83.5,
-        "tdPerGame": 1.263
+        "tdPerGame": 1.263,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.53
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +36,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 64.0,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 14.17
       },
       "eraNormFactor": 1.0
     },
@@ -45,9 +49,10 @@
       "year": 2007,
       "stats": {
         "passYPG": 291.7,
-        "tdRatio": 0.0815,
-        "intRatio": 0.016,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.947,
+        "avgINTPerGame": 0.579,
+        "completionPct": 0.6914
       },
       "eraNormFactor": 1.8297,
       "is_all_pro": true,
@@ -62,7 +67,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 45.0,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.0
       },
       "eraNormFactor": 1.0
     },
@@ -74,7 +81,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 32.5,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -86,7 +95,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 73.1,
-        "tdPerGame": 0.526
+        "tdPerGame": 0.526,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 7.32
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -99,7 +110,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 29.2,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.79
       },
       "eraNormFactor": 1.0
     },
@@ -111,7 +124,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 14.5,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 5.33
       },
       "eraNormFactor": 1.0
     },
@@ -123,7 +137,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 69.7,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "rushAttPerGame": 15.38
       },
       "eraNormFactor": 1.0
     },
@@ -134,7 +149,10 @@
       "team": "NE",
       "year": 2007,
       "stats": {
-        "fgAccuracy": 0.8462
+        "fgAccuracy": 0.8462,
+        "avgKickDistance": 32.3,
+        "avgMissDistance": 39.0,
+        "longestMadeKick": 45
       },
       "eraNormFactor": 1.0
     }
@@ -163,8 +181,8 @@
         "rushYPGAllowed": 98.25,
         "rushTDPerGameAllowed": 0.44,
         "sackPct": 0.0894,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 10
       },
       "eraNormFactor": 1.0

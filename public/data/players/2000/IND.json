@@ -8,7 +8,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 34.6,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": 4.75,
+        "avgCatchesPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 40.2,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 5.2,
+        "avgCatchesPerGame": 3.6
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 86.5,
-        "tdPerGame": 0.824
+        "tdPerGame": 0.824,
+        "avgTargetsPerGame": 10.53,
+        "avgCatchesPerGame": 6.24
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -45,7 +51,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 105.7,
-        "tdPerGame": 0.765
+        "tdPerGame": 0.765,
+        "rushAttPerGame": 23.76
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -58,9 +65,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 269.5,
-        "tdRatio": 0.057,
-        "intRatio": 0.0235,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.0,
+        "avgINTPerGame": 0.824,
+        "completionPct": 0.6208
       },
       "eraNormFactor": 1.6939,
       "is_all_pro": true
@@ -73,7 +81,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 41.6,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "avgTargetsPerGame": 5.53,
+        "avgCatchesPerGame": 3.18
       },
       "eraNormFactor": 1.0
     },
@@ -85,7 +95,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 30.1,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 3.07,
+        "avgCatchesPerGame": 2.07
       },
       "eraNormFactor": 1.0
     },
@@ -97,7 +109,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 40.6,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 4.93,
+        "avgCatchesPerGame": 3.07
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +122,10 @@
       "team": "IND",
       "year": 2000,
       "stats": {
-        "fgAccuracy": 0.9032
+        "fgAccuracy": 0.9032,
+        "avgKickDistance": 35.4,
+        "avgMissDistance": 51.7,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }
@@ -137,8 +154,8 @@
         "rushYPGAllowed": 120.94,
         "rushTDPerGameAllowed": 0.81,
         "sackPct": 0.0792,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 25
       },
       "eraNormFactor": 1.0

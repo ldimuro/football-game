@@ -8,7 +8,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 29.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 9.56
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2011,
       "stats": {
         "passYPG": 190.3,
-        "tdRatio": 0.0372,
-        "intRatio": 0.0335,
-        "qbr": 26.9
+        "qbr": 26.9,
+        "avgTDPerGame": 1.111,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5948
       },
       "eraNormFactor": 0.9583
     },
@@ -34,7 +36,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 17.6,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 2.43,
+        "avgCatchesPerGame": 1.71
       },
       "eraNormFactor": 1.0
     },
@@ -46,9 +50,10 @@
       "year": 2011,
       "stats": {
         "passYPG": 132.7,
-        "tdRatio": 0.0149,
-        "intRatio": 0.0522,
-        "qbr": 6.0
+        "qbr": 6.0,
+        "avgTDPerGame": 0.333,
+        "avgINTPerGame": 1.167,
+        "completionPct": 0.597
       },
       "eraNormFactor": 0.6683
     },
@@ -60,7 +65,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 72.4,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 8.81,
+        "avgCatchesPerGame": 5.06
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 49.1,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 6.12,
+        "avgCatchesPerGame": 3.81
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +93,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 39.8,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "rushAttPerGame": 9.93
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +106,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 20.5,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 4.0,
+        "avgCatchesPerGame": 2.88
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +120,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 23.1,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 4.82,
+        "avgCatchesPerGame": 1.91
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +133,10 @@
       "team": "KC",
       "year": 2011,
       "stats": {
-        "fgAccuracy": 0.8
+        "fgAccuracy": 0.8,
+        "avgKickDistance": 36.9,
+        "avgMissDistance": 45.5,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -148,8 +165,8 @@
         "rushYPGAllowed": 132.0,
         "rushTDPerGameAllowed": 0.88,
         "sackPct": 0.0639,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 26
       },
       "eraNormFactor": 1.0

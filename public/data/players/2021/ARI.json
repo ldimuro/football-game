@@ -8,7 +8,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 49.9,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.59,
+        "avgCatchesPerGame": 3.18
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 57.2,
-        "tdPerGame": 0.8
+        "tdPerGame": 0.8,
+        "avgTargetsPerGame": 6.4,
+        "avgCatchesPerGame": 4.2
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 48.2,
-        "tdPerGame": 1.0
+        "tdPerGame": 1.0,
+        "rushAttPerGame": 12.88
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 47.7,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "rushAttPerGame": 9.54
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +62,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 57.4,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "avgTargetsPerGame": 6.33,
+        "avgCatchesPerGame": 4.61
       },
       "eraNormFactor": 1.0
     },
@@ -68,7 +76,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 23.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 3.78,
+        "avgCatchesPerGame": 2.11
       },
       "eraNormFactor": 1.0
     },
@@ -80,9 +90,10 @@
       "year": 2021,
       "stats": {
         "passYPG": 261.6,
-        "tdRatio": 0.0466,
-        "intRatio": 0.0233,
-        "qbr": 79.6
+        "qbr": 79.6,
+        "avgTDPerGame": 1.6,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.6835
       },
       "eraNormFactor": 1.4895
     },
@@ -94,7 +105,8 @@
       "year": 2021,
       "stats": {
         "rushYPG": 15.8,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 4.75
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,9 @@
       "year": 2021,
       "stats": {
         "recYPG": 31.1,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 4.67,
+        "avgCatchesPerGame": 3.93
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +131,10 @@
       "team": "ARI",
       "year": 2021,
       "stats": {
-        "fgAccuracy": 0.8158
+        "fgAccuracy": 0.8158,
+        "avgKickDistance": 39.4,
+        "avgMissDistance": 48.4,
+        "longestMadeKick": 62
       },
       "eraNormFactor": 1.0
     }

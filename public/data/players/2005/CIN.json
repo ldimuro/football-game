@@ -8,7 +8,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 87.7,
-        "tdPerGame": 0.529
+        "tdPerGame": 0.529,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.94
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -21,7 +23,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 89.1,
-        "tdPerGame": 0.765
+        "tdPerGame": 0.765,
+        "rushAttPerGame": 20.59
       },
       "eraNormFactor": 1.0
     },
@@ -33,7 +36,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 65.4,
-        "tdPerGame": 0.533
+        "tdPerGame": 0.533,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.47
       },
       "eraNormFactor": 1.0
     },
@@ -45,7 +50,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 15.7,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 1.54
       },
       "eraNormFactor": 1.0
     },
@@ -57,9 +64,10 @@
       "year": 2005,
       "stats": {
         "passYPG": 229.5,
-        "tdRatio": 0.0627,
-        "intRatio": 0.0235,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.882,
+        "avgINTPerGame": 0.706,
+        "completionPct": 0.6784
       },
       "eraNormFactor": 1.3451
     },
@@ -71,7 +79,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 28.4,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.4
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2005,
       "stats": {
         "rushYPG": 18.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.2
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2005,
       "stats": {
         "recYPG": 40.7,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,10 @@
       "team": "CIN",
       "year": 2005,
       "stats": {
-        "fgAccuracy": 0.8788
+        "fgAccuracy": 0.8788,
+        "avgKickDistance": 33.7,
+        "avgMissDistance": 43.0,
+        "longestMadeKick": 49
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -136,8 +152,8 @@
         "rushYPGAllowed": 115.62,
         "rushTDPerGameAllowed": 1.0,
         "sackPct": 0.0539,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 20
       },
       "eraNormFactor": 1.0

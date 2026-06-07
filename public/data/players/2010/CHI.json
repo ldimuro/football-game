@@ -8,7 +8,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 17.4,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "rushAttPerGame": 7.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2010,
       "stats": {
         "passYPG": 213.4,
-        "tdRatio": 0.0527,
-        "intRatio": 0.0359,
-        "qbr": 42.4
+        "qbr": 42.4,
+        "avgTDPerGame": 1.471,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5949
       },
       "eraNormFactor": 1.138
     },
@@ -34,7 +36,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 26.6,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": 4.5,
+        "avgCatchesPerGame": 2.33
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -47,7 +51,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 16.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.67,
+        "avgCatchesPerGame": 1.11
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 30.4,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 4.61,
+        "avgCatchesPerGame": 2.61
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,8 @@
       "year": 2010,
       "stats": {
         "rushYPG": 67.7,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 15.5
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +92,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 38.7,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 4.94,
+        "avgCatchesPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2010,
       "stats": {
         "recYPG": 59.1,
-        "tdPerGame": 0.278
+        "tdPerGame": 0.278,
+        "avgTargetsPerGame": 6.22,
+        "avgCatchesPerGame": 3.17
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,10 @@
       "team": "CHI",
       "year": 2010,
       "stats": {
-        "fgAccuracy": 0.8333
+        "fgAccuracy": 0.8333,
+        "avgKickDistance": 35.3,
+        "avgMissDistance": 44.6,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -135,8 +151,8 @@
         "rushYPGAllowed": 90.06,
         "rushTDPerGameAllowed": 0.88,
         "sackPct": 0.0584,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 2
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 67.0,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 8.06,
+        "avgCatchesPerGame": 4.31
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 21.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.7,
+        "avgCatchesPerGame": 1.7
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 10.0,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 2.81,
+        "avgCatchesPerGame": 1.69
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +50,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 13.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.38,
+        "avgCatchesPerGame": 1.0
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +64,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 43.7,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 11.25
       },
       "eraNormFactor": 1.0
     },
@@ -68,9 +77,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 203.7,
-        "tdRatio": 0.0256,
-        "intRatio": 0.0426,
-        "qbr": 19.8
+        "qbr": 19.8,
+        "avgTDPerGame": 0.857,
+        "avgINTPerGame": 1.429,
+        "completionPct": 0.5672
       },
       "eraNormFactor": 1.2803
     },
@@ -82,7 +92,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 46.8,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 7.25,
+        "avgCatchesPerGame": 3.38
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 26.6,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 8.0
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "ARI",
       "year": 2000,
       "stats": {
-        "fgAccuracy": 0.6957
+        "fgAccuracy": 0.6957,
+        "avgKickDistance": 37.8,
+        "avgMissDistance": 43.3,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 163.06,
         "rushTDPerGameAllowed": 1.81,
         "sackPct": 0.0545,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 30
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 90.9,
-        "tdPerGame": 0.947
+        "tdPerGame": 0.947,
+        "rushAttPerGame": 17.42
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true,
@@ -22,7 +23,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 59.6,
-        "tdPerGame": 0.368
+        "tdPerGame": 0.368,
+        "avgTargetsPerGame": 5.42,
+        "avgCatchesPerGame": 3.84
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -35,7 +38,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 57.7,
-        "tdPerGame": 0.389
+        "tdPerGame": 0.389,
+        "avgTargetsPerGame": 6.17,
+        "avgCatchesPerGame": 4.06
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 25.1,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 3.07,
+        "avgCatchesPerGame": 1.93
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +66,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 78.5,
-        "tdPerGame": 0.421
+        "tdPerGame": 0.421,
+        "avgTargetsPerGame": 6.58,
+        "avgCatchesPerGame": 4.42
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -72,7 +81,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 22.8,
-        "tdPerGame": 0.231
+        "tdPerGame": 0.231,
+        "rushAttPerGame": 6.23
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +94,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 22.9,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 4.44
       },
       "eraNormFactor": 1.0
     },
@@ -96,9 +107,10 @@
       "year": 2023,
       "stats": {
         "passYPG": 266.0,
-        "tdRatio": 0.0616,
-        "intRatio": 0.0217,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.789,
+        "avgINTPerGame": 0.632,
+        "completionPct": 0.6775
       },
       "eraNormFactor": 1.4822
     },
@@ -109,7 +121,10 @@
       "team": "SF",
       "year": 2023,
       "stats": {
-        "fgAccuracy": 0.8182
+        "fgAccuracy": 0.8182,
+        "avgKickDistance": 38.6,
+        "avgMissDistance": 44.8,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }

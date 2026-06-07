@@ -8,9 +8,10 @@
       "year": 2020,
       "stats": {
         "passYPG": 274.5,
-        "tdRatio": 0.0869,
-        "intRatio": 0.0098,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.944,
+        "avgINTPerGame": 0.333,
+        "completionPct": 0.7016
       },
       "eraNormFactor": 1.4832,
       "is_all_pro": true,
@@ -24,7 +25,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 12.3,
-        "tdPerGame": 0.273
+        "tdPerGame": 0.273,
+        "avgTargetsPerGame": 1.82,
+        "avgCatchesPerGame": 1.18
       },
       "eraNormFactor": 1.0
     },
@@ -36,7 +39,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 94.2,
-        "tdPerGame": 1.25
+        "tdPerGame": 1.25,
+        "avgTargetsPerGame": 10.88,
+        "avgCatchesPerGame": 8.31
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -49,7 +54,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 76.9,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "rushAttPerGame": 13.81
       },
       "eraNormFactor": 1.0
     },
@@ -61,7 +67,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 39.3,
-        "tdPerGame": 0.706
+        "tdPerGame": 0.706,
+        "avgTargetsPerGame": 3.94,
+        "avgCatchesPerGame": 3.53
       },
       "eraNormFactor": 1.0
     },
@@ -73,7 +81,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 37.1,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 8.62
       },
       "eraNormFactor": 1.0
     },
@@ -85,7 +94,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 52.4,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 4.81,
+        "avgCatchesPerGame": 2.56
       },
       "eraNormFactor": 1.0
     },
@@ -97,7 +108,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 50.8,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 5.0,
+        "avgCatchesPerGame": 3.33
       },
       "eraNormFactor": 1.0
     },
@@ -109,7 +122,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 26.0,
-        "tdPerGame": 0.182
+        "tdPerGame": 0.182,
+        "rushAttPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -120,7 +134,10 @@
       "team": "GB",
       "year": 2020,
       "stats": {
-        "fgAccuracy": 1.0
+        "fgAccuracy": 1.0,
+        "avgKickDistance": 38.5,
+        "avgMissDistance": 0.0,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }

@@ -8,9 +8,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 234.9,
-        "tdRatio": 0.0331,
-        "intRatio": 0.0228,
-        "qbr": 12.7
+        "qbr": 12.7,
+        "avgTDPerGame": 1.067,
+        "avgINTPerGame": 0.733,
+        "completionPct": 0.6046
       },
       "eraNormFactor": 1.2859
     },
@@ -22,7 +23,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 31.8,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 9.0
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +36,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 13.5,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 2.18,
+        "avgCatchesPerGame": 1.36
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 55.3,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 7.27,
+        "avgCatchesPerGame": 4.27
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 28.3,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 2.18
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 64.8,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": 6.67,
+        "avgCatchesPerGame": 4.47
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 51.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 11.75
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 41.1,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 5.5,
+        "avgCatchesPerGame": 3.3
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "DEN",
       "year": 2022,
       "stats": {
-        "fgAccuracy": 0.7778
+        "fgAccuracy": 0.7778,
+        "avgKickDistance": 43.0,
+        "avgMissDistance": 48.6,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0
     }

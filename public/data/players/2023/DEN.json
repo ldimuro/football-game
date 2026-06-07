@@ -8,9 +8,10 @@
       "year": 2023,
       "stats": {
         "passYPG": 204.7,
-        "tdRatio": 0.0582,
-        "intRatio": 0.0179,
-        "qbr": 39.1
+        "qbr": 39.1,
+        "avgTDPerGame": 1.733,
+        "avgINTPerGame": 0.533,
+        "completionPct": 0.6644
       },
       "eraNormFactor": 1.1406
     },
@@ -22,7 +23,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 14.0,
-        "tdPerGame": 0.059
+        "tdPerGame": 0.059,
+        "rushAttPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +36,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 48.2,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": 5.62,
+        "avgCatchesPerGame": 3.69
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 47.4,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 5.44,
+        "avgCatchesPerGame": 3.38
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 12.8,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": 2.19,
+        "avgCatchesPerGame": 1.38
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 48.4,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "rushAttPerGame": 13.56
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 28.4,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 1.9
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 24.1,
-        "tdPerGame": 0.059
+        "tdPerGame": 0.059,
+        "rushAttPerGame": 4.47
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 25.1,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 2.2,
+        "avgCatchesPerGame": 1.47
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +131,10 @@
       "team": "DEN",
       "year": 2023,
       "stats": {
-        "fgAccuracy": 0.8824
+        "fgAccuracy": 0.8824,
+        "avgKickDistance": 35.0,
+        "avgMissDistance": 49.5,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }

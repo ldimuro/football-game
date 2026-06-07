@@ -32,7 +32,7 @@ describe('computeAggregateStats', () => {
       ...emptyRoster,
       QB: {
         id: 'q1', name: 'Test QB', position: 'QB', team: 'XX', year: 2020,
-        stats: { passYPG: 280, tdRatio: 0.05, intRatio: 0.02, qbr: 60 },
+        stats: { passYPG: 280, avgTDPerGame: 1.5, avgINTPerGame: 0.6, completionPct: 0.64, qbr: 60 },
         eraNormFactor: 1.0,
       },
     }
@@ -44,7 +44,7 @@ describe('computeAggregateStats', () => {
       ...emptyRoster,
       RB: {
         id: 'r1', name: 'Test RB', position: 'RB', team: 'XX', year: 2020,
-        stats: { rushYPG: 95, tdPerGame: 0.5 },
+        stats: { rushYPG: 95, tdPerGame: 0.5, rushAttPerGame: 14.0 },
         eraNormFactor: 1.0,
       },
     }

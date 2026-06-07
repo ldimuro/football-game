@@ -8,9 +8,10 @@
       "year": 2014,
       "stats": {
         "passYPG": 254.1,
-        "tdRatio": 0.0499,
-        "intRatio": 0.0321,
-        "qbr": 30.9
+        "qbr": 30.9,
+        "avgTDPerGame": 1.867,
+        "avgINTPerGame": 1.2,
+        "completionPct": 0.6595
       },
       "eraNormFactor": 1.2665
     },
@@ -22,7 +23,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 55.5,
-        "tdPerGame": 0.615
+        "tdPerGame": 0.615,
+        "avgTargetsPerGame": 8.15,
+        "avgCatchesPerGame": 4.69
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 8.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 1.69,
+        "avgCatchesPerGame": 1.23
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 64.9,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "rushAttPerGame": 16.62
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 57.2,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 8.0,
+        "avgCatchesPerGame": 5.62
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 70.8,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": 9.06,
+        "avgCatchesPerGame": 5.31
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2014,
       "stats": {
         "recYPG": 20.0,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 4.57,
+        "avgCatchesPerGame": 2.43
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2014,
       "stats": {
         "rushYPG": 15.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.6
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "CHI",
       "year": 2014,
       "stats": {
-        "fgAccuracy": 0.75
+        "fgAccuracy": 0.75,
+        "avgKickDistance": 36.9,
+        "avgMissDistance": 44.8,
+        "longestMadeKick": 48
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 112.69,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.0712,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 17
       },
       "eraNormFactor": 1.0

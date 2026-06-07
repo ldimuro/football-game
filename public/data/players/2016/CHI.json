@@ -8,9 +8,10 @@
       "year": 2016,
       "stats": {
         "passYPG": 211.8,
-        "tdRatio": 0.0292,
-        "intRatio": 0.0365,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.8,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5912
       },
       "eraNormFactor": 1.0406
     },
@@ -22,7 +23,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 41.0,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": 4.78,
+        "avgCatchesPerGame": 3.67
       },
       "eraNormFactor": 1.0
     },
@@ -34,9 +37,10 @@
       "year": 2016,
       "stats": {
         "passYPG": 240.8,
-        "tdRatio": 0.03,
-        "intRatio": 0.0,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 0.0,
+        "completionPct": 0.67
       },
       "eraNormFactor": 1.1831
     },
@@ -48,7 +52,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 48.6,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": 6.4,
+        "avgCatchesPerGame": 4.7
       },
       "eraNormFactor": 1.0
     },
@@ -60,7 +66,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 68.4,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": 7.83,
+        "avgCatchesPerGame": 4.33
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +80,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 23.5,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": 3.17,
+        "avgCatchesPerGame": 1.58
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +94,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 27.7,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": 4.0,
+        "avgCatchesPerGame": 2.44
       },
       "eraNormFactor": 1.0
     },
@@ -96,9 +108,10 @@
       "year": 2016,
       "stats": {
         "passYPG": 230.1,
-        "tdRatio": 0.037,
-        "intRatio": 0.0648,
-        "qbr": 48.3
+        "qbr": 48.3,
+        "avgTDPerGame": 1.143,
+        "avgINTPerGame": 2.0,
+        "completionPct": 0.5972
       },
       "eraNormFactor": 1.1305
     },
@@ -110,7 +123,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 11.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 2.91
       },
       "eraNormFactor": 1.0
     },
@@ -122,7 +136,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 46.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 9.0,
+        "avgCatchesPerGame": 4.75
       },
       "eraNormFactor": 1.0
     },
@@ -134,7 +150,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 16.7,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 5.17
       },
       "eraNormFactor": 1.0
     },
@@ -146,7 +163,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 63.4,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 6.93,
+        "avgCatchesPerGame": 4.71
       },
       "eraNormFactor": 1.0
     },
@@ -158,7 +177,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 20.7,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "avgTargetsPerGame": 3.33,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -170,7 +191,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 87.5,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "rushAttPerGame": 16.8
       },
       "eraNormFactor": 1.0
     },
@@ -181,7 +203,10 @@
       "team": "CHI",
       "year": 2016,
       "stats": {
-        "fgAccuracy": 0.7826
+        "fgAccuracy": 0.7826,
+        "avgKickDistance": 35.3,
+        "avgMissDistance": 40.6,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -210,8 +235,8 @@
         "rushYPGAllowed": 121.88,
         "rushTDPerGameAllowed": 1.12,
         "sackPct": 0.0698,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0

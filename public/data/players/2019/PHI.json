@@ -8,7 +8,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 54.4,
-        "tdPerGame": 0.444
+        "tdPerGame": 0.444,
+        "avgTargetsPerGame": 8.11,
+        "avgCatchesPerGame": 4.78
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 60.0,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 8.69,
+        "avgCatchesPerGame": 5.62
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 33.0,
-        "tdPerGame": 0.273
+        "tdPerGame": 0.273,
+        "avgTargetsPerGame": 6.27,
+        "avgCatchesPerGame": 3.55
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +50,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 58.3,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "rushAttPerGame": 13.22
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +63,10 @@
       "year": 2019,
       "stats": {
         "passYPG": 237.8,
-        "tdRatio": 0.0442,
-        "intRatio": 0.0115,
-        "qbr": 71.9
+        "qbr": 71.9,
+        "avgTDPerGame": 1.588,
+        "avgINTPerGame": 0.412,
+        "completionPct": 0.6367
       },
       "eraNormFactor": 1.1411
     },
@@ -70,7 +78,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 15.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.88,
+        "avgCatchesPerGame": 1.25
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 39.7,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 6.29,
+        "avgCatchesPerGame": 4.43
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 42.5,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 5.94,
+        "avgCatchesPerGame": 4.06
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +120,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 30.0,
-        "tdPerGame": 0.556
+        "tdPerGame": 0.556,
+        "rushAttPerGame": 7.44
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +133,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 52.2,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "rushAttPerGame": 11.35
       },
       "eraNormFactor": 1.0
     },
@@ -130,7 +146,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 21.1,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 2.75,
+        "avgCatchesPerGame": 1.25
       },
       "eraNormFactor": 1.0
     },
@@ -141,7 +159,10 @@
       "team": "PHI",
       "year": 2019,
       "stats": {
-        "fgAccuracy": 0.8621
+        "fgAccuracy": 0.8621,
+        "avgKickDistance": 37.9,
+        "avgMissDistance": 51.0,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }

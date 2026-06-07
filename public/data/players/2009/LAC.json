@@ -8,7 +8,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 45.6,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 5.75,
+        "avgCatchesPerGame": 2.81
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 50.3,
-        "tdPerGame": 0.8
+        "tdPerGame": 0.8,
+        "rushAttPerGame": 15.67
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 73.5,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 7.35,
+        "avgCatchesPerGame": 5.12
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -45,7 +50,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 47.4,
-        "tdPerGame": 0.059
+        "tdPerGame": 0.059,
+        "avgTargetsPerGame": 4.76,
+        "avgCatchesPerGame": 2.82
       },
       "eraNormFactor": 1.0
     },
@@ -57,9 +64,10 @@
       "year": 2009,
       "stats": {
         "passYPG": 267.8,
-        "tdRatio": 0.0551,
-        "intRatio": 0.0209,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.706,
+        "avgINTPerGame": 0.647,
+        "completionPct": 0.654
       },
       "eraNormFactor": 1.6354,
       "is_all_pro": true
@@ -72,7 +80,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 79.9,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "avgTargetsPerGame": 7.25,
+        "avgCatchesPerGame": 4.69
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -85,7 +95,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 22.1,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "rushAttPerGame": 5.65
       },
       "eraNormFactor": 1.0
     },
@@ -97,7 +108,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 17.3,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 2.14,
+        "avgCatchesPerGame": 1.71
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +121,10 @@
       "team": "LAC",
       "year": 2009,
       "stats": {
-        "fgAccuracy": 0.8421
+        "fgAccuracy": 0.8421,
+        "avgKickDistance": 34.2,
+        "avgMissDistance": 45.3,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -138,8 +154,8 @@
         "rushYPGAllowed": 117.75,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0655,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 20
       },
       "eraNormFactor": 1.0

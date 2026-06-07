@@ -8,9 +8,10 @@
       "year": 2019,
       "stats": {
         "passYPG": 297.7,
-        "tdRatio": 0.0422,
-        "intRatio": 0.0227,
-        "qbr": 63.6
+        "qbr": 63.6,
+        "avgTDPerGame": 1.733,
+        "avgINTPerGame": 0.933,
+        "completionPct": 0.6623
       },
       "eraNormFactor": 1.4286
     },
@@ -22,7 +23,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 92.9,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "avgTargetsPerGame": 10.47,
+        "avgCatchesPerGame": 6.6
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -35,7 +38,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 33.2,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 5.88,
+        "avgCatchesPerGame": 3.75
       },
       "eraNormFactor": 1.0
     },
@@ -47,7 +52,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 46.9,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 13.14
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 17.7,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.36,
+        "avgCatchesPerGame": 1.73
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 60.5,
-        "tdPerGame": 0.462
+        "tdPerGame": 0.462,
+        "avgTargetsPerGame": 7.46,
+        "avgCatchesPerGame": 5.77
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2019,
       "stats": {
         "rushYPG": 32.3,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "rushAttPerGame": 7.8
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 15.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 4.0,
+        "avgCatchesPerGame": 1.83
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 31.9,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "avgTargetsPerGame": 5.29,
+        "avgCatchesPerGame": 3.5
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,9 @@
       "year": 2019,
       "stats": {
         "recYPG": 66.6,
-        "tdPerGame": 0.538
+        "tdPerGame": 0.538,
+        "avgTargetsPerGame": 7.15,
+        "avgCatchesPerGame": 4.85
       },
       "eraNormFactor": 1.0
     },
@@ -130,7 +147,10 @@
       "team": "ATL",
       "year": 2019,
       "stats": {
-        "fgAccuracy": 0.8
+        "fgAccuracy": 0.8,
+        "avgKickDistance": 39.0,
+        "avgMissDistance": 44.8,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }

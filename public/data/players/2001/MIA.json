@@ -8,9 +8,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 198.2,
-        "tdRatio": 0.0419,
-        "intRatio": 0.0419,
-        "qbr": 64.5
+        "qbr": 64.5,
+        "avgTDPerGame": 1.176,
+        "avgINTPerGame": 1.176,
+        "completionPct": 0.6017
       },
       "eraNormFactor": 1.1221
     },
@@ -22,7 +23,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 45.5,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 6.47,
+        "avgCatchesPerGame": 3.73
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 41.8,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.71,
+        "avgCatchesPerGame": 3.47
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 57.3,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "rushAttPerGame": 18.76
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 18.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.57,
+        "avgCatchesPerGame": 1.86
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 15.8,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": 1.8,
+        "avgCatchesPerGame": 1.33
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 55.2,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 5.62,
+        "avgCatchesPerGame": 3.0
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 18.4,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "MIA",
       "year": 2001,
       "stats": {
-        "fgAccuracy": 0.9091
+        "fgAccuracy": 0.9091,
+        "avgKickDistance": 32.5,
+        "avgMissDistance": 45.5,
+        "longestMadeKick": 46
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 111.19,
         "rushTDPerGameAllowed": 0.56,
         "sackPct": 0.0792,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 17
       },
       "eraNormFactor": 1.0

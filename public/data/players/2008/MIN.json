@@ -8,9 +8,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 196.1,
-        "tdRatio": 0.0399,
-        "intRatio": 0.0498,
-        "qbr": 21.1
+        "qbr": 21.1,
+        "avgTDPerGame": 1.091,
+        "avgINTPerGame": 1.364,
+        "completionPct": 0.5914
       },
       "eraNormFactor": 1.0783
     },
@@ -22,7 +23,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 26.3,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "rushAttPerGame": 6.65
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +36,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 35.5,
-        "tdPerGame": 0.412
+        "tdPerGame": 0.412,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.53
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 41.8,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.5
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 66.7,
-        "tdPerGame": 0.467
+        "tdPerGame": 0.467,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.33
       },
       "eraNormFactor": 1.0
     },
@@ -70,9 +78,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 152.5,
-        "tdRatio": 0.0489,
-        "intRatio": 0.0163,
-        "qbr": 40.8
+        "qbr": 40.8,
+        "avgTDPerGame": 1.125,
+        "avgINTPerGame": 0.375,
+        "completionPct": 0.5598
       },
       "eraNormFactor": 0.8386
     },
@@ -84,7 +93,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 108.2,
-        "tdPerGame": 0.706
+        "tdPerGame": 0.706,
+        "rushAttPerGame": 22.59
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -96,7 +106,10 @@
       "team": "MIN",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.8529
+        "fgAccuracy": 0.8529,
+        "avgKickDistance": 38.0,
+        "avgMissDistance": 43.0,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -125,8 +138,8 @@
         "rushYPGAllowed": 76.88,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0849,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 1
       },
       "eraNormFactor": 1.0

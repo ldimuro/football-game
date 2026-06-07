@@ -8,7 +8,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 40.4,
-        "tdPerGame": 0.429
+        "tdPerGame": 0.429,
+        "avgTargetsPerGame": 5.5,
+        "avgCatchesPerGame": 3.64
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 87.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 20.88
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 28.5,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 7.12
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +48,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 188.5,
-        "tdRatio": 0.051,
-        "intRatio": 0.0421,
-        "qbr": 37.9
+        "qbr": 37.9,
+        "avgTDPerGame": 1.533,
+        "avgINTPerGame": 1.267,
+        "completionPct": 0.6098
       },
       "eraNormFactor": 1.0672
     },
@@ -58,7 +63,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 40.9,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": 4.17,
+        "avgCatchesPerGame": 2.58
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +77,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 89.5,
-        "tdPerGame": 0.733
+        "tdPerGame": 0.733,
+        "avgTargetsPerGame": 11.47,
+        "avgCatchesPerGame": 7.53
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -83,7 +92,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 12.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.75,
+        "avgCatchesPerGame": 1.38
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 42.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 10.94
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,10 @@
       "team": "DEN",
       "year": 2001,
       "stats": {
-        "fgAccuracy": 0.8611
+        "fgAccuracy": 0.8611,
+        "avgKickDistance": 37.9,
+        "avgMissDistance": 50.8,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -136,8 +151,8 @@
         "rushYPGAllowed": 93.25,
         "rushTDPerGameAllowed": 0.56,
         "sackPct": 0.0757,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 6
       },
       "eraNormFactor": 1.0

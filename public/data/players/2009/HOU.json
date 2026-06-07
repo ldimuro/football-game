@@ -8,7 +8,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 43.6,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 5.0,
+        "avgCatchesPerGame": 3.79
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 98.1,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "avgTargetsPerGame": 10.69,
+        "avgCatchesPerGame": 6.31
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +37,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 19.1,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "rushAttPerGame": 5.64
       },
       "eraNormFactor": 1.0
     },
@@ -45,9 +50,10 @@
       "year": 2009,
       "stats": {
         "passYPG": 298.1,
-        "tdRatio": 0.0497,
-        "intRatio": 0.0257,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.812,
+        "avgINTPerGame": 0.938,
+        "completionPct": 0.6792
       },
       "eraNormFactor": 1.8204
     },
@@ -59,7 +65,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 48.8,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 12.62
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +78,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 24.6,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +92,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 64.9,
-        "tdPerGame": 0.625
+        "tdPerGame": 0.625,
+        "avgTargetsPerGame": 7.25,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 23.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.31,
+        "avgCatchesPerGame": 2.38
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 33.6,
-        "tdPerGame": 0.462
+        "tdPerGame": 0.462,
+        "avgTargetsPerGame": 3.08,
+        "avgCatchesPerGame": 2.08
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +134,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 39.7,
-        "tdPerGame": 0.273
+        "tdPerGame": 0.273,
+        "rushAttPerGame": 11.91
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +147,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 64.2,
-        "tdPerGame": 0.75
+        "tdPerGame": 0.75,
+        "rushAttPerGame": 13.5
       },
       "eraNormFactor": 1.0
     },
@@ -142,7 +159,10 @@
       "team": "HOU",
       "year": 2009,
       "stats": {
-        "fgAccuracy": 0.6562
+        "fgAccuracy": 0.6562,
+        "avgKickDistance": 35.5,
+        "avgMissDistance": 41.5,
+        "longestMadeKick": 56
       },
       "eraNormFactor": 1.0
     }
@@ -171,8 +191,8 @@
         "rushYPGAllowed": 106.94,
         "rushTDPerGameAllowed": 1.06,
         "sackPct": 0.0547,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 11
       },
       "eraNormFactor": 1.0

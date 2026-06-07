@@ -8,7 +8,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 24.5,
-        "tdPerGame": 0.118
+        "tdPerGame": 0.118,
+        "avgTargetsPerGame": 3.41,
+        "avgCatchesPerGame": 2.41
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 13.2,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 1.94,
+        "avgCatchesPerGame": 1.12
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +36,10 @@
       "year": 2002,
       "stats": {
         "passYPG": 232.4,
-        "tdRatio": 0.0492,
-        "intRatio": 0.0164,
-        "qbr": 95.6
+        "qbr": 95.6,
+        "avgTDPerGame": 1.688,
+        "avgINTPerGame": 0.562,
+        "completionPct": 0.6084
       },
       "eraNormFactor": 1.2837
     },
@@ -46,7 +51,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 67.5,
-        "tdPerGame": 0.316
+        "tdPerGame": 0.316,
+        "avgTargetsPerGame": 9.11,
+        "avgCatchesPerGame": 4.74
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 38.8,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 4.0,
+        "avgCatchesPerGame": 2.81
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +79,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 42.4,
-        "tdPerGame": 0.471
+        "tdPerGame": 0.471,
+        "avgTargetsPerGame": 6.71,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +93,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 47.4,
-        "tdPerGame": 0.053
+        "tdPerGame": 0.053,
+        "rushAttPerGame": 13.58
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 12.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 2.13
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "TB",
       "year": 2002,
       "stats": {
-        "fgAccuracy": 0.8222
+        "fgAccuracy": 0.8222,
+        "avgKickDistance": 36.9,
+        "avgMissDistance": 41.9,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 97.12,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.0843,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0

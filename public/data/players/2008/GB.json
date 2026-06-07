@@ -8,7 +8,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 63.2,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.62
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 21.6,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.79
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 75.2,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "rushAttPerGame": 19.5
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 252.4,
-        "tdRatio": 0.0522,
-        "intRatio": 0.0243,
-        "qbr": 98.7
+        "qbr": 98.7,
+        "avgTDPerGame": 1.75,
+        "avgINTPerGame": 0.812,
+        "completionPct": 0.6362
       },
       "eraNormFactor": 1.3879
     },
@@ -58,7 +64,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 80.8,
-        "tdPerGame": 0.562
+        "tdPerGame": 0.562,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 19.1,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "rushAttPerGame": 3.46
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 30.4,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.22
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 24.4,
-        "tdPerGame": 0.133
+        "tdPerGame": 0.133,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.2
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "GB",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.7941
+        "fgAccuracy": 0.7941,
+        "avgKickDistance": 37.5,
+        "avgMissDistance": 46.7,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 131.56,
         "rushTDPerGameAllowed": 1.25,
         "sackPct": 0.0521,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 26
       },
       "eraNormFactor": 1.0

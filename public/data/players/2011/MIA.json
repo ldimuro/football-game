@@ -8,7 +8,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 72.4,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "rushAttPerGame": 14.4
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 30.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 3.6,
+        "avgCatchesPerGame": 2.13
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 75.9,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 8.88,
+        "avgCatchesPerGame": 5.06
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2011,
       "stats": {
         "passYPG": 192.1,
-        "tdRatio": 0.0461,
-        "intRatio": 0.0259,
-        "qbr": 52.9
+        "qbr": 52.9,
+        "avgTDPerGame": 1.231,
+        "avgINTPerGame": 0.692,
+        "completionPct": 0.6052
       },
       "eraNormFactor": 0.9674
     },
@@ -58,7 +64,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 33.6,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": 5.38,
+        "avgCatchesPerGame": 3.19
       },
       "eraNormFactor": 1.0
     },
@@ -70,9 +78,10 @@
       "year": 2011,
       "stats": {
         "passYPG": 217.0,
-        "tdRatio": 0.0357,
-        "intRatio": 0.0357,
-        "qbr": 64.2
+        "qbr": 64.2,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5714
       },
       "eraNormFactor": 1.0928
     },
@@ -84,7 +93,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 36.6,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": 4.4,
+        "avgCatchesPerGame": 2.33
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,8 @@
       "year": 2011,
       "stats": {
         "rushYPG": 44.7,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 12.69
       },
       "eraNormFactor": 1.0
     },
@@ -108,7 +120,9 @@
       "year": 2011,
       "stats": {
         "recYPG": 17.9,
-        "tdPerGame": 0.231
+        "tdPerGame": 0.231,
+        "avgTargetsPerGame": 1.92,
+        "avgCatchesPerGame": 1.23
       },
       "eraNormFactor": 1.0
     },
@@ -119,7 +133,10 @@
       "team": "MIA",
       "year": 2011,
       "stats": {
-        "fgAccuracy": 0.8462
+        "fgAccuracy": 0.8462,
+        "avgKickDistance": 35.6,
+        "avgMissDistance": 43.0,
+        "longestMadeKick": 58
       },
       "eraNormFactor": 1.0
     }
@@ -148,8 +165,8 @@
         "rushYPGAllowed": 95.62,
         "rushTDPerGameAllowed": 0.5,
         "sackPct": 0.0695,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 3
       },
       "eraNormFactor": 1.0

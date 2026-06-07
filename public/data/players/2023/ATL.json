@@ -8,7 +8,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 15.1,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.17
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2023,
       "stats": {
         "passYPG": 178.0,
-        "tdRatio": 0.0368,
-        "intRatio": 0.0294,
-        "qbr": 46.7
+        "qbr": 46.7,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.5441
       },
       "eraNormFactor": 0.9918
     },
@@ -34,7 +36,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 27.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.33,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 38.8,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 4.67,
+        "avgCatchesPerGame": 3.33
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 17.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 1.77,
+        "avgCatchesPerGame": 1.08
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 39.2,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.29,
+        "avgCatchesPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,9 @@
       "year": 2023,
       "stats": {
         "recYPG": 56.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 6.88,
+        "avgCatchesPerGame": 4.31
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +106,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 40.2,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "rushAttPerGame": 10.94
       },
       "eraNormFactor": 1.0
     },
@@ -106,9 +119,10 @@
       "year": 2023,
       "stats": {
         "passYPG": 189.1,
-        "tdRatio": 0.0309,
-        "intRatio": 0.0309,
-        "qbr": 27.7
+        "qbr": 27.7,
+        "avgTDPerGame": 0.8,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.6418
       },
       "eraNormFactor": 1.0537
     },
@@ -120,7 +134,8 @@
       "year": 2023,
       "stats": {
         "rushYPG": 57.4,
-        "tdPerGame": 0.235
+        "tdPerGame": 0.235,
+        "rushAttPerGame": 12.59
       },
       "eraNormFactor": 1.0
     },
@@ -131,7 +146,10 @@
       "team": "ATL",
       "year": 2023,
       "stats": {
-        "fgAccuracy": 0.8649
+        "fgAccuracy": 0.8649,
+        "avgKickDistance": 37.9,
+        "avgMissDistance": 48.2,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

@@ -8,7 +8,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 62.9,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 156.7,
-        "tdRatio": 0.0539,
-        "intRatio": 0.024,
-        "qbr": 62.2
+        "qbr": 62.2,
+        "avgTDPerGame": 1.286,
+        "avgINTPerGame": 0.571,
+        "completionPct": 0.5449
       },
       "eraNormFactor": 0.9705
     },
@@ -34,9 +37,10 @@
       "year": 2003,
       "stats": {
         "passYPG": 191.6,
-        "tdRatio": 0.0309,
-        "intRatio": 0.0421,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 1.364,
+        "completionPct": 0.5758
       },
       "eraNormFactor": 1.1866
     },
@@ -48,7 +52,8 @@
       "year": 2003,
       "stats": {
         "rushYPG": 102.8,
-        "tdPerGame": 0.812
+        "tdPerGame": 0.812,
+        "rushAttPerGame": 19.56
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -61,7 +66,9 @@
       "year": 2003,
       "stats": {
         "recYPG": 43.2,
-        "tdPerGame": 0.222
+        "tdPerGame": 0.222,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -72,7 +79,10 @@
       "team": "LAC",
       "year": 2003,
       "stats": {
-        "fgAccuracy": 0.75
+        "fgAccuracy": 0.75,
+        "avgKickDistance": 35.9,
+        "avgMissDistance": 45.4,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -101,8 +111,8 @@
         "rushYPGAllowed": 138.62,
         "rushTDPerGameAllowed": 0.75,
         "sackPct": 0.0573,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 26
       },
       "eraNormFactor": 1.0

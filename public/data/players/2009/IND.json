@@ -8,9 +8,10 @@
       "year": 2009,
       "stats": {
         "passYPG": 287.2,
-        "tdRatio": 0.0558,
-        "intRatio": 0.0258,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 2.053,
+        "avgINTPerGame": 0.947,
+        "completionPct": 0.6867
       },
       "eraNormFactor": 1.7538,
       "is_all_pro": true,
@@ -24,7 +25,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 75.2,
-        "tdPerGame": 0.579
+        "tdPerGame": 0.579,
+        "avgTargetsPerGame": 9.26,
+        "avgCatchesPerGame": 6.11
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -37,7 +40,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 67.7,
-        "tdPerGame": 0.579
+        "tdPerGame": 0.579,
+        "avgTargetsPerGame": 8.32,
+        "avgCatchesPerGame": 6.21
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -50,7 +55,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 56.0,
-        "tdPerGame": 0.611
+        "tdPerGame": 0.611,
+        "rushAttPerGame": 14.39
       },
       "eraNormFactor": 1.0
     },
@@ -62,7 +68,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 12.6,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "rushAttPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -74,7 +81,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 59.8,
-        "tdPerGame": 0.353
+        "tdPerGame": 0.353,
+        "avgTargetsPerGame": 7.29,
+        "avgCatchesPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -86,7 +95,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 23.4,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "rushAttPerGame": 6.71
       },
       "eraNormFactor": 1.0
     },
@@ -98,7 +108,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 48.3,
-        "tdPerGame": 0.474
+        "tdPerGame": 0.474,
+        "avgTargetsPerGame": 6.11,
+        "avgCatchesPerGame": 4.05
       },
       "eraNormFactor": 1.0
     },
@@ -109,7 +121,10 @@
       "team": "IND",
       "year": 2009,
       "stats": {
-        "fgAccuracy": 0.8148
+        "fgAccuracy": 0.8148,
+        "avgKickDistance": 34.1,
+        "avgMissDistance": 43.8,
+        "longestMadeKick": 48
       },
       "eraNormFactor": 1.0
     }
@@ -138,8 +153,8 @@
         "rushYPGAllowed": 126.5,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0583,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 24
       },
       "eraNormFactor": 1.0

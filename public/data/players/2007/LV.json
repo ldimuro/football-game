@@ -8,9 +8,10 @@
       "year": 2007,
       "stats": {
         "passYPG": 190.3,
-        "tdRatio": 0.027,
-        "intRatio": 0.027,
-        "qbr": 50.6
+        "qbr": 50.6,
+        "avgTDPerGame": 0.714,
+        "avgINTPerGame": 0.714,
+        "completionPct": 0.5838
       },
       "eraNormFactor": 1.1937
     },
@@ -22,7 +23,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 44.1,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.75
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 50.3,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "rushAttPerGame": 12.5
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 49.9,
-        "tdPerGame": 0.273
+        "tdPerGame": 0.273,
+        "rushAttPerGame": 13.09
       },
       "eraNormFactor": 1.0
     },
@@ -58,9 +63,10 @@
       "year": 2007,
       "stats": {
         "passYPG": 127.9,
-        "tdRatio": 0.0524,
-        "intRatio": 0.0576,
-        "qbr": 23.5
+        "qbr": 23.5,
+        "avgTDPerGame": 1.111,
+        "avgINTPerGame": 1.222,
+        "completionPct": 0.5812
       },
       "eraNormFactor": 0.8023
     },
@@ -72,7 +78,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 44.8,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.44
       },
       "eraNormFactor": 1.0
     },
@@ -84,7 +92,8 @@
       "year": 2007,
       "stats": {
         "rushYPG": 72.1,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "rushAttPerGame": 15.86
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +105,9 @@
       "year": 2007,
       "stats": {
         "recYPG": 29.6,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.93
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +118,10 @@
       "team": "LV",
       "year": 2007,
       "stats": {
-        "fgAccuracy": 0.7188
+        "fgAccuracy": 0.7188,
+        "avgKickDistance": 43.2,
+        "avgMissDistance": 50.6,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +150,8 @@
         "rushYPGAllowed": 145.88,
         "rushTDPerGameAllowed": 1.5,
         "sackPct": 0.0615,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 31
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 75.5,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.43
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 24.2,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.43
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2006,
       "stats": {
         "rushYPG": 15.3,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "rushAttPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -44,9 +49,10 @@
       "year": 2006,
       "stats": {
         "passYPG": 187.0,
-        "tdRatio": 0.0396,
-        "intRatio": 0.0198,
-        "qbr": 72.8
+        "qbr": 72.8,
+        "avgTDPerGame": 1.0,
+        "avgINTPerGame": 0.5,
+        "completionPct": 0.604
       },
       "eraNormFactor": 1.0663
     },
@@ -58,7 +64,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 29.7,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.75
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2006,
       "stats": {
         "rushYPG": 57.0,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "rushAttPerGame": 16.07
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2006,
       "stats": {
         "recYPG": 20.8,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.92
       },
       "eraNormFactor": 1.0
     },
@@ -94,9 +105,10 @@
       "year": 2006,
       "stats": {
         "passYPG": 127.8,
-        "tdRatio": 0.0274,
-        "intRatio": 0.0274,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.692,
+        "avgINTPerGame": 0.692,
+        "completionPct": 0.5396
       },
       "eraNormFactor": 0.7287
     },
@@ -107,7 +119,10 @@
       "team": "TB",
       "year": 2006,
       "stats": {
-        "fgAccuracy": 0.7727
+        "fgAccuracy": 0.7727,
+        "avgKickDistance": 36.7,
+        "avgMissDistance": 45.2,
+        "longestMadeKick": 62
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +151,8 @@
         "rushYPGAllowed": 119.81,
         "rushTDPerGameAllowed": 0.69,
         "sackPct": 0.0507,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 17
       },
       "eraNormFactor": 1.0

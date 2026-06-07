@@ -8,7 +8,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 19.8,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "avgTargetsPerGame": 3.25,
+        "avgCatchesPerGame": 1.88
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2017,
       "stats": {
         "passYPG": 282.2,
-        "tdRatio": 0.0487,
-        "intRatio": 0.0174,
-        "qbr": 100
+        "qbr": 100,
+        "avgTDPerGame": 1.75,
+        "avgINTPerGame": 0.625,
+        "completionPct": 0.6261
       },
       "eraNormFactor": 1.3645
     },
@@ -34,7 +37,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 34.3,
-        "tdPerGame": 0.1
+        "tdPerGame": 0.1,
+        "avgTargetsPerGame": 4.4,
+        "avgCatchesPerGame": 2.5
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 35.4,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 4.06,
+        "avgCatchesPerGame": 2.12
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 87.1,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 9.94,
+        "avgCatchesPerGame": 6.38
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -71,7 +80,8 @@
       "year": 2017,
       "stats": {
         "rushYPG": 10.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.38
       },
       "eraNormFactor": 1.0
     },
@@ -83,7 +93,8 @@
       "year": 2017,
       "stats": {
         "rushYPG": 69.1,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 17.75
       },
       "eraNormFactor": 1.0
     },
@@ -95,7 +106,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 45.5,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 4.31,
+        "avgCatchesPerGame": 2.69
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 48.2,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 5.17,
+        "avgCatchesPerGame": 3.75
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -120,7 +135,9 @@
       "year": 2017,
       "stats": {
         "recYPG": 10.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.56,
+        "avgCatchesPerGame": 1.22
       },
       "eraNormFactor": 1.0
     },
@@ -132,7 +149,8 @@
       "year": 2017,
       "stats": {
         "rushYPG": 20.0,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "rushAttPerGame": 3.62
       },
       "eraNormFactor": 1.0
     },
@@ -143,7 +161,10 @@
       "team": "LAC",
       "year": 2017,
       "stats": {
-        "fgAccuracy": 0.6667
+        "fgAccuracy": 0.6667,
+        "avgKickDistance": 35.1,
+        "avgMissDistance": 44.6,
+        "longestMadeKick": 50
       },
       "eraNormFactor": 1.0
     }
@@ -172,8 +193,8 @@
         "rushYPGAllowed": 131.12,
         "rushTDPerGameAllowed": 0.69,
         "sackPct": 0.0821,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 31
       },
       "eraNormFactor": 1.0

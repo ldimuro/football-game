@@ -8,7 +8,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 70.1,
-        "tdPerGame": 0.688
+        "tdPerGame": 0.688,
+        "rushAttPerGame": 15.06
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 34.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 4.44,
+        "avgCatchesPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,8 @@
       "year": 2009,
       "stats": {
         "rushYPG": 72.0,
-        "tdPerGame": 0.889
+        "tdPerGame": 0.889,
+        "rushAttPerGame": 16.33
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +48,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 24.2,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 3.86,
+        "avgCatchesPerGame": 2.21
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +62,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 28.4,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 4.88,
+        "avgCatchesPerGame": 2.38
       },
       "eraNormFactor": 1.0
     },
@@ -68,7 +76,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 47.4,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 7.06,
+        "avgCatchesPerGame": 4.75
       },
       "eraNormFactor": 1.0
     },
@@ -80,7 +90,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 11.6,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 2.64,
+        "avgCatchesPerGame": 1.36
       },
       "eraNormFactor": 1.0
     },
@@ -92,9 +104,10 @@
       "year": 2009,
       "stats": {
         "passYPG": 205.6,
-        "tdRatio": 0.0266,
-        "intRatio": 0.031,
-        "qbr": 59.7
+        "qbr": 59.7,
+        "avgTDPerGame": 0.857,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.6075
       },
       "eraNormFactor": 1.2555
     },
@@ -106,7 +119,9 @@
       "year": 2009,
       "stats": {
         "recYPG": 33.7,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 3.73,
+        "avgCatchesPerGame": 2.07
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +132,10 @@
       "team": "MIA",
       "year": 2009,
       "stats": {
-        "fgAccuracy": 0.8929
+        "fgAccuracy": 0.8929,
+        "avgKickDistance": 36.5,
+        "avgMissDistance": 47.0,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }
@@ -146,8 +164,8 @@
         "rushYPGAllowed": 114.69,
         "rushTDPerGameAllowed": 1.0,
         "sackPct": 0.09,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 18
       },
       "eraNormFactor": 1.0

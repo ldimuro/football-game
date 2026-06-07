@@ -8,7 +8,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 20.2,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 2.38,
+        "avgCatchesPerGame": 1.31
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 17.5,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 2.93,
+        "avgCatchesPerGame": 1.36
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +36,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 50.1,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 12.56
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 32.0,
-        "tdPerGame": 0.412
+        "tdPerGame": 0.412,
+        "avgTargetsPerGame": 4.06,
+        "avgCatchesPerGame": 2.94
       },
       "eraNormFactor": 1.0
     },
@@ -56,7 +63,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 44.8,
-        "tdPerGame": 0.182
+        "tdPerGame": 0.182,
+        "avgTargetsPerGame": 5.55,
+        "avgCatchesPerGame": 3.64
       },
       "eraNormFactor": 1.0
     },
@@ -68,7 +77,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 56.2,
-        "tdPerGame": 0.308
+        "tdPerGame": 0.308,
+        "rushAttPerGame": 9.92
       },
       "eraNormFactor": 1.0
     },
@@ -80,9 +90,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 149.5,
-        "tdRatio": 0.0535,
-        "intRatio": 0.0346,
-        "qbr": 6.2
+        "qbr": 6.2,
+        "avgTDPerGame": 1.133,
+        "avgINTPerGame": 0.733,
+        "completionPct": 0.6038
       },
       "eraNormFactor": 0.8184
     },
@@ -93,7 +104,10 @@
       "team": "CHI",
       "year": 2022,
       "stats": {
-        "fgAccuracy": 0.9259
+        "fgAccuracy": 0.9259,
+        "avgKickDistance": 37.7,
+        "avgMissDistance": 48.0,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }

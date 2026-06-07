@@ -8,9 +8,10 @@
       "year": 2004,
       "stats": {
         "passYPG": 183.2,
-        "tdRatio": 0.0445,
-        "intRatio": 0.0356,
-        "qbr": 39.8
+        "qbr": 39.8,
+        "avgTDPerGame": 1.25,
+        "avgINTPerGame": 1.0,
+        "completionPct": 0.5702
       },
       "eraNormFactor": 1.041
     },
@@ -22,7 +23,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 65.2,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 5.5
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 36.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 10.44
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 75.2,
-        "tdPerGame": 0.867
+        "tdPerGame": 0.867,
+        "rushAttPerGame": 18.93
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +63,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 41.8,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "rushAttPerGame": 10.5
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +76,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 56.2,
-        "tdPerGame": 0.6
+        "tdPerGame": 0.6,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.2
       },
       "eraNormFactor": 1.0
     },
@@ -81,7 +89,10 @@
       "team": "BUF",
       "year": 2004,
       "stats": {
-        "fgAccuracy": 0.8571
+        "fgAccuracy": 0.8571,
+        "avgKickDistance": 29.5,
+        "avgMissDistance": 37.8,
+        "longestMadeKick": 43
       },
       "eraNormFactor": 1.0
     }
@@ -110,8 +121,8 @@
         "rushYPGAllowed": 100.25,
         "rushTDPerGameAllowed": 0.38,
         "sackPct": 0.0926,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 7
       },
       "eraNormFactor": 1.0

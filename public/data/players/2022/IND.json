@@ -8,9 +8,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 254.8,
-        "tdRatio": 0.0304,
-        "intRatio": 0.0282,
-        "qbr": 29.4
+        "qbr": 29.4,
+        "avgTDPerGame": 1.167,
+        "avgINTPerGame": 1.083,
+        "completionPct": 0.6703
       },
       "eraNormFactor": 1.3949
     },
@@ -22,7 +23,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 13.5,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 2.0,
+        "avgCatchesPerGame": 1.36
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 29.6,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 3.14,
+        "avgCatchesPerGame": 2.14
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 36.6,
-        "tdPerGame": 0.176
+        "tdPerGame": 0.176,
+        "avgTargetsPerGame": 5.35,
+        "avgCatchesPerGame": 3.71
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 78.3,
-        "tdPerGame": 0.364
+        "tdPerGame": 0.364,
+        "rushAttPerGame": 17.45
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 57.8,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 8.81,
+        "avgCatchesPerGame": 6.19
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2022,
       "stats": {
         "rushYPG": 19.7,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "rushAttPerGame": 5.67
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 23.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.08,
+        "avgCatchesPerGame": 2.38
       },
       "eraNormFactor": 1.0
     },
@@ -106,9 +119,10 @@
       "year": 2022,
       "stats": {
         "passYPG": 143.2,
-        "tdRatio": 0.0297,
-        "intRatio": 0.0297,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.75,
+        "avgINTPerGame": 0.75,
+        "completionPct": 0.6337
       },
       "eraNormFactor": 0.7839
     },
@@ -120,7 +134,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 37.1,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 4.88,
+        "avgCatchesPerGame": 2.56
       },
       "eraNormFactor": 1.0
     },
@@ -132,7 +148,9 @@
       "year": 2022,
       "stats": {
         "recYPG": 26.0,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 3.33,
+        "avgCatchesPerGame": 2.08
       },
       "eraNormFactor": 1.0
     },
@@ -143,7 +161,10 @@
       "team": "IND",
       "year": 2022,
       "stats": {
-        "fgAccuracy": 0.8205
+        "fgAccuracy": 0.8205,
+        "avgKickDistance": 42.0,
+        "avgMissDistance": 48.1,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }

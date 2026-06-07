@@ -10,13 +10,13 @@ vi.mock('./dataLoader', () => ({
   loadTeamRoster: vi.fn().mockResolvedValue({
     players: [
       { id: 'qb1', name: 'QB', position: 'QB', team: 'KC', year: 2022,
-        stats: { passYPG: 300, tdRatio: 0.06, intRatio: 0.01, qbr: 70 }, eraNormFactor: 1.0 },
+        stats: { passYPG: 300, avgTDPerGame: 1.8, avgINTPerGame: 0.3, completionPct: 0.64, qbr: 70 }, eraNormFactor: 1.0 },
       { id: 'wr1', name: 'WR', position: 'WR', team: 'KC', year: 2022,
-        stats: { recYPG: 80, tdPerGame: 0.4 }, eraNormFactor: 1.0 },
+        stats: { recYPG: 80, tdPerGame: 0.4, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.0 },
       { id: 'rb1', name: 'RB', position: 'RB', team: 'KC', year: 2022,
-        stats: { rushYPG: 70, tdPerGame: 0.4 }, eraNormFactor: 1.0 },
+        stats: { rushYPG: 70, tdPerGame: 0.4, rushAttPerGame: 14.0 }, eraNormFactor: 1.0 },
       { id: 'k1', name: 'K', position: 'K', team: 'KC', year: 2022,
-        stats: { fgAccuracy: 0.9 }, eraNormFactor: 1.0 },
+        stats: { fgAccuracy: 0.9, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 }, eraNormFactor: 1.0 },
     ],
     units: [
       { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,

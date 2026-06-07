@@ -8,7 +8,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 57.3,
-        "tdPerGame": 0.455
+        "tdPerGame": 0.455,
+        "avgTargetsPerGame": 7.73,
+        "avgCatchesPerGame": 5.09
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 37.4,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 4.6,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +36,10 @@
       "year": 2015,
       "stats": {
         "passYPG": 299.5,
-        "tdRatio": 0.0439,
-        "intRatio": 0.0197,
-        "qbr": 91.2
+        "qbr": 91.2,
+        "avgTDPerGame": 1.812,
+        "avgINTPerGame": 0.812,
+        "completionPct": 0.6611
       },
       "eraNormFactor": 1.4713
     },
@@ -46,7 +51,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 21.0,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "rushAttPerGame": 6.12
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 55.2,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 7.22,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 38.2,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "rushAttPerGame": 9.83
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 40.5,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.25,
+        "avgCatchesPerGame": 2.92
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 33.0,
-        "tdPerGame": 0.308
+        "tdPerGame": 0.308,
+        "avgTargetsPerGame": 4.85,
+        "avgCatchesPerGame": 2.85
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 90.6,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 11.12,
+        "avgCatchesPerGame": 8.38
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +133,9 @@
       "year": 2015,
       "stats": {
         "recYPG": 27.9,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 4.71,
+        "avgCatchesPerGame": 3.43
       },
       "eraNormFactor": 1.0
     },
@@ -130,7 +147,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 18.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 5.17
       },
       "eraNormFactor": 1.0
     },
@@ -142,7 +160,8 @@
       "year": 2015,
       "stats": {
         "rushYPG": 45.8,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 13.14
       },
       "eraNormFactor": 1.0
     },
@@ -153,7 +172,10 @@
       "team": "LAC",
       "year": 2015,
       "stats": {
-        "fgAccuracy": 0.8125
+        "fgAccuracy": 0.8125,
+        "avgKickDistance": 40.9,
+        "avgMissDistance": 48.8,
+        "longestMadeKick": 54
       },
       "eraNormFactor": 1.0
     }
@@ -182,8 +204,8 @@
         "rushYPGAllowed": 125.31,
         "rushTDPerGameAllowed": 1.06,
         "sackPct": 0.0627,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0

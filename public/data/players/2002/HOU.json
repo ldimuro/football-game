@@ -8,7 +8,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 32.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 9.69
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +21,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 43.6,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 6.62,
+        "avgCatchesPerGame": 2.81
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 43.8,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": 5.71,
+        "avgCatchesPerGame": 3.64
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 22.0,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 1.62
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +63,10 @@
       "year": 2002,
       "stats": {
         "passYPG": 162.0,
-        "tdRatio": 0.0203,
-        "intRatio": 0.0338,
-        "qbr": 0
+        "qbr": 0,
+        "avgTDPerGame": 0.562,
+        "avgINTPerGame": 0.938,
+        "completionPct": 0.5248
       },
       "eraNormFactor": 0.8948
     },
@@ -70,7 +78,9 @@
       "year": 2002,
       "stats": {
         "recYPG": 30.2,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 5.06,
+        "avgCatchesPerGame": 2.56
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2002,
       "stats": {
         "rushYPG": 33.1,
-        "tdPerGame": 0.188
+        "tdPerGame": 0.188,
+        "rushAttPerGame": 12.31
       },
       "eraNormFactor": 1.0
     },
@@ -93,7 +104,10 @@
       "team": "HOU",
       "year": 2002,
       "stats": {
-        "fgAccuracy": 0.7083
+        "fgAccuracy": 0.7083,
+        "avgKickDistance": 41.5,
+        "avgMissDistance": 43.9,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -122,8 +136,8 @@
         "rushYPGAllowed": 130.56,
         "rushTDPerGameAllowed": 0.88,
         "sackPct": 0.0684,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 28
       },
       "eraNormFactor": 1.0

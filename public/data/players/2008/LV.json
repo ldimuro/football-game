@@ -8,7 +8,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 61.1,
-        "tdPerGame": 0.071
+        "tdPerGame": 0.071,
+        "rushAttPerGame": 15.64
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +21,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 161.5,
-        "tdRatio": 0.0354,
-        "intRatio": 0.0218,
-        "qbr": 11.1
+        "qbr": 11.1,
+        "avgTDPerGame": 0.867,
+        "avgINTPerGame": 0.533,
+        "completionPct": 0.5395
       },
       "eraNormFactor": 0.8881
     },
@@ -34,7 +36,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 51.9,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.73
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 30.5,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 1.83
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -59,7 +65,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 38.1,
-        "tdPerGame": 0.273
+        "tdPerGame": 0.273,
+        "rushAttPerGame": 8.55
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +78,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 38.4,
-        "tdPerGame": 0.308
+        "tdPerGame": 0.308,
+        "rushAttPerGame": 8.69
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +90,10 @@
       "team": "LV",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.8
+        "fgAccuracy": 0.8,
+        "avgKickDistance": 37.6,
+        "avgMissDistance": 56.0,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0
     }
@@ -111,8 +122,8 @@
         "rushYPGAllowed": 159.69,
         "rushTDPerGameAllowed": 1.44,
         "sackPct": 0.0679,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 31
       },
       "eraNormFactor": 1.0

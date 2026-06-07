@@ -8,7 +8,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 43.1,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": 6.25,
+        "avgCatchesPerGame": 3.81
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 18.2,
-        "tdPerGame": 0.154
+        "tdPerGame": 0.154,
+        "avgTargetsPerGame": 3.0,
+        "avgCatchesPerGame": 2.15
       },
       "eraNormFactor": 1.0
     },
@@ -32,9 +36,10 @@
       "year": 2000,
       "stats": {
         "passYPG": 176.2,
-        "tdRatio": 0.0437,
-        "intRatio": 0.0461,
-        "qbr": 53.6
+        "qbr": 53.6,
+        "avgTDPerGame": 1.2,
+        "avgINTPerGame": 1.267,
+        "completionPct": 0.6214
       },
       "eraNormFactor": 1.1075
     },
@@ -46,7 +51,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 23.9,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 4.18,
+        "avgCatchesPerGame": 2.55
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 19.2,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 3.13,
+        "avgCatchesPerGame": 1.87
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +79,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 76.4,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "rushAttPerGame": 17.19
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2000,
       "stats": {
         "rushYPG": 19.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "rushAttPerGame": 4.0
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2000,
       "stats": {
         "recYPG": 44.6,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 5.81,
+        "avgCatchesPerGame": 3.31
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "SEA",
       "year": 2000,
       "stats": {
-        "fgAccuracy": 0.8077
+        "fgAccuracy": 0.8077,
+        "avgKickDistance": 37.6,
+        "avgMissDistance": 37.4,
+        "longestMadeKick": 52
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 153.38,
         "rushTDPerGameAllowed": 1.25,
         "sackPct": 0.0552,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 28
       },
       "eraNormFactor": 1.0

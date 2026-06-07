@@ -8,7 +8,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 31.5,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": 5.54,
+        "avgCatchesPerGame": 4.15
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 87.9,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "avgTargetsPerGame": 10.0,
+        "avgCatchesPerGame": 7.19
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -33,7 +37,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 63.7,
-        "tdPerGame": 0.667
+        "tdPerGame": 0.667,
+        "rushAttPerGame": 15.93
       },
       "eraNormFactor": 1.0
     },
@@ -45,7 +50,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 31.3,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "avgTargetsPerGame": 3.21,
+        "avgCatchesPerGame": 2.21
       },
       "eraNormFactor": 1.0
     },
@@ -57,7 +64,8 @@
       "year": 2020,
       "stats": {
         "rushYPG": 28.0,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "rushAttPerGame": 6.06
       },
       "eraNormFactor": 1.0
     },
@@ -69,7 +77,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 44.4,
-        "tdPerGame": 0.429
+        "tdPerGame": 0.429,
+        "avgTargetsPerGame": 5.64,
+        "avgCatchesPerGame": 3.43
       },
       "eraNormFactor": 1.0
     },
@@ -81,9 +91,10 @@
       "year": 2020,
       "stats": {
         "passYPG": 248.2,
-        "tdRatio": 0.0466,
-        "intRatio": 0.0215,
-        "qbr": 71.1
+        "qbr": 71.1,
+        "avgTDPerGame": 1.625,
+        "avgINTPerGame": 0.75,
+        "completionPct": 0.672
       },
       "eraNormFactor": 1.3411
     },
@@ -95,7 +106,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 21.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 2.88,
+        "avgCatchesPerGame": 1.88
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,9 @@
       "year": 2020,
       "stats": {
         "recYPG": 20.4,
-        "tdPerGame": 0.182
+        "tdPerGame": 0.182,
+        "avgTargetsPerGame": 3.18,
+        "avgCatchesPerGame": 1.91
       },
       "eraNormFactor": 1.0
     },
@@ -118,7 +133,10 @@
       "team": "ARI",
       "year": 2020,
       "stats": {
-        "fgAccuracy": 0.7667
+        "fgAccuracy": 0.7667,
+        "avgKickDistance": 40.5,
+        "avgMissDistance": 45.9,
+        "longestMadeKick": 56
       },
       "eraNormFactor": 1.0
     }

@@ -8,9 +8,10 @@
       "year": 2013,
       "stats": {
         "passYPG": 255.2,
-        "tdRatio": 0.0579,
-        "intRatio": 0.0187,
-        "qbr": 90.8
+        "qbr": 90.8,
+        "avgTDPerGame": 2.067,
+        "avgINTPerGame": 0.667,
+        "completionPct": 0.6393
       },
       "eraNormFactor": 1.1983
     },
@@ -22,7 +23,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 53.2,
-        "tdPerGame": 0.5
+        "tdPerGame": 0.5,
+        "avgTargetsPerGame": 6.94,
+        "avgCatchesPerGame": 4.56
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 22.2,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": 4.45,
+        "avgCatchesPerGame": 2.18
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +51,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 77.1,
-        "tdPerGame": 0.812
+        "tdPerGame": 0.812,
+        "avgTargetsPerGame": 10.0,
+        "avgCatchesPerGame": 5.81
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +65,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 80.1,
-        "tdPerGame": 0.643
+        "tdPerGame": 0.643,
+        "rushAttPerGame": 15.5
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 26.3,
-        "tdPerGame": 0.143
+        "tdPerGame": 0.143,
+        "avgTargetsPerGame": 3.86,
+        "avgCatchesPerGame": 2.79
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 21.4,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 4.29
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,8 @@
       "year": 2013,
       "stats": {
         "rushYPG": 32.8,
-        "tdPerGame": 0.4
+        "tdPerGame": 0.4,
+        "rushAttPerGame": 10.8
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +118,9 @@
       "year": 2013,
       "stats": {
         "recYPG": 49.1,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "avgTargetsPerGame": 4.93,
+        "avgCatchesPerGame": 2.93
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +131,10 @@
       "team": "DAL",
       "year": 2013,
       "stats": {
-        "fgAccuracy": 0.9333
+        "fgAccuracy": 0.9333,
+        "avgKickDistance": 40.1,
+        "avgMissDistance": 45.5,
+        "longestMadeKick": 53
       },
       "eraNormFactor": 1.0
     }
@@ -146,8 +163,8 @@
         "rushYPGAllowed": 128.5,
         "rushTDPerGameAllowed": 1.06,
         "sackPct": 0.0546,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 27
       },
       "eraNormFactor": 1.0

@@ -8,7 +8,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 25.1,
-        "tdPerGame": 0.067
+        "tdPerGame": 0.067,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.73
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 16.5,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "rushAttPerGame": 3.12
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 53.3,
-        "tdPerGame": 0.3
+        "tdPerGame": 0.3,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.1
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +49,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 20.0,
-        "tdPerGame": 0.077
+        "tdPerGame": 0.077,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.15
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +63,10 @@
       "year": 2004,
       "stats": {
         "passYPG": 190.4,
-        "tdRatio": 0.0389,
-        "intRatio": 0.0245,
-        "qbr": 13.6
+        "qbr": 13.6,
+        "avgTDPerGame": 1.188,
+        "avgINTPerGame": 0.75,
+        "completionPct": 0.5603
       },
       "eraNormFactor": 1.0819
     },
@@ -70,7 +78,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 24.9,
-        "tdPerGame": 0.286
+        "tdPerGame": 0.286,
+        "rushAttPerGame": 8.14
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,8 @@
       "year": 2004,
       "stats": {
         "rushYPG": 75.5,
-        "tdPerGame": 0.333
+        "tdPerGame": 0.333,
+        "rushAttPerGame": 16.07
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +104,9 @@
       "year": 2004,
       "stats": {
         "recYPG": 58.4,
-        "tdPerGame": 0.571
+        "tdPerGame": 0.571,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.86
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +117,10 @@
       "team": "DET",
       "year": 2004,
       "stats": {
-        "fgAccuracy": 0.8571
+        "fgAccuracy": 0.8571,
+        "avgKickDistance": 33.6,
+        "avgMissDistance": 43.8,
+        "longestMadeKick": 48
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +149,8 @@
         "rushYPGAllowed": 117.94,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.071,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 15
       },
       "eraNormFactor": 1.0

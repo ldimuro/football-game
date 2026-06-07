@@ -8,9 +8,10 @@
       "year": 2008,
       "stats": {
         "passYPG": 217.0,
-        "tdRatio": 0.0421,
-        "intRatio": 0.0421,
-        "qbr": 62.8
+        "qbr": 62.8,
+        "avgTDPerGame": 1.375,
+        "avgINTPerGame": 1.375,
+        "completionPct": 0.6571
       },
       "eraNormFactor": 1.1932
     },
@@ -22,7 +23,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 53.1,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.38
       },
       "eraNormFactor": 1.0
     },
@@ -34,7 +37,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 82.0,
-        "tdPerGame": 0.812
+        "tdPerGame": 0.812,
+        "rushAttPerGame": 18.12
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -47,7 +51,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 17.6,
-        "tdPerGame": 0.0
+        "tdPerGame": 0.0,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 1.91
       },
       "eraNormFactor": 1.0
     },
@@ -59,7 +65,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 53.6,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 4.44
       },
       "eraNormFactor": 1.0
     },
@@ -71,7 +79,8 @@
       "year": 2008,
       "stats": {
         "rushYPG": 28.0,
-        "tdPerGame": 0.375
+        "tdPerGame": 0.375,
+        "rushAttPerGame": 4.75
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -84,7 +93,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 29.9,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 2.67
       },
       "eraNormFactor": 1.0
     },
@@ -96,7 +107,9 @@
       "year": 2008,
       "stats": {
         "recYPG": 38.2,
-        "tdPerGame": 0.214
+        "tdPerGame": 0.214,
+        "avgTargetsPerGame": null,
+        "avgCatchesPerGame": 3.43
       },
       "eraNormFactor": 1.0
     },
@@ -107,7 +120,10 @@
       "team": "NYJ",
       "year": 2008,
       "stats": {
-        "fgAccuracy": 0.8276
+        "fgAccuracy": 0.8276,
+        "avgKickDistance": 33.0,
+        "avgMissDistance": 36.0,
+        "longestMadeKick": 55
       },
       "eraNormFactor": 1.0
     }
@@ -136,8 +152,8 @@
         "rushYPGAllowed": 94.88,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0717,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 7
       },
       "eraNormFactor": 1.0

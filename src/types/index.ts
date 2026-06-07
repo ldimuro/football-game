@@ -6,23 +6,30 @@ export type WeatherCondition = 'Clear' | 'Rain' | 'Snow' | 'HeavyWind' | 'Dome'
 
 export interface QBStats {
   passYPG: number
-  tdRatio: number
-  intRatio: number
+  avgTDPerGame: number
+  avgINTPerGame: number
+  completionPct: number
   qbr: number
 }
 
 export interface WRStats {
   recYPG: number
   tdPerGame: number
+  avgTargetsPerGame: number | null
+  avgCatchesPerGame: number
 }
 
 export interface RBStats {
   rushYPG: number
   tdPerGame: number
+  rushAttPerGame: number
 }
 
 export interface KStats {
   fgAccuracy: number
+  avgKickDistance: number
+  avgMissDistance: number
+  longestMadeKick: number
 }
 
 export interface OLineStats {
@@ -37,8 +44,8 @@ export interface DLineStats {
   rushYPGAllowed: number
   sackPct: number
   rushTDPerGameAllowed: number
-  blitzPct: number
-  pressurePct: number
+  blitzPct: number | null
+  pressurePct: number | null
   normalizedRank: number
 }
 

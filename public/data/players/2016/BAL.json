@@ -8,7 +8,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 57.1,
-        "tdPerGame": 0.357
+        "tdPerGame": 0.357,
+        "avgTargetsPerGame": 7.21,
+        "avgCatchesPerGame": 5.0
       },
       "eraNormFactor": 1.0
     },
@@ -20,9 +22,10 @@
       "year": 2016,
       "stats": {
         "passYPG": 269.8,
-        "tdRatio": 0.0298,
-        "intRatio": 0.0223,
-        "qbr": 33.5
+        "qbr": 33.5,
+        "avgTDPerGame": 1.25,
+        "avgINTPerGame": 0.938,
+        "completionPct": 0.6488
       },
       "eraNormFactor": 1.3256
     },
@@ -34,7 +37,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 32.3,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "rushAttPerGame": 9.67
       },
       "eraNormFactor": 1.0
     },
@@ -46,7 +50,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 63.6,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 7.25,
+        "avgCatchesPerGame": 4.5
       },
       "eraNormFactor": 1.0
     },
@@ -58,7 +64,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 45.6,
-        "tdPerGame": 0.125
+        "tdPerGame": 0.125,
+        "avgTargetsPerGame": 7.56,
+        "avgCatchesPerGame": 5.38
       },
       "eraNormFactor": 1.0
     },
@@ -70,7 +78,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 20.5,
-        "tdPerGame": 0.062
+        "tdPerGame": 0.062,
+        "avgTargetsPerGame": 3.12,
+        "avgCatchesPerGame": 1.81
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +92,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 48.4,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 12.06
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2016,
       "stats": {
         "recYPG": 33.3,
-        "tdPerGame": 0.2
+        "tdPerGame": 0.2,
+        "avgTargetsPerGame": 4.4,
+        "avgCatchesPerGame": 2.2
       },
       "eraNormFactor": 1.0
     },
@@ -106,7 +119,8 @@
       "year": 2016,
       "stats": {
         "rushYPG": 31.8,
-        "tdPerGame": 0.167
+        "tdPerGame": 0.167,
+        "rushAttPerGame": 7.33
       },
       "eraNormFactor": 1.0
     },
@@ -117,7 +131,10 @@
       "team": "BAL",
       "year": 2016,
       "stats": {
-        "fgAccuracy": 0.9744
+        "fgAccuracy": 0.9744,
+        "avgKickDistance": 41.9,
+        "avgMissDistance": 34.0,
+        "longestMadeKick": 57
       },
       "eraNormFactor": 1.0,
       "is_all_pro": true
@@ -147,8 +164,8 @@
         "rushYPGAllowed": 89.38,
         "rushTDPerGameAllowed": 0.62,
         "sackPct": 0.0536,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0

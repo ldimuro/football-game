@@ -8,7 +8,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 51.6,
-        "tdPerGame": 0.438
+        "tdPerGame": 0.438,
+        "avgTargetsPerGame": 7.0,
+        "avgCatchesPerGame": 3.38
       },
       "eraNormFactor": 1.0
     },
@@ -20,7 +22,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 58.7,
-        "tdPerGame": 0.312
+        "tdPerGame": 0.312,
+        "rushAttPerGame": 19.69
       },
       "eraNormFactor": 1.0
     },
@@ -32,7 +35,8 @@
       "year": 2001,
       "stats": {
         "rushYPG": 37.9,
-        "tdPerGame": 0.111
+        "tdPerGame": 0.111,
+        "rushAttPerGame": 6.22
       },
       "eraNormFactor": 1.0
     },
@@ -44,7 +48,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 75.2,
-        "tdPerGame": 0.6
+        "tdPerGame": 0.6,
+        "avgTargetsPerGame": 7.53,
+        "avgCatchesPerGame": 4.87
       },
       "eraNormFactor": 1.0
     },
@@ -56,9 +62,10 @@
       "year": 2001,
       "stats": {
         "passYPG": 223.3,
-        "tdRatio": 0.0487,
-        "intRatio": 0.0278,
-        "qbr": 93.7
+        "qbr": 93.7,
+        "avgTDPerGame": 1.4,
+        "avgINTPerGame": 0.8,
+        "completionPct": 0.6125
       },
       "eraNormFactor": 1.2642
     },
@@ -70,7 +77,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 42.0,
-        "tdPerGame": 0.25
+        "tdPerGame": 0.25,
+        "avgTargetsPerGame": 5.25,
+        "avgCatchesPerGame": 3.75
       },
       "eraNormFactor": 1.0
     },
@@ -82,7 +91,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 23.9,
-        "tdPerGame": 0.091
+        "tdPerGame": 0.091,
+        "avgTargetsPerGame": 3.82,
+        "avgCatchesPerGame": 2.27
       },
       "eraNormFactor": 1.0
     },
@@ -94,7 +105,9 @@
       "year": 2001,
       "stats": {
         "recYPG": 27.4,
-        "tdPerGame": 0.083
+        "tdPerGame": 0.083,
+        "avgTargetsPerGame": 3.83,
+        "avgCatchesPerGame": 2.0
       },
       "eraNormFactor": 1.0
     },
@@ -105,7 +118,10 @@
       "team": "TEN",
       "year": 2001,
       "stats": {
-        "fgAccuracy": 0.7143
+        "fgAccuracy": 0.7143,
+        "avgKickDistance": 39.6,
+        "avgMissDistance": 47.1,
+        "longestMadeKick": 51
       },
       "eraNormFactor": 1.0
     }
@@ -134,8 +150,8 @@
         "rushYPGAllowed": 89.44,
         "rushTDPerGameAllowed": 1.06,
         "sackPct": 0.0572,
-        "blitzPct": 0.0,
-        "pressurePct": 0.0,
+        "blitzPct": null,
+        "pressurePct": null,
         "normalizedRank": 5
       },
       "eraNormFactor": 1.0
