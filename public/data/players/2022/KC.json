@@ -1,0 +1,75 @@
+{
+  "players": [
+    {
+      "id": "p_mahomes_kc_2022",
+      "name": "Patrick Mahomes",
+      "position": "QB",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "passYPG": 317.4, "tdRatio": 0.067, "intRatio": 0.011, "qbr": 74.2 },
+      "eraNormFactor": 1.08
+    },
+    {
+      "id": "p_kelce_kc_2022",
+      "name": "Travis Kelce",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "recYPG": 84.5, "tdPerGame": 0.47 },
+      "eraNormFactor": 1.18
+    },
+    {
+      "id": "p_hardman_kc_2022",
+      "name": "Mecole Hardman",
+      "position": "WR",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "recYPG": 38.2, "tdPerGame": 0.24 },
+      "eraNormFactor": 0.82
+    },
+    {
+      "id": "p_pacheco_kc_2022",
+      "name": "Isiah Pacheco",
+      "position": "RB",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "rushYPG": 62.1, "tdPerGame": 0.41 },
+      "eraNormFactor": 0.94
+    },
+    {
+      "id": "p_butker_kc_2022",
+      "name": "Harrison Butker",
+      "position": "K",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "fgAccuracy": 0.923 },
+      "eraNormFactor": 1.05
+    }
+  ],
+  "units": [
+    {
+      "id": "u_kc_oline_2022",
+      "position": "OLine",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "sacksAllowedPerGame": 2.1, "rushYPC": 4.8, "rushTDPct": 0.052, "normalizedRank": 8 },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_kc_dline_2022",
+      "position": "DLine",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "sacksPerGame": 3.2, "rushYPCAllowed": 4.1, "rushTDPctAllowed": 0.038, "normalizedRank": 10 },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_kc_secondary_2022",
+      "position": "Secondary",
+      "team": "KC",
+      "year": 2022,
+      "stats": { "completionPctAllowed": 0.634, "yardsPerAttemptAllowed": 6.8, "tdPctAllowed": 0.038, "intPct": 0.027, "normalizedRank": 11 },
+      "eraNormFactor": 1.0
+    }
+  ]
+}

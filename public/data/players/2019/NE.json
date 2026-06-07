@@ -1,0 +1,75 @@
+{
+  "players": [
+    {
+      "id": "p_brady_ne_2019",
+      "name": "Tom Brady",
+      "position": "QB",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "passYPG": 240.1, "tdRatio": 0.058, "intRatio": 0.013, "qbr": 61.4 },
+      "eraNormFactor": 0.92
+    },
+    {
+      "id": "p_edelman_ne_2019",
+      "name": "Julian Edelman",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "recYPG": 72.3, "tdPerGame": 0.35 },
+      "eraNormFactor": 1.02
+    },
+    {
+      "id": "p_dorsett_ne_2019",
+      "name": "Phillip Dorsett",
+      "position": "WR",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "recYPG": 37.8, "tdPerGame": 0.25 },
+      "eraNormFactor": 0.79
+    },
+    {
+      "id": "p_michel_ne_2019",
+      "name": "Sony Michel",
+      "position": "RB",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "rushYPG": 58.4, "tdPerGame": 0.47 },
+      "eraNormFactor": 0.88
+    },
+    {
+      "id": "p_folk_ne_2019",
+      "name": "Nick Folk",
+      "position": "K",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "fgAccuracy": 0.917 },
+      "eraNormFactor": 1.01
+    }
+  ],
+  "units": [
+    {
+      "id": "u_ne_oline_2019",
+      "position": "OLine",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "sacksAllowedPerGame": 1.8, "rushYPC": 4.3, "rushTDPct": 0.061, "normalizedRank": 5 },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ne_dline_2019",
+      "position": "DLine",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "sacksPerGame": 3.9, "rushYPCAllowed": 3.8, "rushTDPctAllowed": 0.031, "normalizedRank": 4 },
+      "eraNormFactor": 1.0
+    },
+    {
+      "id": "u_ne_secondary_2019",
+      "position": "Secondary",
+      "team": "NE",
+      "year": 2019,
+      "stats": { "completionPctAllowed": 0.571, "yardsPerAttemptAllowed": 5.9, "tdPctAllowed": 0.029, "intPct": 0.041, "normalizedRank": 1 },
+      "eraNormFactor": 1.0
+    }
+  ]
+}
