@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { PlayerPickCard } from './PlayerPickCard'
 import { SlotChooser } from './SlotChooser'
+import { ConfirmPickModal } from './ConfirmPickModal'
 import { Button } from '../ui/Button'
 import type { Player, TeamUnit, RosterPosition } from '../../types'
 
@@ -12,6 +13,7 @@ export function DraftOffer() {
   } = useGameStore()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [showSlotChooser, setShowSlotChooser] = useState(false)
+  const [confirmTarget, setConfirmTarget] = useState<RosterPosition | null>(null)
 
   if (!currentDraftOffer) return null
 
@@ -20,23 +22,28 @@ export function DraftOffer() {
 
   function handleSelect(item: Player | TeamUnit) {
     setSelectedId(item.id)
-    setShowSlotChooser(item.position === 'WR')
+    setShowSlotChooser(false)
+    setConfirmTarget(null)
   }
 
-  function handleConfirm() {
+  function handleSelectPlayer() {
     if (!selected) return
     if (selected.position === 'WR') {
       setShowSlotChooser(true)
       return
     }
-    const targetPosition = selected.position as RosterPosition
-    draftPlayer(selected.id, targetPosition)
+    setConfirmTarget(selected.position as RosterPosition)
   }
 
   function handleSlotChosen(slot: RosterPosition) {
-    if (!selected) return
     setShowSlotChooser(false)
-    draftPlayer(selected.id, slot)
+    setConfirmTarget(slot)
+  }
+
+  function handleConfirmPick() {
+    if (!selected || !confirmTarget) return
+    setConfirmTarget(null)
+    draftPlayer(selected.id, confirmTarget)
   }
 
   const wr1Name = roster.WR1 && 'name' in roster.WR1 ? (roster.WR1 as Player).name : null
@@ -60,13 +67,23 @@ export function DraftOffer() {
         />
       )}
 
+      {selected && confirmTarget && (
+        <ConfirmPickModal
+          newItem={selected}
+          currentSlot={roster[confirmTarget]}
+          targetPosition={confirmTarget}
+          onConfirm={handleConfirmPick}
+          onCancel={() => setConfirmTarget(null)}
+        />
+      )}
+
       <div className="mb-6 flex items-start justify-between">
         <div>
-          <p className="text-xs text-gray-400 uppercase tracking-wider">Week {round} Draft Offer</p>
-          <h1 className="text-3xl font-bold text-white">
+          <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider">Week {round} Draft Offer</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
             {/* lowercase + CSS uppercase: keeps DOM text "ne" so the case-sensitive getByText(/NE/) in DraftOffer.test.tsx matches only the unit card's "NE Secondary", not this header */}
             <span className="uppercase">{currentDraftOffer.team.toLowerCase()}</span>{' '}
-            <span className="text-gray-400 font-normal">{currentDraftOffer.year}</span>
+            <span className="text-gray-500 dark:text-gray-400 font-normal">{currentDraftOffer.year}</span>
           </h1>
         </div>
         <div className="flex gap-2">
@@ -80,8 +97,8 @@ export function DraftOffer() {
           <Button onClick={skipDraft} variant="ghost" disabled={isLoading}>
             Skip
           </Button>
-          <Button onClick={handleConfirm} disabled={!selectedId || isLoading}>
-            Confirm Pick
+          <Button onClick={handleSelectPlayer} disabled={!selectedId || isLoading}>
+            Select Player
           </Button>
         </div>
       </div>
@@ -89,7 +106,7 @@ export function DraftOffer() {
       <div className="space-y-6">
         {Object.entries(byPosition).map(([pos, items]) => (
           <div key={pos}>
-            <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">{pos}</p>
+            <p className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wider mb-2">{pos}</p>
             <div className="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-4 gap-3">
               {items.map(item => (
                 <PlayerPickCard

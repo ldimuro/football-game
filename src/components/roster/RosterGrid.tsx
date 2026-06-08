@@ -15,8 +15,8 @@ export function RosterGrid({ roster, onReroll, rerollsRemaining = 0 }: RosterGri
       {POSITIONS.map(pos => {
         const slot = roster[pos]
         if (!slot) return (
-          <div key={pos} className="bg-gray-900 border border-dashed border-gray-700 rounded-xl p-4 flex items-center justify-center">
-            <span className="text-gray-600 text-sm">Loading...</span>
+          <div key={pos} className="bg-white dark:bg-gray-900 border border-dashed border-gray-300 dark:border-gray-700 rounded-xl p-4 flex items-center justify-center">
+            <span className="text-gray-500 dark:text-gray-600 text-sm">Loading...</span>
           </div>
         )
         return (

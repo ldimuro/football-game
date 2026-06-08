@@ -26,6 +26,13 @@ PFR_ABBR_TO_JSON = {
     '2TM': None,
 }
 
+# All-Pro CSVs list honorees at every position, including special-teams
+# honors (PR/KR/ST/FLEX/...) for players whose roster entry is an offensive
+# skill position. Only flag All-Pro selections earned at one of these
+# positions, matching the individual positions tracked in player JSON files
+# (plus TE, which the source data includes alongside WR-eligible honors).
+ALL_PRO_ALLOWED_POSITIONS = {'QB', 'RB', 'WR', 'TE', 'K', 'PK'}
+
 # Full franchise names (used in award CSVs) -> JSON abbreviation.
 TEAM_NAME_TO_JSON = {
     'Arizona Cardinals': 'ARI', 'Atlanta Falcons': 'ATL',
@@ -116,6 +123,8 @@ def process_all_pro(year, index, dirty_paths, stats):
         return
     with open(csv_path) as f:
         for row in csv.DictReader(f):
+            if row.get('Pos', '').strip() not in ALL_PRO_ALLOWED_POSITIONS:
+                continue
             name = row['Player'].strip()
             pfr_abbr = row['Tm'].strip()
             json_abbr = PFR_ABBR_TO_JSON.get(pfr_abbr)

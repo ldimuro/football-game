@@ -10,8 +10,8 @@ export function SetupScreen() {
     <div className="max-w-7xl mx-auto px-4 py-8">
       <div className="mb-8 flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-white">Your Starting Roster</h1>
-          <p className="text-gray-400 mt-1">
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Your Starting Roster</h1>
+          <p className="text-gray-500 dark:text-gray-400 mt-1">
             {setupRerollsRemaining} re-rolls remaining — swap out any player before the season begins
           </p>
         </div>

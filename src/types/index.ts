@@ -21,6 +21,7 @@ export interface WRStats {
 
 export interface RBStats {
   rushYPG: number
+  recYPG: number
   tdPerGame: number
   rushAttPerGame: number
 }
@@ -129,6 +130,18 @@ export interface AggregateStats {
   oLineRank: number
   dLineRank: number
   secondaryRank: number
+}
+
+export interface RosterSummary {
+  totalOffensiveYPG: number
+  totalTDsPerGame: number
+  oLineRank: number | null
+  dLineRank: number | null
+  secondaryRank: number | null
+  allProCount: number
+  awardWinnerCount: number
+  rosterFilled: number
+  rosterSize: number
 }
 
 export interface TeamRosterData {

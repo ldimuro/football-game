@@ -14,7 +14,7 @@ vi.mock('./dataLoader', () => ({
       { id: 'wr1', name: 'WR', position: 'WR', team: 'KC', year: 2022,
         stats: { recYPG: 80, tdPerGame: 0.4, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.0 },
       { id: 'rb1', name: 'RB', position: 'RB', team: 'KC', year: 2022,
-        stats: { rushYPG: 70, tdPerGame: 0.4, rushAttPerGame: 14.0 }, eraNormFactor: 1.0 },
+        stats: { rushYPG: 70, recYPG: 18.0, tdPerGame: 0.4, rushAttPerGame: 14.0 }, eraNormFactor: 1.0 },
       { id: 'k1', name: 'K', position: 'K', team: 'KC', year: 2022,
         stats: { fgAccuracy: 0.9, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 }, eraNormFactor: 1.0 },
     ],

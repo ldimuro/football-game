@@ -14,8 +14,8 @@ export function RoundHub() {
     <div className="max-w-5xl mx-auto px-4 py-8">
       <div className="mb-6 flex items-center justify-between">
         <div>
-          <p className="text-xs text-gray-400 uppercase tracking-wider">NFL Season</p>
-          <h1 className="text-3xl font-bold text-white">Week {round} <span className="text-gray-500 text-xl font-normal">of 17</span></h1>
+          <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider">NFL Season</p>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Week {round} <span className="text-gray-400 dark:text-gray-500 text-xl font-normal">of 17</span></h1>
         </div>
         <Button onClick={viewDraftOffer} disabled={isLoading}>
           View Draft Offer →

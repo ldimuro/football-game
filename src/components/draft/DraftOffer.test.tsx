@@ -52,10 +52,18 @@ describe('DraftOffer', () => {
     expect(screen.getByText(/NE Secondary/i)).toBeInTheDocument()
   })
 
-  it('enables Confirm after selecting a non-WR player', async () => {
+  it('enables Select Player after selecting a non-WR player', async () => {
     render(<DraftOffer />)
     await userEvent.click(screen.getByText('Tom Brady'))
-    expect(screen.getByRole('button', { name: /confirm/i })).not.toBeDisabled()
+    expect(screen.getByRole('button', { name: /select player/i })).not.toBeDisabled()
+  })
+
+  it('shows the confirm-pick comparison modal after clicking Select Player on a non-WR player', async () => {
+    render(<DraftOffer />)
+    await userEvent.click(screen.getByText('Tom Brady'))
+    await userEvent.click(screen.getByRole('button', { name: /select player/i }))
+    expect(screen.getByText(/confirm your pick/i)).toBeInTheDocument()
+    expect(screen.getByRole('button', { name: /confirm pick/i })).toBeInTheDocument()
   })
 
   it('calls skipDraft when Skip is clicked', async () => {
@@ -74,9 +82,10 @@ describe('DraftOffer', () => {
     expect(rerollFn).toHaveBeenCalledTimes(1)
   })
 
-  it('shows SlotChooser when a WR is selected', async () => {
+  it('shows SlotChooser when a WR is selected and Select Player is clicked', async () => {
     render(<DraftOffer />)
     await userEvent.click(screen.getByText('Julian Edelman'))
+    await userEvent.click(screen.getByRole('button', { name: /select player/i }))
     expect(screen.getByText(/WR1/)).toBeInTheDocument()
     expect(screen.getByText(/WR2/)).toBeInTheDocument()
   })

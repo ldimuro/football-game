@@ -44,7 +44,7 @@ describe('computeAggregateStats', () => {
       ...emptyRoster,
       RB: {
         id: 'r1', name: 'Test RB', position: 'RB', team: 'XX', year: 2020,
-        stats: { rushYPG: 95, tdPerGame: 0.5, rushAttPerGame: 14.0 },
+        stats: { rushYPG: 95, recYPG: 18.0, tdPerGame: 0.5, rushAttPerGame: 14.0 },
         eraNormFactor: 1.0,
       },
     }

@@ -7,9 +7,9 @@ interface ButtonProps {
 }
 
 const VARIANTS = {
-  primary: 'bg-indigo-600 hover:bg-indigo-500 text-white',
-  secondary: 'bg-gray-700 hover:bg-gray-600 text-white',
-  ghost: 'bg-transparent hover:bg-gray-800 text-gray-300',
+  primary: 'bg-indigo-600 hover:bg-indigo-500 text-gray-900 dark:text-white',
+  secondary: 'bg-gray-300 dark:bg-gray-700 hover:bg-gray-400 dark:hover:bg-gray-600 text-gray-900 dark:text-white',
+  ghost: 'bg-transparent hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300',
 }
 
 export function Button({ onClick, children, disabled, variant = 'primary', className = '' }: ButtonProps) {

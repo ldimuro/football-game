@@ -13,7 +13,7 @@ const mockRoster: Roster = {
   WR2: { id: 'wr2', name: 'Mecole Hardman', position: 'WR', team: 'KC', year: 2022,
     stats: { recYPG: 38, tdPerGame: 0.24, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 0.82 },
   RB: { id: 'rb1', name: 'Isiah Pacheco', position: 'RB', team: 'KC', year: 2022,
-    stats: { rushYPG: 62, tdPerGame: 0.41, rushAttPerGame: 14.0 }, eraNormFactor: 0.94 },
+    stats: { rushYPG: 62, recYPG: 18.0, tdPerGame: 0.41, rushAttPerGame: 14.0 }, eraNormFactor: 0.94 },
   K: { id: 'k1', name: 'Harrison Butker', position: 'K', team: 'KC', year: 2022,
     stats: { fgAccuracy: 0.923, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 }, eraNormFactor: 1.05 },
   OLine: { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,
