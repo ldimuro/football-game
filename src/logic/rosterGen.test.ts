@@ -1,5 +1,6 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
-import { generateRandomRoster, generateRandomSlot } from './rosterGen'
+import { generateRandomRoster, generateRandomSlot, generateShopOffer } from './rosterGen'
+import { playerCost } from './playerValue'
 import type { TeamRosterData } from '../types'
 
 vi.mock('./dataLoader', () => ({
@@ -67,5 +68,36 @@ describe('generateRandomRoster', () => {
   it('puts a QB in the QB slot', async () => {
     const roster = await generateRandomRoster()
     expect(roster.QB?.position).toBe('QB')
+  })
+})
+
+describe('generateRandomRoster (budget-aware)', () => {
+  it('total coin cost never exceeds 100', async () => {
+    const roster = await generateRandomRoster()
+    const slots = [
+      roster.QB, roster.WR1, roster.WR2, roster.RB,
+      roster.K, roster.OLine, roster.DLine, roster.Secondary,
+    ]
+    const total = slots.reduce((sum, s) => sum + playerCost(s?.rating), 0)
+    expect(total).toBeLessThanOrEqual(100)
+  })
+})
+
+describe('generateShopOffer', () => {
+  it('returns exactly 3 items', async () => {
+    const offer = await generateShopOffer(100)
+    expect(offer).toHaveLength(3)
+  })
+
+  it('all 3 items are defined', async () => {
+    const offer = await generateShopOffer(100)
+    expect(offer[0]).toBeDefined()
+    expect(offer[1]).toBeDefined()
+    expect(offer[2]).toBeDefined()
+  })
+
+  it('returns 3 items even when coins are low', async () => {
+    const offer = await generateShopOffer(0)
+    expect(offer).toHaveLength(3)
   })
 })

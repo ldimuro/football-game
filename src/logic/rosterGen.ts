@@ -1,4 +1,5 @@
 import { loadTeamMeta, loadTeamRoster } from './dataLoader'
+import { playerCost } from './playerValue'
 import type {
   Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData,
   QBStats, WRStats, RBStats, KStats,
@@ -41,7 +42,27 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 
 export async function generateRandomRoster(): Promise<Roster> {
   const positions: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
-  const slots = await Promise.all(positions.map(pos => generateRandomSlot(pos)))
+  const slots: (Player | TeamUnit)[] = []
+  let remainingBudget = 100
+
+  for (const pos of positions) {
+    let best = await generateRandomSlot(pos)
+    let bestCost = playerCost(best.rating)
+
+    for (let attempt = 1; attempt < 5; attempt++) {
+      if (bestCost <= remainingBudget) break
+      const candidate = await generateRandomSlot(pos)
+      const candidateCost = playerCost(candidate.rating)
+      if (candidateCost < bestCost) {
+        best = candidate
+        bestCost = candidateCost
+      }
+    }
+
+    slots.push(best)
+    remainingBudget = Math.max(0, remainingBudget - bestCost)
+  }
+
   return {
     QB: slots[0] as Player,
     WR1: slots[1] as Player,
@@ -52,6 +73,27 @@ export async function generateRandomRoster(): Promise<Roster> {
     DLine: slots[6] as TeamUnit,
     Secondary: slots[7] as TeamUnit,
   }
+}
+
+const SHOP_POSITION_POOL: RosterPosition[] = [
+  'QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary',
+]
+
+export async function generateShopOffer(remainingCoins: number): Promise<(Player | TeamUnit)[]> {
+  const shuffled = [...SHOP_POSITION_POOL].sort(() => Math.random() - 0.5)
+  const positions = shuffled.slice(0, 3)
+  const offer: (Player | TeamUnit)[] = []
+
+  for (const pos of positions) {
+    let slot = await generateRandomSlot(pos)
+    for (let attempt = 1; attempt < 5; attempt++) {
+      if (playerCost(slot.rating) <= remainingCoins) break
+      slot = await generateRandomSlot(pos)
+    }
+    offer.push(slot)
+  }
+
+  return offer
 }
 
 function bestBy<T extends Player | TeamUnit>(items: T[], scoreFn: (item: T) => number): T | null {
