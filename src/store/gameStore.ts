@@ -5,9 +5,10 @@ import {
   rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
+import { simulateGame as runSimulation } from '../logic/gameSimulator'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
-  DraftOffer, TeamStats, WeatherCondition, RoundRecord,
+  DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
 } from '../types'
 
 interface GameStore {
@@ -22,6 +23,9 @@ interface GameStore {
   currentDraftOffer: DraftOffer | null
   seasonLog: RoundRecord[]
   isLoading: boolean
+  draftComplete: boolean
+  simulationResult: SimulationResult | null
+  pendingDraftedId: string | null
 
   initGame: () => Promise<void>
   rerollSetupSlot: (position: RosterPosition) => Promise<void>
@@ -29,8 +33,10 @@ interface GameStore {
   viewDraftOffer: () => void
   rerollDraftOfferTeam: () => Promise<void>
   rerollDraftOfferYear: () => Promise<void>
-  draftPlayer: (id: string, targetPosition: RosterPosition) => Promise<void>
-  skipDraft: () => Promise<void>
+  draftPlayer: (id: string, targetPosition: RosterPosition) => void
+  skipDraft: () => void
+  simulateGame: () => void
+  advanceRound: () => Promise<void>
 }
 
 const EMPTY_ROSTER: Roster = {
@@ -56,6 +62,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
   currentDraftOffer: null,
   seasonLog: [],
   isLoading: false,
+  draftComplete: false,
+  simulationResult: null,
+  pendingDraftedId: null,
 
   initGame: async () => {
     set({ isLoading: true })
@@ -107,58 +116,69 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({ currentDraftOffer: draftOffer, draftRerollAvailable: false, isLoading: false })
   },
 
-  draftPlayer: async (id, targetPosition) => {
-    const { roster, currentDraftOffer, currentOpponent, currentWeather, round, seasonLog } = get()
-    if (!currentDraftOffer || !currentOpponent || !currentWeather) return
+  draftPlayer: (id, targetPosition) => {
+    const { roster, currentDraftOffer } = get()
+    if (!currentDraftOffer) return
 
     const allItems = [...currentDraftOffer.players, ...currentDraftOffer.units]
     const selected = allItems.find(item => item.id === id) as Player | TeamUnit | undefined
     if (!selected) return
 
-    const record: RoundRecord = {
-      round, opponentTeam: currentOpponent.team, opponentYear: currentOpponent.year,
-      draftedId: id, weather: currentWeather,
-    }
-    const newRoster = { ...roster, [targetPosition]: selected }
-    const newLog = [...seasonLog, record]
-
-    if (round >= 17) {
-      set({ roster: newRoster, seasonLog: newLog, phase: 'complete' })
-      return
-    }
-
-    set({ isLoading: true })
-    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
     set({
-      roster: newRoster, seasonLog: newLog,
-      round: round + 1, currentOpponent: opponent, currentOpponentRoster: opponentRoster, currentWeather: weather,
-      currentDraftOffer: draftOffer, draftRerollAvailable: true,
-      phase: 'round-hub', isLoading: false,
+      roster: { ...roster, [targetPosition]: selected },
+      draftComplete: true,
+      pendingDraftedId: id,
+      phase: 'round-hub',
     })
   },
 
-  skipDraft: async () => {
-    const { currentOpponent, currentWeather, round, seasonLog } = get()
+  skipDraft: () => {
+    set({ draftComplete: true, pendingDraftedId: null, phase: 'round-hub' })
+  },
+
+  simulateGame: () => {
+    const { roster, currentOpponentRoster, currentOpponent } = get()
+    if (!currentOpponentRoster || !currentOpponent) return
+    const opponentLabel = `${currentOpponent.team} '${String(currentOpponent.year).slice(2)}`
+    const result = runSimulation(roster, currentOpponentRoster, opponentLabel)
+    set({ simulationResult: result })
+  },
+
+  advanceRound: async () => {
+    const { round, seasonLog, currentOpponent, currentWeather, pendingDraftedId } = get()
     if (!currentOpponent || !currentWeather) return
 
     const record: RoundRecord = {
-      round, opponentTeam: currentOpponent.team, opponentYear: currentOpponent.year,
-      draftedId: null, weather: currentWeather,
+      round,
+      opponentTeam: currentOpponent.team,
+      opponentYear: currentOpponent.year,
+      draftedId: pendingDraftedId,
+      weather: currentWeather,
     }
     const newLog = [...seasonLog, record]
 
     if (round >= 17) {
-      set({ seasonLog: newLog, phase: 'complete' })
+      set({
+        seasonLog: newLog, phase: 'complete',
+        simulationResult: null, draftComplete: false, pendingDraftedId: null,
+      })
       return
     }
 
     set({ isLoading: true })
     const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
     set({
-      seasonLog: newLog, round: round + 1,
-      currentOpponent: opponent, currentOpponentRoster: opponentRoster, currentWeather: weather,
-      currentDraftOffer: draftOffer, draftRerollAvailable: true,
-      phase: 'round-hub', isLoading: false,
+      seasonLog: newLog,
+      round: round + 1,
+      currentOpponent: opponent,
+      currentOpponentRoster: opponentRoster,
+      currentWeather: weather,
+      currentDraftOffer: draftOffer,
+      draftRerollAvailable: true,
+      draftComplete: false,
+      simulationResult: null,
+      pendingDraftedId: null,
+      isLoading: false,
     })
   },
 }))
