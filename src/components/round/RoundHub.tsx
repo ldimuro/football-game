@@ -3,10 +3,14 @@ import { OpponentPreview } from './OpponentPreview'
 import { WeatherBadge } from './WeatherBadge'
 import { TeamStatsSummary } from './TeamStatsSummary'
 import { PositionMatchups } from './PositionMatchups'
+import { SimulationModal } from './SimulationModal'
 import { Button } from '../ui/Button'
 
 export function RoundHub() {
-  const { round, roster, currentOpponent, currentOpponentRoster, currentWeather, viewDraftOffer, isLoading } = useGameStore()
+  const {
+    round, roster, currentOpponent, currentOpponentRoster, currentWeather,
+    viewDraftOffer, simulateGame, draftComplete, isLoading,
+  } = useGameStore()
 
   if (!currentOpponent || !currentOpponentRoster || !currentWeather) return null
 
@@ -15,11 +19,18 @@ export function RoundHub() {
       <div className="mb-6 flex items-center justify-between">
         <div>
           <p className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wider">NFL Season</p>
-          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">Week {round} <span className="text-gray-400 dark:text-gray-500 text-xl font-normal">of 17</span></h1>
+          <h1 className="text-3xl font-bold text-gray-900 dark:text-white">
+            Week {round} <span className="text-gray-400 dark:text-gray-500 text-xl font-normal">of 17</span>
+          </h1>
         </div>
-        <Button onClick={viewDraftOffer} disabled={isLoading}>
-          View Draft Offer →
-        </Button>
+        <div className="flex gap-2">
+          <Button onClick={viewDraftOffer} disabled={isLoading || draftComplete} variant="secondary">
+            View Draft Offer →
+          </Button>
+          <Button onClick={simulateGame} disabled={isLoading}>
+            Simulate Game
+          </Button>
+        </div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <OpponentPreview opponent={currentOpponent} />
@@ -29,8 +40,13 @@ export function RoundHub() {
         </div>
       </div>
       <div className="mt-4">
-        <PositionMatchups opponentTeam={currentOpponent.team} opponentRoster={currentOpponentRoster} userRoster={roster} />
+        <PositionMatchups
+          opponentTeam={currentOpponent.team}
+          opponentRoster={currentOpponentRoster}
+          userRoster={roster}
+        />
       </div>
+      <SimulationModal />
     </div>
   )
 }
