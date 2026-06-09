@@ -34,12 +34,26 @@ export function computeRosterSummary(roster: Roster): RosterSummary {
   const slots = [roster.QB, roster.WR1, roster.WR2, roster.RB, roster.K, roster.OLine, roster.DLine, roster.Secondary]
   const players = slots.filter((s): s is Player => !!s && 'name' in s)
 
+  const allRatings = slots.map(s => s?.rating ?? null).filter((r): r is number => r !== null)
+  const avgRating = allRatings.length ? allRatings.reduce((a, b) => a + b, 0) / allRatings.length : null
+
+  const offRatings = [roster.QB?.rating, roster.WR1?.rating, roster.WR2?.rating, roster.RB?.rating]
+    .filter((r): r is number => r !== undefined)
+  const avgOffRating = offRatings.length ? offRatings.reduce((a, b) => a + b, 0) / offRatings.length : null
+
+  const defRatings = [roster.DLine?.rating, roster.Secondary?.rating]
+    .filter((r): r is number => r !== undefined)
+  const avgDefRating = defRatings.length ? defRatings.reduce((a, b) => a + b, 0) / defRatings.length : null
+
   return {
     totalOffensiveYPG: Math.round((passYPG + recYPG + rushYPG) * 10) / 10,
     totalTDsPerGame: Math.round(tdPerGame * 100) / 100,
-    oLineRank: oLineStats?.normalizedRank ?? null,
-    dLineRank: dLineStats?.normalizedRank ?? null,
-    secondaryRank: secStats?.normalizedRank ?? null,
+    avgOffRating,
+    avgDefRating,
+    oLineRating: roster.OLine?.rating ?? null,
+    dLineRating: roster.DLine?.rating ?? null,
+    secondaryRating: roster.Secondary?.rating ?? null,
+    avgRating,
     allProCount: players.filter(p => p.is_all_pro).length,
     awardWinnerCount: players.filter(p => p.is_mvp || p.is_opy || p.is_dpy).length,
     rosterFilled: slots.filter(Boolean).length,

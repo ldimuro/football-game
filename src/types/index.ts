@@ -111,6 +111,7 @@ export interface RoundRecord {
   opponentYear: number
   draftedId: string | null
   weather: WeatherCondition
+  result: 'win' | 'loss' | 'tie'
 }
 
 export interface Roster {
@@ -135,9 +136,12 @@ export interface AggregateStats {
 export interface RosterSummary {
   totalOffensiveYPG: number
   totalTDsPerGame: number
-  oLineRank: number | null
-  dLineRank: number | null
-  secondaryRank: number | null
+  avgOffRating: number | null
+  avgDefRating: number | null
+  oLineRating: number | null
+  dLineRating: number | null
+  secondaryRating: number | null
+  avgRating: number | null
   allProCount: number
   awardWinnerCount: number
   rosterFilled: number

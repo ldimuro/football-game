@@ -1,6 +1,11 @@
+import type { ReactNode } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { Button } from '../ui/Button'
 import type { DriveOutcome, DriveResult } from '../../types'
+
+const QUARTER_LABELS: Record<number, string> = {
+  1: '1st Quarter', 2: '2nd Quarter', 3: '3rd Quarter', 4: '4th Quarter',
+}
 
 const OUTCOME_LABELS: Record<DriveOutcome, string> = {
   TD: 'Touchdown',
@@ -75,9 +80,22 @@ export function SimulationModal() {
 
         <div className="flex-1 overflow-y-auto px-6 py-4">
           <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">Drive Log</p>
-          {rows.map(({ drive, runningUser, runningOpp, key }) => (
-            <DriveRow key={key} drive={drive} userScore={runningUser} oppScore={runningOpp} />
-          ))}
+          {(() => {
+            const elements: ReactNode[] = []
+            let lastQuarter = 0
+            for (const { drive, runningUser, runningOpp, key } of rows) {
+              if (drive.quarter !== lastQuarter) {
+                lastQuarter = drive.quarter
+                elements.push(
+                  <p key={`q${drive.quarter}`} className={`text-xs font-bold text-gray-500 uppercase tracking-wider mb-1 ${elements.length > 0 ? 'mt-4' : ''}`}>
+                    {QUARTER_LABELS[drive.quarter] ?? `Q${drive.quarter}`}
+                  </p>
+                )
+              }
+              elements.push(<DriveRow key={key} drive={drive} userScore={runningUser} oppScore={runningOpp} />)
+            }
+            return elements
+          })()}
         </div>
 
         <div className="p-4 border-t border-gray-800 flex justify-end">

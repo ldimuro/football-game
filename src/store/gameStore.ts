@@ -145,7 +145,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   },
 
   advanceRound: async () => {
-    const { round, seasonLog, currentOpponent, currentWeather, pendingDraftedId } = get()
+    const { round, seasonLog, currentOpponent, currentWeather, pendingDraftedId, simulationResult } = get()
     if (!currentOpponent || !currentWeather) return
 
     const record: RoundRecord = {
@@ -154,6 +154,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
       opponentYear: currentOpponent.year,
       draftedId: pendingDraftedId,
       weather: currentWeather,
+      result: simulationResult?.winner === 'user' ? 'win' : simulationResult?.winner === 'opponent' ? 'loss' : 'tie',
     }
     const newLog = [...seasonLog, record]
 
