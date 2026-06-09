@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027681_CIN_2017",
       "name": "Brandon LaFell",
       "position": "WR",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 79,
       "stats": {
-        "recYPG": 34.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 5.56,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 34.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027942_CIN_2017",
       "name": "A.J. Green",
       "position": "WR",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 96,
       "stats": {
-        "recYPG": 67.4,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.69,
         "avgTargetsPerGame": 8.94,
-        "avgCatchesPerGame": 4.69
+        "recYPG": 67.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0033,
       "id": "p_00-0027973_CIN_2017",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 78,
       "stats": {
-        "passYPG": 207.5,
-        "qbr": 30.6,
-        "avgTDPerGame": 1.562,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.5988
+        "avgTDPerGame": 1.562,
+        "completionPct": 0.5988,
+        "passYPG": 207.5,
+        "qbr": 30.6
       },
-      "eraNormFactor": 1.0033
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030456_CIN_2017",
       "name": "Giovani Bernard",
       "position": "RB",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 75,
       "stats": {
-        "rushYPG": 28.6,
-        "tdPerGame": 0.125,
+        "recYPG": 23.8,
         "rushAttPerGame": 6.56,
-        "recYPG": 23.8
+        "rushYPG": 28.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031301_CIN_2017",
       "name": "Jeremy Hill",
       "position": "RB",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 59,
       "stats": {
-        "rushYPG": 16.6,
-        "tdPerGame": 0.0,
+        "recYPG": 2.3,
         "rushAttPerGame": 5.29,
-        "recYPG": 2.3
+        "rushYPG": 16.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032214_CIN_2017",
       "name": "Tyler Kroft",
       "position": "WR",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 79,
       "stats": {
-        "recYPG": 26.9,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 2.8,
         "avgTargetsPerGame": 4.13,
-        "avgCatchesPerGame": 2.8
+        "recYPG": 26.9,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033009_CIN_2017",
       "name": "Tyler Boyd",
       "position": "WR",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 70,
       "stats": {
-        "recYPG": 22.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 3.2,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 22.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033897_CIN_2017",
       "name": "Joe Mixon",
       "position": "RB",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 85,
       "stats": {
-        "rushYPG": 44.7,
-        "tdPerGame": 0.286,
+        "recYPG": 20.5,
         "rushAttPerGame": 12.71,
-        "recYPG": 20.5
+        "rushYPG": 44.7,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029421_CIN_2017",
       "name": "R.Bullock",
       "position": "K",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.9,
         "avgKickDistance": 35.3,
         "avgMissDistance": 41.0,
+        "fgAccuracy": 0.9,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2017",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.62,
+        "normalizedRank": 29,
         "rushTDPct": 0.0159,
-        "normalizedRank": 29
+        "rushYPC": 3.62,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2017",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 75,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 127.88,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0731,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0731
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2017",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2017,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.5989,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 211.19,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 211.19,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2017
     }
   ]
 }

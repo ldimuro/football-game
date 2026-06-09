@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5345,
       "id": "p_00-0019596_TB_2022",
       "name": "Tom Brady",
       "position": "QB",
-      "team": "TB",
-      "year": 2022,
+      "rating": 91,
       "stats": {
-        "passYPG": 280.3,
-        "qbr": 82.3,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 0.556,
-        "completionPct": 0.6571
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.6571,
+        "passYPG": 280.3,
+        "qbr": 82.3
       },
-      "eraNormFactor": 1.5345
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027944_TB_2022",
       "name": "Julio Jones",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 81,
       "stats": {
-        "recYPG": 33.9,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 2.82,
         "avgTargetsPerGame": 4.91,
-        "avgCatchesPerGame": 2.82
+        "recYPG": 33.9,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031273_TB_2022",
       "name": "Cameron Brate",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 66,
       "stats": {
-        "recYPG": 18.2,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.1,
         "avgTargetsPerGame": 4.1,
-        "avgCatchesPerGame": 2.1
+        "recYPG": 18.2,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031408_TB_2022",
       "name": "Mike Evans",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 95,
       "stats": {
-        "recYPG": 74.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": 8.62,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 74.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033856_TB_2022",
       "name": "Leonard Fournette",
       "position": "RB",
-      "team": "TB",
-      "year": 2022,
+      "rating": 81,
       "stats": {
-        "rushYPG": 39.9,
-        "tdPerGame": 0.176,
+        "recYPG": 31.1,
         "rushAttPerGame": 11.41,
-        "recYPG": 31.1
+        "rushYPG": 39.9,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033921_TB_2022",
       "name": "Chris Godwin",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 91,
       "stats": {
-        "recYPG": 69.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 7.12,
         "avgTargetsPerGame": 9.69,
-        "avgCatchesPerGame": 7.12
+        "recYPG": 69.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034411_TB_2022",
       "name": "Russell Gage",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 83,
       "stats": {
-        "recYPG": 31.1,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 3.79,
         "avgTargetsPerGame": 5.57,
-        "avgCatchesPerGame": 3.79
+        "recYPG": 31.1,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035298_TB_2022",
       "name": "Scott Miller",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 62,
       "stats": {
-        "recYPG": 16.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.09,
         "avgTargetsPerGame": 3.64,
-        "avgCatchesPerGame": 2.09
+        "recYPG": 16.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037256_TB_2022",
       "name": "Rachaad White",
       "position": "RB",
-      "team": "TB",
-      "year": 2022,
+      "rating": 73,
       "stats": {
-        "rushYPG": 30.7,
-        "tdPerGame": 0.059,
+        "recYPG": 19.2,
         "rushAttPerGame": 8.0,
-        "recYPG": 19.2
+        "rushYPG": 30.7,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038129_TB_2022",
       "name": "Cade Otton",
       "position": "WR",
-      "team": "TB",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "recYPG": 29.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": 4.8,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 29.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026968_TB_2022",
       "name": "R.Succop",
       "position": "K",
-      "team": "TB",
-      "year": 2022,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.8158,
         "avgKickDistance": 37.8,
         "avgMissDistance": 46.3,
+        "fgAccuracy": 0.8158,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_OLine_2022",
       "position": "OLine",
-      "team": "TB",
-      "year": 2022,
+      "rating": 64,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.42,
+        "normalizedRank": 32,
         "rushTDPct": 0.0126,
-        "normalizedRank": 32
+        "rushYPC": 3.42,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_DLine_2022",
       "position": "DLine",
-      "team": "TB",
-      "year": 2022,
+      "rating": 79,
       "stats": {
+        "blitzPct": 0.283,
+        "normalizedRank": 15,
+        "pressurePct": 0.219,
+        "rushTDPerGameAllowed": 0.71,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 120.71,
-        "rushTDPerGameAllowed": 0.71,
-        "sackPct": 0.0789,
-        "blitzPct": 0.283,
-        "pressurePct": 0.219,
-        "normalizedRank": 15
+        "sackPct": 0.0789
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_Secondary_2022",
       "position": "Secondary",
-      "team": "TB",
-      "year": 2022,
+      "rating": 77,
       "stats": {
         "completionPctAllowed": 0.6386,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 203.59,
-        "passTDPerGameAllowed": 1.71,
         "interceptionsPerGame": 0.59,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.71,
+        "passYPGAllowed": 203.59,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2022
     }
   ]
 }

@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000745_NYG_2001",
       "name": "Tiki Barber",
       "position": "RB",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "rushYPG": 61.8,
-        "tdPerGame": 0.286,
+        "recYPG": 41.2,
         "rushAttPerGame": 11.86,
-        "recYPG": 41.2
+        "rushYPG": 61.8,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002565_NYG_2001",
       "name": "Dan Campbell",
       "position": "WR",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 60,
       "stats": {
-        "recYPG": 12.3,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.08,
         "avgTargetsPerGame": 2.08,
-        "avgCatchesPerGame": 1.08
+        "recYPG": 12.3,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.3316,
       "id": "p_00-0003292_NYG_2001",
       "name": "Kerry Collins",
       "position": "QB",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 83,
       "stats": {
-        "passYPG": 235.2,
-        "qbr": 48.0,
-        "avgTDPerGame": 1.188,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5757
+        "avgTDPerGame": 1.188,
+        "completionPct": 0.5757,
+        "passYPG": 235.2,
+        "qbr": 48.0
       },
-      "eraNormFactor": 1.3316
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007468_NYG_2001",
       "name": "Ike Hilliard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 89,
       "stats": {
-        "recYPG": 47.1,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 3.71,
         "avgTargetsPerGame": 6.29,
-        "avgCatchesPerGame": 3.71
+        "recYPG": 47.1,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008962_NYG_2001",
       "name": "Joe Jurevicius",
       "position": "WR",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "recYPG": 50.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 3.64,
         "avgTargetsPerGame": 6.57,
-        "avgCatchesPerGame": 3.64
+        "recYPG": 50.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016550_NYG_2001",
       "name": "Amani Toomer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 93,
       "stats": {
-        "recYPG": 65.9,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": 8.81,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 65.9,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019643_NYG_2001",
       "name": "Ron Dayne",
       "position": "RB",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 78,
       "stats": {
-        "rushYPG": 43.1,
-        "tdPerGame": 0.438,
+        "recYPG": 4.2,
         "rushAttPerGame": 11.25,
-        "recYPG": 4.2
+        "rushYPG": 43.1,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000282_NYG_2001",
       "name": "M. Andersen",
       "position": "K",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 81,
       "stats": {
-        "fgAccuracy": 0.7667,
         "avgKickDistance": 38.6,
         "avgMissDistance": 52.4,
+        "fgAccuracy": 0.7667,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2001",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.19,
+        "normalizedRank": 11,
         "rushTDPct": 0.0259,
-        "normalizedRank": 11
+        "rushYPC": 4.19,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2001",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 92,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 96.56,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0883,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0883
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2001",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2001,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.572,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 214.38,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 214.38,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2001
     }
   ]
 }

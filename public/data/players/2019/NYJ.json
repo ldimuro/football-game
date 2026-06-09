@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027874_NYJ_2019",
       "name": "Demaryius Thomas",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "recYPG": 39.4,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": 5.27,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 39.4,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028064_NYJ_2019",
       "name": "Bilal Powell",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 61,
       "stats": {
-        "rushYPG": 19.1,
-        "tdPerGame": 0.0,
+        "recYPG": 2.8,
         "rushAttPerGame": 4.92,
-        "recYPG": 2.8
+        "rushYPG": 19.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030108_NYJ_2019",
       "name": "Ryan Griffin",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "recYPG": 24.6,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 3.15,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 24.6,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030496_NYJ_2019",
       "name": "Le'Veon Bell",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 86,
       "stats": {
-        "rushYPG": 52.6,
-        "tdPerGame": 0.2,
+        "recYPG": 30.7,
         "rushAttPerGame": 16.33,
-        "recYPG": 30.7
+        "rushYPG": 52.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031941_NYJ_2019",
       "name": "Jamison Crowder",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 90,
       "stats": {
-        "recYPG": 52.1,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.88,
         "avgTargetsPerGame": 7.62,
-        "avgCatchesPerGame": 4.88
+        "recYPG": 52.1,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032688_NYJ_2019",
       "name": "Robbie Chosen",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 85,
       "stats": {
-        "recYPG": 48.7,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 48.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034631_NYJ_2019",
       "name": "Vyncint Smith",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 59,
       "stats": {
-        "recYPG": 17.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.31,
         "avgTargetsPerGame": 2.38,
-        "avgCatchesPerGame": 1.31
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.1162,
       "id": "p_00-0034869_NYJ_2019",
       "name": "Sam Darnold",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 72,
       "stats": {
-        "passYPG": 232.6,
-        "qbr": 36.6,
-        "avgTDPerGame": 1.462,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.619
+        "avgTDPerGame": 1.462,
+        "completionPct": 0.619,
+        "passYPG": 232.6,
+        "qbr": 36.6
       },
-      "eraNormFactor": 1.1162
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033138_NYJ_2019",
       "name": "S.Ficken",
       "position": "K",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.6786,
         "avgKickDistance": 42.9,
         "avgMissDistance": 48.2,
+        "fgAccuracy": 0.6786,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2019",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 65,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.28,
+        "normalizedRank": 32,
         "rushTDPct": 0.0157,
-        "normalizedRank": 32
+        "rushYPC": 3.28,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2019",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 84,
       "stats": {
+        "blitzPct": 0.392,
+        "normalizedRank": 2,
+        "pressurePct": 0.211,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.3,
         "rushYPGAllowed": 86.94,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0598,
-        "blitzPct": 0.392,
-        "pressurePct": 0.211,
-        "normalizedRank": 2
+        "sackPct": 0.0598
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2019",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2019,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.6205,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 236.19,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 17
+        "normalizedRank": 17,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 236.19,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2019
     }
   ]
 }

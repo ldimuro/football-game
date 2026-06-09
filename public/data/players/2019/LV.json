@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.216,
       "id": "p_00-0031280_LV_2019",
       "name": "Derek Carr",
       "position": "QB",
-      "team": "LV",
-      "year": 2019,
+      "rating": 85,
       "stats": {
-        "passYPG": 253.4,
-        "qbr": 100,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.7037
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.7037,
+        "passYPG": 253.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.216
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031610_LV_2019",
       "name": "Darren Waller",
       "position": "WR",
-      "team": "LV",
-      "year": 2019,
+      "rating": 89,
       "stats": {
-        "recYPG": 71.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 5.62,
         "avgTargetsPerGame": 7.31,
-        "avgCatchesPerGame": 5.62
+        "recYPG": 71.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032160_LV_2019",
       "name": "Tyrell Williams",
       "position": "WR",
-      "team": "LV",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "recYPG": 50.1,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 3.23,
         "avgTargetsPerGame": 4.92,
-        "avgCatchesPerGame": 3.23
+        "recYPG": 50.1,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032940_LV_2019",
       "name": "DeAndre Washington",
       "position": "RB",
-      "team": "LV",
-      "year": 2019,
+      "rating": 72,
       "stats": {
-        "rushYPG": 24.2,
-        "tdPerGame": 0.188,
+        "recYPG": 18.2,
         "rushAttPerGame": 6.75,
-        "recYPG": 18.2
+        "rushYPG": 24.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033025_LV_2019",
       "name": "Jalen Richard",
       "position": "RB",
-      "team": "LV",
-      "year": 2019,
+      "rating": 62,
       "stats": {
-        "rushYPG": 9.1,
-        "tdPerGame": 0.0,
+        "recYPG": 20.2,
         "rushAttPerGame": 2.44,
-        "recYPG": 20.2
+        "rushYPG": 9.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034981_LV_2019",
       "name": "Foster Moreau",
       "position": "WR",
-      "team": "LV",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "recYPG": 15.8,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 2.27,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 15.8,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034983_LV_2019",
       "name": "Hunter Renfrow",
       "position": "WR",
-      "team": "LV",
-      "year": 2019,
+      "rating": 84,
       "stats": {
-        "recYPG": 46.5,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 3.77,
         "avgTargetsPerGame": 5.46,
-        "avgCatchesPerGame": 3.77
+        "recYPG": 46.5,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035700_LV_2019",
       "name": "Josh Jacobs",
       "position": "RB",
-      "team": "LV",
-      "year": 2019,
+      "rating": 92,
       "stats": {
-        "rushYPG": 88.5,
-        "tdPerGame": 0.538,
+        "recYPG": 12.8,
         "rushAttPerGame": 18.62,
-        "recYPG": 12.8
+        "rushYPG": 88.5,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034161_LV_2019",
       "name": "D.Carlson",
       "position": "K",
-      "team": "LV",
-      "year": 2019,
+      "rating": 63,
       "stats": {
-        "fgAccuracy": 0.7308,
         "avgKickDistance": 36.8,
         "avgMissDistance": 45.7,
+        "fgAccuracy": 0.7308,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_OLine_2019",
       "position": "OLine",
-      "team": "LV",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.33,
+        "normalizedRank": 17,
         "rushTDPct": 0.0297,
-        "normalizedRank": 17
+        "rushYPC": 4.33,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_DLine_2019",
       "position": "DLine",
-      "team": "LV",
-      "year": 2019,
+      "rating": 79,
       "stats": {
+        "blitzPct": 0.175,
+        "normalizedRank": 8,
+        "pressurePct": 0.199,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 98.12,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0608,
-        "blitzPct": 0.175,
-        "pressurePct": 0.199,
-        "normalizedRank": 8
+        "sackPct": 0.0608
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_Secondary_2019",
       "position": "Secondary",
-      "team": "LV",
-      "year": 2019,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6407,
-        "yardsPerAttemptAllowed": 7.4,
-        "passYPGAllowed": 256.69,
-        "passTDPerGameAllowed": 2.06,
         "interceptionsPerGame": 0.56,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 2.06,
+        "passYPGAllowed": 256.69,
+        "yardsPerAttemptAllowed": 7.4
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2019
     }
   ]
 }

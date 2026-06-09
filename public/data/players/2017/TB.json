@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.8887,
       "id": "p_00-0023682_TB_2017",
       "name": "Ryan Fitzpatrick",
       "position": "QB",
-      "team": "TB",
-      "year": 2017,
+      "rating": 77,
       "stats": {
-        "passYPG": 183.8,
-        "qbr": 64.9,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.589
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.589,
+        "passYPG": 183.8,
+        "qbr": 64.9
       },
-      "eraNormFactor": 0.8887
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026189_TB_2017",
       "name": "DeSean Jackson",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 85,
       "stats": {
-        "recYPG": 47.7,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 3.57,
         "avgTargetsPerGame": 6.43,
-        "avgCatchesPerGame": 3.57
+        "recYPG": 47.7,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028083_TB_2017",
       "name": "Jacquizz Rodgers",
       "position": "RB",
-      "team": "TB",
-      "year": 2017,
+      "rating": 63,
       "stats": {
-        "rushYPG": 18.8,
-        "tdPerGame": 0.077,
+        "recYPG": 5.7,
         "rushAttPerGame": 4.92,
-        "recYPG": 5.7
+        "rushYPG": 18.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029613_TB_2017",
       "name": "Doug Martin",
       "position": "RB",
-      "team": "TB",
-      "year": 2017,
+      "rating": 79,
       "stats": {
-        "rushYPG": 36.9,
-        "tdPerGame": 0.273,
+        "recYPG": 7.6,
         "rushAttPerGame": 12.55,
-        "recYPG": 7.6
+        "rushYPG": 36.9,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031273_TB_2017",
       "name": "Cameron Brate",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 85,
       "stats": {
-        "recYPG": 36.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.81,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 36.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031408_TB_2017",
       "name": "Mike Evans",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 94,
       "stats": {
-        "recYPG": 66.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 4.73,
         "avgTargetsPerGame": 9.07,
-        "avgCatchesPerGame": 4.73
+        "recYPG": 66.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.3031,
       "id": "p_00-0031503_TB_2017",
       "name": "Jameis Winston",
       "position": "QB",
-      "team": "TB",
-      "year": 2017,
+      "rating": 87,
       "stats": {
-        "passYPG": 269.5,
-        "qbr": 88.2,
-        "avgTDPerGame": 1.462,
         "avgINTPerGame": 0.846,
-        "completionPct": 0.638
+        "avgTDPerGame": 1.462,
+        "completionPct": 0.638,
+        "passYPG": 269.5,
+        "qbr": 88.2
       },
-      "eraNormFactor": 1.3031
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032009_TB_2017",
       "name": "Adam Humphries",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 77,
       "stats": {
-        "recYPG": 39.4,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": 5.19,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 39.4,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032741_TB_2017",
       "name": "Peyton Barber",
       "position": "RB",
-      "team": "TB",
-      "year": 2017,
+      "rating": 78,
       "stats": {
-        "rushYPG": 38.5,
-        "tdPerGame": 0.273,
+        "recYPG": 10.4,
         "rushAttPerGame": 9.82,
-        "recYPG": 10.4
+        "rushYPG": 38.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033879_TB_2017",
       "name": "O.J. Howard",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.2,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 33.2,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033921_TB_2017",
       "name": "Chris Godwin",
       "position": "WR",
-      "team": "TB",
-      "year": 2017,
+      "rating": 72,
       "stats": {
-        "recYPG": 35.0,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": 3.67,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 35.0,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030626_TB_2017",
       "name": "P.Murray",
       "position": "K",
-      "team": "TB",
-      "year": 2017,
+      "rating": 67,
       "stats": {
-        "fgAccuracy": 0.7353,
         "avgKickDistance": 38.4,
         "avgMissDistance": 48.0,
+        "fgAccuracy": 0.7353,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_OLine_2017",
       "position": "OLine",
-      "team": "TB",
-      "year": 2017,
+      "rating": 69,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.73,
+        "normalizedRank": 27,
         "rushTDPct": 0.0206,
-        "normalizedRank": 27
+        "rushYPC": 3.73,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_DLine_2017",
       "position": "DLine",
-      "team": "TB",
-      "year": 2017,
+      "rating": 62,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 117.5,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0401,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0401
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_Secondary_2017",
       "position": "Secondary",
-      "team": "TB",
-      "year": 2017,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6758,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 260.56,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 260.56,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2017
     }
   ]
 }

@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001477_MIA_2005",
       "name": "Marty Booker",
       "position": "WR",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 81,
       "stats": {
-        "recYPG": 52.8,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 52.8,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0972,
       "id": "p_00-0005589_MIA_2005",
       "name": "Gus Frerotte",
       "position": "QB",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "passYPG": 187.2,
-        "qbr": 45.0,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 0.812,
-        "completionPct": 0.5202
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.5202,
+        "passYPG": 187.2,
+        "qbr": 45.0
       },
-      "eraNormFactor": 1.0972
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_MIA_2005",
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "rushYPG": 61.9,
-        "tdPerGame": 0.5,
+        "recYPG": 7.8,
         "rushAttPerGame": 14.0,
-        "recYPG": 7.8
+        "rushYPG": 61.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020446_MIA_2005",
       "name": "Chris Chambers",
       "position": "WR",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 96,
       "stats": {
-        "recYPG": 69.9,
-        "tdPerGame": 0.688,
+        "avgCatchesPerGame": 5.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.12
+        "recYPG": 69.9,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021236_MIA_2005",
       "name": "Randy McMichael",
       "position": "WR",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 81,
       "stats": {
-        "recYPG": 38.8,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 38.8,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022427_MIA_2005",
       "name": "Wes Welker",
       "position": "WR",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 62,
       "stats": {
-        "recYPG": 31.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 31.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023437_MIA_2005",
       "name": "Ronnie Brown",
       "position": "RB",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "rushYPG": 60.5,
-        "tdPerGame": 0.267,
+        "recYPG": 15.5,
         "rushAttPerGame": 13.8,
-        "recYPG": 15.5
+        "rushYPG": 60.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_MIA_2005",
       "name": "O.Mare",
       "position": "K",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 34.8,
         "avgMissDistance": 35.8,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2005",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.27,
+        "normalizedRank": 7,
         "rushTDPct": 0.0248,
-        "normalizedRank": 7
+        "rushYPC": 4.27,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2005",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 88,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 110.69,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0893,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0893
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2005",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2005,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.5883,
-        "yardsPerAttemptAllowed": 5.5,
-        "passYPGAllowed": 206.69,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 206.69,
+        "yardsPerAttemptAllowed": 5.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2005
     }
   ]
 }

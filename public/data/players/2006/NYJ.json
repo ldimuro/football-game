@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_NYJ_2006",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 91,
       "stats": {
-        "recYPG": 67.2,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 5.65,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.65
+        "recYPG": 67.2,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.2248,
       "id": "p_00-0019559_NYJ_2006",
       "name": "Chad Pennington",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "passYPG": 214.8,
-        "qbr": 62.6,
-        "avgTDPerGame": 1.059,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.64
+        "avgTDPerGame": 1.059,
+        "completionPct": 0.64,
+        "passYPG": 214.8,
+        "qbr": 62.6
       },
-      "eraNormFactor": 1.2248
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020381_NYJ_2006",
       "name": "Justin McCareins",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 66,
       "stats": {
-        "recYPG": 34.2,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 34.2,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020474_NYJ_2006",
       "name": "Kevan Barlow",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 72,
       "stats": {
-        "rushYPG": 30.8,
-        "tdPerGame": 0.5,
+        "recYPG": 1.8,
         "rushAttPerGame": 10.92,
-        "recYPG": 1.8
+        "rushYPG": 30.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021213_NYJ_2006",
       "name": "Chris Baker",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 67,
       "stats": {
-        "recYPG": 23.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.25,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.25
+        "recYPG": 23.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022811_NYJ_2006",
       "name": "Jerricho Cotchery",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 91,
       "stats": {
-        "recYPG": 62.4,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 5.06,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.06
+        "recYPG": 62.4,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023615_NYJ_2006",
       "name": "Cedric Houston",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "rushYPG": 41.6,
-        "tdPerGame": 0.556,
+        "recYPG": 4.8,
         "rushAttPerGame": 12.67,
-        "recYPG": 4.8
+        "rushYPG": 41.6,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024332_NYJ_2006",
       "name": "Leon Washington",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "rushYPG": 43.8,
-        "tdPerGame": 0.25,
+        "recYPG": 18.4,
         "rushAttPerGame": 10.12,
-        "recYPG": 18.4
+        "rushYPG": 43.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023482_NYJ_2006",
       "name": "M.Nugent",
       "position": "K",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.9,
         "avgKickDistance": 33.3,
         "avgMissDistance": 38.7,
+        "fgAccuracy": 0.9,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2006",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.56,
+        "normalizedRank": 30,
         "rushTDPct": 0.0295,
-        "normalizedRank": 30
+        "rushYPC": 3.56,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2006",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 69,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 130.25,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0658,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0658
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2006",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2006,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.594,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 201.38,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 201.38,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2006
     }
   ]
 }

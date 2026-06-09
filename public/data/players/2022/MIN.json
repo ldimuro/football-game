@@ -1,179 +1,191 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4661,
       "id": "p_00-0029604_MIN_2022",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 85,
       "stats": {
-        "passYPG": 267.8,
-        "qbr": 67.1,
-        "avgTDPerGame": 1.722,
         "avgINTPerGame": 0.778,
-        "completionPct": 0.6672
+        "avgTDPerGame": 1.722,
+        "completionPct": 0.6672,
+        "passYPG": 267.8,
+        "qbr": 67.1
       },
-      "eraNormFactor": 1.4661
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030035_MIN_2022",
       "name": "Adam Thielen",
       "position": "WR",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 87,
       "stats": {
-        "recYPG": 42.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 4.06,
         "avgTargetsPerGame": 6.17,
-        "avgCatchesPerGame": 4.06
+        "recYPG": 42.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033246_MIN_2022",
       "name": "Johnny Mundt",
       "position": "WR",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 58,
       "stats": {
-        "recYPG": 10.9,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 1.43,
         "avgTargetsPerGame": 1.57,
-        "avgCatchesPerGame": 1.43
+        "recYPG": 10.9,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033893_MIN_2022",
       "name": "Dalvin Cook",
       "position": "RB",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "rushYPG": 68.5,
-        "tdPerGame": 0.444,
+        "recYPG": 16.9,
         "rushAttPerGame": 15.5,
-        "recYPG": 16.9
+        "rushYPG": 68.5,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034970_MIN_2022",
       "name": "Irv Smith",
       "position": "WR",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 76,
       "stats": {
-        "recYPG": 20.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.89,
         "avgTargetsPerGame": 4.22,
-        "avgCatchesPerGame": 2.89
+        "recYPG": 20.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034972_MIN_2022",
       "name": "Alexander Mattison",
       "position": "RB",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 65,
       "stats": {
-        "rushYPG": 15.7,
-        "tdPerGame": 0.278,
+        "recYPG": 5.2,
         "rushAttPerGame": 4.11,
-        "recYPG": 5.2
+        "rushYPG": 15.7,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036322_MIN_2022",
+      "is_all_pro": true,
+      "is_opy": true,
       "name": "Justin Jefferson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 99,
       "stats": {
-        "recYPG": 103.1,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 7.5,
         "avgTargetsPerGame": 10.72,
-        "avgCatchesPerGame": 7.5
+        "recYPG": 103.1,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0,
-      "is_opy": true,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036345_MIN_2022",
       "name": "K.J. Osborn",
       "position": "WR",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "recYPG": 37.2,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 5.17,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 37.2,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034450_MIN_2022",
       "name": "G.Joseph",
       "position": "K",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.7941,
         "avgKickDistance": 39.8,
         "avgMissDistance": 52.6,
+        "fgAccuracy": 0.7941,
         "longestMadeKick": 61
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2022",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.1,
+        "normalizedRank": 26,
         "rushTDPct": 0.0452,
-        "normalizedRank": 26
+        "rushYPC": 4.1,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2022",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 70,
       "stats": {
+        "blitzPct": 0.189,
+        "normalizedRank": 20,
+        "pressurePct": 0.193,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 123.12,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0616,
-        "blitzPct": 0.189,
-        "pressurePct": 0.193,
-        "normalizedRank": 20
+        "sackPct": 0.0616
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2022",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2022,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6613,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 265.59,
-        "passTDPerGameAllowed": 1.35,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.35,
+        "passYPGAllowed": 265.59,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2022
     }
   ]
 }

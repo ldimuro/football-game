@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_DAL_2008",
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 95,
       "stats": {
-        "recYPG": 65.8,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 65.8,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.4583,
       "id": "p_00-0021678_DAL_2008",
       "name": "Tony Romo",
       "position": "QB",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "passYPG": 265.2,
-        "qbr": 87.1,
-        "avgTDPerGame": 2.0,
         "avgINTPerGame": 1.077,
-        "completionPct": 0.612
+        "avgTDPerGame": 2.0,
+        "completionPct": 0.612,
+        "passYPG": 265.2,
+        "qbr": 87.1
       },
-      "eraNormFactor": 1.4583
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2008",
+      "is_all_pro": true,
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 89,
       "stats": {
-        "recYPG": 63.5,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 5.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.4
+        "recYPG": 63.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022766_DAL_2008",
       "name": "Patrick Crayton",
       "position": "WR",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 76,
       "stats": {
-        "recYPG": 39.3,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 2.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.79
+        "recYPG": 39.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023544_DAL_2008",
       "name": "Marion Barber",
       "position": "RB",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "rushYPG": 59.0,
-        "tdPerGame": 0.467,
+        "recYPG": 27.8,
         "rushAttPerGame": 15.87,
-        "recYPG": 27.8
+        "rushYPG": 59.0,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026162_DAL_2008",
       "name": "Felix Jones",
       "position": "RB",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "rushYPG": 53.2,
-        "tdPerGame": 0.6,
+        "recYPG": 2.0,
         "rushAttPerGame": 6.0,
-        "recYPG": 2.0
+        "rushYPG": 53.2,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026201_DAL_2008",
       "name": "Martellus Bennett",
       "position": "WR",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "recYPG": 23.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 23.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026262_DAL_2008",
       "name": "Tashard Choice",
       "position": "RB",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "rushYPG": 47.2,
-        "tdPerGame": 0.2,
+        "recYPG": 18.5,
         "rushAttPerGame": 9.2,
-        "recYPG": 18.5
+        "rushYPG": 47.2,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025565_DAL_2008",
       "name": "N.Folk",
       "position": "K",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.9091,
         "avgKickDistance": 40.8,
         "avgMissDistance": 41.5,
+        "fgAccuracy": 0.9091,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2008",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.3,
+        "normalizedRank": 11,
         "rushTDPct": 0.0299,
-        "normalizedRank": 11
+        "rushYPC": 4.3,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2008",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 106.62,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.1161,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.1161
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2008",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2008,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.6063,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 187.69,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.5,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 187.69,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2008
     }
   ]
 }

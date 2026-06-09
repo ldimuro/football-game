@@ -1,181 +1,193 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013888_BAL_2003",
       "name": "Marcus Robinson",
       "position": "WR",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 75,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 33.1,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0937,
       "id": "p_00-0018272_BAL_2003",
       "name": "Anthony Wright",
       "position": "QB",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 74,
       "stats": {
-        "passYPG": 176.6,
-        "qbr": 28.0,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 1.25,
-        "completionPct": 0.5302
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.5302,
+        "passYPG": 176.6,
+        "qbr": 28.0
       },
-      "eraNormFactor": 1.0937
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019693_BAL_2003",
+      "is_all_pro": true,
+      "is_opy": true,
       "name": "Jamal Lewis",
       "position": "RB",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 95,
       "stats": {
-        "rushYPG": 123.4,
-        "tdPerGame": 0.824,
+        "recYPG": 12.3,
         "rushAttPerGame": 23.65,
-        "recYPG": 12.3
+        "rushYPG": 123.4,
+        "tdPerGame": 0.824
       },
-      "eraNormFactor": 1.0,
-      "is_opy": true,
-      "is_all_pro": true
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019721_BAL_2003",
       "name": "Travis Taylor",
       "position": "WR",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 75,
       "stats": {
-        "recYPG": 42.0,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.71,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.71
+        "recYPG": 42.0,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020516_BAL_2003",
+      "is_all_pro": true,
       "name": "Todd Heap",
       "position": "WR",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 81,
       "stats": {
-        "recYPG": 45.5,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.71,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.71
+        "recYPG": 45.5,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021268_BAL_2003",
       "name": "Terry Jones",
       "position": "WR",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 62,
       "stats": {
-        "recYPG": 13.5,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 13.5,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021314_BAL_2003",
       "name": "Chester Taylor",
       "position": "RB",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 65,
       "stats": {
-        "rushYPG": 16.2,
-        "tdPerGame": 0.118,
+        "recYPG": 8.9,
         "rushAttPerGame": 3.71,
-        "recYPG": 8.9
+        "rushYPG": 16.2,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 0.7803,
       "id": "p_00-0022164_BAL_2003",
       "name": "Kyle Boller",
       "position": "QB",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 66,
       "stats": {
-        "passYPG": 126.0,
-        "qbr": 9.9,
-        "avgTDPerGame": 0.7,
         "avgINTPerGame": 0.9,
-        "completionPct": 0.5179
+        "avgTDPerGame": 0.7,
+        "completionPct": 0.5179,
+        "passYPG": 126.0,
+        "qbr": 9.9
       },
-      "eraNormFactor": 0.7803
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015784_BAL_2003",
       "name": "M.Stover",
       "position": "K",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8537,
         "avgKickDistance": 35.8,
         "avgMissDistance": 48.2,
+        "fgAccuracy": 0.8537,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_OLine_2003",
       "position": "OLine",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.78,
+        "normalizedRank": 5,
         "rushTDPct": 0.0317,
-        "normalizedRank": 5
+        "rushYPC": 4.78,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_DLine_2003",
       "position": "DLine",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 97,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 6,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 3.4,
         "rushYPGAllowed": 96.0,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.0885,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 6
+        "sackPct": 0.0885
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_Secondary_2003",
       "position": "Secondary",
-      "team": "BAL",
-      "year": 2003,
+      "rating": 92,
       "stats": {
         "completionPctAllowed": 0.5574,
-        "yardsPerAttemptAllowed": 4.9,
-        "passYPGAllowed": 175.31,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.5,
-        "normalizedRank": 4
+        "normalizedRank": 4,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 175.31,
+        "yardsPerAttemptAllowed": 4.9
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2003
     }
   ]
 }

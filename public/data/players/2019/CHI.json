@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030710_CHI_2019",
       "name": "Trey Burton",
       "position": "WR",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 58,
       "stats": {
-        "recYPG": 10.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 10.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031228_CHI_2019",
       "name": "Taylor Gabriel",
       "position": "WR",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 85,
       "stats": {
-        "recYPG": 39.2,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 3.22,
         "avgTargetsPerGame": 5.33,
-        "avgCatchesPerGame": 3.22
+        "recYPG": 39.2,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031428_CHI_2019",
       "name": "Allen Robinson",
       "position": "WR",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 96,
       "stats": {
-        "recYPG": 71.7,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 6.12,
         "avgTargetsPerGame": 9.62,
-        "avgCatchesPerGame": 6.12
+        "recYPG": 71.7,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033556_CHI_2019",
       "name": "Tarik Cohen",
       "position": "RB",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 66,
       "stats": {
-        "rushYPG": 13.3,
-        "tdPerGame": 0.0,
+        "recYPG": 28.5,
         "rushAttPerGame": 4.0,
-        "recYPG": 28.5
+        "rushYPG": 13.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0039,
       "id": "p_00-0033869_CHI_2019",
       "name": "Mitchell Trubisky",
       "position": "QB",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 69,
       "stats": {
-        "passYPG": 209.2,
-        "qbr": 25.9,
-        "avgTDPerGame": 1.133,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.6318
+        "avgTDPerGame": 1.133,
+        "completionPct": 0.6318,
+        "passYPG": 209.2,
+        "qbr": 25.9
       },
-      "eraNormFactor": 1.0039
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034353_CHI_2019",
       "name": "Anthony Miller",
       "position": "WR",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 78,
       "stats": {
-        "recYPG": 41.0,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 5.31,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 41.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034426_CHI_2019",
       "name": "Javon Wims",
       "position": "WR",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.9,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.64,
         "avgTargetsPerGame": 3.55,
-        "avgCatchesPerGame": 1.64
+        "recYPG": 16.9,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035685_CHI_2019",
       "name": "David Montgomery",
       "position": "RB",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 84,
       "stats": {
-        "rushYPG": 55.6,
-        "tdPerGame": 0.375,
+        "recYPG": 11.6,
         "rushAttPerGame": 15.12,
-        "recYPG": 11.6
+        "rushYPG": 55.6,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034173_CHI_2019",
       "name": "E.Pineiro",
       "position": "K",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8214,
         "avgKickDistance": 34.8,
         "avgMissDistance": 42.6,
+        "fgAccuracy": 0.8214,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2019",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.69,
+        "normalizedRank": 29,
         "rushTDPct": 0.0203,
-        "normalizedRank": 29
+        "rushYPC": 3.69,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2019",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 77,
       "stats": {
+        "blitzPct": 0.235,
+        "normalizedRank": 9,
+        "pressurePct": 0.252,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 102.0,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.056,
-        "blitzPct": 0.235,
-        "pressurePct": 0.252,
-        "normalizedRank": 9
+        "sackPct": 0.056
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2019",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2019,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.634,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 222.12,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 222.12,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2019
     }
   ]
 }

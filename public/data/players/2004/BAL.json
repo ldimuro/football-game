@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008560_BAL_2004",
       "name": "Kevin Johnson",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "recYPG": 26.6,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 26.6,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019693_BAL_2004",
       "name": "Jamal Lewis",
       "position": "RB",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "rushYPG": 83.8,
-        "tdPerGame": 0.583,
+        "recYPG": 9.7,
         "rushAttPerGame": 19.58,
-        "recYPG": 9.7
+        "rushYPG": 83.8,
+        "tdPerGame": 0.583
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019721_BAL_2004",
       "name": "Travis Taylor",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 71,
       "stats": {
-        "recYPG": 42.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.4
+        "recYPG": 42.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020127_BAL_2004",
       "name": "Daniel Wilcox",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 63,
       "stats": {
-        "recYPG": 21.9,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 21.9,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020516_BAL_2004",
       "name": "Todd Heap",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "recYPG": 50.5,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 50.5,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020984_BAL_2004",
       "name": "Randy Hymes",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.9,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.17,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.17
+        "recYPG": 26.9,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021268_BAL_2004",
       "name": "Terry Jones",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 60,
       "stats": {
-        "recYPG": 15.2,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 15.2,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021314_BAL_2004",
       "name": "Chester Taylor",
       "position": "RB",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 73,
       "stats": {
-        "rushYPG": 44.6,
-        "tdPerGame": 0.125,
+        "recYPG": 11.5,
         "rushAttPerGame": 10.0,
-        "recYPG": 11.5
+        "rushYPG": 44.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 0.9086,
       "id": "p_00-0022164_BAL_2004",
       "name": "Kyle Boller",
       "position": "QB",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "passYPG": 159.9,
-        "qbr": 2.1,
-        "avgTDPerGame": 0.812,
         "avgINTPerGame": 0.688,
-        "completionPct": 0.556
+        "avgTDPerGame": 0.812,
+        "completionPct": 0.556,
+        "passYPG": 159.9,
+        "qbr": 2.1
       },
-      "eraNormFactor": 0.9086
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022826_BAL_2004",
       "name": "Clarence Moore",
       "position": "WR",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.4,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 24.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015784_BAL_2004",
       "name": "M.Stover",
       "position": "K",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.9062,
         "avgKickDistance": 34.8,
         "avgMissDistance": 41.7,
+        "fgAccuracy": 0.9062,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_OLine_2004",
       "position": "OLine",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.2,
+        "normalizedRank": 15,
         "rushTDPct": 0.0224,
-        "normalizedRank": 15
+        "rushYPC": 4.2,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_DLine_2004",
       "position": "DLine",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 89,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 105.06,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0778,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0778
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_Secondary_2004",
       "position": "Secondary",
-      "team": "BAL",
-      "year": 2004,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5509,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 195.12,
-        "passTDPerGameAllowed": 0.88,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 0.88,
+        "passYPGAllowed": 195.12,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2004
     }
   ]
 }

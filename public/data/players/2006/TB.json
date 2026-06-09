@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005720_TB_2006",
       "name": "Joey Galloway",
       "position": "WR",
-      "team": "TB",
-      "year": 2006,
+      "rating": 95,
       "stats": {
-        "recYPG": 75.5,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.43
+        "recYPG": 75.5,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007468_TB_2006",
       "name": "Ike Hilliard",
       "position": "WR",
-      "team": "TB",
-      "year": 2006,
+      "rating": 64,
       "stats": {
-        "recYPG": 24.2,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.43
+        "recYPG": 24.2,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013013_TB_2006",
       "name": "Michael Pittman",
       "position": "RB",
-      "team": "TB",
-      "year": 2006,
+      "rating": 66,
       "stats": {
-        "rushYPG": 15.3,
-        "tdPerGame": 0.062,
+        "recYPG": 25.3,
         "rushAttPerGame": 3.12,
-        "recYPG": 25.3
+        "rushYPG": 15.3,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0663,
       "id": "p_00-0019623_TB_2006",
       "name": "Tim Rattay",
       "position": "QB",
-      "team": "TB",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "passYPG": 187.0,
-        "qbr": 72.8,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.604
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.604,
+        "passYPG": 187.0,
+        "qbr": 72.8
       },
-      "eraNormFactor": 1.0663
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022725_TB_2006",
       "name": "Michael Clayton",
       "position": "WR",
-      "team": "TB",
-      "year": 2006,
+      "rating": 66,
       "stats": {
-        "recYPG": 29.7,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.75
+        "recYPG": 29.7,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023440_TB_2006",
       "name": "Cadillac Williams",
       "position": "RB",
-      "team": "TB",
-      "year": 2006,
+      "rating": 78,
       "stats": {
-        "rushYPG": 57.0,
-        "tdPerGame": 0.071,
+        "recYPG": 14.0,
         "rushAttPerGame": 16.07,
-        "recYPG": 14.0
+        "rushYPG": 57.0,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023506_TB_2006",
       "name": "Alex Smith",
       "position": "WR",
-      "team": "TB",
-      "year": 2006,
+      "rating": 67,
       "stats": {
-        "recYPG": 20.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.92
+        "recYPG": 20.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 0.7287,
       "id": "p_00-0024408_TB_2006",
       "name": "Bruce Gradkowski",
       "position": "QB",
-      "team": "TB",
-      "year": 2006,
+      "rating": 65,
       "stats": {
-        "passYPG": 127.8,
-        "qbr": 0,
-        "avgTDPerGame": 0.692,
         "avgINTPerGame": 0.692,
-        "completionPct": 0.5396
+        "avgTDPerGame": 0.692,
+        "completionPct": 0.5396,
+        "passYPG": 127.8,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7287
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020578_TB_2006",
       "name": "M.Bryant",
       "position": "K",
-      "team": "TB",
-      "year": 2006,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.7727,
         "avgKickDistance": 36.7,
         "avgMissDistance": 45.2,
+        "fgAccuracy": 0.7727,
         "longestMadeKick": 62
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_OLine_2006",
       "position": "OLine",
-      "team": "TB",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.77,
+        "normalizedRank": 25,
         "rushTDPct": 0.0149,
-        "normalizedRank": 25
+        "rushYPC": 3.77,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_DLine_2006",
       "position": "DLine",
-      "team": "TB",
-      "year": 2006,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 119.81,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0507,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0507
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_Secondary_2006",
       "position": "Secondary",
-      "team": "TB",
-      "year": 2006,
+      "rating": 64,
       "stats": {
         "completionPctAllowed": 0.6105,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 209.62,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 209.62,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2006
     }
   ]
 }

@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0832,
       "id": "p_00-0023436_KC_2013",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "KC",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "passYPG": 230.7,
-        "qbr": 71.9,
-        "avgTDPerGame": 1.688,
         "avgINTPerGame": 0.438,
-        "completionPct": 0.6101
+        "avgTDPerGame": 1.688,
+        "completionPct": 0.6101,
+        "passYPG": 230.7,
+        "qbr": 71.9
       },
-      "eraNormFactor": 1.0832
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024268_KC_2013",
       "name": "Anthony Fasano",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 68,
       "stats": {
-        "recYPG": 20.6,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.6,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 20.6,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025410_KC_2013",
       "name": "Dwayne Bowe",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 87,
       "stats": {
-        "recYPG": 51.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.06,
         "avgTargetsPerGame": 7.25,
-        "avgCatchesPerGame": 4.06
+        "recYPG": 51.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026173_KC_2013",
       "name": "Donnie Avery",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 76,
       "stats": {
-        "recYPG": 42.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.56,
         "avgTargetsPerGame": 4.69,
-        "avgCatchesPerGame": 2.56
+        "recYPG": 42.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026213_KC_2013",
+      "is_all_pro": true,
       "name": "Jamaal Charles",
       "position": "RB",
-      "team": "KC",
-      "year": 2013,
+      "rating": 97,
       "stats": {
-        "rushYPG": 81.6,
-        "tdPerGame": 0.75,
+        "recYPG": 43.3,
         "rushAttPerGame": 16.38,
-        "recYPG": 43.3
+        "rushYPG": 81.6,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027651_KC_2013",
       "name": "Dexter McCluster",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 73,
       "stats": {
-        "recYPG": 35.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 5.69,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 35.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029311_KC_2013",
       "name": "Junior Hemingway",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.1,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 1.36,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.36
+        "recYPG": 14.1,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029391_KC_2013",
       "name": "Sean McGrath",
       "position": "WR",
-      "team": "KC",
-      "year": 2013,
+      "rating": 65,
       "stats": {
-        "recYPG": 23.2,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 23.2,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030280_KC_2013",
       "name": "Knile Davis",
       "position": "RB",
-      "team": "KC",
-      "year": 2013,
+      "rating": 71,
       "stats": {
-        "rushYPG": 20.6,
-        "tdPerGame": 0.333,
+        "recYPG": 7.2,
         "rushAttPerGame": 5.87,
-        "recYPG": 7.2
+        "rushYPG": 20.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026968_KC_2013",
       "name": "R.Succop",
       "position": "K",
-      "team": "KC",
-      "year": 2013,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.8065,
         "avgKickDistance": 37.1,
         "avgMissDistance": 47.0,
+        "fgAccuracy": 0.8065,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2013",
       "position": "OLine",
-      "team": "KC",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.65,
+        "normalizedRank": 4,
         "rushTDPct": 0.038,
-        "normalizedRank": 4
+        "rushYPC": 4.65,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2013",
       "position": "DLine",
-      "team": "KC",
-      "year": 2013,
+      "rating": 79,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 22,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 120.19,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0794,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 22
+        "sackPct": 0.0794
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2013",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2013,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.5642,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 247.62,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 247.62,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2013
     }
   ]
 }

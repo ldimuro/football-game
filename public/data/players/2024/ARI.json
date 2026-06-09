@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033553_ARI_2024",
       "name": "James Conner",
       "position": "RB",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 95,
       "stats": {
-        "rushYPG": 68.4,
-        "tdPerGame": 0.5,
+        "recYPG": 25.9,
         "rushAttPerGame": 14.75,
-        "recYPG": 25.9
+        "rushYPG": 68.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.3469,
       "id": "p_00-0035228_ARI_2024",
       "name": "Kyler Murray",
       "position": "QB",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 84,
       "stats": {
-        "passYPG": 226.5,
-        "qbr": 88.6,
-        "avgTDPerGame": 1.235,
         "avgINTPerGame": 0.647,
-        "completionPct": 0.6876
+        "avgTDPerGame": 1.235,
+        "completionPct": 0.6876,
+        "passYPG": 226.5,
+        "qbr": 88.6
       },
-      "eraNormFactor": 1.3469
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035500_ARI_2024",
       "name": "Greg Dortch",
       "position": "WR",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 68,
       "stats": {
-        "recYPG": 20.1,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.18,
         "avgTargetsPerGame": 2.94,
-        "avgCatchesPerGame": 2.18
+        "recYPG": 20.1,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037744_ARI_2024",
       "name": "Trey McBride",
       "position": "WR",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 89,
       "stats": {
-        "recYPG": 71.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 6.94,
         "avgTargetsPerGame": 9.19,
-        "avgCatchesPerGame": 6.94
+        "recYPG": 71.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038559_ARI_2024",
       "name": "Michael Wilson",
       "position": "WR",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 79,
       "stats": {
-        "recYPG": 34.2,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.94,
         "avgTargetsPerGame": 4.44,
-        "avgCatchesPerGame": 2.94
+        "recYPG": 34.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039041_ARI_2024",
       "name": "Elijah Higgins",
       "position": "WR",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 62,
       "stats": {
-        "recYPG": 12.3,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.43,
         "avgTargetsPerGame": 1.71,
-        "avgCatchesPerGame": 1.43
+        "recYPG": 12.3,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039849_ARI_2024",
       "name": "Marvin Harrison",
       "position": "WR",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 90,
       "stats": {
-        "recYPG": 52.1,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 3.65,
         "avgTargetsPerGame": 6.82,
-        "avgCatchesPerGame": 3.65
+        "recYPG": 52.1,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039921_ARI_2024",
       "name": "Trey Benson",
       "position": "RB",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 67,
       "stats": {
-        "rushYPG": 24.2,
-        "tdPerGame": 0.083,
+        "recYPG": 4.9,
         "rushAttPerGame": 5.25,
-        "recYPG": 4.9
+        "rushYPG": 24.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038567_ARI_2024",
       "name": "C.Ryland",
       "position": "K",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8947,
         "avgKickDistance": 39.0,
         "avgMissDistance": 44.2,
+        "fgAccuracy": 0.8947,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2024",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.29,
+        "normalizedRank": 2,
         "rushTDPct": 0.0389,
-        "normalizedRank": 2
+        "rushYPC": 5.29,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2024",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 74,
       "stats": {
+        "blitzPct": 0.216,
+        "normalizedRank": 20,
+        "pressurePct": 0.192,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 126.41,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0761,
-        "blitzPct": 0.216,
-        "pressurePct": 0.192,
-        "normalizedRank": 20
+        "sackPct": 0.0761
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2024",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2024,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6865,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 216.12,
-        "passTDPerGameAllowed": 1.18,
         "interceptionsPerGame": 0.53,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.18,
+        "passYPGAllowed": 216.12,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2024
     }
   ]
 }

@@ -1,262 +1,280 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2755,
       "id": "p_00-0031280_NO_2024",
       "name": "Derek Carr",
       "position": "QB",
-      "team": "NO",
-      "year": 2024,
+      "rating": 86,
       "stats": {
-        "passYPG": 214.5,
-        "qbr": 98.4,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.6774
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.6774,
+        "passYPG": 214.5,
+        "qbr": 98.4
       },
-      "eraNormFactor": 1.2755
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033357_NO_2024",
       "name": "Taysom Hill",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 3.88,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 23.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033906_NO_2024",
       "name": "Alvin Kamara",
       "position": "RB",
-      "team": "NO",
-      "year": 2024,
+      "rating": 95,
       "stats": {
-        "rushYPG": 67.9,
-        "tdPerGame": 0.429,
+        "recYPG": 38.8,
         "rushAttPerGame": 16.29,
-        "recYPG": 38.8
+        "rushYPG": 67.9,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033948_NO_2024",
       "name": "Jamaal Williams",
       "position": "RB",
-      "team": "NO",
-      "year": 2024,
+      "rating": 61,
       "stats": {
-        "rushYPG": 12.6,
-        "tdPerGame": 0.077,
+        "recYPG": 4.4,
         "rushAttPerGame": 3.69,
-        "recYPG": 4.4
+        "rushYPG": 12.6,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034418_NO_2024",
       "name": "Cedrick Wilson",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 65,
       "stats": {
-        "recYPG": 21.1,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 2.7,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 21.1,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034860_NO_2024",
       "name": "Dante Pettis",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 64,
       "stats": {
-        "recYPG": 15.0,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 15.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034981_NO_2024",
       "name": "Foster Moreau",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 74,
       "stats": {
-        "recYPG": 27.5,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.13,
         "avgTargetsPerGame": 2.87,
-        "avgCatchesPerGame": 2.13
+        "recYPG": 27.5,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036040_NO_2024",
       "name": "Juwan Johnson",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 79,
       "stats": {
-        "recYPG": 36.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": 4.4,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 36.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037231_NO_2024",
       "name": "Kevin Austin",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 61,
       "stats": {
-        "recYPG": 18.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.38,
         "avgTargetsPerGame": 2.75,
-        "avgCatchesPerGame": 1.38
+        "recYPG": 18.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037239_NO_2024",
       "name": "Chris Olave",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 82,
       "stats": {
-        "recYPG": 50.0,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 50.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037545_NO_2024",
       "name": "Rashid Shaheed",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 58.2,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": 6.83,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 58.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038551_NO_2024",
       "name": "Kendre Miller",
       "position": "RB",
-      "team": "NO",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "rushYPG": 24.7,
-        "tdPerGame": 0.167,
+        "recYPG": 5.5,
         "rushAttPerGame": 6.5,
-        "recYPG": 5.5
+        "rushYPG": 24.7,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.1185,
       "id": "p_00-0039376_NO_2024",
       "name": "Spencer Rattler",
       "position": "QB",
-      "team": "NO",
-      "year": 2024,
+      "rating": 65,
       "stats": {
-        "passYPG": 188.1,
-        "qbr": 0,
-        "avgTDPerGame": 0.571,
         "avgINTPerGame": 0.714,
-        "completionPct": 0.5702
+        "avgTDPerGame": 0.571,
+        "completionPct": 0.5702,
+        "passYPG": 188.1,
+        "qbr": 0
       },
-      "eraNormFactor": 1.1185
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039623_NO_2024",
       "name": "Mason Tipton",
       "position": "WR",
-      "team": "NO",
-      "year": 2024,
+      "rating": 58,
       "stats": {
-        "recYPG": 11.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 2.89,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 11.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038905_NO_2024",
       "name": "B.Grupe",
       "position": "K",
-      "team": "NO",
-      "year": 2024,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 41.5,
         "avgMissDistance": 48.2,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2024",
       "position": "OLine",
-      "team": "NO",
-      "year": 2024,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.4,
+        "normalizedRank": 15,
         "rushTDPct": 0.0338,
-        "normalizedRank": 15
+        "rushYPC": 4.4,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2024",
       "position": "DLine",
-      "team": "NO",
-      "year": 2024,
+      "rating": 61,
       "stats": {
+        "blitzPct": 0.206,
+        "normalizedRank": 31,
+        "pressurePct": 0.215,
+        "rushTDPerGameAllowed": 1.18,
         "rushYPCAllowed": 4.9,
         "rushYPGAllowed": 141.41,
-        "rushTDPerGameAllowed": 1.18,
-        "sackPct": 0.066,
-        "blitzPct": 0.206,
-        "pressurePct": 0.215,
-        "normalizedRank": 31
+        "sackPct": 0.066
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2024",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2024,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.6193,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 238.53,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 0.82,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 238.53,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2024
     }
   ]
 }

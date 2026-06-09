@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5776,
       "id": "p_00-0020531_NO_2012",
       "name": "Drew Brees",
       "position": "QB",
-      "team": "NO",
-      "year": 2012,
+      "rating": 90,
       "stats": {
-        "passYPG": 323.6,
-        "qbr": 100,
-        "avgTDPerGame": 2.688,
         "avgINTPerGame": 1.188,
-        "completionPct": 0.6299
+        "avgTDPerGame": 2.688,
+        "completionPct": 0.6299,
+        "passYPG": 323.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.5776
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022929_NO_2012",
       "name": "Devery Henderson",
       "position": "WR",
-      "team": "NO",
-      "year": 2012,
+      "rating": 61,
       "stats": {
-        "recYPG": 21.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 1.47,
         "avgTargetsPerGame": 3.13,
-        "avgCatchesPerGame": 1.47
+        "recYPG": 21.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023310_NO_2012",
       "name": "Lance Moore",
       "position": "WR",
-      "team": "NO",
-      "year": 2012,
+      "rating": 92,
       "stats": {
-        "recYPG": 69.4,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.33,
         "avgTargetsPerGame": 6.93,
-        "avgCatchesPerGame": 4.33
+        "recYPG": 69.4,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023564_NO_2012",
       "name": "Darren Sproles",
       "position": "RB",
-      "team": "NO",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "rushYPG": 18.8,
-        "tdPerGame": 0.077,
+        "recYPG": 51.3,
         "rushAttPerGame": 3.69,
-        "recYPG": 51.3
+        "rushYPG": 18.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024466_NO_2012",
       "name": "Marques Colston",
       "position": "WR",
-      "team": "NO",
-      "year": 2012,
+      "rating": 96,
       "stats": {
-        "recYPG": 72.1,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": 8.12,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 72.1,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024813_NO_2012",
       "name": "Pierre Thomas",
       "position": "RB",
-      "team": "NO",
-      "year": 2012,
+      "rating": 76,
       "stats": {
-        "rushYPG": 31.5,
-        "tdPerGame": 0.067,
+        "recYPG": 23.6,
         "rushAttPerGame": 7.0,
-        "recYPG": 23.6
+        "rushYPG": 31.5,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027531_NO_2012",
       "name": "Chris Ivory",
       "position": "RB",
-      "team": "NO",
-      "year": 2012,
+      "rating": 75,
       "stats": {
-        "rushYPG": 36.2,
-        "tdPerGame": 0.333,
+        "recYPG": 2.5,
         "rushAttPerGame": 6.67,
-        "recYPG": 2.5
+        "rushYPG": 36.2,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027696_NO_2012",
       "name": "Jimmy Graham",
       "position": "WR",
-      "team": "NO",
-      "year": 2012,
+      "rating": 95,
       "stats": {
-        "recYPG": 65.5,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 5.67,
         "avgTargetsPerGame": 9.0,
-        "avgCatchesPerGame": 5.67
+        "recYPG": 65.5,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027966_NO_2012",
       "name": "Mark Ingram",
       "position": "RB",
-      "team": "NO",
-      "year": 2012,
+      "rating": 77,
       "stats": {
-        "rushYPG": 37.6,
-        "tdPerGame": 0.312,
+        "recYPG": 1.8,
         "rushAttPerGame": 9.75,
-        "recYPG": 1.8
+        "rushYPG": 37.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028532_NO_2012",
       "name": "Joseph Morgan",
       "position": "WR",
-      "team": "NO",
-      "year": 2012,
+      "rating": 72,
       "stats": {
-        "recYPG": 34.5,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 0.91,
         "avgTargetsPerGame": 1.82,
-        "avgCatchesPerGame": 0.91
+        "recYPG": 34.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025824_NO_2012",
       "name": "G.Hartley",
       "position": "K",
-      "team": "NO",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.8182,
         "avgKickDistance": 34.6,
         "avgMissDistance": 43.5,
+        "fgAccuracy": 0.8182,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2012",
       "position": "OLine",
-      "team": "NO",
-      "year": 2012,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.26,
+        "normalizedRank": 12,
         "rushTDPct": 0.027,
-        "normalizedRank": 12
+        "rushYPC": 4.26,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2012",
       "position": "DLine",
-      "team": "NO",
-      "year": 2012,
+      "rating": 58,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 32,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 5.2,
         "rushYPGAllowed": 147.56,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0498,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 32
+        "sackPct": 0.0498
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2012",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2012,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6146,
-        "yardsPerAttemptAllowed": 7.4,
-        "passYPGAllowed": 292.56,
-        "passTDPerGameAllowed": 1.94,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.94,
+        "passYPGAllowed": 292.56,
+        "yardsPerAttemptAllowed": 7.4
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2012
     }
   ]
 }

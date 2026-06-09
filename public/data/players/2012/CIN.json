@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025439_CIN_2012",
       "name": "Brian Leonard",
       "position": "RB",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 58,
       "stats": {
-        "rushYPG": 8.3,
-        "tdPerGame": 0.0,
+        "recYPG": 5.2,
         "rushAttPerGame": 2.62,
-        "recYPG": 5.2
+        "rushYPG": 8.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025860_CIN_2012",
       "name": "BenJarvus Green-Ellis",
       "position": "RB",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 87,
       "stats": {
-        "rushYPG": 72.3,
-        "tdPerGame": 0.375,
+        "recYPG": 5.9,
         "rushAttPerGame": 18.06,
-        "recYPG": 5.9
+        "rushYPG": 72.3,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026932_CIN_2012",
       "name": "Cedric Peerman",
       "position": "RB",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 67,
       "stats": {
-        "rushYPG": 25.8,
-        "tdPerGame": 0.1,
+        "recYPG": 8.5,
         "rushAttPerGame": 3.6,
-        "recYPG": 8.5
+        "rushYPG": 25.8,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027057_CIN_2012",
       "name": "Brandon Tate",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 61,
       "stats": {
-        "recYPG": 17.6,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.08,
         "avgTargetsPerGame": 2.08,
-        "avgCatchesPerGame": 1.08
+        "recYPG": 17.6,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027873_CIN_2012",
       "name": "Jermaine Gresham",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 84,
       "stats": {
-        "recYPG": 43.8,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 3.88,
         "avgTargetsPerGame": 5.94,
-        "avgCatchesPerGame": 3.88
+        "recYPG": 43.8,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027918_CIN_2012",
       "name": "Andrew Hawkins",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 79,
       "stats": {
-        "recYPG": 36.5,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.53,
         "avgTargetsPerGame": 5.6,
-        "avgCatchesPerGame": 3.53
+        "recYPG": 36.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027942_CIN_2012",
+      "is_all_pro": true,
       "name": "A.J. Green",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 98,
       "stats": {
-        "recYPG": 84.1,
-        "tdPerGame": 0.647,
+        "avgCatchesPerGame": 6.0,
         "avgTargetsPerGame": 10.29,
-        "avgCatchesPerGame": 6.0
+        "recYPG": 84.1,
+        "tdPerGame": 0.647
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0887,
       "id": "p_00-0027973_CIN_2012",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 76,
       "stats": {
-        "passYPG": 223.3,
-        "qbr": 39.5,
-        "avgTDPerGame": 1.588,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6147
+        "avgTDPerGame": 1.588,
+        "completionPct": 0.6147,
+        "passYPG": 223.3,
+        "qbr": 39.5
       },
-      "eraNormFactor": 1.0887
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028400_CIN_2012",
       "name": "Armon Binns",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 73,
       "stats": {
-        "recYPG": 34.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 34.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029293_CIN_2012",
       "name": "Marvin Jones",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "recYPG": 26.1,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 4.11,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 26.1,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029632_CIN_2012",
       "name": "Mohamed Sanu",
       "position": "WR",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 78,
       "stats": {
-        "recYPG": 25.7,
-        "tdPerGame": 0.667,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": 4.17,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 25.7,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023482_CIN_2012",
       "name": "M.Nugent",
       "position": "K",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.8649,
         "avgKickDistance": 37.4,
         "avgMissDistance": 48.2,
+        "fgAccuracy": 0.8649,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2012",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.09,
+        "normalizedRank": 20,
         "rushTDPct": 0.0247,
-        "normalizedRank": 20
+        "rushYPC": 4.09,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2012",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 107.19,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0911,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.0911
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2012",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2012,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6179,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 212.5,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 212.5,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2012
     }
   ]
 }

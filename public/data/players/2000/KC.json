@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000145_KC_2000",
       "name": "Derrick Alexander",
       "position": "WR",
-      "team": "KC",
-      "year": 2000,
+      "rating": 98,
       "stats": {
-        "recYPG": 84.3,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 4.8,
         "avgTargetsPerGame": 8.93,
-        "avgCatchesPerGame": 4.8
+        "recYPG": 84.3,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000279_KC_2000",
       "name": "Kimble Anders",
       "position": "RB",
-      "team": "KC",
-      "year": 2000,
+      "rating": 70,
       "stats": {
-        "rushYPG": 29.9,
-        "tdPerGame": 0.182,
+        "recYPG": 6.9,
         "rushAttPerGame": 6.82,
-        "recYPG": 6.9
+        "rushYPG": 29.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_KC_2000",
+      "is_all_pro": true,
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "KC",
-      "year": 2000,
+      "rating": 98,
       "stats": {
-        "recYPG": 77.3,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 5.93,
         "avgTargetsPerGame": 9.47,
-        "avgCatchesPerGame": 5.93
+        "recYPG": 77.3,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.7278,
       "id": "p_00-0006300_KC_2000",
       "name": "Elvis Grbac",
       "position": "QB",
-      "team": "KC",
-      "year": 2000,
+      "rating": 91,
       "stats": {
-        "passYPG": 274.9,
-        "qbr": 90.4,
-        "avgTDPerGame": 1.571,
         "avgINTPerGame": 0.929,
-        "completionPct": 0.5953
+        "avgTDPerGame": 1.571,
+        "completionPct": 0.5953,
+        "passYPG": 274.9,
+        "qbr": 90.4
       },
-      "eraNormFactor": 1.7278
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010007_KC_2000",
       "name": "Kevin Lockett",
       "position": "WR",
-      "team": "KC",
-      "year": 2000,
+      "rating": 75,
       "stats": {
-        "recYPG": 29.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": 3.79,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 29.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019471_KC_2000",
       "name": "Frank Moreau",
       "position": "RB",
-      "team": "KC",
-      "year": 2000,
+      "rating": 66,
       "stats": {
-        "rushYPG": 13.4,
-        "tdPerGame": 0.333,
+        "recYPG": 0.0,
         "rushAttPerGame": 5.44,
-        "recYPG": 0.0
+        "rushYPG": 13.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019726_KC_2000",
       "name": "Sylvester Morris",
       "position": "WR",
-      "team": "KC",
-      "year": 2000,
+      "rating": 76,
       "stats": {
-        "recYPG": 40.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 40.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012875_KC_2000",
       "name": "T.Peterson",
       "position": "K",
-      "team": "KC",
-      "year": 2000,
+      "rating": 62,
       "stats": {
-        "fgAccuracy": 0.7083,
         "avgKickDistance": 33.7,
         "avgMissDistance": 38.7,
+        "fgAccuracy": 0.7083,
         "longestMadeKick": 42
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2000",
       "position": "OLine",
-      "team": "KC",
-      "year": 2000,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.85,
+        "normalizedRank": 21,
         "rushTDPct": 0.0317,
-        "normalizedRank": 21
+        "rushYPC": 3.85,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2000",
       "position": "DLine",
-      "team": "KC",
-      "year": 2000,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 113.06,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0929,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0929
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2000",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2000,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6521,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 216.94,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 216.94,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2000
     }
   ]
 }

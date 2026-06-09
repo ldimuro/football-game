@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1992,
       "id": "p_00-0023682_NYJ_2015",
       "name": "Ryan Fitzpatrick",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 81,
       "stats": {
-        "passYPG": 244.1,
-        "qbr": 95.3,
-        "avgTDPerGame": 1.938,
         "avgINTPerGame": 0.938,
-        "completionPct": 0.5961
+        "avgTDPerGame": 1.938,
+        "completionPct": 0.5961,
+        "passYPG": 244.1,
+        "qbr": 95.3
       },
-      "eraNormFactor": 1.1992
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024334_NYJ_2015",
+      "is_all_pro": true,
       "name": "Brandon Marshall",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 99,
       "stats": {
-        "recYPG": 93.9,
-        "tdPerGame": 0.875,
+        "avgCatchesPerGame": 6.81,
         "avgTargetsPerGame": 10.81,
-        "avgCatchesPerGame": 6.81
+        "recYPG": 93.9,
+        "tdPerGame": 0.875
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027531_NYJ_2015",
+      "is_all_pro": true,
       "name": "Chris Ivory",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 91,
       "stats": {
-        "rushYPG": 71.3,
-        "tdPerGame": 0.467,
+        "recYPG": 14.5,
         "rushAttPerGame": 16.47,
-        "recYPG": 14.5
+        "rushYPG": 71.3,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027690_NYJ_2015",
       "name": "Eric Decker",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 96,
       "stats": {
-        "recYPG": 68.5,
-        "tdPerGame": 0.8,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": 8.8,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 68.5,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028011_NYJ_2015",
       "name": "Stevan Ridley",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 58,
       "stats": {
-        "rushYPG": 11.2,
-        "tdPerGame": 0.0,
+        "recYPG": -0.2,
         "rushAttPerGame": 4.5,
-        "recYPG": -0.2
+        "rushYPG": 11.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028064_NYJ_2015",
       "name": "Bilal Powell",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 75,
       "stats": {
-        "rushYPG": 28.5,
-        "tdPerGame": 0.091,
+        "recYPG": 35.3,
         "rushAttPerGame": 6.36,
-        "recYPG": 35.3
+        "rushYPG": 28.5,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028091_NYJ_2015",
       "name": "Jeremy Kerley",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 80,
       "stats": {
-        "recYPG": 30.4,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 30.4,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030000_NYJ_2015",
       "name": "Kenbrell Thompkins",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 68,
       "stats": {
-        "recYPG": 27.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 27.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030536_NYJ_2015",
       "name": "Zac Stacy",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 66,
       "stats": {
-        "rushYPG": 14.8,
-        "tdPerGame": 0.167,
+        "recYPG": 10.8,
         "rushAttPerGame": 5.17,
-        "recYPG": 10.8
+        "rushYPG": 14.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031023_NYJ_2015",
       "name": "Quincy Enunwa",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 67,
       "stats": {
-        "recYPG": 28.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 4.18,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 28.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031934_NYJ_2015",
       "name": "Devin Smith",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 64,
       "stats": {
-        "recYPG": 16.4,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.29,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 1.29
+        "recYPG": 16.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029421_NYJ_2015",
       "name": "R.Bullock",
       "position": "K",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8182,
         "avgKickDistance": 38.5,
         "avgMissDistance": 45.8,
+        "fgAccuracy": 0.8182,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2015",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.17,
+        "normalizedRank": 12,
         "rushTDPct": 0.0246,
-        "normalizedRank": 12
+        "rushYPC": 4.17,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2015",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 90,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.25,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 83.44,
-        "rushTDPerGameAllowed": 0.25,
-        "sackPct": 0.0649,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.0649
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2015",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2015,
+      "rating": 91,
       "stats": {
         "completionPctAllowed": 0.5707,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 235.19,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 13
+        "normalizedRank": 13,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 235.19,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2015
     }
   ]
 }

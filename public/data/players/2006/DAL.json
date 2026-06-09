@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1062,
       "id": "p_00-0001361_DAL_2006",
       "name": "Drew Bledsoe",
       "position": "QB",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 74,
       "stats": {
-        "passYPG": 194.0,
-        "qbr": 34.8,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 1.333,
-        "completionPct": 0.5325
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.5325,
+        "passYPG": 194.0,
+        "qbr": 34.8
       },
-      "eraNormFactor": 1.1062
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006043_DAL_2006",
       "name": "Terry Glenn",
       "position": "WR",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 92,
       "stats": {
-        "recYPG": 68.0,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 68.0,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_DAL_2006",
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 97,
       "stats": {
-        "recYPG": 70.9,
-        "tdPerGame": 0.765,
+        "avgCatchesPerGame": 5.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.12
+        "recYPG": 70.9,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.2596,
       "id": "p_00-0021678_DAL_2006",
       "name": "Tony Romo",
       "position": "QB",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 89,
       "stats": {
-        "passYPG": 220.9,
-        "qbr": 100,
-        "avgTDPerGame": 1.429,
         "avgINTPerGame": 0.929,
-        "completionPct": 0.6475
+        "avgTDPerGame": 1.429,
+        "completionPct": 0.6475,
+        "passYPG": 220.9,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2596
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2006",
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "recYPG": 47.7,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 47.7,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022766_DAL_2006",
       "name": "Patrick Crayton",
       "position": "WR",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 79,
       "stats": {
-        "recYPG": 39.9,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.79
+        "recYPG": 39.9,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022840_DAL_2006",
       "name": "Julius Jones",
       "position": "RB",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "rushYPG": 70.4,
-        "tdPerGame": 0.235,
+        "recYPG": 8.4,
         "rushAttPerGame": 17.0,
-        "recYPG": 8.4
+        "rushYPG": 70.4,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023544_DAL_2006",
       "name": "Marion Barber",
       "position": "RB",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "rushYPG": 38.7,
-        "tdPerGame": 0.824,
+        "recYPG": 12.9,
         "rushAttPerGame": 8.18,
-        "recYPG": 12.9
+        "rushYPG": 38.7,
+        "tdPerGame": 0.824
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016830_DAL_2006",
       "name": "M.Vanderjagt",
       "position": "K",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 66,
       "stats": {
-        "fgAccuracy": 0.7333,
         "avgKickDistance": 36.0,
         "avgMissDistance": 40.1,
+        "fgAccuracy": 0.7333,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2006",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.11,
+        "normalizedRank": 14,
         "rushTDPct": 0.0421,
-        "normalizedRank": 14
+        "rushYPC": 4.11,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2006",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 103.69,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0665,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0665
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2006",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2006,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.589,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 219.12,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 219.12,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2006
     }
   ]
 }

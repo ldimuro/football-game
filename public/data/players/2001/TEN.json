@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004694_TEN_2001",
       "name": "Kevin Dyson",
       "position": "WR",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 90,
       "stats": {
-        "recYPG": 51.6,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 51.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005883_TEN_2001",
       "name": "Eddie George",
       "position": "RB",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 88,
       "stats": {
-        "rushYPG": 58.7,
-        "tdPerGame": 0.312,
+        "recYPG": 17.4,
         "rushAttPerGame": 19.69,
-        "recYPG": 17.4
+        "rushYPG": 58.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007389_TEN_2001",
       "name": "Skip Hicks",
       "position": "RB",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 67,
       "stats": {
-        "rushYPG": 37.9,
-        "tdPerGame": 0.111,
+        "recYPG": 2.4,
         "rushAttPerGame": 6.22,
-        "recYPG": 2.4
+        "rushYPG": 37.9,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010500_TEN_2001",
       "name": "Derrick Mason",
       "position": "WR",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 96,
       "stats": {
-        "recYPG": 75.2,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 4.87,
         "avgTargetsPerGame": 7.53,
-        "avgCatchesPerGame": 4.87
+        "recYPG": 75.2,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.2642,
       "id": "p_00-0011024_TEN_2001",
       "name": "Steve McNair",
       "position": "QB",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 91,
       "stats": {
-        "passYPG": 223.3,
-        "qbr": 93.7,
-        "avgTDPerGame": 1.4,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.6125
+        "avgTDPerGame": 1.4,
+        "completionPct": 0.6125,
+        "passYPG": 223.3,
+        "qbr": 93.7
       },
-      "eraNormFactor": 1.2642
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018343_TEN_2001",
       "name": "Frank Wycheck",
       "position": "WR",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "recYPG": 42.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 5.25,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 42.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019659_TEN_2001",
       "name": "Erron Kinney",
       "position": "WR",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 71,
       "stats": {
-        "recYPG": 23.9,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": 3.82,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 23.9,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019976_TEN_2001",
       "name": "Drew Bennett",
       "position": "WR",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 71,
       "stats": {
-        "recYPG": 27.4,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.83,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 27.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011970_TEN_2001",
       "name": "J.Nedney",
       "position": "K",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.7143,
         "avgKickDistance": 39.6,
         "avgMissDistance": 47.1,
+        "fgAccuracy": 0.7143,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_OLine_2001",
       "position": "OLine",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.83,
+        "normalizedRank": 23,
         "rushTDPct": 0.0256,
-        "normalizedRank": 23
+        "rushYPC": 3.83,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_DLine_2001",
       "position": "DLine",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 3.5,
         "rushYPGAllowed": 89.44,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0572,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0572
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_Secondary_2001",
       "position": "Secondary",
-      "team": "TEN",
-      "year": 2001,
+      "rating": 66,
       "stats": {
         "completionPctAllowed": 0.5868,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 255.25,
-        "passTDPerGameAllowed": 1.69,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.69,
+        "passYPGAllowed": 255.25,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2001
     }
   ]
 }

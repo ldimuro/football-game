@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2126,
       "id": "p_00-0031345_SF_2022",
       "name": "Jimmy Garoppolo",
       "position": "QB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 90,
       "stats": {
-        "passYPG": 221.5,
-        "qbr": 100,
-        "avgTDPerGame": 1.455,
         "avgINTPerGame": 0.364,
-        "completionPct": 0.6721
+        "avgTDPerGame": 1.455,
+        "completionPct": 0.6721,
+        "passYPG": 221.5,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2126
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033288_SF_2022",
+      "is_all_pro": true,
       "name": "George Kittle",
       "position": "WR",
-      "team": "SF",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "recYPG": 51.6,
-        "tdPerGame": 0.611,
+        "avgCatchesPerGame": 3.89,
         "avgTargetsPerGame": 5.39,
-        "avgCatchesPerGame": 3.89
+        "recYPG": 51.6,
+        "tdPerGame": 0.611
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034115_SF_2022",
       "name": "Jeffery Wilson",
       "position": "RB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 82,
       "stats": {
-        "rushYPG": 51.9,
-        "tdPerGame": 0.353,
+        "recYPG": 11.6,
         "rushAttPerGame": 10.94,
-        "recYPG": 11.6
+        "rushYPG": 51.9,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034407_SF_2022",
       "name": "Ray-Ray McCloud",
       "position": "WR",
-      "team": "SF",
-      "year": 2022,
+      "rating": 61,
       "stats": {
-        "recYPG": 17.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 1.79,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 17.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035719_SF_2022",
       "name": "Deebo Samuel",
       "position": "WR",
-      "team": "SF",
-      "year": 2022,
+      "rating": 87,
       "stats": {
-        "recYPG": 52.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 7.25,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 52.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036259_SF_2022",
       "name": "Jauan Jennings",
       "position": "WR",
-      "team": "SF",
-      "year": 2022,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.8,
-        "tdPerGame": 0.056,
+        "avgCatchesPerGame": 2.17,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 2.17
+        "recYPG": 26.8,
+        "tdPerGame": 0.056
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036261_SF_2022",
       "name": "Brandon Aiyuk",
       "position": "WR",
-      "team": "SF",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "recYPG": 56.2,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.2,
         "avgTargetsPerGame": 6.2,
-        "avgCatchesPerGame": 4.2
+        "recYPG": 56.2,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036567_SF_2022",
       "name": "Elijah Mitchell",
       "position": "RB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 76,
       "stats": {
-        "rushYPG": 47.4,
-        "tdPerGame": 0.286,
+        "recYPG": 4.6,
         "rushAttPerGame": 9.71,
-        "recYPG": 4.6
+        "rushYPG": 47.4,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037525_SF_2022",
       "name": "Jordan Mason",
       "position": "RB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 65,
       "stats": {
-        "rushYPG": 30.0,
-        "tdPerGame": 0.111,
+        "recYPG": 0.0,
         "rushAttPerGame": 5.0,
-        "recYPG": 0.0
+        "rushYPG": 30.0,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037827_SF_2022",
       "name": "Tyrion Davis-Price",
       "position": "RB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 61,
       "stats": {
-        "rushYPG": 19.8,
-        "tdPerGame": 0.0,
+        "recYPG": 0.0,
         "rushAttPerGame": 6.8,
-        "recYPG": 0.0
+        "rushYPG": 19.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 0.8863,
       "id": "p_00-0037834_SF_2022",
       "name": "Brock Purdy",
       "position": "QB",
-      "team": "SF",
-      "year": 2022,
+      "rating": 82,
       "stats": {
-        "passYPG": 161.9,
-        "qbr": 97.4,
-        "avgTDPerGame": 1.333,
         "avgINTPerGame": 0.333,
-        "completionPct": 0.6652
+        "avgTDPerGame": 1.333,
+        "completionPct": 0.6652,
+        "passYPG": 161.9,
+        "qbr": 97.4
       },
-      "eraNormFactor": 0.8863
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023252_SF_2022",
       "name": "R.Gould",
       "position": "K",
-      "team": "SF",
-      "year": 2022,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.875,
         "avgKickDistance": 34.9,
         "avgMissDistance": 37.8,
+        "fgAccuracy": 0.875,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2022",
       "position": "OLine",
-      "team": "SF",
-      "year": 2022,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.61,
+        "normalizedRank": 12,
         "rushTDPct": 0.0388,
-        "normalizedRank": 12
+        "rushYPC": 4.61,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2022",
       "position": "DLine",
-      "team": "SF",
-      "year": 2022,
+      "rating": 91,
       "stats": {
+        "blitzPct": 0.216,
+        "normalizedRank": 2,
+        "pressurePct": 0.229,
+        "rushTDPerGameAllowed": 0.65,
         "rushYPCAllowed": 3.4,
         "rushYPGAllowed": 77.71,
-        "rushTDPerGameAllowed": 0.65,
-        "sackPct": 0.0742,
-        "blitzPct": 0.216,
-        "pressurePct": 0.229,
-        "normalizedRank": 2
+        "sackPct": 0.0742
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2022",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2022,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.656,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 222.88,
-        "passTDPerGameAllowed": 1.18,
         "interceptionsPerGame": 1.18,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.18,
+        "passYPGAllowed": 222.88,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2022
     }
   ]
 }

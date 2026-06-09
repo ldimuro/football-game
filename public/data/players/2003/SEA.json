@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004915_SEA_2003",
       "name": "Bobby Engram",
       "position": "WR",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "recYPG": 45.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 45.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.5117,
       "id": "p_00-0007091_SEA_2003",
       "name": "Matt Hasselbeck",
       "position": "QB",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 92,
       "stats": {
-        "passYPG": 244.1,
-        "qbr": 96.6,
-        "avgTDPerGame": 1.529,
         "avgINTPerGame": 0.941,
-        "completionPct": 0.6057
+        "avgTDPerGame": 1.529,
+        "completionPct": 0.6057,
+        "passYPG": 244.1,
+        "qbr": 96.6
       },
-      "eraNormFactor": 1.5117
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011224_SEA_2003",
       "name": "Itula Mili",
       "position": "WR",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 72,
       "stats": {
-        "recYPG": 32.6,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 32.6,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019647_SEA_2003",
       "name": "Shaun Alexander",
       "position": "RB",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 94,
       "stats": {
-        "rushYPG": 87.1,
-        "tdPerGame": 1.0,
+        "recYPG": 17.4,
         "rushAttPerGame": 20.35,
-        "recYPG": 17.4
+        "rushYPG": 87.1,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019663_SEA_2003",
       "name": "Darrell Jackson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 96,
       "stats": {
-        "recYPG": 74.7,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 74.7,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020490_SEA_2003",
       "name": "Koren Robinson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 88,
       "stats": {
-        "recYPG": 61.5,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 61.5,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021182_SEA_2003",
       "name": "Maurice Morris",
       "position": "RB",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 60,
       "stats": {
-        "rushYPG": 17.4,
-        "tdPerGame": 0.0,
+        "recYPG": 2.3,
         "rushAttPerGame": 2.79,
-        "recYPG": 2.3
+        "rushYPG": 17.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_SEA_2003",
       "name": "J.Brown",
       "position": "K",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.75,
         "avgKickDistance": 39.2,
         "avgMissDistance": 46.8,
+        "fgAccuracy": 0.75,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2003",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.34,
+        "normalizedRank": 11,
         "rushTDPct": 0.0422,
-        "normalizedRank": 11
+        "rushYPC": 4.34,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2003",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 109.94,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0698,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0698
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2003",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2003,
+      "rating": 76,
       "stats": {
         "completionPctAllowed": 0.5986,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 217.5,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 217.5,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2003
     }
   ]
 }

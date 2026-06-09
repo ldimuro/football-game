@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017162_PIT_2008",
       "name": "Hines Ward",
       "position": "WR",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 91,
       "stats": {
-        "recYPG": 63.9,
-        "tdPerGame": 0.368,
+        "avgCatchesPerGame": 4.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.79
+        "recYPG": 63.9,
+        "tdPerGame": 0.368
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022217_PIT_2008",
       "name": "Mewelde Moore",
       "position": "RB",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 75,
       "stats": {
-        "rushYPG": 36.1,
-        "tdPerGame": 0.294,
+        "recYPG": 20.3,
         "rushAttPerGame": 8.53,
-        "recYPG": 20.3
+        "rushYPG": 36.1,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022250_PIT_2008",
       "name": "Willie Parker",
       "position": "RB",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 85,
       "stats": {
-        "rushYPG": 73.9,
-        "tdPerGame": 0.5,
+        "recYPG": 0.8,
         "rushAttPerGame": 19.93,
-        "recYPG": 0.8
+        "rushYPG": 73.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.1591,
       "id": "p_00-0022924_PIT_2008",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "passYPG": 210.8,
-        "qbr": 55.4,
-        "avgTDPerGame": 1.053,
         "avgINTPerGame": 0.842,
-        "completionPct": 0.6011
+        "avgTDPerGame": 1.053,
+        "completionPct": 0.6011,
+        "passYPG": 210.8,
+        "qbr": 55.4
       },
-      "eraNormFactor": 1.1591
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023367_PIT_2008",
       "name": "Nate Washington",
       "position": "WR",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 73,
       "stats": {
-        "recYPG": 40.8,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.76,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.76
+        "recYPG": 40.8,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023465_PIT_2008",
       "name": "Heath Miller",
       "position": "WR",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "recYPG": 41.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.69,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.69
+        "recYPG": 41.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024240_PIT_2008",
       "name": "Santonio Holmes",
       "position": "WR",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 89,
       "stats": {
-        "recYPG": 58.2,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 3.78,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.78
+        "recYPG": 58.2,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024846_PIT_2008",
       "name": "Gary Russell",
       "position": "RB",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 62,
       "stats": {
-        "rushYPG": 7.2,
-        "tdPerGame": 0.455,
+        "recYPG": -0.2,
         "rushAttPerGame": 3.09,
-        "recYPG": -0.2
+        "rushYPG": 7.2,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020737_PIT_2008",
       "name": "Je.Reed",
       "position": "K",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 34.3,
         "avgMissDistance": 42.2,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2008",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.54,
+        "normalizedRank": 30,
         "rushTDPct": 0.0361,
-        "normalizedRank": 30
+        "rushYPC": 3.54,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2008",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 98,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.3,
         "rushYPGAllowed": 80.25,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0957,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.0957
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2008",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2008,
+      "rating": 96,
       "stats": {
         "completionPctAllowed": 0.5647,
-        "yardsPerAttemptAllowed": 4.3,
-        "passYPGAllowed": 156.94,
-        "passTDPerGameAllowed": 0.75,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 0.75,
+        "passYPGAllowed": 156.94,
+        "yardsPerAttemptAllowed": 4.3
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2008
     }
   ]
 }

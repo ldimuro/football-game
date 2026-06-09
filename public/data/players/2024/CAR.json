@@ -1,234 +1,250 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.98,
       "id": "p_00-0027973_CAR_2024",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 66,
       "stats": {
-        "passYPG": 164.8,
-        "qbr": 19.8,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6625
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.6625,
+        "passYPG": 164.8,
+        "qbr": 19.8
       },
-      "eraNormFactor": 0.98
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030035_CAR_2024",
       "name": "Adam Thielen",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 93,
       "stats": {
-        "recYPG": 61.5,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.8,
         "avgTargetsPerGame": 6.2,
-        "avgCatchesPerGame": 4.8
+        "recYPG": 61.5,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033589_CAR_2024",
       "name": "David Moore",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 72,
       "stats": {
-        "recYPG": 25.1,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": 4.07,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 25.1,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035216_CAR_2024",
       "name": "Diontae Johnson",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 78,
       "stats": {
-        "recYPG": 32.2,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 32.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035243_CAR_2024",
       "name": "Miles Sanders",
       "position": "RB",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "rushYPG": 18.6,
-        "tdPerGame": 0.182,
+        "recYPG": 13.5,
         "rushAttPerGame": 5.0,
-        "recYPG": 13.5
+        "rushYPG": 18.6,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036555_CAR_2024",
       "name": "Chuba Hubbard",
       "position": "RB",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 93,
       "stats": {
-        "rushYPG": 79.7,
-        "tdPerGame": 0.667,
+        "recYPG": 11.4,
         "rushAttPerGame": 16.67,
-        "recYPG": 11.4
+        "rushYPG": 79.7,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037005_CAR_2024",
       "name": "Tommy Tremble",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 70,
       "stats": {
-        "recYPG": 23.4,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.3,
         "avgTargetsPerGame": 3.2,
-        "avgCatchesPerGame": 2.3
+        "recYPG": 23.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039062_CAR_2024",
       "name": "Jonathan Mingo",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 58,
       "stats": {
-        "recYPG": 11.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.21,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.21
+        "recYPG": 11.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0204,
       "id": "p_00-0039150_CAR_2024",
       "name": "Bryce Young",
       "position": "QB",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "passYPG": 171.6,
-        "qbr": 32.2,
-        "avgTDPerGame": 1.071,
         "avgINTPerGame": 0.643,
-        "completionPct": 0.6094
+        "avgTDPerGame": 1.071,
+        "completionPct": 0.6094,
+        "passYPG": 171.6,
+        "qbr": 32.2
       },
-      "eraNormFactor": 1.0204
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039342_CAR_2024",
       "name": "Xavier Legette",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": 5.6,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 33.1,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039356_CAR_2024",
       "name": "Ja'Tavion Sanders",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 65,
       "stats": {
-        "recYPG": 22.8,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 2.87,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 22.8,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039491_CAR_2024",
       "name": "Jalen Coker",
       "position": "WR",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 80,
       "stats": {
-        "recYPG": 43.5,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 2.91,
         "avgTargetsPerGame": 4.18,
-        "avgCatchesPerGame": 2.91
+        "recYPG": 43.5,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034173_CAR_2024",
       "name": "E.Pineiro",
       "position": "K",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.8462,
         "avgKickDistance": 37.1,
         "avgMissDistance": 45.2,
+        "fgAccuracy": 0.8462,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2024",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.58,
+        "normalizedRank": 10,
         "rushTDPct": 0.0439,
-        "normalizedRank": 10
+        "rushYPC": 4.58,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2024",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 57,
       "stats": {
+        "blitzPct": 0.29,
+        "normalizedRank": 32,
+        "pressurePct": 0.162,
+        "rushTDPerGameAllowed": 1.41,
         "rushYPCAllowed": 5.2,
         "rushYPGAllowed": 179.82,
-        "rushTDPerGameAllowed": 1.41,
-        "sackPct": 0.0604,
-        "blitzPct": 0.29,
-        "pressurePct": 0.162,
-        "normalizedRank": 32
+        "sackPct": 0.0604
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2024",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2024,
+      "rating": 61,
       "stats": {
         "completionPctAllowed": 0.6792,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 224.71,
-        "passTDPerGameAllowed": 2.06,
         "interceptionsPerGame": 0.53,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 2.06,
+        "passYPGAllowed": 224.71,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2024
     }
   ]
 }

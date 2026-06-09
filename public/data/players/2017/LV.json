@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025399_LV_2017",
       "name": "Marshawn Lynch",
       "position": "RB",
-      "team": "LV",
-      "year": 2017,
+      "rating": 88,
       "stats": {
-        "rushYPG": 59.4,
-        "tdPerGame": 0.467,
+        "recYPG": 10.1,
         "rushAttPerGame": 13.8,
-        "recYPG": 10.1
+        "rushYPG": 59.4,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026986_LV_2017",
       "name": "Michael Crabtree",
       "position": "WR",
-      "team": "LV",
-      "year": 2017,
+      "rating": 92,
       "stats": {
-        "recYPG": 47.5,
-        "tdPerGame": 0.615,
+        "avgCatchesPerGame": 4.46,
         "avgTargetsPerGame": 7.77,
-        "avgCatchesPerGame": 4.46
+        "recYPG": 47.5,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027061_LV_2017",
       "name": "Jared Cook",
       "position": "WR",
-      "team": "LV",
-      "year": 2017,
+      "rating": 80,
       "stats": {
-        "recYPG": 43.0,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 5.38,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 43.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031166_LV_2017",
       "name": "Seth Roberts",
       "position": "WR",
-      "team": "LV",
-      "year": 2017,
+      "rating": 72,
       "stats": {
-        "recYPG": 30.3,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": 4.33,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 30.3,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.1271,
       "id": "p_00-0031280_LV_2017",
       "name": "Derek Carr",
       "position": "QB",
-      "team": "LV",
-      "year": 2017,
+      "rating": 81,
       "stats": {
-        "passYPG": 233.1,
-        "qbr": 66.0,
-        "avgTDPerGame": 1.467,
         "avgINTPerGame": 0.867,
-        "completionPct": 0.6272
+        "avgTDPerGame": 1.467,
+        "completionPct": 0.6272,
+        "passYPG": 233.1,
+        "qbr": 66.0
       },
-      "eraNormFactor": 1.1271
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031544_LV_2017",
       "name": "Amari Cooper",
       "position": "WR",
-      "team": "LV",
-      "year": 2017,
+      "rating": 90,
       "stats": {
-        "recYPG": 48.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.43,
         "avgTargetsPerGame": 6.86,
-        "avgCatchesPerGame": 3.43
+        "recYPG": 48.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032940_LV_2017",
       "name": "DeAndre Washington",
       "position": "RB",
-      "team": "LV",
-      "year": 2017,
+      "rating": 64,
       "stats": {
-        "rushYPG": 10.2,
-        "tdPerGame": 0.133,
+        "recYPG": 13.1,
         "rushAttPerGame": 3.8,
-        "recYPG": 13.1
+        "rushYPG": 10.2,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033025_LV_2017",
       "name": "Jalen Richard",
       "position": "RB",
-      "team": "LV",
-      "year": 2017,
+      "rating": 65,
       "stats": {
-        "rushYPG": 18.3,
-        "tdPerGame": 0.067,
+        "recYPG": 17.1,
         "rushAttPerGame": 3.73,
-        "recYPG": 17.1
+        "rushYPG": 18.3,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028907_LV_2017",
       "name": "G.Tavecchio",
       "position": "K",
-      "team": "LV",
-      "year": 2017,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.7619,
         "avgKickDistance": 38.6,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.7619,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_OLine_2017",
       "position": "OLine",
-      "team": "LV",
-      "year": 2017,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.2,
+        "normalizedRank": 13,
         "rushTDPct": 0.0351,
-        "normalizedRank": 13
+        "rushYPC": 4.2,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_DLine_2017",
       "position": "DLine",
-      "team": "LV",
-      "year": 2017,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 108.94,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0585,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.0585
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_Secondary_2017",
       "position": "Secondary",
-      "team": "LV",
-      "year": 2017,
+      "rating": 61,
       "stats": {
         "completionPctAllowed": 0.6811,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 241.12,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 0.31,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 241.12,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2017
     }
   ]
 }

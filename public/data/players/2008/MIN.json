@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0783,
       "id": "p_00-0005589_MIN_2008",
       "name": "Gus Frerotte",
       "position": "QB",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "passYPG": 196.1,
-        "qbr": 21.1,
-        "avgTDPerGame": 1.091,
         "avgINTPerGame": 1.364,
-        "completionPct": 0.5914
+        "avgTDPerGame": 1.091,
+        "completionPct": 0.5914,
+        "passYPG": 196.1,
+        "qbr": 21.1
       },
-      "eraNormFactor": 1.0783
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021314_MIN_2008",
       "name": "Chester Taylor",
       "position": "RB",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "rushYPG": 26.3,
-        "tdPerGame": 0.235,
+        "recYPG": 25.6,
         "rushAttPerGame": 6.65,
-        "recYPG": 25.6
+        "rushYPG": 26.3,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022054_MIN_2008",
       "name": "Visanthe Shiancoe",
       "position": "WR",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "recYPG": 35.5,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 35.5,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022144_MIN_2008",
       "name": "Bobby Wade",
       "position": "WR",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "recYPG": 41.8,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 41.8,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022807_MIN_2008",
       "name": "Bernard Berrian",
       "position": "WR",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 91,
       "stats": {
-        "recYPG": 66.7,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 66.7,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 0.8386,
       "id": "p_00-0024279_MIN_2008",
       "name": "Tarvaris Jackson",
       "position": "QB",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "passYPG": 152.5,
-        "qbr": 40.8,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 0.375,
-        "completionPct": 0.5598
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.5598,
+        "passYPG": 152.5,
+        "qbr": 40.8
       },
-      "eraNormFactor": 0.8386
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025394_MIN_2008",
+      "is_all_pro": true,
       "name": "Adrian Peterson",
       "position": "RB",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 92,
       "stats": {
-        "rushYPG": 108.2,
-        "tdPerGame": 0.706,
+        "recYPG": 7.4,
         "rushAttPerGame": 22.59,
-        "recYPG": 7.4
+        "rushYPG": 108.2,
+        "tdPerGame": 0.706
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010072_MIN_2008",
       "name": "R.Longwell",
       "position": "K",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 38.0,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2008",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.49,
+        "normalizedRank": 6,
         "rushTDPct": 0.0308,
-        "normalizedRank": 6
+        "rushYPC": 4.49,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2008",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 96,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 1,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.3,
         "rushYPGAllowed": 76.88,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0849,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 1
+        "sackPct": 0.0849
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2008",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2008,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6113,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 215.56,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 215.56,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2008
     }
   ]
 }

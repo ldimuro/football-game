@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2663,
       "id": "p_00-0029263_SEA_2021",
       "name": "Russell Wilson",
       "position": "QB",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 86,
       "stats": {
-        "passYPG": 222.4,
-        "qbr": 61.8,
-        "avgTDPerGame": 1.786,
         "avgINTPerGame": 0.429,
-        "completionPct": 0.6475
+        "avgTDPerGame": 1.786,
+        "completionPct": 0.6475,
+        "passYPG": 222.4,
+        "qbr": 61.8
       },
-      "eraNormFactor": 1.2663
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032211_SEA_2021",
       "name": "Tyler Lockett",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 95,
       "stats": {
-        "recYPG": 73.4,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": 6.69,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 73.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032426_SEA_2021",
       "name": "Alex Collins",
       "position": "RB",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 75,
       "stats": {
-        "rushYPG": 37.4,
-        "tdPerGame": 0.182,
+        "recYPG": 7.9,
         "rushAttPerGame": 9.82,
-        "recYPG": 7.9
+        "rushYPG": 37.4,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033594_SEA_2021",
       "name": "Chris Carson",
       "position": "RB",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "rushYPG": 58.0,
-        "tdPerGame": 0.75,
+        "recYPG": 7.2,
         "rushAttPerGame": 13.5,
-        "recYPG": 7.2
+        "rushYPG": 58.0,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033895_SEA_2021",
       "name": "Gerald Everett",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 79,
       "stats": {
-        "recYPG": 31.9,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": 4.2,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 31.9,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034159_SEA_2021",
       "name": "Will Dissly",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 63,
       "stats": {
-        "recYPG": 19.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 2.17,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 19.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034750_SEA_2021",
       "name": "Rashaad Penny",
       "position": "RB",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 87,
       "stats": {
-        "rushYPG": 74.9,
-        "tdPerGame": 0.6,
+        "recYPG": 4.8,
         "rushAttPerGame": 11.9,
-        "recYPG": 4.8
+        "rushYPG": 74.9,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035640_SEA_2021",
       "name": "DK Metcalf",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 94,
       "stats": {
-        "recYPG": 56.9,
-        "tdPerGame": 0.706,
+        "avgCatchesPerGame": 4.41,
         "avgTargetsPerGame": 7.59,
-        "avgCatchesPerGame": 4.41
+        "recYPG": 56.9,
+        "tdPerGame": 0.706
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036247_SEA_2021",
       "name": "Freddie Swain",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 70,
       "stats": {
-        "recYPG": 21.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 21.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036425_SEA_2021",
       "name": "DeeJay Dallas",
       "position": "RB",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 65,
       "stats": {
-        "rushYPG": 12.5,
-        "tdPerGame": 0.182,
+        "recYPG": 12.1,
         "rushAttPerGame": 3.0,
-        "recYPG": 12.1
+        "rushYPG": 12.5,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036620_SEA_2021",
       "name": "D'Wayne Eskridge",
       "position": "WR",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 60,
       "stats": {
-        "recYPG": 8.0,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.25,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.25
+        "recYPG": 8.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031492_SEA_2021",
       "name": "J.Myers",
       "position": "K",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 67,
       "stats": {
-        "fgAccuracy": 0.7391,
         "avgKickDistance": 40.1,
         "avgMissDistance": 45.2,
+        "fgAccuracy": 0.7391,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2021",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.02,
+        "normalizedRank": 3,
         "rushTDPct": 0.0436,
-        "normalizedRank": 3
+        "rushYPC": 5.02,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2021",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 77,
       "stats": {
+        "blitzPct": 0.224,
+        "normalizedRank": 17,
+        "pressurePct": 0.218,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 113.65,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0517,
-        "blitzPct": 0.224,
-        "pressurePct": 0.218,
-        "normalizedRank": 17
+        "sackPct": 0.0517
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2021",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2021,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6733,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 265.47,
-        "passTDPerGameAllowed": 1.41,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.41,
+        "passYPGAllowed": 265.47,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2021
     }
   ]
 }

@@ -1,179 +1,191 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5901,
       "id": "p_00-0017200_ARI_2005",
       "name": "Kurt Warner",
       "position": "QB",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "passYPG": 271.3,
-        "qbr": 80.8,
-        "avgTDPerGame": 1.1,
         "avgINTPerGame": 0.9,
-        "completionPct": 0.6453
+        "avgTDPerGame": 1.1,
+        "completionPct": 0.6453,
+        "passYPG": 271.3,
+        "qbr": 80.8
       },
-      "eraNormFactor": 1.5901
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020022_ARI_2005",
       "name": "Marcel Shipp",
       "position": "RB",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 73,
       "stats": {
-        "rushYPG": 30.1,
-        "tdPerGame": 0.0,
+        "recYPG": 17.0,
         "rushAttPerGame": 10.47,
-        "recYPG": 17.0
+        "rushYPG": 30.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.1933,
       "id": "p_00-0021206_ARI_2005",
       "name": "Josh McCown",
       "position": "QB",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 73,
       "stats": {
-        "passYPG": 203.6,
-        "qbr": 42.1,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.222,
-        "completionPct": 0.6037
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6037,
+        "passYPG": 203.6,
+        "qbr": 42.1
       },
-      "eraNormFactor": 1.1933
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022084_ARI_2005",
       "name": "Anquan Boldin",
       "position": "WR",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 98,
       "stats": {
-        "recYPG": 99.9,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 7.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 7.29
+        "recYPG": 99.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022156_ARI_2005",
       "name": "Bryant Johnson",
       "position": "WR",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "recYPG": 30.9,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.86,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.86
+        "recYPG": 30.9,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022921_ARI_2005",
       "name": "Larry Fitzgerald",
       "position": "WR",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 98,
       "stats": {
-        "recYPG": 88.1,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 6.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.44
+        "recYPG": 88.1,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023217_ARI_2005",
       "name": "Adam Bergen",
       "position": "WR",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 60,
       "stats": {
-        "recYPG": 20.8,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.15,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.15
+        "recYPG": 20.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023479_ARI_2005",
       "name": "J.J. Arrington",
       "position": "RB",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "rushYPG": 24.7,
-        "tdPerGame": 0.133,
+        "recYPG": 9.3,
         "rushAttPerGame": 7.47,
-        "recYPG": 9.3
+        "rushYPG": 24.7,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019676_ARI_2005",
+      "is_all_pro": true,
       "name": "N.Rackers",
       "position": "K",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 95,
       "stats": {
-        "fgAccuracy": 0.9556,
         "avgKickDistance": 37.4,
         "avgMissDistance": 48.5,
+        "fgAccuracy": 0.9556,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ARI",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2005",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 64,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.16,
+        "normalizedRank": 32,
         "rushTDPct": 0.0056,
-        "normalizedRank": 32
+        "rushYPC": 3.16,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2005",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 102.0,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0758,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0758
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2005",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2005,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6168,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 193.56,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 193.56,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2005
     }
   ]
 }

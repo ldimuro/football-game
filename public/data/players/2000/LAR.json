@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2000",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2000,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 13,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 106.06,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0955,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 13
+        "sackPct": 0.0955
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2000",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2000,
+      "rating": 66,
       "stats": {
         "completionPctAllowed": 0.6049,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 237.31,
-        "passTDPerGameAllowed": 2.0,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 2.0,
+        "passYPGAllowed": 237.31,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2000
     }
   ]
 }

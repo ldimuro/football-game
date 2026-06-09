@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011727_SF_2005",
       "name": "Johnnie Morton",
       "position": "WR",
-      "team": "SF",
-      "year": 2005,
+      "rating": 58,
       "stats": {
-        "recYPG": 24.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 24.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020474_SF_2005",
       "name": "Kevan Barlow",
       "position": "RB",
-      "team": "SF",
-      "year": 2005,
+      "rating": 82,
       "stats": {
-        "rushYPG": 48.4,
-        "tdPerGame": 0.25,
+        "recYPG": 20.1,
         "rushAttPerGame": 14.67,
-        "recYPG": 20.1
+        "rushYPG": 48.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020797_SF_2005",
       "name": "Maurice Hicks",
       "position": "RB",
-      "team": "SF",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "rushYPG": 44.0,
-        "tdPerGame": 0.429,
+        "recYPG": 6.7,
         "rushAttPerGame": 8.43,
-        "recYPG": 6.7
+        "rushYPG": 44.0,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022064_SF_2005",
       "name": "Arnaz Battle",
       "position": "WR",
-      "team": "SF",
-      "year": 2005,
+      "rating": 84,
       "stats": {
-        "recYPG": 45.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 45.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022097_SF_2005",
       "name": "Brandon Lloyd",
       "position": "WR",
-      "team": "SF",
-      "year": 2005,
+      "rating": 84,
       "stats": {
-        "recYPG": 48.9,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 48.9,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.5697,
       "id": "p_00-0023436_SF_2005",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "SF",
-      "year": 2005,
+      "rating": 57,
       "stats": {
-        "passYPG": 97.2,
-        "qbr": 0,
-        "avgTDPerGame": 0.111,
         "avgINTPerGame": 1.222,
-        "completionPct": 0.5091
+        "avgTDPerGame": 0.111,
+        "completionPct": 0.5091,
+        "passYPG": 97.2,
+        "qbr": 0
       },
-      "eraNormFactor": 0.5697
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023500_SF_2005",
       "name": "Frank Gore",
       "position": "RB",
-      "team": "SF",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "rushYPG": 43.4,
-        "tdPerGame": 0.214,
+        "recYPG": 9.4,
         "rushAttPerGame": 9.07,
-        "recYPG": 9.4
+        "rushYPG": 43.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011970_SF_2005",
       "name": "J.Nedney",
       "position": "K",
-      "team": "SF",
-      "year": 2005,
+      "rating": 94,
       "stats": {
-        "fgAccuracy": 0.8966,
         "avgKickDistance": 38.4,
         "avgMissDistance": 41.7,
+        "fgAccuracy": 0.8966,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2005",
       "position": "OLine",
-      "team": "SF",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.95,
+        "normalizedRank": 16,
         "rushTDPct": 0.021,
-        "normalizedRank": 16
+        "rushYPC": 3.95,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2005",
       "position": "DLine",
-      "team": "SF",
-      "year": 2005,
+      "rating": 70,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 18,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 114.5,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0486,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 18
+        "sackPct": 0.0486
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2005",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2005,
+      "rating": 61,
       "stats": {
         "completionPctAllowed": 0.6493,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 276.69,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 276.69,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2005
     }
   ]
 }

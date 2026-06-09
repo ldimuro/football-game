@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.8853,
       "id": "p_00-0009311_CIN_2004",
       "name": "Jon Kitna",
       "position": "QB",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 74,
       "stats": {
-        "passYPG": 155.8,
-        "qbr": 60.4,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5865
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.5865,
+        "passYPG": 155.8,
+        "qbr": 60.4
       },
-      "eraNormFactor": 0.8853
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020397_CIN_2004",
+      "is_all_pro": true,
       "name": "Chad Johnson",
       "position": "WR",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 97,
       "stats": {
-        "recYPG": 79.6,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 5.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.94
+        "recYPG": 79.6,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020407_CIN_2004",
       "name": "Rudi Johnson",
       "position": "RB",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "rushYPG": 91.1,
-        "tdPerGame": 0.75,
+        "recYPG": 5.2,
         "rushAttPerGame": 22.62,
-        "recYPG": 5.2
+        "rushYPG": 91.1,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020438_CIN_2004",
       "name": "T.J. Houshmandzadeh",
       "position": "WR",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "recYPG": 65.2,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 4.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.87
+        "recYPG": 65.2,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021084_CIN_2004",
       "name": "Matt Schobel",
       "position": "WR",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "recYPG": 20.1,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 2.1,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.1
+        "recYPG": 20.1,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.266,
       "id": "p_00-0021429_CIN_2004",
       "name": "Carson Palmer",
       "position": "QB",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "passYPG": 222.8,
-        "qbr": 27.0,
-        "avgTDPerGame": 1.385,
         "avgINTPerGame": 1.385,
-        "completionPct": 0.6088
+        "avgTDPerGame": 1.385,
+        "completionPct": 0.6088,
+        "passYPG": 222.8,
+        "qbr": 27.0
       },
-      "eraNormFactor": 1.266
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022171_CIN_2004",
       "name": "Kelley Washington",
       "position": "WR",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "recYPG": 29.1,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.38
+        "recYPG": 29.1,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019536_CIN_2004",
       "name": "S.Graham",
       "position": "K",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 37.2,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2004",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.21,
+        "normalizedRank": 14,
         "rushTDPct": 0.032,
-        "normalizedRank": 14
+        "rushYPC": 4.21,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2004",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 72,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 26,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 128.88,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0712,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 26
+        "sackPct": 0.0712
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2004",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2004,
+      "rating": 82,
       "stats": {
         "completionPctAllowed": 0.6019,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 206.44,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 13
+        "normalizedRank": 13,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 206.44,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2004
     }
   ]
 }

@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000745_NYG_2004",
+      "is_all_pro": true,
       "name": "Tiki Barber",
       "position": "RB",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 96,
       "stats": {
-        "rushYPG": 94.9,
-        "tdPerGame": 0.812,
+        "recYPG": 36.1,
         "rushAttPerGame": 20.12,
-        "recYPG": 36.1
+        "rushYPG": 94.9,
+        "tdPerGame": 0.812
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007468_NYG_2004",
       "name": "Ike Hilliard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "recYPG": 27.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 27.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016550_NYG_2004",
       "name": "Amani Toomer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 73,
       "stats": {
-        "recYPG": 49.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.4
+        "recYPG": 49.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.1672,
       "id": "p_00-0017200_NYG_2004",
       "name": "Kurt Warner",
       "position": "QB",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 77,
       "stats": {
-        "passYPG": 205.4,
-        "qbr": 56.5,
-        "avgTDPerGame": 0.6,
         "avgINTPerGame": 0.4,
-        "completionPct": 0.6282
+        "avgTDPerGame": 0.6,
+        "completionPct": 0.6282,
+        "passYPG": 205.4,
+        "qbr": 56.5
       },
-      "eraNormFactor": 1.1672
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019643_NYG_2004",
       "name": "Ron Dayne",
       "position": "RB",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 60,
       "stats": {
-        "rushYPG": 16.3,
-        "tdPerGame": 0.091,
+        "recYPG": 0.6,
         "rushAttPerGame": 4.73,
-        "recYPG": 0.6
+        "rushYPG": 16.3,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021148_NYG_2004",
       "name": "Jeremy Shockey",
       "position": "WR",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "recYPG": 44.4,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.07
+        "recYPG": 44.4,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 0.741,
       "id": "p_00-0022803_NYG_2004",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 61,
       "stats": {
-        "passYPG": 130.4,
-        "qbr": 7.6,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 1.125,
-        "completionPct": 0.4822
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.4822,
+        "passYPG": 130.4,
+        "qbr": 7.6
       },
-      "eraNormFactor": 0.741
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002975_NYG_2004",
       "name": "S.Christie",
       "position": "K",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.7857,
         "avgKickDistance": 35.5,
         "avgMissDistance": 42.3,
+        "fgAccuracy": 0.7857,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2004",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.49,
+        "normalizedRank": 5,
         "rushTDPct": 0.0425,
-        "normalizedRank": 5
+        "rushYPC": 4.49,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2004",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 79,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 28,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 134.81,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0857,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 28
+        "sackPct": 0.0857
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2004",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2004,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6253,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 189.38,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 189.38,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2004
     }
   ]
 }

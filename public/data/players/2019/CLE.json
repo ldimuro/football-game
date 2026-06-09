@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030155_CLE_2019",
       "name": "Demetrius Harris",
       "position": "WR",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 62,
       "stats": {
-        "recYPG": 11.5,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.15,
         "avgTargetsPerGame": 2.08,
-        "avgCatchesPerGame": 1.15
+        "recYPG": 11.5,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031235_CLE_2019",
       "name": "Odell Beckham",
       "position": "WR",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 91,
       "stats": {
-        "recYPG": 68.2,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.69,
         "avgTargetsPerGame": 8.38,
-        "avgCatchesPerGame": 4.69
+        "recYPG": 68.2,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031382_CLE_2019",
       "name": "Jarvis Landry",
       "position": "WR",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 94,
       "stats": {
-        "recYPG": 73.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": 8.62,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 73.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033611_CLE_2019",
       "name": "Ricky Seals-Jones",
       "position": "WR",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "recYPG": 25.4,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 2.44,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 25.4,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033923_CLE_2019",
       "name": "Kareem Hunt",
       "position": "RB",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "rushYPG": 22.4,
-        "tdPerGame": 0.25,
+        "recYPG": 35.6,
         "rushAttPerGame": 5.38,
-        "recYPG": 35.6
+        "rushYPG": 22.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034273_CLE_2019",
       "name": "Damion Ratley",
       "position": "WR",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 65,
       "stats": {
-        "recYPG": 22.2,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.33,
         "avgTargetsPerGame": 2.67,
-        "avgCatchesPerGame": 1.33
+        "recYPG": 22.2,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034791_CLE_2019",
+      "is_all_pro": true,
       "name": "Nick Chubb",
       "position": "RB",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 93,
       "stats": {
-        "rushYPG": 94.6,
-        "tdPerGame": 0.5,
+        "recYPG": 17.4,
         "rushAttPerGame": 18.69,
-        "recYPG": 17.4
+        "rushYPG": 94.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.1646,
       "id": "p_00-0034855_CLE_2019",
       "name": "Baker Mayfield",
       "position": "QB",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "passYPG": 242.7,
-        "qbr": 46.9,
-        "avgTDPerGame": 1.438,
         "avgINTPerGame": 1.312,
-        "completionPct": 0.5944
+        "avgTDPerGame": 1.438,
+        "completionPct": 0.5944,
+        "passYPG": 242.7,
+        "qbr": 46.9
       },
-      "eraNormFactor": 1.1646
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035145_CLE_2019",
       "name": "A.Seibert",
       "position": "K",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.8621,
         "avgKickDistance": 37.5,
         "avgMissDistance": 46.5,
+        "fgAccuracy": 0.8621,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2019",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.87,
+        "normalizedRank": 4,
         "rushTDPct": 0.0381,
-        "normalizedRank": 4
+        "rushYPC": 4.87,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2019",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 66,
       "stats": {
+        "blitzPct": 0.382,
+        "normalizedRank": 30,
+        "pressurePct": 0.238,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 5.0,
         "rushYPGAllowed": 144.69,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0741,
-        "blitzPct": 0.382,
-        "pressurePct": 0.238,
-        "normalizedRank": 30
+        "sackPct": 0.0741
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2019",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2019,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.6199,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 216.88,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 216.88,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2019
     }
   ]
 }

@@ -1,179 +1,191 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003035_DEN_2001",
       "name": "Desmond Clark",
       "position": "WR",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "recYPG": 40.4,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 3.64,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 3.64
+        "recYPG": 40.4,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004054_DEN_2001",
       "name": "Terrell Davis",
       "position": "RB",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "rushYPG": 87.6,
-        "tdPerGame": 0.0,
+        "recYPG": 8.6,
         "rushAttPerGame": 20.88,
-        "recYPG": 8.6
+        "rushYPG": 87.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005816_DEN_2001",
       "name": "Olandis Gary",
       "position": "RB",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 67,
       "stats": {
-        "rushYPG": 28.5,
-        "tdPerGame": 0.125,
+        "recYPG": 3.6,
         "rushAttPerGame": 7.12,
-        "recYPG": 3.6
+        "rushYPG": 28.5,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0672,
       "id": "p_00-0006423_DEN_2001",
       "name": "Brian Griese",
       "position": "QB",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 76,
       "stats": {
-        "passYPG": 188.5,
-        "qbr": 37.9,
-        "avgTDPerGame": 1.533,
         "avgINTPerGame": 1.267,
-        "completionPct": 0.6098
+        "avgTDPerGame": 1.533,
+        "completionPct": 0.6098,
+        "passYPG": 188.5,
+        "qbr": 37.9
       },
-      "eraNormFactor": 1.0672
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009163_DEN_2001",
       "name": "Eddie Kennison",
       "position": "WR",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 77,
       "stats": {
-        "recYPG": 40.9,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.58,
         "avgTargetsPerGame": 4.17,
-        "avgCatchesPerGame": 2.58
+        "recYPG": 40.9,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015290_DEN_2001",
+      "is_all_pro": true,
       "name": "Rod Smith",
       "position": "WR",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 99,
       "stats": {
-        "recYPG": 89.5,
-        "tdPerGame": 0.733,
+        "avgCatchesPerGame": 7.53,
         "avgTargetsPerGame": 11.47,
-        "avgCatchesPerGame": 7.53
+        "recYPG": 89.5,
+        "tdPerGame": 0.733
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019109_DEN_2001",
       "name": "Scottie Montgomery",
       "position": "WR",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 59,
       "stats": {
-        "recYPG": 12.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.38,
         "avgTargetsPerGame": 2.75,
-        "avgCatchesPerGame": 1.38
+        "recYPG": 12.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019594_DEN_2001",
       "name": "Mike Anderson",
       "position": "RB",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "rushYPG": 42.4,
-        "tdPerGame": 0.25,
+        "recYPG": 2.9,
         "rushAttPerGame": 10.94,
-        "recYPG": 2.9
+        "rushYPG": 42.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004811_DEN_2001",
+      "is_all_pro": true,
       "name": "J.Elam",
       "position": "K",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8611,
         "avgKickDistance": 37.9,
         "avgMissDistance": 50.8,
+        "fgAccuracy": 0.8611,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DEN",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2001",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.9,
+        "normalizedRank": 20,
         "rushTDPct": 0.0146,
-        "normalizedRank": 20
+        "rushYPC": 3.9,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2001",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 6,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 93.25,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0757,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 6
+        "sackPct": 0.0757
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2001",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2001,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.5981,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 205.12,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 205.12,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2001
     }
   ]
 }

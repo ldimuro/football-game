@@ -1,149 +1,159 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002565_DET_2006",
       "name": "Dan Campbell",
       "position": "WR",
-      "team": "DET",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "recYPG": 23.7,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 23.7,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.4996,
       "id": "p_00-0009311_DET_2006",
       "name": "Jon Kitna",
       "position": "QB",
-      "team": "DET",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "passYPG": 263.0,
-        "qbr": 28.8,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 1.375,
-        "completionPct": 0.6242
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.6242,
+        "passYPG": 263.0,
+        "qbr": 28.8
       },
-      "eraNormFactor": 1.4996
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019281_DET_2006",
       "name": "Mike Furrey",
       "position": "WR",
-      "team": "DET",
-      "year": 2006,
+      "rating": 93,
       "stats": {
-        "recYPG": 67.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 6.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.12
+        "recYPG": 67.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021750_DET_2006",
       "name": "Arlen Harris",
       "position": "RB",
-      "team": "DET",
-      "year": 2006,
+      "rating": 70,
       "stats": {
-        "rushYPG": 22.6,
-        "tdPerGame": 0.143,
+        "recYPG": 18.9,
         "rushAttPerGame": 7.0,
-        "recYPG": 18.9
+        "rushYPG": 22.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022782_DET_2006",
       "name": "Kevin Jones",
       "position": "RB",
-      "team": "DET",
-      "year": 2006,
+      "rating": 86,
       "stats": {
-        "rushYPG": 57.4,
-        "tdPerGame": 0.5,
+        "recYPG": 43.3,
         "rushAttPerGame": 15.08,
-        "recYPG": 43.3
+        "rushYPG": 57.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022909_DET_2006",
       "name": "Roy Williams",
       "position": "WR",
-      "team": "DET",
-      "year": 2006,
+      "rating": 96,
       "stats": {
-        "recYPG": 81.9,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 5.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.12
+        "recYPG": 81.9,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006800_DET_2006",
       "name": "J.Hanson",
       "position": "K",
-      "team": "DET",
-      "year": 2006,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.8788,
         "avgKickDistance": 36.3,
         "avgMissDistance": 50.0,
+        "fgAccuracy": 0.8788,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2006",
       "position": "OLine",
-      "team": "DET",
-      "year": 2006,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.7,
+        "normalizedRank": 27,
         "rushTDPct": 0.0296,
-        "normalizedRank": 27
+        "rushYPC": 3.7,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2006",
       "position": "DLine",
-      "team": "DET",
-      "year": 2006,
+      "rating": 70,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 21,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 125.62,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0587,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 21
+        "sackPct": 0.0587
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2006",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2006,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.6634,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 220.0,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 220.0,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2006
     }
   ]
 }

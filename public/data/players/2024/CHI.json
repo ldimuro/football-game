@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030279_CHI_2024",
       "name": "Keenan Allen",
       "position": "WR",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 49.6,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 4.67,
         "avgTargetsPerGame": 8.07,
-        "avgCatchesPerGame": 4.67
+        "recYPG": 49.6,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034827_CHI_2024",
       "name": "D.J. Moore",
       "position": "WR",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 56.8,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 5.76,
         "avgTargetsPerGame": 8.24,
-        "avgCatchesPerGame": 5.76
+        "recYPG": 56.8,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036275_CHI_2024",
       "name": "D'Andre Swift",
       "position": "RB",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "rushYPG": 56.4,
-        "tdPerGame": 0.353,
+        "recYPG": 22.7,
         "rushAttPerGame": 14.88,
-        "recYPG": 22.7
+        "rushYPG": 56.4,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036290_CHI_2024",
       "name": "Cole Kmet",
       "position": "WR",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.9,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 3.36,
         "avgTargetsPerGame": 3.93,
-        "avgCatchesPerGame": 3.36
+        "recYPG": 33.9,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036906_CHI_2024",
       "name": "Khalil Herbert",
       "position": "RB",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 63,
       "stats": {
-        "rushYPG": 16.2,
-        "tdPerGame": 0.125,
+        "recYPG": 3.1,
         "rushAttPerGame": 4.5,
-        "recYPG": 3.1
+        "rushYPG": 16.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039021_CHI_2024",
       "name": "Roschon Johnson",
       "position": "RB",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "rushYPG": 12.5,
-        "tdPerGame": 0.5,
+        "recYPG": 8.7,
         "rushAttPerGame": 4.58,
-        "recYPG": 8.7
+        "rushYPG": 12.5,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.2387,
       "id": "p_00-0039918_CHI_2024",
       "name": "Caleb Williams",
       "position": "QB",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 78,
       "stats": {
-        "passYPG": 208.3,
-        "qbr": 24.2,
-        "avgTDPerGame": 1.176,
         "avgINTPerGame": 0.353,
-        "completionPct": 0.6246
+        "avgTDPerGame": 1.176,
+        "completionPct": 0.6246,
+        "passYPG": 208.3,
+        "qbr": 24.2
       },
-      "eraNormFactor": 1.2387
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039919_CHI_2024",
       "name": "Rome Odunze",
       "position": "WR",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 81,
       "stats": {
-        "recYPG": 43.2,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 3.18,
         "avgTargetsPerGame": 5.94,
-        "avgCatchesPerGame": 3.18
+        "recYPG": 43.2,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031203_CHI_2024",
       "name": "C.Santos",
       "position": "K",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.84,
         "avgKickDistance": 43.4,
         "avgMissDistance": 48.2,
+        "fgAccuracy": 0.84,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2024",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.02,
+        "normalizedRank": 26,
         "rushTDPct": 0.0302,
-        "normalizedRank": 26
+        "rushYPC": 4.02,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2024",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 70,
       "stats": {
+        "blitzPct": 0.235,
+        "normalizedRank": 28,
+        "pressurePct": 0.251,
+        "rushTDPerGameAllowed": 1.18,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 136.29,
-        "rushTDPerGameAllowed": 1.18,
-        "sackPct": 0.0795,
-        "blitzPct": 0.235,
-        "pressurePct": 0.251,
-        "normalizedRank": 28
+        "sackPct": 0.0795
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2024",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2024,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.6461,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 217.94,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 217.94,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2024
     }
   ]
 }

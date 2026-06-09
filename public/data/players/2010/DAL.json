@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2611,
       "id": "p_00-0009311_DAL_2010",
       "name": "Jon Kitna",
       "position": "QB",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "passYPG": 236.5,
-        "qbr": 74.1,
-        "avgTDPerGame": 1.6,
         "avgINTPerGame": 1.2,
-        "completionPct": 0.6572
+        "avgTDPerGame": 1.6,
+        "completionPct": 0.6572,
+        "passYPG": 236.5,
+        "qbr": 74.1
       },
-      "eraNormFactor": 1.2611
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.4265,
       "id": "p_00-0021678_DAL_2010",
       "name": "Tony Romo",
       "position": "QB",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 87,
       "stats": {
-        "passYPG": 267.5,
-        "qbr": 92.4,
-        "avgTDPerGame": 1.833,
         "avgINTPerGame": 1.167,
-        "completionPct": 0.6948
+        "avgTDPerGame": 1.833,
+        "completionPct": 0.6948,
+        "passYPG": 267.5,
+        "qbr": 92.4
       },
-      "eraNormFactor": 1.4265
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2010",
+      "is_all_pro": true,
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 95,
       "stats": {
-        "recYPG": 62.6,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 5.88,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 5.88
+        "recYPG": 62.6,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022909_DAL_2010",
       "name": "Roy Williams",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 76,
       "stats": {
-        "recYPG": 35.3,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.47,
         "avgTargetsPerGame": 4.27,
-        "avgCatchesPerGame": 2.47
+        "recYPG": 35.3,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023544_DAL_2010",
       "name": "Marion Barber",
       "position": "RB",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 71,
       "stats": {
-        "rushYPG": 28.8,
-        "tdPerGame": 0.308,
+        "recYPG": 3.8,
         "rushAttPerGame": 8.69,
-        "recYPG": 3.8
+        "rushYPG": 28.8,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023921_DAL_2010",
       "name": "Miles Austin",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 93,
       "stats": {
-        "recYPG": 65.1,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 7.44,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 65.1,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023953_DAL_2010",
       "name": "Sam Hurd",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 58,
       "stats": {
-        "recYPG": 12.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.4,
         "avgTargetsPerGame": 2.3,
-        "avgCatchesPerGame": 1.4
+        "recYPG": 12.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026162_DAL_2010",
       "name": "Felix Jones",
       "position": "RB",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 79,
       "stats": {
-        "rushYPG": 50.0,
-        "tdPerGame": 0.062,
+        "recYPG": 28.1,
         "rushAttPerGame": 11.56,
-        "recYPG": 28.1
+        "rushYPG": 50.0,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026201_DAL_2010",
       "name": "Martellus Bennett",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 61,
       "stats": {
-        "recYPG": 17.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 3.2,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 17.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026262_DAL_2010",
       "name": "Tashard Choice",
       "position": "RB",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "rushYPG": 20.2,
-        "tdPerGame": 0.25,
+        "recYPG": 9.1,
         "rushAttPerGame": 5.5,
-        "recYPG": 9.1
+        "rushYPG": 20.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027902_DAL_2010",
       "name": "Dez Bryant",
       "position": "WR",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 88,
       "stats": {
-        "recYPG": 46.8,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 46.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027119_DAL_2010",
       "name": "D.Buehler",
       "position": "K",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.75,
         "avgKickDistance": 38.6,
         "avgMissDistance": 43.8,
+        "fgAccuracy": 0.75,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2010",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.17,
+        "normalizedRank": 15,
         "rushTDPct": 0.0234,
-        "normalizedRank": 15
+        "rushYPC": 4.17,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2010",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 108.38,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0648,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.0648
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2010",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2010,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6444,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 243.38,
-        "passTDPerGameAllowed": 2.06,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 2.06,
+        "passYPGAllowed": 243.38,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2010
     }
   ]
 }

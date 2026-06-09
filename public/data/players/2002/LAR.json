@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2002",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2002,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 113.5,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0824,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0824
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2002",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2002,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6334,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 200.56,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 200.56,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2002
     }
   ]
 }

@@ -9,7 +9,7 @@ import type { Player, TeamUnit, RosterPosition } from '../../types'
 export function DraftOffer() {
   const {
     round, currentDraftOffer, roster, draftRerollAvailable,
-    isLoading, rerollDraftOffer, draftPlayer, skipDraft,
+    isLoading, rerollDraftOfferTeam, rerollDraftOfferYear, draftPlayer, skipDraft,
   } = useGameStore()
   const [selectedId, setSelectedId] = useState<string | null>(null)
   const [showSlotChooser, setShowSlotChooser] = useState(false)
@@ -88,11 +88,18 @@ export function DraftOffer() {
         </div>
         <div className="flex gap-2">
           <Button
-            onClick={rerollDraftOffer}
+            onClick={rerollDraftOfferTeam}
             variant="secondary"
             disabled={!draftRerollAvailable || isLoading}
           >
-            Re-roll Offer
+            Re-Roll Team
+          </Button>
+          <Button
+            onClick={rerollDraftOfferYear}
+            variant="secondary"
+            disabled={!draftRerollAvailable || isLoading}
+          >
+            Re-Roll Year
           </Button>
           <Button onClick={skipDraft} variant="ghost" disabled={isLoading}>
             Skip

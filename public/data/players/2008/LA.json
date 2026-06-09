@@ -1,33 +1,35 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_LA_2008",
       "name": "J.Brown",
       "position": "K",
-      "team": "LA",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8611,
         "avgKickDistance": 40.1,
         "avgMissDistance": 47.0,
+        "fgAccuracy": 0.8611,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2008",
       "position": "OLine",
-      "team": "LA",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.94,
+        "normalizedRank": 23,
         "rushTDPct": 0.0192,
-        "normalizedRank": 23
+        "rushYPC": 3.94,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2008
     }
   ]
 }

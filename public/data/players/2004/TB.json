@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002058_TB_2004",
       "name": "Tim Brown",
       "position": "WR",
-      "team": "TB",
-      "year": 2004,
+      "rating": 61,
       "stats": {
-        "recYPG": 20.0,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 20.0,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004294_TB_2004",
       "name": "Ken Dilger",
       "position": "WR",
-      "team": "TB",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "recYPG": 23.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 23.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005720_TB_2004",
       "name": "Joey Galloway",
       "position": "WR",
-      "team": "TB",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "recYPG": 41.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.3,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.3
+        "recYPG": 41.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.3598,
       "id": "p_00-0006423_TB_2004",
       "name": "Brian Griese",
       "position": "QB",
-      "team": "TB",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "passYPG": 239.3,
-        "qbr": 100,
-        "avgTDPerGame": 1.818,
         "avgINTPerGame": 1.091,
-        "completionPct": 0.6935
+        "avgTDPerGame": 1.818,
+        "completionPct": 0.6935,
+        "passYPG": 239.3,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3598
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 0.9575,
       "id": "p_00-0008442_TB_2004",
       "name": "Brad Johnson",
       "position": "QB",
-      "team": "TB",
-      "year": 2004,
+      "rating": 69,
       "stats": {
-        "passYPG": 168.5,
-        "qbr": 16.8,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.6311
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.6311,
+        "passYPG": 168.5,
+        "qbr": 16.8
       },
-      "eraNormFactor": 0.9575
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008962_TB_2004",
       "name": "Joe Jurevicius",
       "position": "WR",
-      "team": "TB",
-      "year": 2004,
+      "rating": 74,
       "stats": {
-        "recYPG": 37.0,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 37.0,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013013_TB_2004",
       "name": "Michael Pittman",
       "position": "RB",
-      "team": "TB",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "rushYPG": 71.2,
-        "tdPerGame": 0.538,
+        "recYPG": 30.1,
         "rushAttPerGame": 16.85,
-        "recYPG": 30.1
+        "rushYPG": 71.2,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022725_TB_2004",
       "name": "Michael Clayton",
       "position": "WR",
-      "team": "TB",
-      "year": 2004,
+      "rating": 93,
       "stats": {
-        "recYPG": 74.6,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 74.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006223_TB_2004",
       "name": "M.Gramatica",
       "position": "K",
-      "team": "TB",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "fgAccuracy": 0.625,
         "avgKickDistance": 35.2,
         "avgMissDistance": 38.4,
+        "fgAccuracy": 0.625,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_OLine_2004",
       "position": "OLine",
-      "team": "TB",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.79,
+        "normalizedRank": 25,
         "rushTDPct": 0.0229,
-        "normalizedRank": 25
+        "rushYPC": 3.79,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_DLine_2004",
       "position": "DLine",
-      "team": "TB",
-      "year": 2004,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 19,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 123.31,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.1032,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 19
+        "sackPct": 0.1032
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TB_Secondary_2004",
       "position": "Secondary",
-      "team": "TB",
-      "year": 2004,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5665,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 161.19,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 161.19,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "TB",
+      "year": 2004
     }
   ]
 }

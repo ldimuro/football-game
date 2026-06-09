@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2032,
       "id": "p_00-0022803_NYG_2012",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 84,
       "stats": {
-        "passYPG": 246.8,
-        "qbr": 85.9,
-        "avgTDPerGame": 1.625,
         "avgINTPerGame": 0.938,
-        "completionPct": 0.5989
+        "avgTDPerGame": 1.625,
+        "completionPct": 0.5989,
+        "passYPG": 246.8,
+        "qbr": 85.9
       },
-      "eraNormFactor": 1.2032
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024345_NYG_2012",
       "name": "Domenik Hixon",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 77,
       "stats": {
-        "recYPG": 43.6,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.54,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 43.6,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025637_NYG_2012",
       "name": "Ahmad Bradshaw",
       "position": "RB",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 91,
       "stats": {
-        "rushYPG": 72.5,
-        "tdPerGame": 0.429,
+        "recYPG": 17.5,
         "rushAttPerGame": 15.79,
-        "recYPG": 17.5
+        "rushYPG": 72.5,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026201_NYG_2012",
       "name": "Martellus Bennett",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 82,
       "stats": {
-        "recYPG": 39.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 5.62,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 39.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026902_NYG_2012",
       "name": "Ramses Barden",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "recYPG": 36.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 36.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027005_NYG_2012",
       "name": "Hakeem Nicks",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 87,
       "stats": {
-        "recYPG": 57.7,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.42,
         "avgTargetsPerGame": 8.33,
-        "avgCatchesPerGame": 4.42
+        "recYPG": 57.7,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027094_NYG_2012",
       "name": "Andre Brown",
       "position": "RB",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 86,
       "stats": {
-        "rushYPG": 48.1,
-        "tdPerGame": 1.0,
+        "recYPG": 10.8,
         "rushAttPerGame": 9.12,
-        "recYPG": 10.8
+        "rushYPG": 48.1,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027265_NYG_2012",
       "name": "Victor Cruz",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 96,
       "stats": {
-        "recYPG": 68.2,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 5.38,
         "avgTargetsPerGame": 8.94,
-        "avgCatchesPerGame": 5.38
+        "recYPG": 68.2,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029251_NYG_2012",
       "name": "David Wilson",
       "position": "RB",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "rushYPG": 25.6,
-        "tdPerGame": 0.286,
+        "recYPG": 2.4,
         "rushAttPerGame": 5.07,
-        "recYPG": 2.4
+        "rushYPG": 25.6,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029262_NYG_2012",
       "name": "Rueben Randle",
       "position": "WR",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 73,
       "stats": {
-        "recYPG": 29.8,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 1.9,
         "avgTargetsPerGame": 3.2,
-        "avgCatchesPerGame": 1.9
+        "recYPG": 29.8,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019778_NYG_2012",
       "name": "L.Tynes",
       "position": "K",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.8462,
         "avgKickDistance": 35.2,
         "avgMissDistance": 42.3,
+        "fgAccuracy": 0.8462,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2012",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.55,
+        "normalizedRank": 7,
         "rushTDPct": 0.044,
-        "normalizedRank": 7
+        "rushYPC": 4.55,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2012",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 69,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 25,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 129.12,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0618,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 25
+        "sackPct": 0.0618
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2012",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2012,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6386,
-        "yardsPerAttemptAllowed": 7.2,
-        "passYPGAllowed": 254.25,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 28
+        "normalizedRank": 28,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 254.25,
+        "yardsPerAttemptAllowed": 7.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2012
     }
   ]
 }

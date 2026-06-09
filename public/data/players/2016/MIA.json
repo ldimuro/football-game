@@ -1,193 +1,206 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.9924,
       "id": "p_00-0025708_MIA_2016",
       "name": "Matt Moore",
       "position": "QB",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 81,
       "stats": {
-        "passYPG": 202.0,
-        "qbr": 100,
-        "avgTDPerGame": 1.8,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.6829
+        "avgTDPerGame": 1.8,
+        "completionPct": 0.6829,
+        "passYPG": 202.0,
+        "qbr": 100
       },
-      "eraNormFactor": 0.9924
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.132,
       "id": "p_00-0029701_MIA_2016",
       "name": "Ryan Tannehill",
       "position": "QB",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 75,
       "stats": {
-        "passYPG": 230.4,
-        "qbr": 58.4,
-        "avgTDPerGame": 1.462,
         "avgINTPerGame": 0.923,
-        "completionPct": 0.671
+        "avgTDPerGame": 1.462,
+        "completionPct": 0.671,
+        "passYPG": 230.4,
+        "qbr": 58.4
       },
-      "eraNormFactor": 1.132
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030085_MIA_2016",
       "name": "Kenny Stills",
       "position": "WR",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 86,
       "stats": {
-        "recYPG": 47.5,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 2.76,
         "avgTargetsPerGame": 5.06,
-        "avgCatchesPerGame": 2.76
+        "recYPG": 47.5,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030422_MIA_2016",
       "name": "Dion Sims",
       "position": "WR",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 70,
       "stats": {
-        "recYPG": 20.7,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 2.21,
         "avgTargetsPerGame": 2.86,
-        "avgCatchesPerGame": 2.21
+        "recYPG": 20.7,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030874_MIA_2016",
       "name": "Damien Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 65,
       "stats": {
-        "rushYPG": 8.1,
-        "tdPerGame": 0.188,
+        "recYPG": 15.8,
         "rushAttPerGame": 2.38,
-        "recYPG": 15.8
+        "rushYPG": 8.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031382_MIA_2016",
       "name": "Jarvis Landry",
       "position": "WR",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 92,
       "stats": {
-        "recYPG": 72.8,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 6.18,
         "avgTargetsPerGame": 8.53,
-        "avgCatchesPerGame": 6.18
+        "recYPG": 72.8,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031547_MIA_2016",
       "name": "DeVante Parker",
       "position": "WR",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 84,
       "stats": {
-        "recYPG": 49.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 5.81,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 49.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031590_MIA_2016",
+      "is_all_pro": true,
       "name": "Jay Ajayi",
       "position": "RB",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 90,
       "stats": {
-        "rushYPG": 81.6,
-        "tdPerGame": 0.5,
+        "recYPG": 10.2,
         "rushAttPerGame": 17.25,
-        "recYPG": 10.2
+        "rushYPG": 81.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033118_MIA_2016",
       "name": "Kenyan Drake",
       "position": "RB",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 61,
       "stats": {
-        "rushYPG": 12.8,
-        "tdPerGame": 0.143,
+        "recYPG": 3.3,
         "rushAttPerGame": 2.36,
-        "recYPG": 3.3
+        "rushYPG": 12.8,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031718_MIA_2016",
       "name": "A.Franks",
       "position": "K",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 66,
       "stats": {
-        "fgAccuracy": 0.7826,
         "avgKickDistance": 33.7,
         "avgMissDistance": 38.6,
+        "fgAccuracy": 0.7826,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2016",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.4,
+        "normalizedRank": 10,
         "rushTDPct": 0.0329,
-        "normalizedRank": 10
+        "rushYPC": 4.4,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2016",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 140.44,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0558,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0558
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2016",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2016,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6227,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 242.19,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 242.19,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2016
     }
   ]
 }

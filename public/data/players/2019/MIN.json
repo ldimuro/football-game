@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027981_MIN_2019",
       "name": "Kyle Rudolph",
       "position": "WR",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "recYPG": 23.6,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 2.65,
         "avgTargetsPerGame": 3.41,
-        "avgCatchesPerGame": 2.65
+        "recYPG": 23.6,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.1339,
       "id": "p_00-0029604_MIN_2019",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 87,
       "stats": {
-        "passYPG": 236.3,
-        "qbr": 99.6,
-        "avgTDPerGame": 1.647,
         "avgINTPerGame": 0.412,
-        "completionPct": 0.6885
+        "avgTDPerGame": 1.647,
+        "completionPct": 0.6885,
+        "passYPG": 236.3,
+        "qbr": 99.6
       },
-      "eraNormFactor": 1.1339
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030035_MIN_2019",
       "name": "Adam Thielen",
       "position": "WR",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 89,
       "stats": {
-        "recYPG": 49.8,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 5.33,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 49.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031588_MIN_2019",
       "name": "Stefon Diggs",
       "position": "WR",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 92,
       "stats": {
-        "recYPG": 70.9,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 70.9,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033893_MIN_2019",
+      "is_all_pro": true,
       "name": "Dalvin Cook",
       "position": "RB",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 97,
       "stats": {
-        "rushYPG": 77.9,
-        "tdPerGame": 0.938,
+        "recYPG": 35.2,
         "rushAttPerGame": 17.94,
-        "recYPG": 35.2
+        "rushYPG": 77.9,
+        "tdPerGame": 0.938
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034208_MIN_2019",
       "name": "Mike Boone",
       "position": "RB",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 81,
       "stats": {
-        "rushYPG": 54.6,
-        "tdPerGame": 0.6,
+        "recYPG": 3.4,
         "rushAttPerGame": 9.8,
-        "recYPG": 3.4
+        "rushYPG": 54.6,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034970_MIN_2019",
       "name": "Irv Smith",
       "position": "WR",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 69,
       "stats": {
-        "recYPG": 23.3,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 23.3,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034972_MIN_2019",
       "name": "Alexander Mattison",
       "position": "RB",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 68,
       "stats": {
-        "rushYPG": 32.3,
-        "tdPerGame": 0.067,
+        "recYPG": 6.1,
         "rushAttPerGame": 7.07,
-        "recYPG": 6.1
+        "rushYPG": 32.3,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035006_MIN_2019",
       "name": "Olabisi Johnson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "recYPG": 22.2,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": 3.43,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 22.2,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028660_MIN_2019",
       "name": "D.Bailey",
       "position": "K",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.9375,
         "avgKickDistance": 36.0,
         "avgMissDistance": 46.0,
+        "fgAccuracy": 0.9375,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2019",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.35,
+        "normalizedRank": 15,
         "rushTDPct": 0.0399,
-        "normalizedRank": 15
+        "rushYPC": 4.35,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2019",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 84,
       "stats": {
+        "blitzPct": 0.248,
+        "normalizedRank": 13,
+        "pressurePct": 0.217,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 108.0,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0799,
-        "blitzPct": 0.248,
-        "pressurePct": 0.217,
-        "normalizedRank": 13
+        "sackPct": 0.0799
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2019",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2019,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.6556,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 233.56,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 233.56,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2019
     }
   ]
 }

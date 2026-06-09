@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3449,
       "id": "p_00-0031237_CAR_2020",
       "name": "Teddy Bridgewater",
       "position": "QB",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 74,
       "stats": {
-        "passYPG": 248.9,
-        "qbr": 72.3,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.733,
-        "completionPct": 0.6911
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6911,
+        "passYPG": 248.9,
+        "qbr": 72.3
       },
-      "eraNormFactor": 1.3449
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032063_CAR_2020",
       "name": "Mike Davis",
       "position": "RB",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 87,
       "stats": {
-        "rushYPG": 45.9,
-        "tdPerGame": 0.429,
+        "recYPG": 26.6,
         "rushAttPerGame": 11.79,
-        "recYPG": 26.6
+        "rushYPG": 45.9,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032688_CAR_2020",
       "name": "Robbie Chosen",
       "position": "WR",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 89,
       "stats": {
-        "recYPG": 68.5,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 5.94,
         "avgTargetsPerGame": 8.5,
-        "avgCatchesPerGame": 5.94
+        "recYPG": 68.5,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033282_CAR_2020",
       "name": "Curtis Samuel",
       "position": "WR",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "recYPG": 56.7,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 5.13,
         "avgTargetsPerGame": 6.47,
-        "avgCatchesPerGame": 5.13
+        "recYPG": 56.7,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034365_CAR_2020",
       "name": "Ian Thomas",
       "position": "WR",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 59,
       "stats": {
-        "recYPG": 11.2,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 1.54,
         "avgTargetsPerGame": 2.38,
-        "avgCatchesPerGame": 1.54
+        "recYPG": 11.2,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034827_CAR_2020",
       "name": "D.J. Moore",
       "position": "WR",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 91,
       "stats": {
-        "recYPG": 79.5,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 4.4,
         "avgTargetsPerGame": 7.87,
-        "avgCatchesPerGame": 4.4
+        "recYPG": 79.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035957_CAR_2020",
       "name": "Rodney Smith",
       "position": "RB",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 67,
       "stats": {
-        "rushYPG": 22.3,
-        "tdPerGame": 0.143,
+        "recYPG": 8.4,
         "rushAttPerGame": 5.86,
-        "recYPG": 8.4
+        "rushYPG": 22.3,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035192_CAR_2020",
       "name": "J.Slye",
       "position": "K",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8056,
         "avgKickDistance": 37.2,
         "avgMissDistance": 51.6,
+        "fgAccuracy": 0.8056,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2020",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.19,
+        "normalizedRank": 21,
         "rushTDPct": 0.0467,
-        "normalizedRank": 21
+        "rushYPC": 4.19,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2020",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 68,
       "stats": {
+        "blitzPct": 0.24,
+        "normalizedRank": 20,
+        "pressurePct": 0.224,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 121.0,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0496,
-        "blitzPct": 0.24,
-        "pressurePct": 0.224,
-        "normalizedRank": 20
+        "sackPct": 0.0496
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2020",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2020,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6803,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 239.06,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 0.44,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 239.06,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2020
     }
   ]
 }

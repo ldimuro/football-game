@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.549,
       "id": "p_00-0022803_NYG_2011",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 93,
       "stats": {
-        "passYPG": 307.6,
-        "qbr": 100,
-        "avgTDPerGame": 1.9,
         "avgINTPerGame": 0.85,
-        "completionPct": 0.6184
+        "avgTDPerGame": 1.9,
+        "completionPct": 0.6184,
+        "passYPG": 307.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.549
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023545_NYG_2011",
       "name": "Brandon Jacobs",
       "position": "RB",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 80,
       "stats": {
-        "rushYPG": 40.8,
-        "tdPerGame": 0.444,
+        "recYPG": 8.0,
         "rushAttPerGame": 10.5,
-        "recYPG": 8.0
+        "rushYPG": 40.8,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024559_NYG_2011",
       "name": "D.J. Ware",
       "position": "RB",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 60,
       "stats": {
-        "rushYPG": 9.1,
-        "tdPerGame": 0.0,
+        "recYPG": 10.1,
         "rushAttPerGame": 2.63,
-        "recYPG": 10.1
+        "rushYPG": 9.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025637_NYG_2011",
       "name": "Ahmad Bradshaw",
       "position": "RB",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 90,
       "stats": {
-        "rushYPG": 58.2,
-        "tdPerGame": 0.625,
+        "recYPG": 23.8,
         "rushAttPerGame": 14.62,
-        "recYPG": 23.8
+        "rushYPG": 58.2,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026235_NYG_2011",
       "name": "Mario Manningham",
       "position": "WR",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 88,
       "stats": {
-        "recYPG": 47.5,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 3.47,
         "avgTargetsPerGame": 6.6,
-        "avgCatchesPerGame": 3.47
+        "recYPG": 47.5,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026931_NYG_2011",
       "name": "Bear Pascoe",
       "position": "WR",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 59,
       "stats": {
-        "recYPG": 14.6,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.42,
         "avgTargetsPerGame": 1.75,
-        "avgCatchesPerGame": 1.42
+        "recYPG": 14.6,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027005_NYG_2011",
       "name": "Hakeem Nicks",
       "position": "WR",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 98,
       "stats": {
-        "recYPG": 86.1,
-        "tdPerGame": 0.579,
+        "avgCatchesPerGame": 5.47,
         "avgTargetsPerGame": 9.26,
-        "avgCatchesPerGame": 5.47
+        "recYPG": 86.1,
+        "tdPerGame": 0.579
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027259_NYG_2011",
       "name": "Jake Ballard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 76,
       "stats": {
-        "recYPG": 35.9,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 2.39,
         "avgTargetsPerGame": 4.22,
-        "avgCatchesPerGame": 2.39
+        "recYPG": 35.9,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027265_NYG_2011",
+      "is_all_pro": true,
       "name": "Victor Cruz",
       "position": "WR",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 97,
       "stats": {
-        "recYPG": 90.2,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 5.15,
         "avgTargetsPerGame": 8.1,
-        "avgCatchesPerGame": 5.15
+        "recYPG": 90.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019778_NYG_2011",
       "name": "L.Tynes",
       "position": "K",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7941,
         "avgKickDistance": 33.2,
         "avgMissDistance": 43.6,
+        "fgAccuracy": 0.7941,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2011",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.62,
+        "normalizedRank": 32,
         "rushTDPct": 0.0363,
-        "normalizedRank": 32
+        "rushYPC": 3.62,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2011",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 19,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 121.25,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0815,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 19
+        "sackPct": 0.0815
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2011",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2011,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6129,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 255.12,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 29
+        "normalizedRank": 29,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 255.12,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2011
     }
   ]
 }

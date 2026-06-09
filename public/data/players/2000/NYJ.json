@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002962_NYJ_2000",
       "name": "Wayne Chrebet",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 94,
       "stats": {
-        "recYPG": 58.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 8.88,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 58.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010442_NYJ_2000",
       "name": "Curtis Martin",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 91,
       "stats": {
-        "rushYPG": 72.2,
-        "tdPerGame": 0.562,
+        "recYPG": 32.0,
         "rushAttPerGame": 19.31,
-        "recYPG": 32.0
+        "rushYPG": 72.2,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.4506,
       "id": "p_00-0016193_NYJ_2000",
       "name": "Vinny Testaverde",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 82,
       "stats": {
-        "passYPG": 230.8,
-        "qbr": 56.0,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 1.438,
-        "completionPct": 0.5594
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.5594,
+        "passYPG": 230.8,
+        "qbr": 56.0
       },
-      "eraNormFactor": 1.4506
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017160_NYJ_2000",
       "name": "Dedric Ward",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "recYPG": 50.1,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 7.44,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 50.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017644_NYJ_2000",
       "name": "Jermaine Wiggins",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 77,
       "stats": {
-        "recYPG": 25.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.25,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 2.25
+        "recYPG": 25.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_NYJ_2000",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 75,
       "stats": {
-        "recYPG": 34.8,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.1,
         "avgTargetsPerGame": 4.1,
-        "avgCatchesPerGame": 2.1
+        "recYPG": 34.8,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019457_NYJ_2000",
       "name": "Anthony Becht",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 68,
       "stats": {
-        "recYPG": 14.4,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.6,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.6
+        "recYPG": 14.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006662_NYJ_2000",
       "name": "J.Hall",
       "position": "K",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.6765,
         "avgKickDistance": 37.1,
         "avgMissDistance": 43.9,
+        "fgAccuracy": 0.6765,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2000",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.47,
+        "normalizedRank": 26,
         "rushTDPct": 0.027,
-        "normalizedRank": 26
+        "rushYPC": 3.47,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2000",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 118.0,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0774,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0774
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2000",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2000,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5126,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 183.25,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 6
+        "normalizedRank": 6,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 183.25,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2000
     }
   ]
 }

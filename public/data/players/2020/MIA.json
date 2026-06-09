@@ -1,277 +1,296 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2552,
       "id": "p_00-0023682_MIA_2020",
       "name": "Ryan Fitzpatrick",
       "position": "QB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 78,
       "stats": {
-        "passYPG": 232.3,
-        "qbr": 100,
-        "avgTDPerGame": 1.444,
         "avgINTPerGame": 0.889,
-        "completionPct": 0.6854
+        "avgTDPerGame": 1.444,
+        "completionPct": 0.6854,
+        "passYPG": 232.3,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2552
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031547_MIA_2020",
       "name": "DeVante Parker",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 89,
       "stats": {
-        "recYPG": 56.6,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": 7.36,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 56.6,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032780_MIA_2020",
       "name": "Jordan Howard",
       "position": "RB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 66,
       "stats": {
-        "rushYPG": 8.6,
-        "tdPerGame": 0.571,
+        "recYPG": -0.4,
         "rushAttPerGame": 5.0,
-        "recYPG": -0.4
+        "rushYPG": 8.6,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032791_MIA_2020",
       "name": "Jakeem Grant",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.6,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.57,
         "avgTargetsPerGame": 3.86,
-        "avgCatchesPerGame": 2.57
+        "recYPG": 26.6,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033308_MIA_2020",
       "name": "Matt Breida",
       "position": "RB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 65,
       "stats": {
-        "rushYPG": 25.4,
-        "tdPerGame": 0.0,
+        "recYPG": 9.6,
         "rushAttPerGame": 5.9,
-        "recYPG": 9.6
+        "rushYPG": 25.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033471_MIA_2020",
       "name": "Isaiah Ford",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "recYPG": 30.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.11,
         "avgTargetsPerGame": 4.89,
-        "avgCatchesPerGame": 3.11
+        "recYPG": 30.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033555_MIA_2020",
       "name": "Mack Hollins",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 63,
       "stats": {
-        "recYPG": 19.6,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.78,
         "avgTargetsPerGame": 2.78,
-        "avgCatchesPerGame": 1.78
+        "recYPG": 19.6,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033896_MIA_2020",
       "name": "Adam Shaheen",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 62,
       "stats": {
-        "recYPG": 11.5,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 0.92,
         "avgTargetsPerGame": 1.69,
-        "avgCatchesPerGame": 0.92
+        "recYPG": 11.5,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034798_MIA_2020",
       "name": "Durham Smythe",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.0,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 2.23,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 16.0,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034829_MIA_2020",
       "name": "Mike Gesicki",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "recYPG": 46.9,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 3.53,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 3.53
+        "recYPG": 46.9,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035311_MIA_2020",
       "name": "Myles Gaskin",
       "position": "RB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 91,
       "stats": {
-        "rushYPG": 58.4,
-        "tdPerGame": 0.3,
+        "recYPG": 38.8,
         "rushAttPerGame": 14.2,
-        "recYPG": 38.8
+        "rushYPG": 58.4,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035350_MIA_2020",
       "name": "Preston Williams",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 81,
       "stats": {
-        "recYPG": 36.0,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 2.25,
         "avgTargetsPerGame": 4.38,
-        "avgCatchesPerGame": 2.25
+        "recYPG": 36.0,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036020_MIA_2020",
       "name": "Salvon Ahmed",
       "position": "RB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "rushYPG": 53.2,
-        "tdPerGame": 0.5,
+        "recYPG": 10.2,
         "rushAttPerGame": 12.5,
-        "recYPG": 10.2
+        "rushYPG": 53.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 0.9801,
       "id": "p_00-0036212_MIA_2020",
       "name": "Tua Tagovailoa",
       "position": "QB",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 69,
       "stats": {
-        "passYPG": 181.4,
-        "qbr": 36.5,
-        "avgTDPerGame": 1.1,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.6414
+        "avgTDPerGame": 1.1,
+        "completionPct": 0.6414,
+        "passYPG": 181.4,
+        "qbr": 36.5
       },
-      "eraNormFactor": 0.9801
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036364_MIA_2020",
       "name": "Lynn Bowden",
       "position": "WR",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.11,
         "avgTargetsPerGame": 4.11,
-        "avgCatchesPerGame": 3.11
+        "recYPG": 23.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034794_MIA_2020",
+      "is_all_pro": true,
       "name": "J.Sanders",
       "position": "K",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "fgAccuracy": 0.9231,
         "avgKickDistance": 40.1,
         "avgMissDistance": 48.0,
+        "fgAccuracy": 0.9231,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIA",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2020",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.94,
+        "normalizedRank": 29,
         "rushTDPct": 0.035,
-        "normalizedRank": 29
+        "rushYPC": 3.94,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2020",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 80,
       "stats": {
+        "blitzPct": 0.408,
+        "normalizedRank": 16,
+        "pressurePct": 0.248,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 116.38,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0752,
-        "blitzPct": 0.408,
-        "pressurePct": 0.248,
-        "normalizedRank": 16
+        "sackPct": 0.0752
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2020",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2020,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.6294,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 251.5,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 251.5,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2020
     }
   ]
 }

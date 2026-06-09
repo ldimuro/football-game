@@ -1,193 +1,206 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032464_DET_2023",
       "name": "Kalif Raymond",
       "position": "WR",
-      "team": "DET",
-      "year": 2023,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.8,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 2.06,
         "avgTargetsPerGame": 2.59,
-        "avgCatchesPerGame": 2.06
+        "recYPG": 28.8,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.5078,
       "id": "p_00-0033106_DET_2023",
       "name": "Jared Goff",
       "position": "QB",
-      "team": "DET",
-      "year": 2023,
+      "rating": 93,
       "stats": {
-        "passYPG": 270.6,
-        "qbr": 100,
-        "avgTDPerGame": 1.7,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.676
+        "avgTDPerGame": 1.7,
+        "completionPct": 0.676,
+        "passYPG": 270.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.5078
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033943_DET_2023",
       "name": "Josh Reynolds",
       "position": "WR",
-      "team": "DET",
-      "year": 2023,
+      "rating": 84,
       "stats": {
-        "recYPG": 38.9,
-        "tdPerGame": 0.316,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 4.11,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 38.9,
+        "tdPerGame": 0.316
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035567_DET_2023",
       "name": "Craig Reynolds",
       "position": "RB",
-      "team": "DET",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "rushYPG": 25.7,
-        "tdPerGame": 0.286,
+        "recYPG": 6.7,
         "rushAttPerGame": 6.0,
-        "recYPG": 6.7
+        "rushYPG": 25.7,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035685_DET_2023",
       "name": "David Montgomery",
       "position": "RB",
-      "team": "DET",
-      "year": 2023,
+      "rating": 92,
       "stats": {
-        "rushYPG": 70.5,
-        "tdPerGame": 0.882,
+        "recYPG": 9.5,
         "rushAttPerGame": 15.18,
-        "recYPG": 9.5
+        "rushYPG": 70.5,
+        "tdPerGame": 0.882
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036963_DET_2023",
+      "is_all_pro": true,
       "name": "Amon-Ra St. Brown",
       "position": "WR",
-      "team": "DET",
-      "year": 2023,
+      "rating": 99,
       "stats": {
-        "recYPG": 94.2,
-        "tdPerGame": 0.579,
+        "avgCatchesPerGame": 7.42,
         "avgTargetsPerGame": 10.42,
-        "avgCatchesPerGame": 7.42
+        "recYPG": 94.2,
+        "tdPerGame": 0.579
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037240_DET_2023",
       "name": "Jameson Williams",
       "position": "WR",
-      "team": "DET",
-      "year": 2023,
+      "rating": 76,
       "stats": {
-        "recYPG": 28.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.4,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 28.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039065_DET_2023",
+      "is_all_pro": true,
       "name": "Sam LaPorta",
       "position": "WR",
-      "team": "DET",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "recYPG": 53.2,
-        "tdPerGame": 0.55,
+        "avgCatchesPerGame": 5.35,
         "avgTargetsPerGame": 7.35,
-        "avgCatchesPerGame": 5.35
+        "recYPG": 53.2,
+        "tdPerGame": 0.55
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039139_DET_2023",
       "name": "Jahmyr Gibbs",
       "position": "RB",
-      "team": "DET",
-      "year": 2023,
+      "rating": 92,
       "stats": {
-        "rushYPG": 60.5,
-        "tdPerGame": 0.722,
+        "recYPG": 22.8,
         "rushAttPerGame": 11.72,
-        "recYPG": 22.8
+        "rushYPG": 60.5,
+        "tdPerGame": 0.722
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036816_DET_2023",
       "name": "R.Patterson",
       "position": "K",
-      "team": "DET",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.9167,
         "avgKickDistance": 35.4,
         "avgMissDistance": 39.0,
+        "fgAccuracy": 0.9167,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2023",
       "position": "OLine",
-      "team": "DET",
-      "year": 2023,
+      "rating": 89,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.63,
+        "normalizedRank": 5,
         "rushTDPct": 0.0586,
-        "normalizedRank": 5
+        "rushYPC": 4.63,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2023",
       "position": "DLine",
-      "team": "DET",
-      "year": 2023,
+      "rating": 84,
       "stats": {
+        "blitzPct": 0.287,
+        "normalizedRank": 2,
+        "pressurePct": 0.282,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 88.76,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0697,
-        "blitzPct": 0.287,
-        "pressurePct": 0.282,
-        "normalizedRank": 2
+        "sackPct": 0.0697
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2023",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2023,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.631,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 247.35,
-        "passTDPerGameAllowed": 1.65,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 1.65,
+        "passYPGAllowed": 247.35,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2023
     }
   ]
 }

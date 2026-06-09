@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2012",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2012,
+      "rating": 81,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 15,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 117.5,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0951,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 15
+        "sackPct": 0.0951
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2012",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2012,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.6618,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 225.12,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 225.12,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2012
     }
   ]
 }

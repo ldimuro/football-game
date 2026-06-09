@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000166_LAC_2002",
       "name": "Stephen Alexander",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 75,
       "stats": {
-        "recYPG": 36.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 3.21,
         "avgTargetsPerGame": 5.43,
-        "avgCatchesPerGame": 3.21
+        "recYPG": 36.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003396_LAC_2002",
       "name": "Curtis Conway",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 95,
       "stats": {
-        "recYPG": 71.0,
-        "tdPerGame": 0.417,
+        "avgCatchesPerGame": 4.75,
         "avgTargetsPerGame": 7.83,
-        "avgCatchesPerGame": 4.75
+        "recYPG": 71.0,
+        "tdPerGame": 0.417
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004673_LAC_2002",
       "name": "Tim Dwight",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 78,
       "stats": {
-        "recYPG": 38.9,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": 5.81,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 38.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.1334,
       "id": "p_00-0020531_LAC_2002",
       "name": "Drew Brees",
       "position": "QB",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 74,
       "stats": {
-        "passYPG": 205.2,
-        "qbr": 53.8,
-        "avgTDPerGame": 1.062,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6084
+        "avgTDPerGame": 1.062,
+        "completionPct": 0.6084,
+        "passYPG": 205.2,
+        "qbr": 53.8
       },
-      "eraNormFactor": 1.1334
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020536_LAC_2002",
+      "is_all_pro": true,
       "name": "LaDainian Tomlinson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 98,
       "stats": {
-        "rushYPG": 105.2,
-        "tdPerGame": 0.875,
+        "recYPG": 30.6,
         "rushAttPerGame": 23.25,
-        "recYPG": 30.6
+        "rushYPG": 105.2,
+        "tdPerGame": 0.875
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020828_LAC_2002",
       "name": "Josh Norman",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 67,
       "stats": {
-        "recYPG": 22.3,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.78,
         "avgTargetsPerGame": 2.78,
-        "avgCatchesPerGame": 1.78
+        "recYPG": 22.3,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020904_LAC_2002",
       "name": "Eric Parker",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 80,
       "stats": {
-        "recYPG": 44.7,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 44.7,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021176_LAC_2002",
       "name": "Reche Caldwell",
       "position": "WR",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 70,
       "stats": {
-        "recYPG": 17.3,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": 3.58,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 17.3,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002975_LAC_2002",
       "name": "S.Christie",
       "position": "K",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.6923,
         "avgKickDistance": 37.2,
         "avgMissDistance": 44.9,
+        "fgAccuracy": 0.6923,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2002",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.59,
+        "normalizedRank": 7,
         "rushTDPct": 0.0408,
-        "normalizedRank": 7
+        "rushYPC": 4.59,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2002",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 108.69,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0643,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0643
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2002",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2002,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6178,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 268.44,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 268.44,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2002
     }
   ]
 }

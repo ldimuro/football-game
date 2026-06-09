@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024243_JAX_2011",
       "name": "Marcedes Lewis",
       "position": "WR",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 69,
       "stats": {
-        "recYPG": 30.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 30.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024275_JAX_2011",
+      "is_all_pro": true,
       "name": "Maurice Jones-Drew",
       "position": "RB",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 96,
       "stats": {
-        "rushYPG": 100.4,
-        "tdPerGame": 0.5,
+        "recYPG": 23.4,
         "rushAttPerGame": 21.44,
-        "recYPG": 23.4
+        "rushYPG": 100.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025463_JAX_2011",
       "name": "Jason Hill",
       "position": "WR",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 79,
       "stats": {
-        "recYPG": 36.7,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 36.7,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027076_JAX_2011",
       "name": "Mike Thomas",
       "position": "WR",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 70,
       "stats": {
-        "recYPG": 27.7,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": 6.07,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 27.7,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027105_JAX_2011",
       "name": "Jarett Dillard",
       "position": "WR",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 65,
       "stats": {
-        "recYPG": 22.5,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.23,
         "avgTargetsPerGame": 3.85,
-        "avgCatchesPerGame": 2.23
+        "recYPG": 22.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027441_JAX_2011",
       "name": "Chastin West",
       "position": "WR",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "recYPG": 20.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": 3.38,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 20.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027779_JAX_2011",
       "name": "Deji Karim",
       "position": "RB",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 62,
       "stats": {
-        "rushYPG": 10.8,
-        "tdPerGame": 0.0,
+        "recYPG": 10.0,
         "rushAttPerGame": 5.25,
-        "recYPG": 10.0
+        "rushYPG": 10.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 0.7433,
       "id": "p_00-0027948_JAX_2011",
       "name": "Blaine Gabbert",
       "position": "QB",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 65,
       "stats": {
-        "passYPG": 147.6,
-        "qbr": 0,
-        "avgTDPerGame": 0.8,
         "avgINTPerGame": 0.733,
-        "completionPct": 0.5085
+        "avgTDPerGame": 0.8,
+        "completionPct": 0.5085,
+        "passYPG": 147.6,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7433
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022874_JAX_2011",
       "name": "J.Scobee",
       "position": "K",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 94,
       "stats": {
-        "fgAccuracy": 0.92,
         "avgKickDistance": 39.5,
         "avgMissDistance": 50.0,
+        "fgAccuracy": 0.92,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2011",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.03,
+        "normalizedRank": 23,
         "rushTDPct": 0.0184,
-        "normalizedRank": 23
+        "rushYPC": 4.03,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2011",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 9,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 104.19,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0604,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 9
+        "sackPct": 0.0604
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2011",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2011,
+      "rating": 76,
       "stats": {
         "completionPctAllowed": 0.6355,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 208.81,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 208.81,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2011
     }
   ]
 }

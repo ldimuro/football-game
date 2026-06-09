@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0452,
       "id": "p_00-0008442_MIN_2006",
       "name": "Brad Johnson",
       "position": "QB",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 65,
       "stats": {
-        "passYPG": 183.3,
-        "qbr": 1.5,
-        "avgTDPerGame": 0.667,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.615
+        "avgTDPerGame": 0.667,
+        "completionPct": 0.615,
+        "passYPG": 183.3,
+        "qbr": 1.5
       },
-      "eraNormFactor": 1.0452
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013888_MIN_2006",
       "name": "Marcus Robinson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 87,
       "stats": {
-        "recYPG": 47.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.62
+        "recYPG": 47.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017644_MIN_2006",
       "name": "Jermaine Wiggins",
       "position": "WR",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 65,
       "stats": {
-        "recYPG": 25.7,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 25.7,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019721_MIN_2006",
       "name": "Travis Taylor",
       "position": "WR",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "recYPG": 40.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.56
+        "recYPG": 40.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021314_MIN_2006",
       "name": "Chester Taylor",
       "position": "RB",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 91,
       "stats": {
-        "rushYPG": 80.9,
-        "tdPerGame": 0.4,
+        "recYPG": 19.2,
         "rushAttPerGame": 20.27,
-        "recYPG": 19.2
+        "rushYPG": 80.9,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022006_MIN_2006",
       "name": "Artose Pinner",
       "position": "RB",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 67,
       "stats": {
-        "rushYPG": 24.0,
-        "tdPerGame": 0.375,
+        "recYPG": 1.9,
         "rushAttPerGame": 5.25,
-        "recYPG": 1.9
+        "rushYPG": 24.0,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022135_MIN_2006",
       "name": "Billy McMullen",
       "position": "WR",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 64,
       "stats": {
-        "recYPG": 25.6,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 25.6,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023442_MIN_2006",
       "name": "Troy Williamson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "recYPG": 37.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.08,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.08
+        "recYPG": 37.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010072_MIN_2006",
       "name": "R.Longwell",
       "position": "K",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.84,
         "avgKickDistance": 33.6,
         "avgMissDistance": 50.0,
+        "fgAccuracy": 0.84,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2006",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.1,
+        "normalizedRank": 15,
         "rushTDPct": 0.027,
-        "normalizedRank": 15
+        "rushYPC": 4.1,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2006",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 1,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 2.8,
         "rushYPGAllowed": 61.56,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0501,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 1
+        "sackPct": 0.0501
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2006",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2006,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.5927,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 238.62,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 238.62,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2006
     }
   ]
 }

@@ -1,209 +1,223 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2745,
       "id": "p_00-0020531_NO_2019",
       "name": "Drew Brees",
       "position": "QB",
-      "team": "NO",
-      "year": 2019,
+      "rating": 94,
       "stats": {
-        "passYPG": 265.6,
-        "qbr": 100,
-        "avgTDPerGame": 2.333,
         "avgINTPerGame": 0.417,
-        "completionPct": 0.747
+        "avgTDPerGame": 2.333,
+        "completionPct": 0.747,
+        "passYPG": 265.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2745
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025396_NO_2019",
       "name": "Ted Ginn",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "recYPG": 27.4,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.94,
         "avgTargetsPerGame": 3.62,
-        "avgCatchesPerGame": 1.94
+        "recYPG": 27.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027061_NO_2019",
       "name": "Jared Cook",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 89,
       "stats": {
-        "recYPG": 50.6,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": 4.67,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 50.6,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030216_NO_2019",
       "name": "Josh Hill",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 65,
       "stats": {
-        "recYPG": 16.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.93,
         "avgTargetsPerGame": 2.71,
-        "avgCatchesPerGame": 1.93
+        "recYPG": 16.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030513_NO_2019",
       "name": "Latavius Murray",
       "position": "RB",
-      "team": "NO",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "rushYPG": 38.7,
-        "tdPerGame": 0.294,
+        "recYPG": 14.1,
         "rushAttPerGame": 8.88,
-        "recYPG": 14.1
+        "rushYPG": 38.7,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 0.738,
       "id": "p_00-0031237_NO_2019",
       "name": "Teddy Bridgewater",
       "position": "QB",
-      "team": "NO",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "passYPG": 153.8,
-        "qbr": 76.6,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.222,
-        "completionPct": 0.6786
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6786,
+        "passYPG": 153.8,
+        "qbr": 76.6
       },
-      "eraNormFactor": 0.738
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032765_NO_2019",
+      "is_all_pro": true,
+      "is_opy": true,
       "name": "Michael Thomas",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 99,
       "stats": {
-        "recYPG": 105.6,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 9.18,
         "avgTargetsPerGame": 11.35,
-        "avgCatchesPerGame": 9.18
+        "recYPG": 105.6,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0,
-      "is_opy": true,
-      "is_all_pro": true
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033357_NO_2019",
       "name": "Taysom Hill",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 67,
       "stats": {
-        "recYPG": 15.2,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 1.24,
         "avgTargetsPerGame": 1.41,
-        "avgCatchesPerGame": 1.24
+        "recYPG": 15.2,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033906_NO_2019",
       "name": "Alvin Kamara",
       "position": "RB",
-      "team": "NO",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "rushYPG": 54.5,
-        "tdPerGame": 0.4,
+        "recYPG": 37.8,
         "rushAttPerGame": 11.87,
-        "recYPG": 37.8
+        "rushYPG": 54.5,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034765_NO_2019",
       "name": "Tre'Quan Smith",
       "position": "WR",
-      "team": "NO",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "recYPG": 21.3,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 1.64,
         "avgTargetsPerGame": 2.36,
-        "avgCatchesPerGame": 1.64
+        "recYPG": 21.3,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032569_NO_2019",
+      "is_all_pro": true,
       "name": "W.Lutz",
       "position": "K",
-      "team": "NO",
-      "year": 2019,
+      "rating": 90,
       "stats": {
-        "fgAccuracy": 0.8718,
         "avgKickDistance": 38.8,
         "avgMissDistance": 48.0,
+        "fgAccuracy": 0.8718,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NO",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2019",
       "position": "OLine",
-      "team": "NO",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.35,
+        "normalizedRank": 16,
         "rushTDPct": 0.0308,
-        "normalizedRank": 16
+        "rushYPC": 4.35,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2019",
       "position": "DLine",
-      "team": "NO",
-      "year": 2019,
+      "rating": 87,
       "stats": {
+        "blitzPct": 0.327,
+        "normalizedRank": 4,
+        "pressurePct": 0.264,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 91.31,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0846,
-        "blitzPct": 0.327,
-        "pressurePct": 0.264,
-        "normalizedRank": 4
+        "sackPct": 0.0846
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2019",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2019,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6153,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 241.75,
-        "passTDPerGameAllowed": 1.69,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.69,
+        "passYPGAllowed": 241.75,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2019
     }
   ]
 }

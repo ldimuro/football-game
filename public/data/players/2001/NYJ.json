@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002962_NYJ_2001",
       "name": "Wayne Chrebet",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "recYPG": 50.1,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 6.19,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 50.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010442_NYJ_2001",
+      "is_all_pro": true,
       "name": "Curtis Martin",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 95,
       "stats": {
-        "rushYPG": 95.2,
-        "tdPerGame": 0.588,
+        "recYPG": 20.8,
         "rushAttPerGame": 20.53,
-        "recYPG": 20.8
+        "rushYPG": 95.2,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015959_NYJ_2001",
       "name": "Kevin Swayne",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 59,
       "stats": {
-        "recYPG": 14.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 0.93,
         "avgTargetsPerGame": 2.71,
-        "avgCatchesPerGame": 0.93
+        "recYPG": 14.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0055,
       "id": "p_00-0016193_NYJ_2001",
       "name": "Vinny Testaverde",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 78,
       "stats": {
-        "passYPG": 177.6,
-        "qbr": 59.9,
-        "avgTDPerGame": 1.059,
         "avgINTPerGame": 0.824,
-        "completionPct": 0.5946
+        "avgTDPerGame": 1.059,
+        "completionPct": 0.5946,
+        "passYPG": 177.6,
+        "qbr": 59.9
       },
-      "eraNormFactor": 1.0055
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_NYJ_2001",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 92,
       "stats": {
-        "recYPG": 58.3,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 6.82,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 58.3,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019457_NYJ_2001",
       "name": "Anthony Becht",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 74,
       "stats": {
-        "recYPG": 18.9,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 2.12,
         "avgTargetsPerGame": 3.18,
-        "avgCatchesPerGame": 2.12
+        "recYPG": 18.9,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020462_NYJ_2001",
       "name": "LaMont Jordan",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 62,
       "stats": {
-        "rushYPG": 23.1,
-        "tdPerGame": 0.071,
+        "recYPG": 3.1,
         "rushAttPerGame": 3.14,
-        "recYPG": 3.1
+        "rushYPG": 23.1,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006662_NYJ_2001",
       "name": "J.Hall",
       "position": "K",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.7353,
         "avgKickDistance": 37.7,
         "avgMissDistance": 43.2,
+        "fgAccuracy": 0.7353,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2001",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.7,
+        "normalizedRank": 2,
         "rushTDPct": 0.0235,
-        "normalizedRank": 2
+        "rushYPC": 4.7,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2001",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 65,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 28,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 134.62,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.064,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 28
+        "sackPct": 0.064
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2001",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2001,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6066,
-        "yardsPerAttemptAllowed": 5.5,
-        "passYPGAllowed": 187.44,
-        "passTDPerGameAllowed": 0.88,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 0.88,
+        "passYPGAllowed": 187.44,
+        "yardsPerAttemptAllowed": 5.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2001
     }
   ]
 }

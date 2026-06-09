@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1932,
       "id": "p_00-0005106_NYJ_2008",
       "name": "Brett Favre",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "passYPG": 217.0,
-        "qbr": 62.8,
-        "avgTDPerGame": 1.375,
         "avgINTPerGame": 1.375,
-        "completionPct": 0.6571
+        "avgTDPerGame": 1.375,
+        "completionPct": 0.6571,
+        "passYPG": 217.0,
+        "qbr": 62.8
       },
-      "eraNormFactor": 1.1932
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_NYJ_2008",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "recYPG": 53.1,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.38
+        "recYPG": 53.1,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_NYJ_2008",
+      "is_all_pro": true,
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 93,
       "stats": {
-        "rushYPG": 82.0,
-        "tdPerGame": 0.812,
+        "recYPG": 12.9,
         "rushAttPerGame": 18.12,
-        "recYPG": 12.9
+        "rushYPG": 82.0,
+        "tdPerGame": 0.812
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021213_NYJ_2008",
       "name": "Chris Baker",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 57,
       "stats": {
-        "recYPG": 17.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 17.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022811_NYJ_2008",
       "name": "Jerricho Cotchery",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 86,
       "stats": {
-        "recYPG": 53.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.44
+        "recYPG": 53.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024332_NYJ_2008",
       "name": "Leon Washington",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 73,
       "stats": {
-        "rushYPG": 28.0,
-        "tdPerGame": 0.375,
+        "recYPG": 22.2,
         "rushAttPerGame": 4.75,
-        "recYPG": 22.2
+        "rushYPG": 28.0,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025622_NYJ_2008",
       "name": "Chansi Stuckey",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "recYPG": 29.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 29.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026170_NYJ_2008",
       "name": "Dustin Keller",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 76,
       "stats": {
-        "recYPG": 38.2,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 3.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.43
+        "recYPG": 38.2,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019770_NYJ_2008",
       "name": "J.Feely",
       "position": "K",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8276,
         "avgKickDistance": 33.0,
         "avgMissDistance": 36.0,
+        "fgAccuracy": 0.8276,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2008",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.75,
+        "normalizedRank": 5,
         "rushTDPct": 0.0474,
-        "normalizedRank": 5
+        "rushYPC": 4.75,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2008",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 91,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 94.88,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0717,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.0717
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2008",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2008,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6434,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 234.5,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 29
+        "normalizedRank": 29,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 234.5,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2008
     }
   ]
 }

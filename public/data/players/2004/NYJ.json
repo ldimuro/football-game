@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002962_NYJ_2004",
       "name": "Wayne Chrebet",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 69,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.58,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.58
+        "recYPG": 33.1,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010442_NYJ_2004",
+      "is_all_pro": true,
       "name": "Curtis Martin",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 94,
       "stats": {
-        "rushYPG": 102.2,
-        "tdPerGame": 0.667,
+        "recYPG": 17.8,
         "rushAttPerGame": 22.67,
-        "recYPG": 17.8
+        "rushYPG": 102.2,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.187,
       "id": "p_00-0019559_NYJ_2004",
       "name": "Chad Pennington",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "passYPG": 208.9,
-        "qbr": 74.6,
-        "avgTDPerGame": 1.2,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.656
+        "avgTDPerGame": 1.2,
+        "completionPct": 0.656,
+        "passYPG": 208.9,
+        "qbr": 74.6
       },
-      "eraNormFactor": 1.187
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020381_NYJ_2004",
       "name": "Justin McCareins",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 80,
       "stats": {
-        "recYPG": 52.2,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 3.83,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.83
+        "recYPG": 52.2,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020462_NYJ_2004",
       "name": "LaMont Jordan",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 68,
       "stats": {
-        "rushYPG": 34.9,
-        "tdPerGame": 0.125,
+        "recYPG": 8.5,
         "rushAttPerGame": 6.56,
-        "recYPG": 8.5
+        "rushYPG": 34.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_NYJ_2004",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 84,
       "stats": {
-        "recYPG": 57.0,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 57.0,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021213_NYJ_2004",
       "name": "Chris Baker",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 63,
       "stats": {
-        "recYPG": 14.1,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 1.57,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.57
+        "recYPG": 14.1,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001759_NYJ_2004",
       "name": "D.Brien",
       "position": "K",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.7714,
         "avgKickDistance": 36.5,
         "avgMissDistance": 39.2,
+        "fgAccuracy": 0.7714,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2004",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.51,
+        "normalizedRank": 4,
         "rushTDPct": 0.0258,
-        "normalizedRank": 4
+        "rushYPC": 4.51,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2004",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 88,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 97.88,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0744,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0744
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2004",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2004,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.5815,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 207.0,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 207.0,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2004
     }
   ]
 }

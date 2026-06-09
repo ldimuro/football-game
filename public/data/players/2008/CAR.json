@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1283,
       "id": "p_00-0004161_CAR_2008",
       "name": "Jake Delhomme",
       "position": "QB",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "passYPG": 205.2,
-        "qbr": 58.1,
-        "avgTDPerGame": 0.941,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5871
+        "avgTDPerGame": 0.941,
+        "completionPct": 0.5871,
+        "passYPG": 205.2,
+        "qbr": 58.1
       },
-      "eraNormFactor": 1.1283
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011795_CAR_2008",
       "name": "Muhsin Muhammad",
       "position": "WR",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 87,
       "stats": {
-        "recYPG": 57.5,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 57.5,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020337_CAR_2008",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 97,
       "stats": {
-        "recYPG": 97.3,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 97.3,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024242_CAR_2008",
+      "is_all_pro": true,
       "name": "DeAngelo Williams",
       "position": "RB",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 92,
       "stats": {
-        "rushYPG": 93.0,
-        "tdPerGame": 1.059,
+        "recYPG": 7.5,
         "rushAttPerGame": 16.82,
-        "recYPG": 7.5
+        "rushYPG": 93.0,
+        "tdPerGame": 1.059
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024369_CAR_2008",
       "name": "Jeff King",
       "position": "WR",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 57,
       "stats": {
-        "recYPG": 15.0,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 15.0,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025542_CAR_2008",
       "name": "Dante Rosario",
       "position": "WR",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 69,
       "stats": {
-        "recYPG": 33.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 33.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026153_CAR_2008",
       "name": "Jonathan Stewart",
       "position": "RB",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 81,
       "stats": {
-        "rushYPG": 49.8,
-        "tdPerGame": 0.647,
+        "recYPG": 5.1,
         "rushAttPerGame": 10.94,
-        "recYPG": 5.1
+        "rushYPG": 49.8,
+        "tdPerGame": 0.647
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009028_CAR_2008",
       "name": "J.Kasay",
       "position": "K",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 85,
       "stats": {
-        "fgAccuracy": 0.9032,
         "avgKickDistance": 37.5,
         "avgMissDistance": 48.3,
+        "fgAccuracy": 0.9032,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2008",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 90,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.84,
+        "normalizedRank": 2,
         "rushTDPct": 0.0597,
-        "normalizedRank": 2
+        "rushYPC": 4.84,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2008",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 20,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 119.5,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0664,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 20
+        "sackPct": 0.0664
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2008",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2008,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.5978,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 211.69,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 211.69,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2008
     }
   ]
 }

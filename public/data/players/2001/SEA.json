@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.9568,
       "id": "p_00-0004293_SEA_2001",
       "name": "Trent Dilfer",
       "position": "QB",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 83,
       "stats": {
-        "passYPG": 169.0,
-        "qbr": 86.3,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.5984
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.5984,
+        "passYPG": 169.0,
+        "qbr": 86.3
       },
-      "eraNormFactor": 0.9568
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004915_SEA_2001",
       "name": "Bobby Engram",
       "position": "WR",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 67,
       "stats": {
-        "recYPG": 25.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.81,
         "avgTargetsPerGame": 3.19,
-        "avgCatchesPerGame": 1.81
+        "recYPG": 25.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005101_SEA_2001",
       "name": "Christian Fauria",
       "position": "WR",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 61,
       "stats": {
-        "recYPG": 12.5,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 1.4,
         "avgTargetsPerGame": 2.67,
-        "avgCatchesPerGame": 1.4
+        "recYPG": 12.5,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 0.8809,
       "id": "p_00-0007091_SEA_2001",
       "name": "Matt Hasselbeck",
       "position": "QB",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 70,
       "stats": {
-        "passYPG": 155.6,
-        "qbr": 32.5,
-        "avgTDPerGame": 0.538,
         "avgINTPerGame": 0.615,
-        "completionPct": 0.5483
+        "avgTDPerGame": 0.538,
+        "completionPct": 0.5483,
+        "passYPG": 155.6,
+        "qbr": 32.5
       },
-      "eraNormFactor": 0.8809
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017322_SEA_2001",
       "name": "Ricky Watters",
       "position": "RB",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "rushYPG": 63.6,
-        "tdPerGame": 0.2,
+        "recYPG": 21.4,
         "rushAttPerGame": 14.4,
-        "recYPG": 21.4
+        "rushYPG": 63.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019647_SEA_2001",
       "name": "Shaun Alexander",
       "position": "RB",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 94,
       "stats": {
-        "rushYPG": 82.4,
-        "tdPerGame": 0.875,
+        "recYPG": 21.4,
         "rushAttPerGame": 19.31,
-        "recYPG": 21.4
+        "rushYPG": 82.4,
+        "tdPerGame": 0.875
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019663_SEA_2001",
       "name": "Darrell Jackson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 95,
       "stats": {
-        "recYPG": 67.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.38,
         "avgTargetsPerGame": 8.19,
-        "avgCatchesPerGame": 4.38
+        "recYPG": 67.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020490_SEA_2001",
       "name": "Koren Robinson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 74,
       "stats": {
-        "recYPG": 33.5,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 2.44,
         "avgTargetsPerGame": 4.88,
-        "avgCatchesPerGame": 2.44
+        "recYPG": 33.5,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019310_SEA_2001",
       "name": "R.Lindell",
       "position": "K",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.625,
         "avgKickDistance": 38.8,
         "avgMissDistance": 43.8,
+        "fgAccuracy": 0.625,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2001",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.13,
+        "normalizedRank": 14,
         "rushTDPct": 0.032,
-        "normalizedRank": 14
+        "rushYPC": 4.13,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2001",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 15,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 107.56,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0675,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 15
+        "sackPct": 0.0675
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2001",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2001,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6021,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 217.81,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 217.81,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2001
     }
   ]
 }

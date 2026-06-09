@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020446_LAC_2008",
       "name": "Chris Chambers",
       "position": "WR",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 81,
       "stats": {
-        "recYPG": 42.2,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 42.2,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020536_LAC_2008",
       "name": "LaDainian Tomlinson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 94,
       "stats": {
-        "rushYPG": 66.8,
-        "tdPerGame": 0.706,
+        "recYPG": 24.8,
         "rushAttPerGame": 17.47,
-        "recYPG": 24.8
+        "rushYPG": 66.8,
+        "tdPerGame": 0.706
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021547_LAC_2008",
       "name": "Antonio Gates",
       "position": "WR",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 87,
       "stats": {
-        "recYPG": 50.0,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 4.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.29
+        "recYPG": 50.0,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022414_LAC_2008",
       "name": "Malcom Floyd",
       "position": "WR",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 85,
       "stats": {
-        "recYPG": 51.7,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 51.7,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.3835,
       "id": "p_00-0022942_LAC_2008",
       "name": "Philip Rivers",
       "position": "QB",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 93,
       "stats": {
-        "passYPG": 251.6,
-        "qbr": 100,
-        "avgTDPerGame": 2.056,
         "avgINTPerGame": 0.722,
-        "completionPct": 0.643
+        "avgTDPerGame": 2.056,
+        "completionPct": 0.643,
+        "passYPG": 251.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3835
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023496_LAC_2008",
       "name": "Vincent Jackson",
       "position": "WR",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 94,
       "stats": {
-        "recYPG": 71.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 71.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023564_LAC_2008",
       "name": "Darren Sproles",
       "position": "RB",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 71,
       "stats": {
-        "rushYPG": 26.5,
-        "tdPerGame": 0.176,
+        "recYPG": 28.1,
         "rushAttPerGame": 5.53,
-        "recYPG": 28.1
+        "rushYPG": 26.5,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022737_LAC_2008",
       "name": "N.Kaeding",
       "position": "K",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 34.1,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2008",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.09,
+        "normalizedRank": 19,
         "rushTDPct": 0.0343,
-        "normalizedRank": 19
+        "rushYPC": 4.09,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2008",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 102.56,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0463,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0463
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2008",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2008,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6793,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 247.38,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 247.38,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2008
     }
   ]
 }

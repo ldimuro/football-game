@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017162_PIT_2007",
       "name": "Hines Ward",
       "position": "WR",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 92,
       "stats": {
-        "recYPG": 62.2,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 5.86,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.86
+        "recYPG": 62.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021252_PIT_2007",
       "name": "Najeh Davenport",
       "position": "RB",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 75,
       "stats": {
-        "rushYPG": 32.8,
-        "tdPerGame": 0.438,
+        "recYPG": 12.9,
         "rushAttPerGame": 7.69,
-        "recYPG": 12.9
+        "rushYPG": 32.8,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022250_PIT_2007",
+      "is_all_pro": true,
       "name": "Willie Parker",
       "position": "RB",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 85,
       "stats": {
-        "rushYPG": 87.7,
-        "tdPerGame": 0.133,
+        "recYPG": 10.9,
         "rushAttPerGame": 21.4,
-        "recYPG": 10.9
+        "rushYPG": 87.7,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.3699,
       "id": "p_00-0022924_PIT_2007",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 89,
       "stats": {
-        "passYPG": 218.4,
-        "qbr": 98.6,
-        "avgTDPerGame": 2.125,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.6577
+        "avgTDPerGame": 2.125,
+        "completionPct": 0.6577,
+        "passYPG": 218.4,
+        "qbr": 98.6
       },
-      "eraNormFactor": 1.3699
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023367_PIT_2007",
       "name": "Nate Washington",
       "position": "WR",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 75,
       "stats": {
-        "recYPG": 35.2,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 2.31,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.31
+        "recYPG": 35.2,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023465_PIT_2007",
       "name": "Heath Miller",
       "position": "WR",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 83,
       "stats": {
-        "recYPG": 40.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 40.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024240_PIT_2007",
       "name": "Santonio Holmes",
       "position": "WR",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 93,
       "stats": {
-        "recYPG": 70.8,
-        "tdPerGame": 0.643,
+        "avgCatchesPerGame": 3.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.93
+        "recYPG": 70.8,
+        "tdPerGame": 0.643
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020737_PIT_2007",
       "name": "J.Reed",
       "position": "K",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.9231,
         "avgKickDistance": 33.9,
         "avgMissDistance": 54.5,
+        "fgAccuracy": 0.9231,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2007",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.12,
+        "normalizedRank": 13,
         "rushTDPct": 0.0205,
-        "normalizedRank": 13
+        "rushYPC": 4.12,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2007",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 3,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 89.88,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.0672,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 3
+        "sackPct": 0.0672
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2007",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2007,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5448,
-        "yardsPerAttemptAllowed": 4.9,
-        "passYPGAllowed": 176.5,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 3
+        "normalizedRank": 3,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 176.5,
+        "yardsPerAttemptAllowed": 4.9
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2007
     }
   ]
 }

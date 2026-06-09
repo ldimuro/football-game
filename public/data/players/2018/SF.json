@@ -1,235 +1,251 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026345_SF_2018",
       "name": "Pierre Garcon",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 76,
       "stats": {
-        "recYPG": 35.8,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.75,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 35.8,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029141_SF_2018",
       "name": "Alfred Morris",
       "position": "RB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 74,
       "stats": {
-        "rushYPG": 38.9,
-        "tdPerGame": 0.182,
+        "recYPG": 6.6,
         "rushAttPerGame": 10.09,
-        "recYPG": 6.6
+        "rushYPG": 38.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030068_SF_2018",
       "name": "Marquise Goodwin",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 79,
       "stats": {
-        "recYPG": 35.9,
-        "tdPerGame": 0.364,
+        "avgCatchesPerGame": 2.09,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 2.09
+        "recYPG": 35.9,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031687_SF_2018",
       "name": "Raheem Mostert",
       "position": "RB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 71,
       "stats": {
-        "rushYPG": 43.5,
-        "tdPerGame": 0.167,
+        "recYPG": 4.2,
         "rushAttPerGame": 5.67,
-        "recYPG": 4.2
+        "rushYPG": 43.5,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033288_SF_2018",
+      "is_all_pro": true,
       "name": "George Kittle",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 94,
       "stats": {
-        "recYPG": 86.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.5,
         "avgTargetsPerGame": 8.5,
-        "avgCatchesPerGame": 5.5
+        "recYPG": 86.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033292_SF_2018",
       "name": "Trent Taylor",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.5,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 16.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033307_SF_2018",
       "name": "Kendrick Bourne",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 76,
       "stats": {
-        "recYPG": 30.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 4.19,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 30.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033308_SF_2018",
       "name": "Matt Breida",
       "position": "RB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 83,
       "stats": {
-        "rushYPG": 58.1,
-        "tdPerGame": 0.214,
+        "recYPG": 18.6,
         "rushAttPerGame": 10.93,
-        "recYPG": 18.6
+        "rushYPG": 58.1,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.4585,
       "id": "p_00-0033319_SF_2018",
       "name": "Nick Mullens",
       "position": "QB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 83,
       "stats": {
-        "passYPG": 284.6,
-        "qbr": 88.9,
-        "avgTDPerGame": 1.625,
         "avgINTPerGame": 1.25,
-        "completionPct": 0.6423
+        "avgTDPerGame": 1.625,
+        "completionPct": 0.6423,
+        "passYPG": 284.6,
+        "qbr": 88.9
       },
-      "eraNormFactor": 1.4585
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.2832,
       "id": "p_00-0033936_SF_2018",
       "name": "C.J. Beathard",
       "position": "QB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 70,
       "stats": {
-        "passYPG": 250.4,
-        "qbr": 1.4,
-        "avgTDPerGame": 1.6,
         "avgINTPerGame": 1.4,
-        "completionPct": 0.6036
+        "avgTDPerGame": 1.6,
+        "completionPct": 0.6036,
+        "passYPG": 250.4,
+        "qbr": 1.4
       },
-      "eraNormFactor": 1.2832
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034115_SF_2018",
       "name": "Jeffery Wilson",
       "position": "RB",
-      "team": "SF",
-      "year": 2018,
+      "rating": 75,
       "stats": {
-        "rushYPG": 44.3,
-        "tdPerGame": 0.0,
+        "recYPG": 16.3,
         "rushAttPerGame": 11.0,
-        "recYPG": 16.3
+        "rushYPG": 44.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034860_SF_2018",
       "name": "Dante Pettis",
       "position": "WR",
-      "team": "SF",
-      "year": 2018,
+      "rating": 89,
       "stats": {
-        "recYPG": 51.9,
-        "tdPerGame": 0.556,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 51.9,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023252_SF_2018",
       "name": "R.Gould",
       "position": "K",
-      "team": "SF",
-      "year": 2018,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.9706,
         "avgKickDistance": 35.4,
         "avgMissDistance": 45.0,
+        "fgAccuracy": 0.9706,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2018",
       "position": "OLine",
-      "team": "SF",
-      "year": 2018,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.5,
+        "normalizedRank": 11,
         "rushTDPct": 0.0165,
-        "normalizedRank": 11
+        "rushYPC": 4.5,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2018",
       "position": "DLine",
-      "team": "SF",
-      "year": 2018,
+      "rating": 79,
       "stats": {
+        "blitzPct": 0.204,
+        "normalizedRank": 14,
+        "pressurePct": 0.291,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 113.38,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0683,
-        "blitzPct": 0.204,
-        "pressurePct": 0.291,
-        "normalizedRank": 14
+        "sackPct": 0.0683
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2018",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2018,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.6347,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 233.25,
-        "passTDPerGameAllowed": 2.19,
         "interceptionsPerGame": 0.12,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 2.19,
+        "passYPGAllowed": 233.25,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2018
     }
   ]
 }

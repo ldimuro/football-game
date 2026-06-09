@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2007",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2007,
+      "rating": 71,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 20,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 115.25,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0593,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 20
+        "sackPct": 0.0593
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2007",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2007,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.608,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 225.81,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 225.81,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2007
     }
   ]
 }

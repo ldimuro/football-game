@@ -1,33 +1,35 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029621_LA_2015",
       "name": "G.Zuerlein",
       "position": "K",
-      "team": "LA",
-      "year": 2015,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.6774,
         "avgKickDistance": 42.4,
         "avgMissDistance": 50.4,
+        "fgAccuracy": 0.6774,
         "longestMadeKick": 61
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2015
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2015",
       "position": "OLine",
-      "team": "LA",
-      "year": 2015,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.56,
+        "normalizedRank": 5,
         "rushTDPct": 0.0373,
-        "normalizedRank": 5
+        "rushYPC": 4.56,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2015
     }
   ]
 }

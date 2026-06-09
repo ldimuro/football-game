@@ -1,136 +1,145 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001215_PIT_2003",
       "name": "Jerome Bettis",
       "position": "RB",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 81,
       "stats": {
-        "rushYPG": 50.7,
-        "tdPerGame": 0.438,
+        "recYPG": 5.4,
         "rushAttPerGame": 15.38,
-        "recYPG": 5.4
+        "rushYPG": 50.7,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.3216,
       "id": "p_00-0010261_PIT_2003",
       "name": "Tommy Maddox",
       "position": "QB",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 81,
       "stats": {
-        "passYPG": 213.4,
-        "qbr": 34.8,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 1.062,
-        "completionPct": 0.5742
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.5742,
+        "passYPG": 213.4,
+        "qbr": 34.8
       },
-      "eraNormFactor": 1.3216
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017162_PIT_2003",
+      "is_all_pro": true,
       "name": "Hines Ward",
       "position": "WR",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 97,
       "stats": {
-        "recYPG": 72.7,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 5.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.94
+        "recYPG": 72.7,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018501_PIT_2003",
       "name": "Amos Zereoue",
       "position": "RB",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 74,
       "stats": {
-        "rushYPG": 27.1,
-        "tdPerGame": 0.125,
+        "recYPG": 19.4,
         "rushAttPerGame": 8.25,
-        "recYPG": 19.4
+        "rushYPG": 27.1,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019642_PIT_2003",
       "name": "Plaxico Burress",
       "position": "WR",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "recYPG": 53.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 53.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020737_PIT_2003",
       "name": "J. Reed",
       "position": "K",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7188,
         "avgKickDistance": 34.4,
         "avgMissDistance": 36.1,
+        "fgAccuracy": 0.7188,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2003",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.37,
+        "normalizedRank": 32,
         "rushTDPct": 0.0225,
-        "normalizedRank": 32
+        "rushYPC": 3.37,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2003",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 108.81,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0723,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.0723
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2003",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2003,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6074,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 190.12,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 190.12,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2003
     }
   ]
 }

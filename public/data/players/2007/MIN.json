@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020428_MIN_2007",
       "name": "Robert Ferguson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 69,
       "stats": {
-        "recYPG": 35.5,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.91,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.91
+        "recYPG": 35.5,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021314_MIN_2007",
       "name": "Chester Taylor",
       "position": "RB",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 85,
       "stats": {
-        "rushYPG": 60.3,
-        "tdPerGame": 0.5,
+        "recYPG": 20.1,
         "rushAttPerGame": 11.21,
-        "recYPG": 20.1
+        "rushYPG": 60.3,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022054_MIN_2007",
       "name": "Visanthe Shiancoe",
       "position": "WR",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 64,
       "stats": {
-        "recYPG": 29.4,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.45,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.45
+        "recYPG": 29.4,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022144_MIN_2007",
       "name": "Bobby Wade",
       "position": "WR",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 76,
       "stats": {
-        "recYPG": 40.9,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 40.9,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 0.9986,
       "id": "p_00-0024279_MIN_2007",
       "name": "Tarvaris Jackson",
       "position": "QB",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 71,
       "stats": {
-        "passYPG": 159.2,
-        "qbr": 43.8,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5816
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.5816,
+        "passYPG": 159.2,
+        "qbr": 43.8
       },
-      "eraNormFactor": 0.9986
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025394_MIN_2007",
+      "is_all_pro": true,
       "name": "Adrian Peterson",
       "position": "RB",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 96,
       "stats": {
-        "rushYPG": 95.8,
-        "tdPerGame": 0.857,
+        "recYPG": 19.1,
         "rushAttPerGame": 17.0,
-        "recYPG": 19.1
+        "rushYPG": 95.8,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025431_MIN_2007",
       "name": "Sidney Rice",
       "position": "WR",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 77,
       "stats": {
-        "recYPG": 36.0,
-        "tdPerGame": 0.364,
+        "avgCatchesPerGame": 2.82,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.82
+        "recYPG": 36.0,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010072_MIN_2007",
       "name": "R.Longwell",
       "position": "K",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 86,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 42.0,
         "avgMissDistance": 52.5,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2007",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 91,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.32,
+        "normalizedRank": 1,
         "rushTDPct": 0.0444,
-        "normalizedRank": 1
+        "rushYPC": 5.32,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2007",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 1,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.1,
         "rushYPGAllowed": 74.06,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0588,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 1
+        "sackPct": 0.0588
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2007",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2007,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6424,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 264.06,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 264.06,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2007
     }
   ]
 }

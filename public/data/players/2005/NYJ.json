@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010442_NYJ_2005",
       "name": "Curtis Martin",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 85,
       "stats": {
-        "rushYPG": 61.2,
-        "tdPerGame": 0.417,
+        "recYPG": 9.8,
         "rushAttPerGame": 18.33,
-        "recYPG": 9.8
+        "rushYPG": 61.2,
+        "tdPerGame": 0.417
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.759,
       "id": "p_00-0016193_NYJ_2005",
       "name": "Vinny Testaverde",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 62,
       "stats": {
-        "passYPG": 129.5,
-        "qbr": 7.3,
-        "avgTDPerGame": 0.167,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.566
+        "avgTDPerGame": 0.167,
+        "completionPct": 0.566,
+        "passYPG": 129.5,
+        "qbr": 7.3
       },
-      "eraNormFactor": 0.759
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_NYJ_2005",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "recYPG": 52.8,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 52.8,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020381_NYJ_2005",
       "name": "Justin McCareins",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "recYPG": 47.5,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 47.5,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021183_NYJ_2005",
       "name": "Doug Jolley",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 64,
       "stats": {
-        "recYPG": 29.5,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.64,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.64
+        "recYPG": 29.5,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.8299,
       "id": "p_00-0022026_NYJ_2005",
       "name": "Brooks Bollinger",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 69,
       "stats": {
-        "passYPG": 141.6,
-        "qbr": 5.0,
-        "avgTDPerGame": 0.636,
         "avgINTPerGame": 0.545,
-        "completionPct": 0.5639
+        "avgTDPerGame": 0.636,
+        "completionPct": 0.5639,
+        "passYPG": 141.6,
+        "qbr": 5.0
       },
-      "eraNormFactor": 0.8299
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023615_NYJ_2005",
       "name": "Cedric Houston",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 73,
       "stats": {
-        "rushYPG": 33.6,
-        "tdPerGame": 0.222,
+        "recYPG": 7.3,
         "rushAttPerGame": 9.0,
-        "recYPG": 7.3
+        "rushYPG": 33.6,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023482_NYJ_2005",
       "name": "M.Nugent",
       "position": "K",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.7857,
         "avgKickDistance": 35.7,
         "avgMissDistance": 43.8,
+        "fgAccuracy": 0.7857,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2005",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.45,
+        "normalizedRank": 30,
         "rushTDPct": 0.0261,
-        "normalizedRank": 30
+        "rushYPC": 3.45,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2005",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 70,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 29,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 136.56,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0648,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 29
+        "sackPct": 0.0648
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2005",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2005,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6134,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 172.19,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 172.19,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2005
     }
   ]
 }

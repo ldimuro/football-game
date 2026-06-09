@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.25,
       "id": "p_00-0022803_NYG_2019",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "passYPG": 260.5,
-        "qbr": 32.5,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 1.25,
-        "completionPct": 0.619
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.619,
+        "passYPG": 260.5,
+        "qbr": 32.5
       },
-      "eraNormFactor": 1.25
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027891_NYG_2019",
       "name": "Golden Tate",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 94,
       "stats": {
-        "recYPG": 61.5,
-        "tdPerGame": 0.545,
+        "avgCatchesPerGame": 4.45,
         "avgTargetsPerGame": 7.73,
-        "avgCatchesPerGame": 4.45
+        "recYPG": 61.5,
+        "tdPerGame": 0.545
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029587_NYG_2019",
       "name": "Rhett Ellison",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.7,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.8,
         "avgTargetsPerGame": 2.8,
-        "avgCatchesPerGame": 1.8
+        "recYPG": 16.7,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030670_NYG_2019",
       "name": "Bennie Fowler",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 24.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031344_NYG_2019",
       "name": "Cody Latimer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 68,
       "stats": {
-        "recYPG": 23.1,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.85,
         "avgTargetsPerGame": 3.23,
-        "avgCatchesPerGame": 1.85
+        "recYPG": 23.1,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032385_NYG_2019",
       "name": "Sterling Shepard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 90,
       "stats": {
-        "recYPG": 57.6,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 5.7,
         "avgTargetsPerGame": 8.3,
-        "avgCatchesPerGame": 5.7
+        "recYPG": 57.6,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033881_NYG_2019",
       "name": "Evan Engram",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 91,
       "stats": {
-        "recYPG": 58.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 5.5,
         "avgTargetsPerGame": 8.5,
-        "avgCatchesPerGame": 5.5
+        "recYPG": 58.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034844_NYG_2019",
       "name": "Saquon Barkley",
       "position": "RB",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 93,
       "stats": {
-        "rushYPG": 77.2,
-        "tdPerGame": 0.462,
+        "recYPG": 33.7,
         "rushAttPerGame": 16.69,
-        "recYPG": 33.7
+        "rushYPG": 77.2,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034988_NYG_2019",
       "name": "Kaden Smith",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 86,
       "stats": {
-        "recYPG": 38.3,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 4.43,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 4.43
+        "recYPG": 38.3,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035535_NYG_2019",
       "name": "Darius Slayton",
       "position": "WR",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 91,
       "stats": {
-        "recYPG": 52.9,
-        "tdPerGame": 0.571,
+        "avgCatchesPerGame": 3.43,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.43
+        "recYPG": 52.9,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.1171,
       "id": "p_00-0035710_NYG_2019",
       "name": "Daniel Jones",
       "position": "QB",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "passYPG": 232.8,
-        "qbr": 18.2,
-        "avgTDPerGame": 1.846,
         "avgINTPerGame": 0.923,
-        "completionPct": 0.6187
+        "avgTDPerGame": 1.846,
+        "completionPct": 0.6187,
+        "passYPG": 232.8,
+        "qbr": 18.2
       },
-      "eraNormFactor": 1.1171
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032870_NYG_2019",
       "name": "A.Rosas",
       "position": "K",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 59,
       "stats": {
-        "fgAccuracy": 0.7059,
         "avgKickDistance": 34.9,
         "avgMissDistance": 44.6,
+        "fgAccuracy": 0.7059,
         "longestMadeKick": 45
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2019",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.65,
+        "normalizedRank": 8,
         "rushTDPct": 0.0304,
-        "normalizedRank": 8
+        "rushYPC": 4.65,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2019",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 76,
       "stats": {
+        "blitzPct": 0.298,
+        "normalizedRank": 20,
+        "pressurePct": 0.237,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 113.25,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0647,
-        "blitzPct": 0.298,
-        "pressurePct": 0.237,
-        "normalizedRank": 20
+        "sackPct": 0.0647
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2019",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2019,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6637,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 264.06,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 28
+        "normalizedRank": 28,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 264.06,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2019
     }
   ]
 }

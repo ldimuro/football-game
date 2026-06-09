@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004640_ATL_2005",
       "name": "Warrick Dunn",
       "position": "RB",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 85,
       "stats": {
-        "rushYPG": 88.5,
-        "tdPerGame": 0.188,
+        "recYPG": 13.8,
         "rushAttPerGame": 17.5,
-        "recYPG": 13.8
+        "rushYPG": 88.5,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005231_ATL_2005",
       "name": "Brian Finneran",
       "position": "WR",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "recYPG": 47.0,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.85,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.85
+        "recYPG": 47.0,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.9425,
       "id": "p_00-0020245_ATL_2005",
       "name": "Mike Vick",
       "position": "QB",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 73,
       "stats": {
-        "passYPG": 160.8,
-        "qbr": 39.9,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.867,
-        "completionPct": 0.553
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.553,
+        "passYPG": 160.8,
+        "qbr": 39.9
       },
-      "eraNormFactor": 0.9425
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020285_ATL_2005",
       "name": "Alge Crumpler",
       "position": "WR",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "recYPG": 54.8,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.06,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.06
+        "recYPG": 54.8,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021376_ATL_2005",
       "name": "T.J. Duckett",
       "position": "RB",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "rushYPG": 27.1,
-        "tdPerGame": 0.571,
+        "recYPG": 4.5,
         "rushAttPerGame": 8.64,
-        "recYPG": 4.5
+        "rushYPG": 27.1,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022781_ATL_2005",
       "name": "Michael Jenkins",
       "position": "WR",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "recYPG": 39.1,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.77,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.77
+        "recYPG": 39.1,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023462_ATL_2005",
       "name": "Roddy White",
       "position": "WR",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 73,
       "stats": {
-        "recYPG": 37.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.42,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.42
+        "recYPG": 37.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012875_ATL_2005",
       "name": "T.Peterson",
       "position": "K",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 33.5,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2005",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.83,
+        "normalizedRank": 1,
         "rushTDPct": 0.0321,
-        "normalizedRank": 1
+        "rushYPC": 4.83,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2005",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 65,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 26,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 128.94,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0703,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 26
+        "sackPct": 0.0703
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2005",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2005,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6084,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 196.06,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 196.06,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2005
     }
   ]
 }

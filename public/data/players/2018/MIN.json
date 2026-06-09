@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027981_MIN_2018",
       "name": "Kyle Rudolph",
       "position": "WR",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 82,
       "stats": {
-        "recYPG": 39.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 5.12,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 39.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028116_MIN_2018",
       "name": "Aldrick Robinson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 68,
       "stats": {
-        "recYPG": 16.5,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 1.21,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.21
+        "recYPG": 16.5,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.3765,
       "id": "p_00-0029604_MIN_2018",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 81,
       "stats": {
-        "passYPG": 268.6,
-        "qbr": 42.5,
-        "avgTDPerGame": 1.875,
         "avgINTPerGame": 0.625,
-        "completionPct": 0.7013
+        "avgTDPerGame": 1.875,
+        "completionPct": 0.7013,
+        "passYPG": 268.6,
+        "qbr": 42.5
       },
-      "eraNormFactor": 1.3765
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030035_MIN_2018",
       "name": "Adam Thielen",
       "position": "WR",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 98,
       "stats": {
-        "recYPG": 85.8,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 7.06,
         "avgTargetsPerGame": 9.56,
-        "avgCatchesPerGame": 7.06
+        "recYPG": 85.8,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030513_MIN_2018",
       "name": "Latavius Murray",
       "position": "RB",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 77,
       "stats": {
-        "rushYPG": 36.1,
-        "tdPerGame": 0.375,
+        "recYPG": 8.8,
         "rushAttPerGame": 8.75,
-        "recYPG": 8.8
+        "rushYPG": 36.1,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031588_MIN_2018",
       "name": "Stefon Diggs",
       "position": "WR",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 97,
       "stats": {
-        "recYPG": 68.1,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 6.8,
         "avgTargetsPerGame": 9.93,
-        "avgCatchesPerGame": 6.8
+        "recYPG": 68.1,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032951_MIN_2018",
       "name": "Laquon Treadwell",
       "position": "WR",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 65,
       "stats": {
-        "recYPG": 20.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 3.53,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 20.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033893_MIN_2018",
       "name": "Dalvin Cook",
       "position": "RB",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 85,
       "stats": {
-        "rushYPG": 55.9,
-        "tdPerGame": 0.182,
+        "recYPG": 27.7,
         "rushAttPerGame": 12.09,
-        "recYPG": 27.7
+        "rushYPG": 55.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028660_MIN_2018",
       "name": "D.Bailey",
       "position": "K",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 63,
       "stats": {
-        "fgAccuracy": 0.6875,
         "avgKickDistance": 39.1,
         "avgMissDistance": 44.6,
+        "fgAccuracy": 0.6875,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2018",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.18,
+        "normalizedRank": 25,
         "rushTDPct": 0.0252,
-        "normalizedRank": 25
+        "rushYPC": 4.18,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2018",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 89,
       "stats": {
+        "blitzPct": 0.246,
+        "normalizedRank": 15,
+        "pressurePct": 0.258,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 113.44,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0994,
-        "blitzPct": 0.246,
-        "pressurePct": 0.258,
-        "normalizedRank": 15
+        "sackPct": 0.0994
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2018",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2018,
+      "rating": 91,
       "stats": {
         "completionPctAllowed": 0.6262,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 196.25,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 3
+        "normalizedRank": 3,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 196.25,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2018
     }
   ]
 }

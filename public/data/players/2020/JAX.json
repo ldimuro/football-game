@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1585,
       "id": "p_00-0030520_JAX_2020",
       "name": "Mike Glennon",
       "position": "QB",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "passYPG": 214.4,
-        "qbr": 14.4,
-        "avgTDPerGame": 1.4,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6201
+        "avgTDPerGame": 1.4,
+        "completionPct": 0.6201,
+        "passYPG": 214.4,
+        "qbr": 14.4
       },
-      "eraNormFactor": 1.1585
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030549_JAX_2020",
       "name": "Tyler Eifert",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 69,
       "stats": {
-        "recYPG": 24.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.57,
         "avgTargetsPerGame": 4.29,
-        "avgCatchesPerGame": 2.57
+        "recYPG": 24.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031951_JAX_2020",
       "name": "James O'Shaughnessy",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 60,
       "stats": {
-        "recYPG": 17.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.87,
         "avgTargetsPerGame": 2.53,
-        "avgCatchesPerGame": 1.87
+        "recYPG": 17.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032128_JAX_2020",
       "name": "Chris Conley",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 74,
       "stats": {
-        "recYPG": 33.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.86,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.86
+        "recYPG": 33.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033681_JAX_2020",
       "name": "Keelan Cole",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 82,
       "stats": {
-        "recYPG": 40.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 40.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033854_JAX_2020",
       "name": "Dare Ogunbowale",
       "position": "RB",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 61,
       "stats": {
-        "rushYPG": 20.7,
-        "tdPerGame": 0.0,
+        "recYPG": 7.7,
         "rushAttPerGame": 4.57,
-        "recYPG": 7.7
+        "rushYPG": 20.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034777_JAX_2020",
       "name": "D.J. Chark",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 90,
       "stats": {
-        "recYPG": 54.3,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 4.08,
         "avgTargetsPerGame": 7.15,
-        "avgCatchesPerGame": 4.08
+        "recYPG": 54.3,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.3562,
       "id": "p_00-0035289_JAX_2020",
       "name": "Gardner Minshew",
       "position": "QB",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 83,
       "stats": {
-        "passYPG": 251.0,
-        "qbr": 70.6,
-        "avgTDPerGame": 1.778,
         "avgINTPerGame": 0.556,
-        "completionPct": 0.6606
+        "avgTDPerGame": 1.778,
+        "completionPct": 0.6606,
+        "passYPG": 251.0,
+        "qbr": 70.6
       },
-      "eraNormFactor": 1.3562
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035831_JAX_2020",
       "name": "James Robinson",
       "position": "RB",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 95,
       "stats": {
-        "rushYPG": 76.4,
-        "tdPerGame": 0.5,
+        "recYPG": 24.6,
         "rushAttPerGame": 17.14,
-        "recYPG": 24.6
+        "rushYPG": 76.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036254_JAX_2020",
       "name": "Collin Johnson",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 69,
       "stats": {
-        "recYPG": 27.2,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.8,
         "avgTargetsPerGame": 3.1,
-        "avgCatchesPerGame": 1.8
+        "recYPG": 27.2,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036268_JAX_2020",
       "name": "Laviska Shenault Jr.",
       "position": "WR",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "recYPG": 42.9,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 4.14,
         "avgTargetsPerGame": 5.64,
-        "avgCatchesPerGame": 4.14
+        "recYPG": 42.9,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032870_JAX_2020",
       "name": "A.Rosas",
       "position": "K",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.72,
         "avgKickDistance": 40.3,
         "avgMissDistance": 46.0,
+        "fgAccuracy": 0.72,
         "longestMadeKick": 59
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2020",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.51,
+        "normalizedRank": 11,
         "rushTDPct": 0.0267,
-        "normalizedRank": 11
+        "rushYPC": 4.51,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2020",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 60,
       "stats": {
+        "blitzPct": 0.31,
+        "normalizedRank": 30,
+        "pressurePct": 0.201,
+        "rushTDPerGameAllowed": 1.44,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 153.25,
-        "rushTDPerGameAllowed": 1.44,
-        "sackPct": 0.0338,
-        "blitzPct": 0.31,
-        "pressurePct": 0.201,
-        "normalizedRank": 30
+        "sackPct": 0.0338
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2020",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2020,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6942,
-        "yardsPerAttemptAllowed": 7.7,
-        "passYPGAllowed": 264.44,
-        "passTDPerGameAllowed": 2.12,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 2.12,
+        "passYPGAllowed": 264.44,
+        "yardsPerAttemptAllowed": 7.7
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2020
     }
   ]
 }

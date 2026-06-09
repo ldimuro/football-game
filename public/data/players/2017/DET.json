@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3437,
       "id": "p_00-0026498_DET_2017",
       "name": "Matthew Stafford",
       "position": "QB",
-      "team": "DET",
-      "year": 2017,
+      "rating": 91,
       "stats": {
-        "passYPG": 277.9,
-        "qbr": 73.9,
-        "avgTDPerGame": 1.812,
         "avgINTPerGame": 0.625,
-        "completionPct": 0.6566
+        "avgTDPerGame": 1.812,
+        "completionPct": 0.6566,
+        "passYPG": 277.9,
+        "qbr": 73.9
       },
-      "eraNormFactor": 1.3437
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027891_DET_2017",
       "name": "Golden Tate",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 93,
       "stats": {
-        "recYPG": 62.7,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.75,
         "avgTargetsPerGame": 7.5,
-        "avgCatchesPerGame": 5.75
+        "recYPG": 62.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029293_DET_2017",
       "name": "Marvin Jones",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 95,
       "stats": {
-        "recYPG": 68.8,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": 6.69,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 68.8,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029738_DET_2017",
       "name": "Darren Fells",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 65,
       "stats": {
-        "recYPG": 13.6,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.31,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.31
+        "recYPG": 13.6,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030107_DET_2017",
       "name": "Theo Riddick",
       "position": "RB",
-      "team": "DET",
-      "year": 2017,
+      "rating": 71,
       "stats": {
-        "rushYPG": 17.9,
-        "tdPerGame": 0.188,
+        "recYPG": 27.8,
         "rushAttPerGame": 5.25,
-        "recYPG": 27.8
+        "rushYPG": 17.9,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031189_DET_2017",
       "name": "T.J. Jones",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 76,
       "stats": {
-        "recYPG": 36.3,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": 4.45,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 36.3,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031387_DET_2017",
       "name": "Eric Ebron",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 82,
       "stats": {
-        "recYPG": 35.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.31,
         "avgTargetsPerGame": 5.38,
-        "avgCatchesPerGame": 3.31
+        "recYPG": 35.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032104_DET_2017",
       "name": "Ameer Abdullah",
       "position": "RB",
-      "team": "DET",
-      "year": 2017,
+      "rating": 81,
       "stats": {
-        "rushYPG": 39.4,
-        "tdPerGame": 0.286,
+        "recYPG": 11.6,
         "rushAttPerGame": 11.79,
-        "recYPG": 11.6
+        "rushYPG": 39.4,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033748_DET_2017",
       "name": "Tion Green",
       "position": "RB",
-      "team": "DET",
-      "year": 2017,
+      "rating": 76,
       "stats": {
-        "rushYPG": 33.0,
-        "tdPerGame": 0.4,
+        "recYPG": 2.8,
         "rushAttPerGame": 8.4,
-        "recYPG": 2.8
+        "rushYPG": 33.0,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033932_DET_2017",
       "name": "Kenny Golladay",
       "position": "WR",
-      "team": "DET",
-      "year": 2017,
+      "rating": 83,
       "stats": {
-        "recYPG": 43.4,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 2.55,
         "avgTargetsPerGame": 4.36,
-        "avgCatchesPerGame": 2.55
+        "recYPG": 43.4,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023853_DET_2017",
+      "is_all_pro": true,
       "name": "M.Prater",
       "position": "K",
-      "team": "DET",
-      "year": 2017,
+      "rating": 90,
       "stats": {
-        "fgAccuracy": 0.8571,
         "avgKickDistance": 40.8,
         "avgMissDistance": 52.6,
+        "fgAccuracy": 0.8571,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DET",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2017",
       "position": "OLine",
-      "team": "DET",
-      "year": 2017,
+      "rating": 69,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.36,
+        "normalizedRank": 32,
         "rushTDPct": 0.0275,
-        "normalizedRank": 32
+        "rushYPC": 3.36,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2017",
       "position": "DLine",
-      "team": "DET",
-      "year": 2017,
+      "rating": 69,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 18,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 112.5,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0614,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 18
+        "sackPct": 0.0614
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2017",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2017,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.6421,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 243.25,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 243.25,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2017
     }
   ]
 }

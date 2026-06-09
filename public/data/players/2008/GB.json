@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004541_GB_2008",
       "name": "Donald Driver",
       "position": "WR",
-      "team": "GB",
-      "year": 2008,
+      "rating": 89,
       "stats": {
-        "recYPG": 63.2,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 63.2,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021929_GB_2008",
       "name": "Donald Lee",
       "position": "WR",
-      "team": "GB",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "recYPG": 21.6,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.79
+        "recYPG": 21.6,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022984_GB_2008",
       "name": "Ryan Grant",
       "position": "RB",
-      "team": "GB",
-      "year": 2008,
+      "rating": 84,
       "stats": {
-        "rushYPG": 75.2,
-        "tdPerGame": 0.25,
+        "recYPG": 7.2,
         "rushAttPerGame": 19.5,
-        "recYPG": 7.2
+        "rushYPG": 75.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.3879,
       "id": "p_00-0023459_GB_2008",
       "name": "Aaron Rodgers",
       "position": "QB",
-      "team": "GB",
-      "year": 2008,
+      "rating": 90,
       "stats": {
-        "passYPG": 252.4,
-        "qbr": 98.7,
-        "avgTDPerGame": 1.75,
         "avgINTPerGame": 0.812,
-        "completionPct": 0.6362
+        "avgTDPerGame": 1.75,
+        "completionPct": 0.6362,
+        "passYPG": 252.4,
+        "qbr": 98.7
       },
-      "eraNormFactor": 1.3879
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024267_GB_2008",
       "name": "Greg Jennings",
       "position": "WR",
-      "team": "GB",
-      "year": 2008,
+      "rating": 97,
       "stats": {
-        "recYPG": 80.8,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 80.8,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025450_GB_2008",
       "name": "Brandon Jackson",
       "position": "RB",
-      "team": "GB",
-      "year": 2008,
+      "rating": 63,
       "stats": {
-        "rushYPG": 19.1,
-        "tdPerGame": 0.077,
+        "recYPG": 14.2,
         "rushAttPerGame": 3.46,
-        "recYPG": 14.2
+        "rushYPG": 19.1,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025465_GB_2008",
       "name": "James Jones",
       "position": "WR",
-      "team": "GB",
-      "year": 2008,
+      "rating": 64,
       "stats": {
-        "recYPG": 30.4,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 2.22,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.22
+        "recYPG": 30.4,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026176_GB_2008",
       "name": "Jordy Nelson",
       "position": "WR",
-      "team": "GB",
-      "year": 2008,
+      "rating": 63,
       "stats": {
-        "recYPG": 24.4,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 24.4,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025580_GB_2008",
       "name": "M.Crosby",
       "position": "K",
-      "team": "GB",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.7941,
         "avgKickDistance": 37.5,
         "avgMissDistance": 46.7,
+        "fgAccuracy": 0.7941,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_OLine_2008",
       "position": "OLine",
-      "team": "GB",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.13,
+        "normalizedRank": 17,
         "rushTDPct": 0.0252,
-        "normalizedRank": 17
+        "rushYPC": 4.13,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_DLine_2008",
       "position": "DLine",
-      "team": "GB",
-      "year": 2008,
+      "rating": 64,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 26,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.25,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 131.56,
-        "rushTDPerGameAllowed": 1.25,
-        "sackPct": 0.0521,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 26
+        "sackPct": 0.0521
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_Secondary_2008",
       "position": "Secondary",
-      "team": "GB",
-      "year": 2008,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5541,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 202.75,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 202.75,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2008
     }
   ]
 }

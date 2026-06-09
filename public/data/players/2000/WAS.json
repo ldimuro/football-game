@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000166_WAS_2000",
       "name": "Stephen Alexander",
       "position": "WR",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 76,
       "stats": {
-        "recYPG": 31.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 4.38,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 31.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003378_WAS_2000",
       "name": "Albert Connell",
       "position": "WR",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 84,
       "stats": {
-        "recYPG": 47.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.38,
         "avgTargetsPerGame": 6.25,
-        "avgCatchesPerGame": 2.38
+        "recYPG": 47.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004052_WAS_2000",
       "name": "Stephen Davis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 94,
       "stats": {
-        "rushYPG": 86.1,
-        "tdPerGame": 0.733,
+        "recYPG": 20.9,
         "rushAttPerGame": 21.6,
-        "recYPG": 20.9
+        "rushYPG": 86.1,
+        "tdPerGame": 0.733
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005616_WAS_2000",
       "name": "Irving Fryar",
       "position": "WR",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 85,
       "stats": {
-        "recYPG": 39.1,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": 5.36,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 39.1,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.455,
       "id": "p_00-0005885_WAS_2000",
       "name": "Jeff George",
       "position": "QB",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "passYPG": 231.5,
-        "qbr": 96.9,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5885
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.5885,
+        "passYPG": 231.5,
+        "qbr": 96.9
       },
-      "eraNormFactor": 1.455
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.3036,
       "id": "p_00-0008442_WAS_2000",
       "name": "Brad Johnson",
       "position": "QB",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 78,
       "stats": {
-        "passYPG": 207.4,
-        "qbr": 57.9,
-        "avgTDPerGame": 0.917,
         "avgINTPerGame": 1.25,
-        "completionPct": 0.6295
+        "avgTDPerGame": 0.917,
+        "completionPct": 0.6295,
+        "passYPG": 207.4,
+        "qbr": 57.9
       },
-      "eraNormFactor": 1.3036
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016440_WAS_2000",
       "name": "James Thrash",
       "position": "WR",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 81,
       "stats": {
-        "recYPG": 43.5,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": 4.93,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 43.5,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011859_WAS_2000",
       "name": "E.Murray",
       "position": "K",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 64,
       "stats": {
-        "fgAccuracy": 0.6667,
         "avgKickDistance": 34.3,
         "avgMissDistance": 39.9,
+        "fgAccuracy": 0.6667,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2000",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.91,
+        "normalizedRank": 18,
         "rushTDPct": 0.0323,
-        "normalizedRank": 18
+        "rushYPC": 3.91,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2000",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 22,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 115.81,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0974,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 22
+        "sackPct": 0.0974
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2000",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2000,
+      "rating": 90,
       "stats": {
         "completionPctAllowed": 0.5498,
-        "yardsPerAttemptAllowed": 5.2,
-        "passYPGAllowed": 163.81,
-        "passTDPerGameAllowed": 0.75,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 0.75,
+        "passYPGAllowed": 163.81,
+        "yardsPerAttemptAllowed": 5.2
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2000
     }
   ]
 }

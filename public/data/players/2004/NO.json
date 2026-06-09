@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.353,
       "id": "p_00-0001823_NO_2004",
       "name": "Aaron Brooks",
       "position": "QB",
-      "team": "NO",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "passYPG": 238.1,
-        "qbr": 62.4,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5701
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.5701,
+        "passYPG": 238.1,
+        "qbr": 62.4
       },
-      "eraNormFactor": 1.353
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007744_NO_2004",
       "name": "Joe Horn",
       "position": "WR",
-      "team": "NO",
-      "year": 2004,
+      "rating": 98,
       "stats": {
-        "recYPG": 87.4,
-        "tdPerGame": 0.688,
+        "avgCatchesPerGame": 5.88,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.88
+        "recYPG": 87.4,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012637_NO_2004",
       "name": "Jerome Pathon",
       "position": "WR",
-      "team": "NO",
-      "year": 2004,
+      "rating": 74,
       "stats": {
-        "recYPG": 48.4,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 48.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015601_NO_2004",
       "name": "Aaron Stecker",
       "position": "RB",
-      "team": "NO",
-      "year": 2004,
+      "rating": 66,
       "stats": {
-        "rushYPG": 17.4,
-        "tdPerGame": 0.143,
+        "recYPG": 12.4,
         "rushAttPerGame": 4.14,
-        "recYPG": 12.4
+        "rushYPG": 17.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020171_NO_2004",
       "name": "Boo Williams",
       "position": "WR",
-      "team": "NO",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "recYPG": 25.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 25.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020527_NO_2004",
       "name": "Deuce McAllister",
       "position": "RB",
-      "team": "NO",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "rushYPG": 76.7,
-        "tdPerGame": 0.643,
+        "recYPG": 16.3,
         "rushAttPerGame": 19.21,
-        "recYPG": 16.3
+        "rushYPG": 76.7,
+        "tdPerGame": 0.643
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021147_NO_2004",
       "name": "Donte' Stallworth",
       "position": "WR",
-      "team": "NO",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "recYPG": 51.1,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.87
+        "recYPG": 51.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002655_NO_2004",
       "name": "J.Carney",
       "position": "K",
-      "team": "NO",
-      "year": 2004,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.8148,
         "avgKickDistance": 38.7,
         "avgMissDistance": 42.0,
+        "fgAccuracy": 0.8148,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2004",
       "position": "OLine",
-      "team": "NO",
-      "year": 2004,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.03,
+        "normalizedRank": 20,
         "rushTDPct": 0.037,
-        "normalizedRank": 20
+        "rushYPC": 4.03,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2004",
       "position": "DLine",
-      "team": "NO",
-      "year": 2004,
+      "rating": 63,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 140.81,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0679,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0679
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2004",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2004,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.5945,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 243.0,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 27
+        "normalizedRank": 27,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 243.0,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2004
     }
   ]
 }

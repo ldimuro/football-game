@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.9579,
       "id": "p_00-0003292_TEN_2008",
       "name": "Kerry Collins",
       "position": "QB",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "passYPG": 174.2,
-        "qbr": 67.7,
-        "avgTDPerGame": 0.706,
         "avgINTPerGame": 0.471,
-        "completionPct": 0.5873
+        "avgTDPerGame": 0.706,
+        "completionPct": 0.5873,
+        "passYPG": 174.2,
+        "qbr": 67.7
       },
-      "eraNormFactor": 0.9579
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020285_TEN_2008",
       "name": "Alge Crumpler",
       "position": "WR",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 59,
       "stats": {
-        "recYPG": 20.5,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 20.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020381_TEN_2008",
       "name": "Justin McCareins",
       "position": "WR",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 67,
       "stats": {
-        "recYPG": 36.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.75
+        "recYPG": 36.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021982_TEN_2008",
       "name": "Justin Gage",
       "position": "WR",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 92,
       "stats": {
-        "recYPG": 65.5,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 3.67,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.67
+        "recYPG": 65.5,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023531_TEN_2008",
       "name": "Brandon Jones",
       "position": "WR",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 65,
       "stats": {
-        "recYPG": 31.0,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 31.0,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023612_TEN_2008",
       "name": "Bo Scaife",
       "position": "WR",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "recYPG": 34.4,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 3.65,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.65
+        "recYPG": 34.4,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024260_TEN_2008",
       "name": "LenDale White",
       "position": "RB",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 82,
       "stats": {
-        "rushYPG": 48.1,
-        "tdPerGame": 0.882,
+        "recYPG": 3.0,
         "rushAttPerGame": 12.65,
-        "recYPG": 3.0
+        "rushYPG": 48.1,
+        "tdPerGame": 0.882
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026164_TEN_2008",
+      "is_all_pro": true,
       "name": "Chris Johnson",
       "position": "RB",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 92,
       "stats": {
-        "rushYPG": 81.2,
-        "tdPerGame": 0.625,
+        "recYPG": 18.0,
         "rushAttPerGame": 16.38,
-        "recYPG": 18.0
+        "rushYPG": 81.2,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020962_TEN_2008",
       "name": "R.Bironas",
       "position": "K",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8571,
         "avgKickDistance": 39.1,
         "avgMissDistance": 47.6,
+        "fgAccuracy": 0.8571,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_OLine_2008",
       "position": "OLine",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.32,
+        "normalizedRank": 10,
         "rushTDPct": 0.0467,
-        "normalizedRank": 10
+        "rushYPC": 4.32,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_DLine_2008",
       "position": "DLine",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 91,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 6,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 93.88,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0765,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 6
+        "sackPct": 0.0765
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_Secondary_2008",
       "position": "Secondary",
-      "team": "TEN",
-      "year": 2008,
+      "rating": 91,
       "stats": {
         "completionPctAllowed": 0.5948,
-        "yardsPerAttemptAllowed": 5.2,
-        "passYPGAllowed": 199.75,
-        "passTDPerGameAllowed": 0.75,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 0.75,
+        "passYPGAllowed": 199.75,
+        "yardsPerAttemptAllowed": 5.2
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2008
     }
   ]
 }

@@ -1,33 +1,35 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017693_LA_2002",
       "name": "J. Wilkins",
       "position": "K",
-      "team": "LA",
-      "year": 2002,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.76,
         "avgKickDistance": 37.7,
         "avgMissDistance": 44.5,
+        "fgAccuracy": 0.76,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2002",
       "position": "OLine",
-      "team": "LA",
-      "year": 2002,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.1,
+        "normalizedRank": 21,
         "rushTDPct": 0.0321,
-        "normalizedRank": 21
+        "rushYPC": 4.1,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2002
     }
   ]
 }

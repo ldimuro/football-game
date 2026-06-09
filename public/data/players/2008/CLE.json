@@ -1,149 +1,159 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007213_CLE_2008",
       "name": "Steve Heiden",
       "position": "WR",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 61,
       "stats": {
-        "recYPG": 27.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.56
+        "recYPG": 27.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019693_CLE_2008",
       "name": "Jamal Lewis",
       "position": "RB",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 84,
       "stats": {
-        "rushYPG": 62.6,
-        "tdPerGame": 0.25,
+        "recYPG": 11.1,
         "rushAttPerGame": 17.44,
-        "recYPG": 11.1
+        "rushYPG": 62.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022922_CLE_2008",
       "name": "Kellen Winslow",
       "position": "WR",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 83,
       "stats": {
-        "recYPG": 42.8,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 4.3,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.3
+        "recYPG": 42.8,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023438_CLE_2008",
       "name": "Braylon Edwards",
       "position": "WR",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 81,
       "stats": {
-        "recYPG": 54.8,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 54.8,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 0.8881,
       "id": "p_00-0023645_CLE_2008",
       "name": "Derek Anderson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "passYPG": 161.5,
-        "qbr": 25.0,
-        "avgTDPerGame": 0.9,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.5018
+        "avgTDPerGame": 0.9,
+        "completionPct": 0.5018,
+        "passYPG": 161.5,
+        "qbr": 25.0
       },
-      "eraNormFactor": 0.8881
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024359_CLE_2008",
       "name": "Jerome Harrison",
       "position": "RB",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 61,
       "stats": {
-        "rushYPG": 17.6,
-        "tdPerGame": 0.071,
+        "recYPG": 8.3,
         "rushAttPerGame": 2.43,
-        "recYPG": 8.3
+        "rushYPG": 17.6,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2008",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 36.4,
         "avgMissDistance": 45.8,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2008",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 69,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.93,
+        "normalizedRank": 24,
         "rushTDPct": 0.0147,
-        "normalizedRank": 24
+        "rushYPC": 3.93,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2008",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 63,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 28,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 151.94,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0381,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 28
+        "sackPct": 0.0381
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2008",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2008,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6413,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 204.56,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.44,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 204.56,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2008
     }
   ]
 }

@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039750_LA_2024",
       "name": "J.Karty",
       "position": "K",
-      "team": "LA",
-      "year": 2024,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.8684,
         "avgKickDistance": 37.6,
         "avgMissDistance": 41.6,
+        "fgAccuracy": 0.8684,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2024",
       "position": "OLine",
-      "team": "LA",
-      "year": 2024,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.99,
+        "normalizedRank": 29,
         "rushTDPct": 0.0304,
-        "normalizedRank": 29
+        "rushYPC": 3.99,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2024",
       "position": "DLine",
-      "team": "LA",
-      "year": 2024,
+      "rating": 73,
       "stats": {
+        "blitzPct": 0.231,
+        "normalizedRank": 22,
+        "pressurePct": 0.214,
+        "rushTDPerGameAllowed": 0.76,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 130.0,
-        "rushTDPerGameAllowed": 0.76,
-        "sackPct": 0.0701,
-        "blitzPct": 0.231,
-        "pressurePct": 0.214,
-        "normalizedRank": 22
+        "sackPct": 0.0701
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2024",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2024,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6531,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 223.12,
-        "passTDPerGameAllowed": 1.71,
         "interceptionsPerGame": 0.76,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.71,
+        "passYPGAllowed": 223.12,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2024
     }
   ]
 }

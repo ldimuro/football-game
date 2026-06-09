@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035269_LA_2020",
       "name": "M.Gay",
       "position": "K",
-      "team": "LA",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.8235,
         "avgKickDistance": 36.8,
         "avgMissDistance": 43.2,
+        "fgAccuracy": 0.8235,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2020",
       "position": "OLine",
-      "team": "LA",
-      "year": 2020,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.26,
+        "normalizedRank": 18,
         "rushTDPct": 0.0393,
-        "normalizedRank": 18
+        "rushYPC": 4.26,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2020",
       "position": "DLine",
-      "team": "LA",
-      "year": 2020,
+      "rating": 97,
       "stats": {
+        "blitzPct": 0.273,
+        "normalizedRank": 3,
+        "pressurePct": 0.234,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 91.25,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0967,
-        "blitzPct": 0.273,
-        "pressurePct": 0.234,
-        "normalizedRank": 3
+        "sackPct": 0.0967
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2020",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2020,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.6332,
-        "yardsPerAttemptAllowed": 5.1,
-        "passYPGAllowed": 190.69,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 190.69,
+        "yardsPerAttemptAllowed": 5.1
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2020
     }
   ]
 }

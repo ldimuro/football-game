@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000942_SF_2000",
       "name": "Fred Beasley",
       "position": "RB",
-      "team": "SF",
-      "year": 2000,
+      "rating": 66,
       "stats": {
-        "rushYPG": 9.6,
-        "tdPerGame": 0.2,
+        "recYPG": 15.5,
         "rushAttPerGame": 3.27,
-        "recYPG": 15.5
+        "rushYPG": 9.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003039_SF_2000",
       "name": "Greg Clark",
       "position": "WR",
-      "team": "SF",
-      "year": 2000,
+      "rating": 72,
       "stats": {
-        "recYPG": 21.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": 3.27,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 21.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.665,
       "id": "p_00-0005755_SF_2000",
       "name": "Jeff Garcia",
       "position": "QB",
-      "team": "SF",
-      "year": 2000,
+      "rating": 97,
       "stats": {
-        "passYPG": 264.9,
-        "qbr": 100,
-        "avgTDPerGame": 1.938,
         "avgINTPerGame": 0.562,
-        "completionPct": 0.6345
+        "avgTDPerGame": 1.938,
+        "completionPct": 0.6345,
+        "passYPG": 264.9,
+        "qbr": 100
       },
-      "eraNormFactor": 1.665
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005779_SF_2000",
       "name": "Charlie Garner",
       "position": "RB",
-      "team": "SF",
-      "year": 2000,
+      "rating": 89,
       "stats": {
-        "rushYPG": 69.7,
-        "tdPerGame": 0.438,
+        "recYPG": 40.1,
         "rushAttPerGame": 15.75,
-        "recYPG": 40.1
+        "rushYPG": 69.7,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_SF_2000",
+      "is_all_pro": true,
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "SF",
-      "year": 2000,
+      "rating": 100,
       "stats": {
-        "recYPG": 102.6,
-        "tdPerGame": 0.929,
+        "avgCatchesPerGame": 6.79,
         "avgTargetsPerGame": 10.21,
-        "avgCatchesPerGame": 6.79
+        "recYPG": 102.6,
+        "tdPerGame": 0.929
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013639_SF_2000",
       "name": "Jerry Rice",
       "position": "WR",
-      "team": "SF",
-      "year": 2000,
+      "rating": 93,
       "stats": {
-        "recYPG": 49.9,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": 7.56,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 49.9,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015751_SF_2000",
       "name": "J.J. Stokes",
       "position": "WR",
-      "team": "SF",
-      "year": 2000,
+      "rating": 78,
       "stats": {
-        "recYPG": 34.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.53,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 34.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015811_SF_2000",
       "name": "Tai Streets",
       "position": "WR",
-      "team": "SF",
-      "year": 2000,
+      "rating": 66,
       "stats": {
-        "recYPG": 22.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.46,
         "avgTargetsPerGame": 3.15,
-        "avgCatchesPerGame": 1.46
+        "recYPG": 22.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013699_SF_2000",
       "name": "W.Richey",
       "position": "K",
-      "team": "SF",
-      "year": 2000,
+      "rating": 66,
       "stats": {
-        "fgAccuracy": 0.6818,
         "avgKickDistance": 35.8,
         "avgMissDistance": 41.3,
+        "fgAccuracy": 0.6818,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2000",
       "position": "OLine",
-      "team": "SF",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.35,
+        "normalizedRank": 7,
         "rushTDPct": 0.037,
-        "normalizedRank": 7
+        "rushYPC": 4.35,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2000",
       "position": "DLine",
-      "team": "SF",
-      "year": 2000,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 16,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 112.12,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0681,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 16
+        "sackPct": 0.0681
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2000",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2000,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.5735,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 244.69,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 29
+        "normalizedRank": 29,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 244.69,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2000
     }
   ]
 }

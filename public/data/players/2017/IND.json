@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023500_IND_2017",
       "name": "Frank Gore",
       "position": "RB",
-      "team": "IND",
-      "year": 2017,
+      "rating": 86,
       "stats": {
-        "rushYPG": 60.1,
-        "tdPerGame": 0.188,
+        "recYPG": 15.3,
         "rushAttPerGame": 16.31,
-        "recYPG": 15.3
+        "rushYPG": 60.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028497_IND_2017",
       "name": "Kamar Aiken",
       "position": "WR",
-      "team": "IND",
-      "year": 2017,
+      "rating": 58,
       "stats": {
-        "recYPG": 10.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.15,
         "avgTargetsPerGame": 3.38,
-        "avgCatchesPerGame": 1.15
+        "recYPG": 10.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029608_IND_2017",
       "name": "T.Y. Hilton",
       "position": "WR",
-      "team": "IND",
-      "year": 2017,
+      "rating": 89,
       "stats": {
-        "recYPG": 60.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.56,
         "avgTargetsPerGame": 6.81,
-        "avgCatchesPerGame": 3.56
+        "recYPG": 60.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030181_IND_2017",
       "name": "Jack Doyle",
       "position": "WR",
-      "team": "IND",
-      "year": 2017,
+      "rating": 89,
       "stats": {
-        "recYPG": 46.0,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": 7.2,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 46.0,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031339_IND_2017",
       "name": "Donte Moncrief",
       "position": "WR",
-      "team": "IND",
-      "year": 2017,
+      "rating": 75,
       "stats": {
-        "recYPG": 32.6,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.17,
         "avgTargetsPerGame": 3.92,
-        "avgCatchesPerGame": 2.17
+        "recYPG": 32.6,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032355_IND_2017",
       "name": "Chester Rogers",
       "position": "WR",
-      "team": "IND",
-      "year": 2017,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.3,
         "avgTargetsPerGame": 3.7,
-        "avgCatchesPerGame": 2.3
+        "recYPG": 28.4,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 0.9361,
       "id": "p_00-0033119_IND_2017",
       "name": "Jacoby Brissett",
       "position": "QB",
-      "team": "IND",
-      "year": 2017,
+      "rating": 72,
       "stats": {
-        "passYPG": 193.6,
-        "qbr": 22.5,
-        "avgTDPerGame": 0.812,
         "avgINTPerGame": 0.438,
-        "completionPct": 0.5885
+        "avgTDPerGame": 0.812,
+        "completionPct": 0.5885,
+        "passYPG": 193.6,
+        "qbr": 22.5
       },
-      "eraNormFactor": 0.9361
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033951_IND_2017",
       "name": "Marlon Mack",
       "position": "RB",
-      "team": "IND",
-      "year": 2017,
+      "rating": 74,
       "stats": {
-        "rushYPG": 25.6,
-        "tdPerGame": 0.214,
+        "recYPG": 16.1,
         "rushAttPerGame": 6.64,
-        "recYPG": 16.1
+        "rushYPG": 25.6,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016919_IND_2017",
       "name": "A.Vinatieri",
       "position": "K",
-      "team": "IND",
-      "year": 2017,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 37.4,
         "avgMissDistance": 42.4,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_OLine_2017",
       "position": "OLine",
-      "team": "IND",
-      "year": 2017,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.68,
+        "normalizedRank": 28,
         "rushTDPct": 0.0244,
-        "normalizedRank": 28
+        "rushYPC": 3.68,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_DLine_2017",
       "position": "DLine",
-      "team": "IND",
-      "year": 2017,
+      "rating": 70,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 26,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 120.44,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0487,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 26
+        "sackPct": 0.0487
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_Secondary_2017",
       "position": "Secondary",
-      "team": "IND",
-      "year": 2017,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6238,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 246.62,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 28
+        "normalizedRank": 28,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 246.62,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2017
     }
   ]
 }

@@ -1,193 +1,206 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.9731,
       "id": "p_00-0023662_KC_2012",
       "name": "Matt Cassel",
       "position": "QB",
-      "team": "KC",
-      "year": 2012,
+      "rating": 62,
       "stats": {
-        "passYPG": 199.6,
-        "qbr": 6.8,
-        "avgTDPerGame": 0.667,
         "avgINTPerGame": 1.333,
-        "completionPct": 0.5812
+        "avgTDPerGame": 0.667,
+        "completionPct": 0.5812,
+        "passYPG": 199.6,
+        "qbr": 6.8
       },
-      "eraNormFactor": 0.9731
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 0.5563,
       "id": "p_00-0025409_KC_2012",
       "name": "Brady Quinn",
       "position": "QB",
-      "team": "KC",
-      "year": 2012,
+      "rating": 61,
       "stats": {
-        "passYPG": 114.1,
-        "qbr": 0,
-        "avgTDPerGame": 0.2,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.5685
+        "avgTDPerGame": 0.2,
+        "completionPct": 0.5685,
+        "passYPG": 114.1,
+        "qbr": 0
       },
-      "eraNormFactor": 0.5563
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025410_KC_2012",
       "name": "Dwayne Bowe",
       "position": "WR",
-      "team": "KC",
-      "year": 2012,
+      "rating": 88,
       "stats": {
-        "recYPG": 61.6,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 4.54,
         "avgTargetsPerGame": 8.77,
-        "avgCatchesPerGame": 4.54
+        "recYPG": 61.6,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026213_KC_2012",
+      "is_all_pro": true,
       "name": "Jamaal Charles",
       "position": "RB",
-      "team": "KC",
-      "year": 2012,
+      "rating": 91,
       "stats": {
-        "rushYPG": 94.3,
-        "tdPerGame": 0.312,
+        "recYPG": 14.8,
         "rushAttPerGame": 17.81,
-        "recYPG": 14.8
+        "rushYPG": 94.3,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026367_KC_2012",
       "name": "Peyton Hillis",
       "position": "RB",
-      "team": "KC",
-      "year": 2012,
+      "rating": 66,
       "stats": {
-        "rushYPG": 23.8,
-        "tdPerGame": 0.077,
+        "recYPG": 4.8,
         "rushAttPerGame": 6.54,
-        "recYPG": 4.8
+        "rushYPG": 23.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027651_KC_2012",
       "name": "Dexter McCluster",
       "position": "WR",
-      "team": "KC",
-      "year": 2012,
+      "rating": 71,
       "stats": {
-        "recYPG": 30.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.47,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 3.47
+        "recYPG": 30.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027695_KC_2012",
       "name": "Tony Moeaki",
       "position": "WR",
-      "team": "KC",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "recYPG": 32.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 32.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027964_KC_2012",
       "name": "Jon Baldwin",
       "position": "WR",
-      "team": "KC",
-      "year": 2012,
+      "rating": 63,
       "stats": {
-        "recYPG": 23.2,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 1.43,
         "avgTargetsPerGame": 3.36,
-        "avgCatchesPerGame": 1.43
+        "recYPG": 23.2,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028202_KC_2012",
       "name": "Shaun Draughn",
       "position": "RB",
-      "team": "KC",
-      "year": 2012,
+      "rating": 66,
       "stats": {
-        "rushYPG": 16.6,
-        "tdPerGame": 0.143,
+        "recYPG": 11.3,
         "rushAttPerGame": 4.21,
-        "recYPG": 11.3
+        "rushYPG": 16.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026968_KC_2012",
       "name": "R.Succop",
       "position": "K",
-      "team": "KC",
-      "year": 2012,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8235,
         "avgKickDistance": 37.3,
         "avgMissDistance": 35.8,
+        "fgAccuracy": 0.8235,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2012",
       "position": "OLine",
-      "team": "KC",
-      "year": 2012,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.79,
+        "normalizedRank": 6,
         "rushTDPct": 0.018,
-        "normalizedRank": 6
+        "rushYPC": 4.79,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2012",
       "position": "DLine",
-      "team": "KC",
-      "year": 2012,
+      "rating": 67,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 135.69,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0582,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0582
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2012",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2012,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6013,
-        "yardsPerAttemptAllowed": 7.2,
-        "passYPGAllowed": 220.81,
-        "passTDPerGameAllowed": 1.81,
         "interceptionsPerGame": 0.44,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.81,
+        "passYPGAllowed": 220.81,
+        "yardsPerAttemptAllowed": 7.2
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2012
     }
   ]
 }

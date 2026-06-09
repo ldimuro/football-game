@@ -1,235 +1,251 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3094,
       "id": "p_00-0003739_MIN_2005",
       "name": "Daunte Culpepper",
       "position": "QB",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "passYPG": 223.4,
-        "qbr": 6.3,
-        "avgTDPerGame": 0.857,
         "avgINTPerGame": 1.714,
-        "completionPct": 0.6435
+        "avgTDPerGame": 0.857,
+        "completionPct": 0.6435,
+        "passYPG": 223.4,
+        "qbr": 6.3
       },
-      "eraNormFactor": 1.3094
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0046,
       "id": "p_00-0008442_MIN_2005",
       "name": "Brad Johnson",
       "position": "QB",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 80,
       "stats": {
-        "passYPG": 171.4,
-        "qbr": 51.8,
-        "avgTDPerGame": 1.091,
         "avgINTPerGame": 0.364,
-        "completionPct": 0.6246
+        "avgTDPerGame": 1.091,
+        "completionPct": 0.6246,
+        "passYPG": 171.4,
+        "qbr": 51.8
       },
-      "eraNormFactor": 1.0046
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009323_MIN_2005",
       "name": "Jimmy Kleinsasser",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 56,
       "stats": {
-        "recYPG": 13.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.69,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.69
+        "recYPG": 13.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013888_MIN_2005",
       "name": "Marcus Robinson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "recYPG": 36.8,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.21,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.21
+        "recYPG": 36.8,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017644_MIN_2005",
       "name": "Jermaine Wiggins",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 72,
       "stats": {
-        "recYPG": 37.9,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 4.53,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.53
+        "recYPG": 37.9,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019721_MIN_2005",
       "name": "Travis Taylor",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "recYPG": 37.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 37.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020490_MIN_2005",
+      "is_all_pro": true,
       "name": "Koren Robinson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 62,
       "stats": {
-        "recYPG": 28.9,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 28.9,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020514_MIN_2005",
       "name": "Michael Bennett",
       "position": "RB",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 71,
       "stats": {
-        "rushYPG": 29.6,
-        "tdPerGame": 0.188,
+        "recYPG": 7.8,
         "rushAttPerGame": 7.88,
-        "recYPG": 7.8
+        "rushYPG": 29.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021999_MIN_2005",
       "name": "Nate Burleson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "recYPG": 29.8,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 29.8,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022217_MIN_2005",
       "name": "Mewelde Moore",
       "position": "RB",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "rushYPG": 44.1,
-        "tdPerGame": 0.067,
+        "recYPG": 22.6,
         "rushAttPerGame": 10.33,
-        "recYPG": 22.6
+        "rushYPG": 44.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023442_MIN_2005",
       "name": "Troy Williamson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 66,
       "stats": {
-        "recYPG": 31.0,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 31.0,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023547_MIN_2005",
       "name": "Ciatrick Fason",
       "position": "RB",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 64,
       "stats": {
-        "rushYPG": 6.9,
-        "tdPerGame": 0.444,
+        "recYPG": 0.0,
         "rushAttPerGame": 3.56,
-        "recYPG": 0.0
+        "rushYPG": 6.9,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019490_MIN_2005",
       "name": "P.Edinger",
       "position": "K",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.7353,
         "avgKickDistance": 36.5,
         "avgMissDistance": 39.4,
+        "fgAccuracy": 0.7353,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2005",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.83,
+        "normalizedRank": 19,
         "rushTDPct": 0.0262,
-        "normalizedRank": 19
+        "rushYPC": 3.83,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2005",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 19,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 115.06,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0638,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 19
+        "sackPct": 0.0638
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2005",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2005,
+      "rating": 77,
       "stats": {
         "completionPctAllowed": 0.5985,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 208.25,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.5,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 208.25,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2005
     }
   ]
 }

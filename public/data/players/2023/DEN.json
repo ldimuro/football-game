@@ -1,191 +1,204 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1406,
       "id": "p_00-0029263_DEN_2023",
       "name": "Russell Wilson",
       "position": "QB",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 84,
       "stats": {
-        "passYPG": 204.7,
-        "qbr": 39.1,
-        "avgTDPerGame": 1.733,
         "avgINTPerGame": 0.533,
-        "completionPct": 0.6644
+        "avgTDPerGame": 1.733,
+        "completionPct": 0.6644,
+        "passYPG": 204.7,
+        "qbr": 39.1
       },
-      "eraNormFactor": 1.1406
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033526_DEN_2023",
       "name": "Samaje Perine",
       "position": "RB",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 67,
       "stats": {
-        "rushYPG": 14.0,
-        "tdPerGame": 0.059,
+        "recYPG": 26.8,
         "rushAttPerGame": 3.12,
-        "recYPG": 26.8
+        "rushYPG": 14.0,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034348_DEN_2023",
       "name": "Courtland Sutton",
       "position": "WR",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 91,
       "stats": {
-        "recYPG": 48.2,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 3.69,
         "avgTargetsPerGame": 5.62,
-        "avgCatchesPerGame": 3.69
+        "recYPG": 48.2,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036407_DEN_2023",
       "name": "Jerry Jeudy",
       "position": "WR",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "recYPG": 47.4,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 5.44,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 47.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036422_DEN_2023",
       "name": "Adam Trautman",
       "position": "WR",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "recYPG": 12.8,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 1.38,
         "avgTargetsPerGame": 2.19,
-        "avgCatchesPerGame": 1.38
+        "recYPG": 12.8,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036997_DEN_2023",
       "name": "Javonte Williams",
       "position": "RB",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "rushYPG": 48.4,
-        "tdPerGame": 0.188,
+        "recYPG": 14.2,
         "rushAttPerGame": 13.56,
-        "recYPG": 14.2
+        "rushYPG": 48.4,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037382_DEN_2023",
       "name": "Brandon Johnson",
       "position": "WR",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 78,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 1.9,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.9
+        "recYPG": 28.4,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038794_DEN_2023",
       "name": "Jaleel McLaughlin",
       "position": "RB",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "rushYPG": 24.1,
-        "tdPerGame": 0.059,
+        "recYPG": 9.4,
         "rushAttPerGame": 4.47,
-        "recYPG": 9.4
+        "rushYPG": 24.1,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038976_DEN_2023",
       "name": "Marvin Mims Jr.",
       "position": "WR",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 67,
       "stats": {
-        "recYPG": 25.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 1.47,
         "avgTargetsPerGame": 2.2,
-        "avgCatchesPerGame": 1.47
+        "recYPG": 25.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032569_DEN_2023",
       "name": "W.Lutz",
       "position": "K",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8824,
         "avgKickDistance": 35.0,
         "avgMissDistance": 49.5,
+        "fgAccuracy": 0.8824,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2023",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.01,
+        "normalizedRank": 21,
         "rushTDPct": 0.0177,
-        "normalizedRank": 21
+        "rushYPC": 4.01,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2023",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 65,
       "stats": {
+        "blitzPct": 0.35,
+        "normalizedRank": 30,
+        "pressurePct": 0.182,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 5.0,
         "rushYPGAllowed": 137.12,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0734,
-        "blitzPct": 0.35,
-        "pressurePct": 0.182,
-        "normalizedRank": 30
+        "sackPct": 0.0734
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2023",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2023,
+      "rating": 64,
       "stats": {
         "completionPctAllowed": 0.6678,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 233.65,
-        "passTDPerGameAllowed": 1.71,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.71,
+        "passYPGAllowed": 233.65,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2023
     }
   ]
 }

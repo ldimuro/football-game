@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004052_CAR_2005",
       "name": "Stephen Davis",
       "position": "RB",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 81,
       "stats": {
-        "rushYPG": 42.0,
-        "tdPerGame": 0.923,
+        "recYPG": 3.5,
         "rushAttPerGame": 13.77,
-        "recYPG": 3.5
+        "rushYPG": 42.0,
+        "tdPerGame": 0.923
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.2572,
       "id": "p_00-0004161_CAR_2005",
       "name": "Jake Delhomme",
       "position": "QB",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 85,
       "stats": {
-        "passYPG": 214.5,
-        "qbr": 79.6,
-        "avgTDPerGame": 1.526,
         "avgINTPerGame": 1.053,
-        "completionPct": 0.6019
+        "avgTDPerGame": 1.526,
+        "completionPct": 0.6019,
+        "passYPG": 214.5,
+        "qbr": 79.6
       },
-      "eraNormFactor": 1.2572
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010333_CAR_2005",
       "name": "Kris Mangum",
       "position": "WR",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.0,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.86,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.86
+        "recYPG": 16.0,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013268_CAR_2005",
       "name": "Ricky Proehl",
       "position": "WR",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 72,
       "stats": {
-        "recYPG": 34.9,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 34.9,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019831_CAR_2005",
       "name": "Nick Goings",
       "position": "RB",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 64,
       "stats": {
-        "rushYPG": 15.5,
-        "tdPerGame": 0.0,
+        "recYPG": 11.7,
         "rushAttPerGame": 4.27,
-        "recYPG": 11.7
+        "rushYPG": 15.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020337_CAR_2005",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 99,
       "stats": {
-        "recYPG": 99.9,
-        "tdPerGame": 0.789,
+        "avgCatchesPerGame": 6.84,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.84
+        "recYPG": 99.9,
+        "tdPerGame": 0.789
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021164_CAR_2005",
       "name": "DeShaun Foster",
       "position": "RB",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "rushYPG": 63.9,
-        "tdPerGame": 0.118,
+        "recYPG": 22.3,
         "rushAttPerGame": 14.65,
-        "recYPG": 22.3
+        "rushYPG": 63.9,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022726_CAR_2005",
       "name": "Keary Colbert",
       "position": "WR",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "recYPG": 26.8,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 26.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009028_CAR_2005",
       "name": "J.Kasay",
       "position": "K",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 37.8,
         "avgMissDistance": 50.8,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2005",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.58,
+        "normalizedRank": 26,
         "rushTDPct": 0.0313,
-        "normalizedRank": 26
+        "rushYPC": 3.58,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2005",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 93,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 91.56,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0852,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0852
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2005",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2005,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5777,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 191.06,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 1.44,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 191.06,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2005
     }
   ]
 }

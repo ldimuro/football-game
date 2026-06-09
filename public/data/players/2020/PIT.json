@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4535,
       "id": "p_00-0022924_PIT_2020",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "passYPG": 269.0,
-        "qbr": 89.4,
-        "avgTDPerGame": 2.312,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.6598
+        "avgTDPerGame": 2.312,
+        "completionPct": 0.6598,
+        "passYPG": 269.0,
+        "qbr": 89.4
       },
-      "eraNormFactor": 1.4535
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030470_PIT_2020",
       "name": "Vance McDonald",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 57,
       "stats": {
-        "recYPG": 9.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 2.2,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 9.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031387_PIT_2020",
       "name": "Eric Ebron",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 84,
       "stats": {
-        "recYPG": 38.8,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 6.38,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 38.8,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033553_PIT_2020",
       "name": "James Conner",
       "position": "RB",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 88,
       "stats": {
-        "rushYPG": 54.1,
-        "tdPerGame": 0.5,
+        "recYPG": 17.5,
         "rushAttPerGame": 12.86,
-        "recYPG": 17.5
+        "rushYPG": 54.1,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033857_PIT_2020",
       "name": "JuJu Smith-Schuster",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 95,
       "stats": {
-        "recYPG": 58.1,
-        "tdPerGame": 0.588,
+        "avgCatchesPerGame": 6.47,
         "avgTargetsPerGame": 8.65,
-        "avgCatchesPerGame": 6.47
+        "recYPG": 58.1,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034407_PIT_2020",
       "name": "Ray-Ray McCloud",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 57,
       "stats": {
-        "recYPG": 7.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.82,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.82
+        "recYPG": 7.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034676_PIT_2020",
       "name": "James Washington",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 73,
       "stats": {
-        "recYPG": 27.3,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 2.06,
         "avgTargetsPerGame": 3.65,
-        "avgCatchesPerGame": 2.06
+        "recYPG": 27.3,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035216_PIT_2020",
       "name": "Diontae Johnson",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 95,
       "stats": {
-        "recYPG": 65.0,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 6.19,
         "avgTargetsPerGame": 10.0,
-        "avgCatchesPerGame": 6.19
+        "recYPG": 65.0,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035217_PIT_2020",
       "name": "Benny Snell",
       "position": "RB",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 69,
       "stats": {
-        "rushYPG": 23.8,
-        "tdPerGame": 0.25,
+        "recYPG": 4.1,
         "rushAttPerGame": 7.06,
-        "recYPG": 4.1
+        "rushYPG": 23.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036326_PIT_2020",
       "name": "Chase Claypool",
       "position": "WR",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 92,
       "stats": {
-        "recYPG": 54.8,
-        "tdPerGame": 0.647,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 6.82,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 54.8,
+        "tdPerGame": 0.647
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036336_PIT_2020",
       "name": "Anthony McFarland",
       "position": "RB",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 57,
       "stats": {
-        "rushYPG": 10.3,
-        "tdPerGame": 0.0,
+        "recYPG": 4.9,
         "rushAttPerGame": 3.0,
-        "recYPG": 4.9
+        "rushYPG": 10.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031136_PIT_2020",
       "name": "C.Boswell",
       "position": "K",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.96,
         "avgKickDistance": 37.6,
         "avgMissDistance": 45.0,
+        "fgAccuracy": 0.96,
         "longestMadeKick": 59
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2020",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.61,
+        "normalizedRank": 32,
         "rushTDPct": 0.0334,
-        "normalizedRank": 32
+        "rushYPC": 3.61,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2020",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 90,
       "stats": {
+        "blitzPct": 0.403,
+        "normalizedRank": 11,
+        "pressurePct": 0.351,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 111.44,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.1065,
-        "blitzPct": 0.403,
-        "pressurePct": 0.351,
-        "normalizedRank": 11
+        "sackPct": 0.1065
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2020",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2020,
+      "rating": 97,
       "stats": {
         "completionPctAllowed": 0.5665,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 194.38,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 3
+        "normalizedRank": 3,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 194.38,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2020
     }
   ]
 }

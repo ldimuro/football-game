@@ -1,65 +1,69 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035269_LA_2021",
+      "is_all_pro": true,
       "name": "M.Gay",
       "position": "K",
-      "team": "LA",
-      "year": 2021,
+      "rating": 85,
       "stats": {
-        "fgAccuracy": 0.9091,
         "avgKickDistance": 38.2,
         "avgMissDistance": 50.8,
+        "fgAccuracy": 0.9091,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LA",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2021",
       "position": "OLine",
-      "team": "LA",
-      "year": 2021,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.72,
+        "normalizedRank": 29,
         "rushTDPct": 0.0222,
-        "normalizedRank": 29
+        "rushYPC": 3.72,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2021",
       "position": "DLine",
-      "team": "LA",
-      "year": 2021,
+      "rating": 89,
       "stats": {
+        "blitzPct": 0.266,
+        "normalizedRank": 6,
+        "pressurePct": 0.228,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 103.18,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.08,
-        "blitzPct": 0.266,
-        "pressurePct": 0.228,
-        "normalizedRank": 6
+        "sackPct": 0.08
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2021",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2021,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6656,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 241.71,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 241.71,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2021
     }
   ]
 }

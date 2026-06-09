@@ -1,194 +1,207 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011754_NE_2010",
       "name": "Randy Moss",
       "position": "WR",
-      "team": "NE",
-      "year": 2010,
+      "rating": 76,
       "stats": {
-        "recYPG": 30.2,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 2.15,
         "avgTargetsPerGame": 4.85,
-        "avgCatchesPerGame": 2.15
+        "recYPG": 30.2,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_NE_2010",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "NE",
-      "year": 2010,
+      "rating": 63,
       "stats": {
-        "rushYPG": 22.1,
-        "tdPerGame": 0.0,
+        "recYPG": 0.9,
         "rushAttPerGame": 6.14,
-        "recYPG": 0.9
+        "rushYPG": 22.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
-      "id": "p_00-0019596_NE_2010",
-      "name": "Tom Brady",
-      "position": "QB",
-      "team": "NE",
-      "year": 2010,
-      "stats": {
-        "passYPG": 247.0,
-        "qbr": 100,
-        "avgTDPerGame": 2.235,
-        "avgINTPerGame": 0.294,
-        "completionPct": 0.6574
-      },
       "eraNormFactor": 1.3171,
+      "id": "p_00-0019596_NE_2010",
+      "is_all_pro": true,
       "is_mvp": true,
       "is_opy": true,
-      "is_all_pro": true
+      "name": "Tom Brady",
+      "position": "QB",
+      "rating": 95,
+      "stats": {
+        "avgINTPerGame": 0.294,
+        "avgTDPerGame": 2.235,
+        "completionPct": 0.6574,
+        "passYPG": 247.0,
+        "qbr": 100
+      },
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022427_NE_2010",
       "name": "Wes Welker",
       "position": "WR",
-      "team": "NE",
-      "year": 2010,
+      "rating": 92,
       "stats": {
-        "recYPG": 56.6,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 5.81,
         "avgTargetsPerGame": 8.25,
-        "avgCatchesPerGame": 5.81
+        "recYPG": 56.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025860_NE_2010",
       "name": "BenJarvus Green-Ellis",
       "position": "RB",
-      "team": "NE",
-      "year": 2010,
+      "rating": 87,
       "stats": {
-        "rushYPG": 61.8,
-        "tdPerGame": 0.765,
+        "recYPG": 5.6,
         "rushAttPerGame": 14.0,
-        "recYPG": 5.6
+        "rushYPG": 61.8,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026019_NE_2010",
       "name": "Danny Woodhead",
       "position": "RB",
-      "team": "NE",
-      "year": 2010,
+      "rating": 81,
       "stats": {
-        "rushYPG": 39.5,
-        "tdPerGame": 0.333,
+        "recYPG": 28.7,
         "rushAttPerGame": 7.4,
-        "recYPG": 28.7
+        "rushYPG": 39.5,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027057_NE_2010",
       "name": "Brandon Tate",
       "position": "WR",
-      "team": "NE",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "recYPG": 27.0,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 2.94,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 27.0,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027656_NE_2010",
       "name": "Rob Gronkowski",
       "position": "WR",
-      "team": "NE",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "recYPG": 35.9,
-        "tdPerGame": 0.588,
+        "avgCatchesPerGame": 2.71,
         "avgTargetsPerGame": 3.82,
-        "avgCatchesPerGame": 2.71
+        "recYPG": 35.9,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027713_NE_2010",
       "name": "Aaron Hernandez",
       "position": "WR",
-      "team": "NE",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "recYPG": 37.8,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": 4.33,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 37.8,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019536_NE_2010",
       "name": "S.Graham",
       "position": "K",
-      "team": "NE",
-      "year": 2010,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 33.6,
         "avgMissDistance": 46.7,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 43
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_OLine_2010",
       "position": "OLine",
-      "team": "NE",
-      "year": 2010,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.33,
+        "normalizedRank": 11,
         "rushTDPct": 0.0394,
-        "normalizedRank": 11
+        "rushYPC": 4.33,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_DLine_2010",
       "position": "DLine",
-      "team": "NE",
-      "year": 2010,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 108.0,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0589,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0589
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_Secondary_2010",
       "position": "Secondary",
-      "team": "NE",
-      "year": 2010,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.635,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 258.5,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.56,
-        "normalizedRank": 30
+        "normalizedRank": 30,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 258.5,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2010
     }
   ]
 }

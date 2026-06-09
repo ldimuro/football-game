@@ -1,191 +1,204 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2899,
       "id": "p_00-0027973_CIN_2019",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "passYPG": 268.8,
-        "qbr": 37.7,
-        "avgTDPerGame": 1.231,
         "avgINTPerGame": 1.077,
-        "completionPct": 0.5947
+        "avgTDPerGame": 1.231,
+        "completionPct": 0.5947,
+        "passYPG": 268.8,
+        "qbr": 37.7
       },
-      "eraNormFactor": 1.2899
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030456_CIN_2019",
       "name": "Giovani Bernard",
       "position": "RB",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 61,
       "stats": {
-        "rushYPG": 10.6,
-        "tdPerGame": 0.0,
+        "recYPG": 14.6,
         "rushAttPerGame": 3.31,
-        "recYPG": 14.6
+        "rushYPG": 10.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030549_CIN_2019",
       "name": "Tyler Eifert",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "recYPG": 27.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.69,
         "avgTargetsPerGame": 3.94,
-        "avgCatchesPerGame": 2.69
+        "recYPG": 27.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032134_CIN_2019",
       "name": "C.J. Uzomah",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 66,
       "stats": {
-        "recYPG": 18.6,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 18.6,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032543_CIN_2019",
       "name": "Alex Erickson",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "recYPG": 35.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 35.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033009_CIN_2019",
       "name": "Tyler Boyd",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 91,
       "stats": {
-        "recYPG": 65.4,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.62,
         "avgTargetsPerGame": 9.25,
-        "avgCatchesPerGame": 5.62
+        "recYPG": 65.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033460_CIN_2019",
       "name": "John Ross",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 90,
       "stats": {
-        "recYPG": 63.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 63.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033897_CIN_2019",
       "name": "Joe Mixon",
       "position": "RB",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "rushYPG": 71.1,
-        "tdPerGame": 0.312,
+        "recYPG": 17.9,
         "rushAttPerGame": 17.38,
-        "recYPG": 17.9
+        "rushYPG": 71.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034686_CIN_2019",
       "name": "Auden Tate",
       "position": "WR",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 79,
       "stats": {
-        "recYPG": 47.9,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": 6.67,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 47.9,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029421_CIN_2019",
       "name": "R.Bullock",
       "position": "K",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 38.0,
         "avgMissDistance": 49.5,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2019",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.94,
+        "normalizedRank": 24,
         "rushTDPct": 0.0234,
-        "normalizedRank": 24
+        "rushYPC": 3.94,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2019",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 64,
       "stats": {
+        "blitzPct": 0.325,
+        "normalizedRank": 32,
+        "pressurePct": 0.229,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 148.88,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0621,
-        "blitzPct": 0.325,
-        "pressurePct": 0.229,
-        "normalizedRank": 32
+        "sackPct": 0.0621
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2019",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2019,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6172,
-        "yardsPerAttemptAllowed": 7.4,
-        "passYPGAllowed": 244.81,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 244.81,
+        "yardsPerAttemptAllowed": 7.4
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2019
     }
   ]
 }

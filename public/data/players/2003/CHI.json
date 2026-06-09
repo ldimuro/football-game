@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001477_CHI_2003",
       "name": "Marty Booker",
       "position": "WR",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 88,
       "stats": {
-        "recYPG": 55.0,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 55.0,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 0.8125,
       "id": "p_00-0002876_CHI_2003",
       "name": "Chris Chandler",
       "position": "QB",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 67,
       "stats": {
-        "passYPG": 131.2,
-        "qbr": 20.2,
-        "avgTDPerGame": 0.375,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.5573
+        "avgTDPerGame": 0.375,
+        "completionPct": 0.5573,
+        "passYPG": 131.2,
+        "qbr": 20.2
       },
-      "eraNormFactor": 0.8125
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003035_CHI_2003",
       "name": "Desmond Clark",
       "position": "WR",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 67,
       "stats": {
-        "recYPG": 28.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 28.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 0.976,
       "id": "p_00-0015700_CHI_2003",
       "name": "Kordell Stewart",
       "position": "QB",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 63,
       "stats": {
-        "passYPG": 157.6,
-        "qbr": 0,
-        "avgTDPerGame": 0.778,
         "avgINTPerGame": 1.333,
-        "completionPct": 0.502
+        "avgTDPerGame": 0.778,
+        "completionPct": 0.502,
+        "passYPG": 157.6,
+        "qbr": 0
       },
-      "eraNormFactor": 0.976
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019660_CHI_2003",
       "name": "Dez White",
       "position": "WR",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "recYPG": 38.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 38.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020403_CHI_2003",
       "name": "Anthony Thomas",
       "position": "RB",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "rushYPG": 78.8,
-        "tdPerGame": 0.462,
+        "recYPG": 2.8,
         "rushAttPerGame": 18.77,
-        "recYPG": 2.8
+        "rushYPG": 78.8,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020513_CHI_2003",
       "name": "David Terrell",
       "position": "WR",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 62,
       "stats": {
-        "recYPG": 24.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 24.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021938_CHI_2003",
       "name": "Brock Forsey",
       "position": "RB",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 83,
       "stats": {
-        "rushYPG": 47.8,
-        "tdPerGame": 0.5,
+        "recYPG": 9.2,
         "rushAttPerGame": 12.5,
-        "recYPG": 9.2
+        "rushYPG": 47.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019490_CHI_2003",
       "name": "P.Edinger",
       "position": "K",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.7222,
         "avgKickDistance": 38.4,
         "avgMissDistance": 40.3,
+        "fgAccuracy": 0.7222,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2003",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.98,
+        "normalizedRank": 19,
         "rushTDPct": 0.0293,
-        "normalizedRank": 19
+        "rushYPC": 3.98,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2003",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 69,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 16,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 116.56,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0343,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 16
+        "sackPct": 0.0343
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2003",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2003,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.621,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 192.62,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 13
+        "normalizedRank": 13,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 192.62,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2003
     }
   ]
 }

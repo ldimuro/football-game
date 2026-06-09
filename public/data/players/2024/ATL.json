@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4902,
       "id": "p_00-0029604_ATL_2024",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 80,
       "stats": {
-        "passYPG": 250.6,
-        "qbr": 65.8,
-        "avgTDPerGame": 1.286,
         "avgINTPerGame": 1.143,
-        "completionPct": 0.6689
+        "avgTDPerGame": 1.286,
+        "completionPct": 0.6689,
+        "passYPG": 250.6,
+        "qbr": 65.8
       },
-      "eraNormFactor": 1.4902
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034407_ATL_2024",
       "name": "Ray-Ray McCloud",
       "position": "WR",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 76,
       "stats": {
-        "recYPG": 40.4,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 3.65,
         "avgTargetsPerGame": 5.12,
-        "avgCatchesPerGame": 3.65
+        "recYPG": 40.4,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036309_ATL_2024",
       "name": "Darnell Mooney",
       "position": "WR",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 90,
       "stats": {
-        "recYPG": 62.0,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 6.62,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 62.0,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036970_ATL_2024",
       "name": "Kyle Pitts",
       "position": "WR",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 78,
       "stats": {
-        "recYPG": 35.4,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.76,
         "avgTargetsPerGame": 4.35,
-        "avgCatchesPerGame": 2.76
+        "recYPG": 35.4,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037238_ATL_2024",
       "name": "Drake London",
       "position": "WR",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 97,
       "stats": {
-        "recYPG": 74.8,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 5.88,
         "avgTargetsPerGame": 9.29,
-        "avgCatchesPerGame": 5.88
+        "recYPG": 74.8,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037263_ATL_2024",
       "name": "Tyler Allgeier",
       "position": "RB",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 76,
       "stats": {
-        "rushYPG": 37.9,
-        "tdPerGame": 0.176,
+        "recYPG": 5.2,
         "rushAttPerGame": 8.06,
-        "recYPG": 5.2
+        "rushYPG": 37.9,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038542_ATL_2024",
       "name": "Bijan Robinson",
       "position": "RB",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 97,
       "stats": {
-        "rushYPG": 85.6,
-        "tdPerGame": 0.824,
+        "recYPG": 25.4,
         "rushAttPerGame": 17.88,
-        "recYPG": 25.4
+        "rushYPG": 85.6,
+        "tdPerGame": 0.824
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 0.9217,
       "id": "p_00-0039917_ATL_2024",
       "name": "Michael Penix",
       "position": "QB",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 72,
       "stats": {
-        "passYPG": 155.0,
-        "qbr": 79.1,
-        "avgTDPerGame": 0.6,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.581
+        "avgTDPerGame": 0.6,
+        "completionPct": 0.581,
+        "passYPG": 155.0,
+        "qbr": 79.1
       },
-      "eraNormFactor": 0.9217
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033702_ATL_2024",
       "name": "Y.Koo",
       "position": "K",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.7073,
         "avgKickDistance": 41.2,
         "avgMissDistance": 46.4,
+        "fgAccuracy": 0.7073,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2024",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.48,
+        "normalizedRank": 12,
         "rushTDPct": 0.0364,
-        "normalizedRank": 12
+        "rushYPC": 4.48,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2024",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 72,
       "stats": {
+        "blitzPct": 0.206,
+        "normalizedRank": 15,
+        "pressurePct": 0.2,
+        "rushTDPerGameAllowed": 0.65,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 120.65,
-        "rushTDPerGameAllowed": 0.65,
-        "sackPct": 0.0536,
-        "blitzPct": 0.206,
-        "pressurePct": 0.2,
-        "normalizedRank": 15
+        "sackPct": 0.0536
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2024",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2024,
+      "rating": 65,
       "stats": {
         "completionPctAllowed": 0.699,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 224.53,
-        "passTDPerGameAllowed": 2.0,
         "interceptionsPerGame": 0.71,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 2.0,
+        "passYPGAllowed": 224.53,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2024
     }
   ]
 }

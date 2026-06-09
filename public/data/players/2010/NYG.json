@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3337,
       "id": "p_00-0022803_NYG_2010",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 84,
       "stats": {
-        "passYPG": 250.1,
-        "qbr": 77.0,
-        "avgTDPerGame": 1.938,
         "avgINTPerGame": 1.562,
-        "completionPct": 0.6289
+        "avgTDPerGame": 1.938,
+        "completionPct": 0.6289,
+        "passYPG": 250.1,
+        "qbr": 77.0
       },
-      "eraNormFactor": 1.3337
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023545_NYG_2010",
       "name": "Brandon Jacobs",
       "position": "RB",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "rushYPG": 51.4,
-        "tdPerGame": 0.562,
+        "recYPG": 3.7,
         "rushAttPerGame": 9.19,
-        "recYPG": 3.7
+        "rushYPG": 51.4,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024297_NYG_2010",
       "name": "Derek Hagan",
       "position": "WR",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 74,
       "stats": {
-        "recYPG": 31.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 3.43,
         "avgTargetsPerGame": 6.14,
-        "avgCatchesPerGame": 3.43
+        "recYPG": 31.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025438_NYG_2010",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 90,
       "stats": {
-        "recYPG": 58.8,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": 8.33,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 58.8,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025540_NYG_2010",
       "name": "Kevin Boss",
       "position": "WR",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 77,
       "stats": {
-        "recYPG": 35.4,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 4.67,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 35.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025637_NYG_2010",
       "name": "Ahmad Bradshaw",
       "position": "RB",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 92,
       "stats": {
-        "rushYPG": 77.2,
-        "tdPerGame": 0.5,
+        "recYPG": 19.6,
         "rushAttPerGame": 17.25,
-        "recYPG": 19.6
+        "rushYPG": 77.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026235_NYG_2010",
       "name": "Mario Manningham",
       "position": "WR",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 91,
       "stats": {
-        "recYPG": 59.0,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 5.75,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 59.0,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027005_NYG_2010",
       "name": "Hakeem Nicks",
       "position": "WR",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 99,
       "stats": {
-        "recYPG": 80.9,
-        "tdPerGame": 0.846,
+        "avgCatchesPerGame": 6.08,
         "avgTargetsPerGame": 9.85,
-        "avgCatchesPerGame": 6.08
+        "recYPG": 80.9,
+        "tdPerGame": 0.846
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019778_NYG_2010",
       "name": "L.Tynes",
       "position": "K",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.8261,
         "avgKickDistance": 33.5,
         "avgMissDistance": 43.5,
+        "fgAccuracy": 0.8261,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2010",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.58,
+        "normalizedRank": 7,
         "rushTDPct": 0.0354,
-        "normalizedRank": 7
+        "rushYPC": 4.58,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2010",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 88,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 101.25,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0853,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0853
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2010",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2010,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5714,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 210.62,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 210.62,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2010
     }
   ]
 }

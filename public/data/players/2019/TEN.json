@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024389_TEN_2019",
       "name": "Delanie Walker",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 82,
       "stats": {
-        "recYPG": 35.8,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 5.17,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 35.8,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028087_TEN_2019",
       "name": "Dion Lewis",
       "position": "RB",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 61,
       "stats": {
-        "rushYPG": 12.8,
-        "tdPerGame": 0.0,
+        "recYPG": 10.5,
         "rushAttPerGame": 3.29,
-        "recYPG": 10.5
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 0.9952,
       "id": "p_00-0029701_TEN_2019",
       "name": "Ryan Tannehill",
       "position": "QB",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 83,
       "stats": {
-        "passYPG": 207.4,
-        "qbr": 94.0,
-        "avgTDPerGame": 1.8,
         "avgINTPerGame": 0.467,
-        "completionPct": 0.685
+        "avgTDPerGame": 1.8,
+        "completionPct": 0.685,
+        "passYPG": 207.4,
+        "qbr": 94.0
       },
-      "eraNormFactor": 0.9952
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032009_TEN_2019",
       "name": "Adam Humphries",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "recYPG": 30.7,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.15,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 3.15
+        "recYPG": 30.7,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 0.6435,
       "id": "p_00-0032268_TEN_2019",
       "name": "Marcus Mariota",
       "position": "QB",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "passYPG": 134.1,
-        "qbr": 41.6,
-        "avgTDPerGame": 0.778,
         "avgINTPerGame": 0.222,
-        "completionPct": 0.5963
+        "avgTDPerGame": 0.778,
+        "completionPct": 0.5963,
+        "passYPG": 134.1,
+        "qbr": 41.6
       },
-      "eraNormFactor": 0.6435
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032764_TEN_2019",
+      "is_all_pro": true,
       "name": "Derrick Henry",
       "position": "RB",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 94,
       "stats": {
-        "rushYPG": 110.3,
-        "tdPerGame": 1.0,
+        "recYPG": 12.6,
         "rushAttPerGame": 21.44,
-        "recYPG": 12.6
+        "rushYPG": 110.3,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032778_TEN_2019",
       "name": "Tajae Sharpe",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 68,
       "stats": {
-        "recYPG": 20.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": 2.56,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 20.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033455_TEN_2019",
       "name": "Anthony Firkser",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 67,
       "stats": {
-        "recYPG": 20.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.42,
         "avgTargetsPerGame": 2.42,
-        "avgCatchesPerGame": 1.42
+        "recYPG": 20.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033858_TEN_2019",
       "name": "Jonnu Smith",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 72,
       "stats": {
-        "recYPG": 27.7,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 2.28,
         "avgTargetsPerGame": 2.94,
-        "avgCatchesPerGame": 2.28
+        "recYPG": 27.7,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033871_TEN_2019",
       "name": "Corey Davis",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "recYPG": 37.2,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.72,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.72
+        "recYPG": 37.2,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035676_TEN_2019",
       "name": "A.J. Brown",
       "position": "WR",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "recYPG": 58.7,
-        "tdPerGame": 0.421,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.95,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 58.7,
+        "tdPerGame": 0.421
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031203_TEN_2019",
       "name": "C.Santos",
       "position": "K",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.4737,
         "avgKickDistance": 43.7,
         "avgMissDistance": 44.7,
+        "fgAccuracy": 0.4737,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_OLine_2019",
       "position": "OLine",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.0,
+        "normalizedRank": 2,
         "rushTDPct": 0.044,
-        "normalizedRank": 2
+        "rushYPC": 5.0,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_DLine_2019",
       "position": "DLine",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 82,
       "stats": {
+        "blitzPct": 0.246,
+        "normalizedRank": 12,
+        "pressurePct": 0.211,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 104.5,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0719,
-        "blitzPct": 0.246,
-        "pressurePct": 0.211,
-        "normalizedRank": 12
+        "sackPct": 0.0719
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_Secondary_2019",
       "position": "Secondary",
-      "team": "TEN",
-      "year": 2019,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6455,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 255.0,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 255.0,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2019
     }
   ]
 }

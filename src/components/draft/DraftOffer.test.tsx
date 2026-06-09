@@ -32,7 +32,8 @@ beforeEach(() => {
     seasonLog: [], isLoading: false, setupRerollsRemaining: 0,
     initGame: vi.fn(), rerollSetupSlot: vi.fn(), confirmSetup: vi.fn(),
     viewDraftOffer: vi.fn(),
-    rerollDraftOffer: vi.fn().mockResolvedValue(undefined),
+    rerollDraftOfferTeam: vi.fn().mockResolvedValue(undefined),
+    rerollDraftOfferYear: vi.fn().mockResolvedValue(undefined),
     draftPlayer: vi.fn().mockResolvedValue(undefined),
     skipDraft: vi.fn().mockResolvedValue(undefined),
   })
@@ -74,11 +75,19 @@ describe('DraftOffer', () => {
     expect(skipFn).toHaveBeenCalledTimes(1)
   })
 
-  it('calls rerollDraftOffer when Re-roll Offer is clicked', async () => {
+  it('calls rerollDraftOfferTeam when Re-Roll Team is clicked', async () => {
     const rerollFn = vi.fn().mockResolvedValue(undefined)
-    useGameStore.setState({ rerollDraftOffer: rerollFn } as any)
+    useGameStore.setState({ rerollDraftOfferTeam: rerollFn } as any)
     render(<DraftOffer />)
-    await userEvent.click(screen.getByRole('button', { name: /re-roll offer/i }))
+    await userEvent.click(screen.getByRole('button', { name: /re-roll team/i }))
+    expect(rerollFn).toHaveBeenCalledTimes(1)
+  })
+
+  it('calls rerollDraftOfferYear when Re-Roll Year is clicked', async () => {
+    const rerollFn = vi.fn().mockResolvedValue(undefined)
+    useGameStore.setState({ rerollDraftOfferYear: rerollFn } as any)
+    render(<DraftOffer />)
+    await userEvent.click(screen.getByRole('button', { name: /re-roll year/i }))
     expect(rerollFn).toHaveBeenCalledTimes(1)
   })
 

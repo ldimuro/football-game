@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023452_SEA_2011",
       "name": "Mike Williams",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 62,
       "stats": {
-        "recYPG": 19.7,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 3.17,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 19.7,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0379,
       "id": "p_00-0024279_SEA_2011",
       "name": "Tarvaris Jackson",
       "position": "QB",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 72,
       "stats": {
-        "passYPG": 206.1,
-        "qbr": 40.8,
-        "avgTDPerGame": 0.933,
         "avgINTPerGame": 0.867,
-        "completionPct": 0.6022
+        "avgTDPerGame": 0.933,
+        "completionPct": 0.6022,
+        "passYPG": 206.1,
+        "qbr": 40.8
       },
-      "eraNormFactor": 1.0379
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024332_SEA_2011",
       "name": "Leon Washington",
       "position": "RB",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 61,
       "stats": {
-        "rushYPG": 15.5,
-        "tdPerGame": 0.062,
+        "recYPG": 3.0,
         "rushAttPerGame": 3.31,
-        "recYPG": 3.0
+        "rushYPG": 15.5,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024463_SEA_2011",
       "name": "Ben Obomanu",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "recYPG": 27.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.31,
         "avgTargetsPerGame": 3.81,
-        "avgCatchesPerGame": 2.31
+        "recYPG": 27.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025399_SEA_2011",
+      "is_all_pro": true,
       "name": "Marshawn Lynch",
       "position": "RB",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 94,
       "stats": {
-        "rushYPG": 80.3,
-        "tdPerGame": 0.8,
+        "recYPG": 14.1,
         "rushAttPerGame": 18.93,
-        "recYPG": 14.1
+        "rushYPG": 80.3,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025425_SEA_2011",
       "name": "Zach Miller",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 60,
       "stats": {
-        "recYPG": 17.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 3.38,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 17.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025431_SEA_2011",
       "name": "Sidney Rice",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 85,
       "stats": {
-        "recYPG": 53.8,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 3.56,
         "avgTargetsPerGame": 6.33,
-        "avgCatchesPerGame": 3.56
+        "recYPG": 53.8,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026373_SEA_2011",
       "name": "Justin Forsett",
       "position": "RB",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 61,
       "stats": {
-        "rushYPG": 9.1,
-        "tdPerGame": 0.062,
+        "recYPG": 8.0,
         "rushAttPerGame": 2.88,
-        "recYPG": 8.0
+        "rushYPG": 9.1,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027783_SEA_2011",
       "name": "Anthony McCoy",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 56,
       "stats": {
-        "recYPG": 13.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.18,
         "avgTargetsPerGame": 2.18,
-        "avgCatchesPerGame": 1.18
+        "recYPG": 13.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027891_SEA_2011",
       "name": "Golden Tate",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 70,
       "stats": {
-        "recYPG": 25.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 3.87,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 25.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028434_SEA_2011",
       "name": "Doug Baldwin",
       "position": "WR",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 83,
       "stats": {
-        "recYPG": 49.2,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.19,
         "avgTargetsPerGame": 5.44,
-        "avgCatchesPerGame": 3.19
+        "recYPG": 49.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025944_SEA_2011",
       "name": "S.Hauschka",
       "position": "K",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 36.7,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2011",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.96,
+        "normalizedRank": 26,
         "rushTDPct": 0.0339,
-        "normalizedRank": 26
+        "rushYPC": 3.96,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2011",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 81,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 15,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 112.31,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0608,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 15
+        "sackPct": 0.0608
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2011",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2011,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5967,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 219.88,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 219.88,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2011
     }
   ]
 }

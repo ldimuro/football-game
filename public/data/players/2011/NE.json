@@ -1,194 +1,207 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.62,
       "id": "p_00-0019596_NE_2011",
+      "is_all_pro": true,
       "name": "Tom Brady",
       "position": "QB",
-      "team": "NE",
-      "year": 2011,
+      "rating": 94,
       "stats": {
-        "passYPG": 321.7,
-        "qbr": 100,
-        "avgTDPerGame": 2.474,
         "avgINTPerGame": 0.842,
-        "completionPct": 0.6593
+        "avgTDPerGame": 2.474,
+        "completionPct": 0.6593,
+        "passYPG": 321.7,
+        "qbr": 100
       },
-      "eraNormFactor": 1.62,
-      "is_all_pro": true
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020397_NE_2011",
       "name": "Chad Johnson",
       "position": "WR",
-      "team": "NE",
-      "year": 2011,
+      "rating": 60,
       "stats": {
-        "recYPG": 19.8,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 1.07,
         "avgTargetsPerGame": 2.2,
-        "avgCatchesPerGame": 1.07
+        "recYPG": 19.8,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021192_NE_2011",
       "name": "Deion Branch",
       "position": "WR",
-      "team": "NE",
-      "year": 2011,
+      "rating": 87,
       "stats": {
-        "recYPG": 50.0,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 3.47,
         "avgTargetsPerGame": 6.06,
-        "avgCatchesPerGame": 3.47
+        "recYPG": 50.0,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022427_NE_2011",
+      "is_all_pro": true,
       "name": "Wes Welker",
       "position": "WR",
-      "team": "NE",
-      "year": 2011,
+      "rating": 98,
       "stats": {
-        "recYPG": 91.4,
-        "tdPerGame": 0.526,
+        "avgCatchesPerGame": 7.42,
         "avgTargetsPerGame": 10.32,
-        "avgCatchesPerGame": 7.42
+        "recYPG": 91.4,
+        "tdPerGame": 0.526
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025860_NE_2011",
       "name": "BenJarvus Green-Ellis",
       "position": "RB",
-      "team": "NE",
-      "year": 2011,
+      "rating": 82,
       "stats": {
-        "rushYPG": 42.5,
-        "tdPerGame": 0.632,
+        "recYPG": 9.6,
         "rushAttPerGame": 11.53,
-        "recYPG": 9.6
+        "rushYPG": 42.5,
+        "tdPerGame": 0.632
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026019_NE_2011",
       "name": "Danny Woodhead",
       "position": "RB",
-      "team": "NE",
-      "year": 2011,
+      "rating": 66,
       "stats": {
-        "rushYPG": 24.2,
-        "tdPerGame": 0.059,
+        "recYPG": 12.1,
         "rushAttPerGame": 5.53,
-        "recYPG": 12.1
+        "rushYPG": 24.2,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027656_NE_2011",
+      "is_all_pro": true,
       "name": "Rob Gronkowski",
       "position": "WR",
-      "team": "NE",
-      "year": 2011,
+      "rating": 98,
       "stats": {
-        "recYPG": 83.4,
-        "tdPerGame": 1.053,
+        "avgCatchesPerGame": 5.63,
         "avgTargetsPerGame": 7.74,
-        "avgCatchesPerGame": 5.63
+        "recYPG": 83.4,
+        "tdPerGame": 1.053
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027713_NE_2011",
       "name": "Aaron Hernandez",
       "position": "WR",
-      "team": "NE",
-      "year": 2011,
+      "rating": 95,
       "stats": {
-        "recYPG": 64.6,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 5.76,
         "avgTargetsPerGame": 8.47,
-        "avgCatchesPerGame": 5.76
+        "recYPG": 64.6,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028011_NE_2011",
       "name": "Stevan Ridley",
       "position": "RB",
-      "team": "NE",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "rushYPG": 35.5,
-        "tdPerGame": 0.077,
+        "recYPG": 1.3,
         "rushAttPerGame": 7.0,
-        "recYPG": 1.3
+        "rushYPG": 35.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024333_NE_2011",
       "name": "S.Gostkowski",
       "position": "K",
-      "team": "NE",
-      "year": 2011,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.8684,
         "avgKickDistance": 33.4,
         "avgMissDistance": 41.4,
+        "fgAccuracy": 0.8684,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_OLine_2011",
       "position": "OLine",
-      "team": "NE",
-      "year": 2011,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.03,
+        "normalizedRank": 22,
         "rushTDPct": 0.0386,
-        "normalizedRank": 22
+        "rushYPC": 4.03,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_DLine_2011",
       "position": "DLine",
-      "team": "NE",
-      "year": 2011,
+      "rating": 72,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 117.12,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0646,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0646
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_Secondary_2011",
       "position": "Secondary",
-      "team": "NE",
-      "year": 2011,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6236,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 293.94,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.44,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 293.94,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2011
     }
   ]
 }

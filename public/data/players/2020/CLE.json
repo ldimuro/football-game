@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031235_CLE_2020",
       "name": "Odell Beckham",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "recYPG": 45.6,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 3.29,
         "avgTargetsPerGame": 6.14,
-        "avgCatchesPerGame": 3.29
+        "recYPG": 45.6,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031382_CLE_2020",
       "name": "Jarvis Landry",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 89,
       "stats": {
-        "recYPG": 56.0,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 56.0,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032392_CLE_2020",
       "name": "Austin Hooper",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 81,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.67,
         "avgTargetsPerGame": 5.6,
-        "avgCatchesPerGame": 3.67
+        "recYPG": 33.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032977_CLE_2020",
       "name": "Rashard Higgins",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 84,
       "stats": {
-        "recYPG": 51.1,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 3.14,
         "avgTargetsPerGame": 4.71,
-        "avgCatchesPerGame": 3.14
+        "recYPG": 51.1,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033885_CLE_2020",
       "name": "David Njoku",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 65,
       "stats": {
-        "recYPG": 21.5,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.85,
         "avgTargetsPerGame": 2.69,
-        "avgCatchesPerGame": 1.85
+        "recYPG": 21.5,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033923_CLE_2020",
       "name": "Kareem Hunt",
       "position": "RB",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 87,
       "stats": {
-        "rushYPG": 51.2,
-        "tdPerGame": 0.5,
+        "recYPG": 17.7,
         "rushAttPerGame": 11.78,
-        "recYPG": 17.7
+        "rushYPG": 51.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034791_CLE_2020",
+      "is_all_pro": true,
       "name": "Nick Chubb",
       "position": "RB",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 95,
       "stats": {
-        "rushYPG": 86.6,
-        "tdPerGame": 0.857,
+        "recYPG": 15.9,
         "rushAttPerGame": 15.79,
-        "recYPG": 15.9
+        "rushYPG": 86.6,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.2098,
       "id": "p_00-0034855_CLE_2020",
       "name": "Baker Mayfield",
       "position": "QB",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "passYPG": 223.9,
-        "qbr": 100,
-        "avgTDPerGame": 1.667,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.6266
+        "avgTDPerGame": 1.667,
+        "completionPct": 0.6266,
+        "passYPG": 223.9,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2098
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035628_CLE_2020",
       "name": "D'Ernest Johnson",
       "position": "RB",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 59,
       "stats": {
-        "rushYPG": 20.8,
-        "tdPerGame": 0.0,
+        "recYPG": 1.8,
         "rushAttPerGame": 4.12,
-        "recYPG": 1.8
+        "rushYPG": 20.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036232_CLE_2020",
       "name": "Harrison Bryant",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 66,
       "stats": {
-        "recYPG": 18.3,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.85,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.85
+        "recYPG": 18.3,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036233_CLE_2020",
       "name": "Donovan Peoples-Jones",
       "position": "WR",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 73,
       "stats": {
-        "recYPG": 37.2,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 1.78,
         "avgTargetsPerGame": 2.56,
-        "avgCatchesPerGame": 1.78
+        "recYPG": 37.2,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030850_CLE_2020",
       "name": "C.Parkey",
       "position": "K",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.8148,
         "avgKickDistance": 38.3,
         "avgMissDistance": 45.0,
+        "fgAccuracy": 0.8148,
         "longestMadeKick": 46
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2020",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.77,
+        "normalizedRank": 7,
         "rushTDPct": 0.0438,
-        "normalizedRank": 7
+        "rushYPC": 4.77,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2020",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 82,
       "stats": {
+        "blitzPct": 0.213,
+        "normalizedRank": 9,
+        "pressurePct": 0.219,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 110.81,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.065,
-        "blitzPct": 0.213,
-        "pressurePct": 0.219,
-        "normalizedRank": 9
+        "sackPct": 0.065
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2020",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2020,
+      "rating": 77,
       "stats": {
         "completionPctAllowed": 0.6342,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 247.62,
-        "passTDPerGameAllowed": 1.94,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.94,
+        "passYPGAllowed": 247.62,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2020
     }
   ]
 }

@@ -1,233 +1,249 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033293_GB_2023",
       "name": "Aaron Jones",
       "position": "RB",
-      "team": "GB",
-      "year": 2023,
+      "rating": 92,
       "stats": {
-        "rushYPG": 67.8,
-        "tdPerGame": 0.385,
+        "recYPG": 19.5,
         "rushAttPerGame": 13.92,
-        "recYPG": 19.5
+        "rushYPG": 67.8,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035973_GB_2023",
       "name": "Patrick Taylor",
       "position": "RB",
-      "team": "GB",
-      "year": 2023,
+      "rating": 59,
       "stats": {
-        "rushYPG": 13.4,
-        "tdPerGame": 0.0,
+        "recYPG": 4.5,
         "rushAttPerGame": 3.18,
-        "recYPG": 4.5
+        "rushYPG": 13.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.3563,
       "id": "p_00-0036264_GB_2023",
       "name": "Jordan Love",
       "position": "QB",
-      "team": "GB",
-      "year": 2023,
+      "rating": 90,
       "stats": {
-        "passYPG": 243.4,
-        "qbr": 100,
-        "avgTDPerGame": 1.947,
         "avgINTPerGame": 0.684,
-        "completionPct": 0.6451
+        "avgTDPerGame": 1.947,
+        "completionPct": 0.6451,
+        "passYPG": 243.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3563
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036265_GB_2023",
       "name": "AJ Dillon",
       "position": "RB",
-      "team": "GB",
-      "year": 2023,
+      "rating": 79,
       "stats": {
-        "rushYPG": 40.9,
-        "tdPerGame": 0.133,
+        "recYPG": 14.9,
         "rushAttPerGame": 11.87,
-        "recYPG": 14.9
+        "rushYPG": 40.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037091_GB_2023",
       "name": "Bo Melton",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 85,
       "stats": {
-        "recYPG": 40.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 40.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037816_GB_2023",
       "name": "Romeo Doubs",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 90,
       "stats": {
-        "recYPG": 47.8,
-        "tdPerGame": 0.474,
+        "avgCatchesPerGame": 3.63,
         "avgTargetsPerGame": 5.68,
-        "avgCatchesPerGame": 3.63
+        "recYPG": 47.8,
+        "tdPerGame": 0.474
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038124_GB_2023",
       "name": "Christian Watson",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 87,
       "stats": {
-        "recYPG": 40.2,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": 5.09,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 40.2,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038393_GB_2023",
       "name": "Dontayvion Wicks",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "recYPG": 35.6,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 2.41,
         "avgTargetsPerGame": 3.65,
-        "avgCatchesPerGame": 2.41
+        "recYPG": 35.6,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038465_GB_2023",
       "name": "Malik Heath",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 60,
       "stats": {
-        "recYPG": 10.4,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.25,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.25
+        "recYPG": 10.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038996_GB_2023",
       "name": "Tucker Kraft",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 81,
       "stats": {
-        "recYPG": 31.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.08,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 31.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039144_GB_2023",
       "name": "Luke Musgrave",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 79,
       "stats": {
-        "recYPG": 32.2,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.08,
         "avgTargetsPerGame": 4.08,
-        "avgCatchesPerGame": 3.08
+        "recYPG": 32.2,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039146_GB_2023",
       "name": "Jayden Reed",
       "position": "WR",
-      "team": "GB",
-      "year": 2023,
+      "rating": 89,
       "stats": {
-        "recYPG": 46.0,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 3.78,
         "avgTargetsPerGame": 5.61,
-        "avgCatchesPerGame": 3.78
+        "recYPG": 46.0,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038402_GB_2023",
       "name": "A.Carlson",
       "position": "K",
-      "team": "GB",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.8056,
         "avgKickDistance": 37.8,
         "avgMissDistance": 47.6,
+        "fgAccuracy": 0.8056,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_OLine_2023",
       "position": "OLine",
-      "team": "GB",
-      "year": 2023,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.35,
+        "normalizedRank": 9,
         "rushTDPct": 0.0259,
-        "normalizedRank": 9
+        "rushYPC": 4.35,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_DLine_2023",
       "position": "DLine",
-      "team": "GB",
-      "year": 2023,
+      "rating": 75,
       "stats": {
+        "blitzPct": 0.293,
+        "normalizedRank": 28,
+        "pressurePct": 0.243,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 128.29,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.086,
-        "blitzPct": 0.293,
-        "pressurePct": 0.243,
-        "normalizedRank": 28
+        "sackPct": 0.086
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_Secondary_2023",
       "position": "Secondary",
-      "team": "GB",
-      "year": 2023,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.6539,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 206.76,
-        "passTDPerGameAllowed": 1.24,
         "interceptionsPerGame": 0.41,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.24,
+        "passYPGAllowed": 206.76,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2023
     }
   ]
 }

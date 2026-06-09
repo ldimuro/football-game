@@ -20,6 +20,24 @@ export async function generateDraftOffer(): Promise<DraftOffer> {
   return { team, year, players, units }
 }
 
+export async function rerollDraftOfferTeam(currentTeam: string, currentYear: number): Promise<DraftOffer> {
+  const meta = await getMeta()
+  const candidates = meta.filter(m => m.year === currentYear && m.team !== currentTeam)
+  const pool = candidates.length ? candidates : meta.filter(m => m.year === currentYear)
+  const { team, year } = pickRandom(pool)
+  const { players, units } = await loadTeamRoster(year, team)
+  return { team, year, players, units }
+}
+
+export async function rerollDraftOfferYear(currentTeam: string, currentYear: number): Promise<DraftOffer> {
+  const meta = await getMeta()
+  const candidates = meta.filter(m => m.team === currentTeam && m.year !== currentYear)
+  const pool = candidates.length ? candidates : meta.filter(m => m.team === currentTeam)
+  const { team, year } = pickRandom(pool)
+  const { players, units } = await loadTeamRoster(year, team)
+  return { team, year, players, units }
+}
+
 export async function generateOpponent(): Promise<{ stats: TeamStats; roster: Roster }> {
   const meta = await getMeta()
   const { team, year } = pickRandom(meta)

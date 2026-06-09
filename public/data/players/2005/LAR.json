@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2005",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2005,
+      "rating": 68,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 28,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 136.12,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0809,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 28
+        "sackPct": 0.0809
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2005",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2005,
+      "rating": 64,
       "stats": {
         "completionPctAllowed": 0.6193,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 214.0,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 214.0,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2005
     }
   ]
 }

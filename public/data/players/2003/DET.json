@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002159_DET_2003",
       "name": "Shawn Bryson",
       "position": "RB",
-      "team": "DET",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "rushYPG": 37.9,
-        "tdPerGame": 0.188,
+        "recYPG": 21.2,
         "rushAttPerGame": 9.88,
-        "recYPG": 21.2
+        "rushYPG": 37.9,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005816_DET_2003",
       "name": "Olandis Gary",
       "position": "RB",
-      "team": "DET",
-      "year": 2003,
+      "rating": 71,
       "stats": {
-        "rushYPG": 29.5,
-        "tdPerGame": 0.154,
+        "recYPG": 5.3,
         "rushAttPerGame": 8.69,
-        "recYPG": 5.3
+        "rushYPG": 29.5,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006627_DET_2003",
       "name": "Az-Zahir Hakim",
       "position": "WR",
-      "team": "DET",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "recYPG": 34.5,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 3.77,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.77
+        "recYPG": 34.5,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013712_DET_2003",
       "name": "Mikhael Ricks",
       "position": "WR",
-      "team": "DET",
-      "year": 2003,
+      "rating": 70,
       "stats": {
-        "recYPG": 33.4,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.85,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.85
+        "recYPG": 33.4,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014489_DET_2003",
       "name": "Bill Schroeder",
       "position": "WR",
-      "team": "DET",
-      "year": 2003,
+      "rating": 65,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.57,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.57
+        "recYPG": 28.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.1148,
       "id": "p_00-0021141_DET_2003",
       "name": "Joey Harrington",
       "position": "QB",
-      "team": "DET",
-      "year": 2003,
+      "rating": 70,
       "stats": {
-        "passYPG": 180.0,
-        "qbr": 0,
-        "avgTDPerGame": 1.062,
         "avgINTPerGame": 1.375,
-        "completionPct": 0.5578
+        "avgTDPerGame": 1.062,
+        "completionPct": 0.5578,
+        "passYPG": 180.0,
+        "qbr": 0
       },
-      "eraNormFactor": 1.1148
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021525_DET_2003",
       "name": "Casey Fitzsimmons",
       "position": "WR",
-      "team": "DET",
-      "year": 2003,
+      "rating": 63,
       "stats": {
-        "recYPG": 16.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.3,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.3
+        "recYPG": 16.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022072_DET_2003",
       "name": "Charles Rogers",
       "position": "WR",
-      "team": "DET",
-      "year": 2003,
+      "rating": 90,
       "stats": {
-        "recYPG": 48.6,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 4.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.4
+        "recYPG": 48.6,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006800_DET_2003",
       "name": "J.Hanson",
       "position": "K",
-      "team": "DET",
-      "year": 2003,
+      "rating": 92,
       "stats": {
-        "fgAccuracy": 0.9565,
         "avgKickDistance": 38.1,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.9565,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2003",
       "position": "OLine",
-      "team": "DET",
-      "year": 2003,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.61,
+        "normalizedRank": 28,
         "rushTDPct": 0.0134,
-        "normalizedRank": 28
+        "rushYPC": 3.61,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2003",
       "position": "DLine",
-      "team": "DET",
-      "year": 2003,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 15,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 111.38,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0536,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 15
+        "sackPct": 0.0536
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2003",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2003,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.6341,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 223.62,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 28
+        "normalizedRank": 28,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 223.62,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2003
     }
   ]
 }

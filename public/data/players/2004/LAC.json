@@ -1,151 +1,161 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010668_LAC_2004",
       "name": "Keenan McCardell",
       "position": "WR",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "recYPG": 55.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.38
+        "recYPG": 55.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.2353,
       "id": "p_00-0020531_LAC_2004",
       "name": "Drew Brees",
       "position": "QB",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 91,
       "stats": {
-        "passYPG": 217.4,
-        "qbr": 100,
-        "avgTDPerGame": 1.812,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.6629
+        "avgTDPerGame": 1.812,
+        "completionPct": 0.6629,
+        "passYPG": 217.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2353
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020536_LAC_2004",
+      "is_all_pro": true,
       "name": "LaDainian Tomlinson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 96,
       "stats": {
-        "rushYPG": 88.4,
-        "tdPerGame": 1.062,
+        "recYPG": 30.9,
         "rushAttPerGame": 22.81,
-        "recYPG": 30.9
+        "rushYPG": 88.4,
+        "tdPerGame": 1.062
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020820_LAC_2004",
       "name": "Jesse Chatman",
       "position": "RB",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 68,
       "stats": {
-        "rushYPG": 35.6,
-        "tdPerGame": 0.273,
+        "recYPG": 1.5,
         "rushAttPerGame": 5.91,
-        "recYPG": 1.5
+        "rushYPG": 35.6,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020904_LAC_2004",
       "name": "Eric Parker",
       "position": "WR",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "recYPG": 55.9,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 55.9,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021547_LAC_2004",
+      "is_all_pro": true,
       "name": "Antonio Gates",
       "position": "WR",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 95,
       "stats": {
-        "recYPG": 65.8,
-        "tdPerGame": 0.875,
+        "avgCatchesPerGame": 5.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.44
+        "recYPG": 65.8,
+        "tdPerGame": 0.875
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022737_LAC_2004",
       "name": "N.Kaeding",
       "position": "K",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.7778,
         "avgKickDistance": 35.5,
         "avgMissDistance": 40.5,
+        "fgAccuracy": 0.7778,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2004",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.09,
+        "normalizedRank": 18,
         "rushTDPct": 0.0429,
-        "normalizedRank": 18
+        "rushYPC": 4.09,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2004",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 3,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 81.69,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0478,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 3
+        "sackPct": 0.0478
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2004",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2004,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.6129,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 253.31,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.44,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 253.31,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2004
     }
   ]
 }

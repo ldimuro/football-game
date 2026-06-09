@@ -1,207 +1,221 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4479,
       "id": "p_00-0010346_DEN_2014",
       "name": "Peyton Manning",
       "position": "QB",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 92,
       "stats": {
-        "passYPG": 290.5,
-        "qbr": 100,
-        "avgTDPerGame": 2.353,
         "avgINTPerGame": 0.882,
-        "completionPct": 0.6547
+        "avgTDPerGame": 2.353,
+        "completionPct": 0.6547,
+        "passYPG": 290.5,
+        "qbr": 100
       },
-      "eraNormFactor": 1.4479
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022427_DEN_2014",
       "name": "Wes Welker",
       "position": "WR",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 74,
       "stats": {
-        "recYPG": 32.3,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": 4.4,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 32.3,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026267_DEN_2014",
       "name": "Jacob Tamme",
       "position": "WR",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 62,
       "stats": {
-        "recYPG": 9.9,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 1.27,
         "avgTargetsPerGame": 2.55,
-        "avgCatchesPerGame": 1.27
+        "recYPG": 9.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027685_DEN_2014",
+      "is_all_pro": true,
       "name": "Emmanuel Sanders",
       "position": "WR",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 97,
       "stats": {
-        "recYPG": 85.3,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 6.35,
         "avgTargetsPerGame": 9.18,
-        "avgCatchesPerGame": 6.35
+        "recYPG": 85.3,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027874_DEN_2014",
+      "is_all_pro": true,
       "name": "Demaryius Thomas",
       "position": "WR",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 99,
       "stats": {
-        "recYPG": 98.7,
-        "tdPerGame": 0.706,
+        "avgCatchesPerGame": 6.82,
         "avgTargetsPerGame": 11.53,
-        "avgCatchesPerGame": 6.82
+        "recYPG": 98.7,
+        "tdPerGame": 0.706
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028067_DEN_2014",
       "name": "Julius Thomas",
       "position": "WR",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 86,
       "stats": {
-        "recYPG": 41.7,
-        "tdPerGame": 0.923,
+        "avgCatchesPerGame": 3.77,
         "avgTargetsPerGame": 5.31,
-        "avgCatchesPerGame": 3.77
+        "recYPG": 41.7,
+        "tdPerGame": 0.923
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029683_DEN_2014",
       "name": "Ronnie Hillman",
       "position": "RB",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 85,
       "stats": {
-        "rushYPG": 49.1,
-        "tdPerGame": 0.333,
+        "recYPG": 15.4,
         "rushAttPerGame": 12.0,
-        "recYPG": 15.4
+        "rushYPG": 49.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029854_DEN_2014",
       "name": "C.J. Anderson",
       "position": "RB",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 92,
       "stats": {
-        "rushYPG": 61.9,
-        "tdPerGame": 0.533,
+        "recYPG": 23.5,
         "rushAttPerGame": 13.13,
-        "recYPG": 23.5
+        "rushYPG": 61.9,
+        "tdPerGame": 0.533
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030522_DEN_2014",
       "name": "Montee Ball",
       "position": "RB",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 78,
       "stats": {
-        "rushYPG": 34.4,
-        "tdPerGame": 0.2,
+        "recYPG": 12.4,
         "rushAttPerGame": 11.0,
-        "recYPG": 12.4
+        "rushYPG": 34.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030705_DEN_2014",
       "name": "Juwan Thompson",
       "position": "RB",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 68,
       "stats": {
-        "rushYPG": 22.7,
-        "tdPerGame": 0.25,
+        "recYPG": 2.1,
         "rushAttPerGame": 4.5,
-        "recYPG": 2.1
+        "rushYPG": 22.7,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026138_DEN_2014",
       "name": "C.Barth",
       "position": "K",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.8387,
         "avgKickDistance": 34.9,
         "avgMissDistance": 45.8,
+        "fgAccuracy": 0.8387,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2014",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.05,
+        "normalizedRank": 20,
         "rushTDPct": 0.0324,
-        "normalizedRank": 20
+        "rushYPC": 4.05,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2014",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 79.75,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.064,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.064
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2014",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2014,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.6225,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 225.44,
-        "passTDPerGameAllowed": 1.81,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.81,
+        "passYPGAllowed": 225.44,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2014
     }
   ]
 }

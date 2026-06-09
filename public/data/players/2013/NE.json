@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.257,
       "id": "p_00-0019596_NE_2013",
       "name": "Tom Brady",
       "position": "QB",
-      "team": "NE",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "passYPG": 267.7,
-        "qbr": 96.2,
-        "avgTDPerGame": 1.444,
         "avgINTPerGame": 0.611,
-        "completionPct": 0.6035
+        "avgTDPerGame": 1.444,
+        "completionPct": 0.6035,
+        "passYPG": 267.7,
+        "qbr": 96.2
       },
-      "eraNormFactor": 1.257
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026035_NE_2013",
       "name": "Danny Amendola",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 80,
       "stats": {
-        "recYPG": 50.7,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 4.07,
         "avgTargetsPerGame": 6.36,
-        "avgCatchesPerGame": 4.07
+        "recYPG": 50.7,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027150_NE_2013",
       "name": "Julian Edelman",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 94,
       "stats": {
-        "recYPG": 68.3,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 6.72,
         "avgTargetsPerGame": 9.72,
-        "avgCatchesPerGame": 6.72
+        "recYPG": 68.3,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027325_NE_2013",
       "name": "LeGarrette Blount",
       "position": "RB",
-      "team": "NE",
-      "year": 2013,
+      "rating": 82,
       "stats": {
-        "rushYPG": 52.4,
-        "tdPerGame": 0.611,
+        "recYPG": 2.1,
         "rushAttPerGame": 10.11,
-        "recYPG": 2.1
+        "rushYPG": 52.4,
+        "tdPerGame": 0.611
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027656_NE_2013",
       "name": "Rob Gronkowski",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 97,
       "stats": {
-        "recYPG": 84.6,
-        "tdPerGame": 0.571,
+        "avgCatchesPerGame": 5.57,
         "avgTargetsPerGame": 9.43,
-        "avgCatchesPerGame": 5.57
+        "recYPG": 84.6,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027732_NE_2013",
       "name": "Michael Hoomanawanui",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 58,
       "stats": {
-        "recYPG": 14.6,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.25,
         "avgTargetsPerGame": 1.92,
-        "avgCatchesPerGame": 1.25
+        "recYPG": 14.6,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027994_NE_2013",
       "name": "Shane Vereen",
       "position": "RB",
-      "team": "NE",
-      "year": 2013,
+      "rating": 72,
       "stats": {
-        "rushYPG": 25.9,
-        "tdPerGame": 0.1,
+        "recYPG": 50.2,
         "rushAttPerGame": 5.3,
-        "recYPG": 50.2
+        "rushYPG": 25.9,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028011_NE_2013",
       "name": "Stevan Ridley",
       "position": "RB",
-      "team": "NE",
-      "year": 2013,
+      "rating": 83,
       "stats": {
-        "rushYPG": 52.6,
-        "tdPerGame": 0.562,
+        "recYPG": 3.9,
         "rushAttPerGame": 12.31,
-        "recYPG": 3.9
+        "rushYPG": 52.6,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029239_NE_2013",
       "name": "Brandon Bolden",
       "position": "RB",
-      "team": "NE",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "rushYPG": 27.1,
-        "tdPerGame": 0.3,
+        "recYPG": 15.2,
         "rushAttPerGame": 5.5,
-        "recYPG": 15.2
+        "rushYPG": 27.1,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030000_NE_2013",
       "name": "Kenbrell Thompkins",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "recYPG": 38.8,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 38.8,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030540_NE_2013",
       "name": "Aaron Dobson",
       "position": "WR",
-      "team": "NE",
-      "year": 2013,
+      "rating": 83,
       "stats": {
-        "recYPG": 46.0,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 6.25,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 46.0,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024333_NE_2013",
       "name": "S.Gostkowski",
       "position": "K",
-      "team": "NE",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.9286,
         "avgKickDistance": 38.0,
         "avgMissDistance": 48.7,
+        "fgAccuracy": 0.9286,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_OLine_2013",
       "position": "OLine",
-      "team": "NE",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.44,
+        "normalizedRank": 10,
         "rushTDPct": 0.0489,
-        "normalizedRank": 10
+        "rushYPC": 4.44,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_DLine_2013",
       "position": "DLine",
-      "team": "NE",
-      "year": 2013,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 134.06,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0815,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0815
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_Secondary_2013",
       "position": "Secondary",
-      "team": "NE",
-      "year": 2013,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5705,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 239.0,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 239.0,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2013
     }
   ]
 }

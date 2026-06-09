@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5401,
       "id": "p_00-0011022_PHI_2009",
       "name": "Donovan McNabb",
       "position": "QB",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 85,
       "stats": {
-        "passYPG": 252.2,
-        "qbr": 70.7,
-        "avgTDPerGame": 1.533,
         "avgINTPerGame": 0.733,
-        "completionPct": 0.5958
+        "avgTDPerGame": 1.533,
+        "completionPct": 0.5958,
+        "passYPG": 252.2,
+        "qbr": 70.7
       },
-      "eraNormFactor": 1.5401
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021216_PHI_2009",
       "name": "Brian Westbrook",
       "position": "RB",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 73,
       "stats": {
-        "rushYPG": 30.4,
-        "tdPerGame": 0.111,
+        "recYPG": 23.1,
         "rushAttPerGame": 6.78,
-        "recYPG": 23.1
+        "rushYPG": 30.4,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023470_PHI_2009",
       "name": "Reggie Brown",
       "position": "WR",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 59,
       "stats": {
-        "recYPG": 15.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 0.9,
         "avgTargetsPerGame": 2.7,
-        "avgCatchesPerGame": 0.9
+        "recYPG": 15.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024324_PHI_2009",
       "name": "Jason Avant",
       "position": "WR",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 75,
       "stats": {
-        "recYPG": 36.4,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 3.59,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 36.4,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025549_PHI_2009",
       "name": "Brent Celek",
       "position": "WR",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 92,
       "stats": {
-        "recYPG": 60.6,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 4.65,
         "avgTargetsPerGame": 6.88,
-        "avgCatchesPerGame": 4.65
+        "recYPG": 60.6,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026189_PHI_2009",
       "name": "DeSean Jackson",
       "position": "WR",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 95,
       "stats": {
-        "recYPG": 73.8,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 7.81,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 73.8,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026995_PHI_2009",
       "name": "Jeremy Maclin",
       "position": "WR",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 91,
       "stats": {
-        "recYPG": 64.9,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 4.43,
         "avgTargetsPerGame": 7.29,
-        "avgCatchesPerGame": 4.43
+        "recYPG": 64.9,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027029_PHI_2009",
       "name": "LeSean McCoy",
       "position": "RB",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 78,
       "stats": {
-        "rushYPG": 38.9,
-        "tdPerGame": 0.235,
+        "recYPG": 18.6,
         "rushAttPerGame": 9.41,
-        "recYPG": 18.6
+        "rushYPG": 38.9,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_PHI_2009",
+      "is_all_pro": true,
       "name": "D.Akers",
       "position": "K",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 85,
       "stats": {
-        "fgAccuracy": 0.8649,
         "avgKickDistance": 36.4,
         "avgMissDistance": 46.6,
+        "fgAccuracy": 0.8649,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PHI",
+      "year": 2009
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2009",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.3,
+        "normalizedRank": 14,
         "rushTDPct": 0.0354,
-        "normalizedRank": 14
+        "rushYPC": 4.3,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2009",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 9,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 104.69,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0759,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 9
+        "sackPct": 0.0759
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2009",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2009,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6103,
-        "yardsPerAttemptAllowed": 5.5,
-        "passYPGAllowed": 216.38,
-        "passTDPerGameAllowed": 1.69,
         "interceptionsPerGame": 1.56,
-        "normalizedRank": 17
+        "normalizedRank": 17,
+        "passTDPerGameAllowed": 1.69,
+        "passYPGAllowed": 216.38,
+        "yardsPerAttemptAllowed": 5.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2009
     }
   ]
 }

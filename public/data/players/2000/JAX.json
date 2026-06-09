@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001661_JAX_2000",
       "name": "Kyle Brady",
       "position": "WR",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 85,
       "stats": {
-        "recYPG": 45.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 5.88,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 45.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.4299,
       "id": "p_00-0002110_JAX_2000",
       "name": "Mark Brunell",
       "position": "QB",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 87,
       "stats": {
-        "passYPG": 227.5,
-        "qbr": 72.9,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.6074
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.6074,
+        "passYPG": 227.5,
+        "qbr": 72.9
       },
-      "eraNormFactor": 1.4299
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010668_JAX_2000",
       "name": "Keenan McCardell",
       "position": "WR",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 94,
       "stats": {
-        "recYPG": 75.4,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.88,
         "avgTargetsPerGame": 8.75,
-        "avgCatchesPerGame": 5.88
+        "recYPG": 75.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015218_JAX_2000",
       "name": "Jimmy Smith",
       "position": "WR",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 98,
       "stats": {
-        "recYPG": 80.9,
-        "tdPerGame": 0.533,
+        "avgCatchesPerGame": 6.07,
         "avgTargetsPerGame": 9.67,
-        "avgCatchesPerGame": 6.07
+        "recYPG": 80.9,
+        "tdPerGame": 0.533
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_JAX_2000",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 96,
       "stats": {
-        "rushYPG": 104.8,
-        "tdPerGame": 0.923,
+        "recYPG": 18.5,
         "rushAttPerGame": 22.0,
-        "recYPG": 18.5
+        "rushYPG": 104.8,
+        "tdPerGame": 0.923
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017611_JAX_2000",
       "name": "Alvis Whitted",
       "position": "WR",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 69,
       "stats": {
-        "recYPG": 13.7,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 1.3,
         "avgTargetsPerGame": 2.6,
-        "avgCatchesPerGame": 1.3
+        "recYPG": 13.7,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019604_JAX_2000",
       "name": "R.Jay Soward",
       "position": "WR",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 65,
       "stats": {
-        "recYPG": 15.4,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.4,
         "avgTargetsPerGame": 3.4,
-        "avgCatchesPerGame": 1.4
+        "recYPG": 15.4,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007622_JAX_2000",
       "name": "M.Hollis",
       "position": "K",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.8788,
         "avgKickDistance": 36.0,
         "avgMissDistance": 35.2,
+        "fgAccuracy": 0.8788,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2000",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.17,
+        "normalizedRank": 13,
         "rushTDPct": 0.0381,
-        "normalizedRank": 13
+        "rushYPC": 4.17,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2000",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 105.31,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0873,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0873
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2000",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2000,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.5633,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 197.5,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 197.5,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2000
     }
   ]
 }

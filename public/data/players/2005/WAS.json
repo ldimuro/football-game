@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0855,
       "id": "p_00-0002110_WAS_2005",
       "name": "Mark Brunell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "passYPG": 185.2,
-        "qbr": 62.6,
-        "avgTDPerGame": 1.333,
         "avgINTPerGame": 0.611,
-        "completionPct": 0.5751
+        "avgTDPerGame": 1.333,
+        "completionPct": 0.5751,
+        "passYPG": 185.2,
+        "qbr": 62.6
       },
-      "eraNormFactor": 1.0855
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012642_WAS_2005",
       "name": "David Patten",
       "position": "WR",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 62,
       "stats": {
-        "recYPG": 27.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.75
+        "recYPG": 27.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2005",
+      "is_all_pro": true,
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 97,
       "stats": {
-        "recYPG": 89.1,
-        "tdPerGame": 0.556,
+        "avgCatchesPerGame": 5.17,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.17
+        "recYPG": 89.1,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_WAS_2005",
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 93,
       "stats": {
-        "rushYPG": 89.4,
-        "tdPerGame": 0.667,
+        "recYPG": 12.3,
         "rushAttPerGame": 21.39,
-        "recYPG": 12.3
+        "rushYPG": 89.4,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021184_WAS_2005",
       "name": "Ladell Betts",
       "position": "RB",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 68,
       "stats": {
-        "rushYPG": 26.3,
-        "tdPerGame": 0.071,
+        "recYPG": 7.9,
         "rushAttPerGame": 7.29,
-        "recYPG": 7.9
+        "rushYPG": 26.3,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021273_WAS_2005",
       "name": "Robert Royal",
       "position": "WR",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 58,
       "stats": {
-        "recYPG": 12.2,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 12.2,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022738_WAS_2005",
+      "is_all_pro": true,
       "name": "Chris Cooley",
       "position": "WR",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 86,
       "stats": {
-        "recYPG": 48.4,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 4.28,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.28
+        "recYPG": 48.4,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006662_WAS_2005",
       "name": "J.Hall",
       "position": "K",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.7917,
         "avgKickDistance": 36.2,
         "avgMissDistance": 42.0,
+        "fgAccuracy": 0.7917,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2005",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.02,
+        "normalizedRank": 12,
         "rushTDPct": 0.0275,
-        "normalizedRank": 12
+        "rushYPC": 4.02,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2005",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 74,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 13,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 105.38,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0654,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 13
+        "sackPct": 0.0654
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2005",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2005,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5439,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 192.56,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 192.56,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2005
     }
   ]
 }

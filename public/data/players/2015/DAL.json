@@ -1,222 +1,237 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0857,
       "id": "p_00-0021678_DAL_2015",
       "name": "Tony Romo",
       "position": "QB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 65,
       "stats": {
-        "passYPG": 221.0,
-        "qbr": 24.9,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 1.75,
-        "completionPct": 0.686
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.686,
+        "passYPG": 221.0,
+        "qbr": 24.9
       },
-      "eraNormFactor": 1.0857
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2015",
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 83,
       "stats": {
-        "recYPG": 44.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.81,
         "avgTargetsPerGame": 6.5,
-        "avgCatchesPerGame": 4.81
+        "recYPG": 44.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 0.7836,
       "id": "p_00-0023662_DAL_2015",
       "name": "Matt Cassel",
       "position": "QB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 61,
       "stats": {
-        "passYPG": 159.5,
-        "qbr": 2.8,
-        "avgTDPerGame": 0.625,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.5833
+        "avgTDPerGame": 0.625,
+        "completionPct": 0.5833,
+        "passYPG": 159.5,
+        "qbr": 2.8
       },
-      "eraNormFactor": 0.7836
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026144_DAL_2015",
       "name": "Darren McFadden",
       "position": "RB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 88,
       "stats": {
-        "rushYPG": 68.1,
-        "tdPerGame": 0.188,
+        "recYPG": 20.5,
         "rushAttPerGame": 14.94,
-        "recYPG": 20.5
+        "rushYPG": 68.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027902_DAL_2015",
       "name": "Dez Bryant",
       "position": "WR",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 86,
       "stats": {
-        "recYPG": 44.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 44.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029000_DAL_2015",
       "name": "Cole Beasley",
       "position": "WR",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.5,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 4.69,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 33.5,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 0.8538,
       "id": "p_00-0029677_DAL_2015",
       "name": "Brandon Weeden",
       "position": "QB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 75,
       "stats": {
-        "passYPG": 173.8,
-        "qbr": 70.3,
-        "avgTDPerGame": 0.833,
         "avgINTPerGame": 0.333,
-        "completionPct": 0.6929
+        "avgTDPerGame": 0.833,
+        "completionPct": 0.6929,
+        "passYPG": 173.8,
+        "qbr": 70.3
       },
-      "eraNormFactor": 0.8538
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030388_DAL_2015",
       "name": "Joseph Randle",
       "position": "RB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 87,
       "stats": {
-        "rushYPG": 52.5,
-        "tdPerGame": 0.667,
+        "recYPG": 14.3,
         "rushAttPerGame": 12.67,
-        "recYPG": 14.3
+        "rushYPG": 52.5,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030432_DAL_2015",
       "name": "Christine Michael",
       "position": "RB",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 67,
       "stats": {
-        "rushYPG": 31.3,
-        "tdPerGame": 0.0,
+        "recYPG": 3.0,
         "rushAttPerGame": 7.5,
-        "recYPG": 3.0
+        "rushYPG": 31.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030516_DAL_2015",
       "name": "Brice Butler",
       "position": "WR",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 76,
       "stats": {
-        "recYPG": 51.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 51.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030542_DAL_2015",
       "name": "Terrance Williams",
       "position": "WR",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 82,
       "stats": {
-        "recYPG": 52.5,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": 5.81,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 52.5,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028660_DAL_2015",
+      "is_all_pro": true,
       "name": "D.Bailey",
       "position": "K",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 85,
       "stats": {
-        "fgAccuracy": 0.9375,
         "avgKickDistance": 36.7,
         "avgMissDistance": 49.0,
+        "fgAccuracy": 0.9375,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2015
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2015",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.63,
+        "normalizedRank": 3,
         "rushTDPct": 0.0196,
-        "normalizedRank": 3
+        "rushYPC": 4.63,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2015",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 70,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 22,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 120.69,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0613,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 22
+        "sackPct": 0.0613
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2015",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2015,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6522,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 227.25,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.5,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 227.25,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2015
     }
   ]
 }

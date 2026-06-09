@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022811_PIT_2013",
       "name": "Jerricho Cotchery",
       "position": "WR",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 83,
       "stats": {
-        "recYPG": 40.1,
-        "tdPerGame": 0.667,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 40.1,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.2504,
       "id": "p_00-0022924_PIT_2013",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "passYPG": 266.3,
-        "qbr": 87.9,
-        "avgTDPerGame": 1.75,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.6421
+        "avgTDPerGame": 1.75,
+        "completionPct": 0.6421,
+        "passYPG": 266.3,
+        "qbr": 87.9
       },
-      "eraNormFactor": 1.2504
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023465_PIT_2013",
       "name": "Heath Miller",
       "position": "WR",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "recYPG": 42.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 4.14,
         "avgTargetsPerGame": 5.57,
-        "avgCatchesPerGame": 4.14
+        "recYPG": 42.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026162_PIT_2013",
       "name": "Felix Jones",
       "position": "RB",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 59,
       "stats": {
-        "rushYPG": 13.1,
-        "tdPerGame": 0.0,
+        "recYPG": 4.5,
         "rushAttPerGame": 3.43,
-        "recYPG": 4.5
+        "rushYPG": 13.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027685_PIT_2013",
       "name": "Emmanuel Sanders",
       "position": "WR",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "recYPG": 46.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.19,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 4.19
+        "recYPG": 46.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027786_PIT_2013",
       "name": "Jonathan Dwyer",
       "position": "RB",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 60,
       "stats": {
-        "rushYPG": 14.1,
-        "tdPerGame": 0.0,
+        "recYPG": 4.6,
         "rushAttPerGame": 3.5,
-        "recYPG": 4.6
+        "rushYPG": 14.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027793_PIT_2013",
+      "is_all_pro": true,
       "name": "Antonio Brown",
       "position": "WR",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 97,
       "stats": {
-        "recYPG": 93.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 6.88,
         "avgTargetsPerGame": 10.38,
-        "avgCatchesPerGame": 6.88
+        "recYPG": 93.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030496_PIT_2013",
       "name": "Le'Veon Bell",
       "position": "RB",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 94,
       "stats": {
-        "rushYPG": 66.2,
-        "tdPerGame": 0.615,
+        "recYPG": 30.7,
         "rushAttPerGame": 18.77,
-        "recYPG": 30.7
+        "rushYPG": 66.2,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023001_PIT_2013",
       "name": "S.Suisham",
       "position": "K",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.9375,
         "avgKickDistance": 34.2,
         "avgMissDistance": 33.0,
+        "fgAccuracy": 0.9375,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2013",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.51,
+        "normalizedRank": 29,
         "rushTDPct": 0.0228,
-        "normalizedRank": 29
+        "rushYPC": 3.51,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2013",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 67,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 21,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 115.56,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0598,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 21
+        "sackPct": 0.0598
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2013",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2013,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.5782,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 221.62,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 221.62,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2013
     }
   ]
 }

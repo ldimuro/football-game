@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5596,
       "id": "p_00-0017200_ARI_2009",
       "name": "Kurt Warner",
       "position": "QB",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 88,
       "stats": {
-        "passYPG": 255.4,
-        "qbr": 95.2,
-        "avgTDPerGame": 1.882,
         "avgINTPerGame": 0.882,
-        "completionPct": 0.6736
+        "avgTDPerGame": 1.882,
+        "completionPct": 0.6736,
+        "passYPG": 255.4,
+        "qbr": 95.2
       },
-      "eraNormFactor": 1.5596
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021647_ARI_2009",
       "name": "Jerheme Urban",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 62,
       "stats": {
-        "recYPG": 21.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 2.91,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 21.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022084_ARI_2009",
       "name": "Anquan Boldin",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 93,
       "stats": {
-        "recYPG": 68.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 5.67,
         "avgTargetsPerGame": 8.53,
-        "avgCatchesPerGame": 5.67
+        "recYPG": 68.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022921_ARI_2009",
+      "is_all_pro": true,
       "name": "Larry Fitzgerald",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 97,
       "stats": {
-        "recYPG": 69.5,
-        "tdPerGame": 0.833,
+        "avgCatchesPerGame": 6.06,
         "avgTargetsPerGame": 9.39,
-        "avgCatchesPerGame": 6.06
+        "recYPG": 69.5,
+        "tdPerGame": 0.833
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025529_ARI_2009",
       "name": "Steve Breaston",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 86,
       "stats": {
-        "recYPG": 55.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 6.12,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 55.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025934_ARI_2009",
       "name": "Lance Long",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 65,
       "stats": {
-        "recYPG": 22.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 4.75,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 22.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026221_ARI_2009",
       "name": "Early Doucet",
       "position": "WR",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 77,
       "stats": {
-        "recYPG": 32.6,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 2.82,
         "avgTargetsPerGame": 3.73,
-        "avgCatchesPerGame": 2.82
+        "recYPG": 32.6,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026289_ARI_2009",
       "name": "Tim Hightower",
       "position": "RB",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 83,
       "stats": {
-        "rushYPG": 39.1,
-        "tdPerGame": 0.556,
+        "recYPG": 26.4,
         "rushAttPerGame": 8.67,
-        "recYPG": 26.4
+        "rushYPG": 39.1,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027007_ARI_2009",
       "name": "Beanie Wells",
       "position": "RB",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "rushYPG": 49.5,
-        "tdPerGame": 0.444,
+        "recYPG": 7.9,
         "rushAttPerGame": 10.83,
-        "recYPG": 7.9
+        "rushYPG": 49.5,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019676_ARI_2009",
       "name": "N.Rackers",
       "position": "K",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8636,
         "avgKickDistance": 35.9,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8636,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2009",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.34,
+        "normalizedRank": 12,
         "rushTDPct": 0.0448,
-        "normalizedRank": 12
+        "rushYPC": 4.34,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2009",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 112.75,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0725,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0725
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2009",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2009,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5835,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 233.69,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 233.69,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2009
     }
   ]
 }

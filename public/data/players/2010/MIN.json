@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0292,
       "id": "p_00-0005106_MIN_2010",
       "name": "Brett Favre",
       "position": "QB",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 65,
       "stats": {
-        "passYPG": 193.0,
-        "qbr": 15.9,
-        "avgTDPerGame": 0.846,
         "avgINTPerGame": 1.462,
-        "completionPct": 0.6061
+        "avgTDPerGame": 0.846,
+        "completionPct": 0.6061,
+        "passYPG": 193.0,
+        "qbr": 15.9
       },
-      "eraNormFactor": 1.0292
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009323_MIN_2010",
       "name": "Jimmy Kleinsasser",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 57,
       "stats": {
-        "recYPG": 10.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.21,
         "avgTargetsPerGame": 1.5,
-        "avgCatchesPerGame": 1.21
+        "recYPG": 10.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021508_MIN_2010",
       "name": "Greg Lewis",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 59,
       "stats": {
-        "recYPG": 16.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.42,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.42
+        "recYPG": 16.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022054_MIN_2010",
       "name": "Visanthe Shiancoe",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 74,
       "stats": {
-        "recYPG": 35.3,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 3.13,
         "avgTargetsPerGame": 5.33,
-        "avgCatchesPerGame": 3.13
+        "recYPG": 35.3,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022807_MIN_2010",
       "name": "Bernard Berrian",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 64,
       "stats": {
-        "recYPG": 21.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 21.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023408_MIN_2010",
       "name": "Greg Camarillo",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 63,
       "stats": {
-        "recYPG": 20.0,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.83,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 20.0,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025394_MIN_2010",
+      "is_all_pro": true,
       "name": "Adrian Peterson",
       "position": "RB",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 96,
       "stats": {
-        "rushYPG": 86.5,
-        "tdPerGame": 0.8,
+        "recYPG": 22.7,
         "rushAttPerGame": 18.87,
-        "recYPG": 22.7
+        "rushYPG": 86.5,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025431_MIN_2010",
       "name": "Sidney Rice",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 84,
       "stats": {
-        "recYPG": 46.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 46.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026998_MIN_2010",
       "name": "Percy Harvin",
       "position": "WR",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 92,
       "stats": {
-        "recYPG": 62.0,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 5.07,
         "avgTargetsPerGame": 7.79,
-        "avgCatchesPerGame": 5.07
+        "recYPG": 62.0,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027888_MIN_2010",
       "name": "Toby Gerhart",
       "position": "RB",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 67,
       "stats": {
-        "rushYPG": 21.5,
-        "tdPerGame": 0.067,
+        "recYPG": 11.1,
         "rushAttPerGame": 5.4,
-        "recYPG": 11.1
+        "rushYPG": 21.5,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010072_MIN_2010",
       "name": "R.Longwell",
       "position": "K",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.9444,
         "avgKickDistance": 31.8,
         "avgMissDistance": 39.0,
+        "fgAccuracy": 0.9444,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2010",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.4,
+        "normalizedRank": 8,
         "rushTDPct": 0.0363,
-        "normalizedRank": 8
+        "rushYPC": 4.4,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2010",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 9,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 102.19,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0586,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 9
+        "sackPct": 0.0586
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2010",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2010,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6295,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 210.44,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 210.44,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2010
     }
   ]
 }

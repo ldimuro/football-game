@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029621_LA_2019",
       "name": "G.Zuerlein",
       "position": "K",
-      "team": "LA",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.7273,
         "avgKickDistance": 40.0,
         "avgMissDistance": 45.1,
+        "fgAccuracy": 0.7273,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2019",
       "position": "OLine",
-      "team": "LA",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.74,
+        "normalizedRank": 27,
         "rushTDPct": 0.0499,
-        "normalizedRank": 27
+        "rushYPC": 3.74,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2019",
       "position": "DLine",
-      "team": "LA",
-      "year": 2019,
+      "rating": 84,
       "stats": {
+        "blitzPct": 0.28,
+        "normalizedRank": 19,
+        "pressurePct": 0.279,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 113.06,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.089,
-        "blitzPct": 0.28,
-        "pressurePct": 0.279,
-        "normalizedRank": 19
+        "sackPct": 0.089
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2019",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2019,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6192,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 226.56,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 226.56,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2019
     }
   ]
 }

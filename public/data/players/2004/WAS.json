@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.7541,
       "id": "p_00-0002110_WAS_2004",
       "name": "Mark Brunell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 66,
       "stats": {
-        "passYPG": 132.7,
-        "qbr": 0,
-        "avgTDPerGame": 0.778,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.4979
+        "avgTDPerGame": 0.778,
+        "completionPct": 0.4979,
+        "passYPG": 132.7,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7541
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018958_WAS_2004",
       "name": "Laveranues Coles",
       "position": "WR",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 79,
       "stats": {
-        "recYPG": 59.4,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 5.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.62
+        "recYPG": 59.4,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020525_WAS_2004",
       "name": "Rod Gardner",
       "position": "WR",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 78,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.19,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.19
+        "recYPG": 40.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_WAS_2004",
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "rushYPG": 87.7,
-        "tdPerGame": 0.333,
+        "recYPG": 15.7,
         "rushAttPerGame": 22.87,
-        "recYPG": 15.7
+        "rushYPG": 87.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021184_WAS_2004",
       "name": "Ladell Betts",
       "position": "RB",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "rushYPG": 28.5,
-        "tdPerGame": 0.077,
+        "recYPG": 8.3,
         "rushAttPerGame": 6.92,
-        "recYPG": 8.3
+        "rushYPG": 28.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0512,
       "id": "p_00-0021379_WAS_2004",
       "name": "Patrick Ramsey",
       "position": "QB",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 72,
       "stats": {
-        "passYPG": 185.0,
-        "qbr": 44.1,
-        "avgTDPerGame": 1.111,
         "avgINTPerGame": 1.222,
-        "completionPct": 0.6213
+        "avgTDPerGame": 1.111,
+        "completionPct": 0.6213,
+        "passYPG": 185.0,
+        "qbr": 44.1
       },
-      "eraNormFactor": 1.0512
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022738_WAS_2004",
       "name": "Chris Cooley",
       "position": "WR",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 73,
       "stats": {
-        "recYPG": 24.2,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 2.85,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.85
+        "recYPG": 24.2,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006662_WAS_2004",
       "name": "J.Hall",
       "position": "K",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7037,
         "avgKickDistance": 34.5,
         "avgMissDistance": 46.5,
+        "fgAccuracy": 0.7037,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2004",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 66,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.75,
+        "normalizedRank": 29,
         "rushTDPct": 0.0127,
-        "normalizedRank": 29
+        "rushYPC": 3.75,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2004",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 93,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.1,
         "rushYPGAllowed": 81.5,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0777,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.0777
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2004",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2004,
+      "rating": 90,
       "stats": {
         "completionPctAllowed": 0.5709,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 186.06,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 186.06,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2004
     }
   ]
 }

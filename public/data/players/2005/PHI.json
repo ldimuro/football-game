@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.6329,
       "id": "p_00-0011022_PHI_2005",
       "name": "Donovan McNabb",
       "position": "QB",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 90,
       "stats": {
-        "passYPG": 278.6,
-        "qbr": 67.4,
-        "avgTDPerGame": 1.778,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.591
+        "avgTDPerGame": 1.778,
+        "completionPct": 0.591,
+        "passYPG": 278.6,
+        "qbr": 67.4
       },
-      "eraNormFactor": 1.6329
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_PHI_2005",
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 100,
       "stats": {
-        "recYPG": 109.0,
-        "tdPerGame": 0.857,
+        "avgCatchesPerGame": 6.71,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.71
+        "recYPG": 109.0,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.7543,
       "id": "p_00-0020308_PHI_2005",
       "name": "Mike McMahon",
       "position": "QB",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 62,
       "stats": {
-        "passYPG": 128.7,
-        "qbr": 0,
-        "avgTDPerGame": 0.556,
         "avgINTPerGame": 0.889,
-        "completionPct": 0.4541
+        "avgTDPerGame": 0.556,
+        "completionPct": 0.4541,
+        "passYPG": 128.7,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7543
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021209_PHI_2005",
       "name": "Lamar Gordon",
       "position": "RB",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 63,
       "stats": {
-        "rushYPG": 14.0,
-        "tdPerGame": 0.077,
+        "recYPG": 6.1,
         "rushAttPerGame": 4.15,
-        "recYPG": 6.1
+        "rushYPG": 14.0,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021216_PHI_2005",
       "name": "Brian Westbrook",
       "position": "RB",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 85,
       "stats": {
-        "rushYPG": 51.2,
-        "tdPerGame": 0.25,
+        "recYPG": 51.3,
         "rushAttPerGame": 13.08,
-        "recYPG": 51.3
+        "rushYPG": 51.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021508_PHI_2005",
       "name": "Greg Lewis",
       "position": "WR",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "recYPG": 37.4,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 37.4,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022126_PHI_2005",
       "name": "L.J. Smith",
       "position": "WR",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 77,
       "stats": {
-        "recYPG": 42.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 42.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023470_PHI_2005",
       "name": "Reggie Brown",
       "position": "WR",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "recYPG": 40.8,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 40.8,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023512_PHI_2005",
       "name": "Ryan Moats",
       "position": "RB",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 77,
       "stats": {
-        "rushYPG": 46.3,
-        "tdPerGame": 0.5,
+        "recYPG": 1.2,
         "rushAttPerGame": 9.17,
-        "recYPG": 1.2
+        "rushYPG": 46.3,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_PHI_2005",
       "name": "D.Akers",
       "position": "K",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.7586,
         "avgKickDistance": 38.1,
         "avgMissDistance": 46.9,
+        "fgAccuracy": 0.7586,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2005",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.95,
+        "normalizedRank": 17,
         "rushTDPct": 0.0302,
-        "normalizedRank": 17
+        "rushYPC": 3.95,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2005",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 21,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 117.69,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0577,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 21
+        "sackPct": 0.0577
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2005",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2005,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.5905,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 207.69,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 207.69,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2005
     }
   ]
 }

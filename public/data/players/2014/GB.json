@@ -1,181 +1,193 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3497,
       "id": "p_00-0023459_GB_2014",
+      "is_all_pro": true,
+      "is_mvp": true,
       "name": "Aaron Rodgers",
       "position": "QB",
-      "team": "GB",
-      "year": 2014,
+      "rating": 95,
       "stats": {
-        "passYPG": 270.8,
-        "qbr": 100,
-        "avgTDPerGame": 2.333,
         "avgINTPerGame": 0.389,
-        "completionPct": 0.652
+        "avgTDPerGame": 2.333,
+        "completionPct": 0.652,
+        "passYPG": 270.8,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3497,
-      "is_mvp": true,
-      "is_all_pro": true
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026176_GB_2014",
+      "is_all_pro": true,
       "name": "Jordy Nelson",
       "position": "WR",
-      "team": "GB",
-      "year": 2014,
+      "rating": 98,
       "stats": {
-        "recYPG": 89.6,
-        "tdPerGame": 0.722,
+        "avgCatchesPerGame": 5.83,
         "avgTargetsPerGame": 9.11,
-        "avgCatchesPerGame": 5.83
+        "recYPG": 89.6,
+        "tdPerGame": 0.722
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027753_GB_2014",
       "name": "Andrew Quarless",
       "position": "WR",
-      "team": "GB",
-      "year": 2014,
+      "rating": 70,
       "stats": {
-        "recYPG": 20.8,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 1.94,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.94
+        "recYPG": 20.8,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027791_GB_2014",
       "name": "James Starks",
       "position": "RB",
-      "team": "GB",
-      "year": 2014,
+      "rating": 69,
       "stats": {
-        "rushYPG": 24.6,
-        "tdPerGame": 0.125,
+        "recYPG": 8.8,
         "rushAttPerGame": 5.94,
-        "recYPG": 8.8
+        "rushYPG": 24.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028002_GB_2014",
+      "is_all_pro": true,
       "name": "Randall Cobb",
       "position": "WR",
-      "team": "GB",
-      "year": 2014,
+      "rating": 97,
       "stats": {
-        "recYPG": 81.4,
-        "tdPerGame": 0.722,
+        "avgCatchesPerGame": 5.89,
         "avgTargetsPerGame": 8.22,
-        "avgCatchesPerGame": 5.89
+        "recYPG": 81.4,
+        "tdPerGame": 0.722
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030485_GB_2014",
       "name": "Eddie Lacy",
       "position": "RB",
-      "team": "GB",
-      "year": 2014,
+      "rating": 94,
       "stats": {
-        "rushYPG": 72.9,
-        "tdPerGame": 0.5,
+        "recYPG": 24.3,
         "rushAttPerGame": 15.89,
-        "recYPG": 24.3
+        "rushYPG": 72.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031381_GB_2014",
       "name": "Davante Adams",
       "position": "WR",
-      "team": "GB",
-      "year": 2014,
+      "rating": 78,
       "stats": {
-        "recYPG": 35.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 35.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031384_GB_2014",
       "name": "Richard Rodgers",
       "position": "WR",
-      "team": "GB",
-      "year": 2014,
+      "rating": 66,
       "stats": {
-        "recYPG": 18.2,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.4,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 18.2,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025580_GB_2014",
       "name": "M.Crosby",
       "position": "K",
-      "team": "GB",
-      "year": 2014,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.85,
         "avgKickDistance": 37.5,
         "avgMissDistance": 46.8,
+        "fgAccuracy": 0.85,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_OLine_2014",
       "position": "OLine",
-      "team": "GB",
-      "year": 2014,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.39,
+        "normalizedRank": 11,
         "rushTDPct": 0.0283,
-        "normalizedRank": 11
+        "rushYPC": 4.39,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_DLine_2014",
       "position": "DLine",
-      "team": "GB",
-      "year": 2014,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 119.94,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0727,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0727
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_Secondary_2014",
       "position": "Secondary",
-      "team": "GB",
-      "year": 2014,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5904,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 226.44,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 226.44,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2014
     }
   ]
 }

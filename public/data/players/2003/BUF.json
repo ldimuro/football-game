@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1073,
       "id": "p_00-0001361_BUF_2003",
       "name": "Drew Bledsoe",
       "position": "QB",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 72,
       "stats": {
-        "passYPG": 178.8,
-        "qbr": 10.0,
-        "avgTDPerGame": 0.688,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.5817
+        "avgTDPerGame": 0.688,
+        "completionPct": 0.5817,
+        "passYPG": 178.8,
+        "qbr": 10.0
       },
-      "eraNormFactor": 1.1073
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002586_BUF_2003",
       "name": "Mark Campbell",
       "position": "WR",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 62,
       "stats": {
-        "recYPG": 26.1,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 26.1,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011770_BUF_2003",
       "name": "Eric Moulds",
       "position": "WR",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 81,
       "stats": {
-        "recYPG": 60.0,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 4.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.92
+        "recYPG": 60.0,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014729_BUF_2003",
       "name": "Bobby Shaw",
       "position": "WR",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "recYPG": 48.8,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.73,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.73
+        "recYPG": 48.8,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020471_BUF_2003",
       "name": "Travis Henry",
       "position": "RB",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 91,
       "stats": {
-        "rushYPG": 90.2,
-        "tdPerGame": 0.667,
+        "recYPG": 10.5,
         "rushAttPerGame": 22.13,
-        "recYPG": 10.5
+        "rushYPG": 90.2,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020917_BUF_2003",
       "name": "Joe Burns",
       "position": "RB",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 61,
       "stats": {
-        "rushYPG": 11.3,
-        "tdPerGame": 0.0,
+        "recYPG": 6.2,
         "rushAttPerGame": 3.9,
-        "recYPG": 6.2
+        "rushYPG": 11.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021166_BUF_2003",
       "name": "Josh Reed",
       "position": "WR",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 77,
       "stats": {
-        "recYPG": 42.0,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 4.14,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.14
+        "recYPG": 42.0,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019310_BUF_2003",
       "name": "R.Lindell",
       "position": "K",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 61,
       "stats": {
-        "fgAccuracy": 0.7083,
         "avgKickDistance": 33.9,
         "avgMissDistance": 44.4,
+        "fgAccuracy": 0.7083,
         "longestMadeKick": 44
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_OLine_2003",
       "position": "OLine",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.89,
+        "normalizedRank": 23,
         "rushTDPct": 0.0304,
-        "normalizedRank": 23
+        "rushYPC": 3.89,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_DLine_2003",
       "position": "DLine",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 90,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.5,
         "rushYPGAllowed": 100.38,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0748,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0748
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_Secondary_2003",
       "position": "Secondary",
-      "team": "BUF",
-      "year": 2003,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.561,
-        "yardsPerAttemptAllowed": 5.0,
-        "passYPGAllowed": 169.19,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 169.19,
+        "yardsPerAttemptAllowed": 5.0
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2003
     }
   ]
 }

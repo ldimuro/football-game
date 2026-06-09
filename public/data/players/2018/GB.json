@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4226,
       "id": "p_00-0023459_GB_2018",
       "name": "Aaron Rodgers",
       "position": "QB",
-      "team": "GB",
-      "year": 2018,
+      "rating": 88,
       "stats": {
-        "passYPG": 277.6,
-        "qbr": 83.0,
-        "avgTDPerGame": 1.562,
         "avgINTPerGame": 0.125,
-        "completionPct": 0.6231
+        "avgTDPerGame": 1.562,
+        "completionPct": 0.6231,
+        "passYPG": 277.6,
+        "qbr": 83.0
       },
-      "eraNormFactor": 1.4226
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027696_GB_2018",
       "name": "Jimmy Graham",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 78,
       "stats": {
-        "recYPG": 39.8,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 5.56,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 39.8,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027985_GB_2018",
       "name": "Lance Kendricks",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 59,
       "stats": {
-        "recYPG": 13.1,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 1.46,
         "avgTargetsPerGame": 1.92,
-        "avgCatchesPerGame": 1.46
+        "recYPG": 13.1,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028002_GB_2018",
       "name": "Randall Cobb",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 84,
       "stats": {
-        "recYPG": 42.6,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 4.22,
         "avgTargetsPerGame": 6.78,
-        "avgCatchesPerGame": 4.22
+        "recYPG": 42.6,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031381_GB_2018",
       "name": "Davante Adams",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 99,
       "stats": {
-        "recYPG": 92.4,
-        "tdPerGame": 0.867,
+        "avgCatchesPerGame": 7.4,
         "avgTargetsPerGame": 11.27,
-        "avgCatchesPerGame": 7.4
+        "recYPG": 92.4,
+        "tdPerGame": 0.867
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032200_GB_2018",
       "name": "Ty Montgomery",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 63,
       "stats": {
-        "recYPG": 19.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 19.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032626_GB_2018",
       "name": "Geronimo Allison",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 91,
       "stats": {
-        "recYPG": 60.6,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 60.6,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033293_GB_2018",
       "name": "Aaron Jones",
       "position": "RB",
-      "team": "GB",
-      "year": 2018,
+      "rating": 88,
       "stats": {
-        "rushYPG": 60.7,
-        "tdPerGame": 0.667,
+        "recYPG": 17.2,
         "rushAttPerGame": 11.08,
-        "recYPG": 17.2
+        "rushYPG": 60.7,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033948_GB_2018",
       "name": "Jamaal Williams",
       "position": "RB",
-      "team": "GB",
-      "year": 2018,
+      "rating": 72,
       "stats": {
-        "rushYPG": 29.0,
-        "tdPerGame": 0.188,
+        "recYPG": 13.1,
         "rushAttPerGame": 7.56,
-        "recYPG": 13.1
+        "rushYPG": 29.0,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034272_GB_2018",
       "name": "Marquez Valdes-Scantling",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 76,
       "stats": {
-        "recYPG": 38.7,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 4.87,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 38.7,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034279_GB_2018",
       "name": "Equanimeous St. Brown",
       "position": "WR",
-      "team": "GB",
-      "year": 2018,
+      "rating": 66,
       "stats": {
-        "recYPG": 29.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 3.27,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 29.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025580_GB_2018",
       "name": "M.Crosby",
       "position": "K",
-      "team": "GB",
-      "year": 2018,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8108,
         "avgKickDistance": 41.4,
         "avgMissDistance": 46.4,
+        "fgAccuracy": 0.8108,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_OLine_2018",
       "position": "OLine",
-      "team": "GB",
-      "year": 2018,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.01,
+        "normalizedRank": 2,
         "rushTDPct": 0.042,
-        "normalizedRank": 2
+        "rushYPC": 5.01,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_DLine_2018",
       "position": "DLine",
-      "team": "GB",
-      "year": 2018,
+      "rating": 81,
       "stats": {
+        "blitzPct": 0.293,
+        "normalizedRank": 22,
+        "pressurePct": 0.245,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 119.88,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0835,
-        "blitzPct": 0.293,
-        "pressurePct": 0.245,
-        "normalizedRank": 22
+        "sackPct": 0.0835
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_Secondary_2018",
       "position": "Secondary",
-      "team": "GB",
-      "year": 2018,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6376,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 234.5,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 0.44,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 234.5,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2018
     }
   ]
 }

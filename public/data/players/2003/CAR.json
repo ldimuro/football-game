@@ -1,149 +1,159 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004052_CAR_2003",
       "name": "Stephen Davis",
       "position": "RB",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 90,
       "stats": {
-        "rushYPG": 97.7,
-        "tdPerGame": 0.5,
+        "recYPG": 10.1,
         "rushAttPerGame": 21.22,
-        "recYPG": 10.1
+        "rushYPG": 97.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.3024,
       "id": "p_00-0004161_CAR_2003",
       "name": "Jake Delhomme",
       "position": "QB",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 85,
       "stats": {
-        "passYPG": 210.3,
-        "qbr": 73.7,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 0.85,
-        "completionPct": 0.5898
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.5898,
+        "passYPG": 210.3,
+        "qbr": 73.7
       },
-      "eraNormFactor": 1.3024
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011795_CAR_2003",
       "name": "Muhsin Muhammad",
       "position": "WR",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 87,
       "stats": {
-        "recYPG": 62.6,
-        "tdPerGame": 0.263,
+        "avgCatchesPerGame": 3.63,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.63
+        "recYPG": 62.6,
+        "tdPerGame": 0.263
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013268_CAR_2003",
       "name": "Ricky Proehl",
       "position": "WR",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 74,
       "stats": {
-        "recYPG": 33.4,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 33.4,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020337_CAR_2003",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 96,
       "stats": {
-        "recYPG": 75.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 5.3,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.3
+        "recYPG": 75.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021164_CAR_2003",
       "name": "DeShaun Foster",
       "position": "RB",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 73,
       "stats": {
-        "rushYPG": 34.7,
-        "tdPerGame": 0.111,
+        "recYPG": 13.4,
         "rushAttPerGame": 8.61,
-        "recYPG": 13.4
+        "rushYPG": 34.7,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009028_CAR_2003",
       "name": "J.Kasay",
       "position": "K",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 85,
       "stats": {
-        "fgAccuracy": 0.8367,
         "avgKickDistance": 37.2,
         "avgMissDistance": 46.2,
+        "fgAccuracy": 0.8367,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2003",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.08,
+        "normalizedRank": 15,
         "rushTDPct": 0.0199,
-        "normalizedRank": 15
+        "rushYPC": 4.08,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2003",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 107.62,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0766,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0766
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2003",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2003,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5728,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 187.69,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 187.69,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2003
     }
   ]
 }

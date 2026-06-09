@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001661_JAX_2003",
       "name": "Kyle Brady",
       "position": "WR",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 58,
       "stats": {
-        "recYPG": 20.1,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 20.1,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004780_JAX_2003",
       "name": "Troy Edwards",
       "position": "WR",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.92
+        "recYPG": 40.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005620_JAX_2003",
       "name": "Chris Fuamatu-Ma'afala",
       "position": "RB",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 62,
       "stats": {
-        "rushYPG": 16.0,
-        "tdPerGame": 0.111,
+        "recYPG": 0.2,
         "rushAttPerGame": 3.89,
-        "recYPG": 0.2
+        "rushYPG": 16.0,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015218_JAX_2003",
       "name": "Jimmy Smith",
       "position": "WR",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 92,
       "stats": {
-        "recYPG": 67.1,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 67.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_JAX_2003",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 93,
       "stats": {
-        "rushYPG": 98.2,
-        "tdPerGame": 0.375,
+        "recYPG": 23.1,
         "rushAttPerGame": 21.56,
-        "recYPG": 23.1
+        "rushYPG": 98.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022057_JAX_2003",
       "name": "LaBrandon Toefield",
       "position": "RB",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 64,
       "stats": {
-        "rushYPG": 14.1,
-        "tdPerGame": 0.133,
+        "recYPG": 7.0,
         "rushAttPerGame": 3.53,
-        "recYPG": 7.0
+        "rushYPG": 14.1,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.1637,
       "id": "p_00-0022177_JAX_2003",
       "name": "Byron Leftwich",
       "position": "QB",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "passYPG": 187.9,
-        "qbr": 40.0,
-        "avgTDPerGame": 0.933,
         "avgINTPerGame": 1.133,
-        "completionPct": 0.5704
+        "avgTDPerGame": 0.933,
+        "completionPct": 0.5704,
+        "passYPG": 187.9,
+        "qbr": 40.0
       },
-      "eraNormFactor": 1.1637
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021462_JAX_2003",
       "name": "S.Marler",
       "position": "K",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.6061,
         "avgKickDistance": 35.9,
         "avgMissDistance": 39.5,
+        "fgAccuracy": 0.6061,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2003",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.31,
+        "normalizedRank": 12,
         "rushTDPct": 0.027,
-        "normalizedRank": 12
+        "rushYPC": 4.31,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2003",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.2,
         "rushYPGAllowed": 87.88,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0471,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.0471
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2003",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2003,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.5941,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 203.19,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 203.19,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2003
     }
   ]
 }

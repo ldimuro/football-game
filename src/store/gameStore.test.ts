@@ -34,6 +34,12 @@ vi.mock('../logic/draftGen', () => ({
   generateDraftOffer: vi.fn().mockResolvedValue({
     team: 'NE', year: 2019, players: [mockRoster.QB!], units: [mockRoster.OLine!],
   }),
+  rerollDraftOfferTeam: vi.fn().mockResolvedValue({
+    team: 'NE', year: 2022, players: [mockRoster.QB!], units: [mockRoster.OLine!],
+  }),
+  rerollDraftOfferYear: vi.fn().mockResolvedValue({
+    team: 'KC', year: 2019, players: [mockRoster.QB!], units: [mockRoster.OLine!],
+  }),
   generateOpponent: vi.fn().mockResolvedValue({
     stats: {
       team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1,
@@ -108,11 +114,11 @@ describe('viewDraftOffer', () => {
   })
 })
 
-describe('rerollDraftOffer', () => {
+describe('rerollDraftOfferTeam', () => {
   it('replaces the draft offer and marks reroll as used', async () => {
     const initialOffer = { team: 'KC', year: 2022, players: [], units: [] }
     useGameStore.setState({ ...INITIAL_STATE, currentDraftOffer: initialOffer, draftRerollAvailable: true })
-    await act(async () => { await useGameStore.getState().rerollDraftOffer() })
+    await act(async () => { await useGameStore.getState().rerollDraftOfferTeam() })
     const state = useGameStore.getState()
     expect(state.draftRerollAvailable).toBe(false)
     expect(state.currentDraftOffer?.team).toBe('NE')
@@ -121,7 +127,25 @@ describe('rerollDraftOffer', () => {
   it('does nothing if reroll already used', async () => {
     const offer = { team: 'KC', year: 2022, players: [], units: [] }
     useGameStore.setState({ ...INITIAL_STATE, currentDraftOffer: offer, draftRerollAvailable: false })
-    await act(async () => { await useGameStore.getState().rerollDraftOffer() })
+    await act(async () => { await useGameStore.getState().rerollDraftOfferTeam() })
+    expect(useGameStore.getState().currentDraftOffer?.team).toBe('KC')
+  })
+})
+
+describe('rerollDraftOfferYear', () => {
+  it('replaces the draft offer and marks reroll as used', async () => {
+    const initialOffer = { team: 'KC', year: 2022, players: [], units: [] }
+    useGameStore.setState({ ...INITIAL_STATE, currentDraftOffer: initialOffer, draftRerollAvailable: true })
+    await act(async () => { await useGameStore.getState().rerollDraftOfferYear() })
+    const state = useGameStore.getState()
+    expect(state.draftRerollAvailable).toBe(false)
+    expect(state.currentDraftOffer?.year).toBe(2019)
+  })
+
+  it('does nothing if reroll already used', async () => {
+    const offer = { team: 'KC', year: 2022, players: [], units: [] }
+    useGameStore.setState({ ...INITIAL_STATE, currentDraftOffer: offer, draftRerollAvailable: false })
+    await act(async () => { await useGameStore.getState().rerollDraftOfferYear() })
     expect(useGameStore.getState().currentDraftOffer?.team).toBe('KC')
   })
 })

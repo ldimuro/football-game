@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_MIA_2010",
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 74,
       "stats": {
-        "rushYPG": 42.1,
-        "tdPerGame": 0.125,
+        "recYPG": 8.8,
         "rushAttPerGame": 9.94,
-        "recYPG": 8.8
+        "rushYPG": 42.1,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023437_MIA_2010",
       "name": "Ronnie Brown",
       "position": "RB",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 81,
       "stats": {
-        "rushYPG": 45.9,
-        "tdPerGame": 0.312,
+        "recYPG": 15.1,
         "rushAttPerGame": 12.5,
-        "recYPG": 15.1
+        "rushYPG": 45.9,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024268_MIA_2010",
       "name": "Anthony Fasano",
       "position": "WR",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 75,
       "stats": {
-        "recYPG": 35.2,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 35.2,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024334_MIA_2010",
       "name": "Brandon Marshall",
       "position": "WR",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 91,
       "stats": {
-        "recYPG": 72.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 6.14,
         "avgTargetsPerGame": 10.43,
-        "avgCatchesPerGame": 6.14
+        "recYPG": 72.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026000_MIA_2010",
       "name": "Davone Bess",
       "position": "WR",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 88,
       "stats": {
-        "recYPG": 51.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": 7.88,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 51.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.1726,
       "id": "p_00-0026197_MIA_2010",
       "name": "Chad Henne",
       "position": "QB",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 71,
       "stats": {
-        "passYPG": 219.9,
-        "qbr": 47.9,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.2,
-        "completionPct": 0.6151
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6151,
+        "passYPG": 219.9,
+        "qbr": 47.9
       },
-      "eraNormFactor": 1.1726
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027077_MIA_2010",
       "name": "Brian Hartline",
       "position": "WR",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "recYPG": 51.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 3.58,
         "avgTargetsPerGame": 6.08,
-        "avgCatchesPerGame": 3.58
+        "recYPG": 51.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026003_MIA_2010",
       "name": "D.Carpenter",
       "position": "K",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.7317,
         "avgKickDistance": 40.0,
         "avgMissDistance": 48.7,
+        "fgAccuracy": 0.7317,
         "longestMadeKick": 60
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2010",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.71,
+        "normalizedRank": 29,
         "rushTDPct": 0.018,
-        "normalizedRank": 29
+        "rushYPC": 3.71,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2010",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 92,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 100.06,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0777,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.0777
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2010",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2010,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.5737,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 209.25,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 209.25,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2010
     }
   ]
 }

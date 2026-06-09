@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.93,
       "id": "p_00-0004161_CLE_2010",
       "name": "Jake Delhomme",
       "position": "QB",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 60,
       "stats": {
-        "passYPG": 174.4,
-        "qbr": 0,
-        "avgTDPerGame": 0.4,
         "avgINTPerGame": 1.4,
-        "completionPct": 0.6242
+        "avgTDPerGame": 0.4,
+        "completionPct": 0.6242,
+        "passYPG": 174.4,
+        "qbr": 0
       },
-      "eraNormFactor": 0.93
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 0.617,
       "id": "p_00-0022055_CLE_2010",
       "name": "Seneca Wallace",
       "position": "QB",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 71,
       "stats": {
-        "passYPG": 115.7,
-        "qbr": 58.6,
-        "avgTDPerGame": 0.667,
         "avgINTPerGame": 0.333,
-        "completionPct": 0.6337
+        "avgTDPerGame": 0.667,
+        "completionPct": 0.6337,
+        "passYPG": 115.7,
+        "qbr": 58.6
       },
-      "eraNormFactor": 0.617
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022943_CLE_2010",
       "name": "Benjamin Watson",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 83,
       "stats": {
-        "recYPG": 47.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.25,
         "avgTargetsPerGame": 6.38,
-        "avgCatchesPerGame": 4.25
+        "recYPG": 47.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023176_CLE_2010",
       "name": "Josh Cribbs",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 64,
       "stats": {
-        "recYPG": 22.5,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 1.77,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.77
+        "recYPG": 22.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024359_CLE_2010",
       "name": "Jerome Harrison",
       "position": "RB",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 69,
       "stats": {
-        "rushYPG": 30.3,
-        "tdPerGame": 0.091,
+        "recYPG": 7.7,
         "rushAttPerGame": 6.55,
-        "recYPG": 7.7
+        "rushYPG": 30.3,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025622_CLE_2010",
       "name": "Chansi Stuckey",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 65,
       "stats": {
-        "recYPG": 23.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": 4.2,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026123_CLE_2010",
       "name": "Evan Moore",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 69,
       "stats": {
-        "recYPG": 35.8,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.78,
         "avgTargetsPerGame": 2.89,
-        "avgCatchesPerGame": 1.78
+        "recYPG": 35.8,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026367_CLE_2010",
       "name": "Peyton Hillis",
       "position": "RB",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 94,
       "stats": {
-        "rushYPG": 73.6,
-        "tdPerGame": 0.688,
+        "recYPG": 29.8,
         "rushAttPerGame": 16.88,
-        "recYPG": 29.8
+        "rushYPG": 73.6,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027012_CLE_2010",
       "name": "Brian Robiskie",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 70,
       "stats": {
-        "recYPG": 23.8,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.23,
         "avgTargetsPerGame": 3.77,
-        "avgCatchesPerGame": 2.23
+        "recYPG": 23.8,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027026_CLE_2010",
       "name": "Mohamed Massaquoi",
       "position": "WR",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 71,
       "stats": {
-        "recYPG": 32.2,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": 4.87,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 32.2,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0505,
       "id": "p_00-0027688_CLE_2010",
       "name": "Colt McCoy",
       "position": "QB",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 69,
       "stats": {
-        "passYPG": 197.0,
-        "qbr": 50.4,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 1.125,
-        "completionPct": 0.6081
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.6081,
+        "passYPG": 197.0,
+        "qbr": 50.4
       },
-      "eraNormFactor": 1.0505
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2010",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8214,
         "avgKickDistance": 33.8,
         "avgMissDistance": 50.6,
+        "fgAccuracy": 0.8214,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2010",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.98,
+        "normalizedRank": 20,
         "rushTDPct": 0.0314,
-        "normalizedRank": 20
+        "rushYPC": 3.98,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2010",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 129.38,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0572,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0572
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2010",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2010,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6095,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 220.69,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 220.69,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2010
     }
   ]
 }

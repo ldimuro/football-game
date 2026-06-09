@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030068_SF_2019",
       "name": "Marquise Goodwin",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 2.62,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 23.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.1123,
       "id": "p_00-0031345_SF_2019",
       "name": "Jimmy Garoppolo",
       "position": "QB",
-      "team": "SF",
-      "year": 2019,
+      "rating": 79,
       "stats": {
-        "passYPG": 231.8,
-        "qbr": 93.5,
-        "avgTDPerGame": 1.526,
         "avgINTPerGame": 0.842,
-        "completionPct": 0.6854
+        "avgTDPerGame": 1.526,
+        "completionPct": 0.6854,
+        "passYPG": 231.8,
+        "qbr": 93.5
       },
-      "eraNormFactor": 1.1123
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031687_SF_2019",
       "name": "Raheem Mostert",
       "position": "RB",
-      "team": "SF",
-      "year": 2019,
+      "rating": 86,
       "stats": {
-        "rushYPG": 61.6,
-        "tdPerGame": 0.722,
+        "recYPG": 10.4,
         "rushAttPerGame": 10.56,
-        "recYPG": 10.4
+        "rushYPG": 61.6,
+        "tdPerGame": 0.722
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032058_SF_2019",
       "name": "Tevin Coleman",
       "position": "RB",
-      "team": "SF",
-      "year": 2019,
+      "rating": 80,
       "stats": {
-        "rushYPG": 41.1,
-        "tdPerGame": 0.471,
+        "recYPG": 10.8,
         "rushAttPerGame": 10.0,
-        "recYPG": 10.8
+        "rushYPG": 41.1,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033288_SF_2019",
+      "is_all_pro": true,
       "name": "George Kittle",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 90,
       "stats": {
-        "recYPG": 66.1,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 5.47,
         "avgTargetsPerGame": 7.06,
-        "avgCatchesPerGame": 5.47
+        "recYPG": 66.1,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033307_SF_2019",
       "name": "Kendrick Bourne",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "recYPG": 24.8,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 24.8,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033308_SF_2019",
       "name": "Matt Breida",
       "position": "RB",
-      "team": "SF",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "rushYPG": 45.9,
-        "tdPerGame": 0.071,
+        "recYPG": 8.6,
         "rushAttPerGame": 9.43,
-        "recYPG": 8.6
+        "rushYPG": 45.9,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034073_SF_2019",
       "name": "Ross Dwelley",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "recYPG": 15.2,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.67,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 15.2,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034860_SF_2019",
       "name": "Dante Pettis",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 63,
       "stats": {
-        "recYPG": 12.1,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 1.22,
         "avgTargetsPerGame": 2.67,
-        "avgCatchesPerGame": 1.22
+        "recYPG": 12.1,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035719_SF_2019",
       "name": "Deebo Samuel",
       "position": "WR",
-      "team": "SF",
-      "year": 2019,
+      "rating": 82,
       "stats": {
-        "recYPG": 51.6,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 3.72,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 3.72
+        "recYPG": 51.6,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023252_SF_2019",
       "name": "R.Gould",
       "position": "K",
-      "team": "SF",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.8043,
         "avgKickDistance": 37.4,
         "avgMissDistance": 47.2,
+        "fgAccuracy": 0.8043,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2019",
       "position": "OLine",
-      "team": "SF",
-      "year": 2019,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.79,
+        "normalizedRank": 6,
         "rushTDPct": 0.0493,
-        "normalizedRank": 6
+        "rushYPC": 4.79,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2019",
       "position": "DLine",
-      "team": "SF",
-      "year": 2019,
+      "rating": 83,
       "stats": {
+        "blitzPct": 0.209,
+        "normalizedRank": 17,
+        "pressurePct": 0.287,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 112.62,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0925,
-        "blitzPct": 0.209,
-        "pressurePct": 0.287,
-        "normalizedRank": 17
+        "sackPct": 0.0925
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2019",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2019,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.6127,
-        "yardsPerAttemptAllowed": 4.8,
-        "passYPGAllowed": 169.19,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 169.19,
+        "yardsPerAttemptAllowed": 4.8
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2019
     }
   ]
 }

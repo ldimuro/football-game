@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035269_LA_2022",
       "name": "M.Gay",
       "position": "K",
-      "team": "LA",
-      "year": 2022,
+      "rating": 90,
       "stats": {
-        "fgAccuracy": 0.9333,
         "avgKickDistance": 38.8,
         "avgMissDistance": 56.0,
+        "fgAccuracy": 0.9333,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2022",
       "position": "OLine",
-      "team": "LA",
-      "year": 2022,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.04,
+        "normalizedRank": 27,
         "rushTDPct": 0.0365,
-        "normalizedRank": 27
+        "rushYPC": 4.04,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2022",
       "position": "DLine",
-      "team": "LA",
-      "year": 2022,
+      "rating": 80,
       "stats": {
+        "blitzPct": 0.268,
+        "normalizedRank": 13,
+        "pressurePct": 0.179,
+        "rushTDPerGameAllowed": 0.71,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 115.06,
-        "rushTDPerGameAllowed": 0.71,
-        "sackPct": 0.0683,
-        "blitzPct": 0.268,
-        "pressurePct": 0.179,
-        "normalizedRank": 13
+        "sackPct": 0.0683
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2022",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2022,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6745,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 226.0,
-        "passTDPerGameAllowed": 1.35,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.35,
+        "passYPGAllowed": 226.0,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2022
     }
   ]
 }

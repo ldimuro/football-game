@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_KC_2004",
+      "is_all_pro": true,
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "KC",
-      "year": 2004,
+      "rating": 95,
       "stats": {
-        "recYPG": 78.6,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 6.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.38
+        "recYPG": 78.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.6297,
       "id": "p_00-0006355_KC_2004",
       "name": "Trent Green",
       "position": "QB",
-      "team": "KC",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "passYPG": 286.8,
-        "qbr": 100,
-        "avgTDPerGame": 1.688,
         "avgINTPerGame": 1.062,
-        "completionPct": 0.6637
+        "avgTDPerGame": 1.688,
+        "completionPct": 0.6637,
+        "passYPG": 286.8,
+        "qbr": 100
       },
-      "eraNormFactor": 1.6297
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007661_KC_2004",
       "name": "Priest Holmes",
       "position": "RB",
-      "team": "KC",
-      "year": 2004,
+      "rating": 98,
       "stats": {
-        "rushYPG": 111.5,
-        "tdPerGame": 1.75,
+        "recYPG": 23.4,
         "rushAttPerGame": 24.5,
-        "recYPG": 23.4
+        "rushYPG": 111.5,
+        "tdPerGame": 1.75
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009163_KC_2004",
       "name": "Eddie Kennison",
       "position": "WR",
-      "team": "KC",
-      "year": 2004,
+      "rating": 95,
       "stats": {
-        "recYPG": 77.6,
-        "tdPerGame": 0.571,
+        "avgCatchesPerGame": 4.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.43
+        "recYPG": 77.6,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011727_KC_2004",
       "name": "Johnnie Morton",
       "position": "WR",
-      "team": "KC",
-      "year": 2004,
+      "rating": 84,
       "stats": {
-        "recYPG": 61.2,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 4.23,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.23
+        "recYPG": 61.2,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019539_KC_2004",
       "name": "Dante Hall",
       "position": "WR",
-      "team": "KC",
-      "year": 2004,
+      "rating": 56,
       "stats": {
-        "recYPG": 17.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 17.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020315_KC_2004",
       "name": "Derrick Blaylock",
       "position": "RB",
-      "team": "KC",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "rushYPG": 44.9,
-        "tdPerGame": 0.667,
+        "recYPG": 20.3,
         "rushAttPerGame": 9.83,
-        "recYPG": 20.3
+        "rushYPG": 44.9,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021976_KC_2004",
       "name": "Larry Johnson",
       "position": "RB",
-      "team": "KC",
-      "year": 2004,
+      "rating": 91,
       "stats": {
-        "rushYPG": 72.6,
-        "tdPerGame": 1.125,
+        "recYPG": 34.8,
         "rushAttPerGame": 15.0,
-        "recYPG": 34.8
+        "rushYPG": 72.6,
+        "tdPerGame": 1.125
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019778_KC_2004",
       "name": "L.Tynes",
       "position": "K",
-      "team": "KC",
-      "year": 2004,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.7391,
         "avgKickDistance": 37.9,
         "avgMissDistance": 45.5,
+        "fgAccuracy": 0.7391,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2004",
       "position": "OLine",
-      "team": "KC",
-      "year": 2004,
+      "rating": 90,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.61,
+        "normalizedRank": 3,
         "rushTDPct": 0.0625,
-        "normalizedRank": 3
+        "rushYPC": 4.61,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2004",
       "position": "DLine",
-      "team": "KC",
-      "year": 2004,
+      "rating": 75,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 12,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 114.62,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0785,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 12
+        "sackPct": 0.0785
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2004",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2004,
+      "rating": 65,
       "stats": {
         "completionPctAllowed": 0.5977,
-        "yardsPerAttemptAllowed": 7.5,
-        "passYPGAllowed": 262.69,
-        "passTDPerGameAllowed": 2.0,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 2.0,
+        "passYPGAllowed": 262.69,
+        "yardsPerAttemptAllowed": 7.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2004
     }
   ]
 }

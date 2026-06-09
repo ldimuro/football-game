@@ -1,166 +1,177 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032134_CIN_2021",
       "name": "C.J. Uzomah",
       "position": "WR",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 80,
       "stats": {
-        "recYPG": 32.0,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": 4.05,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 32.0,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033009_CIN_2021",
       "name": "Tyler Boyd",
       "position": "WR",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 87,
       "stats": {
-        "recYPG": 46.9,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 4.1,
         "avgTargetsPerGame": 5.7,
-        "avgCatchesPerGame": 4.1
+        "recYPG": 46.9,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033526_CIN_2021",
       "name": "Samaje Perine",
       "position": "RB",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 63,
       "stats": {
-        "rushYPG": 13.1,
-        "tdPerGame": 0.053,
+        "recYPG": 12.8,
         "rushAttPerGame": 3.05,
-        "recYPG": 12.8
+        "rushYPG": 13.1,
+        "tdPerGame": 0.053
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033897_CIN_2021",
+      "is_all_pro": true,
       "name": "Joe Mixon",
       "position": "RB",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 95,
       "stats": {
-        "rushYPG": 73.4,
-        "tdPerGame": 0.7,
+        "recYPG": 21.1,
         "rushAttPerGame": 17.95,
-        "recYPG": 21.1
+        "rushYPG": 73.4,
+        "tdPerGame": 0.7
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036410_CIN_2021",
       "name": "Tee Higgins",
       "position": "WR",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 96,
       "stats": {
-        "recYPG": 77.8,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 5.11,
         "avgTargetsPerGame": 7.78,
-        "avgCatchesPerGame": 5.11
+        "recYPG": 77.8,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.6273,
       "id": "p_00-0036442_CIN_2021",
+      "is_all_pro": true,
       "name": "Joe Burrow",
       "position": "QB",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 89,
       "stats": {
-        "passYPG": 285.8,
-        "qbr": 99.8,
-        "avgTDPerGame": 1.95,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.6994
+        "avgTDPerGame": 1.95,
+        "completionPct": 0.6994,
+        "passYPG": 285.8,
+        "qbr": 99.8
       },
-      "eraNormFactor": 1.6273,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036900_CIN_2021",
+      "is_all_pro": true,
       "name": "Ja'Marr Chase",
       "position": "WR",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 98,
       "stats": {
-        "recYPG": 86.8,
-        "tdPerGame": 0.667,
+        "avgCatchesPerGame": 5.05,
         "avgTargetsPerGame": 7.76,
-        "avgCatchesPerGame": 5.05
+        "recYPG": 86.8,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036854_CIN_2021",
       "name": "E.McPherson",
       "position": "K",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 91,
       "stats": {
-        "fgAccuracy": 0.8958,
         "avgKickDistance": 40.6,
         "avgMissDistance": 49.0,
+        "fgAccuracy": 0.8958,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2021",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.96,
+        "normalizedRank": 26,
         "rushTDPct": 0.0323,
-        "normalizedRank": 26
+        "rushYPC": 3.96,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2021",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 83,
       "stats": {
+        "blitzPct": 0.205,
+        "normalizedRank": 5,
+        "pressurePct": 0.245,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 102.47,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0671,
-        "blitzPct": 0.205,
-        "pressurePct": 0.245,
-        "normalizedRank": 5
+        "sackPct": 0.0671
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2021",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2021,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6709,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 248.35,
-        "passTDPerGameAllowed": 1.53,
         "interceptionsPerGame": 0.76,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.53,
+        "passYPGAllowed": 248.35,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2021
     }
   ]
 }

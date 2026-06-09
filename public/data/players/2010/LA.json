@@ -1,33 +1,35 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_LA_2010",
       "name": "Josh.Brown",
       "position": "K",
-      "team": "LA",
-      "year": 2010,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8462,
         "avgKickDistance": 36.0,
         "avgMissDistance": 38.8,
+        "fgAccuracy": 0.8462,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2010",
       "position": "OLine",
-      "team": "LA",
-      "year": 2010,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.68,
+        "normalizedRank": 31,
         "rushTDPct": 0.021,
-        "normalizedRank": 31
+        "rushYPC": 3.68,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2010
     }
   ]
 }

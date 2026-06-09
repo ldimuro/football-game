@@ -1,34 +1,36 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017693_LA_2003",
+      "is_all_pro": true,
       "name": "J.Wilkins",
       "position": "K",
-      "team": "LA",
-      "year": 2003,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.9167,
         "avgKickDistance": 35.8,
         "avgMissDistance": 44.5,
+        "fgAccuracy": 0.9167,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LA",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2003",
       "position": "OLine",
-      "team": "LA",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.59,
+        "normalizedRank": 29,
         "rushTDPct": 0.0461,
-        "normalizedRank": 29
+        "rushYPC": 3.59,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2003
     }
   ]
 }

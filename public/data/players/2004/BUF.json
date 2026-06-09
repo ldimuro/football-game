@@ -1,149 +1,159 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.041,
       "id": "p_00-0001361_BUF_2004",
       "name": "Drew Bledsoe",
       "position": "QB",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "passYPG": 183.2,
-        "qbr": 39.8,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5702
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.5702,
+        "passYPG": 183.2,
+        "qbr": 39.8
       },
-      "eraNormFactor": 1.041
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011770_BUF_2004",
       "name": "Eric Moulds",
       "position": "WR",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 89,
       "stats": {
-        "recYPG": 65.2,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.5
+        "recYPG": 65.2,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020471_BUF_2004",
       "name": "Travis Henry",
       "position": "RB",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "rushYPG": 36.2,
-        "tdPerGame": 0.0,
+        "recYPG": 5.0,
         "rushAttPerGame": 10.44,
-        "recYPG": 5.0
+        "rushYPG": 36.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022178_BUF_2004",
       "name": "Willis McGahee",
       "position": "RB",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "rushYPG": 75.2,
-        "tdPerGame": 0.867,
+        "recYPG": 11.3,
         "rushAttPerGame": 18.93,
-        "recYPG": 11.3
+        "rushYPG": 75.2,
+        "tdPerGame": 0.867
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022538_BUF_2004",
       "name": "Shaud Williams",
       "position": "RB",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "rushYPG": 41.8,
-        "tdPerGame": 0.5,
+        "recYPG": 4.8,
         "rushAttPerGame": 10.5,
-        "recYPG": 4.8
+        "rushYPG": 41.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022910_BUF_2004",
       "name": "Lee Evans",
       "position": "WR",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "recYPG": 56.2,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 56.2,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019310_BUF_2004",
       "name": "R.Lindell",
       "position": "K",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.8571,
         "avgKickDistance": 29.5,
         "avgMissDistance": 37.8,
+        "fgAccuracy": 0.8571,
         "longestMadeKick": 43
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_OLine_2004",
       "position": "OLine",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.92,
+        "normalizedRank": 24,
         "rushTDPct": 0.0311,
-        "normalizedRank": 24
+        "rushYPC": 3.92,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_DLine_2004",
       "position": "DLine",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 95,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 100.25,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.0926,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.0926
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_Secondary_2004",
       "position": "Secondary",
-      "team": "BUF",
-      "year": 2004,
+      "rating": 95,
       "stats": {
         "completionPctAllowed": 0.537,
-        "yardsPerAttemptAllowed": 4.9,
-        "passYPGAllowed": 164.0,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 1.5,
-        "normalizedRank": 3
+        "normalizedRank": 3,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 164.0,
+        "yardsPerAttemptAllowed": 4.9
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2004
     }
   ]
 }

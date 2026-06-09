@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000745_NYG_2006",
       "name": "Tiki Barber",
       "position": "RB",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 92,
       "stats": {
-        "rushYPG": 105.8,
-        "tdPerGame": 0.294,
+        "recYPG": 28.2,
         "rushAttPerGame": 20.76,
-        "recYPG": 28.2
+        "rushYPG": 105.8,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016550_NYG_2006",
       "name": "Amani Toomer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 85,
       "stats": {
-        "recYPG": 45.0,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 45.0,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019642_NYG_2006",
       "name": "Plaxico Burress",
       "position": "WR",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 94,
       "stats": {
-        "recYPG": 67.3,
-        "tdPerGame": 0.75,
+        "avgCatchesPerGame": 4.25,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.25
+        "recYPG": 67.3,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021148_NYG_2006",
       "name": "Jeremy Shockey",
       "position": "WR",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 84,
       "stats": {
-        "recYPG": 40.5,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 40.5,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021174_NYG_2006",
       "name": "Tim Carter",
       "position": "WR",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 63,
       "stats": {
-        "recYPG": 22.2,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 22.2,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.1421,
       "id": "p_00-0022803_NYG_2006",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "passYPG": 200.3,
-        "qbr": 45.2,
-        "avgTDPerGame": 1.588,
         "avgINTPerGame": 1.118,
-        "completionPct": 0.5774
+        "avgTDPerGame": 1.588,
+        "completionPct": 0.5774,
+        "passYPG": 200.3,
+        "qbr": 45.2
       },
-      "eraNormFactor": 1.1421
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023545_NYG_2006",
       "name": "Brandon Jacobs",
       "position": "RB",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 73,
       "stats": {
-        "rushYPG": 26.9,
-        "tdPerGame": 0.562,
+        "recYPG": 9.3,
         "rushAttPerGame": 6.12,
-        "recYPG": 9.3
+        "rushYPG": 26.9,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019770_NYG_2006",
       "name": "J.Feely",
       "position": "K",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.8621,
         "avgKickDistance": 33.5,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.8621,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2006",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.75,
+        "normalizedRank": 6,
         "rushTDPct": 0.0288,
-        "normalizedRank": 6
+        "rushYPC": 4.75,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2006",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 114.38,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0564,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0564
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2006",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2006,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.5873,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 228.06,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 28
+        "normalizedRank": 28,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 228.06,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2006
     }
   ]
 }

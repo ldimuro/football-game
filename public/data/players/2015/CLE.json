@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2949,
       "id": "p_00-0021206_CLE_2015",
       "name": "Josh McCown",
       "position": "QB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 85,
       "stats": {
-        "passYPG": 263.6,
-        "qbr": 69.6,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.637
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.637,
+        "passYPG": 263.6,
+        "qbr": 69.6
       },
-      "eraNormFactor": 1.2949
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026281_CLE_2015",
       "name": "Gary Barnidge",
       "position": "WR",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 94,
       "stats": {
-        "recYPG": 65.2,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": 7.81,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 65.2,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027077_CLE_2015",
       "name": "Brian Hartline",
       "position": "WR",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 80,
       "stats": {
-        "recYPG": 43.6,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 3.83,
         "avgTargetsPerGame": 6.42,
-        "avgCatchesPerGame": 3.83
+        "recYPG": 43.6,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027918_CLE_2015",
       "name": "Andrew Hawkins",
       "position": "WR",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 73,
       "stats": {
-        "recYPG": 34.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 5.38,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 34.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028202_CLE_2015",
       "name": "Shaun Draughn",
       "position": "RB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 75,
       "stats": {
-        "rushYPG": 30.3,
-        "tdPerGame": 0.111,
+        "recYPG": 19.6,
         "rushAttPerGame": 8.67,
-        "recYPG": 19.6
+        "rushYPG": 30.3,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029269_CLE_2015",
       "name": "Travis Benjamin",
       "position": "WR",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 89,
       "stats": {
-        "recYPG": 60.4,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.25,
         "avgTargetsPerGame": 7.81,
-        "avgCatchesPerGame": 4.25
+        "recYPG": 60.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029273_CLE_2015",
       "name": "Robert Turbin",
       "position": "RB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 63,
       "stats": {
-        "rushYPG": 19.9,
-        "tdPerGame": 0.1,
+        "recYPG": 2.3,
         "rushAttPerGame": 5.0,
-        "recYPG": 2.3
+        "rushYPG": 19.9,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030656_CLE_2015",
       "name": "Isaiah Crowell",
       "position": "RB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 79,
       "stats": {
-        "rushYPG": 44.1,
-        "tdPerGame": 0.25,
+        "recYPG": 11.4,
         "rushAttPerGame": 11.56,
-        "recYPG": 11.4
+        "rushYPG": 44.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031228_CLE_2015",
       "name": "Taylor Gabriel",
       "position": "WR",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 63,
       "stats": {
-        "recYPG": 20.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 20.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 0.8189,
       "id": "p_00-0031409_CLE_2015",
       "name": "Johnny Manziel",
       "position": "QB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 67,
       "stats": {
-        "passYPG": 166.7,
-        "qbr": 31.9,
-        "avgTDPerGame": 0.778,
         "avgINTPerGame": 0.556,
-        "completionPct": 0.5785
+        "avgTDPerGame": 0.778,
+        "completionPct": 0.5785,
+        "passYPG": 166.7,
+        "qbr": 31.9
       },
-      "eraNormFactor": 0.8189
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032257_CLE_2015",
       "name": "Duke Johnson",
       "position": "RB",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 71,
       "stats": {
-        "rushYPG": 23.7,
-        "tdPerGame": 0.0,
+        "recYPG": 33.4,
         "rushAttPerGame": 6.5,
-        "recYPG": 33.4
+        "rushYPG": 23.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031112_CLE_2015",
       "name": "T.Coons",
       "position": "K",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.875,
         "avgKickDistance": 35.2,
         "avgMissDistance": 47.8,
+        "fgAccuracy": 0.875,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2015",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.02,
+        "normalizedRank": 15,
         "rushTDPct": 0.0132,
-        "normalizedRank": 15
+        "rushYPC": 4.02,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2015",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 63,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 128.44,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0568,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0568
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2015",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2015,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6301,
-        "yardsPerAttemptAllowed": 7.4,
-        "passYPGAllowed": 250.75,
-        "passTDPerGameAllowed": 2.12,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 2.12,
+        "passYPGAllowed": 250.75,
+        "yardsPerAttemptAllowed": 7.4
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2015
     }
   ]
 }

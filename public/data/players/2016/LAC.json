@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021547_LAC_2016",
       "name": "Antonio Gates",
       "position": "WR",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 88,
       "stats": {
-        "recYPG": 42.2,
-        "tdPerGame": 0.538,
+        "avgCatchesPerGame": 4.08,
         "avgTargetsPerGame": 7.15,
-        "avgCatchesPerGame": 4.08
+        "recYPG": 42.2,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.3467,
       "id": "p_00-0022942_LAC_2016",
       "name": "Philip Rivers",
       "position": "QB",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 82,
       "stats": {
-        "passYPG": 274.1,
-        "qbr": 82.5,
-        "avgTDPerGame": 2.062,
         "avgINTPerGame": 1.312,
-        "completionPct": 0.6038
+        "avgTDPerGame": 2.062,
+        "completionPct": 0.6038,
+        "passYPG": 274.1,
+        "qbr": 82.5
       },
-      "eraNormFactor": 1.3467
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028411_LAC_2016",
       "name": "Dontrelle Inman",
       "position": "WR",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 84,
       "stats": {
-        "recYPG": 50.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.62,
         "avgTargetsPerGame": 6.06,
-        "avgCatchesPerGame": 3.62
+        "recYPG": 50.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029269_LAC_2016",
       "name": "Travis Benjamin",
       "position": "WR",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 84,
       "stats": {
-        "recYPG": 48.4,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 3.36,
         "avgTargetsPerGame": 5.36,
-        "avgCatchesPerGame": 3.36
+        "recYPG": 48.4,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032144_LAC_2016",
       "name": "Melvin Gordon",
       "position": "RB",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 97,
       "stats": {
-        "rushYPG": 76.7,
-        "tdPerGame": 0.769,
+        "recYPG": 32.2,
         "rushAttPerGame": 19.54,
-        "recYPG": 32.2
+        "rushYPG": 76.7,
+        "tdPerGame": 0.769
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032160_LAC_2016",
       "name": "Tyrell Williams",
       "position": "WR",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 93,
       "stats": {
-        "recYPG": 66.2,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 7.44,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 66.2,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032902_LAC_2016",
       "name": "Kenneth Farrow",
       "position": "RB",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 63,
       "stats": {
-        "rushYPG": 19.2,
-        "tdPerGame": 0.0,
+        "recYPG": 7.0,
         "rushAttPerGame": 6.0,
-        "recYPG": 7.0
+        "rushYPG": 19.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033090_LAC_2016",
       "name": "Hunter Henry",
       "position": "WR",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 82,
       "stats": {
-        "recYPG": 36.8,
-        "tdPerGame": 0.615,
+        "avgCatchesPerGame": 2.77,
         "avgTargetsPerGame": 4.08,
-        "avgCatchesPerGame": 2.77
+        "recYPG": 36.8,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032087_LAC_2016",
       "name": "J.Lambo",
       "position": "K",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 67,
       "stats": {
-        "fgAccuracy": 0.8125,
         "avgKickDistance": 36.4,
         "avgMissDistance": 47.2,
+        "fgAccuracy": 0.8125,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2016",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.79,
+        "normalizedRank": 26,
         "rushTDPct": 0.0251,
-        "normalizedRank": 26
+        "rushYPC": 3.79,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2016",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 81,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.25,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 97.94,
-        "rushTDPerGameAllowed": 1.25,
-        "sackPct": 0.0603,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0603
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2016",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2016,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6276,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 249.19,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 249.19,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2016
     }
   ]
 }

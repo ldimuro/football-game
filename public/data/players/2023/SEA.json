@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3462,
       "id": "p_00-0030565_SEA_2023",
       "name": "Geno Smith",
       "position": "QB",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 85,
       "stats": {
-        "passYPG": 241.6,
-        "qbr": 71.6,
-        "avgTDPerGame": 1.333,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.6473
+        "avgTDPerGame": 1.333,
+        "completionPct": 0.6473,
+        "passYPG": 241.6,
+        "qbr": 71.6
       },
-      "eraNormFactor": 1.3462
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032211_SEA_2023",
       "name": "Tyler Lockett",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 90,
       "stats": {
-        "recYPG": 52.6,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 4.65,
         "avgTargetsPerGame": 7.18,
-        "avgCatchesPerGame": 4.65
+        "recYPG": 52.6,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034159_SEA_2023",
       "name": "Will Dissly",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 63,
       "stats": {
-        "recYPG": 14.3,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.42,
         "avgTargetsPerGame": 1.83,
-        "avgCatchesPerGame": 1.42
+        "recYPG": 14.3,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035640_SEA_2023",
       "name": "DK Metcalf",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 95,
       "stats": {
-        "recYPG": 69.6,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 7.44,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 69.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035644_SEA_2023",
       "name": "Noah Fant",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 71,
       "stats": {
-        "recYPG": 29.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": 3.07,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 29.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036244_SEA_2023",
       "name": "Colby Parkinson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "recYPG": 17.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.79,
         "avgTargetsPerGame": 2.43,
-        "avgCatchesPerGame": 1.79
+        "recYPG": 17.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038134_SEA_2023",
       "name": "Kenneth Walker III",
       "position": "RB",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 91,
       "stats": {
-        "rushYPG": 60.3,
-        "tdPerGame": 0.533,
+        "recYPG": 17.3,
         "rushAttPerGame": 14.6,
-        "recYPG": 17.3
+        "rushYPG": 60.3,
+        "tdPerGame": 0.533
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038543_SEA_2023",
       "name": "Jaxon Smith-Njigba",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 83,
       "stats": {
-        "recYPG": 36.9,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.71,
         "avgTargetsPerGame": 5.47,
-        "avgCatchesPerGame": 3.71
+        "recYPG": 36.9,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038752_SEA_2023",
       "name": "Jake Bobo",
       "position": "WR",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "recYPG": 14.0,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.36,
         "avgTargetsPerGame": 1.79,
-        "avgCatchesPerGame": 1.36
+        "recYPG": 14.0,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039165_SEA_2023",
       "name": "Zach Charbonnet",
       "position": "RB",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "rushYPG": 28.9,
-        "tdPerGame": 0.062,
+        "recYPG": 13.1,
         "rushAttPerGame": 6.75,
-        "recYPG": 13.1
+        "rushYPG": 28.9,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031492_SEA_2023",
       "name": "J.Myers",
       "position": "K",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 39.4,
         "avgMissDistance": 49.0,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2023",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.14,
+        "normalizedRank": 18,
         "rushTDPct": 0.0288,
-        "normalizedRank": 18
+        "rushYPC": 4.14,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2023",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 67,
       "stats": {
+        "blitzPct": 0.222,
+        "normalizedRank": 31,
+        "pressurePct": 0.231,
+        "rushTDPerGameAllowed": 1.41,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 138.35,
-        "rushTDPerGameAllowed": 1.41,
-        "sackPct": 0.0803,
-        "blitzPct": 0.222,
-        "pressurePct": 0.231,
-        "normalizedRank": 31
+        "sackPct": 0.0803
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2023",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2023,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6667,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 233.0,
-        "passTDPerGameAllowed": 1.24,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.24,
+        "passYPGAllowed": 233.0,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2023
     }
   ]
 }

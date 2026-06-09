@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033009_CIN_2022",
       "name": "Tyler Boyd",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 85,
       "stats": {
-        "recYPG": 44.8,
-        "tdPerGame": 0.263,
+        "avgCatchesPerGame": 3.37,
         "avgTargetsPerGame": 4.68,
-        "avgCatchesPerGame": 3.37
+        "recYPG": 44.8,
+        "tdPerGame": 0.263
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033526_CIN_2022",
       "name": "Samaje Perine",
       "position": "RB",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 71,
       "stats": {
-        "rushYPG": 23.8,
-        "tdPerGame": 0.158,
+        "recYPG": 16.9,
         "rushAttPerGame": 5.74,
-        "recYPG": 16.9
+        "rushYPG": 23.8,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033897_CIN_2022",
       "name": "Joe Mixon",
       "position": "RB",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 91,
       "stats": {
-        "rushYPG": 57.5,
-        "tdPerGame": 0.471,
+        "recYPG": 28.9,
         "rushAttPerGame": 14.65,
-        "recYPG": 28.9
+        "rushYPG": 57.5,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034830_CIN_2022",
       "name": "Hayden Hurst",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 81,
       "stats": {
-        "recYPG": 34.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.06,
         "avgTargetsPerGame": 5.31,
-        "avgCatchesPerGame": 4.06
+        "recYPG": 34.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035341_CIN_2022",
       "name": "Trenton Irwin",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "recYPG": 22.7,
-        "tdPerGame": 0.364,
+        "avgCatchesPerGame": 1.55,
         "avgTargetsPerGame": 2.45,
-        "avgCatchesPerGame": 1.55
+        "recYPG": 22.7,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035771_CIN_2022",
       "name": "Mitchell Wilcox",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.4,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.73,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.73
+        "recYPG": 14.4,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036410_CIN_2022",
       "name": "Tee Higgins",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 96,
       "stats": {
-        "recYPG": 69.2,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 5.12,
         "avgTargetsPerGame": 7.65,
-        "avgCatchesPerGame": 5.12
+        "recYPG": 69.2,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.4973,
       "id": "p_00-0036442_CIN_2022",
+      "is_all_pro": true,
       "name": "Joe Burrow",
       "position": "QB",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 91,
       "stats": {
-        "passYPG": 273.5,
-        "qbr": 100,
-        "avgTDPerGame": 2.053,
         "avgINTPerGame": 0.737,
-        "completionPct": 0.6797
+        "avgTDPerGame": 2.053,
+        "completionPct": 0.6797,
+        "passYPG": 273.5,
+        "qbr": 100
       },
-      "eraNormFactor": 1.4973,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036900_CIN_2022",
       "name": "Ja'Marr Chase",
       "position": "WR",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 99,
       "stats": {
-        "recYPG": 84.4,
-        "tdPerGame": 0.733,
+        "avgCatchesPerGame": 7.13,
         "avgTargetsPerGame": 10.8,
-        "avgCatchesPerGame": 7.13
+        "recYPG": 84.4,
+        "tdPerGame": 0.733
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036854_CIN_2022",
       "name": "E.McPherson",
       "position": "K",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 37.9,
         "avgMissDistance": 41.6,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 59
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2022",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.89,
+        "normalizedRank": 29,
         "rushTDPct": 0.0363,
-        "normalizedRank": 29
+        "rushYPC": 3.89,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2022",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 78,
       "stats": {
+        "blitzPct": 0.204,
+        "normalizedRank": 7,
+        "pressurePct": 0.224,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 106.62,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0537,
-        "blitzPct": 0.204,
-        "pressurePct": 0.224,
-        "normalizedRank": 7
+        "sackPct": 0.0537
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2022",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2022,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5886,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 229.06,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 229.06,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2022
     }
   ]
 }

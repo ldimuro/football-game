@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.8844,
       "id": "p_00-0007576_BUF_2005",
       "name": "Kelly Holcomb",
       "position": "QB",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "passYPG": 150.9,
-        "qbr": 55.6,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.6739
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6739,
+        "passYPG": 150.9,
+        "qbr": 55.6
       },
-      "eraNormFactor": 0.8844
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011770_BUF_2005",
       "name": "Eric Moulds",
       "position": "WR",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 89,
       "stats": {
-        "recYPG": 58.3,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 5.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.79
+        "recYPG": 58.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021166_BUF_2005",
       "name": "Josh Reed",
       "position": "WR",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 63,
       "stats": {
-        "recYPG": 28.1,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 28.1,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022178_BUF_2005",
       "name": "Willis McGahee",
       "position": "RB",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 88,
       "stats": {
-        "rushYPG": 77.9,
-        "tdPerGame": 0.312,
+        "recYPG": 11.1,
         "rushAttPerGame": 20.31,
-        "recYPG": 11.1
+        "rushYPG": 77.9,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022538_BUF_2005",
       "name": "Shaud Williams",
       "position": "RB",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 61,
       "stats": {
-        "rushYPG": 11.5,
-        "tdPerGame": 0.0,
+        "recYPG": 8.4,
         "rushAttPerGame": 3.21,
-        "recYPG": 8.4
+        "rushYPG": 11.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022910_BUF_2005",
       "name": "Lee Evans",
       "position": "WR",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 84,
       "stats": {
-        "recYPG": 46.4,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 46.4,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.8727,
       "id": "p_00-0022912_BUF_2005",
       "name": "J.P. Losman",
       "position": "QB",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 67,
       "stats": {
-        "passYPG": 148.9,
-        "qbr": 0,
-        "avgTDPerGame": 0.889,
         "avgINTPerGame": 0.889,
-        "completionPct": 0.5
+        "avgTDPerGame": 0.889,
+        "completionPct": 0.5,
+        "passYPG": 148.9,
+        "qbr": 0
       },
-      "eraNormFactor": 0.8727
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019310_BUF_2005",
       "name": "R.Lindell",
       "position": "K",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8286,
         "avgKickDistance": 35.3,
         "avgMissDistance": 38.3,
+        "fgAccuracy": 0.8286,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_OLine_2005",
       "position": "OLine",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.74,
+        "normalizedRank": 23,
         "rushTDPct": 0.014,
-        "normalizedRank": 23
+        "rushYPC": 3.74,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_DLine_2005",
       "position": "DLine",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 31,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 137.81,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0755,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 31
+        "sackPct": 0.0755
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_Secondary_2005",
       "position": "Secondary",
-      "team": "BUF",
-      "year": 2005,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6243,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 205.69,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 205.69,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2005
     }
   ]
 }

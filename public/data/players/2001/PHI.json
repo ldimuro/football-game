@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009842_PHI_2001",
       "name": "Chad Lewis",
       "position": "WR",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "recYPG": 31.5,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 2.94,
         "avgTargetsPerGame": 4.89,
-        "avgCatchesPerGame": 2.94
+        "recYPG": 31.5,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.2138,
       "id": "p_00-0011022_PHI_2001",
       "name": "Donovan McNabb",
       "position": "QB",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "passYPG": 214.4,
-        "qbr": 53.6,
-        "avgTDPerGame": 1.667,
         "avgINTPerGame": 0.833,
-        "completionPct": 0.5867
+        "avgTDPerGame": 1.667,
+        "completionPct": 0.5867,
+        "passYPG": 214.4,
+        "qbr": 53.6
       },
-      "eraNormFactor": 1.2138
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015523_PHI_2001",
       "name": "Duce Staley",
       "position": "RB",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "rushYPG": 46.4,
-        "tdPerGame": 0.188,
+        "recYPG": 47.8,
         "rushAttPerGame": 13.12,
-        "recYPG": 47.8
+        "rushYPG": 46.4,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016440_PHI_2001",
       "name": "James Thrash",
       "position": "WR",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 91,
       "stats": {
-        "recYPG": 54.7,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 4.11,
         "avgTargetsPerGame": 6.89,
-        "avgCatchesPerGame": 4.11
+        "recYPG": 54.7,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019606_PHI_2001",
       "name": "Todd Pinkston",
       "position": "WR",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "recYPG": 37.7,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 2.78,
         "avgTargetsPerGame": 5.39,
-        "avgCatchesPerGame": 2.78
+        "recYPG": 37.7,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020270_PHI_2001",
       "name": "Correll Buckhalter",
       "position": "RB",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "rushYPG": 40.9,
-        "tdPerGame": 0.176,
+        "recYPG": 9.2,
         "rushAttPerGame": 8.65,
-        "recYPG": 9.2
+        "rushYPG": 40.9,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020497_PHI_2001",
       "name": "Freddie Mitchell",
       "position": "WR",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 65,
       "stats": {
-        "recYPG": 18.7,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 3.12,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 18.7,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_PHI_2001",
+      "is_all_pro": true,
       "name": "D.Akers",
       "position": "K",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8649,
         "avgKickDistance": 35.8,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8649,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PHI",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2001",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.3,
+        "normalizedRank": 9,
         "rushTDPct": 0.0202,
-        "normalizedRank": 9
+        "rushYPC": 4.3,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2001",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 18,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 114.81,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.087,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 18
+        "sackPct": 0.087
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2001",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2001,
+      "rating": 90,
       "stats": {
         "completionPctAllowed": 0.5571,
-        "yardsPerAttemptAllowed": 5.1,
-        "passYPGAllowed": 179.0,
-        "passTDPerGameAllowed": 0.81,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 0.81,
+        "passYPGAllowed": 179.0,
+        "yardsPerAttemptAllowed": 5.1
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2001
     }
   ]
 }

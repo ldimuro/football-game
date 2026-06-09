@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000745_NYG_2000",
       "name": "Tiki Barber",
       "position": "RB",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "rushYPG": 61.1,
-        "tdPerGame": 0.421,
+        "recYPG": 40.1,
         "rushAttPerGame": 13.11,
-        "recYPG": 40.1
+        "rushYPG": 61.1,
+        "tdPerGame": 0.421
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.3872,
       "id": "p_00-0003292_NYG_2000",
       "name": "Kerry Collins",
       "position": "QB",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 87,
       "stats": {
-        "passYPG": 220.7,
-        "qbr": 90.9,
-        "avgTDPerGame": 1.421,
         "avgINTPerGame": 0.947,
-        "completionPct": 0.5864
+        "avgTDPerGame": 1.421,
+        "completionPct": 0.5864,
+        "passYPG": 220.7,
+        "qbr": 90.9
       },
-      "eraNormFactor": 1.3872
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007468_NYG_2000",
       "name": "Ike Hilliard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 95,
       "stats": {
-        "recYPG": 59.2,
-        "tdPerGame": 0.588,
+        "avgCatchesPerGame": 4.18,
         "avgTargetsPerGame": 7.82,
-        "avgCatchesPerGame": 4.18
+        "recYPG": 59.2,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008962_NYG_2000",
       "name": "Joe Jurevicius",
       "position": "WR",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 71,
       "stats": {
-        "recYPG": 20.5,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.86,
         "avgTargetsPerGame": 3.93,
-        "avgCatchesPerGame": 1.86
+        "recYPG": 20.5,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011425_NYG_2000",
       "name": "Pete Mitchell",
       "position": "WR",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 65,
       "stats": {
-        "recYPG": 18.7,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 2.75,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 18.7,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016550_NYG_2000",
       "name": "Amani Toomer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 94,
       "stats": {
-        "recYPG": 63.8,
-        "tdPerGame": 0.421,
+        "avgCatchesPerGame": 4.58,
         "avgTargetsPerGame": 7.32,
-        "avgCatchesPerGame": 4.58
+        "recYPG": 63.8,
+        "tdPerGame": 0.421
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019643_NYG_2000",
       "name": "Ron Dayne",
       "position": "RB",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 76,
       "stats": {
-        "rushYPG": 46.7,
-        "tdPerGame": 0.278,
+        "recYPG": 1.3,
         "rushAttPerGame": 14.06,
-        "recYPG": 1.3
+        "rushYPG": 46.7,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019662_NYG_2000",
       "name": "Ron Dixon",
       "position": "WR",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 60,
       "stats": {
-        "recYPG": 12.1,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 0.64,
         "avgTargetsPerGame": 2.29,
-        "avgCatchesPerGame": 0.64
+        "recYPG": 12.1,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003841_NYG_2000",
       "name": "B.Daluiso",
       "position": "K",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7667,
         "avgKickDistance": 32.6,
         "avgMissDistance": 39.0,
+        "fgAccuracy": 0.7667,
         "longestMadeKick": 46
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2000",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.84,
+        "normalizedRank": 23,
         "rushTDPct": 0.0265,
-        "normalizedRank": 23
+        "rushYPC": 3.84,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2000",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 91,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 2,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.2,
         "rushYPGAllowed": 72.25,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0752,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 2
+        "sackPct": 0.0752
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2000",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2000,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.559,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 211.88,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 211.88,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2000
     }
   ]
 }

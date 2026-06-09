@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000745_NYG_2003",
       "name": "Tiki Barber",
       "position": "RB",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 86,
       "stats": {
-        "rushYPG": 75.9,
-        "tdPerGame": 0.125,
+        "recYPG": 28.8,
         "rushAttPerGame": 17.38,
-        "recYPG": 28.8
+        "rushYPG": 75.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.4814,
       "id": "p_00-0003292_NYG_2003",
       "name": "Kerry Collins",
       "position": "QB",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 80,
       "stats": {
-        "passYPG": 239.2,
-        "qbr": 33.4,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.231,
-        "completionPct": 0.568
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.568,
+        "passYPG": 239.2,
+        "qbr": 33.4
       },
-      "eraNormFactor": 1.4814
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007468_NYG_2003",
       "name": "Ike Hilliard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 88,
       "stats": {
-        "recYPG": 46.8,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 46.8,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009829_NYG_2003",
       "name": "Dorsey Levens",
       "position": "RB",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 69,
       "stats": {
-        "rushYPG": 17.9,
-        "tdPerGame": 0.273,
+        "recYPG": 3.5,
         "rushAttPerGame": 6.18,
-        "recYPG": 3.5
+        "rushYPG": 17.9,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016550_NYG_2003",
       "name": "Amani Toomer",
       "position": "WR",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 90,
       "stats": {
-        "recYPG": 66.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 66.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 0.6589,
       "id": "p_00-0020483_NYG_2003",
       "name": "Jesse Palmer",
       "position": "QB",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 64,
       "stats": {
-        "passYPG": 106.4,
-        "qbr": 0,
-        "avgTDPerGame": 0.6,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.5172
+        "avgTDPerGame": 0.6,
+        "completionPct": 0.5172,
+        "passYPG": 106.4,
+        "qbr": 0
       },
-      "eraNormFactor": 0.6589
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021148_NYG_2003",
       "name": "Jeremy Shockey",
       "position": "WR",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 88,
       "stats": {
-        "recYPG": 62.4,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 5.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.44
+        "recYPG": 62.4,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021174_NYG_2003",
       "name": "Tim Carter",
       "position": "WR",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 63,
       "stats": {
-        "recYPG": 30.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 30.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020578_NYG_2003",
       "name": "M.Bryant",
       "position": "K",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 66,
       "stats": {
-        "fgAccuracy": 0.7407,
         "avgKickDistance": 35.2,
         "avgMissDistance": 38.6,
+        "fgAccuracy": 0.7407,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2003",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.03,
+        "normalizedRank": 17,
         "rushTDPct": 0.0155,
-        "normalizedRank": 17
+        "rushYPC": 4.03,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2003",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 88,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 18,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 119.25,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0867,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 18
+        "sackPct": 0.0867
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2003",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2003,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.5954,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 213.25,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 213.25,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2003
     }
   ]
 }

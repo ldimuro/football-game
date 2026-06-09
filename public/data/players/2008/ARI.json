@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008241_ARI_2008",
       "name": "Edgerrin James",
       "position": "RB",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 76,
       "stats": {
-        "rushYPG": 44.1,
-        "tdPerGame": 0.235,
+        "recYPG": 8.6,
         "rushAttPerGame": 11.41,
-        "recYPG": 8.6
+        "rushYPG": 44.1,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.5748,
       "id": "p_00-0017200_ARI_2008",
       "name": "Kurt Warner",
       "position": "QB",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 93,
       "stats": {
-        "passYPG": 286.4,
-        "qbr": 100,
-        "avgTDPerGame": 2.05,
         "avgINTPerGame": 0.85,
-        "completionPct": 0.673
+        "avgTDPerGame": 2.05,
+        "completionPct": 0.673,
+        "passYPG": 286.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.5748
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021647_ARI_2008",
       "name": "Jerheme Urban",
       "position": "WR",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 69,
       "stats": {
-        "recYPG": 29.2,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.35,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.35
+        "recYPG": 29.2,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022084_ARI_2008",
       "name": "Anquan Boldin",
       "position": "WR",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 98,
       "stats": {
-        "recYPG": 81.9,
-        "tdPerGame": 0.8,
+        "avgCatchesPerGame": 6.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.87
+        "recYPG": 81.9,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022921_ARI_2008",
+      "is_all_pro": true,
       "name": "Larry Fitzgerald",
       "position": "WR",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 100,
       "stats": {
-        "recYPG": 99.0,
-        "tdPerGame": 0.95,
+        "avgCatchesPerGame": 6.3,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.3
+        "recYPG": 99.0,
+        "tdPerGame": 0.95
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023479_ARI_2008",
       "name": "J.J. Arrington",
       "position": "RB",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 63,
       "stats": {
-        "rushYPG": 12.9,
-        "tdPerGame": 0.067,
+        "recYPG": 20.8,
         "rushAttPerGame": 2.4,
-        "recYPG": 20.8
+        "rushYPG": 12.9,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025529_ARI_2008",
       "name": "Steve Breaston",
       "position": "WR",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 84,
       "stats": {
-        "recYPG": 60.6,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 4.74,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.74
+        "recYPG": 60.6,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026289_ARI_2008",
       "name": "Tim Hightower",
       "position": "RB",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "rushYPG": 26.6,
-        "tdPerGame": 0.55,
+        "recYPG": 12.7,
         "rushAttPerGame": 8.9,
-        "recYPG": 12.7
+        "rushYPG": 26.6,
+        "tdPerGame": 0.55
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019676_ARI_2008",
       "name": "N.Rackers",
       "position": "K",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.8571,
         "avgKickDistance": 36.1,
         "avgMissDistance": 48.8,
+        "fgAccuracy": 0.8571,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2008",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.43,
+        "normalizedRank": 31,
         "rushTDPct": 0.0355,
-        "normalizedRank": 31
+        "rushYPC": 3.43,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2008",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 16,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 110.25,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.06,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 16
+        "sackPct": 0.06
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2008",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2008,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6248,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 221.25,
-        "passTDPerGameAllowed": 2.25,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 2.25,
+        "passYPGAllowed": 221.25,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2008
     }
   ]
 }

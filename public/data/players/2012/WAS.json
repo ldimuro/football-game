@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2012",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 79,
       "stats": {
-        "recYPG": 34.8,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 2.59,
         "avgTargetsPerGame": 3.94,
-        "avgCatchesPerGame": 2.59
+        "recYPG": 34.8,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022984_WAS_2012",
       "name": "Ryan Grant",
       "position": "RB",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 72,
       "stats": {
-        "rushYPG": 23.2,
-        "tdPerGame": 0.333,
+        "recYPG": 8.3,
         "rushAttPerGame": 6.5,
-        "recYPG": 8.3
+        "rushYPG": 23.2,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026188_WAS_2012",
       "name": "Fred Davis",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 75,
       "stats": {
-        "recYPG": 46.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.43,
         "avgTargetsPerGame": 4.57,
-        "avgCatchesPerGame": 3.43
+        "recYPG": 46.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026314_WAS_2012",
       "name": "Josh Morgan",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 71,
       "stats": {
-        "recYPG": 30.0,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 4.71,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 30.0,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026345_WAS_2012",
       "name": "Pierre Garcon",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 90,
       "stats": {
-        "recYPG": 62.1,
-        "tdPerGame": 0.364,
+        "avgCatchesPerGame": 4.36,
         "avgTargetsPerGame": 6.64,
-        "avgCatchesPerGame": 4.36
+        "recYPG": 62.1,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027215_WAS_2012",
       "name": "Logan Paulsen",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.8,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": 3.15,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 24.8,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028017_WAS_2012",
       "name": "Leonard Hankerson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 74,
       "stats": {
-        "recYPG": 35.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.88,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 35.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029141_WAS_2012",
+      "is_all_pro": true,
       "name": "Alfred Morris",
       "position": "RB",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 92,
       "stats": {
-        "rushYPG": 99.6,
-        "tdPerGame": 0.765,
+        "recYPG": 4.5,
         "rushAttPerGame": 20.65,
-        "recYPG": 4.5
+        "rushYPG": 99.6,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0004,
       "id": "p_00-0029665_WAS_2012",
       "name": "Robert Griffin",
       "position": "QB",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "passYPG": 205.2,
-        "qbr": 100,
-        "avgTDPerGame": 1.375,
         "avgINTPerGame": 0.375,
-        "completionPct": 0.6505
+        "avgTDPerGame": 1.375,
+        "completionPct": 0.6505,
+        "passYPG": 205.2,
+        "qbr": 100
       },
-      "eraNormFactor": 1.0004
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028787_WAS_2012",
       "name": "K.Forbath",
       "position": "K",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 40.3,
         "avgMissDistance": 43.2,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2012",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.19,
+        "normalizedRank": 3,
         "rushTDPct": 0.0406,
-        "normalizedRank": 3
+        "rushYPC": 5.19,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2012",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 95.75,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0503,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0503
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2012",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2012,
+      "rating": 73,
       "stats": {
         "completionPctAllowed": 0.6179,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 281.94,
-        "passTDPerGameAllowed": 1.94,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 30
+        "normalizedRank": 30,
+        "passTDPerGameAllowed": 1.94,
+        "passYPGAllowed": 281.94,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2012
     }
   ]
 }

@@ -31,7 +31,7 @@ beforeEach(() => {
     currentOpponent: null, currentWeather: null, currentDraftOffer: null,
     seasonLog: [], isLoading: false,
     initGame: vi.fn(), rerollSetupSlot: vi.fn(), confirmSetup: vi.fn(),
-    viewDraftOffer: vi.fn(), rerollDraftOffer: vi.fn(),
+    viewDraftOffer: vi.fn(), rerollDraftOfferTeam: vi.fn(), rerollDraftOfferYear: vi.fn(),
     draftPlayer: vi.fn(), skipDraft: vi.fn(),
   })
 })

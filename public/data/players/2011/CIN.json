@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023439_CIN_2011",
       "name": "Cedric Benson",
       "position": "RB",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 86,
       "stats": {
-        "rushYPG": 67.6,
-        "tdPerGame": 0.438,
+        "recYPG": 5.0,
         "rushAttPerGame": 17.5,
-        "recYPG": 5.0
+        "rushYPG": 67.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026186_CIN_2011",
       "name": "Jerome Simpson",
       "position": "WR",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 82,
       "stats": {
-        "recYPG": 44.6,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": 6.53,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 44.6,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026237_CIN_2011",
       "name": "Andre Caldwell",
       "position": "WR",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 74,
       "stats": {
-        "recYPG": 26.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.08,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 3.08
+        "recYPG": 26.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026941_CIN_2011",
       "name": "Bernard Scott",
       "position": "RB",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "rushYPG": 23.0,
-        "tdPerGame": 0.176,
+        "recYPG": 3.9,
         "rushAttPerGame": 6.94,
-        "recYPG": 3.9
+        "rushYPG": 23.0,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027873_CIN_2011",
       "name": "Jermaine Gresham",
       "position": "WR",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 86,
       "stats": {
-        "recYPG": 42.8,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.07,
         "avgTargetsPerGame": 6.53,
-        "avgCatchesPerGame": 4.07
+        "recYPG": 42.8,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027918_CIN_2011",
       "name": "Andrew Hawkins",
       "position": "WR",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 61,
       "stats": {
-        "recYPG": 20.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.85,
         "avgTargetsPerGame": 2.77,
-        "avgCatchesPerGame": 1.85
+        "recYPG": 20.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027942_CIN_2011",
       "name": "A.J. Green",
       "position": "WR",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 93,
       "stats": {
-        "recYPG": 69.0,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.38,
         "avgTargetsPerGame": 7.94,
-        "avgCatchesPerGame": 4.38
+        "recYPG": 69.0,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0827,
       "id": "p_00-0027973_CIN_2011",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 75,
       "stats": {
-        "passYPG": 215.0,
-        "qbr": 44.9,
-        "avgTDPerGame": 1.176,
         "avgINTPerGame": 0.941,
-        "completionPct": 0.586
+        "avgTDPerGame": 1.176,
+        "completionPct": 0.586,
+        "passYPG": 215.0,
+        "qbr": 44.9
       },
-      "eraNormFactor": 1.0827
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023482_CIN_2011",
       "name": "M.Nugent",
       "position": "K",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.85,
         "avgKickDistance": 35.1,
         "avgMissDistance": 40.8,
+        "fgAccuracy": 0.85,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2011",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.91,
+        "normalizedRank": 27,
         "rushTDPct": 0.0232,
-        "normalizedRank": 27
+        "rushYPC": 3.91,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2011",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 89,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 104.69,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0835,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0835
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2011",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2011,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.5918,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 211.56,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 211.56,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2011
     }
   ]
 }

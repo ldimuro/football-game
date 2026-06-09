@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.959,
       "id": "p_00-0031345_LV_2023",
       "name": "Jimmy Garoppolo",
       "position": "QB",
-      "team": "LV",
-      "year": 2023,
+      "rating": 67,
       "stats": {
-        "passYPG": 172.1,
-        "qbr": 22.6,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.286,
-        "completionPct": 0.6509
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6509,
+        "passYPG": 172.1,
+        "qbr": 22.6
       },
-      "eraNormFactor": 0.959
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031381_LV_2023",
       "name": "Davante Adams",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 96,
       "stats": {
-        "recYPG": 67.3,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 6.06,
         "avgTargetsPerGame": 10.29,
-        "avgCatchesPerGame": 6.06
+        "recYPG": 67.3,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032392_LV_2023",
       "name": "Austin Hooper",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 1.94,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 14.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034960_LV_2023",
       "name": "Jakobi Meyers",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 92,
       "stats": {
-        "recYPG": 50.4,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.44,
         "avgTargetsPerGame": 6.62,
-        "avgCatchesPerGame": 4.44
+        "recYPG": 50.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034983_LV_2023",
       "name": "Hunter Renfrow",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "recYPG": 19.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 2.85,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 19.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035700_LV_2023",
       "name": "Josh Jacobs",
       "position": "RB",
-      "team": "LV",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "rushYPG": 61.9,
-        "tdPerGame": 0.462,
+        "recYPG": 22.8,
         "rushAttPerGame": 17.92,
-        "recYPG": 22.8
+        "rushYPG": 61.9,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038040_LV_2023",
       "name": "Zamir White",
       "position": "RB",
-      "team": "LV",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "rushYPG": 34.7,
-        "tdPerGame": 0.077,
+        "recYPG": 7.5,
         "rushAttPerGame": 8.0,
-        "recYPG": 7.5
+        "rushYPG": 34.7,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038563_LV_2023",
       "name": "Tre Tucker",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 71,
       "stats": {
-        "recYPG": 25.5,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.46,
         "avgTargetsPerGame": 2.62,
-        "avgCatchesPerGame": 1.46
+        "recYPG": 25.5,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.1234,
       "id": "p_00-0038579_LV_2023",
       "name": "Aidan O'Connell",
       "position": "QB",
-      "team": "LV",
-      "year": 2023,
+      "rating": 77,
       "stats": {
-        "passYPG": 201.6,
-        "qbr": 34.7,
-        "avgTDPerGame": 1.091,
         "avgINTPerGame": 0.636,
-        "completionPct": 0.621
+        "avgTDPerGame": 1.091,
+        "completionPct": 0.621,
+        "passYPG": 201.6,
+        "qbr": 34.7
       },
-      "eraNormFactor": 1.1234
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039066_LV_2023",
       "name": "Michael Mayer",
       "position": "WR",
-      "team": "LV",
-      "year": 2023,
+      "rating": 74,
       "stats": {
-        "recYPG": 25.3,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.25,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 2.25
+        "recYPG": 25.3,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034161_LV_2023",
       "name": "D.Carlson",
       "position": "K",
-      "team": "LV",
-      "year": 2023,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.8667,
         "avgKickDistance": 35.5,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8667,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_OLine_2023",
       "position": "OLine",
-      "team": "LV",
-      "year": 2023,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.73,
+        "normalizedRank": 28,
         "rushTDPct": 0.0266,
-        "normalizedRank": 28
+        "rushYPC": 3.73,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_DLine_2023",
       "position": "DLine",
-      "team": "LV",
-      "year": 2023,
+      "rating": 78,
       "stats": {
+        "blitzPct": 0.194,
+        "normalizedRank": 21,
+        "pressurePct": 0.194,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 118.53,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0816,
-        "blitzPct": 0.194,
-        "pressurePct": 0.194,
-        "normalizedRank": 21
+        "sackPct": 0.0816
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_Secondary_2023",
       "position": "Secondary",
-      "team": "LV",
-      "year": 2023,
+      "rating": 77,
       "stats": {
         "completionPctAllowed": 0.6667,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 212.35,
-        "passTDPerGameAllowed": 1.24,
         "interceptionsPerGame": 0.76,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.24,
+        "passYPGAllowed": 212.35,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2023
     }
   ]
 }

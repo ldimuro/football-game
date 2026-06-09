@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_ATL_2013",
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 91,
       "stats": {
-        "recYPG": 53.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": 7.56,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 53.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022736_ATL_2013",
       "name": "Steven Jackson",
       "position": "RB",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "rushYPG": 45.2,
-        "tdPerGame": 0.5,
+        "recYPG": 15.9,
         "rushAttPerGame": 13.08,
-        "recYPG": 15.9
+        "rushYPG": 45.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023462_ATL_2013",
       "name": "Roddy White",
       "position": "WR",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 85,
       "stats": {
-        "recYPG": 54.7,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 4.85,
         "avgTargetsPerGame": 7.46,
-        "avgCatchesPerGame": 4.85
+        "recYPG": 54.7,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.3251,
       "id": "p_00-0026143_ATL_2013",
       "name": "Matt Ryan",
       "position": "QB",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 85,
       "stats": {
-        "passYPG": 282.2,
-        "qbr": 73.2,
-        "avgTDPerGame": 1.625,
         "avgINTPerGame": 1.062,
-        "completionPct": 0.6743
+        "avgTDPerGame": 1.625,
+        "completionPct": 0.6743,
+        "passYPG": 282.2,
+        "qbr": 73.2
       },
-      "eraNormFactor": 1.3251
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026224_ATL_2013",
       "name": "Harry Douglas",
       "position": "WR",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 85,
       "stats": {
-        "recYPG": 66.7,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 5.31,
         "avgTargetsPerGame": 8.25,
-        "avgCatchesPerGame": 5.31
+        "recYPG": 66.7,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027944_ATL_2013",
       "name": "Julio Jones",
       "position": "WR",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 97,
       "stats": {
-        "recYPG": 116.0,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 8.2,
         "avgTargetsPerGame": 12.0,
-        "avgCatchesPerGame": 8.2
+        "recYPG": 116.0,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028083_ATL_2013",
       "name": "Jacquizz Rodgers",
       "position": "RB",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 72,
       "stats": {
-        "rushYPG": 22.1,
-        "tdPerGame": 0.133,
+        "recYPG": 22.7,
         "rushAttPerGame": 6.4,
-        "recYPG": 22.7
+        "rushYPG": 22.1,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029778_ATL_2013",
       "name": "Darius Johnson",
       "position": "WR",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 63,
       "stats": {
-        "recYPG": 21.0,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 4.3,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 21.0,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020578_ATL_2013",
       "name": "M.Bryant",
       "position": "K",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 36.4,
         "avgMissDistance": 46.3,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2013",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.88,
+        "normalizedRank": 25,
         "rushTDPct": 0.0343,
-        "normalizedRank": 25
+        "rushYPC": 3.88,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2013",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 62,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 31,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 135.81,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.062,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 31
+        "sackPct": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2013",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2013,
+      "rating": 59,
       "stats": {
         "completionPctAllowed": 0.6609,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 243.56,
-        "passTDPerGameAllowed": 1.94,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.94,
+        "passYPGAllowed": 243.56,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2013
     }
   ]
 }

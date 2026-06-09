@@ -1,222 +1,237 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030506_KC_2022",
+      "is_all_pro": true,
       "name": "Travis Kelce",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 99,
       "stats": {
-        "recYPG": 79.8,
-        "tdPerGame": 0.8,
+        "avgCatchesPerGame": 6.85,
         "avgTargetsPerGame": 9.15,
-        "avgCatchesPerGame": 6.85
+        "recYPG": 79.8,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031376_KC_2022",
       "name": "Jerick McKinnon",
       "position": "RB",
-      "team": "KC",
-      "year": 2022,
+      "rating": 68,
       "stats": {
-        "rushYPG": 17.6,
-        "tdPerGame": 0.05,
+        "recYPG": 27.2,
         "rushAttPerGame": 4.55,
-        "recYPG": 27.2
+        "rushYPG": 17.6,
+        "tdPerGame": 0.05
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033857_KC_2022",
       "name": "JuJu Smith-Schuster",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 85,
       "stats": {
-        "recYPG": 53.8,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 4.63,
         "avgTargetsPerGame": 5.95,
-        "avgCatchesPerGame": 4.63
+        "recYPG": 53.8,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.6292,
       "id": "p_00-0033873_KC_2022",
+      "is_all_pro": true,
+      "is_mvp": true,
       "name": "Patrick Mahomes",
       "position": "QB",
-      "team": "KC",
-      "year": 2022,
+      "rating": 96,
       "stats": {
-        "passYPG": 297.6,
-        "qbr": 100,
-        "avgTDPerGame": 2.4,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.6778
+        "avgTDPerGame": 2.4,
+        "completionPct": 0.6778,
+        "passYPG": 297.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.6292,
-      "is_mvp": true,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034272_KC_2022",
       "name": "Marquez Valdes-Scantling",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 80,
       "stats": {
-        "recYPG": 40.4,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.45,
         "avgTargetsPerGame": 4.6,
-        "avgCatchesPerGame": 2.45
+        "recYPG": 40.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034386_KC_2022",
       "name": "Justin Watson",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 62,
       "stats": {
-        "recYPG": 18.2,
-        "tdPerGame": 0.105,
+        "avgCatchesPerGame": 0.95,
         "avgTargetsPerGame": 1.95,
-        "avgCatchesPerGame": 0.95
+        "recYPG": 18.2,
+        "tdPerGame": 0.105
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035140_KC_2022",
       "name": "Mecole Hardman",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "recYPG": 34.1,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.11,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 34.1,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036360_KC_2022",
       "name": "Clyde Edwards-Helaire",
       "position": "RB",
-      "team": "KC",
-      "year": 2022,
+      "rating": 76,
       "stats": {
-        "rushYPG": 30.2,
-        "tdPerGame": 0.3,
+        "recYPG": 15.1,
         "rushAttPerGame": 7.1,
-        "recYPG": 15.1
+        "rushYPG": 30.2,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036637_KC_2022",
       "name": "Noah Gray",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 60,
       "stats": {
-        "recYPG": 16.8,
-        "tdPerGame": 0.05,
+        "avgCatchesPerGame": 1.55,
         "avgTargetsPerGame": 1.9,
-        "avgCatchesPerGame": 1.55
+        "recYPG": 16.8,
+        "tdPerGame": 0.05
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037197_KC_2022",
       "name": "Isiah Pacheco",
       "position": "RB",
-      "team": "KC",
-      "year": 2022,
+      "rating": 80,
       "stats": {
-        "rushYPG": 51.4,
-        "tdPerGame": 0.3,
+        "recYPG": 9.8,
         "rushAttPerGame": 10.35,
-        "recYPG": 9.8
+        "rushYPG": 51.4,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038090_KC_2022",
       "name": "Skyy Moore",
       "position": "WR",
-      "team": "KC",
-      "year": 2022,
+      "rating": 61,
       "stats": {
-        "recYPG": 15.7,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 1.59,
         "avgTargetsPerGame": 2.47,
-        "avgCatchesPerGame": 1.59
+        "recYPG": 15.7,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033303_KC_2022",
       "name": "H.Butker",
       "position": "K",
-      "team": "KC",
-      "year": 2022,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.7692,
         "avgKickDistance": 38.8,
         "avgMissDistance": 45.7,
+        "fgAccuracy": 0.7692,
         "longestMadeKick": 62
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2022",
       "position": "OLine",
-      "team": "KC",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.69,
+        "normalizedRank": 9,
         "rushTDPct": 0.0385,
-        "normalizedRank": 9
+        "rushYPC": 4.69,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2022",
       "position": "DLine",
-      "team": "KC",
-      "year": 2022,
+      "rating": 88,
       "stats": {
+        "blitzPct": 0.242,
+        "normalizedRank": 8,
+        "pressurePct": 0.246,
+        "rushTDPerGameAllowed": 0.59,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 107.24,
-        "rushTDPerGameAllowed": 0.59,
-        "sackPct": 0.0889,
-        "blitzPct": 0.242,
-        "pressurePct": 0.246,
-        "normalizedRank": 8
+        "sackPct": 0.0889
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2022",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2022,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6591,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 220.94,
-        "passTDPerGameAllowed": 1.94,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.94,
+        "passYPGAllowed": 220.94,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2022
     }
   ]
 }

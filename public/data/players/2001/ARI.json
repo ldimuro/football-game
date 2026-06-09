@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001532_ARI_2001",
+      "is_all_pro": true,
       "name": "David Boston",
       "position": "WR",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 98,
       "stats": {
-        "recYPG": 99.9,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 6.12,
         "avgTargetsPerGame": 10.94,
-        "avgCatchesPerGame": 6.12
+        "recYPG": 99.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006848_ARI_2001",
       "name": "Terry Hardy",
       "position": "WR",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 68,
       "stats": {
-        "recYPG": 11.3,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 1.57,
         "avgTargetsPerGame": 3.14,
-        "avgCatchesPerGame": 1.57
+        "recYPG": 11.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008357_ARI_2001",
       "name": "MarTay Jenkins",
       "position": "WR",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 81,
       "stats": {
-        "recYPG": 39.8,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.46,
         "avgTargetsPerGame": 4.15,
-        "avgCatchesPerGame": 2.46
+        "recYPG": 39.8,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011439_ARI_2001",
       "name": "Tywan Mitchell",
       "position": "WR",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 67,
       "stats": {
-        "recYPG": 15.1,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 15.1,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013013_ARI_2001",
       "name": "Michael Pittman",
       "position": "RB",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "rushYPG": 56.4,
-        "tdPerGame": 0.333,
+        "recYPG": 17.6,
         "rushAttPerGame": 16.07,
-        "recYPG": 17.6
+        "rushYPG": 56.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.2925,
       "id": "p_00-0013042_ARI_2001",
       "name": "Jake Plummer",
       "position": "QB",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "passYPG": 228.3,
-        "qbr": 75.1,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.579
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.579,
+        "passYPG": 228.3,
+        "qbr": 75.1
       },
-      "eraNormFactor": 1.2925
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014328_ARI_2001",
       "name": "Frank Sanders",
       "position": "WR",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "recYPG": 41.2,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 41.2,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_ARI_2001",
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 72,
       "stats": {
-        "rushYPG": 23.8,
-        "tdPerGame": 0.312,
+        "recYPG": 9.4,
         "rushAttPerGame": 7.0,
-        "recYPG": 9.4
+        "rushYPG": 23.8,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020296_ARI_2001",
       "name": "B.Gramatica",
       "position": "K",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.8077,
         "avgKickDistance": 33.5,
         "avgMissDistance": 41.2,
+        "fgAccuracy": 0.8077,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2001",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.62,
+        "normalizedRank": 28,
         "rushTDPct": 0.025,
-        "normalizedRank": 28
+        "rushYPC": 3.62,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2001",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 67,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 130.44,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0342,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0342
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2001",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2001,
+      "rating": 69,
       "stats": {
         "completionPctAllowed": 0.6061,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 224.88,
-        "passTDPerGameAllowed": 1.62,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.62,
+        "passYPGAllowed": 224.88,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2001
     }
   ]
 }

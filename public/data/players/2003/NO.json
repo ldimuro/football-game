@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3724,
       "id": "p_00-0001823_NO_2003",
       "name": "Aaron Brooks",
       "position": "QB",
-      "team": "NO",
-      "year": 2003,
+      "rating": 91,
       "stats": {
-        "passYPG": 221.6,
-        "qbr": 61.9,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.5907
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.5907,
+        "passYPG": 221.6,
+        "qbr": 61.9
       },
-      "eraNormFactor": 1.3724
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003400_NO_2003",
       "name": "Ernie Conwell",
       "position": "WR",
-      "team": "NO",
-      "year": 2003,
+      "rating": 77,
       "stats": {
-        "recYPG": 36.2,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 36.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007744_NO_2003",
       "name": "Joe Horn",
       "position": "WR",
-      "team": "NO",
-      "year": 2003,
+      "rating": 96,
       "stats": {
-        "recYPG": 64.9,
-        "tdPerGame": 0.667,
+        "avgCatchesPerGame": 5.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.2
+        "recYPG": 64.9,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012637_NO_2003",
       "name": "Jerome Pathon",
       "position": "WR",
-      "team": "NO",
-      "year": 2003,
+      "rating": 75,
       "stats": {
-        "recYPG": 36.1,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.75
+        "recYPG": 36.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020171_NO_2003",
       "name": "Boo Williams",
       "position": "WR",
-      "team": "NO",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "recYPG": 33.5,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 3.15,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.15
+        "recYPG": 33.5,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020527_NO_2003",
+      "is_all_pro": true,
       "name": "Deuce McAllister",
       "position": "RB",
-      "team": "NO",
-      "year": 2003,
+      "rating": 96,
       "stats": {
-        "rushYPG": 102.6,
-        "tdPerGame": 0.5,
+        "recYPG": 32.2,
         "rushAttPerGame": 21.94,
-        "recYPG": 32.2
+        "rushYPG": 102.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021147_NO_2003",
       "name": "Donte' Stallworth",
       "position": "WR",
-      "team": "NO",
-      "year": 2003,
+      "rating": 79,
       "stats": {
-        "recYPG": 44.1,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 44.1,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002655_NO_2003",
       "name": "J.Carney",
       "position": "K",
-      "team": "NO",
-      "year": 2003,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.7333,
         "avgKickDistance": 38.4,
         "avgMissDistance": 47.0,
+        "fgAccuracy": 0.7333,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2003",
       "position": "OLine",
-      "team": "NO",
-      "year": 2003,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.49,
+        "normalizedRank": 8,
         "rushTDPct": 0.0246,
-        "normalizedRank": 8
+        "rushYPC": 4.49,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2003",
       "position": "DLine",
-      "team": "NO",
-      "year": 2003,
+      "rating": 68,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 140.06,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.066,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.066
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2003",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2003,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.5443,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 187.06,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 187.06,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2003
     }
   ]
 }

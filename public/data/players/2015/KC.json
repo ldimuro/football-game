@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0704,
       "id": "p_00-0023436_KC_2015",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "KC",
-      "year": 2015,
+      "rating": 77,
       "stats": {
-        "passYPG": 217.9,
-        "qbr": 69.2,
-        "avgTDPerGame": 1.222,
         "avgINTPerGame": 0.444,
-        "completionPct": 0.6513
+        "avgTDPerGame": 1.222,
+        "completionPct": 0.6513,
+        "passYPG": 217.9,
+        "qbr": 69.2
       },
-      "eraNormFactor": 1.0704
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024324_KC_2015",
       "name": "Jason Avant",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 60,
       "stats": {
-        "recYPG": 17.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.73,
         "avgTargetsPerGame": 2.64,
-        "avgCatchesPerGame": 1.73
+        "recYPG": 17.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026213_KC_2015",
       "name": "Jamaal Charles",
       "position": "RB",
-      "team": "KC",
-      "year": 2015,
+      "rating": 96,
       "stats": {
-        "rushYPG": 72.8,
-        "tdPerGame": 0.8,
+        "recYPG": 35.4,
         "rushAttPerGame": 14.2,
-        "recYPG": 35.4
+        "rushYPG": 72.8,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026995_KC_2015",
       "name": "Jeremy Maclin",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 94,
       "stats": {
-        "recYPG": 67.1,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 5.41,
         "avgTargetsPerGame": 7.71,
-        "avgCatchesPerGame": 5.41
+        "recYPG": 67.1,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030280_KC_2015",
       "name": "Knile Davis",
       "position": "RB",
-      "team": "KC",
-      "year": 2015,
+      "rating": 60,
       "stats": {
-        "rushYPG": 10.4,
-        "tdPerGame": 0.091,
+        "recYPG": 3.4,
         "rushAttPerGame": 3.45,
-        "recYPG": 3.4
+        "rushYPG": 10.4,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030414_KC_2015",
       "name": "Spencer Ware",
       "position": "RB",
-      "team": "KC",
-      "year": 2015,
+      "rating": 80,
       "stats": {
-        "rushYPG": 47.0,
-        "tdPerGame": 0.7,
+        "recYPG": 0.5,
         "rushAttPerGame": 8.8,
-        "recYPG": 0.5
+        "rushYPG": 47.0,
+        "tdPerGame": 0.7
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030506_KC_2015",
       "name": "Travis Kelce",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 88,
       "stats": {
-        "recYPG": 57.0,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 4.78,
         "avgTargetsPerGame": 6.78,
-        "avgCatchesPerGame": 4.78
+        "recYPG": 57.0,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030668_KC_2015",
       "name": "Charcandrick West",
       "position": "RB",
-      "team": "KC",
-      "year": 2015,
+      "rating": 84,
       "stats": {
-        "rushYPG": 48.1,
-        "tdPerGame": 0.333,
+        "recYPG": 15.9,
         "rushAttPerGame": 12.33,
-        "recYPG": 15.9
+        "rushYPG": 48.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030669_KC_2015",
       "name": "Albert Wilson",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 75,
       "stats": {
-        "recYPG": 32.3,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 32.3,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031060_KC_2015",
       "name": "De'Anthony Thomas",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.0,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.7,
         "avgTargetsPerGame": 2.4,
-        "avgCatchesPerGame": 1.7
+        "recYPG": 14.0,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032128_KC_2015",
       "name": "Chris Conley",
       "position": "WR",
-      "team": "KC",
-      "year": 2015,
+      "rating": 68,
       "stats": {
-        "recYPG": 21.9,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 2.09,
         "avgTargetsPerGame": 3.73,
-        "avgCatchesPerGame": 2.09
+        "recYPG": 21.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031203_KC_2015",
       "name": "C.Santos",
       "position": "K",
-      "team": "KC",
-      "year": 2015,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 39.8,
         "avgMissDistance": 49.4,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2015",
       "position": "OLine",
-      "team": "KC",
-      "year": 2015,
+      "rating": 89,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.59,
+        "normalizedRank": 4,
         "rushTDPct": 0.0416,
-        "normalizedRank": 4
+        "rushYPC": 4.59,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2015",
       "position": "DLine",
-      "team": "KC",
-      "year": 2015,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 98.19,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0774,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0774
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2015",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2015,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.575,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 231.12,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 231.12,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2015
     }
   ]
 }

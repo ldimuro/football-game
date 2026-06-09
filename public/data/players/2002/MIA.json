@@ -1,193 +1,206 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0163,
       "id": "p_00-0005180_MIA_2002",
       "name": "Jay Fiedler",
       "position": "QB",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 80,
       "stats": {
-        "passYPG": 184.0,
-        "qbr": 84.9,
-        "avgTDPerGame": 1.273,
         "avgINTPerGame": 0.818,
-        "completionPct": 0.613
+        "avgTDPerGame": 1.273,
+        "completionPct": 0.613,
+        "passYPG": 184.0,
+        "qbr": 84.9
       },
-      "eraNormFactor": 1.0163
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005668_MIA_2002",
       "name": "Oronde Gadsden",
       "position": "WR",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 73,
       "stats": {
-        "recYPG": 38.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": 4.83,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 38.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 0.8247,
       "id": "p_00-0010137_MIA_2002",
       "name": "Ray Lucas",
       "position": "QB",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 65,
       "stats": {
-        "passYPG": 149.3,
-        "qbr": 29.8,
-        "avgTDPerGame": 0.571,
         "avgINTPerGame": 0.857,
-        "completionPct": 0.575
+        "avgTDPerGame": 0.571,
+        "completionPct": 0.575,
+        "passYPG": 149.3,
+        "qbr": 29.8
       },
-      "eraNormFactor": 0.8247
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010974_MIA_2002",
       "name": "James McKnight",
       "position": "WR",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 75,
       "stats": {
-        "recYPG": 37.7,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 3.29,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 37.7,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017160_MIA_2002",
       "name": "Dedric Ward",
       "position": "WR",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 58,
       "stats": {
-        "recYPG": 11.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.27,
         "avgTargetsPerGame": 2.6,
-        "avgCatchesPerGame": 1.27
+        "recYPG": 11.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_MIA_2002",
+      "is_all_pro": true,
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 97,
       "stats": {
-        "rushYPG": 115.8,
-        "tdPerGame": 1.0,
+        "recYPG": 22.7,
         "rushAttPerGame": 23.94,
-        "recYPG": 22.7
+        "rushYPG": 115.8,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020446_MIA_2002",
       "name": "Chris Chambers",
       "position": "WR",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 84,
       "stats": {
-        "recYPG": 48.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.47,
         "avgTargetsPerGame": 6.67,
-        "avgCatchesPerGame": 3.47
+        "recYPG": 48.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020448_MIA_2002",
       "name": "Travis Minor",
       "position": "RB",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 63,
       "stats": {
-        "rushYPG": 18.0,
-        "tdPerGame": 0.2,
+        "recYPG": 0.0,
         "rushAttPerGame": 4.4,
-        "recYPG": 0.0
+        "rushYPG": 18.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021236_MIA_2002",
       "name": "Randy McMichael",
       "position": "WR",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 77,
       "stats": {
-        "recYPG": 30.3,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.44,
         "avgTargetsPerGame": 4.25,
-        "avgCatchesPerGame": 2.44
+        "recYPG": 30.3,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_MIA_2002",
       "name": "O. Mare",
       "position": "K",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.7742,
         "avgKickDistance": 35.7,
         "avgMissDistance": 41.9,
+        "fgAccuracy": 0.7742,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2002",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.72,
+        "normalizedRank": 4,
         "rushTDPct": 0.0453,
-        "normalizedRank": 4
+        "rushYPC": 4.72,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2002",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 94,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 6,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 97.12,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0904,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 6
+        "sackPct": 0.0904
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2002",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2002,
+      "rating": 90,
       "stats": {
         "completionPctAllowed": 0.5654,
-        "yardsPerAttemptAllowed": 5.5,
-        "passYPGAllowed": 193.88,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 1.31,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 193.88,
+        "yardsPerAttemptAllowed": 5.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2002
     }
   ]
 }

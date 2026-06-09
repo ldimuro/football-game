@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_ATL_2012",
+      "is_all_pro": true,
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 93,
       "stats": {
-        "recYPG": 58.8,
-        "tdPerGame": 0.556,
+        "avgCatchesPerGame": 5.94,
         "avgTargetsPerGame": 7.72,
-        "avgCatchesPerGame": 5.94
+        "recYPG": 58.8,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022821_ATL_2012",
       "name": "Michael Turner",
       "position": "RB",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "rushYPG": 51.6,
-        "tdPerGame": 0.556,
+        "recYPG": 7.1,
         "rushAttPerGame": 13.56,
-        "recYPG": 7.1
+        "rushYPG": 51.6,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023462_ATL_2012",
       "name": "Roddy White",
       "position": "WR",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 96,
       "stats": {
-        "recYPG": 84.8,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 5.78,
         "avgTargetsPerGame": 9.28,
-        "avgCatchesPerGame": 5.78
+        "recYPG": 84.8,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.4533,
       "id": "p_00-0026143_ATL_2012",
       "name": "Matt Ryan",
       "position": "QB",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 90,
       "stats": {
-        "passYPG": 298.1,
-        "qbr": 100,
-        "avgTDPerGame": 2.111,
         "avgINTPerGame": 0.944,
-        "completionPct": 0.6879
+        "avgTDPerGame": 2.111,
+        "completionPct": 0.6879,
+        "passYPG": 298.1,
+        "qbr": 100
       },
-      "eraNormFactor": 1.4533
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026224_ATL_2012",
       "name": "Harry Douglas",
       "position": "WR",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.8,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 3.82,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 26.8,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027944_ATL_2012",
       "name": "Julio Jones",
       "position": "WR",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 97,
       "stats": {
-        "recYPG": 79.9,
-        "tdPerGame": 0.667,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": 8.44,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 79.9,
+        "tdPerGame": 0.667
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028083_ATL_2012",
       "name": "Jacquizz Rodgers",
       "position": "RB",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 72,
       "stats": {
-        "rushYPG": 25.4,
-        "tdPerGame": 0.056,
+        "recYPG": 22.8,
         "rushAttPerGame": 6.33,
-        "recYPG": 22.8
+        "rushYPG": 25.4,
+        "tdPerGame": 0.056
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020578_ATL_2012",
       "name": "M.Bryant",
       "position": "K",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.881,
         "avgKickDistance": 36.9,
         "avgMissDistance": 38.6,
+        "fgAccuracy": 0.881,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2012",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.85,
+        "normalizedRank": 24,
         "rushTDPct": 0.0281,
-        "normalizedRank": 24
+        "rushYPC": 3.85,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2012",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 64,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 21,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 123.19,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0526,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 21
+        "sackPct": 0.0526
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2012",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2012,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6116,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 242.38,
-        "passTDPerGameAllowed": 0.88,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 0.88,
+        "passYPGAllowed": 242.38,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2012
     }
   ]
 }

@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_JAX_2008",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "rushYPG": 42.8,
-        "tdPerGame": 0.077,
+        "recYPG": 7.5,
         "rushAttPerGame": 11.0,
-        "recYPG": 7.5
+        "rushYPG": 42.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019650_JAX_2008",
       "name": "Dennis Northcutt",
       "position": "WR",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 75,
       "stats": {
-        "recYPG": 41.9,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 41.9,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.2438,
       "id": "p_00-0021231_JAX_2008",
       "name": "David Garrard",
       "position": "QB",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 78,
       "stats": {
-        "passYPG": 226.2,
-        "qbr": 59.7,
-        "avgTDPerGame": 0.938,
         "avgINTPerGame": 0.812,
-        "completionPct": 0.6262
+        "avgTDPerGame": 0.938,
+        "completionPct": 0.6262,
+        "passYPG": 226.2,
+        "qbr": 59.7
       },
-      "eraNormFactor": 1.2438
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022889_JAX_2008",
       "name": "Reggie Williams",
       "position": "WR",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "recYPG": 26.8,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.71,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.71
+        "recYPG": 26.8,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023456_JAX_2008",
       "name": "Matt Jones",
       "position": "WR",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 85,
       "stats": {
-        "recYPG": 62.5,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 5.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.33
+        "recYPG": 62.5,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024243_JAX_2008",
       "name": "Marcedes Lewis",
       "position": "WR",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 67,
       "stats": {
-        "recYPG": 32.6,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 32.6,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024275_JAX_2008",
       "name": "Maurice Jones-Drew",
       "position": "RB",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 90,
       "stats": {
-        "rushYPG": 51.5,
-        "tdPerGame": 0.75,
+        "recYPG": 35.3,
         "rushAttPerGame": 12.31,
-        "recYPG": 35.3
+        "rushYPG": 51.5,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022874_JAX_2008",
       "name": "J.Scobee",
       "position": "K",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.76,
         "avgKickDistance": 38.7,
         "avgMissDistance": 42.2,
+        "fgAccuracy": 0.76,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2008",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.16,
+        "normalizedRank": 16,
         "rushTDPct": 0.0399,
-        "normalizedRank": 16
+        "rushYPC": 4.16,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2008",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 13,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 106.81,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0624,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 13
+        "sackPct": 0.0624
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2008",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2008,
+      "rating": 64,
       "stats": {
         "completionPctAllowed": 0.6387,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 224.12,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 224.12,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2008
     }
   ]
 }

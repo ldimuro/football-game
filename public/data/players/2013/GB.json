@@ -1,193 +1,206 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2739,
       "id": "p_00-0023459_GB_2013",
       "name": "Aaron Rodgers",
       "position": "QB",
-      "team": "GB",
-      "year": 2013,
+      "rating": 94,
       "stats": {
-        "passYPG": 271.3,
-        "qbr": 100,
-        "avgTDPerGame": 1.8,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.6646
+        "avgTDPerGame": 1.8,
+        "completionPct": 0.6646,
+        "passYPG": 271.3,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2739
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025465_GB_2013",
       "name": "James Jones",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 84,
       "stats": {
-        "recYPG": 55.8,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 4.07,
         "avgTargetsPerGame": 6.53,
-        "avgCatchesPerGame": 4.07
+        "recYPG": 55.8,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026176_GB_2013",
+      "is_all_pro": true,
       "name": "Jordy Nelson",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 95,
       "stats": {
-        "recYPG": 80.9,
-        "tdPerGame": 0.529,
+        "avgCatchesPerGame": 5.41,
         "avgTargetsPerGame": 7.94,
-        "avgCatchesPerGame": 5.41
+        "recYPG": 80.9,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026231_GB_2013",
       "name": "Jermichael Finley",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 87,
       "stats": {
-        "recYPG": 50.0,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.17,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 4.17
+        "recYPG": 50.0,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027753_GB_2013",
       "name": "Andrew Quarless",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 65,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": 3.86,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 22.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027791_GB_2013",
       "name": "James Starks",
       "position": "RB",
-      "team": "GB",
-      "year": 2013,
+      "rating": 74,
       "stats": {
-        "rushYPG": 37.3,
-        "tdPerGame": 0.214,
+        "recYPG": 7.3,
         "rushAttPerGame": 6.71,
-        "recYPG": 7.3
+        "rushYPG": 37.3,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028002_GB_2013",
       "name": "Randall Cobb",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 93,
       "stats": {
-        "recYPG": 69.1,
-        "tdPerGame": 0.571,
+        "avgCatchesPerGame": 4.71,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 4.71
+        "recYPG": 69.1,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029051_GB_2013",
       "name": "Jarrett Boykin",
       "position": "WR",
-      "team": "GB",
-      "year": 2013,
+      "rating": 83,
       "stats": {
-        "recYPG": 52.4,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 3.77,
         "avgTargetsPerGame": 6.46,
-        "avgCatchesPerGame": 3.77
+        "recYPG": 52.4,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030485_GB_2013",
+      "is_all_pro": true,
       "name": "Eddie Lacy",
       "position": "RB",
-      "team": "GB",
-      "year": 2013,
+      "rating": 95,
       "stats": {
-        "rushYPG": 78.7,
-        "tdPerGame": 0.688,
+        "recYPG": 16.5,
         "rushAttPerGame": 19.06,
-        "recYPG": 16.5
+        "rushYPG": 78.7,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025580_GB_2013",
       "name": "M.Crosby",
       "position": "K",
-      "team": "GB",
-      "year": 2013,
+      "rating": 81,
       "stats": {
-        "fgAccuracy": 0.8974,
         "avgKickDistance": 35.1,
         "avgMissDistance": 47.8,
+        "fgAccuracy": 0.8974,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_OLine_2013",
       "position": "OLine",
-      "team": "GB",
-      "year": 2013,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.61,
+        "normalizedRank": 5,
         "rushTDPct": 0.0367,
-        "normalizedRank": 5
+        "rushYPC": 4.61,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_DLine_2013",
       "position": "DLine",
-      "team": "GB",
-      "year": 2013,
+      "rating": 74,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 25,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 125.0,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0816,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 25
+        "sackPct": 0.0816
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_GB_Secondary_2013",
       "position": "Secondary",
-      "team": "GB",
-      "year": 2013,
+      "rating": 66,
       "stats": {
         "completionPctAllowed": 0.616,
-        "yardsPerAttemptAllowed": 6.8,
-        "passYPGAllowed": 247.25,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 247.25,
+        "yardsPerAttemptAllowed": 6.8
       },
-      "eraNormFactor": 1.0
+      "team": "GB",
+      "year": 2013
     }
   ]
 }

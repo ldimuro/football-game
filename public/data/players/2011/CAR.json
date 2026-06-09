@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020337_CAR_2011",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 96,
       "stats": {
-        "recYPG": 87.1,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": 8.06,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 87.1,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021148_CAR_2011",
       "name": "Jeremy Shockey",
       "position": "WR",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 75,
       "stats": {
-        "recYPG": 30.3,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.47,
         "avgTargetsPerGame": 4.13,
-        "avgCatchesPerGame": 2.47
+        "recYPG": 30.3,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024242_CAR_2011",
       "name": "DeAngelo Williams",
       "position": "RB",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 81,
       "stats": {
-        "rushYPG": 52.2,
-        "tdPerGame": 0.438,
+        "recYPG": 8.4,
         "rushAttPerGame": 9.69,
-        "recYPG": 8.4
+        "rushYPG": 52.2,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025418_CAR_2011",
       "name": "Greg Olsen",
       "position": "WR",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 79,
       "stats": {
-        "recYPG": 33.8,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 2.81,
         "avgTargetsPerGame": 5.56,
-        "avgCatchesPerGame": 2.81
+        "recYPG": 33.8,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025559_CAR_2011",
       "name": "Legedu Naanee",
       "position": "WR",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 71,
       "stats": {
-        "recYPG": 31.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 31.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026153_CAR_2011",
       "name": "Jonathan Stewart",
       "position": "RB",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 82,
       "stats": {
-        "rushYPG": 47.6,
-        "tdPerGame": 0.25,
+        "recYPG": 25.8,
         "rushAttPerGame": 8.88,
-        "recYPG": 25.8
+        "rushYPG": 47.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027681_CAR_2011",
       "name": "Brandon LaFell",
       "position": "WR",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 77,
       "stats": {
-        "recYPG": 40.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": 3.73,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 40.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.2751,
       "id": "p_00-0027939_CAR_2011",
       "name": "Cam Newton",
       "position": "QB",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 82,
       "stats": {
-        "passYPG": 253.2,
-        "qbr": 80.2,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 1.062,
-        "completionPct": 0.5996
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.5996,
+        "passYPG": 253.2,
+        "qbr": 80.2
       },
-      "eraNormFactor": 1.2751
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_CAR_2011",
       "name": "O.Mare",
       "position": "K",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 61,
       "stats": {
-        "fgAccuracy": 0.7857,
         "avgKickDistance": 35.0,
         "avgMissDistance": 41.3,
+        "fgAccuracy": 0.7857,
         "longestMadeKick": 45
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2011",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 91,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.41,
+        "normalizedRank": 1,
         "rushTDPct": 0.0584,
-        "normalizedRank": 1
+        "rushYPC": 5.41,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2011",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 25,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 130.81,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0633,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 25
+        "sackPct": 0.0633
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2011",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2011,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.649,
-        "yardsPerAttemptAllowed": 7.6,
-        "passYPGAllowed": 246.81,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 246.81,
+        "yardsPerAttemptAllowed": 7.6
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2011
     }
   ]
 }

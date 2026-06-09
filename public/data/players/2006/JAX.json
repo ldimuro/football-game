@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_JAX_2006",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 85,
       "stats": {
-        "rushYPG": 76.4,
-        "tdPerGame": 0.333,
+        "recYPG": 16.1,
         "rushAttPerGame": 15.4,
-        "recYPG": 16.1
+        "rushYPG": 76.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 0.9893,
       "id": "p_00-0021231_JAX_2006",
       "name": "David Garrard",
       "position": "QB",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 71,
       "stats": {
-        "passYPG": 173.5,
-        "qbr": 31.9,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.9,
-        "completionPct": 0.6017
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6017,
+        "passYPG": 173.5,
+        "qbr": 31.9
       },
-      "eraNormFactor": 0.9893
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021980_JAX_2006",
       "name": "George Wrighster",
       "position": "WR",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 23.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.1005,
       "id": "p_00-0022177_JAX_2006",
       "name": "Byron Leftwich",
       "position": "QB",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "passYPG": 193.0,
-        "qbr": 54.0,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 0.833,
-        "completionPct": 0.5924
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.5924,
+        "passYPG": 193.0,
+        "qbr": 54.0
       },
-      "eraNormFactor": 1.1005
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022889_JAX_2006",
       "name": "Reggie Williams",
       "position": "WR",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "recYPG": 38.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.31,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.31
+        "recYPG": 38.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022901_JAX_2006",
       "name": "Ernest Wilford",
       "position": "WR",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "recYPG": 34.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 34.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023456_JAX_2006",
       "name": "Matt Jones",
       "position": "WR",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 83,
       "stats": {
-        "recYPG": 49.5,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 3.15,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.15
+        "recYPG": 49.5,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024275_JAX_2006",
       "name": "Maurice Jones-Drew",
       "position": "RB",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 87,
       "stats": {
-        "rushYPG": 58.8,
-        "tdPerGame": 0.812,
+        "recYPG": 27.2,
         "rushAttPerGame": 10.38,
-        "recYPG": 27.2
+        "rushYPG": 58.8,
+        "tdPerGame": 0.812
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022874_JAX_2006",
       "name": "J.Scobee",
       "position": "K",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8125,
         "avgKickDistance": 39.0,
         "avgMissDistance": 44.2,
+        "fgAccuracy": 0.8125,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2006",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 89,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.99,
+        "normalizedRank": 3,
         "rushTDPct": 0.045,
-        "normalizedRank": 3
+        "rushYPC": 4.99,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2006",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 3.5,
         "rushYPGAllowed": 91.25,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0669,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0669
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2006",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2006,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5621,
-        "yardsPerAttemptAllowed": 5.5,
-        "passYPGAllowed": 192.38,
-        "passTDPerGameAllowed": 0.75,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 0.75,
+        "passYPGAllowed": 192.38,
+        "yardsPerAttemptAllowed": 5.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2006
     }
   ]
 }

@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1515,
       "id": "p_00-0020245_PHI_2012",
       "name": "Mike Vick",
       "position": "QB",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 75,
       "stats": {
-        "passYPG": 236.2,
-        "qbr": 47.7,
-        "avgTDPerGame": 1.2,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5812
+        "avgTDPerGame": 1.2,
+        "completionPct": 0.5812,
+        "passYPG": 236.2,
+        "qbr": 47.7
       },
-      "eraNormFactor": 1.1515
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024324_PHI_2012",
       "name": "Jason Avant",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 76,
       "stats": {
-        "recYPG": 46.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.79,
         "avgTargetsPerGame": 5.43,
-        "avgCatchesPerGame": 3.79
+        "recYPG": 46.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025549_PHI_2012",
       "name": "Brent Celek",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 77,
       "stats": {
-        "recYPG": 45.6,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.8,
         "avgTargetsPerGame": 5.87,
-        "avgCatchesPerGame": 3.8
+        "recYPG": 45.6,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026189_PHI_2012",
       "name": "DeSean Jackson",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 86,
       "stats": {
-        "recYPG": 63.6,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 4.09,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 4.09
+        "recYPG": 63.6,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026995_PHI_2012",
       "name": "Jeremy Maclin",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 91,
       "stats": {
-        "recYPG": 57.1,
-        "tdPerGame": 0.467,
+        "avgCatchesPerGame": 4.6,
         "avgTargetsPerGame": 8.13,
-        "avgCatchesPerGame": 4.6
+        "recYPG": 57.1,
+        "tdPerGame": 0.467
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027029_PHI_2012",
       "name": "LeSean McCoy",
       "position": "RB",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 89,
       "stats": {
-        "rushYPG": 70.0,
-        "tdPerGame": 0.167,
+        "recYPG": 31.1,
         "rushAttPerGame": 16.67,
-        "recYPG": 31.1
+        "rushYPG": 70.0,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027725_PHI_2012",
       "name": "Clay Harbor",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 65,
       "stats": {
-        "recYPG": 16.9,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": 3.55,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 16.9,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027758_PHI_2012",
       "name": "Riley Cooper",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 70,
       "stats": {
-        "recYPG": 22.5,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 2.09,
         "avgTargetsPerGame": 4.36,
-        "avgCatchesPerGame": 2.09
+        "recYPG": 22.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029429_PHI_2012",
       "name": "Bryce Brown",
       "position": "RB",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 75,
       "stats": {
-        "rushYPG": 35.2,
-        "tdPerGame": 0.25,
+        "recYPG": 3.5,
         "rushAttPerGame": 7.19,
-        "recYPG": 3.5
+        "rushYPG": 35.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029435_PHI_2012",
       "name": "Damaris Johnson",
       "position": "WR",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 62,
       "stats": {
-        "recYPG": 23.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.73,
         "avgTargetsPerGame": 2.82,
-        "avgCatchesPerGame": 1.73
+        "recYPG": 23.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.1832,
       "id": "p_00-0029567_PHI_2012",
       "name": "Nick Foles",
       "position": "QB",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 74,
       "stats": {
-        "passYPG": 242.7,
-        "qbr": 27.4,
-        "avgTDPerGame": 0.857,
         "avgINTPerGame": 0.714,
-        "completionPct": 0.6075
+        "avgTDPerGame": 0.857,
+        "completionPct": 0.6075,
+        "passYPG": 242.7,
+        "qbr": 27.4
       },
-      "eraNormFactor": 1.1832
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028058_PHI_2012",
       "name": "A.Henery",
       "position": "K",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 35.5,
         "avgMissDistance": 40.5,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2012",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.54,
+        "normalizedRank": 8,
         "rushTDPct": 0.0242,
-        "normalizedRank": 8
+        "rushYPC": 4.54,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2012",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 74,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 126.31,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0619,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0619
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2012",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2012,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6021,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 216.88,
-        "passTDPerGameAllowed": 2.06,
         "interceptionsPerGame": 0.5,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 2.06,
+        "passYPGAllowed": 216.88,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2012
     }
   ]
 }

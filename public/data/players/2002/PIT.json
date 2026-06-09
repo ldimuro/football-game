@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001215_PIT_2002",
       "name": "Jerome Bettis",
       "position": "RB",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 78,
       "stats": {
-        "rushYPG": 47.9,
-        "tdPerGame": 0.643,
+        "recYPG": 4.1,
         "rushAttPerGame": 13.64,
-        "recYPG": 4.1
+        "rushYPG": 47.9,
+        "tdPerGame": 0.643
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.3687,
       "id": "p_00-0010261_PIT_2002",
       "name": "Tommy Maddox",
       "position": "QB",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 86,
       "stats": {
-        "passYPG": 247.8,
-        "qbr": 75.7,
-        "avgTDPerGame": 1.786,
         "avgINTPerGame": 1.357,
-        "completionPct": 0.6116
+        "avgTDPerGame": 1.786,
+        "completionPct": 0.6116,
+        "passYPG": 247.8,
+        "qbr": 75.7
       },
-      "eraNormFactor": 1.3687
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010539_PIT_2002",
       "name": "Terance Mathis",
       "position": "WR",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 70,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.23,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 2.23
+        "recYPG": 22.9,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 0.9114,
       "id": "p_00-0015700_PIT_2002",
       "name": "Kordell Stewart",
       "position": "QB",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 72,
       "stats": {
-        "passYPG": 165.0,
-        "qbr": 73.1,
-        "avgTDPerGame": 0.857,
         "avgINTPerGame": 0.857,
-        "completionPct": 0.6566
+        "avgTDPerGame": 0.857,
+        "completionPct": 0.6566,
+        "passYPG": 165.0,
+        "qbr": 73.1
       },
-      "eraNormFactor": 0.9114
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017162_PIT_2002",
+      "is_all_pro": true,
       "name": "Hines Ward",
       "position": "WR",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 99,
       "stats": {
-        "recYPG": 84.2,
-        "tdPerGame": 0.833,
+        "avgCatchesPerGame": 7.22,
         "avgTargetsPerGame": 10.44,
-        "avgCatchesPerGame": 7.22
+        "recYPG": 84.2,
+        "tdPerGame": 0.833
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018501_PIT_2002",
       "name": "Amos Zereoue",
       "position": "RB",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 79,
       "stats": {
-        "rushYPG": 49.1,
-        "tdPerGame": 0.278,
+        "recYPG": 19.5,
         "rushAttPerGame": 12.22,
-        "recYPG": 19.5
+        "rushYPG": 49.1,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019642_PIT_2002",
       "name": "Plaxico Burress",
       "position": "WR",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 97,
       "stats": {
-        "recYPG": 82.6,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 4.78,
         "avgTargetsPerGame": 8.94,
-        "avgCatchesPerGame": 4.78
+        "recYPG": 82.6,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020737_PIT_2002",
       "name": "J.Reed",
       "position": "K",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.7111,
         "avgKickDistance": 36.4,
         "avgMissDistance": 40.3,
+        "fgAccuracy": 0.7111,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2002",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.12,
+        "normalizedRank": 18,
         "rushTDPct": 0.0308,
-        "normalizedRank": 18
+        "rushYPC": 4.12,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2002",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 91,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 1,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 85.94,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0873,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 1
+        "sackPct": 0.0873
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2002",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2002,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.5864,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 216.25,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 216.25,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2002
     }
   ]
 }

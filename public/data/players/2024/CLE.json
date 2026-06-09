@@ -1,235 +1,251 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1465,
       "id": "p_00-0031503_CLE_2024",
       "name": "Jameis Winston",
       "position": "QB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 70,
       "stats": {
-        "passYPG": 192.8,
-        "qbr": 25.6,
-        "avgTDPerGame": 1.182,
         "avgINTPerGame": 1.091,
-        "completionPct": 0.6115
+        "avgTDPerGame": 1.182,
+        "completionPct": 0.6115,
+        "passYPG": 192.8,
+        "qbr": 25.6
       },
-      "eraNormFactor": 1.1465
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031544_CLE_2024",
       "name": "Amari Cooper",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 81,
       "stats": {
-        "recYPG": 36.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": 5.81,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 36.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 0.9752,
       "id": "p_00-0033537_CLE_2024",
       "name": "Deshaun Watson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 66,
       "stats": {
-        "passYPG": 164.0,
-        "qbr": 0,
-        "avgTDPerGame": 0.714,
         "avgINTPerGame": 0.429,
-        "completionPct": 0.6343
+        "avgTDPerGame": 0.714,
+        "completionPct": 0.6343,
+        "passYPG": 164.0,
+        "qbr": 0
       },
-      "eraNormFactor": 0.9752
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033885_CLE_2024",
       "name": "David Njoku",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 45.9,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 5.82,
         "avgTargetsPerGame": 8.82,
-        "avgCatchesPerGame": 5.82
+        "recYPG": 45.9,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033925_CLE_2024",
       "name": "D'Onta Foreman",
       "position": "RB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 67,
       "stats": {
-        "rushYPG": 23.2,
-        "tdPerGame": 0.0,
+        "recYPG": 5.4,
         "rushAttPerGame": 7.1,
-        "recYPG": 5.4
+        "rushYPG": 23.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034364_CLE_2024",
       "name": "Jordan Akins",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 69,
       "stats": {
-        "recYPG": 24.4,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.62,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 24.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034791_CLE_2024",
       "name": "Nick Chubb",
       "position": "RB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 81,
       "stats": {
-        "rushYPG": 41.5,
-        "tdPerGame": 0.375,
+        "recYPG": 3.9,
         "rushAttPerGame": 12.75,
-        "recYPG": 3.9
+        "rushYPG": 41.5,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036407_CLE_2024",
       "name": "Jerry Jeudy",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 72.3,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 5.29,
         "avgTargetsPerGame": 8.53,
-        "avgCatchesPerGame": 5.29
+        "recYPG": 72.3,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036980_CLE_2024",
       "name": "Elijah Moore",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 73,
       "stats": {
-        "recYPG": 31.6,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 3.59,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.59
+        "recYPG": 31.6,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037267_CLE_2024",
       "name": "Jerome Ford",
       "position": "RB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 81,
       "stats": {
-        "rushYPG": 40.4,
-        "tdPerGame": 0.214,
+        "recYPG": 16.1,
         "rushAttPerGame": 7.43,
-        "recYPG": 16.1
+        "rushYPG": 40.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 0.4359,
       "id": "p_00-0038583_CLE_2024",
       "name": "Dorian Thompson-Robinson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 57,
       "stats": {
-        "passYPG": 73.3,
-        "qbr": 0,
-        "avgTDPerGame": 0.0,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5169
+        "avgTDPerGame": 0.0,
+        "completionPct": 0.5169,
+        "passYPG": 73.3,
+        "qbr": 0
       },
-      "eraNormFactor": 0.4359
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038979_CLE_2024",
       "name": "Cedric Tillman",
       "position": "WR",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 83,
       "stats": {
-        "recYPG": 37.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.22,
         "avgTargetsPerGame": 5.44,
-        "avgCatchesPerGame": 3.22
+        "recYPG": 37.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030098_CLE_2024",
       "name": "D.Hopkins",
       "position": "K",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.6667,
         "avgKickDistance": 41.9,
         "avgMissDistance": 45.7,
+        "fgAccuracy": 0.6667,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2024",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.11,
+        "normalizedRank": 23,
         "rushTDPct": 0.0205,
-        "normalizedRank": 23
+        "rushYPC": 4.11,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2024",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 76,
       "stats": {
+        "blitzPct": 0.264,
+        "normalizedRank": 21,
+        "pressurePct": 0.265,
+        "rushTDPerGameAllowed": 1.29,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 129.71,
-        "rushTDPerGameAllowed": 1.29,
-        "sackPct": 0.0802,
-        "blitzPct": 0.264,
-        "pressurePct": 0.265,
-        "normalizedRank": 21
+        "sackPct": 0.0802
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2024",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2024,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6184,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 212.41,
-        "passTDPerGameAllowed": 1.53,
         "interceptionsPerGame": 0.24,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.53,
+        "passYPGAllowed": 212.41,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2024
     }
   ]
 }

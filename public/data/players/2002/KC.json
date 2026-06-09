@@ -1,180 +1,192 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003136_KC_2002",
       "name": "Mike Cloud",
       "position": "RB",
-      "team": "KC",
-      "year": 2002,
+      "rating": 61,
       "stats": {
-        "rushYPG": 9.6,
-        "tdPerGame": 0.167,
+        "recYPG": 4.0,
         "rushAttPerGame": 4.08,
-        "recYPG": 4.0
+        "rushYPG": 9.6,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_KC_2002",
+      "is_all_pro": true,
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "KC",
-      "year": 2002,
+      "rating": 90,
       "stats": {
-        "recYPG": 48.3,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 6.19,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 48.3,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.2737,
       "id": "p_00-0006355_KC_2002",
       "name": "Trent Green",
       "position": "QB",
-      "team": "KC",
-      "year": 2002,
+      "rating": 91,
       "stats": {
-        "passYPG": 230.6,
-        "qbr": 100,
-        "avgTDPerGame": 1.625,
         "avgINTPerGame": 0.812,
-        "completionPct": 0.6106
+        "avgTDPerGame": 1.625,
+        "completionPct": 0.6106,
+        "passYPG": 230.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2737
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007661_KC_2002",
+      "is_all_pro": true,
+      "is_opy": true,
       "name": "Priest Holmes",
       "position": "RB",
-      "team": "KC",
-      "year": 2002,
+      "rating": 99,
       "stats": {
-        "rushYPG": 115.4,
-        "tdPerGame": 1.5,
+        "recYPG": 48.0,
         "rushAttPerGame": 22.36,
-        "recYPG": 48.0
+        "rushYPG": 115.4,
+        "tdPerGame": 1.5
       },
-      "eraNormFactor": 1.0,
-      "is_opy": true,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009163_KC_2002",
       "name": "Eddie Kennison",
       "position": "WR",
-      "team": "KC",
-      "year": 2002,
+      "rating": 83,
       "stats": {
-        "recYPG": 56.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.31,
         "avgTargetsPerGame": 5.75,
-        "avgCatchesPerGame": 3.31
+        "recYPG": 56.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011727_KC_2002",
       "name": "Johnnie Morton",
       "position": "WR",
-      "team": "KC",
-      "year": 2002,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 4.57,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 28.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019539_KC_2002",
       "name": "Dante Hall",
       "position": "WR",
-      "team": "KC",
-      "year": 2002,
+      "rating": 68,
       "stats": {
-        "recYPG": 21.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.33,
         "avgTargetsPerGame": 2.33,
-        "avgCatchesPerGame": 1.33
+        "recYPG": 21.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020583_KC_2002",
       "name": "Marc Boerigter",
       "position": "WR",
-      "team": "KC",
-      "year": 2002,
+      "rating": 83,
       "stats": {
-        "recYPG": 38.2,
-        "tdPerGame": 0.727,
+        "avgCatchesPerGame": 1.82,
         "avgTargetsPerGame": 3.45,
-        "avgCatchesPerGame": 1.82
+        "recYPG": 38.2,
+        "tdPerGame": 0.727
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000282_KC_2002",
       "name": "M. Andersen",
       "position": "K",
-      "team": "KC",
-      "year": 2002,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.8519,
         "avgKickDistance": 36.1,
         "avgMissDistance": 44.2,
+        "fgAccuracy": 0.8519,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2002",
       "position": "OLine",
-      "team": "KC",
-      "year": 2002,
+      "rating": 90,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.15,
+        "normalizedRank": 2,
         "rushTDPct": 0.0563,
-        "normalizedRank": 2
+        "rushYPC": 5.15,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2002",
       "position": "DLine",
-      "team": "KC",
-      "year": 2002,
+      "rating": 63,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 129.19,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0552,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0552
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2002",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2002,
+      "rating": 64,
       "stats": {
         "completionPctAllowed": 0.6542,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 261.31,
-        "passTDPerGameAllowed": 1.69,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 1.69,
+        "passYPGAllowed": 261.31,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2002
     }
   ]
 }

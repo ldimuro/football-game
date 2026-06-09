@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020337_CAR_2012",
       "name": "Steve Smith",
       "position": "WR",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 91,
       "stats": {
-        "recYPG": 73.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": 8.62,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 73.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024242_CAR_2012",
       "name": "DeAngelo Williams",
       "position": "RB",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 83,
       "stats": {
-        "rushYPG": 46.1,
-        "tdPerGame": 0.312,
+        "recYPG": 11.7,
         "rushAttPerGame": 10.81,
-        "recYPG": 11.7
+        "rushYPG": 46.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025418_CAR_2012",
       "name": "Greg Olsen",
       "position": "WR",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 87,
       "stats": {
-        "recYPG": 52.7,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 6.5,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 52.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026153_CAR_2012",
       "name": "Jonathan Stewart",
       "position": "RB",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 79,
       "stats": {
-        "rushYPG": 37.3,
-        "tdPerGame": 0.111,
+        "recYPG": 17.4,
         "rushAttPerGame": 10.33,
-        "recYPG": 17.4
+        "rushYPG": 37.3,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027089_CAR_2012",
       "name": "Louis Murphy",
       "position": "WR",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 63,
       "stats": {
-        "recYPG": 22.4,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 4.07,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 22.4,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027681_CAR_2012",
       "name": "Brandon LaFell",
       "position": "WR",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "recYPG": 52.1,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 5.85,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 52.1,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.1788,
       "id": "p_00-0027939_CAR_2012",
       "name": "Cam Newton",
       "position": "QB",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 81,
       "stats": {
-        "passYPG": 241.8,
-        "qbr": 84.3,
-        "avgTDPerGame": 1.188,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.5773
+        "avgTDPerGame": 1.188,
+        "completionPct": 0.5773,
+        "passYPG": 241.8,
+        "qbr": 84.3
       },
-      "eraNormFactor": 1.1788
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026858_CAR_2012",
       "name": "G.Gano",
       "position": "K",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 64,
       "stats": {
-        "fgAccuracy": 0.7619,
         "avgKickDistance": 36.1,
         "avgMissDistance": 47.0,
+        "fgAccuracy": 0.7619,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2012",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.49,
+        "normalizedRank": 9,
         "rushTDPct": 0.0455,
-        "normalizedRank": 9
+        "rushYPC": 4.49,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2012",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 110.06,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0703,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0703
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2012",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2012,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6685,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 223.0,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 13
+        "normalizedRank": 13,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 223.0,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2012
     }
   ]
 }

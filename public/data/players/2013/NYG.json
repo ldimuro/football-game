@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1203,
       "id": "p_00-0022803_NYG_2013",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 69,
       "stats": {
-        "passYPG": 238.6,
-        "qbr": 21.1,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 1.688,
-        "completionPct": 0.5753
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.5753,
+        "passYPG": 238.6,
+        "qbr": 21.1
       },
-      "eraNormFactor": 1.1203
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023545_NYG_2013",
       "name": "Brandon Jacobs",
       "position": "RB",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 76,
       "stats": {
-        "rushYPG": 34.0,
-        "tdPerGame": 0.571,
+        "recYPG": 1.9,
         "rushAttPerGame": 8.29,
-        "recYPG": 1.9
+        "rushYPG": 34.0,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026367_NYG_2013",
       "name": "Peyton Hillis",
       "position": "RB",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "rushYPG": 35.3,
-        "tdPerGame": 0.286,
+        "recYPG": 13.7,
         "rushAttPerGame": 10.43,
-        "recYPG": 13.7
+        "rushYPG": 35.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026931_NYG_2013",
       "name": "Bear Pascoe",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 56,
       "stats": {
-        "recYPG": 7.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.09,
         "avgTargetsPerGame": 1.82,
-        "avgCatchesPerGame": 1.09
+        "recYPG": 7.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027005_NYG_2013",
       "name": "Hakeem Nicks",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "recYPG": 59.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.73,
         "avgTargetsPerGame": 6.73,
-        "avgCatchesPerGame": 3.73
+        "recYPG": 59.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027094_NYG_2013",
       "name": "Andre Brown",
       "position": "RB",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "rushYPG": 61.5,
-        "tdPerGame": 0.375,
+        "recYPG": 12.9,
         "rushAttPerGame": 17.38,
-        "recYPG": 12.9
+        "rushYPG": 61.5,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027135_NYG_2013",
       "name": "Brandon Myers",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "recYPG": 34.8,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.13,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.13
+        "recYPG": 34.8,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027265_NYG_2013",
       "name": "Victor Cruz",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 90,
       "stats": {
-        "recYPG": 71.3,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 5.21,
         "avgTargetsPerGame": 8.71,
-        "avgCatchesPerGame": 5.21
+        "recYPG": 71.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028021_NYG_2013",
       "name": "Jerrel Jernigan",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 75,
       "stats": {
-        "recYPG": 36.6,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 3.22,
         "avgTargetsPerGame": 4.89,
-        "avgCatchesPerGame": 3.22
+        "recYPG": 36.6,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029251_NYG_2013",
       "name": "David Wilson",
       "position": "RB",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 71,
       "stats": {
-        "rushYPG": 29.2,
-        "tdPerGame": 0.2,
+        "recYPG": 1.6,
         "rushAttPerGame": 8.8,
-        "recYPG": 1.6
+        "rushYPG": 29.2,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029262_NYG_2013",
       "name": "Rueben Randle",
       "position": "WR",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "recYPG": 38.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 2.56,
         "avgTargetsPerGame": 4.94,
-        "avgCatchesPerGame": 2.56
+        "recYPG": 38.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_NYG_2013",
       "name": "J.Brown",
       "position": "K",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.8846,
         "avgKickDistance": 35.4,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.8846,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2013",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.5,
+        "normalizedRank": 30,
         "rushTDPct": 0.0289,
-        "normalizedRank": 30
+        "rushYPC": 3.5,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2013",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 108.94,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0566,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0566
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2013",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2013,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6007,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 223.31,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 223.31,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2013
     }
   ]
 }

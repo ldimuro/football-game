@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_MIA_2008",
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 75,
       "stats": {
-        "rushYPG": 39.8,
-        "tdPerGame": 0.235,
+        "recYPG": 13.4,
         "rushAttPerGame": 9.71,
-        "recYPG": 13.4
+        "rushYPG": 39.8,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.2631,
       "id": "p_00-0019559_MIA_2008",
       "name": "Chad Pennington",
       "position": "QB",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 87,
       "stats": {
-        "passYPG": 229.7,
-        "qbr": 95.8,
-        "avgTDPerGame": 1.176,
         "avgINTPerGame": 0.647,
-        "completionPct": 0.6732
+        "avgTDPerGame": 1.176,
+        "completionPct": 0.6732,
+        "passYPG": 229.7,
+        "qbr": 95.8
       },
-      "eraNormFactor": 1.2631
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020332_MIA_2008",
       "name": "David Martin",
       "position": "WR",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 66,
       "stats": {
-        "recYPG": 28.5,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.12,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.12
+        "recYPG": 28.5,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023408_MIA_2008",
       "name": "Greg Camarillo",
       "position": "WR",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 84,
       "stats": {
-        "recYPG": 55.7,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 55.7,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023437_MIA_2008",
       "name": "Ronnie Brown",
       "position": "RB",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 87,
       "stats": {
-        "rushYPG": 55.0,
-        "tdPerGame": 0.588,
+        "recYPG": 17.5,
         "rushAttPerGame": 13.29,
-        "recYPG": 17.5
+        "rushYPG": 55.0,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024268_MIA_2008",
       "name": "Anthony Fasano",
       "position": "WR",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 78,
       "stats": {
-        "recYPG": 34.9,
-        "tdPerGame": 0.538,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 34.9,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025396_MIA_2008",
       "name": "Ted Ginn",
       "position": "WR",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 76,
       "stats": {
-        "recYPG": 48.7,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 3.59,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.59
+        "recYPG": 48.7,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026000_MIA_2008",
       "name": "Davone Bess",
       "position": "WR",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "recYPG": 35.8,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 3.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.29
+        "recYPG": 35.8,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026003_MIA_2008",
       "name": "D.Carpenter",
       "position": "K",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.8462,
         "avgKickDistance": 38.7,
         "avgMissDistance": 46.2,
+        "fgAccuracy": 0.8462,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2008",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.13,
+        "normalizedRank": 18,
         "rushTDPct": 0.0382,
-        "normalizedRank": 18
+        "rushYPC": 4.13,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2008",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 101.25,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0726,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0726
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2008",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2008,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.5808,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 227.75,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 227.75,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2008
     }
   ]
 }

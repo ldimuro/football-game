@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4286,
       "id": "p_00-0026143_ATL_2019",
       "name": "Matt Ryan",
       "position": "QB",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 84,
       "stats": {
-        "passYPG": 297.7,
-        "qbr": 63.6,
-        "avgTDPerGame": 1.733,
         "avgINTPerGame": 0.933,
-        "completionPct": 0.6623
+        "avgTDPerGame": 1.733,
+        "completionPct": 0.6623,
+        "passYPG": 297.7,
+        "qbr": 63.6
       },
-      "eraNormFactor": 1.4286
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027944_ATL_2019",
+      "is_all_pro": true,
       "name": "Julio Jones",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 96,
       "stats": {
-        "recYPG": 92.9,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 6.6,
         "avgTargetsPerGame": 10.47,
-        "avgCatchesPerGame": 6.6
+        "recYPG": 92.9,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029632_ATL_2019",
       "name": "Mohamed Sanu",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "recYPG": 33.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": 5.88,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 33.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031285_ATL_2019",
       "name": "Devonta Freeman",
       "position": "RB",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 81,
       "stats": {
-        "rushYPG": 46.9,
-        "tdPerGame": 0.143,
+        "recYPG": 29.3,
         "rushAttPerGame": 13.14,
-        "recYPG": 29.3
+        "rushYPG": 46.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031570_ATL_2019",
       "name": "Justin Hardy",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 60,
       "stats": {
-        "recYPG": 17.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.73,
         "avgTargetsPerGame": 2.36,
-        "avgCatchesPerGame": 1.73
+        "recYPG": 17.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032392_ATL_2019",
       "name": "Austin Hooper",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 94,
       "stats": {
-        "recYPG": 60.5,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 5.77,
         "avgTargetsPerGame": 7.46,
-        "avgCatchesPerGame": 5.77
+        "recYPG": 60.5,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033567_ATL_2019",
       "name": "Brian Hill",
       "position": "RB",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 72,
       "stats": {
-        "rushYPG": 32.3,
-        "tdPerGame": 0.2,
+        "recYPG": 6.9,
         "rushAttPerGame": 7.8,
-        "recYPG": 6.9
+        "rushYPG": 32.3,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034132_ATL_2019",
       "name": "Christian Blake",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 60,
       "stats": {
-        "recYPG": 15.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 15.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034411_ATL_2019",
       "name": "Russell Gage",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "recYPG": 31.9,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 5.29,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 31.9,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034837_ATL_2019",
       "name": "Calvin Ridley",
       "position": "WR",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 95,
       "stats": {
-        "recYPG": 66.6,
-        "tdPerGame": 0.538,
+        "avgCatchesPerGame": 4.85,
         "avgTargetsPerGame": 7.15,
-        "avgCatchesPerGame": 4.85
+        "recYPG": 66.6,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033702_ATL_2019",
       "name": "Y.Koo",
       "position": "K",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 39.0,
         "avgMissDistance": 44.8,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2019",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.76,
+        "normalizedRank": 26,
         "rushTDPct": 0.0276,
-        "normalizedRank": 26
+        "rushYPC": 3.76,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2019",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 73,
       "stats": {
+        "blitzPct": 0.245,
+        "normalizedRank": 15,
+        "pressurePct": 0.184,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 110.94,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0522,
-        "blitzPct": 0.245,
-        "pressurePct": 0.184,
-        "normalizedRank": 15
+        "sackPct": 0.0522
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2019",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2019,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6549,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 244.88,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 244.88,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2019
     }
   ]
 }

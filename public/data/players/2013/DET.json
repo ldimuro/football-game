@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021999_DET_2013",
       "name": "Nate Burleson",
       "position": "WR",
-      "team": "DET",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "recYPG": 51.2,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 4.33,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 4.33
+        "recYPG": 51.2,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024217_DET_2013",
       "name": "Reggie Bush",
       "position": "RB",
-      "team": "DET",
-      "year": 2013,
+      "rating": 91,
       "stats": {
-        "rushYPG": 71.9,
-        "tdPerGame": 0.286,
+        "recYPG": 36.1,
         "rushAttPerGame": 15.93,
-        "recYPG": 36.1
+        "rushYPG": 71.9,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025389_DET_2013",
+      "is_all_pro": true,
       "name": "Calvin Johnson",
       "position": "WR",
-      "team": "DET",
-      "year": 2013,
+      "rating": 99,
       "stats": {
-        "recYPG": 106.6,
-        "tdPerGame": 0.857,
+        "avgCatchesPerGame": 6.0,
         "avgTargetsPerGame": 11.21,
-        "avgCatchesPerGame": 6.0
+        "recYPG": 106.6,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.3645,
       "id": "p_00-0026498_DET_2013",
       "name": "Matthew Stafford",
       "position": "QB",
-      "team": "DET",
-      "year": 2013,
+      "rating": 87,
       "stats": {
-        "passYPG": 290.6,
-        "qbr": 85.4,
-        "avgTDPerGame": 1.812,
         "avgINTPerGame": 1.188,
-        "completionPct": 0.5852
+        "avgTDPerGame": 1.812,
+        "completionPct": 0.5852,
+        "passYPG": 290.6,
+        "qbr": 85.4
       },
-      "eraNormFactor": 1.3645
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026996_DET_2013",
       "name": "Brandon Pettigrew",
       "position": "WR",
-      "team": "DET",
-      "year": 2013,
+      "rating": 70,
       "stats": {
-        "recYPG": 29.7,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 29.7,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027218_DET_2013",
       "name": "Joique Bell",
       "position": "RB",
-      "team": "DET",
-      "year": 2013,
+      "rating": 85,
       "stats": {
-        "rushYPG": 40.6,
-        "tdPerGame": 0.5,
+        "recYPG": 34.2,
         "rushAttPerGame": 10.38,
-        "recYPG": 34.2
+        "rushYPG": 40.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028045_DET_2013",
       "name": "Kris Durham",
       "position": "WR",
-      "team": "DET",
-      "year": 2013,
+      "rating": 69,
       "stats": {
-        "recYPG": 30.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.38,
         "avgTargetsPerGame": 5.31,
-        "avgCatchesPerGame": 2.38
+        "recYPG": 30.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029883_DET_2013",
       "name": "Joseph Fauria",
       "position": "WR",
-      "team": "DET",
-      "year": 2013,
+      "rating": 70,
       "stats": {
-        "recYPG": 18.8,
-        "tdPerGame": 0.636,
+        "avgCatchesPerGame": 1.64,
         "avgTargetsPerGame": 2.73,
-        "avgCatchesPerGame": 1.64
+        "recYPG": 18.8,
+        "tdPerGame": 0.636
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_DET_2013",
       "name": "D.Akers",
       "position": "K",
-      "team": "DET",
-      "year": 2013,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7917,
         "avgKickDistance": 36.4,
         "avgMissDistance": 40.8,
+        "fgAccuracy": 0.7917,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2013",
       "position": "OLine",
-      "team": "DET",
-      "year": 2013,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.03,
+        "normalizedRank": 21,
         "rushTDPct": 0.0337,
-        "normalizedRank": 21
+        "rushYPC": 4.03,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2013",
       "position": "DLine",
-      "team": "DET",
-      "year": 2013,
+      "rating": 75,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 6,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 99.75,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0577,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 6
+        "sackPct": 0.0577
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2013",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2013,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.5909,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 246.88,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 246.88,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2013
     }
   ]
 }

@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010500_BAL_2009",
       "name": "Derrick Mason",
       "position": "WR",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 92,
       "stats": {
-        "recYPG": 61.1,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 4.33,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 4.33
+        "recYPG": 61.1,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020516_BAL_2009",
       "name": "Todd Heap",
       "position": "WR",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "recYPG": 34.9,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.17,
         "avgTargetsPerGame": 4.61,
-        "avgCatchesPerGame": 3.17
+        "recYPG": 34.9,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022171_BAL_2009",
       "name": "Kelley Washington",
       "position": "WR",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 69,
       "stats": {
-        "recYPG": 27.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.19,
         "avgTargetsPerGame": 3.12,
-        "avgCatchesPerGame": 2.19
+        "recYPG": 27.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022178_BAL_2009",
       "name": "Willis McGahee",
       "position": "RB",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 76,
       "stats": {
-        "rushYPG": 36.1,
-        "tdPerGame": 0.765,
+        "recYPG": 6.2,
         "rushAttPerGame": 7.71,
-        "recYPG": 6.2
+        "rushYPG": 36.1,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023457_BAL_2009",
       "name": "Mark Clayton",
       "position": "WR",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 73,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 5.27,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 33.1,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024326_BAL_2009",
       "name": "Demetrius Williams",
       "position": "WR",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 63,
       "stats": {
-        "recYPG": 19.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.12,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.12
+        "recYPG": 19.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.3013,
       "id": "p_00-0026158_BAL_2009",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "passYPG": 213.1,
-        "qbr": 71.2,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 0.833,
-        "completionPct": 0.6232
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.6232,
+        "passYPG": 213.1,
+        "qbr": 71.2
       },
-      "eraNormFactor": 1.3013
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026195_BAL_2009",
+      "is_all_pro": true,
       "name": "Ray Rice",
       "position": "RB",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 95,
       "stats": {
-        "rushYPG": 86.9,
-        "tdPerGame": 0.5,
+        "recYPG": 42.3,
         "rushAttPerGame": 16.06,
-        "recYPG": 42.3
+        "rushYPG": 86.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020972_BAL_2009",
       "name": "B.Cundiff",
       "position": "K",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 63,
       "stats": {
-        "fgAccuracy": 0.7273,
         "avgKickDistance": 35.4,
         "avgMissDistance": 40.3,
+        "fgAccuracy": 0.7273,
         "longestMadeKick": 46
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_OLine_2009",
       "position": "OLine",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 89,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.7,
+        "normalizedRank": 4,
         "rushTDPct": 0.0483,
-        "normalizedRank": 4
+        "rushYPC": 4.7,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_DLine_2009",
       "position": "DLine",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 88,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 3.4,
         "rushYPGAllowed": 93.25,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0611,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0611
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_Secondary_2009",
       "position": "Secondary",
-      "team": "BAL",
-      "year": 2009,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.584,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 207.25,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 207.25,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2009
     }
   ]
 }

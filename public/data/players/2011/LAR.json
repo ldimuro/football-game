@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2011",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2011,
+      "rating": 71,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 31,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 152.06,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0806,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 31
+        "sackPct": 0.0806
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2011",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2011,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.6054,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 206.31,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 206.31,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2011
     }
   ]
 }

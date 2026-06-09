@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030332_LA_2023",
       "name": "B.Maher",
       "position": "K",
-      "team": "LA",
-      "year": 2023,
+      "rating": 67,
       "stats": {
-        "fgAccuracy": 0.7609,
         "avgKickDistance": 38.9,
         "avgMissDistance": 49.4,
+        "fgAccuracy": 0.7609,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2023",
       "position": "OLine",
-      "team": "LA",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.28,
+        "normalizedRank": 11,
         "rushTDPct": 0.0364,
-        "normalizedRank": 11
+        "rushYPC": 4.28,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2023",
       "position": "DLine",
-      "team": "LA",
-      "year": 2023,
+      "rating": 76,
       "stats": {
+        "blitzPct": 0.243,
+        "normalizedRank": 12,
+        "pressurePct": 0.189,
+        "rushTDPerGameAllowed": 0.82,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 106.82,
-        "rushTDPerGameAllowed": 0.82,
-        "sackPct": 0.0679,
-        "blitzPct": 0.243,
-        "pressurePct": 0.189,
-        "normalizedRank": 12
+        "sackPct": 0.0679
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2023",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2023,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.6076,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 231.06,
-        "passTDPerGameAllowed": 1.41,
         "interceptionsPerGame": 0.59,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.41,
+        "passYPGAllowed": 231.06,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2023
     }
   ]
 }

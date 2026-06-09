@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002068_NE_2003",
       "name": "Troy Brown",
       "position": "WR",
-      "team": "NE",
-      "year": 2003,
+      "rating": 82,
       "stats": {
-        "recYPG": 43.1,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.8,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.8
+        "recYPG": 43.1,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005091_NE_2003",
       "name": "Kevin Faulk",
       "position": "RB",
-      "team": "NE",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "rushYPG": 39.4,
-        "tdPerGame": 0.0,
+        "recYPG": 27.7,
         "rushAttPerGame": 10.67,
-        "recYPG": 27.7
+        "rushYPG": 39.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005101_NE_2003",
       "name": "Christian Fauria",
       "position": "WR",
-      "team": "NE",
-      "year": 2003,
+      "rating": 61,
       "stats": {
-        "recYPG": 22.3,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.13,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.13
+        "recYPG": 22.3,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015091_NE_2003",
       "name": "Antowain Smith",
       "position": "RB",
-      "team": "NE",
-      "year": 2003,
+      "rating": 82,
       "stats": {
-        "rushYPG": 55.9,
-        "tdPerGame": 0.312,
+        "recYPG": 6.3,
         "rushAttPerGame": 15.38,
-        "recYPG": 6.3
+        "rushYPG": 55.9,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.438,
       "id": "p_00-0019596_NE_2003",
       "name": "Tom Brady",
       "position": "QB",
-      "team": "NE",
-      "year": 2003,
+      "rating": 92,
       "stats": {
-        "passYPG": 232.2,
-        "qbr": 81.6,
-        "avgTDPerGame": 1.474,
         "avgINTPerGame": 0.737,
-        "completionPct": 0.5994
+        "avgTDPerGame": 1.474,
+        "completionPct": 0.5994,
+        "passYPG": 232.2,
+        "qbr": 81.6
       },
-      "eraNormFactor": 1.438
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021154_NE_2003",
       "name": "Daniel Graham",
       "position": "WR",
-      "team": "NE",
-      "year": 2003,
+      "rating": 72,
       "stats": {
-        "recYPG": 30.3,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 30.3,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021192_NE_2003",
       "name": "Deion Branch",
       "position": "WR",
-      "team": "NE",
-      "year": 2003,
+      "rating": 84,
       "stats": {
-        "recYPG": 54.4,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 54.4,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021353_NE_2003",
       "name": "David Givens",
       "position": "WR",
-      "team": "NE",
-      "year": 2003,
+      "rating": 90,
       "stats": {
-        "recYPG": 51.8,
-        "tdPerGame": 0.615,
+        "avgCatchesPerGame": 3.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.92
+        "recYPG": 51.8,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016919_NE_2003",
       "name": "A.Vinatieri",
       "position": "K",
-      "team": "NE",
-      "year": 2003,
+      "rating": 64,
       "stats": {
-        "fgAccuracy": 0.7273,
         "avgKickDistance": 33.1,
         "avgMissDistance": 39.4,
+        "fgAccuracy": 0.7273,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_OLine_2003",
       "position": "OLine",
-      "team": "NE",
-      "year": 2003,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.43,
+        "normalizedRank": 30,
         "rushTDPct": 0.0194,
-        "normalizedRank": 30
+        "rushYPC": 3.43,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_DLine_2003",
       "position": "DLine",
-      "team": "NE",
-      "year": 2003,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 89.62,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0663,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0663
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_Secondary_2003",
       "position": "Secondary",
-      "team": "NE",
-      "year": 2003,
+      "rating": 99,
       "stats": {
         "completionPctAllowed": 0.5307,
-        "yardsPerAttemptAllowed": 4.9,
-        "passYPGAllowed": 202.0,
-        "passTDPerGameAllowed": 0.69,
         "interceptionsPerGame": 1.81,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 0.69,
+        "passYPGAllowed": 202.0,
+        "yardsPerAttemptAllowed": 4.9
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2003
     }
   ]
 }

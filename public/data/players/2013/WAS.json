@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2013",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 68,
       "stats": {
-        "recYPG": 28.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 4.88,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 28.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026314_WAS_2013",
       "name": "Josh Morgan",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 58,
       "stats": {
-        "recYPG": 16.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.54,
         "avgTargetsPerGame": 2.54,
-        "avgCatchesPerGame": 1.54
+        "recYPG": 16.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026345_WAS_2013",
       "name": "Pierre Garcon",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 93,
       "stats": {
-        "recYPG": 84.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 7.06,
         "avgTargetsPerGame": 11.31,
-        "avgCatchesPerGame": 7.06
+        "recYPG": 84.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027215_WAS_2013",
       "name": "Logan Paulsen",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 65,
       "stats": {
-        "recYPG": 19.1,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.57,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 19.1,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028017_WAS_2013",
       "name": "Leonard Hankerson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 77,
       "stats": {
-        "recYPG": 37.5,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 37.5,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028043_WAS_2013",
       "name": "Roy Helu",
       "position": "RB",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 70,
       "stats": {
-        "rushYPG": 17.1,
-        "tdPerGame": 0.25,
+        "recYPG": 15.7,
         "rushAttPerGame": 3.88,
-        "recYPG": 15.7
+        "rushYPG": 17.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028116_WAS_2013",
       "name": "Aldrick Robinson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 66,
       "stats": {
-        "recYPG": 28.1,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.38,
         "avgTargetsPerGame": 3.54,
-        "avgCatchesPerGame": 1.38
+        "recYPG": 28.1,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029141_WAS_2013",
       "name": "Alfred Morris",
       "position": "RB",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "rushYPG": 79.7,
-        "tdPerGame": 0.438,
+        "recYPG": 4.9,
         "rushAttPerGame": 17.25,
-        "recYPG": 4.9
+        "rushYPG": 79.7,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 0.802,
       "id": "p_00-0029604_WAS_2013",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 57,
       "stats": {
-        "passYPG": 170.8,
-        "qbr": 0,
-        "avgTDPerGame": 0.8,
         "avgINTPerGame": 1.4,
-        "completionPct": 0.5226
+        "avgTDPerGame": 0.8,
+        "completionPct": 0.5226,
+        "passYPG": 170.8,
+        "qbr": 0
       },
-      "eraNormFactor": 0.802
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.157,
       "id": "p_00-0029665_WAS_2013",
       "name": "Robert Griffin",
       "position": "QB",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 79,
       "stats": {
-        "passYPG": 246.4,
-        "qbr": 55.8,
-        "avgTDPerGame": 1.231,
         "avgINTPerGame": 0.923,
-        "completionPct": 0.6009
+        "avgTDPerGame": 1.231,
+        "completionPct": 0.6009,
+        "passYPG": 246.4,
+        "qbr": 55.8
       },
-      "eraNormFactor": 1.157
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030472_WAS_2013",
       "name": "Jordan Reed",
       "position": "WR",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "recYPG": 55.4,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": 6.67,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 55.4,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028787_WAS_2013",
       "name": "K.Forbath",
       "position": "K",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 66,
       "stats": {
-        "fgAccuracy": 0.8077,
         "avgKickDistance": 36.6,
         "avgMissDistance": 44.6,
+        "fgAccuracy": 0.8077,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2013",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.78,
+        "normalizedRank": 3,
         "rushTDPct": 0.0309,
-        "normalizedRank": 3
+        "rushYPC": 4.78,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2013",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.44,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 110.56,
-        "rushTDPerGameAllowed": 1.44,
-        "sackPct": 0.07,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.07
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2013",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2013,
+      "rating": 65,
       "stats": {
         "completionPctAllowed": 0.6556,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 243.5,
-        "passTDPerGameAllowed": 1.81,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.81,
+        "passYPGAllowed": 243.5,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2013
     }
   ]
 }

@@ -1,136 +1,145 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2008",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 94,
       "stats": {
-        "recYPG": 69.6,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 5.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.27
+        "recYPG": 69.6,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_WAS_2008",
+      "is_all_pro": true,
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 92,
       "stats": {
-        "rushYPG": 92.9,
-        "tdPerGame": 0.562,
+        "recYPG": 13.6,
         "rushAttPerGame": 21.38,
-        "recYPG": 13.6
+        "rushYPG": 92.9,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021184_WAS_2008",
       "name": "Ladell Betts",
       "position": "RB",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 64,
       "stats": {
-        "rushYPG": 15.8,
-        "tdPerGame": 0.077,
+        "recYPG": 15.4,
         "rushAttPerGame": 4.69,
-        "recYPG": 15.4
+        "rushYPG": 15.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022738_WAS_2008",
       "name": "Chris Cooley",
       "position": "WR",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 78,
       "stats": {
-        "recYPG": 53.1,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 53.1,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.1152,
       "id": "p_00-0023460_WAS_2008",
       "name": "Jason Campbell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 77,
       "stats": {
-        "passYPG": 202.8,
-        "qbr": 50.4,
-        "avgTDPerGame": 0.812,
         "avgINTPerGame": 0.375,
-        "completionPct": 0.6225
+        "avgTDPerGame": 0.812,
+        "completionPct": 0.6225,
+        "passYPG": 202.8,
+        "qbr": 50.4
       },
-      "eraNormFactor": 1.1152
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023001_WAS_2008",
       "name": "S.Suisham",
       "position": "K",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "fgAccuracy": 0.7222,
         "avgKickDistance": 38.7,
         "avgMissDistance": 45.0,
+        "fgAccuracy": 0.7222,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2008",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.38,
+        "normalizedRank": 8,
         "rushTDPct": 0.0251,
-        "normalizedRank": 8
+        "rushYPC": 4.38,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2008",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 79,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 95.38,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.047,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.047
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2008",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2008,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.5675,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 193.44,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 7
+        "normalizedRank": 7,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 193.44,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2008
     }
   ]
 }

@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027029_KC_2019",
       "name": "LeSean McCoy",
       "position": "RB",
-      "team": "KC",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "rushYPG": 35.8,
-        "tdPerGame": 0.308,
+        "recYPG": 13.9,
         "rushAttPerGame": 7.77,
-        "recYPG": 13.9
+        "rushYPG": 35.8,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030506_KC_2019",
+      "is_all_pro": true,
       "name": "Travis Kelce",
       "position": "WR",
-      "team": "KC",
-      "year": 2019,
+      "rating": 97,
       "stats": {
-        "recYPG": 75.6,
-        "tdPerGame": 0.474,
+        "avgCatchesPerGame": 6.11,
         "avgTargetsPerGame": 8.32,
-        "avgCatchesPerGame": 6.11
+        "recYPG": 75.6,
+        "tdPerGame": 0.474
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030874_KC_2019",
       "name": "Damien Williams",
       "position": "RB",
-      "team": "KC",
-      "year": 2019,
+      "rating": 86,
       "stats": {
-        "rushYPG": 49.6,
-        "tdPerGame": 0.643,
+        "recYPG": 21.9,
         "rushAttPerGame": 11.21,
-        "recYPG": 21.9
+        "rushYPG": 49.6,
+        "tdPerGame": 0.643
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031325_KC_2019",
       "name": "Sammy Watkins",
       "position": "WR",
-      "team": "KC",
-      "year": 2019,
+      "rating": 87,
       "stats": {
-        "recYPG": 60.1,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 6.75,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 60.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032775_KC_2019",
       "name": "Demarcus Robinson",
       "position": "WR",
-      "team": "KC",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "recYPG": 28.5,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.06,
         "avgTargetsPerGame": 3.59,
-        "avgCatchesPerGame": 2.06
+        "recYPG": 28.5,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033040_KC_2019",
       "name": "Tyreek Hill",
       "position": "WR",
-      "team": "KC",
-      "year": 2019,
+      "rating": 96,
       "stats": {
-        "recYPG": 71.5,
-        "tdPerGame": 0.6,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": 7.73,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 71.5,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.3921,
       "id": "p_00-0033873_KC_2019",
       "name": "Patrick Mahomes",
       "position": "QB",
-      "team": "KC",
-      "year": 2019,
+      "rating": 95,
       "stats": {
-        "passYPG": 290.1,
-        "qbr": 100,
-        "avgTDPerGame": 2.118,
         "avgINTPerGame": 0.412,
-        "completionPct": 0.656
+        "avgTDPerGame": 2.118,
+        "completionPct": 0.656,
+        "passYPG": 290.1,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3921
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034301_KC_2019",
       "name": "Darrel Williams",
       "position": "RB",
-      "team": "KC",
-      "year": 2019,
+      "rating": 71,
       "stats": {
-        "rushYPG": 15.7,
-        "tdPerGame": 0.333,
+        "recYPG": 18.6,
         "rushAttPerGame": 4.56,
-        "recYPG": 18.6
+        "rushYPG": 15.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035140_KC_2019",
       "name": "Mecole Hardman",
       "position": "WR",
-      "team": "KC",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "recYPG": 31.5,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.61,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 31.5,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035148_KC_2019",
       "name": "Darwin Thompson",
       "position": "RB",
-      "team": "KC",
-      "year": 2019,
+      "rating": 59,
       "stats": {
-        "rushYPG": 11.2,
-        "tdPerGame": 0.083,
+        "recYPG": 3.6,
         "rushAttPerGame": 3.25,
-        "recYPG": 3.6
+        "rushYPG": 11.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033303_KC_2019",
       "name": "H.Butker",
       "position": "K",
-      "team": "KC",
-      "year": 2019,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.9,
         "avgKickDistance": 37.5,
         "avgMissDistance": 47.0,
+        "fgAccuracy": 0.9,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2019",
       "position": "OLine",
-      "team": "KC",
-      "year": 2019,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.27,
+        "normalizedRank": 20,
         "rushTDPct": 0.0487,
-        "normalizedRank": 20
+        "rushYPC": 4.27,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2019",
       "position": "DLine",
-      "team": "KC",
-      "year": 2019,
+      "rating": 72,
       "stats": {
+        "blitzPct": 0.291,
+        "normalizedRank": 26,
+        "pressurePct": 0.222,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.9,
         "rushYPGAllowed": 128.19,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0773,
-        "blitzPct": 0.291,
-        "pressurePct": 0.222,
-        "normalizedRank": 26
+        "sackPct": 0.0773
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2019",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2019,
+      "rating": 92,
       "stats": {
         "completionPctAllowed": 0.6048,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 221.44,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 221.44,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2019
     }
   ]
 }

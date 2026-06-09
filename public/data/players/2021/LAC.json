@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027061_LAC_2021",
       "name": "Jared Cook",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 80,
       "stats": {
-        "recYPG": 35.2,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.19,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 35.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030279_LAC_2021",
       "name": "Keenan Allen",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 96,
       "stats": {
-        "recYPG": 71.1,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 6.62,
         "avgTargetsPerGame": 9.81,
-        "avgCatchesPerGame": 6.62
+        "recYPG": 71.1,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033536_LAC_2021",
       "name": "Mike Williams",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 96,
       "stats": {
-        "recYPG": 71.6,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 4.75,
         "avgTargetsPerGame": 8.06,
-        "avgCatchesPerGame": 4.75
+        "recYPG": 71.6,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033699_LAC_2021",
       "name": "Austin Ekeler",
       "position": "RB",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 94,
       "stats": {
-        "rushYPG": 56.9,
-        "tdPerGame": 0.75,
+        "recYPG": 40.4,
         "rushAttPerGame": 12.88,
-        "recYPG": 40.4
+        "rushYPG": 56.9,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034440_LAC_2021",
       "name": "Justin Jackson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 71,
       "stats": {
-        "rushYPG": 28.0,
-        "tdPerGame": 0.154,
+        "recYPG": 13.7,
         "rushAttPerGame": 5.23,
-        "recYPG": 13.7
+        "rushYPG": 28.0,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035329_LAC_2021",
       "name": "Donald Parham",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 67,
       "stats": {
-        "recYPG": 15.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.25,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 15.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035414_LAC_2021",
       "name": "Jalen Guyton",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 72,
       "stats": {
-        "recYPG": 28.0,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 1.94,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.94
+        "recYPG": 28.0,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.6791,
       "id": "p_00-0036355_LAC_2021",
       "name": "Justin Herbert",
       "position": "QB",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 91,
       "stats": {
-        "passYPG": 294.9,
-        "qbr": 100,
-        "avgTDPerGame": 2.235,
         "avgINTPerGame": 0.882,
-        "completionPct": 0.6592
+        "avgTDPerGame": 2.235,
+        "completionPct": 0.6592,
+        "passYPG": 294.9,
+        "qbr": 100
       },
-      "eraNormFactor": 1.6791
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036370_LAC_2021",
       "name": "Joshua Kelley",
       "position": "RB",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 59,
       "stats": {
-        "rushYPG": 12.8,
-        "tdPerGame": 0.0,
+        "recYPG": 4.8,
         "rushAttPerGame": 4.12,
-        "recYPG": 4.8
+        "rushYPG": 12.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036650_LAC_2021",
       "name": "Larry Rountree",
       "position": "RB",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 59,
       "stats": {
-        "rushYPG": 10.9,
-        "tdPerGame": 0.125,
+        "recYPG": -0.1,
         "rushAttPerGame": 4.5,
-        "recYPG": -0.1
+        "rushYPG": 10.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036988_LAC_2021",
       "name": "Josh Palmer",
       "position": "WR",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 74,
       "stats": {
-        "recYPG": 23.5,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 3.27,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 23.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030098_LAC_2021",
       "name": "D.Hopkins",
       "position": "K",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 38.0,
         "avgMissDistance": 45.4,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2021",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.34,
+        "normalizedRank": 15,
         "rushTDPct": 0.0426,
-        "normalizedRank": 15
+        "rushYPC": 4.34,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2021",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 65,
       "stats": {
+        "blitzPct": 0.251,
+        "normalizedRank": 30,
+        "pressurePct": 0.25,
+        "rushTDPerGameAllowed": 1.29,
         "rushYPCAllowed": 4.6,
         "rushYPGAllowed": 138.88,
-        "rushTDPerGameAllowed": 1.29,
-        "sackPct": 0.0626,
-        "blitzPct": 0.251,
-        "pressurePct": 0.25,
-        "normalizedRank": 30
+        "sackPct": 0.0626
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2021",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2021,
+      "rating": 76,
       "stats": {
         "completionPctAllowed": 0.6386,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 221.24,
-        "passTDPerGameAllowed": 1.59,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.59,
+        "passYPGAllowed": 221.24,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2021
     }
   ]
 }

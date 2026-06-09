@@ -1,165 +1,176 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020536_LAC_2007",
+      "is_all_pro": true,
       "name": "LaDainian Tomlinson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 97,
       "stats": {
-        "rushYPG": 81.5,
-        "tdPerGame": 0.842,
+        "recYPG": 27.1,
         "rushAttPerGame": 18.16,
-        "recYPG": 27.1
+        "rushYPG": 81.5,
+        "tdPerGame": 0.842
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021547_LAC_2007",
+      "is_all_pro": true,
       "name": "Antonio Gates",
       "position": "WR",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 89,
       "stats": {
-        "recYPG": 54.9,
-        "tdPerGame": 0.474,
+        "avgCatchesPerGame": 4.26,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.26
+        "recYPG": 54.9,
+        "tdPerGame": 0.474
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022821_LAC_2007",
       "name": "Michael Turner",
       "position": "RB",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 62,
       "stats": {
-        "rushYPG": 28.2,
-        "tdPerGame": 0.059,
+        "recYPG": 1.2,
         "rushAttPerGame": 6.71,
-        "recYPG": 1.2
+        "rushYPG": 28.2,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.294,
       "id": "p_00-0022942_LAC_2007",
       "name": "Philip Rivers",
       "position": "QB",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 81,
       "stats": {
-        "passYPG": 206.3,
-        "qbr": 79.0,
-        "avgTDPerGame": 1.316,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6026
+        "avgTDPerGame": 1.316,
+        "completionPct": 0.6026,
+        "passYPG": 206.3,
+        "qbr": 79.0
       },
-      "eraNormFactor": 1.294
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023496_LAC_2007",
       "name": "Vincent Jackson",
       "position": "WR",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 83,
       "stats": {
-        "recYPG": 51.3,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 3.28,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.28
+        "recYPG": 51.3,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023564_LAC_2007",
       "name": "Darren Sproles",
       "position": "RB",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 63,
       "stats": {
-        "rushYPG": 18.1,
-        "tdPerGame": 0.182,
+        "recYPG": 8.4,
         "rushAttPerGame": 3.73,
-        "recYPG": 8.4
+        "rushYPG": 18.1,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025417_LAC_2007",
       "name": "Craig Davis",
       "position": "WR",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 58,
       "stats": {
-        "recYPG": 17.6,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 17.6,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022737_LAC_2007",
       "name": "N.Kaeding",
       "position": "K",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 33.7,
         "avgMissDistance": 44.2,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2007",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.06,
+        "normalizedRank": 14,
         "rushTDPct": 0.0369,
-        "normalizedRank": 14
+        "rushYPC": 4.06,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2007",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 16,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 107.0,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0757,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 16
+        "sackPct": 0.0757
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2007",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2007,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.609,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 213.25,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 1.88,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 213.25,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2007
     }
   ]
 }

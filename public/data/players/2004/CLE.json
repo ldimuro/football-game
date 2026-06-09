@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.8944,
       "id": "p_00-0005755_CLE_2004",
       "name": "Jeff Garcia",
       "position": "QB",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "passYPG": 157.4,
-        "qbr": 26.3,
-        "avgTDPerGame": 0.909,
         "avgINTPerGame": 0.818,
-        "completionPct": 0.5714
+        "avgTDPerGame": 0.909,
+        "completionPct": 0.5714,
+        "passYPG": 157.4,
+        "qbr": 26.3
       },
-      "eraNormFactor": 0.8944
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007213_CLE_2004",
       "name": "Steve Heiden",
       "position": "WR",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 74,
       "stats": {
-        "recYPG": 26.1,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 2.55,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.55
+        "recYPG": 26.1,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019564_CLE_2004",
       "name": "Aaron Shea",
       "position": "WR",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 68,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.364,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 22.9,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019650_CLE_2004",
       "name": "Dennis Northcutt",
       "position": "WR",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 77,
       "stats": {
-        "recYPG": 50.4,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 50.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020427_CLE_2004",
       "name": "Quincy Morgan",
       "position": "WR",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 26.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021150_CLE_2004",
       "name": "William Green",
       "position": "RB",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 71,
       "stats": {
-        "rushYPG": 41.8,
-        "tdPerGame": 0.143,
+        "recYPG": 6.0,
         "rushAttPerGame": 11.64,
-        "recYPG": 6.0
+        "rushYPG": 41.8,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022180_CLE_2004",
       "name": "Lee Suggs",
       "position": "RB",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 84,
       "stats": {
-        "rushYPG": 74.4,
-        "tdPerGame": 0.2,
+        "recYPG": 17.8,
         "rushAttPerGame": 19.9,
-        "recYPG": 17.8
+        "rushYPG": 74.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2004",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8276,
         "avgKickDistance": 34.7,
         "avgMissDistance": 40.6,
+        "fgAccuracy": 0.8276,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2004",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.77,
+        "normalizedRank": 27,
         "rushTDPct": 0.0137,
-        "normalizedRank": 27
+        "rushYPC": 3.77,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2004",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 32,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 144.62,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0696,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 32
+        "sackPct": 0.0696
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2004",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2004,
+      "rating": 82,
       "stats": {
         "completionPctAllowed": 0.6022,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 181.31,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 181.31,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2004
     }
   ]
 }

@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2557,
       "id": "p_00-0005755_SF_2001",
       "name": "Jeff Garcia",
       "position": "QB",
-      "team": "SF",
-      "year": 2001,
+      "rating": 93,
       "stats": {
-        "passYPG": 221.8,
-        "qbr": 100,
-        "avgTDPerGame": 1.941,
         "avgINTPerGame": 0.765,
-        "completionPct": 0.6306
+        "avgTDPerGame": 1.941,
+        "completionPct": 0.6306,
+        "passYPG": 221.8,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2557
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007180_SF_2001",
       "name": "Garrison Hearst",
       "position": "RB",
-      "team": "SF",
-      "year": 2001,
+      "rating": 88,
       "stats": {
-        "rushYPG": 73.4,
-        "tdPerGame": 0.294,
+        "recYPG": 21.9,
         "rushAttPerGame": 15.59,
-        "recYPG": 21.9
+        "rushYPG": 73.4,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_SF_2001",
+      "is_all_pro": true,
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "SF",
-      "year": 2001,
+      "rating": 99,
       "stats": {
-        "recYPG": 85.4,
-        "tdPerGame": 0.941,
+        "avgCatchesPerGame": 5.71,
         "avgTargetsPerGame": 9.65,
-        "avgCatchesPerGame": 5.71
+        "recYPG": 85.4,
+        "tdPerGame": 0.941
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015751_SF_2001",
       "name": "J.J. Stokes",
       "position": "WR",
-      "team": "SF",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "recYPG": 37.5,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 3.41,
         "avgTargetsPerGame": 5.65,
-        "avgCatchesPerGame": 3.41
+        "recYPG": 37.5,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015811_SF_2001",
       "name": "Tai Streets",
       "position": "WR",
-      "team": "SF",
-      "year": 2001,
+      "rating": 70,
       "stats": {
-        "recYPG": 23.2,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 1.88,
         "avgTargetsPerGame": 3.29,
-        "avgCatchesPerGame": 1.88
+        "recYPG": 23.2,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020455_SF_2001",
       "name": "Eric Johnson",
       "position": "WR",
-      "team": "SF",
-      "year": 2001,
+      "rating": 74,
       "stats": {
-        "recYPG": 23.4,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.59,
         "avgTargetsPerGame": 4.06,
-        "avgCatchesPerGame": 2.59
+        "recYPG": 23.4,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020474_SF_2001",
       "name": "Kevan Barlow",
       "position": "RB",
-      "team": "SF",
-      "year": 2001,
+      "rating": 76,
       "stats": {
-        "rushYPG": 33.1,
-        "tdPerGame": 0.25,
+        "recYPG": 15.6,
         "rushAttPerGame": 8.12,
-        "recYPG": 15.6
+        "rushYPG": 33.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003501_SF_2001",
       "name": "J.Cortez",
       "position": "K",
-      "team": "SF",
-      "year": 2001,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.6923,
         "avgKickDistance": 34.2,
         "avgMissDistance": 35.9,
+        "fgAccuracy": 0.6923,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2001",
       "position": "OLine",
-      "team": "SF",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.37,
+        "normalizedRank": 6,
         "rushTDPct": 0.0321,
-        "normalizedRank": 6
+        "rushYPC": 4.37,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2001",
       "position": "DLine",
-      "team": "SF",
-      "year": 2001,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 9,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 98.19,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0564,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 9
+        "sackPct": 0.0564
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2001",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2001,
+      "rating": 85,
       "stats": {
         "completionPctAllowed": 0.5855,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 211.44,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.5,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 211.44,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2001
     }
   ]
 }

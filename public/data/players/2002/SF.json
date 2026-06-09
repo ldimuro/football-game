@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.187,
       "id": "p_00-0005755_SF_2002",
       "name": "Jeff Garcia",
       "position": "QB",
-      "team": "SF",
-      "year": 2002,
+      "rating": 86,
       "stats": {
-        "passYPG": 214.9,
-        "qbr": 90.5,
-        "avgTDPerGame": 1.333,
         "avgINTPerGame": 0.778,
-        "completionPct": 0.615
+        "avgTDPerGame": 1.333,
+        "completionPct": 0.615,
+        "passYPG": 214.9,
+        "qbr": 90.5
       },
-      "eraNormFactor": 1.187
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007180_SF_2002",
       "name": "Garrison Hearst",
       "position": "RB",
-      "team": "SF",
-      "year": 2002,
+      "rating": 83,
       "stats": {
-        "rushYPG": 57.9,
-        "tdPerGame": 0.444,
+        "recYPG": 19.4,
         "rushAttPerGame": 12.83,
-        "recYPG": 19.4
+        "rushYPG": 57.9,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012478_SF_2002",
+      "is_all_pro": true,
       "name": "Terrell Owens",
       "position": "WR",
-      "team": "SF",
-      "year": 2002,
+      "rating": 100,
       "stats": {
-        "recYPG": 94.5,
-        "tdPerGame": 0.938,
+        "avgCatchesPerGame": 7.06,
         "avgTargetsPerGame": 11.25,
-        "avgCatchesPerGame": 7.06
+        "recYPG": 94.5,
+        "tdPerGame": 0.938
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015751_SF_2002",
       "name": "J.J. Stokes",
       "position": "WR",
-      "team": "SF",
-      "year": 2002,
+      "rating": 70,
       "stats": {
-        "recYPG": 26.1,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.64,
         "avgTargetsPerGame": 4.86,
-        "avgCatchesPerGame": 2.64
+        "recYPG": 26.1,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015811_SF_2002",
       "name": "Tai Streets",
       "position": "WR",
-      "team": "SF",
-      "year": 2002,
+      "rating": 90,
       "stats": {
-        "recYPG": 51.5,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 4.82,
         "avgTargetsPerGame": 7.47,
-        "avgCatchesPerGame": 4.82
+        "recYPG": 51.5,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020452_SF_2002",
       "name": "Cedrick Wilson",
       "position": "WR",
-      "team": "SF",
-      "year": 2002,
+      "rating": 64,
       "stats": {
-        "recYPG": 18.7,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.55,
         "avgTargetsPerGame": 2.18,
-        "avgCatchesPerGame": 1.55
+        "recYPG": 18.7,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020455_SF_2002",
       "name": "Eric Johnson",
       "position": "WR",
-      "team": "SF",
-      "year": 2002,
+      "rating": 72,
       "stats": {
-        "recYPG": 29.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.29,
         "avgTargetsPerGame": 5.79,
-        "avgCatchesPerGame": 3.29
+        "recYPG": 29.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020474_SF_2002",
       "name": "Kevan Barlow",
       "position": "RB",
-      "team": "SF",
-      "year": 2002,
+      "rating": 75,
       "stats": {
-        "rushYPG": 43.4,
-        "tdPerGame": 0.312,
+        "recYPG": 8.7,
         "rushAttPerGame": 9.5,
-        "recYPG": 8.7
+        "rushYPG": 43.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003501_SF_2002",
       "name": "J.Cortez",
       "position": "K",
-      "team": "SF",
-      "year": 2002,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.7436,
         "avgKickDistance": 34.2,
         "avgMissDistance": 40.9,
+        "fgAccuracy": 0.7436,
         "longestMadeKick": 47
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2002",
       "position": "OLine",
-      "team": "SF",
-      "year": 2002,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.59,
+        "normalizedRank": 6,
         "rushTDPct": 0.0345,
-        "normalizedRank": 6
+        "rushYPC": 4.59,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2002",
       "position": "DLine",
-      "team": "SF",
-      "year": 2002,
+      "rating": 78,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 103.25,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.058,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.058
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2002",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2002,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6159,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 219.12,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 219.12,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2002
     }
   ]
 }

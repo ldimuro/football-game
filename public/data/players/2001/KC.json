@@ -1,179 +1,191 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000145_KC_2001",
       "name": "Derrick Alexander",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "recYPG": 36.2,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": 5.23,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 36.2,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_KC_2001",
+      "is_all_pro": true,
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 91,
       "stats": {
-        "recYPG": 57.3,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": 7.38,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 57.3,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.3384,
       "id": "p_00-0006355_KC_2001",
       "name": "Trent Green",
       "position": "QB",
-      "team": "KC",
-      "year": 2001,
+      "rating": 78,
       "stats": {
-        "passYPG": 236.4,
-        "qbr": 45.1,
-        "avgTDPerGame": 1.062,
         "avgINTPerGame": 1.5,
-        "completionPct": 0.566
+        "avgTDPerGame": 1.062,
+        "completionPct": 0.566,
+        "passYPG": 236.4,
+        "qbr": 45.1
       },
-      "eraNormFactor": 1.3384
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007661_KC_2001",
+      "is_all_pro": true,
       "name": "Priest Holmes",
       "position": "RB",
-      "team": "KC",
-      "year": 2001,
+      "rating": 97,
       "stats": {
-        "rushYPG": 97.2,
-        "tdPerGame": 0.5,
+        "recYPG": 38.4,
         "rushAttPerGame": 20.44,
-        "recYPG": 38.4
+        "rushYPG": 97.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012569_KC_2001",
       "name": "Larry Parker",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "recYPG": 22.1,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 4.33,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 22.1,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013712_KC_2001",
       "name": "Mikhael Ricks",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 68,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.64,
         "avgTargetsPerGame": 2.73,
-        "avgCatchesPerGame": 1.64
+        "recYPG": 22.9,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016232_KC_2001",
       "name": "Chris Thomas",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 75,
       "stats": {
-        "recYPG": 30.9,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.38,
         "avgTargetsPerGame": 4.75,
-        "avgCatchesPerGame": 2.38
+        "recYPG": 30.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020272_KC_2001",
       "name": "Snoop Minnis",
       "position": "WR",
-      "team": "KC",
-      "year": 2001,
+      "rating": 76,
       "stats": {
-        "recYPG": 39.3,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.54,
         "avgTargetsPerGame": 5.15,
-        "avgCatchesPerGame": 2.54
+        "recYPG": 39.3,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012875_KC_2001",
       "name": "T. Peterson",
       "position": "K",
-      "team": "KC",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.7714,
         "avgKickDistance": 36.1,
         "avgMissDistance": 40.0,
+        "fgAccuracy": 0.7714,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2001",
       "position": "OLine",
-      "team": "KC",
-      "year": 2001,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.48,
+        "normalizedRank": 5,
         "rushTDPct": 0.0357,
-        "normalizedRank": 5
+        "rushYPC": 4.48,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2001",
       "position": "DLine",
-      "team": "KC",
-      "year": 2001,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 133.75,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0631,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0631
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2001",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2001,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6029,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 197.75,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 197.75,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2001
     }
   ]
 }

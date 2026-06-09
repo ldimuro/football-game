@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_NYJ_2009",
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 89,
       "stats": {
-        "rushYPG": 79.9,
-        "tdPerGame": 0.789,
+        "recYPG": 4.5,
         "rushAttPerGame": 19.84,
-        "recYPG": 4.5
+        "rushYPG": 79.9,
+        "tdPerGame": 0.789
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022811_NYJ_2009",
       "name": "Jerricho Cotchery",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 85,
       "stats": {
-        "recYPG": 59.7,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 4.18,
         "avgTargetsPerGame": 6.76,
-        "avgCatchesPerGame": 4.18
+        "recYPG": 59.7,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024332_NYJ_2009",
       "name": "Leon Washington",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 75,
       "stats": {
-        "rushYPG": 47.1,
-        "tdPerGame": 0.0,
+        "recYPG": 18.7,
         "rushAttPerGame": 10.14,
-        "recYPG": 18.7
+        "rushYPG": 47.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025544_NYJ_2009",
       "name": "David Clowney",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 63,
       "stats": {
-        "recYPG": 19.1,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.4,
         "avgTargetsPerGame": 2.4,
-        "avgCatchesPerGame": 1.4
+        "recYPG": 19.1,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025622_NYJ_2009",
       "name": "Chansi Stuckey",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 69,
       "stats": {
-        "recYPG": 22.7,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.14,
         "avgTargetsPerGame": 4.64,
-        "avgCatchesPerGame": 2.14
+        "recYPG": 22.7,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026170_NYJ_2009",
       "name": "Dustin Keller",
       "position": "WR",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "recYPG": 37.0,
-        "tdPerGame": 0.263,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.21,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 37.0,
+        "tdPerGame": 0.263
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0119,
       "id": "p_00-0026898_NYJ_2009",
       "name": "Mark Sanchez",
       "position": "QB",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 68,
       "stats": {
-        "passYPG": 165.7,
-        "qbr": 19.0,
-        "avgTDPerGame": 0.889,
         "avgINTPerGame": 1.222,
-        "completionPct": 0.5499
+        "avgTDPerGame": 0.889,
+        "completionPct": 0.5499,
+        "passYPG": 165.7,
+        "qbr": 19.0
       },
-      "eraNormFactor": 1.0119
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026899_NYJ_2009",
       "name": "Shonn Greene",
       "position": "RB",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 75,
       "stats": {
-        "rushYPG": 52.8,
-        "tdPerGame": 0.25,
+        "recYPG": 0.2,
         "rushAttPerGame": 10.19,
-        "recYPG": 0.2
+        "rushYPG": 52.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019770_NYJ_2009",
       "name": "J.Feely",
       "position": "K",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 81,
       "stats": {
-        "fgAccuracy": 0.8049,
         "avgKickDistance": 38.2,
         "avgMissDistance": 43.8,
+        "fgAccuracy": 0.8049,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_OLine_2009",
       "position": "OLine",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.44,
+        "normalizedRank": 6,
         "rushTDPct": 0.0335,
-        "normalizedRank": 6
+        "rushYPC": 4.44,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_DLine_2009",
       "position": "DLine",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 98.62,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0639,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0639
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYJ_Secondary_2009",
       "position": "Secondary",
-      "team": "NYJ",
-      "year": 2009,
+      "rating": 96,
       "stats": {
         "completionPctAllowed": 0.517,
-        "yardsPerAttemptAllowed": 4.6,
-        "passYPGAllowed": 153.69,
-        "passTDPerGameAllowed": 0.5,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 0.5,
+        "passYPGAllowed": 153.69,
+        "yardsPerAttemptAllowed": 4.6
       },
-      "eraNormFactor": 1.0
+      "team": "NYJ",
+      "year": 2009
     }
   ]
 }

@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4477,
       "id": "p_00-0003315_WAS_2007",
       "name": "Todd Collins",
       "position": "QB",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 88,
       "stats": {
-        "passYPG": 230.8,
-        "qbr": 71.9,
-        "avgTDPerGame": 1.4,
         "avgINTPerGame": 0.4,
-        "completionPct": 0.6194
+        "avgTDPerGame": 1.4,
+        "completionPct": 0.6194,
+        "passYPG": 230.8,
+        "qbr": 71.9
       },
-      "eraNormFactor": 1.4477
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010668_WAS_2007",
       "name": "Keenan McCardell",
       "position": "WR",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 72,
       "stats": {
-        "recYPG": 36.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 3.14,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.14
+        "recYPG": 36.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2007",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 85,
       "stats": {
-        "recYPG": 58.4,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 4.47,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.47
+        "recYPG": 58.4,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_WAS_2007",
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 96,
       "stats": {
-        "rushYPG": 77.3,
-        "tdPerGame": 0.647,
+        "recYPG": 24.5,
         "rushAttPerGame": 20.29,
-        "recYPG": 24.5
+        "rushYPG": 77.3,
+        "tdPerGame": 0.647
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021184_WAS_2007",
       "name": "Ladell Betts",
       "position": "RB",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 64,
       "stats": {
-        "rushYPG": 20.6,
-        "tdPerGame": 0.059,
+        "recYPG": 11.4,
         "rushAttPerGame": 5.65,
-        "recYPG": 11.4
+        "rushYPG": 20.6,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022738_WAS_2007",
       "name": "Chris Cooley",
       "position": "WR",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 87,
       "stats": {
-        "recYPG": 48.9,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 4.18,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.18
+        "recYPG": 48.9,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.3028,
       "id": "p_00-0023460_WAS_2007",
       "name": "Jason Campbell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 80,
       "stats": {
-        "passYPG": 207.7,
-        "qbr": 63.1,
-        "avgTDPerGame": 0.923,
         "avgINTPerGame": 0.846,
-        "completionPct": 0.5995
+        "avgTDPerGame": 0.923,
+        "completionPct": 0.5995,
+        "passYPG": 207.7,
+        "qbr": 63.1
       },
-      "eraNormFactor": 1.3028
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023001_WAS_2007",
       "name": "S.Suisham",
       "position": "K",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8056,
         "avgKickDistance": 36.4,
         "avgMissDistance": 41.6,
+        "fgAccuracy": 0.8056,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2007",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 71,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.69,
+        "normalizedRank": 29,
         "rushTDPct": 0.0284,
-        "normalizedRank": 29
+        "rushYPC": 3.69,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2007",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 91.25,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0548,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0548
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2007",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2007,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5831,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 214.0,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 214.0,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2007
     }
   ]
 }

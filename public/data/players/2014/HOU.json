@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022044_HOU_2014",
       "name": "Andre Johnson",
       "position": "WR",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 90,
       "stats": {
-        "recYPG": 62.4,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 5.67,
         "avgTargetsPerGame": 9.8,
-        "avgCatchesPerGame": 5.67
+        "recYPG": 62.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0312,
       "id": "p_00-0023682_HOU_2014",
       "name": "Ryan Fitzpatrick",
       "position": "QB",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 78,
       "stats": {
-        "passYPG": 206.9,
-        "qbr": 89.9,
-        "avgTDPerGame": 1.417,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.6314
+        "avgTDPerGame": 1.417,
+        "completionPct": 0.6314,
+        "passYPG": 206.9,
+        "qbr": 89.9
       },
-      "eraNormFactor": 1.0312
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026796_HOU_2014",
       "name": "Arian Foster",
       "position": "RB",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 98,
       "stats": {
-        "rushYPG": 95.8,
-        "tdPerGame": 0.615,
+        "recYPG": 25.2,
         "rushAttPerGame": 20.0,
-        "recYPG": 25.2
+        "rushYPG": 95.8,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027718_HOU_2014",
       "name": "Garrett Graham",
       "position": "WR",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 64,
       "stats": {
-        "recYPG": 19.7,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.8,
         "avgTargetsPerGame": 2.8,
-        "avgCatchesPerGame": 1.8
+        "recYPG": 19.7,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029435_HOU_2014",
       "name": "Damaris Johnson",
       "position": "WR",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 64,
       "stats": {
-        "recYPG": 20.7,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 1.94,
         "avgTargetsPerGame": 3.06,
-        "avgCatchesPerGame": 1.94
+        "recYPG": 20.7,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029510_HOU_2014",
       "name": "Jonathan Grimes",
       "position": "RB",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 64,
       "stats": {
-        "rushYPG": 17.0,
-        "tdPerGame": 0.0,
+        "recYPG": 9.6,
         "rushAttPerGame": 4.33,
-        "recYPG": 9.6
+        "rushYPG": 17.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030564_HOU_2014",
       "name": "DeAndre Hopkins",
       "position": "WR",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 93,
       "stats": {
-        "recYPG": 75.6,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.75,
         "avgTargetsPerGame": 7.94,
-        "avgCatchesPerGame": 4.75
+        "recYPG": 75.6,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031075_HOU_2014",
       "name": "Alfred Blue",
       "position": "RB",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 73,
       "stats": {
-        "rushYPG": 33.0,
-        "tdPerGame": 0.125,
+        "recYPG": 7.1,
         "rushAttPerGame": 10.56,
-        "recYPG": 7.1
+        "rushYPG": 33.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029421_HOU_2014",
       "name": "R.Bullock",
       "position": "K",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.8571,
         "avgKickDistance": 38.0,
         "avgMissDistance": 39.6,
+        "fgAccuracy": 0.8571,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_OLine_2014",
       "position": "OLine",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.92,
+        "normalizedRank": 22,
         "rushTDPct": 0.0218,
-        "normalizedRank": 22
+        "rushYPC": 3.92,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_DLine_2014",
       "position": "DLine",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 105.06,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.0614,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0614
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_Secondary_2014",
       "position": "Secondary",
-      "team": "HOU",
-      "year": 2014,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.5864,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 243.12,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 1.25,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 243.12,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2014
     }
   ]
 }

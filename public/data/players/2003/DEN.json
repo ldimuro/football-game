@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.5475,
       "id": "p_00-0009007_DEN_2003",
       "name": "Danny Kanell",
       "position": "QB",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 61,
       "stats": {
-        "passYPG": 88.4,
-        "qbr": 0,
-        "avgTDPerGame": 0.4,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.5146
+        "avgTDPerGame": 0.4,
+        "completionPct": 0.5146,
+        "passYPG": 88.4,
+        "qbr": 0
       },
-      "eraNormFactor": 0.5475
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.22,
       "id": "p_00-0013042_DEN_2003",
       "name": "Jake Plummer",
       "position": "QB",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 87,
       "stats": {
-        "passYPG": 197.0,
-        "qbr": 82.9,
-        "avgTDPerGame": 1.333,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.6386
+        "avgTDPerGame": 1.333,
+        "completionPct": 0.6386,
+        "passYPG": 197.0,
+        "qbr": 82.9
       },
-      "eraNormFactor": 1.22
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014722_DEN_2003",
       "name": "Shannon Sharpe",
       "position": "WR",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 89,
       "stats": {
-        "recYPG": 50.1,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 4.19,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.19
+        "recYPG": 50.1,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015290_DEN_2003",
       "name": "Rod Smith",
       "position": "WR",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 87,
       "stats": {
-        "recYPG": 57.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 57.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019594_DEN_2003",
       "name": "Mike Anderson",
       "position": "RB",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 71,
       "stats": {
-        "rushYPG": 25.7,
-        "tdPerGame": 0.3,
+        "recYPG": 5.3,
         "rushAttPerGame": 7.0,
-        "recYPG": 5.3
+        "rushYPG": 25.7,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021152_DEN_2003",
       "name": "Ashley Lelie",
       "position": "WR",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 69,
       "stats": {
-        "recYPG": 37.4,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 2.24,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.24
+        "recYPG": 37.4,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_DEN_2003",
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 97,
       "stats": {
-        "rushYPG": 118.5,
-        "tdPerGame": 1.0,
+        "recYPG": 23.1,
         "rushAttPerGame": 21.93,
-        "recYPG": 23.1
+        "rushYPG": 118.5,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022095_DEN_2003",
       "name": "Quentin Griffin",
       "position": "RB",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 71,
       "stats": {
-        "rushYPG": 40.5,
-        "tdPerGame": 0.0,
+        "recYPG": 7.9,
         "rushAttPerGame": 10.0,
-        "recYPG": 7.9
+        "rushYPG": 40.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004811_DEN_2003",
       "name": "J.Elam",
       "position": "K",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 36.6,
         "avgMissDistance": 42.4,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2003",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.88,
+        "normalizedRank": 4,
         "rushTDPct": 0.0351,
-        "normalizedRank": 4
+        "rushYPC": 4.88,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2003",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 100.31,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0727,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.0727
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2003",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2003,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5354,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 176.75,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 0.56,
-        "normalizedRank": 6
+        "normalizedRank": 6,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 176.75,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2003
     }
   ]
 }

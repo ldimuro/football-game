@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4232,
       "id": "p_00-0022942_IND_2020",
       "name": "Philip Rivers",
       "position": "QB",
-      "team": "IND",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "passYPG": 263.4,
-        "qbr": 100,
-        "avgTDPerGame": 1.529,
         "avgINTPerGame": 0.647,
-        "completionPct": 0.6723
+        "avgTDPerGame": 1.529,
+        "completionPct": 0.6723,
+        "passYPG": 263.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.4232
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029608_IND_2020",
       "name": "T.Y. Hilton",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "recYPG": 49.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.62,
         "avgTargetsPerGame": 6.12,
-        "avgCatchesPerGame": 3.62
+        "recYPG": 49.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030181_IND_2020",
       "name": "Jack Doyle",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 2.14,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 2.14
+        "recYPG": 22.9,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030710_IND_2020",
       "name": "Trey Burton",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 71,
       "stats": {
-        "recYPG": 23.7,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.58,
         "avgTargetsPerGame": 4.17,
-        "avgCatchesPerGame": 2.58
+        "recYPG": 23.7,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032980_IND_2020",
       "name": "Marcus Johnson",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 67,
       "stats": {
-        "recYPG": 31.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 31.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033217_IND_2020",
       "name": "Mo Alie-Cox",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 2.87,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 28.4,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033251_IND_2020",
       "name": "Zach Pascal",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 80,
       "stats": {
-        "recYPG": 39.2,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 2.76,
         "avgTargetsPerGame": 4.47,
-        "avgCatchesPerGame": 2.76
+        "recYPG": 39.2,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034367_IND_2020",
       "name": "Nyheim Miller-Hines",
       "position": "RB",
-      "team": "IND",
-      "year": 2020,
+      "rating": 75,
       "stats": {
-        "rushYPG": 26.8,
-        "tdPerGame": 0.176,
+        "recYPG": 28.8,
         "rushAttPerGame": 5.59,
-        "recYPG": 28.8
+        "rushYPG": 26.8,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034400_IND_2020",
       "name": "Jordan Wilkins",
       "position": "RB",
-      "team": "IND",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "rushYPG": 25.7,
-        "tdPerGame": 0.083,
+        "recYPG": 8.8,
         "rushAttPerGame": 7.0,
-        "recYPG": 8.8
+        "rushYPG": 25.7,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036223_IND_2020",
       "name": "Jonathan Taylor",
       "position": "RB",
-      "team": "IND",
-      "year": 2020,
+      "rating": 95,
       "stats": {
-        "rushYPG": 77.9,
-        "tdPerGame": 0.75,
+        "recYPG": 19.1,
         "rushAttPerGame": 15.81,
-        "recYPG": 19.1
+        "rushYPG": 77.9,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036252_IND_2020",
       "name": "Michael Pittman",
       "position": "WR",
-      "team": "IND",
-      "year": 2020,
+      "rating": 75,
       "stats": {
-        "recYPG": 42.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 3.21,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 3.21
+        "recYPG": 42.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035849_IND_2020",
       "name": "R.Blankenship",
       "position": "K",
-      "team": "IND",
-      "year": 2020,
+      "rating": 71,
       "stats": {
-        "fgAccuracy": 0.8462,
         "avgKickDistance": 35.6,
         "avgMissDistance": 43.2,
+        "fgAccuracy": 0.8462,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_OLine_2020",
       "position": "OLine",
-      "team": "IND",
-      "year": 2020,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.42,
+        "normalizedRank": 14,
         "rushTDPct": 0.0429,
-        "normalizedRank": 14
+        "rushYPC": 4.42,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_DLine_2020",
       "position": "DLine",
-      "team": "IND",
-      "year": 2020,
+      "rating": 91,
       "stats": {
+        "blitzPct": 0.171,
+        "normalizedRank": 2,
+        "pressurePct": 0.233,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 90.5,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0712,
-        "blitzPct": 0.171,
-        "pressurePct": 0.233,
-        "normalizedRank": 2
+        "sackPct": 0.0712
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_Secondary_2020",
       "position": "Secondary",
-      "team": "IND",
-      "year": 2020,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6566,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 241.62,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 241.62,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2020
     }
   ]
 }

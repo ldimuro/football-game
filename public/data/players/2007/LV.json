@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1937,
       "id": "p_00-0003739_LV_2007",
       "name": "Daunte Culpepper",
       "position": "QB",
-      "team": "LV",
-      "year": 2007,
+      "rating": 78,
       "stats": {
-        "passYPG": 190.3,
-        "qbr": 50.6,
-        "avgTDPerGame": 0.714,
         "avgINTPerGame": 0.714,
-        "completionPct": 0.5838
+        "avgTDPerGame": 0.714,
+        "completionPct": 0.5838,
+        "passYPG": 190.3,
+        "qbr": 50.6
       },
-      "eraNormFactor": 1.1937
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019703_LV_2007",
       "name": "Jerry Porter",
       "position": "WR",
-      "team": "LV",
-      "year": 2007,
+      "rating": 80,
       "stats": {
-        "recYPG": 44.1,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 2.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.75
+        "recYPG": 44.1,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019863_LV_2007",
       "name": "Dominic Rhodes",
       "position": "RB",
-      "team": "LV",
-      "year": 2007,
+      "rating": 75,
       "stats": {
-        "rushYPG": 50.3,
-        "tdPerGame": 0.167,
+        "recYPG": 11.7,
         "rushAttPerGame": 12.5,
-        "recYPG": 11.7
+        "rushYPG": 50.3,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020462_LV_2007",
       "name": "LaMont Jordan",
       "position": "RB",
-      "team": "LV",
-      "year": 2007,
+      "rating": 82,
       "stats": {
-        "rushYPG": 49.9,
-        "tdPerGame": 0.273,
+        "recYPG": 22.5,
         "rushAttPerGame": 13.09,
-        "recYPG": 22.5
+        "rushYPG": 49.9,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 0.8023,
       "id": "p_00-0021206_LV_2007",
       "name": "Josh McCown",
       "position": "QB",
-      "team": "LV",
-      "year": 2007,
+      "rating": 67,
       "stats": {
-        "passYPG": 127.9,
-        "qbr": 23.5,
-        "avgTDPerGame": 1.111,
         "avgINTPerGame": 1.222,
-        "completionPct": 0.5812
+        "avgTDPerGame": 1.111,
+        "completionPct": 0.5812,
+        "passYPG": 127.9,
+        "qbr": 23.5
       },
-      "eraNormFactor": 0.8023
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021337_LV_2007",
       "name": "Ronald Curry",
       "position": "WR",
-      "team": "LV",
-      "year": 2007,
+      "rating": 79,
       "stats": {
-        "recYPG": 44.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 44.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022093_LV_2007",
       "name": "Justin Fargas",
       "position": "RB",
-      "team": "LV",
-      "year": 2007,
+      "rating": 85,
       "stats": {
-        "rushYPG": 72.1,
-        "tdPerGame": 0.286,
+        "recYPG": 13.4,
         "rushAttPerGame": 15.86,
-        "recYPG": 13.4
+        "rushYPG": 72.1,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025425_LV_2007",
       "name": "Zach Miller",
       "position": "WR",
-      "team": "LV",
-      "year": 2007,
+      "rating": 70,
       "stats": {
-        "recYPG": 29.6,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 29.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019646_LV_2007",
       "name": "S.Janikowski",
       "position": "K",
-      "team": "LV",
-      "year": 2007,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.7188,
         "avgKickDistance": 43.2,
         "avgMissDistance": 50.6,
+        "fgAccuracy": 0.7188,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_OLine_2007",
       "position": "OLine",
-      "team": "LV",
-      "year": 2007,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.14,
+        "normalizedRank": 10,
         "rushTDPct": 0.0217,
-        "normalizedRank": 10
+        "rushYPC": 4.14,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_DLine_2007",
       "position": "DLine",
-      "team": "LV",
-      "year": 2007,
+      "rating": 62,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 31,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.5,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 145.88,
-        "rushTDPerGameAllowed": 1.5,
-        "sackPct": 0.0615,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 31
+        "sackPct": 0.0615
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_Secondary_2007",
       "position": "Secondary",
-      "team": "LV",
-      "year": 2007,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.5945,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 195.75,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 8
+        "normalizedRank": 8,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 195.75,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2007
     }
   ]
 }

@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2015",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2015,
+      "rating": 84,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 20,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 113.75,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0687,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 20
+        "sackPct": 0.0687
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2015
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2015",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2015,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6683,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 254.06,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 254.06,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2015
     }
   ]
 }

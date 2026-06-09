@@ -1,179 +1,191 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.377,
       "id": "p_00-0022803_NYG_2018",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 79,
       "stats": {
-        "passYPG": 268.7,
-        "qbr": 67.4,
-        "avgTDPerGame": 1.312,
         "avgINTPerGame": 0.688,
-        "completionPct": 0.6597
+        "avgTDPerGame": 1.312,
+        "completionPct": 0.6597,
+        "passYPG": 268.7,
+        "qbr": 67.4
       },
-      "eraNormFactor": 1.377
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029587_NYG_2018",
       "name": "Rhett Ellison",
       "position": "WR",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 64,
       "stats": {
-        "recYPG": 20.9,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 2.62,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 20.9,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030670_NYG_2018",
       "name": "Bennie Fowler",
       "position": "WR",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 64,
       "stats": {
-        "recYPG": 19.9,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.6,
         "avgTargetsPerGame": 2.7,
-        "avgCatchesPerGame": 1.6
+        "recYPG": 19.9,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031235_NYG_2018",
       "name": "Odell Beckham",
       "position": "WR",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 97,
       "stats": {
-        "recYPG": 87.7,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 6.42,
         "avgTargetsPerGame": 10.33,
-        "avgCatchesPerGame": 6.42
+        "recYPG": 87.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032385_NYG_2018",
       "name": "Sterling Shepard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 87,
       "stats": {
-        "recYPG": 54.5,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 6.69,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 54.5,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033881_NYG_2018",
       "name": "Evan Engram",
       "position": "WR",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 87,
       "stats": {
-        "recYPG": 52.5,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 4.09,
         "avgTargetsPerGame": 5.82,
-        "avgCatchesPerGame": 4.09
+        "recYPG": 52.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033950_NYG_2018",
       "name": "Wayne Gallman",
       "position": "RB",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 62,
       "stats": {
-        "rushYPG": 13.5,
-        "tdPerGame": 0.077,
+        "recYPG": 6.8,
         "rushAttPerGame": 3.92,
-        "recYPG": 6.8
+        "rushYPG": 13.5,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034844_NYG_2018",
+      "is_all_pro": true,
       "name": "Saquon Barkley",
       "position": "RB",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 97,
       "stats": {
-        "rushYPG": 81.7,
-        "tdPerGame": 0.688,
+        "recYPG": 45.1,
         "rushAttPerGame": 16.31,
-        "recYPG": 45.1
+        "rushYPG": 81.7,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032870_NYG_2018",
+      "is_all_pro": true,
       "name": "A.Rosas",
       "position": "K",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.9697,
         "avgKickDistance": 36.2,
         "avgMissDistance": 52.0,
+        "fgAccuracy": 0.9697,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NYG",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2018",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.66,
+        "normalizedRank": 9,
         "rushTDPct": 0.0367,
-        "normalizedRank": 9
+        "rushYPC": 4.66,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2018",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 69,
       "stats": {
+        "blitzPct": 0.279,
+        "normalizedRank": 20,
+        "pressurePct": 0.245,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 118.62,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0536,
-        "blitzPct": 0.279,
-        "pressurePct": 0.245,
-        "normalizedRank": 20
+        "sackPct": 0.0536
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2018",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2018,
+      "rating": 76,
       "stats": {
         "completionPctAllowed": 0.6464,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 252.75,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 252.75,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2018
     }
   ]
 }

@@ -1,233 +1,249 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031260_WAS_2023",
       "name": "Logan Thomas",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "recYPG": 31.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 4.88,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 31.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031941_WAS_2023",
       "name": "Jamison Crowder",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "recYPG": 22.7,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": 2.86,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 22.7,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033282_WAS_2023",
       "name": "Curtis Samuel",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 85,
       "stats": {
-        "recYPG": 38.3,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.88,
         "avgTargetsPerGame": 5.69,
-        "avgCatchesPerGame": 3.88
+        "recYPG": 38.3,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034297_WAS_2023",
       "name": "Byron Pringle",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 59,
       "stats": {
-        "recYPG": 13.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.17,
         "avgTargetsPerGame": 1.83,
-        "avgCatchesPerGame": 1.17
+        "recYPG": 13.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035659_WAS_2023",
       "name": "Terry McLaurin",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 90,
       "stats": {
-        "recYPG": 58.9,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 4.65,
         "avgTargetsPerGame": 7.76,
-        "avgCatchesPerGame": 4.65
+        "recYPG": 58.9,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036328_WAS_2023",
       "name": "Antonio Gibson",
       "position": "RB",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 69,
       "stats": {
-        "rushYPG": 16.6,
-        "tdPerGame": 0.062,
+        "recYPG": 24.3,
         "rushAttPerGame": 4.06,
-        "recYPG": 24.3
+        "rushYPG": 16.6,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036626_WAS_2023",
       "name": "Dyami Brown",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 61,
       "stats": {
-        "recYPG": 12.9,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 0.92,
         "avgTargetsPerGame": 1.77,
-        "avgCatchesPerGame": 0.92
+        "recYPG": 12.9,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036628_WAS_2023",
       "name": "John Bates",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 58,
       "stats": {
-        "recYPG": 10.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.36,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.36
+        "recYPG": 10.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.2933,
       "id": "p_00-0037077_WAS_2023",
       "name": "Sam Howell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "passYPG": 232.1,
-        "qbr": 0,
-        "avgTDPerGame": 1.235,
         "avgINTPerGame": 1.235,
-        "completionPct": 0.634
+        "avgTDPerGame": 1.235,
+        "completionPct": 0.634,
+        "passYPG": 232.1,
+        "qbr": 0
       },
-      "eraNormFactor": 1.2933
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037741_WAS_2023",
       "name": "Jahan Dotson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 80,
       "stats": {
-        "recYPG": 30.5,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 4.88,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 30.5,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037746_WAS_2023",
       "name": "Brian Robinson",
       "position": "RB",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 86,
       "stats": {
-        "rushYPG": 48.9,
-        "tdPerGame": 0.333,
+        "recYPG": 24.5,
         "rushAttPerGame": 11.87,
-        "recYPG": 24.5
+        "rushYPG": 48.9,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038611_WAS_2023",
       "name": "Chris Rodriguez Jr.",
       "position": "RB",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "rushYPG": 30.9,
-        "tdPerGame": 0.25,
+        "recYPG": 1.5,
         "rushAttPerGame": 6.38,
-        "recYPG": 1.5
+        "rushYPG": 30.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035192_WAS_2023",
       "name": "J.Slye",
       "position": "K",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.7917,
         "avgKickDistance": 41.8,
         "avgMissDistance": 46.8,
+        "fgAccuracy": 0.7917,
         "longestMadeKick": 61
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2023",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.43,
+        "normalizedRank": 7,
         "rushTDPct": 0.039,
-        "normalizedRank": 7
+        "rushYPC": 4.43,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2023",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 66,
       "stats": {
+        "blitzPct": 0.26,
+        "normalizedRank": 27,
+        "pressurePct": 0.168,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 126.76,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0652,
-        "blitzPct": 0.26,
-        "pressurePct": 0.168,
-        "normalizedRank": 27
+        "sackPct": 0.0652
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2023",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2023,
+      "rating": 61,
       "stats": {
         "completionPctAllowed": 0.6622,
-        "yardsPerAttemptAllowed": 7.0,
-        "passYPGAllowed": 262.18,
-        "passTDPerGameAllowed": 2.29,
         "interceptionsPerGame": 0.47,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 2.29,
+        "passYPGAllowed": 262.18,
+        "yardsPerAttemptAllowed": 7.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2023
     }
   ]
 }

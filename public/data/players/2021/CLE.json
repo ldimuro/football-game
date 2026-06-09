@@ -1,234 +1,250 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031235_CLE_2021",
       "name": "Odell Beckham",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "recYPG": 45.8,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 3.61,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 3.61
+        "recYPG": 45.8,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031382_CLE_2021",
       "name": "Jarvis Landry",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 84,
       "stats": {
-        "recYPG": 47.5,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 4.33,
         "avgTargetsPerGame": 7.25,
-        "avgCatchesPerGame": 4.33
+        "recYPG": 47.5,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032392_CLE_2021",
       "name": "Austin Hooper",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 73,
       "stats": {
-        "recYPG": 23.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 4.07,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 23.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032977_CLE_2021",
       "name": "Rashard Higgins",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 68,
       "stats": {
-        "recYPG": 22.9,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.92,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 22.9,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033885_CLE_2021",
       "name": "David Njoku",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 77,
       "stats": {
-        "recYPG": 31.7,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": 3.53,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 31.7,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033923_CLE_2021",
       "name": "Kareem Hunt",
       "position": "RB",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "rushYPG": 48.2,
-        "tdPerGame": 0.625,
+        "recYPG": 21.8,
         "rushAttPerGame": 9.75,
-        "recYPG": 21.8
+        "rushYPG": 48.2,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034791_CLE_2021",
+      "is_all_pro": true,
       "name": "Nick Chubb",
       "position": "RB",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 92,
       "stats": {
-        "rushYPG": 89.9,
-        "tdPerGame": 0.571,
+        "recYPG": 12.4,
         "rushAttPerGame": 16.29,
-        "recYPG": 12.4
+        "rushYPG": 89.9,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.2242,
       "id": "p_00-0034855_CLE_2021",
       "name": "Baker Mayfield",
       "position": "QB",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 73,
       "stats": {
-        "passYPG": 215.0,
-        "qbr": 45.3,
-        "avgTDPerGame": 1.214,
         "avgINTPerGame": 0.929,
-        "completionPct": 0.6053
+        "avgTDPerGame": 1.214,
+        "completionPct": 0.6053,
+        "passYPG": 215.0,
+        "qbr": 45.3
       },
-      "eraNormFactor": 1.2242
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035628_CLE_2021",
       "name": "D'Ernest Johnson",
       "position": "RB",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 77,
       "stats": {
-        "rushYPG": 44.5,
-        "tdPerGame": 0.25,
+        "recYPG": 11.4,
         "rushAttPerGame": 8.33,
-        "recYPG": 11.4
+        "rushYPG": 44.5,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036232_CLE_2021",
       "name": "Harrison Bryant",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 66,
       "stats": {
-        "recYPG": 17.9,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": 2.15,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 17.9,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036233_CLE_2021",
       "name": "Donovan Peoples-Jones",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 82,
       "stats": {
-        "recYPG": 45.9,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 4.46,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 45.9,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036999_CLE_2021",
       "name": "Anthony Schwartz",
       "position": "WR",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 59,
       "stats": {
-        "recYPG": 11.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 0.83,
         "avgTargetsPerGame": 1.92,
-        "avgCatchesPerGame": 0.83
+        "recYPG": 11.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035358_CLE_2021",
       "name": "C.McLaughlin",
       "position": "K",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.7273,
         "avgKickDistance": 41.0,
         "avgMissDistance": 44.3,
+        "fgAccuracy": 0.7273,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2021",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 87,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.09,
+        "normalizedRank": 1,
         "rushTDPct": 0.0412,
-        "normalizedRank": 1
+        "rushYPC": 5.09,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2021",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 86,
       "stats": {
+        "blitzPct": 0.221,
+        "normalizedRank": 12,
+        "pressurePct": 0.242,
+        "rushTDPerGameAllowed": 0.76,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 109.24,
-        "rushTDPerGameAllowed": 0.76,
-        "sackPct": 0.0747,
-        "blitzPct": 0.221,
-        "pressurePct": 0.242,
-        "normalizedRank": 12
+        "sackPct": 0.0747
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2021",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2021,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.6372,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 202.29,
-        "passTDPerGameAllowed": 1.71,
         "interceptionsPerGame": 0.76,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 1.71,
+        "passYPGAllowed": 202.29,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2021
     }
   ]
 }

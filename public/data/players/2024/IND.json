@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.4961,
       "id": "p_00-0026158_IND_2024",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "IND",
-      "year": 2024,
+      "rating": 83,
       "stats": {
-        "passYPG": 251.6,
-        "qbr": 54.3,
-        "avgTDPerGame": 1.714,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6532
+        "avgTDPerGame": 1.714,
+        "completionPct": 0.6532,
+        "passYPG": 251.6,
+        "qbr": 54.3
       },
-      "eraNormFactor": 1.4961
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033217_IND_2024",
       "name": "Mo Alie-Cox",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 59,
       "stats": {
-        "recYPG": 12.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 1.83,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 12.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036223_IND_2024",
       "name": "Jonathan Taylor",
       "position": "RB",
-      "team": "IND",
-      "year": 2024,
+      "rating": 93,
       "stats": {
-        "rushYPG": 102.2,
-        "tdPerGame": 0.786,
+        "recYPG": 9.7,
         "rushAttPerGame": 21.64,
-        "recYPG": 9.7
+        "rushYPG": 102.2,
+        "tdPerGame": 0.786
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036252_IND_2024",
       "name": "Michael Pittman",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 85,
       "stats": {
-        "recYPG": 50.5,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 6.94,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 50.5,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036876_IND_2024",
       "name": "Kylen Granson",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 58,
       "stats": {
-        "recYPG": 13.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 2.21,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036984_IND_2024",
       "name": "Trey Sermon",
       "position": "RB",
-      "team": "IND",
-      "year": 2024,
+      "rating": 64,
       "stats": {
-        "rushYPG": 11.4,
-        "tdPerGame": 0.143,
+        "recYPG": 7.1,
         "rushAttPerGame": 4.0,
-        "recYPG": 7.1
+        "rushYPG": 11.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037120_IND_2024",
       "name": "Tyler Goodson",
       "position": "RB",
-      "team": "IND",
-      "year": 2024,
+      "rating": 64,
       "stats": {
-        "rushYPG": 17.0,
-        "tdPerGame": 0.111,
+        "recYPG": 6.8,
         "rushAttPerGame": 3.56,
-        "recYPG": 6.8
+        "rushYPG": 17.0,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037664_IND_2024",
       "name": "Alec Pierce",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 86,
       "stats": {
-        "recYPG": 51.5,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 2.31,
         "avgTargetsPerGame": 4.31,
-        "avgCatchesPerGame": 2.31
+        "recYPG": 51.5,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038997_IND_2024",
       "name": "Josh Downs",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 91,
       "stats": {
-        "recYPG": 57.4,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 5.14,
         "avgTargetsPerGame": 7.64,
-        "avgCatchesPerGame": 5.14
+        "recYPG": 57.4,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 0.9806,
       "id": "p_00-0039164_IND_2024",
       "name": "Anthony Richardson",
       "position": "QB",
-      "team": "IND",
-      "year": 2024,
+      "rating": 62,
       "stats": {
-        "passYPG": 164.9,
-        "qbr": 15.3,
-        "avgTDPerGame": 0.727,
         "avgINTPerGame": 1.091,
-        "completionPct": 0.4773
+        "avgTDPerGame": 0.727,
+        "completionPct": 0.4773,
+        "passYPG": 164.9,
+        "qbr": 15.3
       },
-      "eraNormFactor": 0.9806
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039890_IND_2024",
       "name": "Adonai Mitchell",
       "position": "WR",
-      "team": "IND",
-      "year": 2024,
+      "rating": 61,
       "stats": {
-        "recYPG": 18.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.35,
         "avgTargetsPerGame": 3.24,
-        "avgCatchesPerGame": 1.35
+        "recYPG": 18.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035269_IND_2024",
       "name": "M.Gay",
       "position": "K",
-      "team": "IND",
-      "year": 2024,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8378,
         "avgKickDistance": 39.1,
         "avgMissDistance": 52.8,
+        "fgAccuracy": 0.8378,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_OLine_2024",
       "position": "OLine",
-      "team": "IND",
-      "year": 2024,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.67,
+        "normalizedRank": 9,
         "rushTDPct": 0.0403,
-        "normalizedRank": 9
+        "rushYPC": 4.67,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_DLine_2024",
       "position": "DLine",
-      "team": "IND",
-      "year": 2024,
+      "rating": 75,
       "stats": {
+        "blitzPct": 0.175,
+        "normalizedRank": 24,
+        "pressurePct": 0.208,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 131.82,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0661,
-        "blitzPct": 0.175,
-        "pressurePct": 0.208,
-        "normalizedRank": 24
+        "sackPct": 0.0661
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_Secondary_2024",
       "position": "Secondary",
-      "team": "IND",
-      "year": 2024,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6936,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 229.35,
-        "passTDPerGameAllowed": 1.59,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.59,
+        "passYPGAllowed": 229.35,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2024
     }
   ]
 }

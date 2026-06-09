@@ -1,64 +1,68 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029621_LA_2016",
       "name": "G.Zuerlein",
       "position": "K",
-      "team": "LA",
-      "year": 2016,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.8636,
         "avgKickDistance": 38.7,
         "avgMissDistance": 52.7,
+        "fgAccuracy": 0.8636,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2016",
       "position": "OLine",
-      "team": "LA",
-      "year": 2016,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.34,
+        "normalizedRank": 31,
         "rushTDPct": 0.024,
-        "normalizedRank": 31
+        "rushYPC": 3.34,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_DLine_2016",
       "position": "DLine",
-      "team": "LA",
-      "year": 2016,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 16,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 103.75,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0533,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 16
+        "sackPct": 0.0533
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_Secondary_2016",
       "position": "Secondary",
-      "team": "LA",
-      "year": 2016,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6495,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 233.25,
-        "passTDPerGameAllowed": 2.0,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 2.0,
+        "passYPGAllowed": 233.25,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2016
     }
   ]
 }

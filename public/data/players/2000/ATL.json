@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000316_ATL_2000",
       "name": "Jamal Anderson",
       "position": "RB",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "rushYPG": 63.3,
-        "tdPerGame": 0.375,
+        "recYPG": 23.4,
         "rushAttPerGame": 17.5,
-        "recYPG": 23.4
+        "rushYPG": 63.3,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002876_ATL_2000",
       "name": "Chris Chandler",
       "position": "QB",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 68,
       "stats": {
-        "passYPG": 159.1,
-        "qbr": 7.2,
-        "avgTDPerGame": 0.714,
         "avgINTPerGame": 0.857,
-        "completionPct": 0.5793
+        "avgTDPerGame": 0.714,
+        "completionPct": 0.5793,
+        "passYPG": 159.1,
+        "qbr": 7.2
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004673_ATL_2000",
       "name": "Tim Dwight",
       "position": "WR",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 78,
       "stats": {
-        "recYPG": 30.9,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 30.9,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008313_ATL_2000",
       "name": "Shawn Jefferson",
       "position": "WR",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 86,
       "stats": {
-        "recYPG": 54.8,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 6.87,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 54.8,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 0.6361,
       "id": "p_00-0009007_ATL_2000",
       "name": "Danny Kanell",
       "position": "QB",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 60,
       "stats": {
-        "passYPG": 101.2,
-        "qbr": 0,
-        "avgTDPerGame": 0.4,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.4825
+        "avgTDPerGame": 0.4,
+        "completionPct": 0.4825,
+        "passYPG": 101.2,
+        "qbr": 0
       },
-      "eraNormFactor": 0.6361
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009119_ATL_2000",
       "name": "Reggie Kelly",
       "position": "WR",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 71,
       "stats": {
-        "recYPG": 22.7,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 22.7,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009443_ATL_2000",
       "name": "Brian Kozlowski",
       "position": "WR",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 63,
       "stats": {
-        "recYPG": 11.6,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.15,
         "avgTargetsPerGame": 1.92,
-        "avgCatchesPerGame": 1.15
+        "recYPG": 11.6,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010539_ATL_2000",
       "name": "Terance Mathis",
       "position": "WR",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 87,
       "stats": {
-        "recYPG": 41.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 7.75,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 41.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000282_ATL_2000",
       "name": "M.Andersen",
       "position": "K",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.8065,
         "avgKickDistance": 38.9,
         "avgMissDistance": 43.8,
+        "fgAccuracy": 0.8065,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2000",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 67,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.42,
+        "normalizedRank": 27,
         "rushTDPct": 0.0173,
-        "normalizedRank": 27
+        "rushYPC": 3.42,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2000",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 65,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 123.94,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0602,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0602
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2000",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2000,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.5942,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 226.5,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 226.5,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2000
     }
   ]
 }

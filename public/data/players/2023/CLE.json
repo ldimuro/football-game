@@ -1,278 +1,297 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.7859,
       "id": "p_00-0026158_CLE_2023",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 83,
       "stats": {
-        "passYPG": 320.5,
-        "qbr": 17.7,
-        "avgTDPerGame": 2.333,
         "avgINTPerGame": 1.667,
-        "completionPct": 0.628
+        "avgTDPerGame": 2.333,
+        "completionPct": 0.628,
+        "passYPG": 320.5,
+        "qbr": 17.7
       },
-      "eraNormFactor": 1.7859
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031544_CLE_2023",
       "name": "Amari Cooper",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "recYPG": 81.8,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.75,
         "avgTargetsPerGame": 8.31,
-        "avgCatchesPerGame": 4.75
+        "recYPG": 81.8,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 0.7511,
       "id": "p_00-0033275_CLE_2023",
       "name": "P.J. Walker",
       "position": "QB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 60,
       "stats": {
-        "passYPG": 134.8,
-        "qbr": 0,
-        "avgTDPerGame": 0.2,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.4865
+        "avgTDPerGame": 0.2,
+        "completionPct": 0.4865,
+        "passYPG": 134.8,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7511
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0353,
       "id": "p_00-0033537_CLE_2023",
       "name": "Deshaun Watson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "passYPG": 185.8,
-        "qbr": 18.4,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 0.667,
-        "completionPct": 0.614
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.614,
+        "passYPG": 185.8,
+        "qbr": 18.4
       },
-      "eraNormFactor": 1.0353
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033885_CLE_2023",
       "name": "David Njoku",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 92,
       "stats": {
-        "recYPG": 57.4,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 5.18,
         "avgTargetsPerGame": 7.88,
-        "avgCatchesPerGame": 5.18
+        "recYPG": 57.4,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033923_CLE_2023",
       "name": "Kareem Hunt",
       "position": "RB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 78,
       "stats": {
-        "rushYPG": 27.3,
-        "tdPerGame": 0.625,
+        "recYPG": 5.8,
         "rushAttPerGame": 8.94,
-        "recYPG": 5.8
+        "rushYPG": 27.3,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034364_CLE_2023",
       "name": "Jordan Akins",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 57,
       "stats": {
-        "recYPG": 10.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.15,
         "avgTargetsPerGame": 1.77,
-        "avgCatchesPerGame": 1.15
+        "recYPG": 10.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036232_CLE_2023",
       "name": "Harrison Bryant",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 64,
       "stats": {
-        "recYPG": 10.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.21,
         "avgTargetsPerGame": 1.86,
-        "avgCatchesPerGame": 1.21
+        "recYPG": 10.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036233_CLE_2023",
       "name": "Donovan Peoples-Jones",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 59,
       "stats": {
-        "recYPG": 12.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.08,
         "avgTargetsPerGame": 2.08,
-        "avgCatchesPerGame": 1.08
+        "recYPG": 12.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036980_CLE_2023",
       "name": "Elijah Moore",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 81,
       "stats": {
-        "recYPG": 38.4,
-        "tdPerGame": 0.118,
+        "avgCatchesPerGame": 3.59,
         "avgTargetsPerGame": 6.24,
-        "avgCatchesPerGame": 3.59
+        "recYPG": 38.4,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037257_CLE_2023",
       "name": "David Bell",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 75,
       "stats": {
-        "recYPG": 22.1,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 2.2,
         "avgTargetsPerGame": 3.1,
-        "avgCatchesPerGame": 2.2
+        "recYPG": 22.1,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037267_CLE_2023",
       "name": "Jerome Ford",
       "position": "RB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "rushYPG": 46.1,
-        "tdPerGame": 0.222,
+        "recYPG": 18.6,
         "rushAttPerGame": 11.83,
-        "recYPG": 18.6
+        "rushYPG": 46.1,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038098_CLE_2023",
       "name": "Pierre Strong",
       "position": "RB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "rushYPG": 22.4,
-        "tdPerGame": 0.077,
+        "recYPG": 3.6,
         "rushAttPerGame": 4.85,
-        "recYPG": 3.6
+        "rushYPG": 22.4,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 0.3505,
       "id": "p_00-0038583_CLE_2023",
       "name": "Dorian Thompson-Robinson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 63,
       "stats": {
-        "passYPG": 62.9,
-        "qbr": 0,
-        "avgTDPerGame": 0.143,
         "avgINTPerGame": 0.571,
-        "completionPct": 0.5357
+        "avgTDPerGame": 0.143,
+        "completionPct": 0.5357,
+        "passYPG": 62.9,
+        "qbr": 0
       },
-      "eraNormFactor": 0.3505
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038979_CLE_2023",
       "name": "Cedric Tillman",
       "position": "WR",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 66,
       "stats": {
-        "recYPG": 20.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 20.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030098_CLE_2023",
       "name": "D.Hopkins",
       "position": "K",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.9189,
         "avgKickDistance": 39.9,
         "avgMissDistance": 46.0,
+        "fgAccuracy": 0.9189,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2023",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.85,
+        "normalizedRank": 26,
         "rushTDPct": 0.0297,
-        "normalizedRank": 26
+        "rushYPC": 3.85,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2023",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 82,
       "stats": {
+        "blitzPct": 0.277,
+        "normalizedRank": 11,
+        "pressurePct": 0.238,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 105.47,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0916,
-        "blitzPct": 0.277,
-        "pressurePct": 0.238,
-        "normalizedRank": 11
+        "sackPct": 0.0916
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2023",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2023,
+      "rating": 93,
       "stats": {
         "completionPctAllowed": 0.5738,
-        "yardsPerAttemptAllowed": 4.8,
-        "passYPGAllowed": 164.71,
-        "passTDPerGameAllowed": 1.35,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.35,
+        "passYPGAllowed": 164.71,
+        "yardsPerAttemptAllowed": 4.8
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2023
     }
   ]
 }

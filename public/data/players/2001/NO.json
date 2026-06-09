@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3559,
       "id": "p_00-0001823_NO_2001",
       "name": "Aaron Brooks",
       "position": "QB",
-      "team": "NO",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "passYPG": 239.5,
-        "qbr": 56.6,
-        "avgTDPerGame": 1.625,
         "avgINTPerGame": 1.375,
-        "completionPct": 0.5591
+        "avgTDPerGame": 1.625,
+        "completionPct": 0.5591,
+        "passYPG": 239.5,
+        "qbr": 56.6
       },
-      "eraNormFactor": 1.3559
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003103_NO_2001",
       "name": "Cameron Cleeland",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "recYPG": 17.2,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 1.62,
         "avgTargetsPerGame": 2.75,
-        "avgCatchesPerGame": 1.62
+        "recYPG": 17.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003378_NO_2001",
       "name": "Albert Connell",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 67,
       "stats": {
-        "recYPG": 17.4,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 1.09,
         "avgTargetsPerGame": 2.55,
-        "avgCatchesPerGame": 1.09
+        "recYPG": 17.4,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007744_NO_2001",
       "name": "Joe Horn",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 98,
       "stats": {
-        "recYPG": 79.1,
-        "tdPerGame": 0.562,
+        "avgCatchesPerGame": 5.19,
         "avgTargetsPerGame": 9.75,
-        "avgCatchesPerGame": 5.19
+        "recYPG": 79.1,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008210_NO_2001",
       "name": "Willie Jackson",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 93,
       "stats": {
-        "recYPG": 65.4,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.06,
         "avgTargetsPerGame": 8.44,
-        "avgCatchesPerGame": 5.06
+        "recYPG": 65.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_NO_2001",
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "NO",
-      "year": 2001,
+      "rating": 92,
       "stats": {
-        "rushYPG": 77.8,
-        "tdPerGame": 0.375,
+        "recYPG": 31.9,
         "rushAttPerGame": 19.56,
-        "recYPG": 31.9
+        "rushYPG": 77.8,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018056_NO_2001",
       "name": "Robert Wilson",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 3.17,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 23.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020171_NO_2001",
       "name": "Boo Williams",
       "position": "WR",
-      "team": "NO",
-      "year": 2001,
+      "rating": 75,
       "stats": {
-        "recYPG": 20.2,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 4.2,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 20.2,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002655_NO_2001",
       "name": "J.Carney",
       "position": "K",
-      "team": "NO",
-      "year": 2001,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 36.3,
         "avgMissDistance": 45.2,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2001",
       "position": "OLine",
-      "team": "NO",
-      "year": 2001,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.09,
+        "normalizedRank": 15,
         "rushTDPct": 0.0191,
-        "normalizedRank": 15
+        "rushYPC": 4.09,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2001",
       "position": "DLine",
-      "team": "NO",
-      "year": 2001,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 107.19,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.1173,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.1173
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2001",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2001,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.615,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 209.69,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 17
+        "normalizedRank": 17,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 209.69,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2001
     }
   ]
 }

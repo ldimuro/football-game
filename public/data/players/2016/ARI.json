@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3865,
       "id": "p_00-0021429_ARI_2016",
       "name": "Carson Palmer",
       "position": "QB",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 83,
       "stats": {
-        "passYPG": 282.2,
-        "qbr": 73.2,
-        "avgTDPerGame": 1.733,
         "avgINTPerGame": 0.933,
-        "completionPct": 0.6097
+        "avgTDPerGame": 1.733,
+        "completionPct": 0.6097,
+        "passYPG": 282.2,
+        "qbr": 73.2
       },
-      "eraNormFactor": 1.3865
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022921_ARI_2016",
       "name": "Larry Fitzgerald",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 94,
       "stats": {
-        "recYPG": 63.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 6.69,
         "avgTargetsPerGame": 9.38,
-        "avgCatchesPerGame": 6.69
+        "recYPG": 63.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027873_ARI_2016",
       "name": "Jermaine Gresham",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 67,
       "stats": {
-        "recYPG": 24.4,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.31,
         "avgTargetsPerGame": 3.81,
-        "avgCatchesPerGame": 2.31
+        "recYPG": 24.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029638_ARI_2016",
       "name": "Michael Floyd",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 78,
       "stats": {
-        "recYPG": 33.1,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.53,
         "avgTargetsPerGame": 5.27,
-        "avgCatchesPerGame": 2.53
+        "recYPG": 33.1,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030287_ARI_2016",
       "name": "Andre Ellington",
       "position": "RB",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 58,
       "stats": {
-        "rushYPG": 7.4,
-        "tdPerGame": 0.0,
+        "recYPG": 6.5,
         "rushAttPerGame": 2.62,
-        "recYPG": 6.5
+        "rushYPG": 7.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030300_ARI_2016",
       "name": "Jaron Brown",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 70,
       "stats": {
-        "recYPG": 31.2,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": 3.67,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 31.2,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031051_ARI_2016",
       "name": "John Brown",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 74,
       "stats": {
-        "recYPG": 36.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.79,
         "avgTargetsPerGame": 5.21,
-        "avgCatchesPerGame": 2.79
+        "recYPG": 36.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032112_ARI_2016",
       "name": "J.J. Nelson",
       "position": "WR",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 82,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 2.43,
         "avgTargetsPerGame": 5.29,
-        "avgCatchesPerGame": 2.43
+        "recYPG": 40.6,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032187_ARI_2016",
+      "is_all_pro": true,
       "name": "David Johnson",
       "position": "RB",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 98,
       "stats": {
-        "rushYPG": 77.4,
-        "tdPerGame": 1.0,
+        "recYPG": 54.9,
         "rushAttPerGame": 18.31,
-        "recYPG": 54.9
+        "rushYPG": 77.4,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030896_ARI_2016",
       "name": "C.Catanzaro",
       "position": "K",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.75,
         "avgKickDistance": 39.1,
         "avgMissDistance": 44.6,
+        "fgAccuracy": 0.75,
         "longestMadeKick": 60
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2016",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.34,
+        "normalizedRank": 13,
         "rushTDPct": 0.0501,
-        "normalizedRank": 13
+        "rushYPC": 4.34,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2016",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 92,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 9,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 94.88,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0878,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 9
+        "sackPct": 0.0878
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2016",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2016,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.6289,
-        "yardsPerAttemptAllowed": 5.7,
-        "passYPGAllowed": 210.31,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 4
+        "normalizedRank": 4,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 210.31,
+        "yardsPerAttemptAllowed": 5.7
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2016
     }
   ]
 }

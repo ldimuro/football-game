@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.4759,
       "id": "p_00-0022055_CLE_2011",
       "name": "Seneca Wallace",
       "position": "QB",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 66,
       "stats": {
-        "passYPG": 94.5,
-        "qbr": 15.7,
-        "avgTDPerGame": 0.333,
         "avgINTPerGame": 0.333,
-        "completionPct": 0.514
+        "avgTDPerGame": 0.333,
+        "completionPct": 0.514,
+        "passYPG": 94.5,
+        "qbr": 15.7
       },
-      "eraNormFactor": 0.4759
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022943_CLE_2011",
       "name": "Benjamin Watson",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 74,
       "stats": {
-        "recYPG": 31.5,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 2.85,
         "avgTargetsPerGame": 5.46,
-        "avgCatchesPerGame": 2.85
+        "recYPG": 31.5,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023176_CLE_2011",
       "name": "Josh Cribbs",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 77,
       "stats": {
-        "recYPG": 34.5,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 2.73,
         "avgTargetsPerGame": 4.47,
-        "avgCatchesPerGame": 2.73
+        "recYPG": 34.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023506_CLE_2011",
       "name": "Alex Smith",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 60,
       "stats": {
-        "recYPG": 14.6,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 2.78,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 14.6,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026123_CLE_2011",
       "name": "Evan Moore",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 73,
       "stats": {
-        "recYPG": 24.9,
-        "tdPerGame": 0.308,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": 3.62,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 24.9,
+        "tdPerGame": 0.308
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026367_CLE_2011",
       "name": "Peyton Hillis",
       "position": "RB",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 85,
       "stats": {
-        "rushYPG": 58.7,
-        "tdPerGame": 0.3,
+        "recYPG": 13.0,
         "rushAttPerGame": 16.1,
-        "recYPG": 13.0
+        "rushYPG": 58.7,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026739_CLE_2011",
       "name": "Jordan Norwood",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.8,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.3,
         "avgTargetsPerGame": 3.4,
-        "avgCatchesPerGame": 2.3
+        "recYPG": 26.8,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027026_CLE_2011",
       "name": "Mohamed Massaquoi",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 70,
       "stats": {
-        "recYPG": 27.4,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.21,
         "avgTargetsPerGame": 5.29,
-        "avgCatchesPerGame": 2.21
+        "recYPG": 27.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027666_CLE_2011",
       "name": "Montario Hardesty",
       "position": "RB",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 71,
       "stats": {
-        "rushYPG": 29.6,
-        "tdPerGame": 0.0,
+        "recYPG": 13.6,
         "rushAttPerGame": 9.78,
-        "recYPG": 13.6
+        "rushYPG": 29.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0585,
       "id": "p_00-0027688_CLE_2011",
       "name": "Colt McCoy",
       "position": "QB",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 73,
       "stats": {
-        "passYPG": 210.2,
-        "qbr": 23.2,
-        "avgTDPerGame": 1.077,
         "avgINTPerGame": 0.846,
-        "completionPct": 0.5724
+        "avgTDPerGame": 1.077,
+        "completionPct": 0.5724,
+        "passYPG": 210.2,
+        "qbr": 23.2
       },
-      "eraNormFactor": 1.0585
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027997_CLE_2011",
       "name": "Greg Little",
       "position": "WR",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 80,
       "stats": {
-        "recYPG": 44.3,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": 7.56,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 44.3,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2011",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.8276,
         "avgKickDistance": 38.7,
         "avgMissDistance": 37.4,
+        "fgAccuracy": 0.8276,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2011",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 65,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.69,
+        "normalizedRank": 31,
         "rushTDPct": 0.0096,
-        "normalizedRank": 31
+        "rushYPC": 3.69,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2011",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 147.44,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0682,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0682
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2011",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2011,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.565,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 184.94,
-        "passTDPerGameAllowed": 1.0,
         "interceptionsPerGame": 0.56,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 1.0,
+        "passYPGAllowed": 184.94,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2011
     }
   ]
 }

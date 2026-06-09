@@ -1,149 +1,159 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010500_BAL_2008",
       "name": "Derrick Mason",
       "position": "WR",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 90,
       "stats": {
-        "recYPG": 64.6,
-        "tdPerGame": 0.316,
+        "avgCatchesPerGame": 4.84,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.84
+        "recYPG": 64.6,
+        "tdPerGame": 0.316
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020516_BAL_2008",
       "name": "Todd Heap",
       "position": "WR",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 66,
       "stats": {
-        "recYPG": 28.4,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.35,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.35
+        "recYPG": 28.4,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022178_BAL_2008",
       "name": "Willis McGahee",
       "position": "RB",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 84,
       "stats": {
-        "rushYPG": 51.6,
-        "tdPerGame": 0.562,
+        "recYPG": 12.4,
         "rushAttPerGame": 13.06,
-        "recYPG": 12.4
+        "rushYPG": 51.6,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023457_BAL_2008",
       "name": "Mark Clayton",
       "position": "WR",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "recYPG": 40.7,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 2.47,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.47
+        "recYPG": 40.7,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 0.9865,
       "id": "p_00-0026158_BAL_2008",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 70,
       "stats": {
-        "passYPG": 179.4,
-        "qbr": 38.4,
-        "avgTDPerGame": 0.789,
         "avgINTPerGame": 0.789,
-        "completionPct": 0.5765
+        "avgTDPerGame": 0.789,
+        "completionPct": 0.5765,
+        "passYPG": 179.4,
+        "qbr": 38.4
       },
-      "eraNormFactor": 0.9865
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026195_BAL_2008",
       "name": "Ray Rice",
       "position": "RB",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 71,
       "stats": {
-        "rushYPG": 35.1,
-        "tdPerGame": 0.0,
+        "recYPG": 24.3,
         "rushAttPerGame": 8.31,
-        "recYPG": 24.3
+        "rushYPG": 35.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015784_BAL_2008",
       "name": "M.Stover",
       "position": "K",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8205,
         "avgKickDistance": 35.1,
         "avgMissDistance": 46.1,
+        "fgAccuracy": 0.8205,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_OLine_2008",
       "position": "OLine",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.91,
+        "normalizedRank": 25,
         "rushTDPct": 0.0353,
-        "normalizedRank": 25
+        "rushYPC": 3.91,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_DLine_2008",
       "position": "DLine",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 91,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 3,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.25,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 81.38,
-        "rushTDPerGameAllowed": 0.25,
-        "sackPct": 0.0644,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 3
+        "sackPct": 0.0644
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_Secondary_2008",
       "position": "Secondary",
-      "team": "BAL",
-      "year": 2008,
+      "rating": 97,
       "stats": {
         "completionPctAllowed": 0.5227,
-        "yardsPerAttemptAllowed": 5.1,
-        "passYPGAllowed": 179.69,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.62,
-        "normalizedRank": 2
+        "normalizedRank": 2,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 179.69,
+        "yardsPerAttemptAllowed": 5.1
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2008
     }
   ]
 }

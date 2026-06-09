@@ -1,249 +1,266 @@
 {
   "players": [
     {
+      "eraNormFactor": 0.7472,
       "id": "p_00-0028118_NYG_2023",
       "name": "Tyrod Taylor",
       "position": "QB",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "passYPG": 134.1,
-        "qbr": 52.1,
-        "avgTDPerGame": 0.5,
         "avgINTPerGame": 0.3,
-        "completionPct": 0.6444
+        "avgTDPerGame": 0.5,
+        "completionPct": 0.6444,
+        "passYPG": 134.1,
+        "qbr": 52.1
       },
-      "eraNormFactor": 0.7472
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031610_NYG_2023",
       "name": "Darren Waller",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "recYPG": 46.0,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 4.33,
         "avgTargetsPerGame": 6.17,
-        "avgCatchesPerGame": 4.33
+        "recYPG": 46.0,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032385_NYG_2023",
       "name": "Sterling Shepard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 60,
       "stats": {
-        "recYPG": 5.7,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 2.2,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 5.7,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033308_NYG_2023",
       "name": "Matt Breida",
       "position": "RB",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 60,
       "stats": {
-        "rushYPG": 10.1,
-        "tdPerGame": 0.067,
+        "recYPG": 5.9,
         "rushAttPerGame": 3.67,
-        "recYPG": 5.9
+        "rushYPG": 10.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034844_NYG_2023",
       "name": "Saquon Barkley",
       "position": "RB",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "rushYPG": 68.7,
-        "tdPerGame": 0.429,
+        "recYPG": 20.0,
         "rushAttPerGame": 17.64,
-        "recYPG": 20.0
+        "rushYPG": 68.7,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035535_NYG_2023",
       "name": "Darius Slayton",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 84,
       "stats": {
-        "recYPG": 45.3,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.94,
         "avgTargetsPerGame": 4.65,
-        "avgCatchesPerGame": 2.94
+        "recYPG": 45.3,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035639_NYG_2023",
       "name": "Parris Campbell",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 64,
       "stats": {
-        "recYPG": 13.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.38,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 13.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 0.8442,
       "id": "p_00-0035710_NYG_2023",
       "name": "Daniel Jones",
       "position": "QB",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 61,
       "stats": {
-        "passYPG": 151.5,
-        "qbr": 0,
-        "avgTDPerGame": 0.333,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.675
+        "avgTDPerGame": 0.333,
+        "completionPct": 0.675,
+        "passYPG": 151.5,
+        "qbr": 0
       },
-      "eraNormFactor": 0.8442
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036165_NYG_2023",
       "name": "Isaiah Hodgins",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "recYPG": 16.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 2.36,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 16.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038115_NYG_2023",
       "name": "Daniel Bellinger",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 64,
       "stats": {
-        "recYPG": 19.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 2.15,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 19.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038117_NYG_2023",
       "name": "Wan'Dale Robinson",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 77,
       "stats": {
-        "recYPG": 35.0,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 35.0,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 0.6815,
       "id": "p_00-0038476_NYG_2023",
       "name": "Tommy DeVito",
       "position": "QB",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "passYPG": 122.3,
-        "qbr": 0,
-        "avgTDPerGame": 0.889,
         "avgINTPerGame": 0.333,
-        "completionPct": 0.6404
+        "avgTDPerGame": 0.889,
+        "completionPct": 0.6404,
+        "passYPG": 122.3,
+        "qbr": 0
       },
-      "eraNormFactor": 0.6815
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038938_NYG_2023",
       "name": "Jalin Hyatt",
       "position": "WR",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 69,
       "stats": {
-        "recYPG": 28.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.77,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 1.77
+        "recYPG": 28.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026858_NYG_2023",
       "name": "G.Gano",
       "position": "K",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "fgAccuracy": 0.7097,
         "avgKickDistance": 41.2,
         "avgMissDistance": 45.2,
+        "fgAccuracy": 0.7097,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2023",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.13,
+        "normalizedRank": 20,
         "rushTDPct": 0.022,
-        "normalizedRank": 20
+        "rushYPC": 4.13,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2023",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 59,
       "stats": {
+        "blitzPct": 0.454,
+        "normalizedRank": 29,
+        "pressurePct": 0.209,
+        "rushTDPerGameAllowed": 1.41,
         "rushYPCAllowed": 4.7,
         "rushYPGAllowed": 132.41,
-        "rushTDPerGameAllowed": 1.41,
-        "sackPct": 0.0584,
-        "blitzPct": 0.454,
-        "pressurePct": 0.209,
-        "normalizedRank": 29
+        "sackPct": 0.0584
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2023",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2023,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.6375,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 229.29,
-        "passTDPerGameAllowed": 1.24,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 1.24,
+        "passYPGAllowed": 229.29,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2023
     }
   ]
 }

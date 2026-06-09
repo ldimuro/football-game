@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007213_CLE_2006",
       "name": "Steve Heiden",
       "position": "WR",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 61,
       "stats": {
-        "recYPG": 16.6,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.4,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.4
+        "recYPG": 16.6,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008962_CLE_2006",
       "name": "Joe Jurevicius",
       "position": "WR",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "recYPG": 45.0,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 3.64,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.64
+        "recYPG": 45.0,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019610_CLE_2006",
       "name": "Reuben Droughns",
       "position": "RB",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "rushYPG": 54.1,
-        "tdPerGame": 0.286,
+        "recYPG": 12.1,
         "rushAttPerGame": 15.71,
-        "recYPG": 12.1
+        "rushYPG": 54.1,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019650_CLE_2006",
       "name": "Dennis Northcutt",
       "position": "WR",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 58,
       "stats": {
-        "recYPG": 20.7,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 20.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022288_CLE_2006",
       "name": "Jason Wright",
       "position": "RB",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 65,
       "stats": {
-        "rushYPG": 23.6,
-        "tdPerGame": 0.0,
+        "recYPG": 10.2,
         "rushAttPerGame": 7.75,
-        "recYPG": 10.2
+        "rushYPG": 23.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022922_CLE_2006",
       "name": "Kellen Winslow",
       "position": "WR",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 84,
       "stats": {
-        "recYPG": 54.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 5.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.56
+        "recYPG": 54.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023438_CLE_2006",
       "name": "Braylon Edwards",
       "position": "WR",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 88,
       "stats": {
-        "recYPG": 54.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 54.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0742,
       "id": "p_00-0023502_CLE_2006",
       "name": "Charlie Frye",
       "position": "QB",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 64,
       "stats": {
-        "passYPG": 188.4,
-        "qbr": 0,
-        "avgTDPerGame": 0.769,
         "avgINTPerGame": 1.308,
-        "completionPct": 0.6419
+        "avgTDPerGame": 0.769,
+        "completionPct": 0.6419,
+        "passYPG": 188.4,
+        "qbr": 0
       },
-      "eraNormFactor": 1.0742
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.1301,
       "id": "p_00-0023645_CLE_2006",
       "name": "Derek Anderson",
       "position": "QB",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 70,
       "stats": {
-        "passYPG": 198.2,
-        "qbr": 0,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 2.0,
-        "completionPct": 0.5641
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.5641,
+        "passYPG": 198.2,
+        "qbr": 0
       },
-      "eraNormFactor": 1.1301
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2006",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 69,
       "stats": {
-        "fgAccuracy": 0.7241,
         "avgKickDistance": 36.7,
         "avgMissDistance": 41.5,
+        "fgAccuracy": 0.7241,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2006",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.59,
+        "normalizedRank": 29,
         "rushTDPct": 0.0188,
-        "normalizedRank": 29
+        "rushYPC": 3.59,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2006",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 29,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 142.06,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0561,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 29
+        "sackPct": 0.0561
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2006",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2006,
+      "rating": 82,
       "stats": {
         "completionPctAllowed": 0.5671,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 202.62,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 202.62,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2006
     }
   ]
 }

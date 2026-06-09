@@ -1,150 +1,160 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020455_SF_2006",
       "name": "Eric Johnson",
       "position": "WR",
-      "team": "SF",
-      "year": 2006,
+      "rating": 68,
       "stats": {
-        "recYPG": 26.5,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 3.09,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.09
+        "recYPG": 26.5,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021191_SF_2006",
       "name": "Antonio Bryant",
       "position": "WR",
-      "team": "SF",
-      "year": 2006,
+      "rating": 81,
       "stats": {
-        "recYPG": 53.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 53.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022064_SF_2006",
       "name": "Arnaz Battle",
       "position": "WR",
-      "team": "SF",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "recYPG": 42.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 42.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0338,
       "id": "p_00-0023436_SF_2006",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "SF",
-      "year": 2006,
+      "rating": 71,
       "stats": {
-        "passYPG": 181.3,
-        "qbr": 29.0,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.938,
-        "completionPct": 0.5847
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.5847,
+        "passYPG": 181.3,
+        "qbr": 29.0
       },
-      "eraNormFactor": 1.0338
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023500_SF_2006",
+      "is_all_pro": true,
       "name": "Frank Gore",
       "position": "RB",
-      "team": "SF",
-      "year": 2006,
+      "rating": 95,
       "stats": {
-        "rushYPG": 105.9,
-        "tdPerGame": 0.5,
+        "recYPG": 30.3,
         "rushAttPerGame": 19.56,
-        "recYPG": 30.3
+        "rushYPG": 105.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024221_SF_2006",
       "name": "Vernon Davis",
       "position": "WR",
-      "team": "SF",
-      "year": 2006,
+      "rating": 79,
       "stats": {
-        "recYPG": 37.9,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 2.86,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.86
+        "recYPG": 37.9,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011970_SF_2006",
       "name": "J.Nedney",
       "position": "K",
-      "team": "SF",
-      "year": 2006,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.8286,
         "avgKickDistance": 34.3,
         "avgMissDistance": 39.5,
+        "fgAccuracy": 0.8286,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2006",
       "position": "OLine",
-      "team": "SF",
-      "year": 2006,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.0,
+        "normalizedRank": 2,
         "rushTDPct": 0.0275,
-        "normalizedRank": 2
+        "rushYPC": 5.0,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2006",
       "position": "DLine",
-      "team": "SF",
-      "year": 2006,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 19,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 121.0,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0656,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 19
+        "sackPct": 0.0656
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2006",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2006,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.639,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 223.19,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 223.19,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2006
     }
   ]
 }

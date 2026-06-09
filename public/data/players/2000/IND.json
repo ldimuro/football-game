@@ -1,180 +1,192 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004294_IND_2000",
       "name": "Ken Dilger",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 80,
       "stats": {
-        "recYPG": 34.6,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.12,
         "avgTargetsPerGame": 4.75,
-        "avgCatchesPerGame": 3.12
+        "recYPG": 34.6,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006322_IND_2000",
       "name": "E.G. Green",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 83,
       "stats": {
-        "recYPG": 40.2,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.6,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 3.6
+        "recYPG": 40.2,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007024_IND_2000",
+      "is_all_pro": true,
       "name": "Marvin Harrison",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 99,
       "stats": {
-        "recYPG": 86.5,
-        "tdPerGame": 0.824,
+        "avgCatchesPerGame": 6.24,
         "avgTargetsPerGame": 10.53,
-        "avgCatchesPerGame": 6.24
+        "recYPG": 86.5,
+        "tdPerGame": 0.824
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008241_IND_2000",
+      "is_all_pro": true,
       "name": "Edgerrin James",
       "position": "RB",
-      "team": "IND",
-      "year": 2000,
+      "rating": 98,
       "stats": {
-        "rushYPG": 105.7,
-        "tdPerGame": 0.765,
+        "recYPG": 36.1,
         "rushAttPerGame": 23.76,
-        "recYPG": 36.1
+        "rushYPG": 105.7,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.6939,
       "id": "p_00-0010346_IND_2000",
+      "is_all_pro": true,
       "name": "Peyton Manning",
       "position": "QB",
-      "team": "IND",
-      "year": 2000,
+      "rating": 95,
       "stats": {
-        "passYPG": 269.5,
-        "qbr": 100,
-        "avgTDPerGame": 2.0,
         "avgINTPerGame": 0.824,
-        "completionPct": 0.6208
+        "avgTDPerGame": 2.0,
+        "completionPct": 0.6208,
+        "passYPG": 269.5,
+        "qbr": 100
       },
-      "eraNormFactor": 1.6939,
-      "is_all_pro": true
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0012637_IND_2000",
       "name": "Jerome Pathon",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 84,
       "stats": {
-        "recYPG": 41.6,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.18,
         "avgTargetsPerGame": 5.53,
-        "avgCatchesPerGame": 3.18
+        "recYPG": 41.6,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013080_IND_2000",
       "name": "Marcus Pollard",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 76,
       "stats": {
-        "recYPG": 30.1,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 3.07,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 30.1,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017697_IND_2000",
       "name": "Terrence Wilkins",
       "position": "WR",
-      "team": "IND",
-      "year": 2000,
+      "rating": 82,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 3.07,
         "avgTargetsPerGame": 4.93,
-        "avgCatchesPerGame": 3.07
+        "recYPG": 40.6,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016830_IND_2000",
       "name": "M.Vanderjagt",
       "position": "K",
-      "team": "IND",
-      "year": 2000,
+      "rating": 87,
       "stats": {
-        "fgAccuracy": 0.9032,
         "avgKickDistance": 35.4,
         "avgMissDistance": 51.7,
+        "fgAccuracy": 0.9032,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_OLine_2000",
       "position": "OLine",
-      "team": "IND",
-      "year": 2000,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.26,
+        "normalizedRank": 8,
         "rushTDPct": 0.0311,
-        "normalizedRank": 8
+        "rushYPC": 4.26,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_DLine_2000",
       "position": "DLine",
-      "team": "IND",
-      "year": 2000,
+      "rating": 74,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 25,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 120.94,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0792,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 25
+        "sackPct": 0.0792
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_Secondary_2000",
       "position": "Secondary",
-      "team": "IND",
-      "year": 2000,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.5981,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 213.88,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 213.88,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2000
     }
   ]
 }

@@ -1,150 +1,160 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009119_CIN_2006",
       "name": "Reggie Kelly",
       "position": "WR",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 60,
       "stats": {
-        "recYPG": 21.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 21.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020397_CIN_2006",
+      "is_all_pro": true,
       "name": "Chad Johnson",
       "position": "WR",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 97,
       "stats": {
-        "recYPG": 85.6,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 5.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.44
+        "recYPG": 85.6,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020407_CIN_2006",
       "name": "Rudi Johnson",
       "position": "RB",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 89,
       "stats": {
-        "rushYPG": 81.8,
-        "tdPerGame": 0.75,
+        "recYPG": 7.8,
         "rushAttPerGame": 21.31,
-        "recYPG": 7.8
+        "rushYPG": 81.8,
+        "tdPerGame": 0.75
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020438_CIN_2006",
       "name": "T.J. Houshmandzadeh",
       "position": "WR",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 98,
       "stats": {
-        "recYPG": 77.2,
-        "tdPerGame": 0.643,
+        "avgCatchesPerGame": 6.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.43
+        "recYPG": 77.2,
+        "tdPerGame": 0.643
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.438,
       "id": "p_00-0021429_CIN_2006",
       "name": "Carson Palmer",
       "position": "QB",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 94,
       "stats": {
-        "passYPG": 252.2,
-        "qbr": 88.9,
-        "avgTDPerGame": 1.75,
         "avgINTPerGame": 0.812,
-        "completionPct": 0.6231
+        "avgTDPerGame": 1.75,
+        "completionPct": 0.6231,
+        "passYPG": 252.2,
+        "qbr": 88.9
       },
-      "eraNormFactor": 1.438
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023518_CIN_2006",
       "name": "Chris Henry",
       "position": "WR",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 91,
       "stats": {
-        "recYPG": 55.0,
-        "tdPerGame": 0.818,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 55.0,
+        "tdPerGame": 0.818
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019536_CIN_2006",
       "name": "S.Graham",
       "position": "K",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 36.9,
         "avgMissDistance": 48.4,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_OLine_2006",
       "position": "OLine",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.77,
+        "normalizedRank": 26,
         "rushTDPct": 0.0323,
-        "normalizedRank": 26
+        "rushYPC": 3.77,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_DLine_2006",
       "position": "DLine",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 72,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 15,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 116.44,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0631,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 15
+        "sackPct": 0.0631
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CIN_Secondary_2006",
       "position": "Secondary",
-      "team": "CIN",
-      "year": 2006,
+      "rating": 69,
       "stats": {
         "completionPctAllowed": 0.6288,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 238.62,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 32
+        "normalizedRank": 32,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 238.62,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "CIN",
+      "year": 2006
     }
   ]
 }

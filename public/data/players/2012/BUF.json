@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.036,
       "id": "p_00-0023682_BUF_2012",
       "name": "Ryan Fitzpatrick",
       "position": "QB",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 77,
       "stats": {
-        "passYPG": 212.5,
-        "qbr": 55.4,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6059
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.6059,
+        "passYPG": 212.5,
+        "qbr": 55.4
       },
-      "eraNormFactor": 1.036
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024204_BUF_2012",
       "name": "Fred Jackson",
       "position": "RB",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "rushYPG": 43.7,
-        "tdPerGame": 0.3,
+        "recYPG": 21.7,
         "rushAttPerGame": 11.5,
-        "recYPG": 21.7
+        "rushYPG": 43.7,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025516_BUF_2012",
       "name": "Scott Chandler",
       "position": "WR",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 81,
       "stats": {
-        "recYPG": 38.1,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": 4.93,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 38.1,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026262_BUF_2012",
       "name": "Tashard Choice",
       "position": "RB",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 65,
       "stats": {
-        "rushYPG": 24.1,
-        "tdPerGame": 0.125,
+        "recYPG": 1.1,
         "rushAttPerGame": 5.88,
-        "recYPG": 1.1
+        "rushYPG": 24.1,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026364_BUF_2012",
       "name": "Steve Johnson",
       "position": "WR",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 93,
       "stats": {
-        "recYPG": 65.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": 9.25,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 65.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027518_BUF_2012",
       "name": "Donald Jones",
       "position": "WR",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 81,
       "stats": {
-        "recYPG": 36.9,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.42,
         "avgTargetsPerGame": 5.58,
-        "avgCatchesPerGame": 3.42
+        "recYPG": 36.9,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027861_BUF_2012",
+      "is_all_pro": true,
       "name": "C.J. Spiller",
       "position": "RB",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 92,
       "stats": {
-        "rushYPG": 77.8,
-        "tdPerGame": 0.375,
+        "recYPG": 28.7,
         "rushAttPerGame": 12.94,
-        "recYPG": 28.7
+        "rushYPG": 77.8,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029660_BUF_2012",
       "name": "Trevor Graham",
       "position": "WR",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 63,
       "stats": {
-        "recYPG": 21.5,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 3.87,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 21.5,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019310_BUF_2012",
       "name": "R.Lindell",
       "position": "K",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.875,
         "avgKickDistance": 36.1,
         "avgMissDistance": 44.3,
+        "fgAccuracy": 0.875,
         "longestMadeKick": 50
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_OLine_2012",
       "position": "OLine",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 84,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.02,
+        "normalizedRank": 4,
         "rushTDPct": 0.0271,
-        "normalizedRank": 4
+        "rushYPC": 5.02,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_DLine_2012",
       "position": "DLine",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 31,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.44,
         "rushYPCAllowed": 5.0,
         "rushYPGAllowed": 145.81,
-        "rushTDPerGameAllowed": 1.44,
-        "sackPct": 0.0672,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 31
+        "sackPct": 0.0672
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_Secondary_2012",
       "position": "Secondary",
-      "team": "BUF",
-      "year": 2012,
+      "rating": 81,
       "stats": {
         "completionPctAllowed": 0.5709,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 217.06,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 10
+        "normalizedRank": 10,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 217.06,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2012
     }
   ]
 }

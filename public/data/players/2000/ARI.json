@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001532_ARI_2000",
       "name": "David Boston",
       "position": "WR",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 95,
       "stats": {
-        "recYPG": 67.0,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 8.06,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 67.0,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003175_ARI_2000",
       "name": "Mac Cody",
       "position": "WR",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 65,
       "stats": {
-        "recYPG": 21.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.7,
         "avgTargetsPerGame": 2.7,
-        "avgCatchesPerGame": 1.7
+        "recYPG": 21.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006848_ARI_2000",
       "name": "Terry Hardy",
       "position": "WR",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 60,
       "stats": {
-        "recYPG": 10.0,
-        "tdPerGame": 0.062,
+        "avgCatchesPerGame": 1.69,
         "avgTargetsPerGame": 2.81,
-        "avgCatchesPerGame": 1.69
+        "recYPG": 10.0,
+        "tdPerGame": 0.062
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008357_ARI_2000",
       "name": "MarTay Jenkins",
       "position": "WR",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 59,
       "stats": {
-        "recYPG": 13.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 2.38,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 13.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013013_ARI_2000",
       "name": "Michael Pittman",
       "position": "RB",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 82,
       "stats": {
-        "rushYPG": 43.7,
-        "tdPerGame": 0.25,
+        "recYPG": 36.0,
         "rushAttPerGame": 11.25,
-        "recYPG": 36.0
+        "rushYPG": 43.7,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.2803,
       "id": "p_00-0013042_ARI_2000",
       "name": "Jake Plummer",
       "position": "QB",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 71,
       "stats": {
-        "passYPG": 203.7,
-        "qbr": 19.8,
-        "avgTDPerGame": 0.857,
         "avgINTPerGame": 1.429,
-        "completionPct": 0.5672
+        "avgTDPerGame": 0.857,
+        "completionPct": 0.5672,
+        "passYPG": 203.7,
+        "qbr": 19.8
       },
-      "eraNormFactor": 1.2803
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014328_ARI_2000",
       "name": "Frank Sanders",
       "position": "WR",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 90,
       "stats": {
-        "recYPG": 46.8,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.38,
         "avgTargetsPerGame": 7.25,
-        "avgCatchesPerGame": 3.38
+        "recYPG": 46.8,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_ARI_2000",
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 71,
       "stats": {
-        "rushYPG": 26.6,
-        "tdPerGame": 0.143,
+        "recYPG": 14.9,
         "rushAttPerGame": 8.0,
-        "recYPG": 14.9
+        "rushYPG": 26.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001343_ARI_2000",
       "name": "C.Blanchard",
       "position": "K",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.6957,
         "avgKickDistance": 37.8,
         "avgMissDistance": 43.3,
+        "fgAccuracy": 0.6957,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2000",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.71,
+        "normalizedRank": 25,
         "rushTDPct": 0.0177,
-        "normalizedRank": 25
+        "rushYPC": 3.71,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2000",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 61,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.81,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 163.06,
-        "rushTDPerGameAllowed": 1.81,
-        "sackPct": 0.0545,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0545
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2000",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2000,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.6449,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 195.5,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 195.5,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2000
     }
   ]
 }

@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3906,
       "id": "p_00-0011022_PHI_2008",
       "name": "Donovan McNabb",
       "position": "QB",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 89,
       "stats": {
-        "passYPG": 252.9,
-        "qbr": 90.3,
-        "avgTDPerGame": 1.474,
         "avgINTPerGame": 0.789,
-        "completionPct": 0.604
+        "avgTDPerGame": 1.474,
+        "completionPct": 0.604,
+        "passYPG": 252.9,
+        "qbr": 90.3
       },
-      "eraNormFactor": 1.3906
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020270_PHI_2008",
       "name": "Correll Buckhalter",
       "position": "RB",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "rushYPG": 24.9,
-        "tdPerGame": 0.118,
+        "recYPG": 20.9,
         "rushAttPerGame": 5.12,
-        "recYPG": 20.9
+        "rushYPG": 24.9,
+        "tdPerGame": 0.118
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021216_PHI_2008",
       "name": "Brian Westbrook",
       "position": "RB",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 90,
       "stats": {
-        "rushYPG": 62.1,
-        "tdPerGame": 0.529,
+        "recYPG": 30.6,
         "rushAttPerGame": 16.65,
-        "recYPG": 30.6
+        "rushYPG": 62.1,
+        "tdPerGame": 0.529
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021508_PHI_2008",
       "name": "Greg Lewis",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 60,
       "stats": {
-        "recYPG": 22.3,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.82,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.82
+        "recYPG": 22.3,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022001_PHI_2008",
       "name": "Kevin Curtis",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 79,
       "stats": {
-        "recYPG": 50.1,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 3.75,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.75
+        "recYPG": 50.1,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022126_PHI_2008",
       "name": "L.J. Smith",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 67,
       "stats": {
-        "recYPG": 22.5,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.86,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.86
+        "recYPG": 22.5,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023470_PHI_2008",
       "name": "Reggie Brown",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 67,
       "stats": {
-        "recYPG": 33.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 33.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024013_PHI_2008",
       "name": "Hank Baskett",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 68,
       "stats": {
-        "recYPG": 30.6,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 30.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024324_PHI_2008",
       "name": "Jason Avant",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 66,
       "stats": {
-        "recYPG": 30.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.69,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.69
+        "recYPG": 30.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025549_PHI_2008",
       "name": "Brent Celek",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 74,
       "stats": {
-        "recYPG": 33.5,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 3.29,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.29
+        "recYPG": 33.5,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026189_PHI_2008",
       "name": "DeSean Jackson",
       "position": "WR",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 82,
       "stats": {
-        "recYPG": 58.9,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 3.84,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.84
+        "recYPG": 58.9,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_PHI_2008",
       "name": "D.Akers",
       "position": "K",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.84,
         "avgKickDistance": 35.3,
         "avgMissDistance": 44.2,
+        "fgAccuracy": 0.84,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2008",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.89,
+        "normalizedRank": 26,
         "rushTDPct": 0.0323,
-        "normalizedRank": 26
+        "rushYPC": 3.89,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2008",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 96,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.5,
         "rushYPGAllowed": 92.25,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0914,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0914
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2008",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2008,
+      "rating": 92,
       "stats": {
         "completionPctAllowed": 0.541,
-        "yardsPerAttemptAllowed": 5.1,
-        "passYPGAllowed": 182.06,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 3
+        "normalizedRank": 3,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 182.06,
+        "yardsPerAttemptAllowed": 5.1
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2008
     }
   ]
 }

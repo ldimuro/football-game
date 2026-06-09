@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0675,
       "id": "p_00-0027688_ARI_2022",
       "name": "Colt McCoy",
       "position": "QB",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 63,
       "stats": {
-        "passYPG": 195.0,
-        "qbr": 0,
-        "avgTDPerGame": 0.25,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.6818
+        "avgTDPerGame": 0.25,
+        "completionPct": 0.6818,
+        "passYPG": 195.0,
+        "qbr": 0
       },
-      "eraNormFactor": 1.0675
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027942_ARI_2022",
       "name": "A.J. Green",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 67,
       "stats": {
-        "recYPG": 18.2,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.85,
         "avgTargetsPerGame": 3.62,
-        "avgCatchesPerGame": 1.85
+        "recYPG": 18.2,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030061_ARI_2022",
       "name": "Zach Ertz",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 88,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.7,
         "avgTargetsPerGame": 6.9,
-        "avgCatchesPerGame": 4.7
+        "recYPG": 40.6,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030564_ARI_2022",
       "name": "DeAndre Hopkins",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 96,
       "stats": {
-        "recYPG": 79.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 7.11,
         "avgTargetsPerGame": 10.67,
-        "avgCatchesPerGame": 7.11
+        "recYPG": 79.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033553_ARI_2022",
       "name": "James Conner",
       "position": "RB",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 91,
       "stats": {
-        "rushYPG": 60.2,
-        "tdPerGame": 0.538,
+        "recYPG": 23.1,
         "rushAttPerGame": 14.08,
-        "recYPG": 23.1
+        "rushYPG": 60.2,
+        "tdPerGame": 0.538
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.1786,
       "id": "p_00-0035228_ARI_2022",
       "name": "Kyler Murray",
       "position": "QB",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 78,
       "stats": {
-        "passYPG": 215.3,
-        "qbr": 33.4,
-        "avgTDPerGame": 1.273,
         "avgINTPerGame": 0.636,
-        "completionPct": 0.6641
+        "avgTDPerGame": 1.273,
+        "completionPct": 0.6641,
+        "passYPG": 215.3,
+        "qbr": 33.4
       },
-      "eraNormFactor": 1.1786
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035500_ARI_2022",
       "name": "Greg Dortch",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "recYPG": 42.5,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 4.73,
         "avgTargetsPerGame": 5.82,
-        "avgCatchesPerGame": 4.73
+        "recYPG": 42.5,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035662_ARI_2022",
       "name": "Marquise Brown",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "recYPG": 59.1,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 5.58,
         "avgTargetsPerGame": 8.92,
-        "avgCatchesPerGame": 5.58
+        "recYPG": 59.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036383_ARI_2022",
       "name": "Eno Benjamin",
       "position": "RB",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 72,
       "stats": {
-        "rushYPG": 26.1,
-        "tdPerGame": 0.167,
+        "recYPG": 16.1,
         "rushAttPerGame": 6.42,
-        "recYPG": 16.1
+        "rushYPG": 26.1,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036936_ARI_2022",
       "name": "Rondale Moore",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "recYPG": 51.8,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 5.12,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 5.12
+        "recYPG": 51.8,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037744_ARI_2022",
       "name": "Trey McBride",
       "position": "WR",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 73,
       "stats": {
-        "recYPG": 29.4,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 3.22,
         "avgTargetsPerGame": 4.33,
-        "avgCatchesPerGame": 3.22
+        "recYPG": 29.4,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023853_ARI_2022",
       "name": "M.Prater",
       "position": "K",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.875,
         "avgKickDistance": 40.5,
         "avgMissDistance": 46.2,
+        "fgAccuracy": 0.875,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_OLine_2022",
       "position": "OLine",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 78,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.32,
+        "normalizedRank": 18,
         "rushTDPct": 0.0346,
-        "normalizedRank": 18
+        "rushYPC": 4.32,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_DLine_2022",
       "position": "DLine",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 70,
       "stats": {
+        "blitzPct": 0.345,
+        "normalizedRank": 14,
+        "pressurePct": 0.225,
+        "rushTDPerGameAllowed": 1.24,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 118.59,
-        "rushTDPerGameAllowed": 1.24,
-        "sackPct": 0.0607,
-        "blitzPct": 0.345,
-        "pressurePct": 0.225,
-        "normalizedRank": 14
+        "sackPct": 0.0607
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ARI_Secondary_2022",
       "position": "Secondary",
-      "team": "ARI",
-      "year": 2022,
+      "rating": 65,
       "stats": {
         "completionPctAllowed": 0.6981,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 230.29,
-        "passTDPerGameAllowed": 1.71,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.71,
+        "passYPGAllowed": 230.29,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "ARI",
+      "year": 2022
     }
   ]
 }

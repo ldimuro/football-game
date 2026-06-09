@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.124,
       "id": "p_00-0007091_TEN_2011",
       "name": "Matt Hasselbeck",
       "position": "QB",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 78,
       "stats": {
-        "passYPG": 223.2,
-        "qbr": 54.9,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 0.875,
-        "completionPct": 0.6158
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.6158,
+        "passYPG": 223.2,
+        "qbr": 54.9
       },
-      "eraNormFactor": 1.124
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023367_TEN_2011",
       "name": "Nate Washington",
       "position": "WR",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 92,
       "stats": {
-        "recYPG": 63.9,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": 7.56,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 63.9,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026164_TEN_2011",
       "name": "Chris Johnson",
       "position": "RB",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 89,
       "stats": {
-        "rushYPG": 65.4,
-        "tdPerGame": 0.25,
+        "recYPG": 26.1,
         "rushAttPerGame": 16.38,
-        "recYPG": 26.1
+        "rushYPG": 65.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026266_TEN_2011",
       "name": "Lavelle Hawkins",
       "position": "WR",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 71,
       "stats": {
-        "recYPG": 31.3,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.13,
         "avgTargetsPerGame": 5.13,
-        "avgCatchesPerGame": 3.13
+        "recYPG": 31.3,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027061_TEN_2011",
       "name": "Jared Cook",
       "position": "WR",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 80,
       "stats": {
-        "recYPG": 47.4,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": 5.06,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 47.4,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027120_TEN_2011",
       "name": "Javon Ringer",
       "position": "RB",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "rushYPG": 15.4,
-        "tdPerGame": 0.083,
+        "recYPG": 15.6,
         "rushAttPerGame": 4.92,
-        "recYPG": 15.6
+        "rushYPG": 15.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027893_TEN_2011",
       "name": "Damian Williams",
       "position": "WR",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 82,
       "stats": {
-        "recYPG": 39.5,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 6.27,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 39.5,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020962_TEN_2011",
       "name": "R.Bironas",
       "position": "K",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 91,
       "stats": {
-        "fgAccuracy": 0.9062,
         "avgKickDistance": 40.6,
         "avgMissDistance": 47.3,
+        "fgAccuracy": 0.9062,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_OLine_2011",
       "position": "OLine",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.82,
+        "normalizedRank": 29,
         "rushTDPct": 0.0213,
-        "normalizedRank": 29
+        "rushYPC": 3.82,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_DLine_2011",
       "position": "DLine",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 67,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 128.31,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0474,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0474
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_TEN_Secondary_2011",
       "position": "Secondary",
-      "team": "TEN",
-      "year": 2011,
+      "rating": 78,
       "stats": {
         "completionPctAllowed": 0.6244,
-        "yardsPerAttemptAllowed": 5.9,
-        "passYPGAllowed": 226.81,
-        "passTDPerGameAllowed": 1.31,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 14
+        "normalizedRank": 14,
+        "passTDPerGameAllowed": 1.31,
+        "passYPGAllowed": 226.81,
+        "yardsPerAttemptAllowed": 5.9
       },
-      "eraNormFactor": 1.0
+      "team": "TEN",
+      "year": 2011
     }
   ]
 }

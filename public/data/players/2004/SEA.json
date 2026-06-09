@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004915_SEA_2004",
       "name": "Bobby Engram",
       "position": "WR",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 74,
       "stats": {
-        "recYPG": 38.1,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 2.79,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.79
+        "recYPG": 38.1,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.4132,
       "id": "p_00-0007091_SEA_2004",
       "name": "Matt Hasselbeck",
       "position": "QB",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 85,
       "stats": {
-        "passYPG": 248.7,
-        "qbr": 93.5,
-        "avgTDPerGame": 1.6,
         "avgINTPerGame": 1.067,
-        "completionPct": 0.5919
+        "avgTDPerGame": 1.6,
+        "completionPct": 0.5919,
+        "passYPG": 248.7,
+        "qbr": 93.5
       },
-      "eraNormFactor": 1.4132
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011224_SEA_2004",
       "name": "Itula Mili",
       "position": "WR",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 67,
       "stats": {
-        "recYPG": 28.2,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.42,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.42
+        "recYPG": 28.2,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019647_SEA_2004",
+      "is_all_pro": true,
       "name": "Shaun Alexander",
       "position": "RB",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 93,
       "stats": {
-        "rushYPG": 101.6,
-        "tdPerGame": 0.941,
+        "recYPG": 11.5,
         "rushAttPerGame": 21.65,
-        "recYPG": 11.5
+        "rushYPG": 101.6,
+        "tdPerGame": 0.941
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019663_SEA_2004",
       "name": "Darrell Jackson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 95,
       "stats": {
-        "recYPG": 78.5,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 5.82,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.82
+        "recYPG": 78.5,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020490_SEA_2004",
       "name": "Koren Robinson",
       "position": "WR",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 80,
       "stats": {
-        "recYPG": 53.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 53.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021159_SEA_2004",
       "name": "Jerramy Stevens",
       "position": "WR",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "recYPG": 24.3,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.13,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.13
+        "recYPG": 24.3,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021182_SEA_2004",
       "name": "Maurice Morris",
       "position": "RB",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 57,
       "stats": {
-        "rushYPG": 9.6,
-        "tdPerGame": 0.0,
+        "recYPG": 3.8,
         "rushAttPerGame": 2.29,
-        "recYPG": 3.8
+        "rushYPG": 9.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_SEA_2004",
       "name": "J.Brown",
       "position": "K",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.9259,
         "avgKickDistance": 34.8,
         "avgMissDistance": 40.5,
+        "fgAccuracy": 0.9259,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2004",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.44,
+        "normalizedRank": 7,
         "rushTDPct": 0.0348,
-        "normalizedRank": 7
+        "rushYPC": 4.44,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2004",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 65,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 126.94,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0644,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0644
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2004",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2004,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6082,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 224.38,
-        "passTDPerGameAllowed": 1.5,
         "interceptionsPerGame": 1.44,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.5,
+        "passYPGAllowed": 224.38,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2004
     }
   ]
 }

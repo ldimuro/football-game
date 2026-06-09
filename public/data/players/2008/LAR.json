@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2008",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2008,
+      "rating": 69,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 29,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.62,
         "rushYPCAllowed": 4.9,
         "rushYPGAllowed": 154.69,
-        "rushTDPerGameAllowed": 1.62,
-        "sackPct": 0.0676,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 29
+        "sackPct": 0.0676
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2008
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2008",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2008,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6261,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 217.19,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.75,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 217.19,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2008
     }
   ]
 }

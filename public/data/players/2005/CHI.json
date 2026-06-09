@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003035_CHI_2005",
       "name": "Desmond Clark",
       "position": "WR",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "recYPG": 19.5,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.17,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.17
+        "recYPG": 19.5,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011795_CHI_2005",
       "name": "Muhsin Muhammad",
       "position": "WR",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 85,
       "stats": {
-        "recYPG": 53.9,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 4.47,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.47
+        "recYPG": 53.9,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_CHI_2005",
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 91,
       "stats": {
-        "rushYPG": 88.4,
-        "tdPerGame": 0.562,
+        "recYPG": 10.8,
         "rushAttPerGame": 20.88,
-        "recYPG": 10.8
+        "rushYPG": 88.4,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021306_CHI_2005",
       "name": "Adrian Peterson",
       "position": "RB",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 69,
       "stats": {
-        "rushYPG": 28.6,
-        "tdPerGame": 0.214,
+        "recYPG": 3.6,
         "rushAttPerGame": 5.79,
-        "recYPG": 3.6
+        "rushYPG": 28.6,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021982_CHI_2005",
       "name": "Justin Gage",
       "position": "WR",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 69,
       "stats": {
-        "recYPG": 31.2,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.83,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.83
+        "recYPG": 31.2,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023439_CHI_2005",
       "name": "Cedric Benson",
       "position": "RB",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "rushYPG": 30.2,
-        "tdPerGame": 0.0,
+        "recYPG": 0.3,
         "rushAttPerGame": 7.44,
-        "recYPG": 0.3
+        "rushYPG": 30.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.7303,
       "id": "p_00-0023541_CHI_2005",
       "name": "Kyle Orton",
       "position": "QB",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 63,
       "stats": {
-        "passYPG": 124.6,
-        "qbr": 0,
-        "avgTDPerGame": 0.6,
         "avgINTPerGame": 0.867,
-        "completionPct": 0.5163
+        "avgTDPerGame": 0.6,
+        "completionPct": 0.5163,
+        "passYPG": 124.6,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7303
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023252_CHI_2005",
       "name": "R.Gould",
       "position": "K",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 64,
       "stats": {
-        "fgAccuracy": 0.7097,
         "avgKickDistance": 36.0,
         "avgMissDistance": 43.4,
+        "fgAccuracy": 0.7097,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2005",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.26,
+        "normalizedRank": 8,
         "rushTDPct": 0.0252,
-        "normalizedRank": 8
+        "rushYPC": 4.26,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2005",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 85,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 102.31,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0745,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0745
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2005",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2005,
+      "rating": 96,
       "stats": {
         "completionPctAllowed": 0.5691,
-        "yardsPerAttemptAllowed": 4.9,
-        "passYPGAllowed": 179.5,
-        "passTDPerGameAllowed": 0.62,
         "interceptionsPerGame": 1.5,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 0.62,
+        "passYPGAllowed": 179.5,
+        "yardsPerAttemptAllowed": 4.9
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2005
     }
   ]
 }

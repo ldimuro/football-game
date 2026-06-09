@@ -14,7 +14,7 @@ const baseState = {
   seasonLog: [], isLoading: false,
   initGame: vi.fn().mockResolvedValue(undefined),
   rerollSetupSlot: vi.fn(), confirmSetup: vi.fn(), viewDraftOffer: vi.fn(),
-  rerollDraftOffer: vi.fn(), draftPlayer: vi.fn(), skipDraft: vi.fn(),
+  rerollDraftOfferTeam: vi.fn(), rerollDraftOfferYear: vi.fn(), draftPlayer: vi.fn(), skipDraft: vi.fn(),
 }
 
 describe('App', () => {

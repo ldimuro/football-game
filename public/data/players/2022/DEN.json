@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2859,
       "id": "p_00-0029263_DEN_2022",
       "name": "Russell Wilson",
       "position": "QB",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "passYPG": 234.9,
-        "qbr": 12.7,
-        "avgTDPerGame": 1.067,
         "avgINTPerGame": 0.733,
-        "completionPct": 0.6046
+        "avgTDPerGame": 1.067,
+        "completionPct": 0.6046,
+        "passYPG": 234.9,
+        "qbr": 12.7
       },
-      "eraNormFactor": 1.2859
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032144_DEN_2022",
       "name": "Melvin Gordon",
       "position": "RB",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 78,
       "stats": {
-        "rushYPG": 31.8,
-        "tdPerGame": 0.2,
+        "recYPG": 22.3,
         "rushAttPerGame": 9.0,
-        "recYPG": 22.3
+        "rushYPG": 31.8,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033576_DEN_2022",
       "name": "Eric Saubert",
       "position": "WR",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 60,
       "stats": {
-        "recYPG": 13.5,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.36,
         "avgTargetsPerGame": 2.18,
-        "avgCatchesPerGame": 1.36
+        "recYPG": 13.5,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034348_DEN_2022",
       "name": "Courtland Sutton",
       "position": "WR",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 85,
       "stats": {
-        "recYPG": 55.3,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 4.27,
         "avgTargetsPerGame": 7.27,
-        "avgCatchesPerGame": 4.27
+        "recYPG": 55.3,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035864_DEN_2022",
       "name": "Kendall Hinton",
       "position": "WR",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 67,
       "stats": {
-        "recYPG": 28.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.18,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 2.18
+        "recYPG": 28.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036407_DEN_2022",
       "name": "Jerry Jeudy",
       "position": "WR",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 93,
       "stats": {
-        "recYPG": 64.8,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.47,
         "avgTargetsPerGame": 6.67,
-        "avgCatchesPerGame": 4.47
+        "recYPG": 64.8,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036997_DEN_2022",
       "name": "Javonte Williams",
       "position": "RB",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 77,
       "stats": {
-        "rushYPG": 51.0,
-        "tdPerGame": 0.0,
+        "recYPG": 19.0,
         "rushAttPerGame": 11.75,
-        "recYPG": 19.0
+        "rushYPG": 51.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037252_DEN_2022",
       "name": "Greg Dulcich",
       "position": "WR",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 82,
       "stats": {
-        "recYPG": 41.1,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.3,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 3.3
+        "recYPG": 41.1,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029822_DEN_2022",
       "name": "B.McManus",
       "position": "K",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.7778,
         "avgKickDistance": 43.0,
         "avgMissDistance": 48.6,
+        "fgAccuracy": 0.7778,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2022",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.36,
+        "normalizedRank": 17,
         "rushTDPct": 0.0248,
-        "normalizedRank": 17
+        "rushYPC": 4.36,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2022",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 78,
       "stats": {
+        "blitzPct": 0.329,
+        "normalizedRank": 10,
+        "pressurePct": 0.183,
+        "rushTDPerGameAllowed": 0.71,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 109.76,
-        "rushTDPerGameAllowed": 0.71,
-        "sackPct": 0.0595,
-        "blitzPct": 0.329,
-        "pressurePct": 0.183,
-        "normalizedRank": 10
+        "sackPct": 0.0595
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2022",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2022,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.6479,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 210.24,
-        "passTDPerGameAllowed": 1.18,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.18,
+        "passYPGAllowed": 210.24,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2022
     }
   ]
 }

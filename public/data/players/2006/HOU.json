@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011770_HOU_2006",
       "name": "Eric Moulds",
       "position": "WR",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 71,
       "stats": {
-        "recYPG": 37.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.8,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.8
+        "recYPG": 37.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019643_HOU_2006",
       "name": "Ron Dayne",
       "position": "RB",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "rushYPG": 61.2,
-        "tdPerGame": 0.5,
+        "recYPG": 7.7,
         "rushAttPerGame": 15.1,
-        "recYPG": 7.7
+        "rushYPG": 61.2,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 0.9853,
       "id": "p_00-0020608_HOU_2006",
       "name": "David Carr",
       "position": "QB",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 70,
       "stats": {
-        "passYPG": 172.8,
-        "qbr": 21.2,
-        "avgTDPerGame": 0.688,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.6833
+        "avgTDPerGame": 0.688,
+        "completionPct": 0.6833,
+        "passYPG": 172.8,
+        "qbr": 21.2
       },
-      "eraNormFactor": 0.9853
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022044_HOU_2006",
+      "is_all_pro": true,
       "name": "Andre Johnson",
       "position": "WR",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 92,
       "stats": {
-        "recYPG": 71.7,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 6.44,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 6.44
+        "recYPG": 71.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023508_HOU_2006",
       "name": "Vernand Morency",
       "position": "RB",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 69,
       "stats": {
-        "rushYPG": 33.4,
-        "tdPerGame": 0.154,
+        "recYPG": 9.1,
         "rushAttPerGame": 7.38,
-        "recYPG": 9.1
+        "rushYPG": 33.4,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024313_HOU_2006",
       "name": "Owen Daniels",
       "position": "WR",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 78,
       "stats": {
-        "recYPG": 31.8,
-        "tdPerGame": 0.455,
+        "avgCatchesPerGame": 3.09,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.09
+        "recYPG": 31.8,
+        "tdPerGame": 0.455
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024384_HOU_2006",
       "name": "Wali Lundy",
       "position": "RB",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "rushYPG": 39.7,
-        "tdPerGame": 0.333,
+        "recYPG": 17.0,
         "rushAttPerGame": 10.33,
-        "recYPG": 17.0
+        "rushYPG": 39.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001980_HOU_2006",
       "name": "K.Brown",
       "position": "K",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.76,
         "avgKickDistance": 39.4,
         "avgMissDistance": 44.0,
+        "fgAccuracy": 0.76,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_OLine_2006",
       "position": "OLine",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.9,
+        "normalizedRank": 20,
         "rushTDPct": 0.0301,
-        "normalizedRank": 20
+        "rushYPC": 3.9,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_DLine_2006",
       "position": "DLine",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 20,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.0,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 122.25,
-        "rushTDPerGameAllowed": 1.0,
-        "sackPct": 0.0554,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 20
+        "sackPct": 0.0554
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_HOU_Secondary_2006",
       "position": "Secondary",
-      "team": "HOU",
-      "year": 2006,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6495,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 215.25,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.69,
-        "normalizedRank": 22
+        "normalizedRank": 22,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 215.25,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "HOU",
+      "year": 2006
     }
   ]
 }

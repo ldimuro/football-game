@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004200_MIA_2000",
       "name": "Autry Denson",
       "position": "RB",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 63,
       "stats": {
-        "rushYPG": 11.5,
-        "tdPerGame": 0.0,
+        "recYPG": 16.2,
         "rushAttPerGame": 3.3,
-        "recYPG": 16.2
+        "rushYPG": 11.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0251,
       "id": "p_00-0005180_MIA_2000",
       "name": "Jay Fiedler",
       "position": "QB",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 72,
       "stats": {
-        "passYPG": 163.1,
-        "qbr": 57.5,
-        "avgTDPerGame": 0.875,
         "avgINTPerGame": 1.188,
-        "completionPct": 0.5611
+        "avgTDPerGame": 0.875,
+        "completionPct": 0.5611,
+        "passYPG": 163.1,
+        "qbr": 57.5
       },
-      "eraNormFactor": 1.0251
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005668_MIA_2000",
       "name": "Oronde Gadsden",
       "position": "WR",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 89,
       "stats": {
-        "recYPG": 48.5,
-        "tdPerGame": 0.353,
+        "avgCatchesPerGame": 3.41,
         "avgTargetsPerGame": 5.76,
-        "avgCatchesPerGame": 3.41
+        "recYPG": 48.5,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008529_MIA_2000",
       "name": "J.J. Johnson",
       "position": "RB",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 65,
       "stats": {
-        "rushYPG": 17.5,
-        "tdPerGame": 0.1,
+        "recYPG": 8.0,
         "rushAttPerGame": 5.1,
-        "recYPG": 8.0
+        "rushYPG": 17.5,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010477_MIA_2000",
       "name": "Tony Martin",
       "position": "WR",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 75,
       "stats": {
-        "recYPG": 38.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.55,
         "avgTargetsPerGame": 6.09,
-        "avgCatchesPerGame": 2.55
+        "recYPG": 38.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010824_MIA_2000",
       "name": "O.J. McDuffie",
       "position": "WR",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 67,
       "stats": {
-        "recYPG": 22.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 4.0,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 22.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0014790_MIA_2000",
       "name": "Leslie Shepherd",
       "position": "WR",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 81,
       "stats": {
-        "recYPG": 34.2,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.85,
         "avgTargetsPerGame": 4.85,
-        "avgCatchesPerGame": 2.85
+        "recYPG": 34.2,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015242_MIA_2000",
       "name": "Lamar Smith",
       "position": "RB",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 91,
       "stats": {
-        "rushYPG": 78.9,
-        "tdPerGame": 1.0,
+        "recYPG": 12.6,
         "rushAttPerGame": 20.5,
-        "recYPG": 12.6
+        "rushYPG": 78.9,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_MIA_2000",
       "name": "O.Mare",
       "position": "K",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.871,
         "avgKickDistance": 36.1,
         "avgMissDistance": 37.2,
+        "fgAccuracy": 0.871,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2000",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.84,
+        "normalizedRank": 22,
         "rushTDPct": 0.0351,
-        "normalizedRank": 22
+        "rushYPC": 3.84,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2000",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 14,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 108.5,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0906,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 14
+        "sackPct": 0.0906
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2000",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2000,
+      "rating": 96,
       "stats": {
         "completionPctAllowed": 0.5321,
-        "yardsPerAttemptAllowed": 5.0,
-        "passYPGAllowed": 181.25,
-        "passTDPerGameAllowed": 0.81,
         "interceptionsPerGame": 1.75,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 0.81,
+        "passYPGAllowed": 181.25,
+        "yardsPerAttemptAllowed": 5.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2000
     }
   ]
 }

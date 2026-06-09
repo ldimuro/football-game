@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.6237,
       "id": "p_00-0029604_MIN_2023",
       "name": "Kirk Cousins",
       "position": "QB",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "passYPG": 291.4,
-        "qbr": 96.4,
-        "avgTDPerGame": 2.25,
         "avgINTPerGame": 0.625,
-        "completionPct": 0.6945
+        "avgTDPerGame": 2.25,
+        "completionPct": 0.6945,
+        "passYPG": 291.4,
+        "qbr": 96.4
       },
-      "eraNormFactor": 1.6237
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033246_MIN_2023",
       "name": "Johnny Mundt",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "recYPG": 19.1,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.89,
         "avgTargetsPerGame": 2.56,
-        "avgCatchesPerGame": 1.89
+        "recYPG": 19.1,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.4555,
       "id": "p_00-0033319_MIN_2023",
       "name": "Nick Mullens",
       "position": "QB",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "passYPG": 261.2,
-        "qbr": 74.6,
-        "avgTDPerGame": 1.4,
         "avgINTPerGame": 1.6,
-        "completionPct": 0.6757
+        "avgTDPerGame": 1.4,
+        "completionPct": 0.6757,
+        "passYPG": 261.2,
+        "qbr": 74.6
       },
-      "eraNormFactor": 1.4555
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034646_MIN_2023",
       "name": "Brandon Powell",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 70,
       "stats": {
-        "recYPG": 24.9,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.23,
         "avgTargetsPerGame": 3.38,
-        "avgCatchesPerGame": 2.23
+        "recYPG": 24.9,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034972_MIN_2023",
       "name": "Alexander Mattison",
       "position": "RB",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 74,
       "stats": {
-        "rushYPG": 43.8,
-        "tdPerGame": 0.0,
+        "recYPG": 12.0,
         "rushAttPerGame": 11.25,
-        "recYPG": 12.0
+        "rushYPG": 43.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035229_MIN_2023",
+      "is_all_pro": true,
       "name": "T.J. Hockenson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 94,
       "stats": {
-        "recYPG": 64.0,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 6.33,
         "avgTargetsPerGame": 8.47,
-        "avgCatchesPerGame": 6.33
+        "recYPG": 64.0,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035249_MIN_2023",
       "name": "Josh Oliver",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 69,
       "stats": {
-        "recYPG": 17.8,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.83,
         "avgTargetsPerGame": 2.33,
-        "avgCatchesPerGame": 1.83
+        "recYPG": 17.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036322_MIN_2023",
       "name": "Justin Jefferson",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 99,
       "stats": {
-        "recYPG": 107.4,
-        "tdPerGame": 0.5,
+        "avgCatchesPerGame": 6.8,
         "avgTargetsPerGame": 10.0,
-        "avgCatchesPerGame": 6.8
+        "recYPG": 107.4,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036345_MIN_2023",
       "name": "K.J. Osborn",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 81,
       "stats": {
-        "recYPG": 36.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 36.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037276_MIN_2023",
       "name": "Ty Chandler",
       "position": "RB",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 77,
       "stats": {
-        "rushYPG": 35.5,
-        "tdPerGame": 0.231,
+        "recYPG": 12.2,
         "rushAttPerGame": 7.85,
-        "recYPG": 12.2
+        "rushYPG": 35.5,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038994_MIN_2023",
       "name": "Jordan Addison",
       "position": "WR",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 93,
       "stats": {
-        "recYPG": 53.6,
-        "tdPerGame": 0.588,
+        "avgCatchesPerGame": 4.12,
         "avgTargetsPerGame": 6.35,
-        "avgCatchesPerGame": 4.12
+        "recYPG": 53.6,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034450_MIN_2023",
       "name": "G.Joseph",
       "position": "K",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 65,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 37.6,
         "avgMissDistance": 49.3,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_OLine_2023",
       "position": "OLine",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 69,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.95,
+        "normalizedRank": 24,
         "rushTDPct": 0.0178,
-        "normalizedRank": 24
+        "rushYPC": 3.95,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_DLine_2023",
       "position": "DLine",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 83,
       "stats": {
+        "blitzPct": 0.515,
+        "normalizedRank": 8,
+        "pressurePct": 0.219,
+        "rushTDPerGameAllowed": 0.82,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 98.71,
-        "rushTDPerGameAllowed": 0.82,
-        "sackPct": 0.071,
-        "blitzPct": 0.515,
-        "pressurePct": 0.219,
-        "normalizedRank": 8
+        "sackPct": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIN_Secondary_2023",
       "position": "Secondary",
-      "team": "MIN",
-      "year": 2023,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.703,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 234.47,
-        "passTDPerGameAllowed": 1.35,
         "interceptionsPerGame": 0.65,
-        "normalizedRank": 24
+        "normalizedRank": 24,
+        "passTDPerGameAllowed": 1.35,
+        "passYPGAllowed": 234.47,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "MIN",
+      "year": 2023
     }
   ]
 }

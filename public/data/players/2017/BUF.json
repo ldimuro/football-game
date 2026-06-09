@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027029_BUF_2017",
       "name": "LeSean McCoy",
       "position": "RB",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 95,
       "stats": {
-        "rushYPG": 71.4,
-        "tdPerGame": 0.353,
+        "recYPG": 28.9,
         "rushAttPerGame": 18.0,
-        "recYPG": 28.9
+        "rushYPG": 71.4,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028112_BUF_2017",
       "name": "Charles Clay",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 81,
       "stats": {
-        "recYPG": 40.9,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 3.71,
         "avgTargetsPerGame": 5.64,
-        "avgCatchesPerGame": 3.71
+        "recYPG": 40.9,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 0.8863,
       "id": "p_00-0028118_BUF_2017",
       "name": "Tyrod Taylor",
       "position": "QB",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 74,
       "stats": {
-        "passYPG": 183.3,
-        "qbr": 44.9,
-        "avgTDPerGame": 0.875,
         "avgINTPerGame": 0.312,
-        "completionPct": 0.6127
+        "avgTDPerGame": 0.875,
+        "completionPct": 0.6127,
+        "passYPG": 183.3,
+        "qbr": 44.9
       },
-      "eraNormFactor": 0.8863
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028263_BUF_2017",
       "name": "Andre Holmes",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 67,
       "stats": {
-        "recYPG": 12.0,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 1.3,
         "avgTargetsPerGame": 2.3,
-        "avgCatchesPerGame": 1.3
+        "recYPG": 12.0,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031299_BUF_2017",
       "name": "Jordan Matthews",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.2,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.6,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 28.2,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032115_BUF_2017",
       "name": "Kaelin Clay",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 56,
       "stats": {
-        "recYPG": 9.8,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 0.75,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 0.75
+        "recYPG": 9.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032117_BUF_2017",
       "name": "Nick O'Leary",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.71,
         "avgTargetsPerGame": 2.71,
-        "avgCatchesPerGame": 1.71
+        "recYPG": 24.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033891_BUF_2017",
       "name": "Zay Jones",
       "position": "WR",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 69,
       "stats": {
-        "recYPG": 22.4,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 1.93,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 1.93
+        "recYPG": 22.4,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025944_BUF_2017",
       "name": "S.Hauschka",
       "position": "K",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8824,
         "avgKickDistance": 40.4,
         "avgMissDistance": 47.2,
+        "fgAccuracy": 0.8824,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_OLine_2017",
       "position": "OLine",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.14,
+        "normalizedRank": 15,
         "rushTDPct": 0.0231,
-        "normalizedRank": 15
+        "rushYPC": 4.14,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_DLine_2017",
       "position": "DLine",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 60,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 29,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.38,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 124.62,
-        "rushTDPerGameAllowed": 1.38,
-        "sackPct": 0.0471,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 29
+        "sackPct": 0.0471
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BUF_Secondary_2017",
       "position": "Secondary",
-      "team": "BUF",
-      "year": 2017,
+      "rating": 80,
       "stats": {
         "completionPctAllowed": 0.6457,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 230.5,
-        "passTDPerGameAllowed": 0.88,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 20
+        "normalizedRank": 20,
+        "passTDPerGameAllowed": 0.88,
+        "passYPGAllowed": 230.5,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "BUF",
+      "year": 2017
     }
   ]
 }

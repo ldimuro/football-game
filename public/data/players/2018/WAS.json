@@ -1,205 +1,219 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1172,
       "id": "p_00-0023436_WAS_2018",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 73,
       "stats": {
-        "passYPG": 218.0,
-        "qbr": 43.4,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.625
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.625,
+        "passYPG": 218.0,
+        "qbr": 43.4
       },
-      "eraNormFactor": 1.1172
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024221_WAS_2018",
       "name": "Vernon Davis",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.2,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 2.77,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 28.2,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025394_WAS_2018",
       "name": "Adrian Peterson",
       "position": "RB",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 88,
       "stats": {
-        "rushYPG": 65.1,
-        "tdPerGame": 0.438,
+        "recYPG": 13.0,
         "rushAttPerGame": 15.69,
-        "recYPG": 13.0
+        "rushYPG": 65.1,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029638_WAS_2018",
       "name": "Michael Floyd",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 59,
       "stats": {
-        "recYPG": 10.0,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 2.4,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 10.0,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030404_WAS_2018",
       "name": "Chris Thompson",
       "position": "RB",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 67,
       "stats": {
-        "rushYPG": 17.8,
-        "tdPerGame": 0.0,
+        "recYPG": 26.8,
         "rushAttPerGame": 4.3,
-        "recYPG": 26.8
+        "rushYPG": 17.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030472_WAS_2018",
       "name": "Jordan Reed",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 82,
       "stats": {
-        "recYPG": 42.9,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 4.15,
         "avgTargetsPerGame": 6.46,
-        "avgCatchesPerGame": 4.15
+        "recYPG": 42.9,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031257_WAS_2018",
       "name": "Paul Richardson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 80,
       "stats": {
-        "recYPG": 37.4,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 2.86,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 2.86
+        "recYPG": 37.4,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031941_WAS_2018",
       "name": "Jamison Crowder",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 82,
       "stats": {
-        "recYPG": 43.1,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 3.22,
         "avgTargetsPerGame": 5.44,
-        "avgCatchesPerGame": 3.22
+        "recYPG": 43.1,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032362_WAS_2018",
       "name": "Maurice Harris",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 67,
       "stats": {
-        "recYPG": 27.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.55,
         "avgTargetsPerGame": 4.27,
-        "avgCatchesPerGame": 2.55
+        "recYPG": 27.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032760_WAS_2018",
       "name": "Josh Doctson",
       "position": "WR",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 75,
       "stats": {
-        "recYPG": 35.5,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.93,
         "avgTargetsPerGame": 5.2,
-        "avgCatchesPerGame": 2.93
+        "recYPG": 35.5,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030098_WAS_2018",
       "name": "D.Hopkins",
       "position": "K",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 90,
       "stats": {
-        "fgAccuracy": 0.8966,
         "avgKickDistance": 41.1,
         "avgMissDistance": 51.0,
+        "fgAccuracy": 0.8966,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2018",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.29,
+        "normalizedRank": 19,
         "rushTDPct": 0.029,
-        "normalizedRank": 19
+        "rushYPC": 4.29,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2018",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 84,
       "stats": {
+        "blitzPct": 0.285,
+        "normalizedRank": 17,
+        "pressurePct": 0.242,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 116.25,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0857,
-        "blitzPct": 0.285,
-        "pressurePct": 0.242,
-        "normalizedRank": 17
+        "sackPct": 0.0857
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2018",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2018,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6741,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 237.12,
-        "passTDPerGameAllowed": 1.69,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.69,
+        "passYPGAllowed": 237.12,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2018
     }
   ]
 }

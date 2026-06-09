@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0002565_DAL_2003",
       "name": "Dan Campbell",
       "position": "WR",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 58,
       "stats": {
-        "recYPG": 17.7,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.82,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.82
+        "recYPG": 17.7,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005720_DAL_2003",
       "name": "Joey Galloway",
       "position": "WR",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 78,
       "stats": {
-        "recYPG": 52.2,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.71,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.71
+        "recYPG": 52.2,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006043_DAL_2003",
       "name": "Terry Glenn",
       "position": "WR",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 89,
       "stats": {
-        "recYPG": 56.6,
-        "tdPerGame": 0.357,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 56.6,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019516_DAL_2003",
       "name": "Troy Hambrick",
       "position": "RB",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 82,
       "stats": {
-        "rushYPG": 58.9,
-        "tdPerGame": 0.294,
+        "recYPG": 6.0,
         "rushAttPerGame": 16.65,
-        "recYPG": 6.0
+        "rushYPG": 58.9,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019794_DAL_2003",
       "name": "Aveion Cason",
       "position": "RB",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 71,
       "stats": {
-        "rushYPG": 22.0,
-        "tdPerGame": 0.2,
+        "recYPG": 14.2,
         "rushAttPerGame": 4.0,
-        "recYPG": 14.2
+        "rushYPG": 22.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.2591,
       "id": "p_00-0020404_DAL_2003",
       "name": "Quincy Carter",
       "position": "QB",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 74,
       "stats": {
-        "passYPG": 203.3,
-        "qbr": 12.8,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.294,
-        "completionPct": 0.5775
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.5775,
+        "passYPG": 203.3,
+        "qbr": 12.8
       },
-      "eraNormFactor": 1.2591
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021191_DAL_2003",
       "name": "Antonio Bryant",
       "position": "WR",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 71,
       "stats": {
-        "recYPG": 36.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 36.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2003",
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 67,
       "stats": {
-        "recYPG": 31.4,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 3.25,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.25
+        "recYPG": 31.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020972_DAL_2003",
       "name": "B.Cundiff",
       "position": "K",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 36.1,
         "avgMissDistance": 45.0,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2003",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.89,
+        "normalizedRank": 24,
         "rushTDPct": 0.0225,
-        "normalizedRank": 24
+        "rushYPC": 3.89,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2003",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 87,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 3,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.5,
         "rushYPGAllowed": 89.06,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.065,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 3
+        "sackPct": 0.065
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2003",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2003,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.4858,
-        "yardsPerAttemptAllowed": 5.0,
-        "passYPGAllowed": 164.44,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 164.44,
+        "yardsPerAttemptAllowed": 5.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2003
     }
   ]
 }

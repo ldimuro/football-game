@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2892,
       "id": "p_00-0020531_NO_2020",
       "name": "Drew Brees",
       "position": "QB",
-      "team": "NO",
-      "year": 2020,
+      "rating": 84,
       "stats": {
-        "passYPG": 238.6,
-        "qbr": 96.3,
-        "avgTDPerGame": 1.929,
         "avgINTPerGame": 0.643,
-        "completionPct": 0.6955
+        "avgTDPerGame": 1.929,
+        "completionPct": 0.6955,
+        "passYPG": 238.6,
+        "qbr": 96.3
       },
-      "eraNormFactor": 1.2892
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027061_NO_2020",
       "name": "Jared Cook",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.6,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 2.71,
         "avgTargetsPerGame": 4.35,
-        "avgCatchesPerGame": 2.71
+        "recYPG": 33.6,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027685_NO_2020",
       "name": "Emmanuel Sanders",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 86,
       "stats": {
-        "recYPG": 48.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 5.88,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 48.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030513_NO_2020",
       "name": "Latavius Murray",
       "position": "RB",
-      "team": "NO",
-      "year": 2020,
+      "rating": 79,
       "stats": {
-        "rushYPG": 41.6,
-        "tdPerGame": 0.25,
+        "recYPG": 11.7,
         "rushAttPerGame": 9.38,
-        "recYPG": 11.7
+        "rushYPG": 41.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032765_NO_2020",
       "name": "Michael Thomas",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 84,
       "stats": {
-        "recYPG": 56.8,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 5.0,
         "avgTargetsPerGame": 7.33,
-        "avgCatchesPerGame": 5.0
+        "recYPG": 56.8,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033906_NO_2020",
+      "is_all_pro": true,
       "name": "Alvin Kamara",
       "position": "RB",
-      "team": "NO",
-      "year": 2020,
+      "rating": 96,
       "stats": {
-        "rushYPG": 65.6,
-        "tdPerGame": 1.0,
+        "recYPG": 46.6,
         "rushAttPerGame": 13.41,
-        "recYPG": 46.6
+        "rushYPG": 65.6,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034765_NO_2020",
       "name": "Tre'Quan Smith",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 81,
       "stats": {
-        "recYPG": 38.1,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 2.64,
         "avgTargetsPerGame": 3.79,
-        "avgCatchesPerGame": 2.64
+        "recYPG": 38.1,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035215_NO_2020",
       "name": "Deonte Harty",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 66,
       "stats": {
-        "recYPG": 24.4,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 2.55,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 2.55
+        "recYPG": 24.4,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036219_NO_2020",
       "name": "Marquez Callaway",
       "position": "WR",
-      "team": "NO",
-      "year": 2020,
+      "rating": 68,
       "stats": {
-        "recYPG": 30.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.14,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 30.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032569_NO_2020",
       "name": "W.Lutz",
       "position": "K",
-      "team": "NO",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "fgAccuracy": 0.8065,
         "avgKickDistance": 37.8,
         "avgMissDistance": 45.3,
+        "fgAccuracy": 0.8065,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_OLine_2020",
       "position": "OLine",
-      "team": "NO",
-      "year": 2020,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.5,
+        "normalizedRank": 12,
         "rushTDPct": 0.056,
-        "normalizedRank": 12
+        "rushYPC": 4.5,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_DLine_2020",
       "position": "DLine",
-      "team": "NO",
-      "year": 2020,
+      "rating": 94,
       "stats": {
+        "blitzPct": 0.318,
+        "normalizedRank": 4,
+        "pressurePct": 0.263,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 93.88,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0808,
-        "blitzPct": 0.318,
-        "pressurePct": 0.263,
-        "normalizedRank": 4
+        "sackPct": 0.0808
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NO_Secondary_2020",
       "position": "Secondary",
-      "team": "NO",
-      "year": 2020,
+      "rating": 92,
       "stats": {
         "completionPctAllowed": 0.5978,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 217.0,
-        "passTDPerGameAllowed": 1.75,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 5
+        "normalizedRank": 5,
+        "passTDPerGameAllowed": 1.75,
+        "passYPGAllowed": 217.0,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "NO",
+      "year": 2020
     }
   ]
 }

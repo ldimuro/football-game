@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0201,
       "id": "p_00-0002110_WAS_2006",
       "name": "Mark Brunell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 77,
       "stats": {
-        "passYPG": 178.9,
-        "qbr": 56.3,
-        "avgTDPerGame": 0.8,
         "avgINTPerGame": 0.4,
-        "completionPct": 0.6207
+        "avgTDPerGame": 0.8,
+        "completionPct": 0.6207,
+        "passYPG": 178.9,
+        "qbr": 56.3
       },
-      "eraNormFactor": 1.0201
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020494_WAS_2006",
       "name": "Santana Moss",
       "position": "WR",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 90,
       "stats": {
-        "recYPG": 56.4,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 3.93,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.93
+        "recYPG": 56.4,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021179_WAS_2006",
       "name": "Clinton Portis",
       "position": "RB",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 89,
       "stats": {
-        "rushYPG": 65.4,
-        "tdPerGame": 0.875,
+        "recYPG": 21.2,
         "rushAttPerGame": 15.88,
-        "recYPG": 21.2
+        "rushYPG": 65.4,
+        "tdPerGame": 0.875
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021184_WAS_2006",
       "name": "Ladell Betts",
       "position": "RB",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 86,
       "stats": {
-        "rushYPG": 72.1,
-        "tdPerGame": 0.25,
+        "recYPG": 27.8,
         "rushAttPerGame": 15.31,
-        "recYPG": 27.8
+        "rushYPG": 72.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021376_WAS_2006",
       "name": "T.J. Duckett",
       "position": "RB",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 62,
       "stats": {
-        "rushYPG": 14.7,
-        "tdPerGame": 0.222,
+        "recYPG": 1.8,
         "rushAttPerGame": 4.22,
-        "recYPG": 1.8
+        "rushYPG": 14.7,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022097_WAS_2006",
       "name": "Brandon Lloyd",
       "position": "WR",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 63,
       "stats": {
-        "recYPG": 30.4,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 30.4,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022738_WAS_2006",
       "name": "Chris Cooley",
       "position": "WR",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 84,
       "stats": {
-        "recYPG": 45.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.56,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.56
+        "recYPG": 45.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0566,
       "id": "p_00-0023460_WAS_2006",
       "name": "Jason Campbell",
       "position": "QB",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "passYPG": 185.3,
-        "qbr": 45.6,
-        "avgTDPerGame": 1.429,
         "avgINTPerGame": 0.857,
-        "completionPct": 0.5314
+        "avgTDPerGame": 1.429,
+        "completionPct": 0.5314,
+        "passYPG": 185.3,
+        "qbr": 45.6
       },
-      "eraNormFactor": 1.0566
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006662_WAS_2006",
       "name": "J.Hall",
       "position": "K",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.7333,
         "avgKickDistance": 38.7,
         "avgMissDistance": 44.8,
+        "fgAccuracy": 0.7333,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_OLine_2006",
       "position": "OLine",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.54,
+        "normalizedRank": 8,
         "rushTDPct": 0.0266,
-        "normalizedRank": 8
+        "rushYPC": 4.54,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_DLine_2006",
       "position": "DLine",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 66,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 137.31,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0391,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0391
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_WAS_Secondary_2006",
       "position": "Secondary",
-      "team": "WAS",
-      "year": 2006,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.5947,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 218.19,
-        "passTDPerGameAllowed": 1.88,
         "interceptionsPerGame": 0.38,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 1.88,
+        "passYPGAllowed": 218.19,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "WAS",
+      "year": 2006
     }
   ]
 }

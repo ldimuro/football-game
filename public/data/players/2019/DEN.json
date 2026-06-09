@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0931,
       "id": "p_00-0026158_DEN_2019",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 67,
       "stats": {
-        "passYPG": 227.8,
-        "qbr": 20.9,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 0.625,
-        "completionPct": 0.6527
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.6527,
+        "passYPG": 227.8,
+        "qbr": 20.9
       },
-      "eraNormFactor": 1.0931
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027685_DEN_2019",
       "name": "Emmanuel Sanders",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 83,
       "stats": {
-        "recYPG": 47.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.55,
         "avgTargetsPerGame": 5.25,
-        "avgCatchesPerGame": 3.55
+        "recYPG": 47.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032227_DEN_2019",
       "name": "Jeff Heuerman",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 1.75,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.75
+        "recYPG": 14.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033375_DEN_2019",
       "name": "Tim Patrick",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 70,
       "stats": {
-        "recYPG": 31.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.29,
         "avgTargetsPerGame": 4.43,
-        "avgCatchesPerGame": 2.29
+        "recYPG": 31.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034109_DEN_2019",
       "name": "Phillip Lindsay",
       "position": "RB",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 86,
       "stats": {
-        "rushYPG": 63.2,
-        "tdPerGame": 0.438,
+        "recYPG": 12.2,
         "rushAttPerGame": 14.0,
-        "recYPG": 12.2
+        "rushYPG": 63.2,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034348_DEN_2019",
       "name": "Courtland Sutton",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 92,
       "stats": {
-        "recYPG": 69.5,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.5,
         "avgTargetsPerGame": 7.75,
-        "avgCatchesPerGame": 4.5
+        "recYPG": 69.5,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034370_DEN_2019",
       "name": "DaeSean Hamilton",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 69,
       "stats": {
-        "recYPG": 24.8,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.33,
         "avgTargetsPerGame": 4.33,
-        "avgCatchesPerGame": 2.33
+        "recYPG": 24.8,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034838_DEN_2019",
       "name": "Royce Freeman",
       "position": "RB",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 75,
       "stats": {
-        "rushYPG": 31.0,
-        "tdPerGame": 0.188,
+        "recYPG": 16.0,
         "rushAttPerGame": 8.25,
-        "recYPG": 16.0
+        "rushYPG": 31.0,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035644_DEN_2019",
       "name": "Noah Fant",
       "position": "WR",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 76,
       "stats": {
-        "recYPG": 35.1,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 4.12,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 35.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 0.9789,
       "id": "p_00-0035704_DEN_2019",
       "name": "Drew Lock",
       "position": "QB",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 77,
       "stats": {
-        "passYPG": 204.0,
-        "qbr": 77.4,
-        "avgTDPerGame": 1.4,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.641
+        "avgTDPerGame": 1.4,
+        "completionPct": 0.641,
+        "passYPG": 204.0,
+        "qbr": 77.4
       },
-      "eraNormFactor": 0.9789
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029822_DEN_2019",
       "name": "B.McManus",
       "position": "K",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.8529,
         "avgKickDistance": 40.4,
         "avgMissDistance": 52.6,
+        "fgAccuracy": 0.8529,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_OLine_2019",
       "position": "OLine",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.06,
+        "normalizedRank": 21,
         "rushTDPct": 0.0269,
-        "normalizedRank": 21
+        "rushYPC": 4.06,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_DLine_2019",
       "position": "DLine",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 82,
       "stats": {
+        "blitzPct": 0.241,
+        "normalizedRank": 16,
+        "pressurePct": 0.229,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 111.44,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0745,
-        "blitzPct": 0.241,
-        "pressurePct": 0.229,
-        "normalizedRank": 16
+        "sackPct": 0.0745
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DEN_Secondary_2019",
       "position": "Secondary",
-      "team": "DEN",
-      "year": 2019,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.648,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 225.56,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 225.56,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "DEN",
+      "year": 2019
     }
   ]
 }

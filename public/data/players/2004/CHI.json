@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0003035_CHI_2004",
       "name": "Desmond Clark",
       "position": "WR",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 61,
       "stats": {
-        "recYPG": 23.5,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 23.5,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019641_CHI_2004",
       "name": "Thomas Jones",
       "position": "RB",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "rushYPG": 67.7,
-        "tdPerGame": 0.5,
+        "recYPG": 30.5,
         "rushAttPerGame": 17.14,
-        "recYPG": 30.5
+        "rushYPG": 67.7,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020403_CHI_2004",
       "name": "Anthony Thomas",
       "position": "RB",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 71,
       "stats": {
-        "rushYPG": 33.7,
-        "tdPerGame": 0.167,
+        "recYPG": 11.0,
         "rushAttPerGame": 10.17,
-        "recYPG": 11.0
+        "rushYPG": 33.7,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020513_CHI_2004",
       "name": "David Terrell",
       "position": "WR",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 71,
       "stats": {
-        "recYPG": 46.6,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.8,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.8
+        "recYPG": 46.6,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0262,
       "id": "p_00-0020562_CHI_2004",
       "name": "Chad Hutchinson",
       "position": "QB",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 71,
       "stats": {
-        "passYPG": 180.6,
-        "qbr": 0,
-        "avgTDPerGame": 0.8,
         "avgINTPerGame": 0.6,
-        "completionPct": 0.5714
+        "avgTDPerGame": 0.8,
+        "completionPct": 0.5714,
+        "passYPG": 180.6,
+        "qbr": 0
       },
-      "eraNormFactor": 1.0262
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022144_CHI_2004",
       "name": "Bobby Wade",
       "position": "WR",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "recYPG": 30.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 30.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 0.6802,
       "id": "p_00-0022818_CHI_2004",
       "name": "Craig Krenzel",
       "position": "QB",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 60,
       "stats": {
-        "passYPG": 119.7,
-        "qbr": 0,
-        "avgTDPerGame": 0.5,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.4646
+        "avgTDPerGame": 0.5,
+        "completionPct": 0.4646,
+        "passYPG": 119.7,
+        "qbr": 0
       },
-      "eraNormFactor": 0.6802
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019490_CHI_2004",
       "name": "P.Edinger",
       "position": "K",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.625,
         "avgKickDistance": 38.9,
         "avgMissDistance": 43.2,
+        "fgAccuracy": 0.625,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2004",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.78,
+        "normalizedRank": 26,
         "rushTDPct": 0.0233,
-        "normalizedRank": 26
+        "rushYPC": 3.78,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2004",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 74,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 25,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 128.12,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.068,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 25
+        "sackPct": 0.068
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2004",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2004,
+      "rating": 82,
       "stats": {
         "completionPctAllowed": 0.5573,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 208.75,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 15
+        "normalizedRank": 15,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 208.75,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2004
     }
   ]
 }

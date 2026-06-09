@@ -1,222 +1,237 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031236_DAL_2024",
       "name": "Brandin Cooks",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 76,
       "stats": {
-        "recYPG": 25.9,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 2.6,
         "avgTargetsPerGame": 5.4,
-        "avgCatchesPerGame": 2.6
+        "recYPG": 25.9,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033045_DAL_2024",
       "name": "Ezekiel Elliott",
       "position": "RB",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 66,
       "stats": {
-        "rushYPG": 15.1,
-        "tdPerGame": 0.2,
+        "recYPG": 4.6,
         "rushAttPerGame": 4.93,
-        "recYPG": 4.6
+        "rushYPG": 15.1,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.47,
       "id": "p_00-0033077_DAL_2024",
       "name": "Dak Prescott",
       "position": "QB",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 79,
       "stats": {
-        "passYPG": 247.2,
-        "qbr": 40.8,
-        "avgTDPerGame": 1.375,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6469
+        "avgTDPerGame": 1.375,
+        "completionPct": 0.6469,
+        "passYPG": 247.2,
+        "qbr": 40.8
       },
-      "eraNormFactor": 1.47
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 0.914,
       "id": "p_00-0033662_DAL_2024",
       "name": "Cooper Rush",
       "position": "QB",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 71,
       "stats": {
-        "passYPG": 153.7,
-        "qbr": 30.1,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 0.417,
-        "completionPct": 0.6071
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.6071,
+        "passYPG": 153.7,
+        "qbr": 30.1
       },
-      "eraNormFactor": 0.914
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036139_DAL_2024",
       "name": "Rico Dowdle",
       "position": "RB",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 85,
       "stats": {
-        "rushYPG": 67.4,
-        "tdPerGame": 0.125,
+        "recYPG": 15.6,
         "rushAttPerGame": 14.69,
-        "recYPG": 15.6
+        "rushYPG": 67.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036358_DAL_2024",
+      "is_all_pro": true,
       "name": "CeeDee Lamb",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 96,
       "stats": {
-        "recYPG": 79.6,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 6.73,
         "avgTargetsPerGame": 10.13,
-        "avgCatchesPerGame": 6.73
+        "recYPG": 79.6,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037666_DAL_2024",
       "name": "Jalen Tolbert",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 82,
       "stats": {
-        "recYPG": 35.9,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 2.88,
         "avgTargetsPerGame": 4.65,
-        "avgCatchesPerGame": 2.88
+        "recYPG": 35.9,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037801_DAL_2024",
       "name": "Kavontae Turpin",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 70,
       "stats": {
-        "recYPG": 28.0,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 2.07,
         "avgTargetsPerGame": 3.47,
-        "avgCatchesPerGame": 2.07
+        "recYPG": 28.0,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038041_DAL_2024",
       "name": "Jake Ferguson",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 74,
       "stats": {
-        "recYPG": 35.3,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 4.21,
         "avgTargetsPerGame": 6.14,
-        "avgCatchesPerGame": 4.21
+        "recYPG": 35.3,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038547_DAL_2024",
       "name": "Luke Schoonmaker",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.1,
-        "tdPerGame": 0.1,
+        "avgCatchesPerGame": 2.7,
         "avgTargetsPerGame": 3.6,
-        "avgCatchesPerGame": 2.7
+        "recYPG": 24.1,
+        "tdPerGame": 0.1
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038640_DAL_2024",
       "name": "Jalen Brooks",
       "position": "WR",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 60,
       "stats": {
-        "recYPG": 14.8,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 1.0,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.0
+        "recYPG": 14.8,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037692_DAL_2024",
+      "is_all_pro": true,
       "name": "B.Aubrey",
       "position": "K",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8511,
         "avgKickDistance": 44.8,
         "avgMissDistance": 48.1,
+        "fgAccuracy": 0.8511,
         "longestMadeKick": 65
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2024
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2024",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 65,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.97,
+        "normalizedRank": 30,
         "rushTDPct": 0.014,
-        "normalizedRank": 30
+        "rushYPC": 3.97,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2024",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 73,
       "stats": {
+        "blitzPct": 0.299,
+        "normalizedRank": 29,
+        "pressurePct": 0.301,
+        "rushTDPerGameAllowed": 1.47,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 137.12,
-        "rushTDPerGameAllowed": 1.47,
-        "sackPct": 0.1016,
-        "blitzPct": 0.299,
-        "pressurePct": 0.301,
-        "normalizedRank": 29
+        "sackPct": 0.1016
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2024",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2024,
+      "rating": 67,
       "stats": {
         "completionPctAllowed": 0.6816,
-        "yardsPerAttemptAllowed": 6.6,
-        "passYPGAllowed": 218.12,
-        "passTDPerGameAllowed": 1.65,
         "interceptionsPerGame": 0.76,
-        "normalizedRank": 17
+        "normalizedRank": 17,
+        "passTDPerGameAllowed": 1.65,
+        "passYPGAllowed": 218.12,
+        "yardsPerAttemptAllowed": 6.6
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2024
     }
   ]
 }

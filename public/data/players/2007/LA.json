@@ -1,33 +1,35 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017693_LA_2007",
       "name": "J.Wilkins",
       "position": "K",
-      "team": "LA",
-      "year": 2007,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.75,
         "avgKickDistance": 38.5,
         "avgMissDistance": 42.0,
+        "fgAccuracy": 0.75,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LA_OLine_2007",
       "position": "OLine",
-      "team": "LA",
-      "year": 2007,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.78,
+        "normalizedRank": 24,
         "rushTDPct": 0.0124,
-        "normalizedRank": 24
+        "rushYPC": 3.78,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LA",
+      "year": 2007
     }
   ]
 }

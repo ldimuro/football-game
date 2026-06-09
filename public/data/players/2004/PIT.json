@@ -1,150 +1,160 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0001215_PIT_2004",
       "name": "Jerome Bettis",
       "position": "RB",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 84,
       "stats": {
-        "rushYPG": 69.1,
-        "tdPerGame": 0.938,
+        "recYPG": 4.2,
         "rushAttPerGame": 18.38,
-        "recYPG": 4.2
+        "rushYPG": 69.1,
+        "tdPerGame": 0.938
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015523_PIT_2004",
       "name": "Duce Staley",
       "position": "RB",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 77,
       "stats": {
-        "rushYPG": 75.8,
-        "tdPerGame": 0.083,
+        "recYPG": 4.6,
         "rushAttPerGame": 17.75,
-        "recYPG": 4.6
+        "rushYPG": 75.8,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017162_PIT_2004",
+      "is_all_pro": true,
       "name": "Hines Ward",
       "position": "WR",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 90,
       "stats": {
-        "recYPG": 67.7,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 5.28,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.28
+        "recYPG": 67.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019642_PIT_2004",
       "name": "Plaxico Burress",
       "position": "WR",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 87,
       "stats": {
-        "recYPG": 58.7,
-        "tdPerGame": 0.462,
+        "avgCatchesPerGame": 3.08,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.08
+        "recYPG": 58.7,
+        "tdPerGame": 0.462
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022250_PIT_2004",
       "name": "Willie Parker",
       "position": "RB",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 65,
       "stats": {
-        "rushYPG": 37.2,
-        "tdPerGame": 0.0,
+        "recYPG": 3.2,
         "rushAttPerGame": 6.4,
-        "recYPG": 3.2
+        "rushYPG": 37.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0751,
       "id": "p_00-0022924_PIT_2004",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 79,
       "stats": {
-        "passYPG": 189.2,
-        "qbr": 79.6,
-        "avgTDPerGame": 1.25,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6504
+        "avgTDPerGame": 1.25,
+        "completionPct": 0.6504,
+        "passYPG": 189.2,
+        "qbr": 79.6
       },
-      "eraNormFactor": 1.0751
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020737_PIT_2004",
       "name": "J.Reed",
       "position": "K",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.8649,
         "avgKickDistance": 34.1,
         "avgMissDistance": 38.8,
+        "fgAccuracy": 0.8649,
         "longestMadeKick": 51
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2004",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 76,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.04,
+        "normalizedRank": 19,
         "rushTDPct": 0.0258,
-        "normalizedRank": 19
+        "rushYPC": 4.04,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2004",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 95,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 1,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 81.19,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0847,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 1
+        "sackPct": 0.0847
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2004",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2004,
+      "rating": 94,
       "stats": {
         "completionPctAllowed": 0.5558,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 177.19,
-        "passTDPerGameAllowed": 0.88,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 4
+        "normalizedRank": 4,
+        "passTDPerGameAllowed": 0.88,
+        "passYPGAllowed": 177.19,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2004
     }
   ]
 }

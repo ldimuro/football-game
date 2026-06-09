@@ -1,163 +1,174 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004780_JAX_2004",
       "name": "Troy Edwards",
       "position": "WR",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 69,
       "stats": {
-        "recYPG": 35.5,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.33,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.33
+        "recYPG": 35.5,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015218_JAX_2004",
       "name": "Jimmy Smith",
       "position": "WR",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 91,
       "stats": {
-        "recYPG": 73.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 73.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_JAX_2004",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 86,
       "stats": {
-        "rushYPG": 87.4,
-        "tdPerGame": 0.143,
+        "recYPG": 24.6,
         "rushAttPerGame": 18.57,
-        "recYPG": 24.6
+        "rushYPG": 87.4,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022057_JAX_2004",
       "name": "LaBrandon Toefield",
       "position": "RB",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 61,
       "stats": {
-        "rushYPG": 12.1,
-        "tdPerGame": 0.0,
+        "recYPG": 10.8,
         "rushAttPerGame": 3.64,
-        "recYPG": 10.8
+        "rushYPG": 12.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.1939,
       "id": "p_00-0022177_JAX_2004",
       "name": "Byron Leftwich",
       "position": "QB",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 81,
       "stats": {
-        "passYPG": 210.1,
-        "qbr": 64.1,
-        "avgTDPerGame": 1.071,
         "avgINTPerGame": 0.714,
-        "completionPct": 0.6054
+        "avgTDPerGame": 1.071,
+        "completionPct": 0.6054,
+        "passYPG": 210.1,
+        "qbr": 64.1
       },
-      "eraNormFactor": 1.1939
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022889_JAX_2004",
       "name": "Reggie Williams",
       "position": "WR",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 60,
       "stats": {
-        "recYPG": 20.6,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 20.6,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022897_JAX_2004",
       "name": "Greg Jones",
       "position": "RB",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 62,
       "stats": {
-        "rushYPG": 11.6,
-        "tdPerGame": 0.214,
+        "recYPG": 0.9,
         "rushAttPerGame": 4.43,
-        "recYPG": 0.9
+        "rushYPG": 11.6,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022874_JAX_2004",
       "name": "J.Scobee",
       "position": "K",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.7742,
         "avgKickDistance": 35.2,
         "avgMissDistance": 43.1,
+        "fgAccuracy": 0.7742,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_OLine_2004",
       "position": "OLine",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 73,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.15,
+        "normalizedRank": 16,
         "rushTDPct": 0.0202,
-        "normalizedRank": 16
+        "rushYPC": 4.15,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_DLine_2004",
       "position": "DLine",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 82,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 11,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 111.06,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.0744,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 11
+        "sackPct": 0.0744
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_JAX_Secondary_2004",
       "position": "Secondary",
-      "team": "JAX",
-      "year": 2004,
+      "rating": 75,
       "stats": {
         "completionPctAllowed": 0.6157,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 209.81,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 209.81,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "JAX",
+      "year": 2004
     }
   ]
 }

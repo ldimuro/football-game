@@ -2,35 +2,37 @@
   "players": [],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_DLine_2009",
       "position": "DLine",
-      "team": "LAR",
-      "year": 2009,
+      "rating": 64,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 27,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.5,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 137.56,
-        "rushTDPerGameAllowed": 1.5,
-        "sackPct": 0.0509,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 27
+        "sackPct": 0.0509
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAR_Secondary_2009",
       "position": "Secondary",
-      "team": "LAR",
-      "year": 2009,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.6415,
-        "yardsPerAttemptAllowed": 7.3,
-        "passYPGAllowed": 235.25,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 0.5,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 235.25,
+        "yardsPerAttemptAllowed": 7.3
       },
-      "eraNormFactor": 1.0
+      "team": "LAR",
+      "year": 2009
     }
   ]
 }

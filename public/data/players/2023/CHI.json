@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033925_CHI_2023",
       "name": "D'Onta Foreman",
       "position": "RB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "rushYPG": 47.2,
-        "tdPerGame": 0.444,
+        "recYPG": 8.6,
         "rushAttPerGame": 12.11,
-        "recYPG": 8.6
+        "rushYPG": 47.2,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034827_CHI_2023",
       "name": "DJ Moore",
       "position": "WR",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 97,
       "stats": {
-        "recYPG": 80.2,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 5.65,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 5.65
+        "recYPG": 80.2,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036290_CHI_2023",
       "name": "Cole Kmet",
       "position": "WR",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 90,
       "stats": {
-        "recYPG": 47.9,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 4.87,
         "avgTargetsPerGame": 6.0,
-        "avgCatchesPerGame": 4.87
+        "recYPG": 47.9,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036297_CHI_2023",
       "name": "Darrynton Evans",
       "position": "RB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 68,
       "stats": {
-        "rushYPG": 20.2,
-        "tdPerGame": 0.167,
+        "recYPG": 8.2,
         "rushAttPerGame": 5.33,
-        "recYPG": 8.2
+        "rushYPG": 20.2,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036309_CHI_2023",
       "name": "Darnell Mooney",
       "position": "WR",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 73,
       "stats": {
-        "recYPG": 29.6,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 2.21,
         "avgTargetsPerGame": 4.36,
-        "avgCatchesPerGame": 2.21
+        "recYPG": 29.6,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036326_CHI_2023",
       "name": "Chase Claypool",
       "position": "WR",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 64,
       "stats": {
-        "recYPG": 11.0,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 1.14,
         "avgTargetsPerGame": 3.0,
-        "avgCatchesPerGame": 1.14
+        "recYPG": 11.0,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036906_CHI_2023",
       "name": "Khalil Herbert",
       "position": "RB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 79,
       "stats": {
-        "rushYPG": 50.9,
-        "tdPerGame": 0.167,
+        "recYPG": 11.2,
         "rushAttPerGame": 11.0,
-        "recYPG": 11.2
+        "rushYPG": 50.9,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0983,
       "id": "p_00-0036945_CHI_2023",
       "name": "Justin Fields",
       "position": "QB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 75,
       "stats": {
-        "passYPG": 197.1,
-        "qbr": 22.1,
-        "avgTDPerGame": 1.231,
         "avgINTPerGame": 0.692,
-        "completionPct": 0.6135
+        "avgTDPerGame": 1.231,
+        "completionPct": 0.6135,
+        "passYPG": 197.1,
+        "qbr": 22.1
       },
-      "eraNormFactor": 1.0983
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 0.9573,
       "id": "p_00-0038416_CHI_2023",
       "name": "Tyson Bagent",
       "position": "QB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 62,
       "stats": {
-        "passYPG": 171.8,
-        "qbr": 0,
-        "avgTDPerGame": 0.6,
         "avgINTPerGame": 1.2,
-        "completionPct": 0.6573
+        "avgTDPerGame": 0.6,
+        "completionPct": 0.6573,
+        "passYPG": 171.8,
+        "qbr": 0
       },
-      "eraNormFactor": 0.9573
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0038941_CHI_2023",
       "name": "Tyler Scott",
       "position": "WR",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 60,
       "stats": {
-        "recYPG": 12.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.31,
         "avgTargetsPerGame": 2.46,
-        "avgCatchesPerGame": 1.31
+        "recYPG": 12.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0039021_CHI_2023",
       "name": "Roschon Johnson",
       "position": "RB",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 72,
       "stats": {
-        "rushYPG": 23.5,
-        "tdPerGame": 0.133,
+        "recYPG": 13.9,
         "rushAttPerGame": 5.4,
-        "recYPG": 13.9
+        "rushYPG": 23.5,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031203_CHI_2023",
       "name": "C.Santos",
       "position": "K",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.9211,
         "avgKickDistance": 38.9,
         "avgMissDistance": 47.7,
+        "fgAccuracy": 0.9211,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2023",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 83,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.49,
+        "normalizedRank": 6,
         "rushTDPct": 0.03,
-        "normalizedRank": 6
+        "rushYPC": 4.49,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2023",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 82,
       "stats": {
+        "blitzPct": 0.222,
+        "normalizedRank": 1,
+        "pressurePct": 0.188,
+        "rushTDPerGameAllowed": 0.47,
         "rushYPCAllowed": 3.8,
         "rushYPGAllowed": 86.35,
-        "rushTDPerGameAllowed": 0.47,
-        "sackPct": 0.0486,
-        "blitzPct": 0.222,
-        "pressurePct": 0.188,
-        "normalizedRank": 1
+        "sackPct": 0.0486
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2023",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2023,
+      "rating": 74,
       "stats": {
         "completionPctAllowed": 0.6645,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 237.82,
-        "passTDPerGameAllowed": 1.82,
         "interceptionsPerGame": 1.29,
-        "normalizedRank": 25
+        "normalizedRank": 25,
+        "passTDPerGameAllowed": 1.82,
+        "passYPGAllowed": 237.82,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2023
     }
   ]
 }

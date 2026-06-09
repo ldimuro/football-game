@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011754_SF_2012",
       "name": "Randy Moss",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "recYPG": 28.7,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 1.84,
         "avgTargetsPerGame": 3.32,
-        "avgCatchesPerGame": 1.84
+        "recYPG": 28.7,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 0.8468,
       "id": "p_00-0023436_SF_2012",
       "name": "Alex Smith",
       "position": "QB",
-      "team": "SF",
-      "year": 2012,
+      "rating": 78,
       "stats": {
-        "passYPG": 173.7,
-        "qbr": 83.6,
-        "avgTDPerGame": 1.3,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.7018
+        "avgTDPerGame": 1.3,
+        "completionPct": 0.7018,
+        "passYPG": 173.7,
+        "qbr": 83.6
       },
-      "eraNormFactor": 0.8468
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023500_SF_2012",
       "name": "Frank Gore",
       "position": "RB",
-      "team": "SF",
-      "year": 2012,
+      "rating": 93,
       "stats": {
-        "rushYPG": 80.7,
-        "tdPerGame": 0.632,
+        "recYPG": 14.8,
         "rushAttPerGame": 16.89,
-        "recYPG": 14.8
+        "rushYPG": 80.7,
+        "tdPerGame": 0.632
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024221_SF_2012",
       "name": "Vernon Davis",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 82,
       "stats": {
-        "recYPG": 44.6,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 2.94,
         "avgTargetsPerGame": 4.44,
-        "avgCatchesPerGame": 2.94
+        "recYPG": 44.6,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024389_SF_2012",
       "name": "Delanie Walker",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.8,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.44,
         "avgTargetsPerGame": 2.78,
-        "avgCatchesPerGame": 1.44
+        "recYPG": 23.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026235_SF_2012",
       "name": "Mario Manningham",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 74,
       "stats": {
-        "recYPG": 37.4,
-        "tdPerGame": 0.083,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 4.75,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 37.4,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026986_SF_2012",
       "name": "Michael Crabtree",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 96,
       "stats": {
-        "recYPG": 73.2,
-        "tdPerGame": 0.632,
+        "avgCatchesPerGame": 5.53,
         "avgTargetsPerGame": 8.11,
-        "avgCatchesPerGame": 5.53
+        "recYPG": 73.2,
+        "tdPerGame": 0.632
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027608_SF_2012",
       "name": "Kyle Williams",
       "position": "WR",
-      "team": "SF",
-      "year": 2012,
+      "rating": 61,
       "stats": {
-        "recYPG": 19.3,
-        "tdPerGame": 0.091,
+        "avgCatchesPerGame": 1.27,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.27
+        "recYPG": 19.3,
+        "tdPerGame": 0.091
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 0.7956,
       "id": "p_00-0027974_SF_2012",
       "name": "Colin Kaepernick",
       "position": "QB",
-      "team": "SF",
-      "year": 2012,
+      "rating": 76,
       "stats": {
-        "passYPG": 163.2,
-        "qbr": 97.3,
-        "avgTDPerGame": 0.875,
         "avgINTPerGame": 0.312,
-        "completionPct": 0.6208
+        "avgTDPerGame": 0.875,
+        "completionPct": 0.6208,
+        "passYPG": 163.2,
+        "qbr": 97.3
       },
-      "eraNormFactor": 0.7956
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028053_SF_2012",
       "name": "Kendall Hunter",
       "position": "RB",
-      "team": "SF",
-      "year": 2012,
+      "rating": 73,
       "stats": {
-        "rushYPG": 33.7,
-        "tdPerGame": 0.182,
+        "recYPG": 5.5,
         "rushAttPerGame": 6.55,
-        "recYPG": 5.5
+        "rushYPG": 33.7,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029260_SF_2012",
       "name": "LaMichael James",
       "position": "RB",
-      "team": "SF",
-      "year": 2012,
+      "rating": 69,
       "stats": {
-        "rushYPG": 27.1,
-        "tdPerGame": 0.143,
+        "recYPG": 5.7,
         "rushAttPerGame": 5.43,
-        "recYPG": 5.7
+        "rushYPG": 27.1,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0000108_SF_2012",
       "name": "D.Akers",
       "position": "K",
-      "team": "SF",
-      "year": 2012,
+      "rating": 72,
       "stats": {
-        "fgAccuracy": 0.7021,
         "avgKickDistance": 37.1,
         "avgMissDistance": 42.1,
+        "fgAccuracy": 0.7021,
         "longestMadeKick": 63
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_OLine_2012",
       "position": "OLine",
-      "team": "SF",
-      "year": 2012,
+      "rating": 89,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 5.3,
+        "normalizedRank": 2,
         "rushTDPct": 0.0438,
-        "normalizedRank": 2
+        "rushYPC": 5.3,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_DLine_2012",
       "position": "DLine",
-      "team": "SF",
-      "year": 2012,
+      "rating": 90,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.44,
         "rushYPCAllowed": 3.7,
         "rushYPGAllowed": 94.19,
-        "rushTDPerGameAllowed": 0.44,
-        "sackPct": 0.067,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SF_Secondary_2012",
       "position": "Secondary",
-      "team": "SF",
-      "year": 2012,
+      "rating": 88,
       "stats": {
         "completionPctAllowed": 0.5944,
-        "yardsPerAttemptAllowed": 5.3,
-        "passYPGAllowed": 200.19,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 4
+        "normalizedRank": 4,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 200.19,
+        "yardsPerAttemptAllowed": 5.3
       },
-      "eraNormFactor": 1.0
+      "team": "SF",
+      "year": 2012
     }
   ]
 }

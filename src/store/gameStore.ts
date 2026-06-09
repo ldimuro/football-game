@@ -1,6 +1,9 @@
 import { create } from 'zustand'
 import { generateRandomRoster, generateRandomSlot } from '../logic/rosterGen'
-import { generateDraftOffer, generateOpponent } from '../logic/draftGen'
+import {
+  generateDraftOffer, generateOpponent,
+  rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
+} from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
@@ -24,7 +27,8 @@ interface GameStore {
   rerollSetupSlot: (position: RosterPosition) => Promise<void>
   confirmSetup: () => Promise<void>
   viewDraftOffer: () => void
-  rerollDraftOffer: () => Promise<void>
+  rerollDraftOfferTeam: () => Promise<void>
+  rerollDraftOfferYear: () => Promise<void>
   draftPlayer: (id: string, targetPosition: RosterPosition) => Promise<void>
   skipDraft: () => Promise<void>
 }
@@ -87,10 +91,19 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   viewDraftOffer: () => set({ phase: 'draft-offer' }),
 
-  rerollDraftOffer: async () => {
-    if (!get().draftRerollAvailable) return
+  rerollDraftOfferTeam: async () => {
+    const { draftRerollAvailable, currentDraftOffer } = get()
+    if (!draftRerollAvailable || !currentDraftOffer) return
     set({ isLoading: true })
-    const draftOffer = await generateDraftOffer()
+    const draftOffer = await genOfferNewTeam(currentDraftOffer.team, currentDraftOffer.year)
+    set({ currentDraftOffer: draftOffer, draftRerollAvailable: false, isLoading: false })
+  },
+
+  rerollDraftOfferYear: async () => {
+    const { draftRerollAvailable, currentDraftOffer } = get()
+    if (!draftRerollAvailable || !currentDraftOffer) return
+    set({ isLoading: true })
+    const draftOffer = await genOfferNewYear(currentDraftOffer.team, currentDraftOffer.year)
     set({ currentDraftOffer: draftOffer, draftRerollAvailable: false, isLoading: false })
   },
 

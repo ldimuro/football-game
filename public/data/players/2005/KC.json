@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006101_KC_2005",
       "name": "Tony Gonzalez",
       "position": "WR",
-      "team": "KC",
-      "year": 2005,
+      "rating": 82,
       "stats": {
-        "recYPG": 56.6,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 4.88,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.88
+        "recYPG": 56.6,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.4706,
       "id": "p_00-0006355_KC_2005",
       "name": "Trent Green",
       "position": "QB",
-      "team": "KC",
-      "year": 2005,
+      "rating": 90,
       "stats": {
-        "passYPG": 250.9,
-        "qbr": 98.0,
-        "avgTDPerGame": 1.062,
         "avgINTPerGame": 0.625,
-        "completionPct": 0.6252
+        "avgTDPerGame": 1.062,
+        "completionPct": 0.6252,
+        "passYPG": 250.9,
+        "qbr": 98.0
       },
-      "eraNormFactor": 1.4706
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007661_KC_2005",
       "name": "Priest Holmes",
       "position": "RB",
-      "team": "KC",
-      "year": 2005,
+      "rating": 92,
       "stats": {
-        "rushYPG": 64.4,
-        "tdPerGame": 0.857,
+        "recYPG": 28.1,
         "rushAttPerGame": 17.0,
-        "recYPG": 28.1
+        "rushYPG": 64.4,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009163_KC_2005",
       "name": "Eddie Kennison",
       "position": "WR",
-      "team": "KC",
-      "year": 2005,
+      "rating": 92,
       "stats": {
-        "recYPG": 73.5,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 4.53,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.53
+        "recYPG": 73.5,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019539_KC_2005",
       "name": "Dante Hall",
       "position": "WR",
-      "team": "KC",
-      "year": 2005,
+      "rating": 67,
       "stats": {
-        "recYPG": 29.1,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.27
+        "recYPG": 29.1,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021976_KC_2005",
+      "is_all_pro": true,
       "name": "Larry Johnson",
       "position": "RB",
-      "team": "KC",
-      "year": 2005,
+      "rating": 97,
       "stats": {
-        "rushYPG": 109.4,
-        "tdPerGame": 1.25,
+        "recYPG": 21.4,
         "rushAttPerGame": 21.0,
-        "recYPG": 21.4
+        "rushYPG": 109.4,
+        "tdPerGame": 1.25
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022754_KC_2005",
       "name": "Samie Parker",
       "position": "WR",
-      "team": "KC",
-      "year": 2005,
+      "rating": 82,
       "stats": {
-        "recYPG": 48.5,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 48.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019778_KC_2005",
       "name": "L.Tynes",
       "position": "K",
-      "team": "KC",
-      "year": 2005,
+      "rating": 76,
       "stats": {
-        "fgAccuracy": 0.8182,
         "avgKickDistance": 35.4,
         "avgMissDistance": 43.0,
+        "fgAccuracy": 0.8182,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_OLine_2005",
       "position": "OLine",
-      "team": "KC",
-      "year": 2005,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.58,
+        "normalizedRank": 5,
         "rushTDPct": 0.05,
-        "normalizedRank": 5
+        "rushYPC": 4.58,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_DLine_2005",
       "position": "DLine",
-      "team": "KC",
-      "year": 2005,
+      "rating": 73,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 7,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 98.12,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0519,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 7
+        "sackPct": 0.0519
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_KC_Secondary_2005",
       "position": "Secondary",
-      "team": "KC",
-      "year": 2005,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.5814,
-        "yardsPerAttemptAllowed": 6.3,
-        "passYPGAllowed": 229.94,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.0,
-        "normalizedRank": 30
+        "normalizedRank": 30,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 229.94,
+        "yardsPerAttemptAllowed": 6.3
       },
-      "eraNormFactor": 1.0
+      "team": "KC",
+      "year": 2005
     }
   ]
 }

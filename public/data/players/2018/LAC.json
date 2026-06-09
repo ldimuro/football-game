@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021547_LAC_2018",
       "name": "Antonio Gates",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 70,
       "stats": {
-        "recYPG": 24.1,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 2.18,
         "avgTargetsPerGame": 3.35,
-        "avgCatchesPerGame": 2.18
+        "recYPG": 24.1,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.3663,
       "id": "p_00-0022942_LAC_2018",
       "name": "Philip Rivers",
       "position": "QB",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 87,
       "stats": {
-        "passYPG": 266.6,
-        "qbr": 100,
-        "avgTDPerGame": 1.944,
         "avgINTPerGame": 0.722,
-        "completionPct": 0.6667
+        "avgTDPerGame": 1.944,
+        "completionPct": 0.6667,
+        "passYPG": 266.6,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3663
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028142_LAC_2018",
       "name": "Virgil Green",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 61,
       "stats": {
-        "recYPG": 14.6,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 1.4,
         "avgTargetsPerGame": 1.93,
-        "avgCatchesPerGame": 1.4
+        "recYPG": 14.6,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029269_LAC_2018",
       "name": "Travis Benjamin",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 58,
       "stats": {
-        "recYPG": 14.1,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 1.07,
         "avgTargetsPerGame": 2.07,
-        "avgCatchesPerGame": 1.07
+        "recYPG": 14.1,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030279_LAC_2018",
+      "is_all_pro": true,
       "name": "Keenan Allen",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 95,
       "stats": {
-        "recYPG": 76.9,
-        "tdPerGame": 0.412,
+        "avgCatchesPerGame": 6.06,
         "avgTargetsPerGame": 8.71,
-        "avgCatchesPerGame": 6.06
+        "recYPG": 76.9,
+        "tdPerGame": 0.412
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032144_LAC_2018",
       "name": "Melvin Gordon",
       "position": "RB",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 95,
       "stats": {
-        "rushYPG": 67.1,
-        "tdPerGame": 0.857,
+        "recYPG": 36.0,
         "rushAttPerGame": 14.36,
-        "recYPG": 36.0
+        "rushYPG": 67.1,
+        "tdPerGame": 0.857
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032160_LAC_2018",
       "name": "Tyrell Williams",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 83,
       "stats": {
-        "recYPG": 44.5,
-        "tdPerGame": 0.294,
+        "avgCatchesPerGame": 2.82,
         "avgTargetsPerGame": 4.47,
-        "avgCatchesPerGame": 2.82
+        "recYPG": 44.5,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033536_LAC_2018",
       "name": "Mike Williams",
       "position": "WR",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 86,
       "stats": {
-        "recYPG": 43.0,
-        "tdPerGame": 0.556,
+        "avgCatchesPerGame": 2.78,
         "avgTargetsPerGame": 4.56,
-        "avgCatchesPerGame": 2.78
+        "recYPG": 43.0,
+        "tdPerGame": 0.556
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033699_LAC_2018",
       "name": "Austin Ekeler",
       "position": "RB",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 78,
       "stats": {
-        "rushYPG": 36.4,
-        "tdPerGame": 0.188,
+        "recYPG": 27.3,
         "rushAttPerGame": 7.31,
-        "recYPG": 27.3
+        "rushYPG": 36.4,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034440_LAC_2018",
       "name": "Justin Jackson",
       "position": "RB",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 70,
       "stats": {
-        "rushYPG": 21.5,
-        "tdPerGame": 0.2,
+        "recYPG": 15.7,
         "rushAttPerGame": 5.3,
-        "recYPG": 15.7
+        "rushYPG": 21.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034084_LAC_2018",
       "name": "M.Badgley",
       "position": "K",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.8286,
         "avgKickDistance": 38.3,
         "avgMissDistance": 47.5,
+        "fgAccuracy": 0.8286,
         "longestMadeKick": 59
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_OLine_2018",
       "position": "OLine",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 82,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.48,
+        "normalizedRank": 12,
         "rushTDPct": 0.0407,
-        "normalizedRank": 12
+        "rushYPC": 4.48,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_DLine_2018",
       "position": "DLine",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 80,
       "stats": {
+        "blitzPct": 0.17,
+        "normalizedRank": 9,
+        "pressurePct": 0.217,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 105.81,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0693,
-        "blitzPct": 0.17,
-        "pressurePct": 0.217,
-        "normalizedRank": 9
+        "sackPct": 0.0693
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LAC_Secondary_2018",
       "position": "Secondary",
-      "team": "LAC",
-      "year": 2018,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.6405,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 227.88,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 9
+        "normalizedRank": 9,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 227.88,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "LAC",
+      "year": 2018
     }
   ]
 }

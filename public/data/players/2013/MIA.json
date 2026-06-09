@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026901_MIA_2013",
       "name": "Mike Wallace",
       "position": "WR",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 88,
       "stats": {
-        "recYPG": 58.1,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.56,
         "avgTargetsPerGame": 8.81,
-        "avgCatchesPerGame": 4.56
+        "recYPG": 58.1,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026937_MIA_2013",
       "name": "Brandon Gibson",
       "position": "WR",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "recYPG": 46.6,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 4.29,
         "avgTargetsPerGame": 6.14,
-        "avgCatchesPerGame": 4.29
+        "recYPG": 46.6,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027077_MIA_2013",
       "name": "Brian Hartline",
       "position": "WR",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 87,
       "stats": {
-        "recYPG": 63.5,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.75,
         "avgTargetsPerGame": 8.31,
-        "avgCatchesPerGame": 4.75
+        "recYPG": 63.5,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028000_MIA_2013",
       "name": "Daniel Thomas",
       "position": "RB",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 71,
       "stats": {
-        "rushYPG": 27.1,
-        "tdPerGame": 0.267,
+        "recYPG": 4.2,
         "rushAttPerGame": 7.27,
-        "recYPG": 4.2
+        "rushYPG": 27.1,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028112_MIA_2013",
       "name": "Charles Clay",
       "position": "WR",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 86,
       "stats": {
-        "recYPG": 47.4,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": 6.38,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 47.4,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029580_MIA_2013",
       "name": "Rishard Matthews",
       "position": "WR",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 73,
       "stats": {
-        "recYPG": 34.5,
-        "tdPerGame": 0.154,
+        "avgCatchesPerGame": 3.15,
         "avgTargetsPerGame": 5.15,
-        "avgCatchesPerGame": 3.15
+        "recYPG": 34.5,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029615_MIA_2013",
       "name": "Lamar Miller",
       "position": "RB",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 77,
       "stats": {
-        "rushYPG": 44.3,
-        "tdPerGame": 0.125,
+        "recYPG": 10.6,
         "rushAttPerGame": 11.06,
-        "recYPG": 10.6
+        "rushYPG": 44.3,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.1485,
       "id": "p_00-0029701_MIA_2013",
       "name": "Ryan Tannehill",
       "position": "QB",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 78,
       "stats": {
-        "passYPG": 244.6,
-        "qbr": 50.1,
-        "avgTDPerGame": 1.5,
         "avgINTPerGame": 1.062,
-        "completionPct": 0.6037
+        "avgTDPerGame": 1.5,
+        "completionPct": 0.6037,
+        "passYPG": 244.6,
+        "qbr": 50.1
       },
-      "eraNormFactor": 1.1485
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030390_MIA_2013",
       "name": "C.Sturgis",
       "position": "K",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 74,
       "stats": {
-        "fgAccuracy": 0.7647,
         "avgKickDistance": 39.5,
         "avgMissDistance": 46.6,
+        "fgAccuracy": 0.7647,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2013",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.13,
+        "normalizedRank": 17,
         "rushTDPct": 0.0229,
-        "normalizedRank": 17
+        "rushYPC": 4.13,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2013",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.88,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 124.88,
-        "rushTDPerGameAllowed": 0.88,
-        "sackPct": 0.0724,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0724
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2013",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2013,
+      "rating": 86,
       "stats": {
         "completionPctAllowed": 0.5931,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 234.5,
-        "passTDPerGameAllowed": 1.06,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.06,
+        "passYPGAllowed": 234.5,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2013
     }
   ]
 }

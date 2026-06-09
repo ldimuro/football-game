@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1221,
       "id": "p_00-0005180_MIA_2001",
       "name": "Jay Fiedler",
       "position": "QB",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "passYPG": 198.2,
-        "qbr": 64.5,
-        "avgTDPerGame": 1.176,
         "avgINTPerGame": 1.176,
-        "completionPct": 0.6017
+        "avgTDPerGame": 1.176,
+        "completionPct": 0.6017,
+        "passYPG": 198.2,
+        "qbr": 64.5
       },
-      "eraNormFactor": 1.1221
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005668_MIA_2001",
       "name": "Oronde Gadsden",
       "position": "WR",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "recYPG": 45.5,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.73,
         "avgTargetsPerGame": 6.47,
-        "avgCatchesPerGame": 3.73
+        "recYPG": 45.5,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010974_MIA_2001",
       "name": "James McKnight",
       "position": "WR",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 83,
       "stats": {
-        "recYPG": 41.8,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 3.47,
         "avgTargetsPerGame": 5.71,
-        "avgCatchesPerGame": 3.47
+        "recYPG": 41.8,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0015242_MIA_2001",
       "name": "Lamar Smith",
       "position": "RB",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 86,
       "stats": {
-        "rushYPG": 57.3,
-        "tdPerGame": 0.353,
+        "recYPG": 14.1,
         "rushAttPerGame": 18.76,
-        "recYPG": 14.1
+        "rushYPG": 57.3,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017160_MIA_2001",
       "name": "Dedric Ward",
       "position": "WR",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 65,
       "stats": {
-        "recYPG": 18.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.86,
         "avgTargetsPerGame": 3.57,
-        "avgCatchesPerGame": 1.86
+        "recYPG": 18.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017356_MIA_2001",
       "name": "Jed Weaver",
       "position": "WR",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 64,
       "stats": {
-        "recYPG": 15.8,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 1.33,
         "avgTargetsPerGame": 1.8,
-        "avgCatchesPerGame": 1.33
+        "recYPG": 15.8,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020446_MIA_2001",
       "name": "Chris Chambers",
       "position": "WR",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 89,
       "stats": {
-        "recYPG": 55.2,
-        "tdPerGame": 0.438,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.62,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 55.2,
+        "tdPerGame": 0.438
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020448_MIA_2001",
       "name": "Travis Minor",
       "position": "RB",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 69,
       "stats": {
-        "rushYPG": 18.4,
-        "tdPerGame": 0.125,
+        "recYPG": 16.7,
         "rushAttPerGame": 4.0,
-        "recYPG": 16.7
+        "rushYPG": 18.4,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_MIA_2001",
       "name": "O.Mare",
       "position": "K",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.9091,
         "avgKickDistance": 32.5,
         "avgMissDistance": 45.5,
+        "fgAccuracy": 0.9091,
         "longestMadeKick": 46
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2001",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.5,
+        "normalizedRank": 29,
         "rushTDPct": 0.0287,
-        "normalizedRank": 29
+        "rushYPC": 3.5,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2001",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 83,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.56,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 111.19,
-        "rushTDPerGameAllowed": 0.56,
-        "sackPct": 0.0792,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0792
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2001",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2001,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.561,
-        "yardsPerAttemptAllowed": 5.6,
-        "passYPGAllowed": 176.81,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 1
+        "normalizedRank": 1,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 176.81,
+        "yardsPerAttemptAllowed": 5.6
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2001
     }
   ]
 }

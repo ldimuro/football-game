@@ -1,164 +1,175 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3803,
       "id": "p_00-0004161_CAR_2004",
       "name": "Jake Delhomme",
       "position": "QB",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 88,
       "stats": {
-        "passYPG": 242.9,
-        "qbr": 92.5,
-        "avgTDPerGame": 1.812,
         "avgINTPerGame": 0.938,
-        "completionPct": 0.5816
+        "avgTDPerGame": 1.812,
+        "completionPct": 0.5816,
+        "passYPG": 242.9,
+        "qbr": 92.5
       },
-      "eraNormFactor": 1.3803
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010333_CAR_2004",
       "name": "Kris Mangum",
       "position": "WR",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.8,
-        "tdPerGame": 0.231,
+        "avgCatchesPerGame": 2.62,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.62
+        "recYPG": 24.8,
+        "tdPerGame": 0.231
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011795_CAR_2004",
+      "is_all_pro": true,
       "name": "Muhsin Muhammad",
       "position": "WR",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 99,
       "stats": {
-        "recYPG": 87.8,
-        "tdPerGame": 1.0,
+        "avgCatchesPerGame": 5.81,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.81
+        "recYPG": 87.8,
+        "tdPerGame": 1.0
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0013268_CAR_2004",
       "name": "Ricky Proehl",
       "position": "WR",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 66,
       "stats": {
-        "recYPG": 35.5,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.43,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.43
+        "recYPG": 35.5,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019831_CAR_2004",
       "name": "Nick Goings",
       "position": "RB",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 83,
       "stats": {
-        "rushYPG": 51.3,
-        "tdPerGame": 0.375,
+        "recYPG": 24.6,
         "rushAttPerGame": 13.56,
-        "recYPG": 24.6
+        "rushYPG": 51.3,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021164_CAR_2004",
       "name": "DeShaun Foster",
       "position": "RB",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 85,
       "stats": {
-        "rushYPG": 63.8,
-        "tdPerGame": 0.5,
+        "recYPG": 19.0,
         "rushAttPerGame": 14.75,
-        "recYPG": 19.0
+        "rushYPG": 63.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022726_CAR_2004",
       "name": "Keary Colbert",
       "position": "WR",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 81,
       "stats": {
-        "recYPG": 50.3,
-        "tdPerGame": 0.333,
+        "avgCatchesPerGame": 3.13,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.13
+        "recYPG": 50.3,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009028_CAR_2004",
       "name": "J.Kasay",
       "position": "K",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 81,
       "stats": {
-        "fgAccuracy": 0.8,
         "avgKickDistance": 34.7,
         "avgMissDistance": 46.8,
+        "fgAccuracy": 0.8,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_OLine_2004",
       "position": "OLine",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 69,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.75,
+        "normalizedRank": 28,
         "rushTDPct": 0.0237,
-        "normalizedRank": 28
+        "rushYPC": 3.75,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_DLine_2004",
       "position": "DLine",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 72,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 119.0,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0663,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0663
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CAR_Secondary_2004",
       "position": "Secondary",
-      "team": "CAR",
-      "year": 2004,
+      "rating": 84,
       "stats": {
         "completionPctAllowed": 0.5906,
-        "yardsPerAttemptAllowed": 6.4,
-        "passYPGAllowed": 217.38,
-        "passTDPerGameAllowed": 1.12,
         "interceptionsPerGame": 1.62,
-        "normalizedRank": 18
+        "normalizedRank": 18,
+        "passTDPerGameAllowed": 1.12,
+        "passYPGAllowed": 217.38,
+        "yardsPerAttemptAllowed": 6.4
       },
-      "eraNormFactor": 1.0
+      "team": "CAR",
+      "year": 2004
     }
   ]
 }

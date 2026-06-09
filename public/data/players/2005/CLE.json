@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2367,
       "id": "p_00-0004293_CLE_2005",
       "name": "Trent Dilfer",
       "position": "QB",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 74,
       "stats": {
-        "passYPG": 211.0,
-        "qbr": 27.7,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.091,
-        "completionPct": 0.5976
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.5976,
+        "passYPG": 211.0,
+        "qbr": 27.7
       },
-      "eraNormFactor": 1.2367
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0007213_CLE_2005",
       "name": "Steve Heiden",
       "position": "WR",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 67,
       "stats": {
-        "recYPG": 26.7,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 2.87,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.87
+        "recYPG": 26.7,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019610_CLE_2005",
       "name": "Reuben Droughns",
       "position": "RB",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "rushYPG": 77.0,
-        "tdPerGame": 0.125,
+        "recYPG": 23.1,
         "rushAttPerGame": 19.31,
-        "recYPG": 23.1
+        "rushYPG": 77.0,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019650_CLE_2005",
       "name": "Dennis Northcutt",
       "position": "WR",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 69,
       "stats": {
-        "recYPG": 31.5,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 31.5,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020780_CLE_2005",
       "name": "Frisman Jackson",
       "position": "WR",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 67,
       "stats": {
-        "recYPG": 31.9,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 2.67,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.67
+        "recYPG": 31.9,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021191_CLE_2005",
       "name": "Antonio Bryant",
       "position": "WR",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 87,
       "stats": {
-        "recYPG": 63.1,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.31,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.31
+        "recYPG": 63.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023438_CLE_2005",
       "name": "Braylon Edwards",
       "position": "WR",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 83,
       "stats": {
-        "recYPG": 51.2,
-        "tdPerGame": 0.3,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 51.2,
+        "tdPerGame": 0.3
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 0.8387,
       "id": "p_00-0023502_CLE_2005",
       "name": "Charlie Frye",
       "position": "QB",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 65,
       "stats": {
-        "passYPG": 143.1,
-        "qbr": 0,
-        "avgTDPerGame": 0.571,
         "avgINTPerGame": 0.857,
-        "completionPct": 0.5939
+        "avgTDPerGame": 0.571,
+        "completionPct": 0.5939,
+        "passYPG": 143.1,
+        "qbr": 0
       },
-      "eraNormFactor": 0.8387
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0004091_CLE_2005",
       "name": "P.Dawson",
       "position": "K",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.931,
         "avgKickDistance": 31.6,
         "avgMissDistance": 36.5,
+        "fgAccuracy": 0.931,
         "longestMadeKick": 44
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_OLine_2005",
       "position": "OLine",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.8,
+        "normalizedRank": 21,
         "rushTDPct": 0.0102,
-        "normalizedRank": 21
+        "rushYPC": 3.8,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_DLine_2005",
       "position": "DLine",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 65,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 30,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 137.62,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0488,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 30
+        "sackPct": 0.0488
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CLE_Secondary_2005",
       "position": "Secondary",
-      "team": "CLE",
-      "year": 2005,
+      "rating": 77,
       "stats": {
         "completionPctAllowed": 0.5924,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 179.19,
-        "passTDPerGameAllowed": 1.19,
         "interceptionsPerGame": 0.94,
-        "normalizedRank": 4
+        "normalizedRank": 4,
+        "passTDPerGameAllowed": 1.19,
+        "passYPGAllowed": 179.19,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "CLE",
+      "year": 2005
     }
   ]
 }

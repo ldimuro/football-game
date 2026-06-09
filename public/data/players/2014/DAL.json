@@ -1,168 +1,179 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2281,
       "id": "p_00-0021678_DAL_2014",
+      "is_all_pro": true,
       "name": "Tony Romo",
       "position": "QB",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 90,
       "stats": {
-        "passYPG": 246.4,
-        "qbr": 100,
-        "avgTDPerGame": 2.235,
         "avgINTPerGame": 0.529,
-        "completionPct": 0.6969
+        "avgTDPerGame": 2.235,
+        "completionPct": 0.6969,
+        "passYPG": 246.4,
+        "qbr": 100
       },
-      "eraNormFactor": 1.2281,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022127_DAL_2014",
       "name": "Jason Witten",
       "position": "WR",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 84,
       "stats": {
-        "recYPG": 46.5,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 4.17,
         "avgTargetsPerGame": 5.78,
-        "avgCatchesPerGame": 4.17
+        "recYPG": 46.5,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027902_DAL_2014",
+      "is_all_pro": true,
       "name": "Dez Bryant",
       "position": "WR",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 97,
       "stats": {
-        "recYPG": 78.1,
-        "tdPerGame": 0.889,
+        "avgCatchesPerGame": 5.22,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 5.22
+        "recYPG": 78.1,
+        "tdPerGame": 0.889
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028009_DAL_2014",
+      "is_all_pro": true,
+      "is_opy": true,
       "name": "DeMarco Murray",
       "position": "RB",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 98,
       "stats": {
-        "rushYPG": 113.5,
-        "tdPerGame": 0.833,
+        "recYPG": 24.6,
         "rushAttPerGame": 24.22,
-        "recYPG": 24.6
+        "rushYPG": 113.5,
+        "tdPerGame": 0.833
       },
-      "eraNormFactor": 1.0,
-      "is_opy": true,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029000_DAL_2014",
       "name": "Cole Beasley",
       "position": "WR",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 74,
       "stats": {
-        "recYPG": 30.6,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 2.59,
         "avgTargetsPerGame": 3.53,
-        "avgCatchesPerGame": 2.59
+        "recYPG": 30.6,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030388_DAL_2014",
       "name": "Joseph Randle",
       "position": "RB",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 66,
       "stats": {
-        "rushYPG": 23.9,
-        "tdPerGame": 0.2,
+        "recYPG": 1.5,
         "rushAttPerGame": 3.53,
-        "recYPG": 1.5
+        "rushYPG": 23.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030542_DAL_2014",
       "name": "Terrance Williams",
       "position": "WR",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 85,
       "stats": {
-        "recYPG": 44.2,
-        "tdPerGame": 0.647,
+        "avgCatchesPerGame": 2.41,
         "avgTargetsPerGame": 4.29,
-        "avgCatchesPerGame": 2.41
+        "recYPG": 44.2,
+        "tdPerGame": 0.647
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028660_DAL_2014",
+      "is_all_pro": true,
       "name": "D.Bailey",
       "position": "K",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8125,
         "avgKickDistance": 41.4,
         "avgMissDistance": 46.5,
+        "fgAccuracy": 0.8125,
         "longestMadeKick": 56
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DAL",
+      "year": 2014
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2014",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 86,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.62,
+        "normalizedRank": 4,
         "rushTDPct": 0.0323,
-        "normalizedRank": 4
+        "rushYPC": 4.62,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2014",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 71,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 8,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.2,
         "rushYPGAllowed": 103.12,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0502,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 8
+        "sackPct": 0.0502
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2014",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2014,
+      "rating": 72,
       "stats": {
         "completionPctAllowed": 0.6649,
-        "yardsPerAttemptAllowed": 6.9,
-        "passYPGAllowed": 251.94,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 26
+        "normalizedRank": 26,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 251.94,
+        "yardsPerAttemptAllowed": 6.9
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2014
     }
   ]
 }

@@ -1,192 +1,205 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023438_SEA_2012",
       "name": "Braylon Edwards",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 68,
       "stats": {
-        "recYPG": 24.9,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.25,
         "avgTargetsPerGame": 4.38,
-        "avgCatchesPerGame": 2.25
+        "recYPG": 24.9,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025399_SEA_2012",
+      "is_all_pro": true,
       "name": "Marshawn Lynch",
       "position": "RB",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 95,
       "stats": {
-        "rushYPG": 98.2,
-        "tdPerGame": 0.722,
+        "recYPG": 13.4,
         "rushAttPerGame": 19.5,
-        "recYPG": 13.4
+        "rushYPG": 98.2,
+        "tdPerGame": 0.722
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025425_SEA_2012",
       "name": "Zach Miller",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 74,
       "stats": {
-        "recYPG": 32.6,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 2.78,
         "avgTargetsPerGame": 3.78,
-        "avgCatchesPerGame": 2.78
+        "recYPG": 32.6,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025431_SEA_2012",
       "name": "Sidney Rice",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 84,
       "stats": {
-        "recYPG": 46.4,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": 5.28,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 46.4,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027783_SEA_2012",
       "name": "Anthony McCoy",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 64,
       "stats": {
-        "recYPG": 18.2,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 1.12,
         "avgTargetsPerGame": 1.88,
-        "avgCatchesPerGame": 1.12
+        "recYPG": 18.2,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027891_SEA_2012",
       "name": "Golden Tate",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 86,
       "stats": {
-        "recYPG": 48.6,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 3.24,
         "avgTargetsPerGame": 4.71,
-        "avgCatchesPerGame": 3.24
+        "recYPG": 48.6,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028434_SEA_2012",
       "name": "Doug Baldwin",
       "position": "WR",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 70,
       "stats": {
-        "recYPG": 25.7,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": 3.62,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 25.7,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 0.9994,
       "id": "p_00-0029263_SEA_2012",
       "name": "Russell Wilson",
       "position": "QB",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "passYPG": 205.0,
-        "qbr": 100,
-        "avgTDPerGame": 1.611,
         "avgINTPerGame": 0.611,
-        "completionPct": 0.6396
+        "avgTDPerGame": 1.611,
+        "completionPct": 0.6396,
+        "passYPG": 205.0,
+        "qbr": 100
       },
-      "eraNormFactor": 0.9994
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029273_SEA_2012",
       "name": "Robert Turbin",
       "position": "RB",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 66,
       "stats": {
-        "rushYPG": 23.2,
-        "tdPerGame": 0.0,
+        "recYPG": 13.2,
         "rushAttPerGame": 5.41,
-        "recYPG": 13.2
+        "rushYPG": 23.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025944_SEA_2012",
       "name": "S.Hauschka",
       "position": "K",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.9,
         "avgKickDistance": 34.7,
         "avgMissDistance": 54.0,
+        "fgAccuracy": 0.9,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_OLine_2012",
       "position": "OLine",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 85,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.87,
+        "normalizedRank": 5,
         "rushTDPct": 0.0316,
-        "normalizedRank": 5
+        "rushYPC": 4.87,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_DLine_2012",
       "position": "DLine",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 10,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.5,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 103.06,
-        "rushTDPerGameAllowed": 0.5,
-        "sackPct": 0.0638,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 10
+        "sackPct": 0.0638
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_SEA_Secondary_2012",
       "position": "Secondary",
-      "team": "SEA",
-      "year": 2012,
+      "rating": 92,
       "stats": {
         "completionPctAllowed": 0.5798,
-        "yardsPerAttemptAllowed": 5.4,
-        "passYPGAllowed": 203.12,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 6
+        "normalizedRank": 6,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 203.12,
+        "yardsPerAttemptAllowed": 5.4
       },
-      "eraNormFactor": 1.0
+      "team": "SEA",
+      "year": 2012
     }
   ]
 }

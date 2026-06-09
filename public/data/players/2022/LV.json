@@ -1,180 +1,192 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2854,
       "id": "p_00-0031280_LV_2022",
       "name": "Derek Carr",
       "position": "QB",
-      "team": "LV",
-      "year": 2022,
+      "rating": 82,
       "stats": {
-        "passYPG": 234.8,
-        "qbr": 69.5,
-        "avgTDPerGame": 1.6,
         "avgINTPerGame": 0.933,
-        "completionPct": 0.6076
+        "avgTDPerGame": 1.6,
+        "completionPct": 0.6076,
+        "passYPG": 234.8,
+        "qbr": 69.5
       },
-      "eraNormFactor": 1.2854
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031381_LV_2022",
+      "is_all_pro": true,
       "name": "Davante Adams",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 99,
       "stats": {
-        "recYPG": 89.2,
-        "tdPerGame": 0.824,
+        "avgCatchesPerGame": 5.88,
         "avgTargetsPerGame": 10.59,
-        "avgCatchesPerGame": 5.88
+        "recYPG": 89.2,
+        "tdPerGame": 0.824
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031610_LV_2022",
       "name": "Darren Waller",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 89,
       "stats": {
-        "recYPG": 48.5,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 3.5,
         "avgTargetsPerGame": 5.38,
-        "avgCatchesPerGame": 3.5
+        "recYPG": 48.5,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033555_LV_2022",
       "name": "Mack Hollins",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 83,
       "stats": {
-        "recYPG": 40.6,
-        "tdPerGame": 0.235,
+        "avgCatchesPerGame": 3.35,
         "avgTargetsPerGame": 5.53,
-        "avgCatchesPerGame": 3.35
+        "recYPG": 40.6,
+        "tdPerGame": 0.235
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033681_LV_2022",
       "name": "Keelan Cole",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 62,
       "stats": {
-        "recYPG": 15.7,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.11,
         "avgTargetsPerGame": 2.33,
-        "avgCatchesPerGame": 1.11
+        "recYPG": 15.7,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034981_LV_2022",
       "name": "Foster Moreau",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 73,
       "stats": {
-        "recYPG": 30.0,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.36,
         "avgTargetsPerGame": 3.86,
-        "avgCatchesPerGame": 2.36
+        "recYPG": 30.0,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034983_LV_2022",
       "name": "Hunter Renfrow",
       "position": "WR",
-      "team": "LV",
-      "year": 2022,
+      "rating": 80,
       "stats": {
-        "recYPG": 33.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 3.6,
         "avgTargetsPerGame": 5.0,
-        "avgCatchesPerGame": 3.6
+        "recYPG": 33.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035700_LV_2022",
+      "is_all_pro": true,
       "name": "Josh Jacobs",
       "position": "RB",
-      "team": "LV",
-      "year": 2022,
+      "rating": 98,
       "stats": {
-        "rushYPG": 97.2,
-        "tdPerGame": 0.706,
+        "recYPG": 23.5,
         "rushAttPerGame": 20.0,
-        "recYPG": 23.5
+        "rushYPG": 97.2,
+        "tdPerGame": 0.706
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034161_LV_2022",
+      "is_all_pro": true,
       "name": "D.Carlson",
       "position": "K",
-      "team": "LV",
-      "year": 2022,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.9189,
         "avgKickDistance": 39.9,
         "avgMissDistance": 51.3,
+        "fgAccuracy": 0.9189,
         "longestMadeKick": 57
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "LV",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_OLine_2022",
       "position": "OLine",
-      "team": "LV",
-      "year": 2022,
+      "rating": 80,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.81,
+        "normalizedRank": 7,
         "rushTDPct": 0.028,
-        "normalizedRank": 7
+        "rushYPC": 4.81,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_DLine_2022",
       "position": "DLine",
-      "team": "LV",
-      "year": 2022,
+      "rating": 66,
       "stats": {
+        "blitzPct": 0.262,
+        "normalizedRank": 19,
+        "pressurePct": 0.193,
+        "rushTDPerGameAllowed": 1.18,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 122.76,
-        "rushTDPerGameAllowed": 1.18,
-        "sackPct": 0.0458,
-        "blitzPct": 0.262,
-        "pressurePct": 0.193,
-        "normalizedRank": 19
+        "sackPct": 0.0458
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_LV_Secondary_2022",
       "position": "Secondary",
-      "team": "LV",
-      "year": 2022,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6763,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 242.88,
-        "passTDPerGameAllowed": 1.47,
         "interceptionsPerGame": 0.35,
-        "normalizedRank": 29
+        "normalizedRank": 29,
+        "passTDPerGameAllowed": 1.47,
+        "passYPGAllowed": 242.88,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "LV",
+      "year": 2022
     }
   ]
 }

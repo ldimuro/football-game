@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0661,
       "id": "p_00-0027973_DAL_2020",
       "name": "Andy Dalton",
       "position": "QB",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 70,
       "stats": {
-        "passYPG": 197.3,
-        "qbr": 39.8,
-        "avgTDPerGame": 1.273,
         "avgINTPerGame": 0.727,
-        "completionPct": 0.6486
+        "avgTDPerGame": 1.273,
+        "completionPct": 0.6486,
+        "passYPG": 197.3,
+        "qbr": 39.8
       },
-      "eraNormFactor": 1.0661
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031544_DAL_2020",
       "name": "Amari Cooper",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 93,
       "stats": {
-        "recYPG": 69.6,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 5.75,
         "avgTargetsPerGame": 8.12,
-        "avgCatchesPerGame": 5.75
+        "recYPG": 69.6,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033045_DAL_2020",
       "name": "Ezekiel Elliott",
       "position": "RB",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 91,
       "stats": {
-        "rushYPG": 65.3,
-        "tdPerGame": 0.4,
+        "recYPG": 22.5,
         "rushAttPerGame": 16.27,
-        "recYPG": 22.5
+        "rushYPG": 65.3,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 2.0057,
       "id": "p_00-0033077_DAL_2020",
       "name": "Dak Prescott",
       "position": "QB",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 89,
       "stats": {
-        "passYPG": 371.2,
-        "qbr": 100,
-        "avgTDPerGame": 1.8,
         "avgINTPerGame": 0.8,
-        "completionPct": 0.6802
+        "avgTDPerGame": 1.8,
+        "completionPct": 0.6802,
+        "passYPG": 371.2,
+        "qbr": 100
       },
-      "eraNormFactor": 2.0057
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033591_DAL_2020",
       "name": "Noah Brown",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 59,
       "stats": {
-        "recYPG": 17.1,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.56,
         "avgTargetsPerGame": 2.67,
-        "avgCatchesPerGame": 1.56
+        "recYPG": 17.1,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034383_DAL_2020",
       "name": "Dalton Schultz",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 80,
       "stats": {
-        "recYPG": 38.4,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.94,
         "avgTargetsPerGame": 5.56,
-        "avgCatchesPerGame": 3.94
+        "recYPG": 38.4,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034418_DAL_2020",
       "name": "Cedrick Wilson",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 65,
       "stats": {
-        "recYPG": 18.9,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.7,
         "avgTargetsPerGame": 2.8,
-        "avgCatchesPerGame": 1.7
+        "recYPG": 18.9,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034764_DAL_2020",
       "name": "Michael Gallup",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 87,
       "stats": {
-        "recYPG": 52.7,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 3.69,
         "avgTargetsPerGame": 6.56,
-        "avgCatchesPerGame": 3.69
+        "recYPG": 52.7,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035261_DAL_2020",
       "name": "Tony Pollard",
       "position": "RB",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 74,
       "stats": {
-        "rushYPG": 27.2,
-        "tdPerGame": 0.25,
+        "recYPG": 12.1,
         "rushAttPerGame": 6.31,
-        "recYPG": 12.1
+        "rushYPG": 27.2,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036358_DAL_2020",
       "name": "CeeDee Lamb",
       "position": "WR",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 90,
       "stats": {
-        "recYPG": 58.4,
-        "tdPerGame": 0.312,
+        "avgCatchesPerGame": 4.62,
         "avgTargetsPerGame": 6.94,
-        "avgCatchesPerGame": 4.62
+        "recYPG": 58.4,
+        "tdPerGame": 0.312
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029621_DAL_2020",
       "name": "G.Zuerlein",
       "position": "K",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8293,
         "avgKickDistance": 40.6,
         "avgMissDistance": 52.6,
+        "fgAccuracy": 0.8293,
         "longestMadeKick": 59
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_OLine_2020",
       "position": "OLine",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.16,
+        "normalizedRank": 22,
         "rushTDPct": 0.0326,
-        "normalizedRank": 22
+        "rushYPC": 4.16,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_DLine_2020",
       "position": "DLine",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 65,
       "stats": {
+        "blitzPct": 0.228,
+        "normalizedRank": 31,
+        "pressurePct": 0.228,
+        "rushTDPerGameAllowed": 1.25,
         "rushYPCAllowed": 5.0,
         "rushYPGAllowed": 158.81,
-        "rushTDPerGameAllowed": 1.25,
-        "sackPct": 0.0604,
-        "blitzPct": 0.228,
-        "pressurePct": 0.228,
-        "normalizedRank": 31
+        "sackPct": 0.0604
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DAL_Secondary_2020",
       "position": "Secondary",
-      "team": "DAL",
-      "year": 2020,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6394,
-        "yardsPerAttemptAllowed": 6.7,
-        "passYPGAllowed": 227.62,
-        "passTDPerGameAllowed": 2.12,
         "interceptionsPerGame": 0.62,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 2.12,
+        "passYPGAllowed": 227.62,
+        "yardsPerAttemptAllowed": 6.7
       },
-      "eraNormFactor": 1.0
+      "team": "DAL",
+      "year": 2020
     }
   ]
 }

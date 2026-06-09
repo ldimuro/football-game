@@ -1,207 +1,221 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3022,
       "id": "p_00-0020679_DET_2010",
       "name": "Shaun Hill",
       "position": "QB",
-      "team": "DET",
-      "year": 2010,
+      "rating": 79,
       "stats": {
-        "passYPG": 244.2,
-        "qbr": 66.4,
-        "avgTDPerGame": 1.455,
         "avgINTPerGame": 1.091,
-        "completionPct": 0.6178
+        "avgTDPerGame": 1.455,
+        "completionPct": 0.6178,
+        "passYPG": 244.2,
+        "qbr": 66.4
       },
-      "eraNormFactor": 1.3022
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021182_DET_2010",
       "name": "Maurice Morris",
       "position": "RB",
-      "team": "DET",
-      "year": 2010,
+      "rating": 81,
       "stats": {
-        "rushYPG": 33.6,
-        "tdPerGame": 0.5,
+        "recYPG": 17.0,
         "rushAttPerGame": 9.0,
-        "recYPG": 17.0
+        "rushYPG": 33.6,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021999_DET_2010",
       "name": "Nate Burleson",
       "position": "WR",
-      "team": "DET",
-      "year": 2010,
+      "rating": 87,
       "stats": {
-        "recYPG": 44.6,
-        "tdPerGame": 0.429,
+        "avgCatchesPerGame": 3.93,
         "avgTargetsPerGame": 6.14,
-        "avgCatchesPerGame": 3.93
+        "recYPG": 44.6,
+        "tdPerGame": 0.429
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022156_DET_2010",
       "name": "Bryant Johnson",
       "position": "WR",
-      "team": "DET",
-      "year": 2010,
+      "rating": 59,
       "stats": {
-        "recYPG": 15.0,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.29,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 1.29
+        "recYPG": 15.0,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024276_DET_2010",
       "name": "Tony Scheffler",
       "position": "WR",
-      "team": "DET",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "recYPG": 25.2,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 4.8,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 25.2,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025389_DET_2010",
+      "is_all_pro": true,
       "name": "Calvin Johnson",
       "position": "WR",
-      "team": "DET",
-      "year": 2010,
+      "rating": 98,
       "stats": {
-        "recYPG": 74.7,
-        "tdPerGame": 0.8,
+        "avgCatchesPerGame": 5.13,
         "avgTargetsPerGame": 9.13,
-        "avgCatchesPerGame": 5.13
+        "recYPG": 74.7,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 0.6932,
       "id": "p_00-0025430_DET_2010",
       "name": "Drew Stanton",
       "position": "QB",
-      "team": "DET",
-      "year": 2010,
+      "rating": 70,
       "stats": {
-        "passYPG": 130.0,
-        "qbr": 52.9,
-        "avgTDPerGame": 0.667,
         "avgINTPerGame": 0.5,
-        "completionPct": 0.5798
+        "avgTDPerGame": 0.667,
+        "completionPct": 0.5798,
+        "passYPG": 130.0,
+        "qbr": 52.9
       },
-      "eraNormFactor": 0.6932
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026204_DET_2010",
       "name": "Kevin Smith",
       "position": "RB",
-      "team": "DET",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "rushYPG": 20.8,
-        "tdPerGame": 0.0,
+        "recYPG": 20.5,
         "rushAttPerGame": 5.5,
-        "recYPG": 20.5
+        "rushYPG": 20.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026996_DET_2010",
       "name": "Brandon Pettigrew",
       "position": "WR",
-      "team": "DET",
-      "year": 2010,
+      "rating": 85,
       "stats": {
-        "recYPG": 45.1,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 4.44,
         "avgTargetsPerGame": 6.94,
-        "avgCatchesPerGame": 4.44
+        "recYPG": 45.1,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027880_DET_2010",
       "name": "Jahvid Best",
       "position": "RB",
-      "team": "DET",
-      "year": 2010,
+      "rating": 81,
       "stats": {
-        "rushYPG": 37.5,
-        "tdPerGame": 0.267,
+        "recYPG": 32.5,
         "rushAttPerGame": 11.47,
-        "recYPG": 32.5
+        "rushYPG": 37.5,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023635_DET_2010",
       "name": "D.Rayner",
       "position": "K",
-      "team": "DET",
-      "year": 2010,
+      "rating": 88,
       "stats": {
-        "fgAccuracy": 0.8333,
         "avgKickDistance": 42.1,
         "avgMissDistance": 48.4,
+        "fgAccuracy": 0.8333,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2010",
       "position": "OLine",
-      "team": "DET",
-      "year": 2010,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.99,
+        "normalizedRank": 19,
         "rushTDPct": 0.0272,
-        "normalizedRank": 19
+        "rushYPC": 3.99,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2010",
       "position": "DLine",
-      "team": "DET",
-      "year": 2010,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 24,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.12,
         "rushYPCAllowed": 4.5,
         "rushYPGAllowed": 124.94,
-        "rushTDPerGameAllowed": 1.12,
-        "sackPct": 0.0849,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 24
+        "sackPct": 0.0849
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2010",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2010,
+      "rating": 71,
       "stats": {
         "completionPctAllowed": 0.6371,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 218.62,
-        "passTDPerGameAllowed": 1.44,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.44,
+        "passYPGAllowed": 218.62,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2010
     }
   ]
 }

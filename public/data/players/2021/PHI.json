@@ -1,206 +1,220 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030061_PHI_2021",
       "name": "Zach Ertz",
       "position": "WR",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 86,
       "stats": {
-        "recYPG": 43.6,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 4.28,
         "avgTargetsPerGame": 6.44,
-        "avgCatchesPerGame": 4.28
+        "recYPG": 43.6,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032780_PHI_2021",
       "name": "Jordan Howard",
       "position": "RB",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 80,
       "stats": {
-        "rushYPG": 50.8,
-        "tdPerGame": 0.375,
+        "recYPG": 3.2,
         "rushAttPerGame": 10.75,
-        "recYPG": 3.2
+        "rushYPG": 50.8,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034351_PHI_2021",
       "name": "Dallas Goedert",
       "position": "WR",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "recYPG": 57.6,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 3.88,
         "avgTargetsPerGame": 5.5,
-        "avgCatchesPerGame": 3.88
+        "recYPG": 57.6,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0034414_PHI_2021",
       "name": "Boston Scott",
       "position": "RB",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 81,
       "stats": {
-        "rushYPG": 40.7,
-        "tdPerGame": 0.8,
+        "recYPG": 8.4,
         "rushAttPerGame": 8.8,
-        "recYPG": 8.4
+        "rushYPG": 40.7,
+        "tdPerGame": 0.8
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035243_PHI_2021",
       "name": "Miles Sanders",
       "position": "RB",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 79,
       "stats": {
-        "rushYPG": 59.2,
-        "tdPerGame": 0.0,
+        "recYPG": 13.1,
         "rushAttPerGame": 11.08,
-        "recYPG": 13.1
+        "rushYPG": 59.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036271_PHI_2021",
       "name": "Quez Watkins",
       "position": "WR",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 74,
       "stats": {
-        "recYPG": 37.9,
-        "tdPerGame": 0.056,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.83,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 37.9,
+        "tdPerGame": 0.056
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036387_PHI_2021",
       "name": "Jalen Reagor",
       "position": "WR",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 64,
       "stats": {
-        "recYPG": 16.7,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.89,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 1.89
+        "recYPG": 16.7,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.2105,
       "id": "p_00-0036389_PHI_2021",
       "name": "Jalen Hurts",
       "position": "QB",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 75,
       "stats": {
-        "passYPG": 212.6,
-        "qbr": 55.8,
-        "avgTDPerGame": 1.062,
         "avgINTPerGame": 0.688,
-        "completionPct": 0.6063
+        "avgTDPerGame": 1.062,
+        "completionPct": 0.6063,
+        "passYPG": 212.6,
+        "qbr": 55.8
       },
-      "eraNormFactor": 1.2105
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036912_PHI_2021",
       "name": "DeVonta Smith",
       "position": "WR",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "recYPG": 54.2,
-        "tdPerGame": 0.278,
+        "avgCatchesPerGame": 3.78,
         "avgTargetsPerGame": 6.39,
-        "avgCatchesPerGame": 3.78
+        "recYPG": 54.2,
+        "tdPerGame": 0.278
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036919_PHI_2021",
       "name": "Kenneth Gainwell",
       "position": "RB",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 72,
       "stats": {
-        "rushYPG": 17.5,
-        "tdPerGame": 0.294,
+        "recYPG": 17.8,
         "rushAttPerGame": 4.06,
-        "recYPG": 17.8
+        "rushYPG": 17.5,
+        "tdPerGame": 0.294
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033787_PHI_2021",
+      "is_all_pro": true,
       "name": "J.Elliott",
       "position": "K",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 84,
       "stats": {
-        "fgAccuracy": 0.9091,
         "avgKickDistance": 37.3,
         "avgMissDistance": 44.7,
+        "fgAccuracy": 0.9091,
         "longestMadeKick": 58
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PHI",
+      "year": 2021
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_OLine_2021",
       "position": "OLine",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 88,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.96,
+        "normalizedRank": 4,
         "rushTDPct": 0.0459,
-        "normalizedRank": 4
+        "rushYPC": 4.96,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_DLine_2021",
       "position": "DLine",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 75,
       "stats": {
+        "blitzPct": 0.164,
+        "normalizedRank": 9,
+        "pressurePct": 0.239,
+        "rushTDPerGameAllowed": 1.06,
         "rushYPCAllowed": 4.0,
         "rushYPGAllowed": 107.88,
-        "rushTDPerGameAllowed": 1.06,
-        "sackPct": 0.0492,
-        "blitzPct": 0.164,
-        "pressurePct": 0.239,
-        "normalizedRank": 9
+        "sackPct": 0.0492
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PHI_Secondary_2021",
       "position": "Secondary",
-      "team": "PHI",
-      "year": 2021,
+      "rating": 70,
       "stats": {
         "completionPctAllowed": 0.6944,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 220.94,
-        "passTDPerGameAllowed": 1.65,
         "interceptionsPerGame": 0.71,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.65,
+        "passYPGAllowed": 220.94,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "PHI",
+      "year": 2021
     }
   ]
 }

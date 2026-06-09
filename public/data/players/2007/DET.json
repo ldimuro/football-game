@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.5939,
       "id": "p_00-0009311_DET_2007",
       "name": "Jon Kitna",
       "position": "QB",
-      "team": "DET",
-      "year": 2007,
+      "rating": 78,
       "stats": {
-        "passYPG": 254.1,
-        "qbr": 35.8,
-        "avgTDPerGame": 1.125,
         "avgINTPerGame": 1.312,
-        "completionPct": 0.6306
+        "avgTDPerGame": 1.125,
+        "completionPct": 0.6306,
+        "passYPG": 254.1,
+        "qbr": 35.8
       },
-      "eraNormFactor": 1.5939
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019281_DET_2007",
       "name": "Mike Furrey",
       "position": "WR",
-      "team": "DET",
-      "year": 2007,
+      "rating": 76,
       "stats": {
-        "recYPG": 47.4,
-        "tdPerGame": 0.071,
+        "avgCatchesPerGame": 4.36,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.36
+        "recYPG": 47.4,
+        "tdPerGame": 0.071
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021376_DET_2007",
       "name": "T.J. Duckett",
       "position": "RB",
-      "team": "DET",
-      "year": 2007,
+      "rating": 67,
       "stats": {
-        "rushYPG": 30.5,
-        "tdPerGame": 0.273,
+        "recYPG": 4.9,
         "rushAttPerGame": 5.91,
-        "recYPG": 4.9
+        "rushYPG": 30.5,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021981_DET_2007",
       "name": "Shaun McDonald",
       "position": "WR",
-      "team": "DET",
-      "year": 2007,
+      "rating": 89,
       "stats": {
-        "recYPG": 58.9,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 4.94,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.94
+        "recYPG": 58.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022782_DET_2007",
       "name": "Kevin Jones",
       "position": "RB",
-      "team": "DET",
-      "year": 2007,
+      "rating": 82,
       "stats": {
-        "rushYPG": 44.7,
-        "tdPerGame": 0.615,
+        "recYPG": 15.2,
         "rushAttPerGame": 11.77,
-        "recYPG": 15.2
+        "rushYPG": 44.7,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022893_DET_2007",
       "name": "Tatum Bell",
       "position": "RB",
-      "team": "DET",
-      "year": 2007,
+      "rating": 72,
       "stats": {
-        "rushYPG": 36.4,
-        "tdPerGame": 0.2,
+        "recYPG": 12.6,
         "rushAttPerGame": 8.8,
-        "recYPG": 12.6
+        "rushYPG": 36.4,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022909_DET_2007",
       "name": "Roy Williams",
       "position": "WR",
-      "team": "DET",
-      "year": 2007,
+      "rating": 92,
       "stats": {
-        "recYPG": 69.7,
-        "tdPerGame": 0.417,
+        "avgCatchesPerGame": 5.25,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 5.25
+        "recYPG": 69.7,
+        "tdPerGame": 0.417
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025389_DET_2007",
       "name": "Calvin Johnson",
       "position": "WR",
-      "team": "DET",
-      "year": 2007,
+      "rating": 82,
       "stats": {
-        "recYPG": 50.4,
-        "tdPerGame": 0.267,
+        "avgCatchesPerGame": 3.2,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.2
+        "recYPG": 50.4,
+        "tdPerGame": 0.267
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0006800_DET_2007",
       "name": "J.Hanson",
       "position": "K",
-      "team": "DET",
-      "year": 2007,
+      "rating": 80,
       "stats": {
-        "fgAccuracy": 0.8286,
         "avgKickDistance": 39.0,
         "avgMissDistance": 41.5,
+        "fgAccuracy": 0.8286,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_OLine_2007",
       "position": "OLine",
-      "team": "DET",
-      "year": 2007,
+      "rating": 81,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.95,
+        "normalizedRank": 19,
         "rushTDPct": 0.0399,
-        "normalizedRank": 19
+        "rushYPC": 3.95,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_DLine_2007",
       "position": "DLine",
-      "team": "DET",
-      "year": 2007,
+      "rating": 68,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 23,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 1.19,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 119.44,
-        "rushTDPerGameAllowed": 1.19,
-        "sackPct": 0.0615,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 23
+        "sackPct": 0.0615
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_DET_Secondary_2007",
       "position": "Secondary",
-      "team": "DET",
-      "year": 2007,
+      "rating": 63,
       "stats": {
         "completionPctAllowed": 0.701,
-        "yardsPerAttemptAllowed": 6.5,
-        "passYPGAllowed": 258.19,
-        "passTDPerGameAllowed": 2.0,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 31
+        "normalizedRank": 31,
+        "passTDPerGameAllowed": 2.0,
+        "passYPGAllowed": 258.19,
+        "yardsPerAttemptAllowed": 6.5
       },
-      "eraNormFactor": 1.0
+      "team": "DET",
+      "year": 2007
     }
   ]
 }

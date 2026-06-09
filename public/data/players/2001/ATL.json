@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1515,
       "id": "p_00-0002876_ATL_2001",
       "name": "Chris Chandler",
       "position": "QB",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 81,
       "stats": {
-        "passYPG": 203.4,
-        "qbr": 63.3,
-        "avgTDPerGame": 1.143,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.611
+        "avgTDPerGame": 1.143,
+        "completionPct": 0.611,
+        "passYPG": 203.4,
+        "qbr": 63.3
       },
-      "eraNormFactor": 1.1515
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005231_ATL_2001",
       "name": "Brian Finneran",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 80,
       "stats": {
-        "recYPG": 40.9,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 3.42,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 40.9,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0008313_ATL_2001",
       "name": "Shawn Jefferson",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 79,
       "stats": {
-        "recYPG": 38.5,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.64,
         "avgTargetsPerGame": 4.64,
-        "avgCatchesPerGame": 2.64
+        "recYPG": 38.5,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009119_ATL_2001",
       "name": "Reggie Kelly",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 58,
       "stats": {
-        "recYPG": 10.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.23,
         "avgTargetsPerGame": 2.23,
-        "avgCatchesPerGame": 1.23
+        "recYPG": 10.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0009443_ATL_2001",
       "name": "Brian Kozlowski",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 71,
       "stats": {
-        "recYPG": 30.0,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.44,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 30.0,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010477_ATL_2001",
       "name": "Tony Martin",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 87,
       "stats": {
-        "recYPG": 49.8,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 3.36,
         "avgTargetsPerGame": 7.0,
-        "avgCatchesPerGame": 3.36
+        "recYPG": 49.8,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010539_ATL_2001",
       "name": "Terance Mathis",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 79,
       "stats": {
-        "recYPG": 35.2,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 3.19,
         "avgTargetsPerGame": 6.56,
-        "avgCatchesPerGame": 3.19
+        "recYPG": 35.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016321_ATL_2001",
       "name": "Rodney Thomas",
       "position": "RB",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 60,
       "stats": {
-        "rushYPG": 15.8,
-        "tdPerGame": 0.0,
+        "recYPG": 3.2,
         "rushAttPerGame": 4.62,
-        "recYPG": 3.2
+        "rushYPG": 15.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0018977_ATL_2001",
       "name": "Maurice Smith",
       "position": "RB",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 85,
       "stats": {
-        "rushYPG": 54.3,
-        "tdPerGame": 0.357,
+        "recYPG": 16.4,
         "rushAttPerGame": 16.93,
-        "recYPG": 16.4
+        "rushYPG": 54.3,
+        "tdPerGame": 0.357
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 0.5554,
       "id": "p_00-0020245_ATL_2001",
       "name": "Mike Vick",
       "position": "QB",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 65,
       "stats": {
-        "passYPG": 98.1,
-        "qbr": 0,
-        "avgTDPerGame": 0.25,
         "avgINTPerGame": 0.375,
-        "completionPct": 0.4425
+        "avgTDPerGame": 0.25,
+        "completionPct": 0.4425,
+        "passYPG": 98.1,
+        "qbr": 0
       },
-      "eraNormFactor": 0.5554
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020285_ATL_2001",
       "name": "Alge Crumpler",
       "position": "WR",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 71,
       "stats": {
-        "recYPG": 22.0,
-        "tdPerGame": 0.2,
+        "avgCatchesPerGame": 1.67,
         "avgTargetsPerGame": 2.73,
-        "avgCatchesPerGame": 1.67
+        "recYPG": 22.0,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019770_ATL_2001",
       "name": "J.Feely",
       "position": "K",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 83,
       "stats": {
-        "fgAccuracy": 0.7838,
         "avgKickDistance": 36.4,
         "avgMissDistance": 45.6,
+        "fgAccuracy": 0.7838,
         "longestMadeKick": 55
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_OLine_2001",
       "position": "OLine",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 74,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.01,
+        "normalizedRank": 16,
         "rushTDPct": 0.0205,
-        "normalizedRank": 16
+        "rushYPC": 4.01,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_DLine_2001",
       "position": "DLine",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 67,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 21,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.81,
         "rushYPCAllowed": 4.8,
         "rushYPGAllowed": 121.44,
-        "rushTDPerGameAllowed": 0.81,
-        "sackPct": 0.0718,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 21
+        "sackPct": 0.0718
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_ATL_Secondary_2001",
       "position": "Secondary",
-      "team": "ATL",
-      "year": 2001,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6427,
-        "yardsPerAttemptAllowed": 7.1,
-        "passYPGAllowed": 243.88,
-        "passTDPerGameAllowed": 1.81,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 30
+        "normalizedRank": 30,
+        "passTDPerGameAllowed": 1.81,
+        "passYPGAllowed": 243.88,
+        "yardsPerAttemptAllowed": 7.1
       },
-      "eraNormFactor": 1.0
+      "team": "ATL",
+      "year": 2001
     }
   ]
 }

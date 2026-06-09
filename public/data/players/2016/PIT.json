@@ -1,221 +1,236 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3162,
       "id": "p_00-0022924_PIT_2016",
       "name": "Ben Roethlisberger",
       "position": "QB",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 86,
       "stats": {
-        "passYPG": 267.9,
-        "qbr": 100,
-        "avgTDPerGame": 1.882,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6479
+        "avgTDPerGame": 1.882,
+        "completionPct": 0.6479,
+        "passYPG": 267.9,
+        "qbr": 100
       },
-      "eraNormFactor": 1.3162
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024242_PIT_2016",
       "name": "DeAngelo Williams",
       "position": "RB",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 84,
       "stats": {
-        "rushYPG": 37.9,
-        "tdPerGame": 0.5,
+        "recYPG": 16.9,
         "rushAttPerGame": 11.4,
-        "recYPG": 16.9
+        "rushYPG": 37.9,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026983_PIT_2016",
       "name": "Darrius Heyward-Bey",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 63,
       "stats": {
-        "recYPG": 13.8,
-        "tdPerGame": 0.222,
+        "avgCatchesPerGame": 0.78,
         "avgTargetsPerGame": 2.44,
-        "avgCatchesPerGame": 0.78
+        "recYPG": 13.8,
+        "tdPerGame": 0.222
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027793_PIT_2016",
+      "is_all_pro": true,
       "name": "Antonio Brown",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 99,
       "stats": {
-        "recYPG": 88.5,
-        "tdPerGame": 0.778,
+        "avgCatchesPerGame": 6.89,
         "avgTargetsPerGame": 10.17,
-        "avgCatchesPerGame": 6.89
+        "recYPG": 88.5,
+        "tdPerGame": 0.778
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029275_PIT_2016",
       "name": "Ladarius Green",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 80,
       "stats": {
-        "recYPG": 50.7,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 3.0,
         "avgTargetsPerGame": 5.67,
-        "avgCatchesPerGame": 3.0
+        "recYPG": 50.7,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030290_PIT_2016",
       "name": "Cobi Hamilton",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 66,
       "stats": {
-        "recYPG": 20.4,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.5,
         "avgTargetsPerGame": 2.5,
-        "avgCatchesPerGame": 1.5
+        "recYPG": 20.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030496_PIT_2016",
+      "is_all_pro": true,
       "name": "Le'Veon Bell",
       "position": "RB",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 98,
       "stats": {
-        "rushYPG": 108.3,
-        "tdPerGame": 0.6,
+        "recYPG": 41.3,
         "rushAttPerGame": 21.73,
-        "recYPG": 41.3
+        "rushYPG": 108.3,
+        "tdPerGame": 0.6
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031035_PIT_2016",
       "name": "Xavier Grimble",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 65,
       "stats": {
-        "recYPG": 14.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 1.38,
         "avgTargetsPerGame": 2.62,
-        "avgCatchesPerGame": 1.38
+        "recYPG": 14.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031782_PIT_2016",
       "name": "Eli Rogers",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 80,
       "stats": {
-        "recYPG": 44.1,
-        "tdPerGame": 0.188,
+        "avgCatchesPerGame": 3.81,
         "avgTargetsPerGame": 5.25,
-        "avgCatchesPerGame": 3.81
+        "recYPG": 44.1,
+        "tdPerGame": 0.188
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032135_PIT_2016",
       "name": "Jesse James",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 69,
       "stats": {
-        "recYPG": 25.0,
-        "tdPerGame": 0.158,
+        "avgCatchesPerGame": 2.63,
         "avgTargetsPerGame": 3.95,
-        "avgCatchesPerGame": 2.63
+        "recYPG": 25.0,
+        "tdPerGame": 0.158
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032166_PIT_2016",
       "name": "Sammie Coates",
       "position": "WR",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 74,
       "stats": {
-        "recYPG": 39.1,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": 4.5,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 39.1,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031136_PIT_2016",
       "name": "C.Boswell",
       "position": "K",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 82,
       "stats": {
-        "fgAccuracy": 0.8889,
         "avgKickDistance": 39.3,
         "avgMissDistance": 46.8,
+        "fgAccuracy": 0.8889,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_OLine_2016",
       "position": "OLine",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 79,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.35,
+        "normalizedRank": 12,
         "rushTDPct": 0.0321,
-        "normalizedRank": 12
+        "rushYPC": 4.35,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_DLine_2016",
       "position": "DLine",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 13,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.94,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 100.0,
-        "rushTDPerGameAllowed": 0.94,
-        "sackPct": 0.0644,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 13
+        "sackPct": 0.0644
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_PIT_Secondary_2016",
       "position": "Secondary",
-      "team": "PIT",
-      "year": 2016,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.6458,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 242.62,
-        "passTDPerGameAllowed": 1.25,
         "interceptionsPerGame": 0.81,
-        "normalizedRank": 16
+        "normalizedRank": 16,
+        "passTDPerGameAllowed": 1.25,
+        "passYPGAllowed": 242.62,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "PIT",
+      "year": 2016
     }
   ]
 }

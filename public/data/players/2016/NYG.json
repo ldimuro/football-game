@@ -1,219 +1,234 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2504,
       "id": "p_00-0022803_NYG_2016",
       "name": "Eli Manning",
       "position": "QB",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 76,
       "stats": {
-        "passYPG": 254.5,
-        "qbr": 43.2,
-        "avgTDPerGame": 1.588,
         "avgINTPerGame": 1.0,
-        "completionPct": 0.6231
+        "avgTDPerGame": 1.588,
+        "completionPct": 0.6231,
+        "passYPG": 254.5,
+        "qbr": 43.2
       },
-      "eraNormFactor": 1.2504
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027155_NYG_2016",
       "name": "Rashad Jennings",
       "position": "RB",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 81,
       "stats": {
-        "rushYPG": 44.4,
-        "tdPerGame": 0.214,
+        "recYPG": 14.6,
         "rushAttPerGame": 13.29,
-        "recYPG": 14.6
+        "rushYPG": 44.4,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027265_NYG_2016",
       "name": "Victor Cruz",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 73,
       "stats": {
-        "recYPG": 41.1,
-        "tdPerGame": 0.067,
+        "avgCatchesPerGame": 2.8,
         "avgTargetsPerGame": 5.07,
-        "avgCatchesPerGame": 2.8
+        "recYPG": 41.1,
+        "tdPerGame": 0.067
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027994_NYG_2016",
       "name": "Shane Vereen",
       "position": "RB",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 76,
       "stats": {
-        "rushYPG": 31.6,
-        "tdPerGame": 0.2,
+        "recYPG": 18.8,
         "rushAttPerGame": 6.6,
-        "recYPG": 18.8
+        "rushYPG": 31.6,
+        "tdPerGame": 0.2
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0028838_NYG_2016",
       "name": "Larry Donnell",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 65,
       "stats": {
-        "recYPG": 15.3,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 2.5,
         "avgTargetsPerGame": 3.67,
-        "avgCatchesPerGame": 2.5
+        "recYPG": 15.3,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030860_NYG_2016",
       "name": "Orleans Darkwa",
       "position": "RB",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 73,
       "stats": {
-        "rushYPG": 27.8,
-        "tdPerGame": 0.5,
+        "recYPG": 3.0,
         "rushAttPerGame": 7.5,
-        "recYPG": 3.0
+        "rushYPG": 27.8,
+        "tdPerGame": 0.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031235_NYG_2016",
       "name": "Odell Beckham",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 98,
       "stats": {
-        "recYPG": 82.1,
-        "tdPerGame": 0.588,
+        "avgCatchesPerGame": 6.18,
         "avgTargetsPerGame": 10.59,
-        "avgCatchesPerGame": 6.18
+        "recYPG": 82.1,
+        "tdPerGame": 0.588
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032004_NYG_2016",
       "name": "Will Tye",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 68,
       "stats": {
-        "recYPG": 27.1,
-        "tdPerGame": 0.059,
+        "avgCatchesPerGame": 3.06,
         "avgTargetsPerGame": 4.53,
-        "avgCatchesPerGame": 3.06
+        "recYPG": 27.1,
+        "tdPerGame": 0.059
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032385_NYG_2016",
       "name": "Sterling Shepard",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 88,
       "stats": {
-        "recYPG": 43.9,
-        "tdPerGame": 0.471,
+        "avgCatchesPerGame": 4.06,
         "avgTargetsPerGame": 6.71,
-        "avgCatchesPerGame": 4.06
+        "recYPG": 43.9,
+        "tdPerGame": 0.471
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032417_NYG_2016",
       "name": "Paul Perkins",
       "position": "RB",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 72,
       "stats": {
-        "rushYPG": 34.7,
-        "tdPerGame": 0.0,
+        "recYPG": 13.5,
         "rushAttPerGame": 8.71,
-        "recYPG": 13.5
+        "rushYPG": 34.7,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0032429_NYG_2016",
       "name": "Jerell Adams",
       "position": "WR",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 60,
       "stats": {
-        "recYPG": 13.6,
-        "tdPerGame": 0.111,
+        "avgCatchesPerGame": 1.78,
         "avgTargetsPerGame": 2.33,
-        "avgCatchesPerGame": 1.78
+        "recYPG": 13.6,
+        "tdPerGame": 0.111
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021940_NYG_2016",
       "name": "J.Brown",
       "position": "K",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 81,
       "stats": {
-        "fgAccuracy": 0.9583,
         "avgKickDistance": 35.0,
         "avgMissDistance": 53.0,
+        "fgAccuracy": 0.9583,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_OLine_2016",
       "position": "OLine",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 66,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.57,
+        "normalizedRank": 29,
         "rushTDPct": 0.0145,
-        "normalizedRank": 29
+        "rushYPC": 3.57,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_DLine_2016",
       "position": "DLine",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 86,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 4,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.62,
         "rushYPCAllowed": 3.6,
         "rushYPGAllowed": 88.56,
-        "rushTDPerGameAllowed": 0.62,
-        "sackPct": 0.0556,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 4
+        "sackPct": 0.0556
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NYG_Secondary_2016",
       "position": "Secondary",
-      "team": "NYG",
-      "year": 2016,
+      "rating": 94,
       "stats": {
         "completionPctAllowed": 0.5857,
-        "yardsPerAttemptAllowed": 6.0,
-        "passYPGAllowed": 251.12,
-        "passTDPerGameAllowed": 0.94,
         "interceptionsPerGame": 1.06,
-        "normalizedRank": 23
+        "normalizedRank": 23,
+        "passTDPerGameAllowed": 0.94,
+        "passYPGAllowed": 251.12,
+        "yardsPerAttemptAllowed": 6.0
       },
-      "eraNormFactor": 1.0
+      "team": "NYG",
+      "year": 2016
     }
   ]
 }

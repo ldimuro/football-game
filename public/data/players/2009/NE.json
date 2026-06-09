@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0005091_NE_2009",
       "name": "Kevin Faulk",
       "position": "RB",
-      "team": "NE",
-      "year": 2009,
+      "rating": 69,
       "stats": {
-        "rushYPG": 24.2,
-        "tdPerGame": 0.125,
+        "recYPG": 21.1,
         "rushAttPerGame": 4.75,
-        "recYPG": 21.1
+        "rushYPG": 24.2,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0011754_NE_2009",
       "name": "Randy Moss",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 98,
       "stats": {
-        "recYPG": 77.2,
-        "tdPerGame": 0.765,
+        "avgCatchesPerGame": 5.18,
         "avgTargetsPerGame": 8.53,
-        "avgCatchesPerGame": 5.18
+        "recYPG": 77.2,
+        "tdPerGame": 0.765
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016098_NE_2009",
       "name": "Fred Taylor",
       "position": "RB",
-      "team": "NE",
-      "year": 2009,
+      "rating": 76,
       "stats": {
-        "rushYPG": 38.6,
-        "tdPerGame": 0.571,
+        "recYPG": 2.4,
         "rushAttPerGame": 9.29,
-        "recYPG": 2.4
+        "rushYPG": 38.6,
+        "tdPerGame": 0.571
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0019484_NE_2009",
       "name": "Sammy Morris",
       "position": "RB",
-      "team": "NE",
-      "year": 2009,
+      "rating": 70,
       "stats": {
-        "rushYPG": 25.2,
-        "tdPerGame": 0.154,
+        "recYPG": 15.0,
         "rushAttPerGame": 5.69,
-        "recYPG": 15.0
+        "rushYPG": 25.2,
+        "tdPerGame": 0.154
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.6354,
       "id": "p_00-0019596_NE_2009",
       "name": "Tom Brady",
       "position": "QB",
-      "team": "NE",
-      "year": 2009,
+      "rating": 89,
       "stats": {
-        "passYPG": 267.8,
-        "qbr": 100,
-        "avgTDPerGame": 1.765,
         "avgINTPerGame": 0.941,
-        "completionPct": 0.6491
+        "avgTDPerGame": 1.765,
+        "completionPct": 0.6491,
+        "passYPG": 267.8,
+        "qbr": 100
       },
-      "eraNormFactor": 1.6354
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021213_NE_2009",
       "name": "Chris Baker",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 62,
       "stats": {
-        "recYPG": 12.0,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.25,
         "avgTargetsPerGame": 1.67,
-        "avgCatchesPerGame": 1.25
+        "recYPG": 12.0,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021915_NE_2009",
       "name": "Sam Aiken",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 71,
       "stats": {
-        "recYPG": 30.1,
-        "tdPerGame": 0.182,
+        "avgCatchesPerGame": 1.91,
         "avgTargetsPerGame": 4.27,
-        "avgCatchesPerGame": 1.91
+        "recYPG": 30.1,
+        "tdPerGame": 0.182
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022427_NE_2009",
+      "is_all_pro": true,
       "name": "Wes Welker",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 95,
       "stats": {
-        "recYPG": 96.3,
-        "tdPerGame": 0.286,
+        "avgCatchesPerGame": 8.79,
         "avgTargetsPerGame": 11.57,
-        "avgCatchesPerGame": 8.79
+        "recYPG": 96.3,
+        "tdPerGame": 0.286
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022943_NE_2009",
       "name": "Benjamin Watson",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 77,
       "stats": {
-        "recYPG": 31.3,
-        "tdPerGame": 0.385,
+        "avgCatchesPerGame": 2.31,
         "avgTargetsPerGame": 3.46,
-        "avgCatchesPerGame": 2.31
+        "recYPG": 31.3,
+        "tdPerGame": 0.385
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024236_NE_2009",
       "name": "Laurence Maroney",
       "position": "RB",
-      "team": "NE",
-      "year": 2009,
+      "rating": 80,
       "stats": {
-        "rushYPG": 47.4,
-        "tdPerGame": 0.562,
+        "recYPG": 6.2,
         "rushAttPerGame": 12.19,
-        "recYPG": 6.2
+        "rushYPG": 47.4,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027150_NE_2009",
       "name": "Julian Edelman",
       "position": "WR",
-      "team": "NE",
-      "year": 2009,
+      "rating": 81,
       "stats": {
-        "recYPG": 36.6,
-        "tdPerGame": 0.273,
+        "avgCatchesPerGame": 3.91,
         "avgTargetsPerGame": 5.64,
-        "avgCatchesPerGame": 3.91
+        "recYPG": 36.6,
+        "tdPerGame": 0.273
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024333_NE_2009",
       "name": "S.Gostkowski",
       "position": "K",
-      "team": "NE",
-      "year": 2009,
+      "rating": 77,
       "stats": {
-        "fgAccuracy": 0.8125,
         "avgKickDistance": 36.0,
         "avgMissDistance": 42.3,
+        "fgAccuracy": 0.8125,
         "longestMadeKick": 53
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_OLine_2009",
       "position": "OLine",
-      "team": "NE",
-      "year": 2009,
+      "rating": 77,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.1,
+        "normalizedRank": 23,
         "rushTDPct": 0.0393,
-        "normalizedRank": 23
+        "rushYPC": 4.1,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_DLine_2009",
       "position": "DLine",
-      "team": "NE",
-      "year": 2009,
+      "rating": 77,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 13,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.38,
         "rushYPCAllowed": 4.4,
         "rushYPGAllowed": 110.5,
-        "rushTDPerGameAllowed": 0.38,
-        "sackPct": 0.0605,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 13
+        "sackPct": 0.0605
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_NE_Secondary_2009",
       "position": "Secondary",
-      "team": "NE",
-      "year": 2009,
+      "rating": 79,
       "stats": {
         "completionPctAllowed": 0.5859,
-        "yardsPerAttemptAllowed": 6.2,
-        "passYPGAllowed": 209.69,
-        "passTDPerGameAllowed": 1.56,
         "interceptionsPerGame": 1.12,
-        "normalizedRank": 12
+        "normalizedRank": 12,
+        "passTDPerGameAllowed": 1.56,
+        "passYPGAllowed": 209.69,
+        "yardsPerAttemptAllowed": 6.2
       },
-      "eraNormFactor": 1.0
+      "team": "NE",
+      "year": 2009
     }
   ]
 }

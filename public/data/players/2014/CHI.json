@@ -1,177 +1,189 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.2665,
       "id": "p_00-0024226_CHI_2014",
       "name": "Jay Cutler",
       "position": "QB",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 76,
       "stats": {
-        "passYPG": 254.1,
-        "qbr": 30.9,
-        "avgTDPerGame": 1.867,
         "avgINTPerGame": 1.2,
-        "completionPct": 0.6595
+        "avgTDPerGame": 1.867,
+        "completionPct": 0.6595,
+        "passYPG": 254.1,
+        "qbr": 30.9
       },
-      "eraNormFactor": 1.2665
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0024334_CHI_2014",
       "name": "Brandon Marshall",
       "position": "WR",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 92,
       "stats": {
-        "recYPG": 55.5,
-        "tdPerGame": 0.615,
+        "avgCatchesPerGame": 4.69,
         "avgTargetsPerGame": 8.15,
-        "avgCatchesPerGame": 4.69
+        "recYPG": 55.5,
+        "tdPerGame": 0.615
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0025542_CHI_2014",
       "name": "Dante Rosario",
       "position": "WR",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 56,
       "stats": {
-        "recYPG": 8.9,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 1.23,
         "avgTargetsPerGame": 1.69,
-        "avgCatchesPerGame": 1.23
+        "recYPG": 8.9,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026184_CHI_2014",
       "name": "Matt Forte",
       "position": "RB",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 93,
       "stats": {
-        "rushYPG": 64.9,
-        "tdPerGame": 0.375,
+        "recYPG": 50.5,
         "rushAttPerGame": 16.62,
-        "recYPG": 50.5
+        "rushYPG": 64.9,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026201_CHI_2014",
       "name": "Martellus Bennett",
       "position": "WR",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 92,
       "stats": {
-        "recYPG": 57.2,
-        "tdPerGame": 0.375,
+        "avgCatchesPerGame": 5.62,
         "avgTargetsPerGame": 8.0,
-        "avgCatchesPerGame": 5.62
+        "recYPG": 57.2,
+        "tdPerGame": 0.375
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0029137_CHI_2014",
       "name": "Alshon Jeffery",
       "position": "WR",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 96,
       "stats": {
-        "recYPG": 70.8,
-        "tdPerGame": 0.625,
+        "avgCatchesPerGame": 5.31,
         "avgTargetsPerGame": 9.06,
-        "avgCatchesPerGame": 5.31
+        "recYPG": 70.8,
+        "tdPerGame": 0.625
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0030047_CHI_2014",
       "name": "Marquess Wilson",
       "position": "WR",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 69,
       "stats": {
-        "recYPG": 20.0,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.43,
         "avgTargetsPerGame": 4.57,
-        "avgCatchesPerGame": 2.43
+        "recYPG": 20.0,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0031057_CHI_2014",
       "name": "Ka'Deem Carey",
       "position": "RB",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 60,
       "stats": {
-        "rushYPG": 15.8,
-        "tdPerGame": 0.0,
+        "recYPG": 5.7,
         "rushAttPerGame": 3.6,
-        "recYPG": 5.7
+        "rushYPG": 15.8,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0023252_CHI_2014",
       "name": "R.Gould",
       "position": "K",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 62,
       "stats": {
-        "fgAccuracy": 0.75,
         "avgKickDistance": 36.9,
         "avgMissDistance": 44.8,
+        "fgAccuracy": 0.75,
         "longestMadeKick": 48
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_OLine_2014",
       "position": "OLine",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 75,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.06,
+        "normalizedRank": 19,
         "rushTDPct": 0.0225,
-        "normalizedRank": 19
+        "rushYPC": 4.06,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_DLine_2014",
       "position": "DLine",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 76,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 17,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.75,
         "rushYPCAllowed": 4.3,
         "rushYPGAllowed": 112.69,
-        "rushTDPerGameAllowed": 0.75,
-        "sackPct": 0.0712,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 17
+        "sackPct": 0.0712
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_CHI_Secondary_2014",
       "position": "Secondary",
-      "team": "CHI",
-      "year": 2014,
+      "rating": 62,
       "stats": {
         "completionPctAllowed": 0.6679,
-        "yardsPerAttemptAllowed": 7.2,
-        "passYPGAllowed": 264.38,
-        "passTDPerGameAllowed": 2.12,
         "interceptionsPerGame": 0.88,
-        "normalizedRank": 30
+        "normalizedRank": 30,
+        "passTDPerGameAllowed": 2.12,
+        "passYPGAllowed": 264.38,
+        "yardsPerAttemptAllowed": 7.2
       },
-      "eraNormFactor": 1.0
+      "team": "CHI",
+      "year": 2014
     }
   ]
 }

@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010500_BAL_2010",
       "name": "Derrick Mason",
       "position": "WR",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 85,
       "stats": {
-        "recYPG": 45.2,
-        "tdPerGame": 0.389,
+        "avgCatchesPerGame": 3.44,
         "avgTargetsPerGame": 5.94,
-        "avgCatchesPerGame": 3.44
+        "recYPG": 45.2,
+        "tdPerGame": 0.389
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020438_BAL_2010",
       "name": "T.J. Houshmandzadeh",
       "position": "WR",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "recYPG": 25.8,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.89,
         "avgTargetsPerGame": 3.5,
-        "avgCatchesPerGame": 1.89
+        "recYPG": 25.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020516_BAL_2010",
       "name": "Todd Heap",
       "position": "WR",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 87,
       "stats": {
-        "recYPG": 50.0,
-        "tdPerGame": 0.4,
+        "avgCatchesPerGame": 3.53,
         "avgTargetsPerGame": 5.6,
-        "avgCatchesPerGame": 3.53
+        "recYPG": 50.0,
+        "tdPerGame": 0.4
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022084_BAL_2010",
       "name": "Anquan Boldin",
       "position": "WR",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 89,
       "stats": {
-        "recYPG": 49.9,
-        "tdPerGame": 0.444,
+        "avgCatchesPerGame": 3.89,
         "avgTargetsPerGame": 6.72,
-        "avgCatchesPerGame": 3.89
+        "recYPG": 49.9,
+        "tdPerGame": 0.444
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0022178_BAL_2010",
       "name": "Willis McGahee",
       "position": "RB",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 72,
       "stats": {
-        "rushYPG": 25.2,
-        "tdPerGame": 0.353,
+        "recYPG": 4.6,
         "rushAttPerGame": 6.71,
-        "recYPG": 4.6
+        "rushYPG": 25.2,
+        "tdPerGame": 0.353
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.1886,
       "id": "p_00-0026158_BAL_2010",
       "name": "Joe Flacco",
       "position": "QB",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 85,
       "stats": {
-        "passYPG": 222.9,
-        "qbr": 76.2,
-        "avgTDPerGame": 1.556,
         "avgINTPerGame": 0.611,
-        "completionPct": 0.6275
+        "avgTDPerGame": 1.556,
+        "completionPct": 0.6275,
+        "passYPG": 222.9,
+        "qbr": 76.2
       },
-      "eraNormFactor": 1.1886
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0026195_BAL_2010",
       "name": "Ray Rice",
       "position": "RB",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 91,
       "stats": {
-        "rushYPG": 72.7,
-        "tdPerGame": 0.333,
+        "recYPG": 35.0,
         "rushAttPerGame": 18.67,
-        "recYPG": 35.0
+        "rushYPG": 72.7,
+        "tdPerGame": 0.333
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0027675_BAL_2010",
       "name": "Ed Dickson",
       "position": "WR",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 58,
       "stats": {
-        "recYPG": 11.8,
-        "tdPerGame": 0.077,
+        "avgCatchesPerGame": 0.92,
         "avgTargetsPerGame": 1.85,
-        "avgCatchesPerGame": 0.92
+        "recYPG": 11.8,
+        "tdPerGame": 0.077
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020972_BAL_2010",
+      "is_all_pro": true,
       "name": "B.Cundiff",
       "position": "K",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 78,
       "stats": {
-        "fgAccuracy": 0.9091,
         "avgKickDistance": 33.6,
         "avgMissDistance": 44.7,
+        "fgAccuracy": 0.9091,
         "longestMadeKick": 49
       },
-      "eraNormFactor": 1.0,
-      "is_all_pro": true
+      "team": "BAL",
+      "year": 2010
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_OLine_2010",
       "position": "OLine",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 68,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.68,
+        "normalizedRank": 30,
         "rushTDPct": 0.0239,
-        "normalizedRank": 30
+        "rushYPC": 3.68,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_DLine_2010",
       "position": "DLine",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 80,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.31,
         "rushYPCAllowed": 3.9,
         "rushYPGAllowed": 93.94,
-        "rushTDPerGameAllowed": 0.31,
-        "sackPct": 0.0453,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0453
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_BAL_Secondary_2010",
       "position": "Secondary",
-      "team": "BAL",
-      "year": 2010,
+      "rating": 87,
       "stats": {
         "completionPctAllowed": 0.5856,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 224.94,
-        "passTDPerGameAllowed": 1.38,
         "interceptionsPerGame": 1.19,
-        "normalizedRank": 21
+        "normalizedRank": 21,
+        "passTDPerGameAllowed": 1.38,
+        "passYPGAllowed": 224.94,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "BAL",
+      "year": 2010
     }
   ]
 }

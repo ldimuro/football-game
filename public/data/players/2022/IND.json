@@ -1,220 +1,235 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.3949,
       "id": "p_00-0026143_IND_2022",
       "name": "Matt Ryan",
       "position": "QB",
-      "team": "IND",
-      "year": 2022,
+      "rating": 75,
       "stats": {
-        "passYPG": 254.8,
-        "qbr": 29.4,
-        "avgTDPerGame": 1.167,
         "avgINTPerGame": 1.083,
-        "completionPct": 0.6703
+        "avgTDPerGame": 1.167,
+        "completionPct": 0.6703,
+        "passYPG": 254.8,
+        "qbr": 29.4
       },
-      "eraNormFactor": 1.3949
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0033217_IND_2022",
       "name": "Mo Alie-Cox",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 65,
       "stats": {
-        "recYPG": 13.5,
-        "tdPerGame": 0.214,
+        "avgCatchesPerGame": 1.36,
         "avgTargetsPerGame": 2.0,
-        "avgCatchesPerGame": 1.36
+        "recYPG": 13.5,
+        "tdPerGame": 0.214
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035021_IND_2022",
       "name": "Ashton Dulin",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 72,
       "stats": {
-        "recYPG": 29.6,
-        "tdPerGame": 0.143,
+        "avgCatchesPerGame": 2.14,
         "avgTargetsPerGame": 3.14,
-        "avgCatchesPerGame": 2.14
+        "recYPG": 29.6,
+        "tdPerGame": 0.143
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035639_IND_2022",
       "name": "Parris Campbell",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 80,
       "stats": {
-        "recYPG": 36.6,
-        "tdPerGame": 0.176,
+        "avgCatchesPerGame": 3.71,
         "avgTargetsPerGame": 5.35,
-        "avgCatchesPerGame": 3.71
+        "recYPG": 36.6,
+        "tdPerGame": 0.176
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036223_IND_2022",
       "name": "Jonathan Taylor",
       "position": "RB",
-      "team": "IND",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "rushYPG": 78.3,
-        "tdPerGame": 0.364,
+        "recYPG": 13.0,
         "rushAttPerGame": 17.45,
-        "recYPG": 13.0
+        "rushYPG": 78.3,
+        "tdPerGame": 0.364
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036252_IND_2022",
       "name": "Michael Pittman",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 92,
       "stats": {
-        "recYPG": 57.8,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 6.19,
         "avgTargetsPerGame": 8.81,
-        "avgCatchesPerGame": 6.19
+        "recYPG": 57.8,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036493_IND_2022",
       "name": "Deon Jackson",
       "position": "RB",
-      "team": "IND",
-      "year": 2022,
+      "rating": 68,
       "stats": {
-        "rushYPG": 19.7,
-        "tdPerGame": 0.083,
+        "recYPG": 17.4,
         "rushAttPerGame": 5.67,
-        "recYPG": 17.4
+        "rushYPG": 19.7,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0036876_IND_2022",
       "name": "Kylen Granson",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 66,
       "stats": {
-        "recYPG": 23.2,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.38,
         "avgTargetsPerGame": 3.08,
-        "avgCatchesPerGame": 2.38
+        "recYPG": 23.2,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 0.7839,
       "id": "p_00-0036879_IND_2022",
       "name": "Sam Ehlinger",
       "position": "QB",
-      "team": "IND",
-      "year": 2022,
+      "rating": 61,
       "stats": {
-        "passYPG": 143.2,
-        "qbr": 0,
-        "avgTDPerGame": 0.75,
         "avgINTPerGame": 0.75,
-        "completionPct": 0.6337
+        "avgTDPerGame": 0.75,
+        "completionPct": 0.6337,
+        "passYPG": 143.2,
+        "qbr": 0
       },
-      "eraNormFactor": 0.7839
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037664_IND_2022",
       "name": "Alec Pierce",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 76,
       "stats": {
-        "recYPG": 37.1,
-        "tdPerGame": 0.125,
+        "avgCatchesPerGame": 2.56,
         "avgTargetsPerGame": 4.88,
-        "avgCatchesPerGame": 2.56
+        "recYPG": 37.1,
+        "tdPerGame": 0.125
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0037755_IND_2022",
       "name": "Jelani Woods",
       "position": "WR",
-      "team": "IND",
-      "year": 2022,
+      "rating": 74,
       "stats": {
-        "recYPG": 26.0,
-        "tdPerGame": 0.25,
+        "avgCatchesPerGame": 2.08,
         "avgTargetsPerGame": 3.33,
-        "avgCatchesPerGame": 2.08
+        "recYPG": 26.0,
+        "tdPerGame": 0.25
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0035358_IND_2022",
       "name": "C.McLaughlin",
       "position": "K",
-      "team": "IND",
-      "year": 2022,
+      "rating": 75,
       "stats": {
-        "fgAccuracy": 0.8205,
         "avgKickDistance": 42.0,
         "avgMissDistance": 48.1,
+        "fgAccuracy": 0.8205,
         "longestMadeKick": 54
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_OLine_2022",
       "position": "OLine",
-      "team": "IND",
-      "year": 2022,
+      "rating": 70,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 4.25,
+        "normalizedRank": 22,
         "rushTDPct": 0.0182,
-        "normalizedRank": 22
+        "rushYPC": 4.25,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_DLine_2022",
       "position": "DLine",
-      "team": "IND",
-      "year": 2022,
+      "rating": 83,
       "stats": {
+        "blitzPct": 0.164,
+        "normalizedRank": 21,
+        "pressurePct": 0.22,
+        "rushTDPerGameAllowed": 1.18,
         "rushYPCAllowed": 4.1,
         "rushYPGAllowed": 124.06,
-        "rushTDPerGameAllowed": 1.18,
-        "sackPct": 0.0819,
-        "blitzPct": 0.164,
-        "pressurePct": 0.22,
-        "normalizedRank": 21
+        "sackPct": 0.0819
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_IND_Secondary_2022",
       "position": "Secondary",
-      "team": "IND",
-      "year": 2022,
+      "rating": 68,
       "stats": {
         "completionPctAllowed": 0.6797,
-        "yardsPerAttemptAllowed": 6.1,
-        "passYPGAllowed": 209.94,
-        "passTDPerGameAllowed": 1.47,
         "interceptionsPerGame": 0.59,
-        "normalizedRank": 11
+        "normalizedRank": 11,
+        "passTDPerGameAllowed": 1.47,
+        "passYPGAllowed": 209.94,
+        "yardsPerAttemptAllowed": 6.1
       },
-      "eraNormFactor": 1.0
+      "team": "IND",
+      "year": 2022
     }
   ]
 }

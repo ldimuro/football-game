@@ -1,178 +1,190 @@
 {
   "players": [
     {
+      "eraNormFactor": 1.1036,
       "id": "p_00-0005180_MIA_2003",
       "name": "Jay Fiedler",
       "position": "QB",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 76,
       "stats": {
-        "passYPG": 178.2,
-        "qbr": 41.0,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.083,
-        "completionPct": 0.5701
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.5701,
+        "passYPG": 178.2,
+        "qbr": 41.0
       },
-      "eraNormFactor": 1.1036
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.007,
       "id": "p_00-0006423_MIA_2003",
       "name": "Brian Griese",
       "position": "QB",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 68,
       "stats": {
-        "passYPG": 162.6,
-        "qbr": 0,
-        "avgTDPerGame": 1.0,
         "avgINTPerGame": 1.2,
-        "completionPct": 0.5692
+        "avgTDPerGame": 1.0,
+        "completionPct": 0.5692,
+        "passYPG": 162.6,
+        "qbr": 0
       },
-      "eraNormFactor": 1.007
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010974_MIA_2003",
       "name": "James McKnight",
       "position": "WR",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 63,
       "stats": {
-        "recYPG": 23.8,
-        "tdPerGame": 0.167,
+        "avgCatchesPerGame": 1.92,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 1.92
+        "recYPG": 23.8,
+        "tdPerGame": 0.167
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0016373_MIA_2003",
       "name": "Derrius Thompson",
       "position": "WR",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 59,
       "stats": {
-        "recYPG": 27.6,
-        "tdPerGame": 0.0,
+        "avgCatchesPerGame": 2.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 2.0
+        "recYPG": 27.6,
+        "tdPerGame": 0.0
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0017915_MIA_2003",
       "name": "Ricky Williams",
       "position": "RB",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 94,
       "stats": {
-        "rushYPG": 85.8,
-        "tdPerGame": 0.562,
+        "recYPG": 21.9,
         "rushAttPerGame": 24.5,
-        "recYPG": 21.9
+        "rushYPG": 85.8,
+        "tdPerGame": 0.562
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020446_MIA_2003",
       "name": "Chris Chambers",
       "position": "WR",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 94,
       "stats": {
-        "recYPG": 60.2,
-        "tdPerGame": 0.688,
+        "avgCatchesPerGame": 4.0,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 4.0
+        "recYPG": 60.2,
+        "tdPerGame": 0.688
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0020448_MIA_2003",
       "name": "Travis Minor",
       "position": "RB",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 61,
       "stats": {
-        "rushYPG": 16.1,
-        "tdPerGame": 0.083,
+        "recYPG": 1.1,
         "rushAttPerGame": 3.42,
-        "recYPG": 1.1
+        "rushYPG": 16.1,
+        "tdPerGame": 0.083
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0021236_MIA_2003",
       "name": "Randy McMichael",
       "position": "WR",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 74,
       "stats": {
-        "recYPG": 39.9,
-        "tdPerGame": 0.133,
+        "avgCatchesPerGame": 3.27,
         "avgTargetsPerGame": null,
-        "avgCatchesPerGame": 3.27
+        "recYPG": 39.9,
+        "tdPerGame": 0.133
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "p_00-0010373_MIA_2003",
       "name": "O.Mare",
       "position": "K",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 79,
       "stats": {
-        "fgAccuracy": 0.7586,
         "avgKickDistance": 37.4,
         "avgMissDistance": 43.1,
+        "fgAccuracy": 0.7586,
         "longestMadeKick": 52
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     }
   ],
   "units": [
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_OLine_2003",
       "position": "OLine",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 72,
       "stats": {
-        "sacksAllowedPerGame": 2.5,
-        "rushYPC": 3.75,
+        "normalizedRank": 27,
         "rushTDPct": 0.0288,
-        "normalizedRank": 27
+        "rushYPC": 3.75,
+        "sacksAllowedPerGame": 2.5
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_DLine_2003",
       "position": "DLine",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 95,
       "stats": {
+        "blitzPct": null,
+        "normalizedRank": 5,
+        "pressurePct": null,
+        "rushTDPerGameAllowed": 0.69,
         "rushYPCAllowed": 3.3,
         "rushYPGAllowed": 90.75,
-        "rushTDPerGameAllowed": 0.69,
-        "sackPct": 0.0832,
-        "blitzPct": null,
-        "pressurePct": null,
-        "normalizedRank": 5
+        "sackPct": 0.0832
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     },
     {
+      "eraNormFactor": 1.0,
       "id": "u_MIA_Secondary_2003",
       "position": "Secondary",
-      "team": "MIA",
-      "year": 2003,
+      "rating": 83,
       "stats": {
         "completionPctAllowed": 0.603,
-        "yardsPerAttemptAllowed": 5.8,
-        "passYPGAllowed": 208.44,
-        "passTDPerGameAllowed": 0.75,
         "interceptionsPerGame": 1.38,
-        "normalizedRank": 19
+        "normalizedRank": 19,
+        "passTDPerGameAllowed": 0.75,
+        "passYPGAllowed": 208.44,
+        "yardsPerAttemptAllowed": 5.8
       },
-      "eraNormFactor": 1.0
+      "team": "MIA",
+      "year": 2003
     }
   ]
 }
