@@ -112,6 +112,7 @@ export interface RoundRecord {
   draftedId: string | null
   weather: WeatherCondition
   result: 'win' | 'loss' | 'tie'
+  shopBoughtId: string | null
 }
 
 export interface Roster {
