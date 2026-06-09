@@ -35,25 +35,7 @@ def normalize_team(abbr: str) -> str:
     return TEAM_ABBR_MAP.get(abbr.upper(), abbr.upper())
 
 
-def era_factor(series: pd.Series, value: float) -> float:
-    mean = series.mean()
-    return round(value / mean, 4) if mean > 0 else 1.0
-
-
-def compute_league_averages(weekly: pd.DataFrame) -> dict:
-    """Compute per-year league averages for era normalization."""
-    avgs = {}
-    weekly = weekly.copy()
-    weekly["games"] = 1
-    for year, grp in weekly.groupby("season"):
-        qbs = grp[grp["position"] == "QB"].copy()
-        qbs = qbs.groupby("player_id").agg({"passing_yards": "sum", "games": "sum"}).query("games >= 4")
-        avg_pass_ypg = (qbs["passing_yards"] / qbs["games"]).mean() if len(qbs) > 0 else 250
-        avgs[int(year)] = {"avg_pass_ypg": avg_pass_ypg}
-    return avgs
-
-
-def process_players(weekly: pd.DataFrame, era_avgs: dict) -> dict:
+def process_players(weekly: pd.DataFrame) -> dict:
     """Returns {(team, year): {players: [...], units: [...]}}"""
     roster_map: dict = {}
 
@@ -87,7 +69,6 @@ def process_players(weekly: pd.DataFrame, era_avgs: dict) -> dict:
             if atts < 100:
                 continue
             ypg = round(pass_yds / g, 1)
-            avg_ypg = era_avgs.get(yr_int, {}).get("avg_pass_ypg", 250)
             qbr = round(max(0, min(100, 50 + epa * 10)), 1)
             add(key, "players", {
                 "id": f"p_{pid}_{team}_{yr_int}",
@@ -101,7 +82,6 @@ def process_players(weekly: pd.DataFrame, era_avgs: dict) -> dict:
                     "intRatio": round(ints / atts, 4) if atts > 0 else 0,
                     "qbr": qbr,
                 },
-                "eraNormFactor": era_factor(pd.Series([avg_ypg]), ypg),
             })
 
         elif pos in ("WR", "TE"):
@@ -118,7 +98,6 @@ def process_players(weekly: pd.DataFrame, era_avgs: dict) -> dict:
                 "team": team,
                 "year": yr_int,
                 "stats": {"recYPG": ypg, "tdPerGame": round(rec_td / g, 3)},
-                "eraNormFactor": 1.0,
             })
 
         elif pos == "RB":
@@ -135,7 +114,6 @@ def process_players(weekly: pd.DataFrame, era_avgs: dict) -> dict:
                 "team": team,
                 "year": yr_int,
                 "stats": {"rushYPG": ypg, "tdPerGame": round(rush_td / g, 3)},
-                "eraNormFactor": 1.0,
             })
 
     return roster_map
@@ -168,7 +146,6 @@ def process_kickers(pbp: pd.DataFrame, roster_map: dict) -> None:
             "team": team,
             "year": yr_int,
             "stats": {"fgAccuracy": accuracy},
-            "eraNormFactor": 1.0,
         })
 
 
@@ -270,7 +247,6 @@ def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map
                     "rushTDPct": round(float(row["td_pct"]), 4),
                     "normalizedRank": int(row["oline_rank"]),
                 },
-                "eraNormFactor": 1.0,
             })
 
     # D-Line and Secondary: derived from real play-by-play defensive stats (compute_defense_stats)
@@ -292,7 +268,6 @@ def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map
                 "team": team,
                 "year": yr_int,
                 "stats": team_defense["dline"] if team_defense else fallback_dline,
-                "eraNormFactor": 1.0,
             })
 
         if not any(u["position"] == "Secondary" for u in roster_map[key].get("units", [])):
@@ -302,7 +277,6 @@ def process_team_units(schedules: pd.DataFrame, weekly: pd.DataFrame, roster_map
                 "team": team,
                 "year": yr_int,
                 "stats": team_defense["secondary"] if team_defense else fallback_secondary,
-                "eraNormFactor": 1.0,
             })
 
     # Build team_stats_map from schedules
@@ -386,11 +360,8 @@ def main():
     weekly = nfl.import_weekly_data(YEARS, weekly_cols)
     weekly = weekly.fillna(0)
 
-    print("Computing era averages...")
-    era_avgs = compute_league_averages(weekly)
-
     print("Processing player stats...")
-    roster_map = process_players(weekly, era_avgs)
+    roster_map = process_players(weekly)
 
     print("Fetching schedules...")
     schedules = nfl.import_schedules(YEARS)

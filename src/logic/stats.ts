@@ -1,9 +1,5 @@
 import type { Roster, AggregateStats, RosterSummary, Player, QBStats, WRStats, RBStats, OLineStats, DLineStats, SecondaryStats } from '../types'
 
-export function eraNormalize(rawStat: number, normFactor: number): number {
-  return rawStat * normFactor
-}
-
 export function computeAggregateStats(roster: Roster): AggregateStats {
   const qbStats = roster.QB?.stats as QBStats | undefined
   const rbStats = roster.RB?.stats as RBStats | undefined

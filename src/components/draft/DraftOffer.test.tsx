@@ -8,19 +8,19 @@ const mockOffer = {
   team: 'NE', year: 2019,
   players: [
     { id: 'qb_brady', name: 'Tom Brady', position: 'QB' as const, team: 'NE', year: 2019,
-      stats: { passYPG: 240, avgTDPerGame: 1.74, avgINTPerGame: 0.39, completionPct: 0.64, qbr: 61 }, eraNormFactor: 0.92 },
+      stats: { passYPG: 240, avgTDPerGame: 1.74, avgINTPerGame: 0.39, completionPct: 0.64, qbr: 61 } },
     { id: 'wr_edelman', name: 'Julian Edelman', position: 'WR' as const, team: 'NE', year: 2019,
-      stats: { recYPG: 72, tdPerGame: 0.35, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.02 },
+      stats: { recYPG: 72, tdPerGame: 0.35, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 } },
   ],
   units: [
     { id: 'sec_ne', position: 'Secondary' as const, team: 'NE', year: 2019,
-      stats: { completionPctAllowed: 0.571, yardsPerAttemptAllowed: 5.9, passYPGAllowed: 195.0, passTDPerGameAllowed: 1.1, interceptionsPerGame: 1.2, normalizedRank: 1 }, eraNormFactor: 1.0 },
+      stats: { completionPctAllowed: 0.571, yardsPerAttemptAllowed: 5.9, passYPGAllowed: 195.0, passTDPerGameAllowed: 1.1, interceptionsPerGame: 1.2, normalizedRank: 1 } },
   ],
 }
 
 const mockRoster = {
   QB: { id: 'qb_old', name: 'Old QB', position: 'QB' as const, team: 'KC', year: 2022,
-    stats: { passYPG: 317, avgTDPerGame: 2.01, avgINTPerGame: 0.33, completionPct: 0.64, qbr: 74 }, eraNormFactor: 1.08 },
+    stats: { passYPG: 317, avgTDPerGame: 2.01, avgINTPerGame: 0.33, completionPct: 0.64, qbr: 74 } },
   WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null,
 }
 

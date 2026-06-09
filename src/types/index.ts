@@ -66,7 +66,7 @@ export interface Player {
   team: string
   year: number
   stats: QBStats | WRStats | RBStats | KStats
-  eraNormFactor: number
+  rating?: number
   is_all_pro?: boolean
   is_mvp?: boolean
   is_opy?: boolean
@@ -79,7 +79,7 @@ export interface TeamUnit {
   team: string
   year: number
   stats: OLineStats | DLineStats | SecondaryStats
-  eraNormFactor: number
+  rating?: number
 }
 
 export interface TeamMeta {

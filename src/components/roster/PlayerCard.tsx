@@ -105,11 +105,22 @@ export function renderStats(slot: Player | TeamUnit) {
   )
 }
 
+function ratingTier(r: number): { label: string; className: string } {
+  if (r >= 98) return { label: 'Legendary', className: 'text-yellow-400 font-black' }
+  if (r >= 93) return { label: 'Elite',     className: 'text-purple-400 font-bold' }
+  if (r >= 85) return { label: 'Great',     className: 'text-green-400 font-bold' }
+  if (r >= 75) return { label: 'Good',      className: 'text-blue-400 font-semibold' }
+  if (r >= 65) return { label: 'Average',   className: 'text-gray-400 font-semibold' }
+  return               { label: 'Below Avg',className: 'text-gray-500 font-semibold' }
+}
+
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: PlayerCardProps) {
   const isUnit = 'position' in slot && !('name' in slot)
   const name = 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
   const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy) || ('is_dpy' in slot && slot.is_dpy)
+  const rating = slot.rating
+  const tier = rating !== undefined ? ratingTier(rating) : null
 
   return (
     <div
@@ -128,16 +139,24 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: P
             {isUnit && <Badge label="Unit" color="gray" />}
           </div>
         </div>
-        {onReroll && (
-          <Button
-            onClick={onReroll}
-            variant="ghost"
-            disabled={rerollsRemaining <= 0}
-            className="text-xs"
-          >
-            Re-roll
-          </Button>
-        )}
+        <div className="flex flex-col items-end gap-1">
+          {tier && (
+            <div className="text-right">
+              <span className={`text-2xl leading-none ${tier.className}`}>{rating}</span>
+              <p className={`text-xs leading-none mt-0.5 ${tier.className}`}>{tier.label}</p>
+            </div>
+          )}
+          {onReroll && (
+            <Button
+              onClick={onReroll}
+              variant="ghost"
+              disabled={rerollsRemaining <= 0}
+              className="text-xs"
+            >
+              Re-roll
+            </Button>
+          )}
+        </div>
       </div>
       <div>{renderStats(slot)}</div>
     </div>

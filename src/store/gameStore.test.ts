@@ -6,21 +6,21 @@ import type { Roster } from '../types'
 const { mockRoster } = vi.hoisted(() => {
   const mockRoster: Roster = {
   QB: { id: 'qb1', name: 'Test QB', position: 'QB', team: 'KC', year: 2022,
-    stats: { passYPG: 300, avgTDPerGame: 1.8, avgINTPerGame: 0.3, completionPct: 0.64, qbr: 70 }, eraNormFactor: 1.0 },
+    stats: { passYPG: 300, avgTDPerGame: 1.8, avgINTPerGame: 0.3, completionPct: 0.64, qbr: 70 } },
   WR1: { id: 'wr1', name: 'WR1', position: 'WR', team: 'KC', year: 2022,
-    stats: { recYPG: 80, tdPerGame: 0.4, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.0 },
+    stats: { recYPG: 80, tdPerGame: 0.4, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 } },
   WR2: { id: 'wr2', name: 'WR2', position: 'WR', team: 'KC', year: 2022,
-    stats: { recYPG: 50, tdPerGame: 0.2, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.0 },
+    stats: { recYPG: 50, tdPerGame: 0.2, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 } },
   RB: { id: 'rb1', name: 'RB', position: 'RB', team: 'KC', year: 2022,
-    stats: { rushYPG: 80, recYPG: 18.0, tdPerGame: 0.4, rushAttPerGame: 14.0 }, eraNormFactor: 1.0 },
+    stats: { rushYPG: 80, recYPG: 18.0, tdPerGame: 0.4, rushAttPerGame: 14.0 } },
   K: { id: 'k1', name: 'K', position: 'K', team: 'KC', year: 2022,
-    stats: { fgAccuracy: 0.9, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 }, eraNormFactor: 1.0 },
+    stats: { fgAccuracy: 0.9, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 } },
   OLine: { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,
-    stats: { sacksAllowedPerGame: 2, rushYPC: 4.5, rushTDPct: 0.05, normalizedRank: 8 }, eraNormFactor: 1.0 },
+    stats: { sacksAllowedPerGame: 2, rushYPC: 4.5, rushTDPct: 0.05, normalizedRank: 8 } },
   DLine: { id: 'dl1', position: 'DLine', team: 'KC', year: 2022,
-    stats: { rushYPCAllowed: 4.0, rushYPGAllowed: 105.0, sackPct: 0.07, rushTDPerGameAllowed: 0.5, blitzPct: 0.25, pressurePct: 0.22, normalizedRank: 10 }, eraNormFactor: 1.0 },
+    stats: { rushYPCAllowed: 4.0, rushYPGAllowed: 105.0, sackPct: 0.07, rushTDPerGameAllowed: 0.5, blitzPct: 0.25, pressurePct: 0.22, normalizedRank: 10 } },
   Secondary: { id: 'sec1', position: 'Secondary', team: 'KC', year: 2022,
-    stats: { completionPctAllowed: 0.63, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 }, eraNormFactor: 1.0 },
+    stats: { completionPctAllowed: 0.63, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 } },
   }
   return { mockRoster }
 })

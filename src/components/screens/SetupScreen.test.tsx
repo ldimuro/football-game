@@ -7,21 +7,21 @@ import type { Roster } from '../../types'
 
 const mockRoster: Roster = {
   QB: { id: 'qb1', name: 'Patrick Mahomes', position: 'QB', team: 'KC', year: 2022,
-    stats: { passYPG: 317, avgTDPerGame: 2.01, avgINTPerGame: 0.33, completionPct: 0.64, qbr: 74 }, eraNormFactor: 1.08 },
+    stats: { passYPG: 317, avgTDPerGame: 2.01, avgINTPerGame: 0.33, completionPct: 0.64, qbr: 74 } },
   WR1: { id: 'wr1', name: 'Travis Kelce', position: 'WR', team: 'KC', year: 2022,
-    stats: { recYPG: 84, tdPerGame: 0.47, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 1.18 },
+    stats: { recYPG: 84, tdPerGame: 0.47, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 } },
   WR2: { id: 'wr2', name: 'Mecole Hardman', position: 'WR', team: 'KC', year: 2022,
-    stats: { recYPG: 38, tdPerGame: 0.24, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 }, eraNormFactor: 0.82 },
+    stats: { recYPG: 38, tdPerGame: 0.24, avgTargetsPerGame: 6.0, avgCatchesPerGame: 4.0 } },
   RB: { id: 'rb1', name: 'Isiah Pacheco', position: 'RB', team: 'KC', year: 2022,
-    stats: { rushYPG: 62, recYPG: 18.0, tdPerGame: 0.41, rushAttPerGame: 14.0 }, eraNormFactor: 0.94 },
+    stats: { rushYPG: 62, recYPG: 18.0, tdPerGame: 0.41, rushAttPerGame: 14.0 } },
   K: { id: 'k1', name: 'Harrison Butker', position: 'K', team: 'KC', year: 2022,
-    stats: { fgAccuracy: 0.923, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 }, eraNormFactor: 1.05 },
+    stats: { fgAccuracy: 0.923, avgKickDistance: 38.0, avgMissDistance: 47.0, longestMadeKick: 55 } },
   OLine: { id: 'ol1', position: 'OLine', team: 'KC', year: 2022,
-    stats: { sacksAllowedPerGame: 2.1, rushYPC: 4.8, rushTDPct: 0.052, normalizedRank: 8 }, eraNormFactor: 1.0 },
+    stats: { sacksAllowedPerGame: 2.1, rushYPC: 4.8, rushTDPct: 0.052, normalizedRank: 8 } },
   DLine: { id: 'dl1', position: 'DLine', team: 'KC', year: 2022,
-    stats: { rushYPCAllowed: 4.1, rushYPGAllowed: 106.0, sackPct: 0.072, rushTDPerGameAllowed: 0.48, blitzPct: 0.24, pressurePct: 0.21, normalizedRank: 10 }, eraNormFactor: 1.0 },
+    stats: { rushYPCAllowed: 4.1, rushYPGAllowed: 106.0, sackPct: 0.072, rushTDPerGameAllowed: 0.48, blitzPct: 0.24, pressurePct: 0.21, normalizedRank: 10 } },
   Secondary: { id: 'sec1', position: 'Secondary', team: 'KC', year: 2022,
-    stats: { completionPctAllowed: 0.634, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 }, eraNormFactor: 1.0 },
+    stats: { completionPctAllowed: 0.634, yardsPerAttemptAllowed: 6.8, passYPGAllowed: 220.0, passTDPerGameAllowed: 1.4, interceptionsPerGame: 0.9, normalizedRank: 11 } },
 }
 
 beforeEach(() => {

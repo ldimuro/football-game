@@ -9,7 +9,6 @@ const mockRoster: TeamRosterData = {
     {
       id: 'p1', name: 'Test QB', position: 'QB', team: 'KC', year: 2022,
       stats: { passYPG: 300, avgTDPerGame: 1.8, avgINTPerGame: 0.3, completionPct: 0.64, qbr: 70 },
-      eraNormFactor: 1.0,
     },
   ],
   units: [],
