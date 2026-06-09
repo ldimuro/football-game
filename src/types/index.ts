@@ -148,3 +148,32 @@ export interface TeamRosterData {
   players: Player[]
   units: TeamUnit[]
 }
+
+export type DriveOutcome = 'TD' | 'FG' | 'Punt' | 'Turnover' | 'DefTD' | 'Safety'
+
+export interface TeamRatings {
+  passRating: number
+  rushRating: number
+  oLineRating: number
+  dLineRating: number
+  secondaryRating: number
+  kickerRating: number
+  qbIntRisk: number
+}
+
+export interface DriveResult {
+  possession: 'user' | 'opponent'
+  quarter: number
+  outcome: DriveOutcome
+  scoringTeam: 'user' | 'opponent' | null
+  points: number
+}
+
+export interface SimulationResult {
+  userTeamLabel: string
+  opponentTeamLabel: string
+  drives: DriveResult[]
+  userScore: number
+  opponentScore: number
+  winner: 'user' | 'opponent' | 'tie'
+}
