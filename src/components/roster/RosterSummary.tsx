@@ -1,4 +1,5 @@
 import { computeRosterSummary } from '../../logic/stats'
+import { useGameStore } from '../../store/gameStore'
 import type { Roster } from '../../types'
 
 function ratingColor(val: number | null): string {
@@ -27,6 +28,7 @@ function fmt(val: number | null): string {
 
 export function RosterSummary({ roster }: { roster: Roster }) {
   const s = computeRosterSummary(roster)
+  const { coins } = useGameStore()
 
   return (
     <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5 mb-6">
@@ -78,6 +80,15 @@ export function RosterSummary({ roster }: { roster: Roster }) {
           valueClassName={s.awardWinnerCount > 0 ? 'text-yellow-500 dark:text-yellow-400' : undefined}
         />
         <SummaryStat label="Roster Filled" value={`${s.rosterFilled}/${s.rosterSize}`} />
+        <SummaryStat
+          label="Cap Space"
+          value={`${coins} / 100`}
+          valueClassName={
+            coins < 20 ? 'text-red-500 dark:text-red-400'
+            : coins < 50 ? 'text-yellow-500 dark:text-yellow-400'
+            : 'text-green-500 dark:text-green-400'
+          }
+        />
       </div>
     </div>
   )
