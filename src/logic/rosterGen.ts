@@ -1,7 +1,8 @@
 import { loadTeamMeta, loadTeamRoster } from './dataLoader'
 import { playerCost } from './playerValue'
+import { createPracticeSquadPlayer } from './practiceSquad'
 import type {
-  Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData,
+  Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData, IndividualPosition,
   QBStats, WRStats, RBStats, KStats,
 } from '../types'
 
@@ -40,12 +41,20 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
   return generateRandomSlot(position, retries - 1)
 }
 
+const INDIVIDUAL_ROSTER_POSITIONS: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K']
+const UNIT_ROSTER_POSITIONS: RosterPosition[] = ['OLine', 'DLine', 'Secondary']
+
 export async function generateRandomRoster(): Promise<Roster> {
-  const positions: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
-  const slots: (Player | TeamUnit)[] = []
+  const shuffled = [...INDIVIDUAL_ROSTER_POSITIONS].sort(() => Math.random() - 0.5)
+  const practiceSquadPosition = shuffled[shuffled.length - 1]
+  const generatedPositions = [...shuffled.slice(0, -1), ...UNIT_ROSTER_POSITIONS]
+
+  const slots: Partial<Record<RosterPosition, Player | TeamUnit>> = {
+    [practiceSquadPosition]: createPracticeSquadPlayer(PLAYER_POSITION_MAP[practiceSquadPosition] as IndividualPosition),
+  }
   let remainingBudget = 150
 
-  for (const pos of positions) {
+  for (const pos of generatedPositions) {
     let best = await generateRandomSlot(pos)
     let bestCost = playerCost(best.rating)
 
@@ -59,19 +68,19 @@ export async function generateRandomRoster(): Promise<Roster> {
       }
     }
 
-    slots.push(best)
+    slots[pos] = best
     remainingBudget = Math.max(0, remainingBudget - bestCost)
   }
 
   return {
-    QB: slots[0] as Player,
-    WR1: slots[1] as Player,
-    WR2: slots[2] as Player,
-    RB: slots[3] as Player,
-    K: slots[4] as Player,
-    OLine: slots[5] as TeamUnit,
-    DLine: slots[6] as TeamUnit,
-    Secondary: slots[7] as TeamUnit,
+    QB: slots.QB as Player,
+    WR1: slots.WR1 as Player,
+    WR2: slots.WR2 as Player,
+    RB: slots.RB as Player,
+    K: slots.K as Player,
+    OLine: slots.OLine as TeamUnit,
+    DLine: slots.DLine as TeamUnit,
+    Secondary: slots.Secondary as TeamUnit,
   }
 }
 

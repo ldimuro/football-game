@@ -1,6 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { act } from 'react'
 import { useGameStore } from './gameStore'
+import { createPracticeSquadPlayer } from '../logic/practiceSquad'
 import type { Roster } from '../types'
 
 const { mockRoster } = vi.hoisted(() => {
@@ -372,5 +373,17 @@ describe('sellPlayer', () => {
     useGameStore.getState().sellPlayer('QB')
     expect(useGameStore.getState().coins).toBe(40)
     expect(useGameStore.getState().roster.QB).toBeNull()
+  })
+
+  it('clears the slot with no refund for a Practice Squad player', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: createPracticeSquadPlayer('QB') },
+      coins: 40,
+    })
+    useGameStore.getState().sellPlayer('QB')
+    const state = useGameStore.getState()
+    expect(state.roster.QB).toBeNull()
+    expect(state.coins).toBe(40)
   })
 })

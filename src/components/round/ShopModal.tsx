@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { PlayerCard } from '../roster/PlayerCard'
 import { Button } from '../ui/Button'
-import { playerCost } from '../../logic/playerValue'
+import { playerCost, slotCost } from '../../logic/playerValue'
 import type { Player, TeamUnit, RosterPosition } from '../../types'
 
 type ShopView = 'browse' | 'replace'
@@ -65,7 +65,7 @@ export function ShopModal({ onClose }: Props) {
   if (view === 'replace' && buyTarget) {
     const cost = playerCost(buyTarget.rating)
     const slots = eligibleSlots(buyTarget)
-    const refund = sellPosition && roster[sellPosition] ? playerCost(roster[sellPosition]!.rating) : 0
+    const refund = sellPosition ? slotCost(roster[sellPosition]) : 0
     const netCost = cost - refund
 
     return (
@@ -98,7 +98,7 @@ export function ShopModal({ onClose }: Props) {
                     <PlayerCard
                       slot={current}
                       position={pos}
-                      coinValue={playerCost(current.rating)}
+                      coinValue={slotCost(current)}
                     />
                   ) : (
                     <div className="p-4 bg-gray-900 rounded-xl text-gray-500 text-sm text-left">

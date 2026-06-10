@@ -1,5 +1,6 @@
 import { describe, it, expect } from 'vitest'
-import { playerCost } from './playerValue'
+import { playerCost, slotCost } from './playerValue'
+import { createPracticeSquadPlayer } from './practiceSquad'
 
 describe('playerCost', () => {
   it('returns 30 for Legendary (≥98)', () => { expect(playerCost(99)).toBe(30) })
@@ -11,4 +12,17 @@ describe('playerCost', () => {
   it('returns 10 for Average (≥65)', () => { expect(playerCost(70)).toBe(10) })
   it('returns 5 for Below Avg (<65)', () => { expect(playerCost(60)).toBe(5) })
   it('returns 5 for undefined rating', () => { expect(playerCost(undefined)).toBe(5) })
+})
+
+describe('slotCost', () => {
+  it('returns 0 for an empty slot', () => { expect(slotCost(null)).toBe(0) })
+
+  it('returns 0 for a Practice Squad player despite its rating', () => {
+    expect(slotCost(createPracticeSquadPlayer('QB'))).toBe(0)
+  })
+
+  it('returns playerCost(rating) for a regular player', () => {
+    const player = createPracticeSquadPlayer('QB')
+    expect(slotCost({ ...player, id: 'real-qb', rating: 90 })).toBe(playerCost(90))
+  })
 })

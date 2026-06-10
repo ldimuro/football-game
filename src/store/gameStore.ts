@@ -6,7 +6,7 @@ import {
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
 import { simulateGame as runSimulation } from '../logic/gameSimulator'
-import { playerCost } from '../logic/playerValue'
+import { playerCost, slotCost } from '../logic/playerValue'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
   DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
@@ -53,7 +53,7 @@ const EMPTY_ROSTER: Roster = {
 
 function rosterCost(roster: Roster): number {
   return Object.values(roster).reduce(
-    (sum: number, slot) => sum + (slot ? playerCost(slot.rating) : 0), 0
+    (sum: number, slot) => sum + slotCost(slot), 0
   )
 }
 
@@ -231,7 +231,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     if (!newPlayer) return
     const newCost = playerCost(newPlayer.rating)
     const currentSlot = roster[sellPosition]
-    const refund = currentSlot ? playerCost(currentSlot.rating) : 0
+    const refund = slotCost(currentSlot)
     if (newCost - refund > coins) return
     set({
       roster: { ...roster, [sellPosition]: newPlayer },
@@ -247,7 +247,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     if (!player) return
     set({
       roster: { ...roster, [position]: null },
-      coins: coins + playerCost(player.rating),
+      coins: coins + slotCost(player),
     })
   },
 }))

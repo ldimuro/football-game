@@ -1,5 +1,5 @@
 import { PlayerCard } from './PlayerCard'
-import { playerCost } from '../../logic/playerValue'
+import { slotCost } from '../../logic/playerValue'
 import type { Roster, RosterPosition } from '../../types'
 
 interface RosterGridProps {
@@ -28,7 +28,7 @@ export function RosterGrid({ roster, onReroll, rerollsRemaining = 0, onSell }: R
             position={pos}
             onReroll={onReroll ? () => onReroll(pos) : undefined}
             rerollsRemaining={rerollsRemaining}
-            coinValue={playerCost(slot.rating)}
+            coinValue={slotCost(slot)}
             onSell={onSell ? () => onSell(pos) : undefined}
           />
         )

@@ -1,6 +1,7 @@
 import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { generateRandomRoster, generateRandomSlot, generateShopOffer } from './rosterGen'
-import { playerCost } from './playerValue'
+import { slotCost } from './playerValue'
+import { PRACTICE_SQUAD_ID_PREFIX } from './practiceSquad'
 import type { TeamRosterData } from '../types'
 
 vi.mock('./dataLoader', () => ({
@@ -69,17 +70,31 @@ describe('generateRandomRoster', () => {
     const roster = await generateRandomRoster()
     expect(roster.QB?.position).toBe('QB')
   })
+
+  it('fills exactly one of the 5 individual-player slots with a Practice Squad player', async () => {
+    const roster = await generateRandomRoster()
+    const individualSlots = [roster.QB, roster.WR1, roster.WR2, roster.RB, roster.K]
+    const practiceSquadCount = individualSlots.filter(s => s?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).length
+    expect(practiceSquadCount).toBe(1)
+  })
+
+  it('never assigns a Practice Squad player to OLine, DLine, or Secondary', async () => {
+    const roster = await generateRandomRoster()
+    expect(roster.OLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
+    expect(roster.DLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
+    expect(roster.Secondary?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
+  })
 })
 
 describe('generateRandomRoster (budget-aware)', () => {
-  it('total coin cost never exceeds 100', async () => {
+  it('total coin cost never exceeds 150', async () => {
     const roster = await generateRandomRoster()
     const slots = [
       roster.QB, roster.WR1, roster.WR2, roster.RB,
       roster.K, roster.OLine, roster.DLine, roster.Secondary,
     ]
-    const total = slots.reduce((sum, s) => sum + playerCost(s?.rating), 0)
-    expect(total).toBeLessThanOrEqual(100)
+    const total = slots.reduce((sum, s) => sum + slotCost(s), 0)
+    expect(total).toBeLessThanOrEqual(150)
   })
 })
 

@@ -3,7 +3,7 @@ import { useGameStore } from '../../store/gameStore'
 import { RosterGrid } from '../roster/RosterGrid'
 import { RosterSummary } from '../roster/RosterSummary'
 import { ConfirmSellModal } from '../roster/ConfirmSellModal'
-import { playerCost } from '../../logic/playerValue'
+import { slotCost } from '../../logic/playerValue'
 import type { RosterPosition } from '../../types'
 
 const POSITION_LABELS: Record<RosterPosition, string> = {
@@ -33,7 +33,7 @@ export function RosterView() {
       {sellPos && sellSlot && (
         <ConfirmSellModal
           playerName={playerName}
-          refundValue={playerCost(sellSlot.rating)}
+          refundValue={slotCost(sellSlot)}
           onConfirm={confirmSell}
           onCancel={() => setSellPos(null)}
         />
