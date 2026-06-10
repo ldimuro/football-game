@@ -325,14 +325,31 @@ describe('buyFromShop', () => {
   it('does nothing when shopOffer is null', () => {
     useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, shopOffer: null })
     useGameStore.getState().buyFromShop('shop-qb', 'QB')
-    expect(useGameStore.getState().coins).toBe(50)
-    expect(useGameStore.getState().shopComplete).toBe(false)
+    const state = useGameStore.getState()
+    expect(state.coins).toBe(50)
+    expect(state.roster.QB).toBe(mockRoster.QB)
+    expect(state.shopComplete).toBe(false)
   })
 
   it('does nothing when id is not found in shopOffer', () => {
     useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, shopOffer: [shopPlayer] })
     useGameStore.getState().buyFromShop('nonexistent-id', 'QB')
-    expect(useGameStore.getState().coins).toBe(50)
+    const state = useGameStore.getState()
+    expect(state.coins).toBe(50)
+    expect(state.roster.QB).toBe(mockRoster.QB)
+    expect(state.shopComplete).toBe(false)
+    expect(state.pendingShopBoughtId).toBeNull()
+  })
+
+  it('does nothing when the net cost exceeds available coins', () => {
+    // shopPlayer rating=90 → cost=20; mockRoster.QB has no rating → refund=5; net cost 15 > 10 coins
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 10, shopOffer: [shopPlayer] })
+    useGameStore.getState().buyFromShop('shop-qb', 'QB')
+    const state = useGameStore.getState()
+    expect(state.coins).toBe(10)
+    expect(state.roster.QB).toBe(mockRoster.QB)
+    expect(state.shopComplete).toBe(false)
+    expect(state.pendingShopBoughtId).toBeNull()
   })
 })
 
