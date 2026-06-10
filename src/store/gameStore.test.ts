@@ -28,6 +28,7 @@ const { mockRoster } = vi.hoisted(() => {
 vi.mock('../logic/rosterGen', () => ({
   generateRandomRoster: vi.fn().mockResolvedValue(mockRoster),
   generateRandomSlot: vi.fn().mockResolvedValue(mockRoster.QB),
+  generateShopOffer: vi.fn().mockResolvedValue([mockRoster.QB!, mockRoster.OLine!, mockRoster.DLine!]),
 }))
 
 vi.mock('../logic/draftGen', () => ({
@@ -73,6 +74,10 @@ const INITIAL_STATE = {
   phase: 'setup' as const,
   round: 1,
   roster: { QB: null, WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null },
+  coins: 0,
+  shopOffer: null,
+  shopComplete: false,
+  pendingShopBoughtId: null,
   setupRerollsRemaining: 3,
   draftRerollAvailable: true,
   currentOpponent: null,
@@ -286,5 +291,69 @@ describe('advanceRound', () => {
     })
     await act(async () => { await useGameStore.getState().advanceRound() })
     expect(useGameStore.getState().phase).toBe('complete')
+  })
+})
+
+const shopPlayer = {
+  id: 'shop-qb', name: 'Shop QB', position: 'QB' as const, team: 'DAL', year: 2020, rating: 90,
+  stats: { passYPG: 280, avgTDPerGame: 1.8, avgINTPerGame: 0.8, completionPct: 0.62, qbr: 72 },
+}
+
+describe('buyFromShop', () => {
+  it('replaces the slot, deducts cost, refunds old slot, sets shopComplete', () => {
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, shopOffer: [shopPlayer] })
+    useGameStore.getState().buyFromShop('shop-qb', 'QB')
+    const state = useGameStore.getState()
+    expect(state.roster.QB?.id).toBe('shop-qb')
+    // shopPlayer rating=90 → cost=20; mockRoster.QB has no rating → refund=5; 50-20+5=35
+    expect(state.coins).toBe(35)
+    expect(state.shopComplete).toBe(true)
+    expect(state.pendingShopBoughtId).toBe('shop-qb')
+  })
+
+  it('gives no refund when replacing an empty slot', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: null },
+      coins: 50,
+      shopOffer: [shopPlayer],
+    })
+    useGameStore.getState().buyFromShop('shop-qb', 'QB')
+    expect(useGameStore.getState().coins).toBe(30) // 50 - 20, no refund
+  })
+
+  it('does nothing when shopOffer is null', () => {
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, shopOffer: null })
+    useGameStore.getState().buyFromShop('shop-qb', 'QB')
+    expect(useGameStore.getState().coins).toBe(50)
+    expect(useGameStore.getState().shopComplete).toBe(false)
+  })
+
+  it('does nothing when id is not found in shopOffer', () => {
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, shopOffer: [shopPlayer] })
+    useGameStore.getState().buyFromShop('nonexistent-id', 'QB')
+    expect(useGameStore.getState().coins).toBe(50)
+  })
+})
+
+describe('sellPlayer', () => {
+  it('clears the slot and refunds the coin cost', () => {
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 40 })
+    useGameStore.getState().sellPlayer('QB')
+    const state = useGameStore.getState()
+    expect(state.roster.QB).toBeNull()
+    // mockRoster.QB has no rating → playerCost(undefined) = 5
+    expect(state.coins).toBe(45)
+  })
+
+  it('does nothing if the slot is already empty', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: null },
+      coins: 40,
+    })
+    useGameStore.getState().sellPlayer('QB')
+    expect(useGameStore.getState().coins).toBe(40)
+    expect(useGameStore.getState().roster.QB).toBeNull()
   })
 })
