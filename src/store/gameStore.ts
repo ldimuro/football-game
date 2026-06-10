@@ -1,11 +1,12 @@
 import { create } from 'zustand'
-import { generateRandomRoster, generateRandomSlot } from '../logic/rosterGen'
+import { generateRandomRoster, generateRandomSlot, generateShopOffer } from '../logic/rosterGen'
 import {
   generateDraftOffer, generateOpponent,
   rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
 import { simulateGame as runSimulation } from '../logic/gameSimulator'
+import { playerCost } from '../logic/playerValue'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
   DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
@@ -15,6 +16,10 @@ interface GameStore {
   phase: GamePhase
   round: number
   roster: Roster
+  coins: number
+  shopOffer: (Player | TeamUnit)[] | null
+  shopComplete: boolean
+  pendingShopBoughtId: string | null
   setupRerollsRemaining: number
   draftRerollAvailable: boolean
   currentOpponent: TeamStats | null
@@ -37,6 +42,8 @@ interface GameStore {
   skipDraft: () => void
   simulateGame: () => void
   advanceRound: () => Promise<void>
+  buyFromShop: (buyId: string, sellPosition: RosterPosition) => void
+  sellPlayer: (position: RosterPosition) => void
 }
 
 const EMPTY_ROSTER: Roster = {
@@ -44,16 +51,30 @@ const EMPTY_ROSTER: Roster = {
   K: null, OLine: null, DLine: null, Secondary: null,
 }
 
-async function buildNextRoundData() {
-  const [{ stats: opponent, roster: opponentRoster }, draftOffer] = await Promise.all([generateOpponent(), generateDraftOffer()])
+function rosterCost(roster: Roster): number {
+  return Object.values(roster).reduce(
+    (sum: number, slot) => sum + (slot ? playerCost(slot.rating) : 0), 0
+  )
+}
+
+async function buildNextRoundData(remainingCoins: number) {
+  const [{ stats: opponent, roster: opponentRoster }, draftOffer, shopOffer] = await Promise.all([
+    generateOpponent(),
+    generateDraftOffer(),
+    generateShopOffer(remainingCoins),
+  ])
   const weather = generateWeather()
-  return { opponent, opponentRoster, draftOffer, weather }
+  return { opponent, opponentRoster, draftOffer, weather, shopOffer }
 }
 
 export const useGameStore = create<GameStore>((set, get) => ({
   phase: 'setup',
   round: 1,
   roster: EMPTY_ROSTER,
+  coins: 0,
+  shopOffer: null,
+  shopComplete: false,
+  pendingShopBoughtId: null,
   setupRerollsRemaining: 3,
   draftRerollAvailable: true,
   currentOpponent: null,
@@ -69,7 +90,11 @@ export const useGameStore = create<GameStore>((set, get) => ({
   initGame: async () => {
     set({ isLoading: true })
     const roster = await generateRandomRoster()
-    set({ roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [], isLoading: false })
+    const coins = 100 - rosterCost(roster)
+    set({
+      roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
+      coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
+    })
   },
 
   rerollSetupSlot: async (position) => {
@@ -86,9 +111,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   confirmSetup: async () => {
     set({ isLoading: true })
-    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
+    const { roster } = get()
+    const coins = 100 - rosterCost(roster)
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins)
     set({
       phase: 'round-hub',
+      coins,
+      shopOffer,
+      shopComplete: false,
       currentOpponent: opponent,
       currentOpponentRoster: opponentRoster,
       currentWeather: weather,
@@ -119,11 +149,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
   draftPlayer: (id, targetPosition) => {
     const { roster, currentDraftOffer } = get()
     if (!currentDraftOffer) return
-
     const allItems = [...currentDraftOffer.players, ...currentDraftOffer.units]
     const selected = allItems.find(item => item.id === id) as Player | TeamUnit | undefined
     if (!selected) return
-
     set({
       roster: { ...roster, [targetPosition]: selected },
       draftComplete: true,
@@ -145,7 +173,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
   },
 
   advanceRound: async () => {
-    const { round, seasonLog, currentOpponent, currentWeather, pendingDraftedId, simulationResult } = get()
+    const {
+      round, seasonLog, currentOpponent, currentWeather,
+      pendingDraftedId, simulationResult, pendingShopBoughtId, coins,
+    } = get()
     if (!currentOpponent || !currentWeather) return
 
     const record: RoundRecord = {
@@ -154,7 +185,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
       opponentYear: currentOpponent.year,
       draftedId: pendingDraftedId,
       weather: currentWeather,
-      result: simulationResult?.winner === 'user' ? 'win' : simulationResult?.winner === 'opponent' ? 'loss' : 'tie',
+      result: simulationResult?.winner === 'user' ? 'win'
+        : simulationResult?.winner === 'opponent' ? 'loss' : 'tie',
+      shopBoughtId: pendingShopBoughtId,
     }
     const newLog = [...seasonLog, record]
 
@@ -162,12 +195,13 @@ export const useGameStore = create<GameStore>((set, get) => ({
       set({
         seasonLog: newLog, phase: 'complete',
         simulationResult: null, draftComplete: false, pendingDraftedId: null,
+        shopComplete: false, pendingShopBoughtId: null,
       })
       return
     }
 
     set({ isLoading: true })
-    const { opponent, opponentRoster, draftOffer, weather } = await buildNextRoundData()
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins)
     set({
       seasonLog: newLog,
       round: round + 1,
@@ -175,11 +209,40 @@ export const useGameStore = create<GameStore>((set, get) => ({
       currentOpponentRoster: opponentRoster,
       currentWeather: weather,
       currentDraftOffer: draftOffer,
+      shopOffer,
       draftRerollAvailable: true,
       draftComplete: false,
       simulationResult: null,
       pendingDraftedId: null,
+      shopComplete: false,
+      pendingShopBoughtId: null,
       isLoading: false,
+    })
+  },
+
+  buyFromShop: (buyId, sellPosition) => {
+    const { roster, shopOffer, coins } = get()
+    if (!shopOffer) return
+    const newPlayer = shopOffer.find(p => p.id === buyId)
+    if (!newPlayer) return
+    const newCost = playerCost(newPlayer.rating)
+    const currentSlot = roster[sellPosition]
+    const refund = currentSlot ? playerCost(currentSlot.rating) : 0
+    set({
+      roster: { ...roster, [sellPosition]: newPlayer },
+      coins: coins - newCost + refund,
+      shopComplete: true,
+      pendingShopBoughtId: buyId,
+    })
+  },
+
+  sellPlayer: (position) => {
+    const { roster, coins } = get()
+    const player = roster[position]
+    if (!player) return
+    set({
+      roster: { ...roster, [position]: null },
+      coins: coins + playerCost(player.rating),
     })
   },
 }))
