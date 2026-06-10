@@ -57,6 +57,10 @@ function rosterCost(roster: Roster): number {
   )
 }
 
+function coinsForRoster(roster: Roster): number {
+  return 100 - rosterCost(roster)
+}
+
 async function buildNextRoundData(remainingCoins: number) {
   const [{ stats: opponent, roster: opponentRoster }, draftOffer, shopOffer] = await Promise.all([
     generateOpponent(),
@@ -90,7 +94,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   initGame: async () => {
     set({ isLoading: true })
     const roster = await generateRandomRoster()
-    const coins = 100 - rosterCost(roster)
+    const coins = coinsForRoster(roster)
     set({
       roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
       coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
@@ -112,7 +116,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   confirmSetup: async () => {
     set({ isLoading: true })
     const { roster } = get()
-    const coins = 100 - rosterCost(roster)
+    const coins = coinsForRoster(roster)
     const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins)
     set({
       phase: 'round-hub',
@@ -228,6 +232,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     const newCost = playerCost(newPlayer.rating)
     const currentSlot = roster[sellPosition]
     const refund = currentSlot ? playerCost(currentSlot.rating) : 0
+    if (newCost - refund > coins) return
     set({
       roster: { ...roster, [sellPosition]: newPlayer },
       coins: coins - newCost + refund,
