@@ -10,6 +10,8 @@ interface PlayerCardProps {
   position: RosterPosition
   onReroll?: () => void
   rerollsRemaining?: number
+  coinValue?: number
+  onSell?: () => void
 }
 
 const POSITION_LABELS: Record<RosterPosition, string> = {
@@ -114,7 +116,7 @@ function ratingTier(r: number): { label: string; className: string } {
   return               { label: 'Below Avg',className: 'text-gray-500 font-semibold' }
 }
 
-export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: PlayerCardProps) {
+export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell }: PlayerCardProps) {
   const isUnit = 'position' in slot && !('name' in slot)
   const name = 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
@@ -146,6 +148,11 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: P
               <p className={`text-xs leading-none mt-0.5 ${tier.className}`}>{tier.label}</p>
             </div>
           )}
+          {coinValue !== undefined && (
+            <span className="text-xs font-semibold text-yellow-500 dark:text-yellow-400 tabular-nums">
+              {coinValue}c
+            </span>
+          )}
           {onReroll && (
             <Button
               onClick={onReroll}
@@ -155,6 +162,14 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0 }: P
             >
               Re-roll
             </Button>
+          )}
+          {onSell && (
+            <button
+              onClick={onSell}
+              className="text-xs font-semibold text-red-400 hover:text-red-300 transition-colors px-1 py-0.5 rounded"
+            >
+              Sell
+            </button>
           )}
         </div>
       </div>
