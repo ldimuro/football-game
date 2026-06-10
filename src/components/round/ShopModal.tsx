@@ -65,7 +65,7 @@ export function ShopModal({ onClose }: Props) {
   if (view === 'replace' && buyTarget) {
     const cost = playerCost(buyTarget.rating)
     const slots = eligibleSlots(buyTarget)
-    const refund = sellPosition ? playerCost(roster[sellPosition]?.rating) : 0
+    const refund = sellPosition && roster[sellPosition] ? playerCost(roster[sellPosition]!.rating) : 0
     const netCost = cost - refund
 
     return (
