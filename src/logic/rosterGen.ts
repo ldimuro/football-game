@@ -43,7 +43,7 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 export async function generateRandomRoster(): Promise<Roster> {
   const positions: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
   const slots: (Player | TeamUnit)[] = []
-  let remainingBudget = 100
+  let remainingBudget = 150
 
   for (const pos of positions) {
     let best = await generateRandomSlot(pos)

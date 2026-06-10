@@ -82,7 +82,7 @@ export function RosterSummary({ roster }: { roster: Roster }) {
         <SummaryStat label="Roster Filled" value={`${s.rosterFilled}/${s.rosterSize}`} />
         <SummaryStat
           label="Cap Space"
-          value={`${coins} / 100`}
+          value={`${coins} / 200`}
           valueClassName={
             coins < 20 ? 'text-red-500 dark:text-red-400'
             : coins < 50 ? 'text-yellow-500 dark:text-yellow-400'

@@ -58,7 +58,7 @@ function rosterCost(roster: Roster): number {
 }
 
 function coinsForRoster(roster: Roster): number {
-  return 100 - rosterCost(roster)
+  return 200 - rosterCost(roster)
 }
 
 async function buildNextRoundData(remainingCoins: number) {

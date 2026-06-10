@@ -2,7 +2,7 @@ import { Button } from '../ui/Button'
 import { Badge } from '../ui/Badge'
 import { StatBar } from '../ui/StatBar'
 import { getTeamColor } from '../../logic/teamColors'
-import { rankColorClass, statColorClass } from '../../logic/statColors'
+import { statColorClass } from '../../logic/statColors'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
 interface PlayerCardProps {
@@ -76,7 +76,7 @@ export function renderStats(slot: Player | TeamUnit) {
         <StatBar label="Sacks Allowed/G" value={o.sacksAllowedPerGame.toFixed(1)} valueClassName={c('sacksAllowedPerGame', o.sacksAllowedPerGame)} />
         <StatBar label="Rush YPC" value={o.rushYPC.toFixed(1)} valueClassName={c('rushYPC', o.rushYPC)} />
         <StatBar label="Rush TD%" value={(o.rushTDPct * 100).toFixed(1) + '%'} valueClassName={c('rushTDPct', o.rushTDPct)} />
-        <StatBar label="Rank" value={`#${o.normalizedRank}`} valueClassName={rankColorClass(o.normalizedRank)} />
+        {/* <StatBar label="Rank" value={`#${o.normalizedRank}`} valueClassName={rankColorClass(o.normalizedRank)} /> */}
       </>
     )
   }
@@ -88,9 +88,9 @@ export function renderStats(slot: Player | TeamUnit) {
         <StatBar label="Rush YPG Allowed" value={d.rushYPGAllowed.toFixed(1)} valueClassName={c('rushYPGAllowed', d.rushYPGAllowed)} />
         <StatBar label="Rush TD/G Allowed" value={d.rushTDPerGameAllowed.toFixed(2)} valueClassName={c('rushTDPerGameAllowed', d.rushTDPerGameAllowed)} />
         <StatBar label="Sack%" value={(d.sackPct * 100).toFixed(1) + '%'} valueClassName={c('sackPct', d.sackPct)} />
-        <StatBar label="Blitz%" value={d.blitzPct === null ? '-' : (d.blitzPct * 100).toFixed(1) + '%'} valueClassName={c('blitzPct', d.blitzPct)} />
-        <StatBar label="Pressure%" value={d.pressurePct === null ? '-' : (d.pressurePct * 100).toFixed(1) + '%'} valueClassName={c('pressurePct', d.pressurePct)} />
-        <StatBar label="Rank" value={`#${d.normalizedRank}`} valueClassName={rankColorClass(d.normalizedRank)} />
+        {/* <StatBar label="Blitz%" value={d.blitzPct === null ? '-' : (d.blitzPct * 100).toFixed(1) + '%'} valueClassName={c('blitzPct', d.blitzPct)} /> */}
+        {/* <StatBar label="Pressure%" value={d.pressurePct === null ? '-' : (d.pressurePct * 100).toFixed(1) + '%'} valueClassName={c('pressurePct', d.pressurePct)} /> */}
+        {/* <StatBar label="Rank" value={`#${d.normalizedRank}`} valueClassName={rankColorClass(d.normalizedRank)} /> */}
       </>
     )
   }
@@ -102,7 +102,7 @@ export function renderStats(slot: Player | TeamUnit) {
       <StatBar label="Pass YPG Allowed" value={sec.passYPGAllowed.toFixed(1)} valueClassName={c('passYPGAllowed', sec.passYPGAllowed)} />
       <StatBar label="Pass TD/G Allowed" value={sec.passTDPerGameAllowed.toFixed(2)} valueClassName={c('passTDPerGameAllowed', sec.passTDPerGameAllowed)} />
       <StatBar label="INTs/G" value={sec.interceptionsPerGame.toFixed(2)} valueClassName={c('interceptionsPerGame', sec.interceptionsPerGame)} />
-      <StatBar label="Rank" value={`#${sec.normalizedRank}`} valueClassName={rankColorClass(sec.normalizedRank)} />
+      {/* <StatBar label="Rank" value={`#${sec.normalizedRank}`} valueClassName={rankColorClass(sec.normalizedRank)} /> */}
     </>
   )
 }
@@ -148,7 +148,7 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
             </div>
           )}
           {coinValue !== undefined && (
-            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-yellow-500 text-white text-xs font-bold tabular-nums">
+            <span className="flex items-center justify-center w-7 h-7 rounded-full bg-yellow-500 text-gray-900 text-xs font-bold tabular-nums">
               {coinValue}
             </span>
           )}

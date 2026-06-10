@@ -33,7 +33,7 @@ export function RoundHub() {
           </p>
           <p className="text-xs mt-0.5 tabular-nums">
             <span className="text-yellow-500 dark:text-yellow-400 font-semibold">{coins}</span>
-            <span className="text-gray-500 dark:text-gray-400"> / 100 coins</span>
+            <span className="text-gray-500 dark:text-gray-400"> / 200 coins</span>
           </p>
         </div>
         <div className="flex gap-2">
