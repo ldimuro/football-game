@@ -1,8 +1,8 @@
 import { loadTeamMeta, loadTeamRoster } from './dataLoader'
 import { playerCost } from './playerValue'
-import { createPracticeSquadPlayer } from './practiceSquad'
+import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 import type {
-  Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData, IndividualPosition,
+  Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData, IndividualPosition, UnitPosition,
   QBStats, WRStats, RBStats, KStats,
 } from '../types'
 
@@ -43,14 +43,20 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 
 const INDIVIDUAL_ROSTER_POSITIONS: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K']
 const UNIT_ROSTER_POSITIONS: RosterPosition[] = ['OLine', 'DLine', 'Secondary']
+const ALL_ROSTER_POSITIONS: RosterPosition[] = [...INDIVIDUAL_ROSTER_POSITIONS, ...UNIT_ROSTER_POSITIONS]
+
+const GENERATED_SLOT_COUNT = 3
 
 export async function generateRandomRoster(): Promise<Roster> {
-  const shuffled = [...INDIVIDUAL_ROSTER_POSITIONS].sort(() => Math.random() - 0.5)
-  const practiceSquadPosition = shuffled[shuffled.length - 1]
-  const generatedPositions = [...shuffled.slice(0, -1), ...UNIT_ROSTER_POSITIONS]
+  const shuffled = [...ALL_ROSTER_POSITIONS].sort(() => Math.random() - 0.5)
+  const generatedPositions = shuffled.slice(0, GENERATED_SLOT_COUNT)
+  const practiceSquadPositions = shuffled.slice(GENERATED_SLOT_COUNT)
 
-  const slots: Partial<Record<RosterPosition, Player | TeamUnit>> = {
-    [practiceSquadPosition]: createPracticeSquadPlayer(PLAYER_POSITION_MAP[practiceSquadPosition] as IndividualPosition),
+  const slots: Partial<Record<RosterPosition, Player | TeamUnit>> = {}
+  for (const pos of practiceSquadPositions) {
+    slots[pos] = UNIT_POSITIONS.has(pos)
+      ? createPracticeSquadUnit(PLAYER_POSITION_MAP[pos] as UnitPosition)
+      : createPracticeSquadPlayer(PLAYER_POSITION_MAP[pos] as IndividualPosition)
   }
   let remainingBudget = 150
 

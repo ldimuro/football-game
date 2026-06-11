@@ -2,7 +2,8 @@ import { Button } from '../ui/Button'
 import { Badge } from '../ui/Badge'
 import { StatBar } from '../ui/StatBar'
 import { getTeamColor } from '../../logic/teamColors'
-import { statColorClass } from '../../logic/statColors'
+import { statColorClass, rankColorClass } from '../../logic/statColors'
+import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
 interface PlayerCardProps {
@@ -19,10 +20,11 @@ const POSITION_LABELS: Record<RosterPosition, string> = {
   OLine: 'O-Line', DLine: 'D-Line', Secondary: 'Secondary',
 }
 
-export function renderStats(slot: Player | TeamUnit) {
+export function renderStats(slot: Player | TeamUnit, options?: { showRank?: boolean }) {
   const s = slot.stats
   const { year, position } = slot
   const c = (field: string, value: number | null) => statColorClass(year, position, field, value)
+  const showRank = options?.showRank ?? false
 
   if ('passYPG' in s) {
     const q = s as QBStats
@@ -76,7 +78,7 @@ export function renderStats(slot: Player | TeamUnit) {
         <StatBar label="Sacks Allowed/G" value={o.sacksAllowedPerGame.toFixed(1)} valueClassName={c('sacksAllowedPerGame', o.sacksAllowedPerGame)} />
         <StatBar label="Rush YPC" value={o.rushYPC.toFixed(1)} valueClassName={c('rushYPC', o.rushYPC)} />
         <StatBar label="Rush TD%" value={(o.rushTDPct * 100).toFixed(1) + '%'} valueClassName={c('rushTDPct', o.rushTDPct)} />
-        {/* <StatBar label="Rank" value={`#${o.normalizedRank}`} valueClassName={rankColorClass(o.normalizedRank)} /> */}
+        {showRank && <StatBar label="Rank" value={`#${o.normalizedRank}`} valueClassName={rankColorClass(o.normalizedRank)} />}
       </>
     )
   }
@@ -90,7 +92,7 @@ export function renderStats(slot: Player | TeamUnit) {
         <StatBar label="Sack%" value={(d.sackPct * 100).toFixed(1) + '%'} valueClassName={c('sackPct', d.sackPct)} />
         {/* <StatBar label="Blitz%" value={d.blitzPct === null ? '-' : (d.blitzPct * 100).toFixed(1) + '%'} valueClassName={c('blitzPct', d.blitzPct)} /> */}
         {/* <StatBar label="Pressure%" value={d.pressurePct === null ? '-' : (d.pressurePct * 100).toFixed(1) + '%'} valueClassName={c('pressurePct', d.pressurePct)} /> */}
-        {/* <StatBar label="Rank" value={`#${d.normalizedRank}`} valueClassName={rankColorClass(d.normalizedRank)} /> */}
+        {showRank && <StatBar label="Rank" value={`#${d.normalizedRank}`} valueClassName={rankColorClass(d.normalizedRank)} />}
       </>
     )
   }
@@ -102,12 +104,12 @@ export function renderStats(slot: Player | TeamUnit) {
       <StatBar label="Pass YPG Allowed" value={sec.passYPGAllowed.toFixed(1)} valueClassName={c('passYPGAllowed', sec.passYPGAllowed)} />
       <StatBar label="Pass TD/G Allowed" value={sec.passTDPerGameAllowed.toFixed(2)} valueClassName={c('passTDPerGameAllowed', sec.passTDPerGameAllowed)} />
       <StatBar label="INTs/G" value={sec.interceptionsPerGame.toFixed(2)} valueClassName={c('interceptionsPerGame', sec.interceptionsPerGame)} />
-      {/* <StatBar label="Rank" value={`#${sec.normalizedRank}`} valueClassName={rankColorClass(sec.normalizedRank)} /> */}
+      {showRank && <StatBar label="Rank" value={`#${sec.normalizedRank}`} valueClassName={rankColorClass(sec.normalizedRank)} />}
     </>
   )
 }
 
-function ratingTier(r: number): { className: string } {
+export function ratingTier(r: number): { className: string } {
   if (r >= 98) return { className: 'text-yellow-400 font-black' }
   if (r >= 93) return { className: 'text-purple-400 font-bold' }
   if (r >= 85) return { className: 'text-green-400 font-bold' }
@@ -118,7 +120,8 @@ function ratingTier(r: number): { className: string } {
 
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell }: PlayerCardProps) {
   const isUnit = 'position' in slot && !('name' in slot)
-  const name = 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
+  const isPracticeSquad = slot.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)
+  const name = isPracticeSquad ? 'Practice Squad' : 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
   const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy) || ('is_dpy' in slot && slot.is_dpy)
   const rating = slot.rating
@@ -136,8 +139,8 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
           </span>
           <p className="text-gray-900 dark:text-white font-semibold mt-0.5">{name}{isAllPro && ' ⭐️'}</p>
           <div className="flex gap-1 mt-1">
-            <Badge label={slot.team} />
-            <Badge label={String(slot.year)} color="blue" />
+            {!isPracticeSquad && <Badge label={slot.team} />}
+            {!isPracticeSquad && <Badge label={String(slot.year)} color="blue" />}
             {isUnit && <Badge label="Unit" color="gray" />}
           </div>
         </div>

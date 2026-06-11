@@ -71,18 +71,21 @@ describe('generateRandomRoster', () => {
     expect(roster.QB?.position).toBe('QB')
   })
 
-  it('fills exactly one of the 5 individual-player slots with a Practice Squad player', async () => {
+  it('fills exactly 5 of the 8 roster slots with a Practice Squad placeholder (3 randomly generated)', async () => {
     const roster = await generateRandomRoster()
-    const individualSlots = [roster.QB, roster.WR1, roster.WR2, roster.RB, roster.K]
-    const practiceSquadCount = individualSlots.filter(s => s?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).length
-    expect(practiceSquadCount).toBe(1)
+    const allSlots = [
+      roster.QB, roster.WR1, roster.WR2, roster.RB, roster.K,
+      roster.OLine, roster.DLine, roster.Secondary,
+    ]
+    const practiceSquadCount = allSlots.filter(s => s?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).length
+    expect(practiceSquadCount).toBe(5)
   })
 
-  it('never assigns a Practice Squad player to OLine, DLine, or Secondary', async () => {
+  it('keeps the correct position for Practice Squad unit placeholders', async () => {
     const roster = await generateRandomRoster()
-    expect(roster.OLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
-    expect(roster.DLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
-    expect(roster.Secondary?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(false)
+    if (roster.OLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)) expect(roster.OLine.position).toBe('OLine')
+    if (roster.DLine?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)) expect(roster.DLine.position).toBe('DLine')
+    if (roster.Secondary?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)) expect(roster.Secondary.position).toBe('Secondary')
   })
 })
 

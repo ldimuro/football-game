@@ -1,6 +1,6 @@
 import { describe, it, expect } from 'vitest'
 import { playerCost, slotCost } from './playerValue'
-import { createPracticeSquadPlayer } from './practiceSquad'
+import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 
 describe('playerCost', () => {
   it('returns 30 for Legendary (≥98)', () => { expect(playerCost(99)).toBe(30) })
@@ -19,6 +19,10 @@ describe('slotCost', () => {
 
   it('returns 0 for a Practice Squad player despite its rating', () => {
     expect(slotCost(createPracticeSquadPlayer('QB'))).toBe(0)
+  })
+
+  it('returns 0 for a Practice Squad unit despite its rating', () => {
+    expect(slotCost(createPracticeSquadUnit('OLine'))).toBe(0)
   })
 
   it('returns playerCost(rating) for a regular player', () => {

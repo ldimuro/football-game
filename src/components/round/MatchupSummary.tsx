@@ -22,27 +22,51 @@ function fmt(val: number | null, dec = 1): string {
   return val === null ? '—' : val.toFixed(dec)
 }
 
-interface RowProps {
+interface StatColumn {
   label: string
   userVal: string
   oppVal: string
   userBetter: boolean
   oppBetter: boolean
   bold?: boolean
+  separator?: boolean
 }
 
-function CompareRow({ label, userVal, oppVal, userBetter, oppBetter, bold }: RowProps) {
+function StatTable({ columns }: { columns: StatColumn[] }) {
+  const cellClass = (col: StatColumn, better: boolean) =>
+    `text-center tabular-nums px-3 py-2 whitespace-nowrap ${col.bold ? 'text-sm font-bold' : 'text-sm font-semibold'} ${better ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`
+
   return (
-    <div className="grid grid-cols-[1fr_auto_1fr] items-center py-2 border-b border-gray-100 dark:border-gray-800 last:border-0">
-      <span className={`text-right tabular-nums pr-4 ${bold ? 'text-sm font-bold' : 'text-sm font-semibold'} ${userBetter ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'}`}>
-        {userVal}
-      </span>
-      <span className={`text-center px-2 uppercase tracking-wider ${bold ? 'text-xs font-bold text-gray-600 dark:text-gray-300' : 'text-xs text-gray-400 dark:text-gray-500'}`}>
-        {label}
-      </span>
-      <span className={`text-left tabular-nums pl-4 ${bold ? 'text-sm font-bold' : 'text-sm font-semibold'} ${oppBetter ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'}`}>
-        {oppVal}
-      </span>
+    <div className="overflow-x-auto">
+      <table className="w-full border-collapse">
+        <thead>
+          <tr>
+            <th className="w-0" />
+            {columns.map(col => (
+              <th
+                key={col.label}
+                className={`text-center px-3 pb-2 uppercase tracking-wider whitespace-nowrap ${col.bold ? 'text-xs font-bold text-gray-600 dark:text-gray-300' : 'text-xs text-gray-400 dark:text-gray-500'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`}
+              >
+                {col.label}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="border-t border-gray-100 dark:border-gray-800">
+            <td className="text-xs font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wider pr-3 py-2 whitespace-nowrap">Your Team</td>
+            {columns.map(col => (
+              <td key={col.label} className={cellClass(col, col.userBetter)}>{col.userVal}</td>
+            ))}
+          </tr>
+          <tr className="border-t border-gray-100 dark:border-gray-800">
+            <td className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider pr-3 py-2 whitespace-nowrap">Opponent</td>
+            {columns.map(col => (
+              <td key={col.label} className={cellClass(col, col.oppBetter)}>{col.oppVal}</td>
+            ))}
+          </tr>
+        </tbody>
+      </table>
     </div>
   )
 }
@@ -140,95 +164,84 @@ export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, oppon
         </button>
       </div>
 
-      <div className="grid grid-cols-[1fr_auto_1fr] mb-2">
-        <span className="text-xs font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wider text-right pr-4">Your Team</span>
-        <span className="px-2" />
-        <span className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider text-left pl-4">Opponent</span>
-      </div>
-
       {view === 'ypg' && (
-        <>
-          <CompareRow
-            label="Total YPG"
-            userVal={fmt(user.totalYPG)}
-            oppVal={fmt(opp.totalYPG)}
-            userBetter={user.totalYPG > opp.totalYPG}
-            oppBetter={opp.totalYPG > user.totalYPG}
-          />
-          <CompareRow
-            label="Receiving"
-            userVal={fmt(user.recYPG)}
-            oppVal={fmt(opp.recYPG)}
-            userBetter={user.recYPG > opp.recYPG}
-            oppBetter={opp.recYPG > user.recYPG}
-          />
-          <CompareRow
-            label="Rushing"
-            userVal={fmt(user.rushYPG)}
-            oppVal={fmt(opp.rushYPG)}
-            userBetter={user.rushYPG > opp.rushYPG}
-            oppBetter={opp.rushYPG > user.rushYPG}
-          />
-          <CompareRow
-            label="Pass Allowed"
-            userVal={fmt(user.passAllowed)}
-            oppVal={fmt(opp.passAllowed)}
-            userBetter={user.passAllowed !== null && opp.passAllowed !== null && user.passAllowed < opp.passAllowed}
-            oppBetter={user.passAllowed !== null && opp.passAllowed !== null && opp.passAllowed < user.passAllowed}
-          />
-          <CompareRow
-            label="Rush Allowed"
-            userVal={fmt(user.rushAllowed)}
-            oppVal={fmt(opp.rushAllowed)}
-            userBetter={user.rushAllowed !== null && opp.rushAllowed !== null && user.rushAllowed < opp.rushAllowed}
-            oppBetter={user.rushAllowed !== null && opp.rushAllowed !== null && opp.rushAllowed < user.rushAllowed}
-          />
-        </>
+        <StatTable columns={[
+          {
+            label: 'Total YPG',
+            userVal: fmt(user.totalYPG),
+            oppVal: fmt(opp.totalYPG),
+            userBetter: user.totalYPG > opp.totalYPG,
+            oppBetter: opp.totalYPG > user.totalYPG,
+          },
+          {
+            label: 'Receiving',
+            userVal: fmt(user.recYPG),
+            oppVal: fmt(opp.recYPG),
+            userBetter: user.recYPG > opp.recYPG,
+            oppBetter: opp.recYPG > user.recYPG,
+          },
+          {
+            label: 'Rushing',
+            userVal: fmt(user.rushYPG),
+            oppVal: fmt(opp.rushYPG),
+            userBetter: user.rushYPG > opp.rushYPG,
+            oppBetter: opp.rushYPG > user.rushYPG,
+          },
+          {
+            label: 'Pass Allowed',
+            userVal: fmt(user.passAllowed),
+            oppVal: fmt(opp.passAllowed),
+            userBetter: user.passAllowed !== null && opp.passAllowed !== null && user.passAllowed < opp.passAllowed,
+            oppBetter: user.passAllowed !== null && opp.passAllowed !== null && opp.passAllowed < user.passAllowed,
+          },
+          {
+            label: 'Rush Allowed',
+            userVal: fmt(user.rushAllowed),
+            oppVal: fmt(opp.rushAllowed),
+            userBetter: user.rushAllowed !== null && opp.rushAllowed !== null && user.rushAllowed < opp.rushAllowed,
+            oppBetter: user.rushAllowed !== null && opp.rushAllowed !== null && opp.rushAllowed < user.rushAllowed,
+          },
+        ]} />
       )}
 
       {view === 'ratings' && (
-        <>
-          {POSITIONS.map((pos, i) => {
+        <StatTable columns={[
+          ...POSITIONS.map((pos, i) => {
             const u = userRatings[i]
             const o = oppRatings[i]
-            return (
-              <CompareRow
-                key={pos}
-                label={POSITION_LABELS[pos]}
-                userVal={u !== null ? String(u) : '—'}
-                oppVal={o !== null ? String(o) : '—'}
-                userBetter={u !== null && o !== null && u > o}
-                oppBetter={u !== null && o !== null && o > u}
-              />
-            )
-          })}
-          <div className="mt-1 pt-1 border-t border-gray-200 dark:border-gray-700">
-            <CompareRow
-              label="Avg Off"
-              userVal={userAvgOff !== null ? userAvgOff.toFixed(1) : '—'}
-              oppVal={oppAvgOff !== null ? oppAvgOff.toFixed(1) : '—'}
-              userBetter={userAvgOff !== null && oppAvgOff !== null && userAvgOff > oppAvgOff}
-              oppBetter={userAvgOff !== null && oppAvgOff !== null && oppAvgOff > userAvgOff}
-            />
-            <CompareRow
-              label="Avg Def"
-              userVal={userAvgDef !== null ? userAvgDef.toFixed(1) : '—'}
-              oppVal={oppAvgDef !== null ? oppAvgDef.toFixed(1) : '—'}
-              userBetter={userAvgDef !== null && oppAvgDef !== null && userAvgDef > oppAvgDef}
-              oppBetter={userAvgDef !== null && oppAvgDef !== null && oppAvgDef > userAvgDef}
-            />
-          </div>
-          <div className="mt-1 pt-1 border-t-2 border-gray-200 dark:border-gray-700">
-            <CompareRow
-              label="Average"
-              userVal={userAvg !== null ? userAvg.toFixed(1) : '—'}
-              oppVal={oppAvg !== null ? oppAvg.toFixed(1) : '—'}
-              userBetter={userAvg !== null && oppAvg !== null && userAvg > oppAvg}
-              oppBetter={userAvg !== null && oppAvg !== null && oppAvg > userAvg}
-              bold
-            />
-          </div>
-        </>
+            return {
+              label: POSITION_LABELS[pos],
+              userVal: u !== null ? String(u) : '—',
+              oppVal: o !== null ? String(o) : '—',
+              userBetter: u !== null && o !== null && u > o,
+              oppBetter: u !== null && o !== null && o > u,
+            }
+          }),
+          {
+            label: 'Avg Off',
+            userVal: userAvgOff !== null ? userAvgOff.toFixed(1) : '—',
+            oppVal: oppAvgOff !== null ? oppAvgOff.toFixed(1) : '—',
+            userBetter: userAvgOff !== null && oppAvgOff !== null && userAvgOff > oppAvgOff,
+            oppBetter: userAvgOff !== null && oppAvgOff !== null && oppAvgOff > userAvgOff,
+            separator: true,
+          },
+          {
+            label: 'Avg Def',
+            userVal: userAvgDef !== null ? userAvgDef.toFixed(1) : '—',
+            oppVal: oppAvgDef !== null ? oppAvgDef.toFixed(1) : '—',
+            userBetter: userAvgDef !== null && oppAvgDef !== null && userAvgDef > oppAvgDef,
+            oppBetter: userAvgDef !== null && oppAvgDef !== null && oppAvgDef > userAvgDef,
+          },
+          {
+            label: 'Average',
+            userVal: userAvg !== null ? userAvg.toFixed(1) : '—',
+            oppVal: oppAvg !== null ? oppAvg.toFixed(1) : '—',
+            userBetter: userAvg !== null && oppAvg !== null && userAvg > oppAvg,
+            oppBetter: userAvg !== null && oppAvg !== null && oppAvg > userAvg,
+            bold: true,
+            separator: true,
+          },
+        ]} />
       )}
     </div>
   )

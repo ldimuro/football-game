@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { createPracticeSquadPlayer, PRACTICE_SQUAD_RATING, PRACTICE_SQUAD_ID_PREFIX } from './practiceSquad'
+import { createPracticeSquadPlayer, createPracticeSquadUnit, PRACTICE_SQUAD_RATING, PRACTICE_SQUAD_ID_PREFIX } from './practiceSquad'
 
 describe('createPracticeSquadPlayer', () => {
   it('returns a player rated 60 with the Practice Squad name', () => {
@@ -17,5 +17,23 @@ describe('createPracticeSquadPlayer', () => {
     const player = createPracticeSquadPlayer(position)
     expect(player.position).toBe(position)
     expect(player.stats).toBeDefined()
+  })
+})
+
+describe('createPracticeSquadUnit', () => {
+  it('returns a unit rated 60', () => {
+    const unit = createPracticeSquadUnit('OLine')
+    expect(unit.rating).toBe(PRACTICE_SQUAD_RATING)
+  })
+
+  it('uses an id starting with the practice-squad prefix', () => {
+    const unit = createPracticeSquadUnit('DLine')
+    expect(unit.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)).toBe(true)
+  })
+
+  it.each(['OLine', 'DLine', 'Secondary'] as const)('returns %s stats matching the requested position', (position) => {
+    const unit = createPracticeSquadUnit(position)
+    expect(unit.position).toBe(position)
+    expect(unit.stats).toBeDefined()
   })
 })
