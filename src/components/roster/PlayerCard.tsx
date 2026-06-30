@@ -109,15 +109,6 @@ export function renderStats(slot: Player | TeamUnit, options?: { showRank?: bool
   )
 }
 
-export function ratingTier(r: number): { className: string } {
-  if (r >= 98) return { className: 'text-yellow-400 font-black' }
-  if (r >= 93) return { className: 'text-purple-400 font-bold' }
-  if (r >= 85) return { className: 'text-green-400 font-bold' }
-  if (r >= 75) return { className: 'text-blue-400 font-semibold' }
-  if (r >= 65) return { className: 'text-gray-400 font-semibold' }
-  return               { className: 'text-gray-500 font-semibold' }
-}
-
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell }: PlayerCardProps) {
   const [tab, setTab] = useState<'die' | 'stats'>('die')
   const isUnit = 'position' in slot && !('name' in slot)
