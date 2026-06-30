@@ -72,6 +72,7 @@ export interface Player {
   is_opy?: boolean
   is_dpy?: boolean
   die?: number[]
+  ability?: string
 }
 
 export interface TeamUnit {
@@ -82,6 +83,7 @@ export interface TeamUnit {
   stats: OLineStats | DLineStats | SecondaryStats
   rating?: number
   die?: number[]
+  ability?: string
 }
 
 export interface TeamMeta {

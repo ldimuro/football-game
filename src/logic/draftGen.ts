@@ -1,6 +1,7 @@
 import { loadTeamMeta, loadTeamRoster, loadTeamStats } from './dataLoader'
 import { selectTopRoster } from './rosterGen'
 import { assignDie } from './diceGen'
+import { assignAbility } from './abilityGen'
 import type { DraftOffer, TeamStats, TeamMeta, Roster } from '../types'
 
 let metaCache: TeamMeta[] | null = null
@@ -21,8 +22,8 @@ export async function generateDraftOffer(): Promise<DraftOffer> {
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
   }
 }
 
@@ -35,8 +36,8 @@ export async function rerollDraftOfferTeam(currentTeam: string, currentYear: num
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
   }
 }
 
@@ -49,8 +50,8 @@ export async function rerollDraftOfferYear(currentTeam: string, currentYear: num
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
   }
 }
 

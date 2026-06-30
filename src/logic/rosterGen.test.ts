@@ -145,3 +145,29 @@ describe('die assignment', () => {
     }
   })
 })
+
+describe('ability assignment', () => {
+  it('generateRandomSlot assigns an ability string', async () => {
+    const slot = await generateRandomSlot('QB')
+    expect(typeof slot.ability).toBe('string')
+    expect(slot.ability!.length).toBeGreaterThan(0)
+  })
+
+  it('generateRandomSlot assigns an ability to a unit slot', async () => {
+    const slot = await generateRandomSlot('OLine')
+    expect(typeof slot.ability).toBe('string')
+    expect(slot.ability!.length).toBeGreaterThan(0)
+  })
+
+  it('generateRandomRoster assigns an ability to every slot', async () => {
+    const roster = await generateRandomRoster()
+    const slots = [
+      roster.QB, roster.WR1, roster.WR2, roster.RB,
+      roster.K, roster.OLine, roster.DLine, roster.Secondary,
+    ]
+    for (const slot of slots) {
+      expect(typeof slot?.ability).toBe('string')
+      expect(slot?.ability!.length).toBeGreaterThan(0)
+    }
+  })
+})

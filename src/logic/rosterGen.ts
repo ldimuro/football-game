@@ -2,6 +2,7 @@ import { loadTeamMeta, loadTeamRoster } from './dataLoader'
 import { playerCost } from './playerValue'
 import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 import { assignDie } from './diceGen'
+import { assignAbility } from './abilityGen'
 import type {
   Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData, IndividualPosition, UnitPosition,
   QBStats, WRStats, RBStats, KStats,
@@ -32,12 +33,12 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 
   if (UNIT_POSITIONS.has(position)) {
     const match = units.find(u => u.position === targetPos)
-    if (match) return { ...match, die: assignDie(match.rating) }
+    if (match) return { ...match, die: assignDie(match.rating), ability: assignAbility() }
   } else {
     const matches = players.filter(p => p.position === targetPos)
     if (matches.length > 0) {
       const picked = pickRandom(matches)
-      return { ...picked, die: assignDie(picked.rating) }
+      return { ...picked, die: assignDie(picked.rating), ability: assignAbility() }
     }
   }
 
@@ -62,6 +63,7 @@ export async function generateRandomRoster(): Promise<Roster> {
       ? createPracticeSquadUnit(PLAYER_POSITION_MAP[pos] as UnitPosition)
       : createPracticeSquadPlayer(PLAYER_POSITION_MAP[pos] as IndividualPosition)
     slot.die = assignDie(slot.rating)
+    slot.ability = assignAbility()
     slots[pos] = slot
   }
   let remainingBudget = 50
@@ -131,18 +133,18 @@ export function selectTopRoster(data: TeamRosterData): Roster {
   const rbs = players.filter(p => p.position === 'RB')
   const ks = players.filter(p => p.position === 'K')
 
-  function withDie<T extends Player | TeamUnit>(slot: T | null): T | null {
-    return slot ? { ...slot, die: assignDie(slot.rating) } as T : null
+  function withExtras<T extends Player | TeamUnit>(slot: T | null): T | null {
+    return slot ? { ...slot, die: assignDie(slot.rating), ability: assignAbility() } as T : null
   }
 
   return {
-    QB: withDie(bestBy(qbs, p => (p.stats as QBStats).passYPG)),
-    WR1: withDie(wrs[0] ?? null),
-    WR2: withDie(wrs[1] ?? null),
-    RB: withDie(bestBy(rbs, p => (p.stats as RBStats).rushYPG)),
-    K: withDie(bestBy(ks, p => (p.stats as KStats).fgAccuracy)),
-    OLine: withDie(units.find(u => u.position === 'OLine') ?? null),
-    DLine: withDie(units.find(u => u.position === 'DLine') ?? null),
-    Secondary: withDie(units.find(u => u.position === 'Secondary') ?? null),
+    QB: withExtras(bestBy(qbs, p => (p.stats as QBStats).passYPG)),
+    WR1: withExtras(wrs[0] ?? null),
+    WR2: withExtras(wrs[1] ?? null),
+    RB: withExtras(bestBy(rbs, p => (p.stats as RBStats).rushYPG)),
+    K: withExtras(bestBy(ks, p => (p.stats as KStats).fgAccuracy)),
+    OLine: withExtras(units.find(u => u.position === 'OLine') ?? null),
+    DLine: withExtras(units.find(u => u.position === 'DLine') ?? null),
+    Secondary: withExtras(units.find(u => u.position === 'Secondary') ?? null),
   }
 }
