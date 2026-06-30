@@ -1,6 +1,8 @@
+import { useState } from 'react'
 import { Button } from '../ui/Button'
 import { Badge } from '../ui/Badge'
 import { StatBar } from '../ui/StatBar'
+import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
@@ -90,8 +92,6 @@ export function renderStats(slot: Player | TeamUnit, options?: { showRank?: bool
         <StatBar label="Rush YPG Allowed" value={d.rushYPGAllowed.toFixed(1)} valueClassName={c('rushYPGAllowed', d.rushYPGAllowed)} />
         <StatBar label="Rush TD/G Allowed" value={d.rushTDPerGameAllowed.toFixed(2)} valueClassName={c('rushTDPerGameAllowed', d.rushTDPerGameAllowed)} />
         <StatBar label="Sack%" value={(d.sackPct * 100).toFixed(1) + '%'} valueClassName={c('sackPct', d.sackPct)} />
-        {/* <StatBar label="Blitz%" value={d.blitzPct === null ? '-' : (d.blitzPct * 100).toFixed(1) + '%'} valueClassName={c('blitzPct', d.blitzPct)} /> */}
-        {/* <StatBar label="Pressure%" value={d.pressurePct === null ? '-' : (d.pressurePct * 100).toFixed(1) + '%'} valueClassName={c('pressurePct', d.pressurePct)} /> */}
         {showRank && <StatBar label="Rank" value={`#${d.normalizedRank}`} valueClassName={rankColorClass(d.normalizedRank)} />}
       </>
     )
@@ -119,13 +119,12 @@ export function ratingTier(r: number): { className: string } {
 }
 
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell }: PlayerCardProps) {
+  const [tab, setTab] = useState<'die' | 'stats'>('die')
   const isUnit = 'position' in slot && !('name' in slot)
   const isPracticeSquad = slot.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)
   const name = isPracticeSquad ? 'Practice Squad' : 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
   const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy) || ('is_dpy' in slot && slot.is_dpy)
-  const rating = slot.rating
-  const tier = rating !== undefined ? ratingTier(rating) : null
 
   return (
     <div
@@ -145,11 +144,6 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
           </div>
         </div>
         <div className="flex flex-col items-end gap-1">
-          {tier && (
-            <div className="text-right">
-              <span className={`text-2xl leading-none ${tier.className}`}>{rating}</span>
-            </div>
-          )}
           {coinValue !== undefined && (
             <span className="flex items-center justify-center w-7 h-7 rounded-full bg-yellow-500 text-gray-900 text-xs font-bold tabular-nums">
               {coinValue}
@@ -175,7 +169,25 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
           )}
         </div>
       </div>
-      <div>{renderStats(slot)}</div>
+
+      <div className="flex gap-3 border-b border-gray-200 dark:border-gray-700">
+        <button
+          onClick={() => setTab('die')}
+          className={`text-xs pb-1.5 font-semibold transition-colors ${tab === 'die' ? 'border-b-2 border-indigo-500 text-indigo-500' : 'text-gray-400 hover:text-gray-600 dark:hover:text-gray-300'}`}
+        >
+          Die
+        </button>
+        <button
+          onClick={() => setTab('stats')}
+          className={`text-xs pb-1.5 font-semibold transition-colors ${tab === 'stats' ? 'border-b-2 border-indigo-500 text-indigo-500' : 'text-gray-400 hover:text-gray-600 dark:hover:text-gray-300'}`}
+        >
+          Stats
+        </button>
+      </div>
+
+      {tab === 'die' && slot.die && <DieFaces faces={slot.die} rating={slot.rating} />}
+      {tab === 'die' && !slot.die && <p className="text-xs text-gray-400">—</p>}
+      {tab === 'stats' && <div>{renderStats(slot)}</div>}
     </div>
   )
 }
