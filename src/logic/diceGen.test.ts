@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { assignDie, dieColorClass, DIE_POOLS } from './diceGen'
+import { assignDie, faceColorClass, DIE_POOLS } from './diceGen'
 
 describe('assignDie', () => {
   it('returns exactly 6 face values', () => {
@@ -47,28 +47,32 @@ describe('assignDie', () => {
   })
 })
 
-describe('dieColorClass', () => {
-  it('returns yellow class for legendary rating', () => {
-    expect(dieColorClass(98)).toContain('yellow-400')
+describe('faceColorClass', () => {
+  it('returns purple class for legendary face value (19)', () => {
+    expect(faceColorClass(19)).toContain('purple-400')
   })
 
-  it('returns purple class for elite rating', () => {
-    expect(dieColorClass(93)).toContain('purple-400')
+  it('returns purple class for max face value (20)', () => {
+    expect(faceColorClass(20)).toContain('purple-400')
   })
 
-  it('returns green class for great rating', () => {
-    expect(dieColorClass(85)).toContain('green-400')
+  it('returns green class for elite face value (16)', () => {
+    expect(faceColorClass(16)).toContain('green-400')
   })
 
-  it('returns blue class for good rating', () => {
-    expect(dieColorClass(75)).toContain('blue-400')
+  it('returns blue class for great face value (12)', () => {
+    expect(faceColorClass(12)).toContain('blue-400')
   })
 
-  it('returns gray-400 class for average rating', () => {
-    expect(dieColorClass(65)).toContain('gray-400')
+  it('returns orange class for good face value (8)', () => {
+    expect(faceColorClass(8)).toContain('orange-400')
   })
 
-  it('returns gray-500 class for below avg rating', () => {
-    expect(dieColorClass(60)).toContain('gray-500')
+  it('returns yellow class for average face value (4)', () => {
+    expect(faceColorClass(4)).toContain('yellow-400')
+  })
+
+  it('returns red class for below avg face value (1)', () => {
+    expect(faceColorClass(1)).toContain('red-400')
   })
 })

@@ -63,12 +63,11 @@ export function assignDie(rating: number | undefined): number[] {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-export function dieColorClass(rating: number | undefined): string {
-  const r = rating ?? 0
-  if (r >= 98) return 'text-yellow-400 border-yellow-400'
-  if (r >= 93) return 'text-purple-400 border-purple-400'
-  if (r >= 85) return 'text-green-400 border-green-400'
-  if (r >= 75) return 'text-blue-400 border-blue-400'
-  if (r >= 65) return 'text-gray-400 border-gray-400'
-  return 'text-gray-500 border-gray-500'
+export function faceColorClass(value: number): string {
+  if (value >= 19) return 'text-purple-400 border-purple-400'
+  if (value >= 16) return 'text-green-400 border-green-400'
+  if (value >= 12) return 'text-blue-400 border-blue-400'
+  if (value >= 8)  return 'text-orange-400 border-orange-400'
+  if (value >= 4)  return 'text-yellow-400 border-yellow-400'
+  return 'text-red-400 border-red-400'
 }

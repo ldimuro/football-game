@@ -47,7 +47,7 @@ export function PlayerPickCard({ item, selected, onClick }: PlayerPickCardProps)
         </button>
       </div>
 
-      {tab === 'die' && item.die && <DieFaces faces={item.die} rating={item.rating} />}
+      {tab === 'die' && item.die && <DieFaces faces={item.die} />}
       {tab === 'die' && !item.die && <p className="text-xs text-gray-400">—</p>}
       {tab === 'stats' && renderStats(item, { showRank: true })}
     </div>

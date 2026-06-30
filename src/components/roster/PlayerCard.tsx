@@ -176,7 +176,7 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
         </button>
       </div>
 
-      {tab === 'die' && slot.die && <DieFaces faces={slot.die} rating={slot.rating} />}
+      {tab === 'die' && slot.die && <DieFaces faces={slot.die} />}
       {tab === 'die' && !slot.die && <p className="text-xs text-gray-400">—</p>}
       {tab === 'stats' && <div>{renderStats(slot)}</div>}
     </div>
