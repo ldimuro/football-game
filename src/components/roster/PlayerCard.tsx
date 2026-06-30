@@ -178,6 +178,9 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
 
       {tab === 'die' && slot.die && <DieFaces faces={slot.die} />}
       {tab === 'die' && !slot.die && <p className="text-xs text-gray-400">—</p>}
+      {tab === 'die' && slot.ability && (
+        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{slot.ability}</p>
+      )}
       {tab === 'stats' && <div>{renderStats(slot)}</div>}
     </div>
   )
