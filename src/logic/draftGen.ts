@@ -1,5 +1,6 @@
 import { loadTeamMeta, loadTeamRoster, loadTeamStats } from './dataLoader'
 import { selectTopRoster } from './rosterGen'
+import { assignDie } from './diceGen'
 import type { DraftOffer, TeamStats, TeamMeta, Roster } from '../types'
 
 let metaCache: TeamMeta[] | null = null
@@ -17,7 +18,12 @@ export async function generateDraftOffer(): Promise<DraftOffer> {
   const meta = await getMeta()
   const { team, year } = pickRandom(meta)
   const { players, units } = await loadTeamRoster(year, team)
-  return { team, year, players, units }
+  return {
+    team,
+    year,
+    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+  }
 }
 
 export async function rerollDraftOfferTeam(currentTeam: string, currentYear: number): Promise<DraftOffer> {
@@ -26,7 +32,12 @@ export async function rerollDraftOfferTeam(currentTeam: string, currentYear: num
   const pool = candidates.length ? candidates : meta.filter(m => m.year === currentYear)
   const { team, year } = pickRandom(pool)
   const { players, units } = await loadTeamRoster(year, team)
-  return { team, year, players, units }
+  return {
+    team,
+    year,
+    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+  }
 }
 
 export async function rerollDraftOfferYear(currentTeam: string, currentYear: number): Promise<DraftOffer> {
@@ -35,7 +46,12 @@ export async function rerollDraftOfferYear(currentTeam: string, currentYear: num
   const pool = candidates.length ? candidates : meta.filter(m => m.team === currentTeam)
   const { team, year } = pickRandom(pool)
   const { players, units } = await loadTeamRoster(year, team)
-  return { team, year, players, units }
+  return {
+    team,
+    year,
+    players: players.map(p => ({ ...p, die: assignDie(p.rating) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating) })),
+  }
 }
 
 export async function generateOpponent(): Promise<{ stats: TeamStats; roster: Roster }> {

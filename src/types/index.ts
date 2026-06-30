@@ -71,6 +71,7 @@ export interface Player {
   is_mvp?: boolean
   is_opy?: boolean
   is_dpy?: boolean
+  die?: number[]
 }
 
 export interface TeamUnit {
@@ -80,6 +81,7 @@ export interface TeamUnit {
   year: number
   stats: OLineStats | DLineStats | SecondaryStats
   rating?: number
+  die?: number[]
 }
 
 export interface TeamMeta {

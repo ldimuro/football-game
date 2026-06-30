@@ -119,3 +119,29 @@ describe('generateShopOffer', () => {
     expect(offer).toHaveLength(3)
   })
 })
+
+describe('die assignment', () => {
+  it('generateRandomSlot assigns a die with 6 faces', async () => {
+    const slot = await generateRandomSlot('QB')
+    expect(slot.die).toBeDefined()
+    expect(slot.die).toHaveLength(6)
+  })
+
+  it('generateRandomSlot assigns a die to a unit slot', async () => {
+    const slot = await generateRandomSlot('OLine')
+    expect(slot.die).toBeDefined()
+    expect(slot.die).toHaveLength(6)
+  })
+
+  it('generateRandomRoster assigns a die to every slot', async () => {
+    const roster = await generateRandomRoster()
+    const slots = [
+      roster.QB, roster.WR1, roster.WR2, roster.RB,
+      roster.K, roster.OLine, roster.DLine, roster.Secondary,
+    ]
+    for (const slot of slots) {
+      expect(slot?.die).toBeDefined()
+      expect(slot?.die).toHaveLength(6)
+    }
+  })
+})
