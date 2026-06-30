@@ -6,11 +6,11 @@ interface DieFacesProps {
 
 export function DieFaces({ faces }: DieFacesProps) {
   return (
-    <div className="grid grid-cols-3 gap-2">
+    <div className="grid grid-cols-6 gap-1">
       {faces.map((value, i) => (
         <div
           key={i}
-          className={`flex items-center justify-center border-2 rounded-lg aspect-square font-bold text-base ${faceColorClass(value)}`}
+          className={`flex items-center justify-center rounded-lg aspect-square font-bold text-sm text-gray-900 dark:text-white ${faceColorClass(value)}`}
         >
           {value}
         </div>
