@@ -58,7 +58,7 @@ export async function generateRandomRoster(): Promise<Roster> {
       ? createPracticeSquadUnit(PLAYER_POSITION_MAP[pos] as UnitPosition)
       : createPracticeSquadPlayer(PLAYER_POSITION_MAP[pos] as IndividualPosition)
   }
-  let remainingBudget = 150
+  let remainingBudget = 50
 
   for (const pos of generatedPositions) {
     let best = await generateRandomSlot(pos)
