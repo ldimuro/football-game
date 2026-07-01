@@ -103,9 +103,9 @@ export function PlayArea({
         </div>
       )}
 
-      {/* Player columns */}
+      {/* Player columns — max-w-xl keeps die faces compact (same as WR selection, slightly larger) */}
       {(offPlayers.length > 0 || defPlayers.length > 0) && (
-        <div className="grid grid-cols-2 gap-6">
+        <div className="grid grid-cols-2 gap-4 max-w-xl mx-auto w-full">
           {/* Offense column */}
           <div>
             <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-2">{offLabel}</p>

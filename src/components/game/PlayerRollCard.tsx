@@ -59,37 +59,30 @@ export function PlayerRollCard({
       }`}
       style={{ borderColor: getTeamColor(player.team) }}
     >
-      {/* Header: name (left) + roll number (right) */}
-      <div className="flex items-start justify-between gap-2">
-        <div className="min-w-0">
-          <div className="flex items-center gap-1 flex-wrap">
-            <span className="text-xs font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wide shrink-0">
-              {posLabel}
-            </span>
-            <span className="text-xs font-semibold text-gray-900 dark:text-white leading-tight truncate">
-              {name}
-            </span>
-          </div>
-          <div className="flex flex-wrap gap-1 mt-0.5">
-            <Badge label={player.team} />
-            <Badge label={String(player.year)} color="blue" />
-            {isUnit && <Badge label="Unit" color="gray" />}
-          </div>
-        </div>
-        <div
-          className={`text-xl font-bold tabular-nums shrink-0 transition-colors ${
-            displayValue !== null
-              ? isAnimating ? 'text-yellow-400' : 'text-white'
-              : 'text-gray-600'
-          }`}
-        >
-          {displayValue !== null ? displayValue : '?'}
+      <div>
+        <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
+          {posLabel}
+        </span>
+        <p className="text-gray-900 dark:text-white font-semibold text-xs mt-0.5 leading-tight">{name}</p>
+        <div className="flex flex-wrap gap-1 mt-0.5">
+          <Badge label={player.team} />
+          <Badge label={String(player.year)} color="blue" />
+          {isUnit && <Badge label="Unit" color="gray" />}
         </div>
       </div>
       <DieFaces faces={getPlayerDie(player)} />
       {player.ability && (
         <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight">{player.ability}</p>
       )}
+      <div
+        className={`text-center text-2xl font-bold tabular-nums transition-colors ${
+          displayValue !== null
+            ? isAnimating ? 'text-yellow-400' : 'text-white'
+            : 'text-gray-600'
+        }`}
+      >
+        {displayValue !== null ? displayValue : '?'}
+      </div>
     </div>
   )
 }
