@@ -495,6 +495,7 @@ export function GameScreen() {
             fgRoll={state.fgRoll}
             fgDifficulty={state.fgDifficulty}
             driveOutcome={state.driveOutcome}
+            kicker={state.possession === 'user' ? userRoster.K : oppRoster.K}
           />
         )}
       </div>

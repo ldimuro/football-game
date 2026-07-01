@@ -1,10 +1,10 @@
+import { computeAdvantageBonus } from '../../logic/gameEngine'
+import { PlayerRollCard } from './PlayerRollCard'
 import type { Player, TeamUnit } from '../../types'
-import { DieFaces } from '../ui/DieFaces'
-import { getPlayerDie } from '../../logic/gameEngine'
 
 interface PlayAreaProps {
   possession: 'user' | 'opponent'
-  phase: string  // one of the PlayPhase strings defined in GameScreen
+  phase: string
   offPlayers: (Player | TeamUnit)[]
   defPlayers: (Player | TeamUnit)[]
   offRolls: (number | null)[]
@@ -16,35 +16,7 @@ interface PlayAreaProps {
   fgRoll: number | null
   fgDifficulty: number | null
   driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | null
-}
-
-function getPlayerLabel(player: Player | TeamUnit): string {
-  if ('name' in player) return `${player.name} (${player.position})`
-  return `${player.team} ${player.position}`
-}
-
-function PlayerRollCard({
-  player,
-  roll,
-  isNext,
-}: {
-  player: Player | TeamUnit
-  roll: number | null
-  isNext: boolean
-}) {
-  return (
-    <div className={`bg-gray-900 border rounded-lg p-3 flex flex-col gap-2 transition-colors ${
-      isNext ? 'border-indigo-500' : 'border-gray-800'
-    }`}>
-      <p className="text-xs text-gray-400 font-medium">{getPlayerLabel(player)}</p>
-      <DieFaces faces={getPlayerDie(player)} />
-      <div className={`text-center text-2xl font-bold tabular-nums ${
-        roll !== null ? 'text-white' : 'text-gray-700'
-      }`}>
-        {roll !== null ? roll : '?'}
-      </div>
-    </div>
-  )
+  kicker: Player | TeamUnit | null
 }
 
 const PLAY_CALL_LABELS: Record<string, string> = {
@@ -52,6 +24,13 @@ const PLAY_CALL_LABELS: Record<string, string> = {
   pass: 'PASS',
   'run-stop': 'RUN STOP',
   'pass-stop': 'PASS STOP',
+}
+
+const ADVANTAGE_LABELS: Record<string, string> = {
+  'run-run-stop': 'Run Stuffed',
+  'run-pass-stop': 'Open Field',
+  'pass-pass-stop': 'Pass Coverage',
+  'pass-run-stop': 'Missed Coverage',
 }
 
 const OUTCOME_LABELS: Record<string, string> = {
@@ -74,6 +53,7 @@ export function PlayArea({
   offRolls, defRolls,
   offensePlayCall, defensePlayCall, opponentPlayCall,
   yardsGained, fgRoll, fgDifficulty, driveOutcome,
+  kicker,
 }: PlayAreaProps) {
   const offLabel = possession === 'user' ? 'Your Offense' : 'Opp Offense'
   const defLabel = possession === 'user' ? 'Opp Defense' : 'Your Defense'
@@ -88,6 +68,21 @@ export function PlayArea({
   const showMatchup = offensePlayCall !== null || defensePlayCall !== null || opponentPlayCall !== null
   const matchupOff = offensePlayCall ?? opponentPlayCall
   const matchupDef = defensePlayCall
+
+  // Advantage breakdown (only when both calls known and all rolls in)
+  const offTotal = offRolls.length > 0 && offRolls.every(r => r !== null)
+    ? (offRolls as number[]).reduce((a, b) => a + b, 0)
+    : null
+  const defTotal = defRolls.length > 0 && defRolls.every(r => r !== null)
+    ? (defRolls as number[]).reduce((a, b) => a + b, 0)
+    : null
+  const advKey = offensePlayCall && defensePlayCall
+    ? `${offensePlayCall}-${defensePlayCall}`
+    : null
+  const advLabel = advKey ? ADVANTAGE_LABELS[advKey] : null
+  const bonus = offensePlayCall && defensePlayCall
+    ? computeAdvantageBonus(offensePlayCall, defensePlayCall)
+    : null
 
   return (
     <div className="flex flex-col gap-6 px-6 py-4">
@@ -124,9 +119,9 @@ export function PlayArea({
                 />
               ))}
             </div>
-            {phase !== 'rolling-offense' && offRolls.length > 0 && (
+            {offTotal !== null && (
               <p className="text-right text-sm text-gray-400 mt-2">
-                Total: <span className="text-white font-bold">{(offRolls as number[]).reduce((a, b) => a + b, 0)}</span>
+                Total: <span className="text-white font-bold">{offTotal}</span>
               </p>
             )}
           </div>
@@ -144,33 +139,57 @@ export function PlayArea({
                 />
               ))}
             </div>
-            {phase !== 'rolling-offense' && phase !== 'rolling-defense' && defRolls.length > 0 && (
+            {defTotal !== null && phase !== 'rolling-offense' && phase !== 'rolling-defense' && (
               <p className="text-right text-sm text-gray-400 mt-2">
-                Total: <span className="text-white font-bold">{(defRolls as number[]).reduce((a, b) => a + b, 0)}</span>
+                Total: <span className="text-white font-bold">{defTotal}</span>
               </p>
             )}
           </div>
         </div>
       )}
 
-      {/* Yards result */}
-      {yardsGained !== null && (
-        <div className="text-center">
-          <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Yards Gained</p>
-          <p className={`text-3xl font-bold tabular-nums ${yardsGained >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-            {yardsGained >= 0 ? '+' : ''}{yardsGained}
-          </p>
+      {/* Advantage breakdown — shown in show-play-result */}
+      {phase === 'show-play-result' && yardsGained !== null && offTotal !== null && defTotal !== null && advLabel && bonus !== null && (
+        <div className="bg-gray-900 rounded-xl p-4 text-sm">
+          <div className="flex justify-between mb-2">
+            <span className="text-gray-400">Offense</span>
+            <span className="text-white font-bold tabular-nums">{offTotal}</span>
+          </div>
+          <div className="flex justify-between mb-2">
+            <span className="text-gray-400">Defense</span>
+            <span className="text-white font-bold tabular-nums">{defTotal}</span>
+          </div>
+          <div className="flex justify-between mb-3">
+            <span className="text-gray-400">{advLabel}</span>
+            <span className={`font-bold tabular-nums ${bonus < 0 ? 'text-red-400' : 'text-green-400'}`}>
+              {bonus >= 0 ? '+' : ''}{bonus}
+            </span>
+          </div>
+          <div className="border-t border-gray-700 pt-2 flex justify-between">
+            <span className="text-gray-300 font-semibold">Net yards</span>
+            <span className={`text-lg font-bold tabular-nums ${yardsGained >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+              {yardsGained >= 0 ? '+' : ''}{yardsGained}
+            </span>
+          </div>
         </div>
       )}
 
-      {/* FG attempt */}
+      {/* Kicker card + FG attempt */}
       {(phase === 'fg-roll' || phase === 'fg-result') && fgDifficulty !== null && (
-        <div className="text-center bg-gray-900 rounded-lg p-4">
-          <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">FG Attempt — Need to beat</p>
-          <p className="text-2xl font-bold text-yellow-400">{fgDifficulty}</p>
-          {fgRoll !== null && (
-            <p className="mt-2 text-lg text-white font-bold tabular-nums">Kicker rolled: {fgRoll}</p>
+        <div className="flex flex-col items-center gap-4">
+          {kicker && (
+            <div className="w-full max-w-xs">
+              <PlayerRollCard
+                player={kicker}
+                roll={fgRoll}
+                isNext={phase === 'fg-roll' && fgRoll === null}
+              />
+            </div>
           )}
+          <div className="text-center bg-gray-900 rounded-lg p-4 w-full max-w-xs">
+            <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Need to beat</p>
+            <p className="text-2xl font-bold text-yellow-400">{fgDifficulty}</p>
+          </div>
         </div>
       )}
 
