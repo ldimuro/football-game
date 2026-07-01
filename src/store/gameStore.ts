@@ -5,7 +5,6 @@ import {
   rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
-import { simulateGame as runSimulation } from '../logic/gameSimulator'
 import { playerCost, slotCost } from '../logic/playerValue'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
@@ -40,7 +39,8 @@ interface GameStore {
   rerollDraftOfferYear: () => Promise<void>
   draftPlayer: (id: string, targetPosition: RosterPosition) => void
   skipDraft: () => void
-  simulateGame: () => void
+  startGame: () => void
+  recordGameResult: (result: SimulationResult) => void
   advanceRound: () => Promise<void>
   buyFromShop: (buyId: string, sellPosition: RosterPosition) => void
   sellPlayer: (position: RosterPosition) => void
@@ -168,12 +168,12 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({ draftComplete: true, pendingDraftedId: null, phase: 'round-hub' })
   },
 
-  simulateGame: () => {
-    const { roster, currentOpponentRoster, currentOpponent } = get()
-    if (!currentOpponentRoster || !currentOpponent) return
-    const opponentLabel = `${currentOpponent.team} '${String(currentOpponent.year).slice(2)}`
-    const result = runSimulation(roster, currentOpponentRoster, opponentLabel)
-    set({ simulationResult: result })
+  startGame: () => {
+    set({ phase: 'game' })
+  },
+
+  recordGameResult: (result: SimulationResult) => {
+    set({ simulationResult: result, phase: 'round-hub' })
   },
 
   advanceRound: async () => {

@@ -5,6 +5,7 @@ import { RoundHub } from './components/round/RoundHub'
 import { DraftOffer } from './components/draft/DraftOffer'
 import { RosterView } from './components/screens/RosterView'
 import { CompleteScreen } from './components/screens/CompleteScreen'
+import { GameScreen } from './components/game/GameScreen'
 import { ThemeToggle } from './components/ui/ThemeToggle'
 import { useTheme } from './logic/useTheme'
 
@@ -31,7 +32,7 @@ export default function App() {
   return (
     <div className="min-h-screen bg-gray-100 dark:bg-gray-950 text-gray-900 dark:text-white">
       {/* Nav */}
-      {phase !== 'setup' && phase !== 'complete' ? (
+      {phase !== 'setup' && phase !== 'complete' && phase !== 'game' ? (
         <nav className="border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between">
           <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-wide text-sm">NFL DRAFT GAME</span>
           <div className="flex items-center gap-4">
@@ -56,6 +57,7 @@ export default function App() {
           {phase === 'setup' && <SetupScreen />}
           {phase === 'round-hub' && <RoundHub />}
           {phase === 'draft-offer' && <DraftOffer />}
+          {phase === 'game' && <GameScreen />}
           {phase === 'complete' && <CompleteScreen />}
         </>
       )}

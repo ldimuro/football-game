@@ -1,7 +1,7 @@
 export type IndividualPosition = 'QB' | 'WR' | 'RB' | 'K'
 export type UnitPosition = 'OLine' | 'DLine' | 'Secondary'
 export type RosterPosition = 'QB' | 'WR1' | 'WR2' | 'RB' | 'K' | 'OLine' | 'DLine' | 'Secondary'
-export type GamePhase = 'setup' | 'round-hub' | 'draft-offer' | 'complete'
+export type GamePhase = 'setup' | 'round-hub' | 'draft-offer' | 'game' | 'complete'
 export type WeatherCondition = 'Clear' | 'Rain' | 'Snow' | 'HeavyWind' | 'Dome'
 
 export interface QBStats {

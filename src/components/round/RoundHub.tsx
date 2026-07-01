@@ -9,7 +9,7 @@ import { Button } from '../ui/Button'
 export function RoundHub() {
   const {
     round, roster, currentOpponent, currentOpponentRoster, currentWeather,
-    viewDraftOffer, simulateGame, draftComplete, isLoading, seasonLog,
+    viewDraftOffer, startGame, draftComplete, isLoading, seasonLog,
     coins, shopComplete,
   } = useGameStore()
   const [shopOpen, setShopOpen] = useState(false)
@@ -47,7 +47,7 @@ export function RoundHub() {
           <Button onClick={viewDraftOffer} disabled={isLoading || draftComplete} variant="secondary">
             View Draft Offer →
           </Button>
-          <Button onClick={simulateGame} disabled={isLoading}>
+          <Button onClick={startGame} disabled={isLoading}>
             Simulate Game
           </Button>
         </div>

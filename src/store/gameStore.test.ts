@@ -2,7 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { act } from 'react'
 import { useGameStore } from './gameStore'
 import { createPracticeSquadPlayer } from '../logic/practiceSquad'
-import type { Roster } from '../types'
+import type { Roster, SimulationResult } from '../types'
 
 const { mockRoster } = vi.hoisted(() => {
   const mockRoster: Roster = {
@@ -217,23 +217,32 @@ describe('skipDraft', () => {
   })
 })
 
-describe('simulateGame', () => {
-  it('sets simulationResult from the simulator module', () => {
-    useGameStore.setState({
-      ...INITIAL_STATE, phase: 'round-hub', roster: mockRoster,
-      currentOpponentRoster: mockRoster, currentOpponent: mockOpponent, currentWeather: 'Clear',
-    })
-    useGameStore.getState().simulateGame()
-    const state = useGameStore.getState()
-    expect(state.simulationResult).not.toBeNull()
-    expect(state.simulationResult?.userTeamLabel).toBe('Your Team')
-    expect(state.simulationResult?.opponentTeamLabel).toBe("NE '19")
+describe('startGame', () => {
+  it('transitions phase to game', () => {
+    const store = useGameStore.getState()
+    // set to round-hub first
+    useGameStore.setState({ phase: 'round-hub' })
+    store.startGame()
+    expect(useGameStore.getState().phase).toBe('game')
   })
+})
 
-  it('does nothing if opponent roster is missing', () => {
-    useGameStore.setState({ ...INITIAL_STATE, phase: 'round-hub', roster: mockRoster })
-    useGameStore.getState().simulateGame()
-    expect(useGameStore.getState().simulationResult).toBeNull()
+describe('recordGameResult', () => {
+  it('sets simulationResult and returns to round-hub', () => {
+    const store = useGameStore.getState()
+    useGameStore.setState({ phase: 'game' })
+    const result: SimulationResult = {
+      userTeamLabel: 'Your Team',
+      opponentTeamLabel: 'KC',
+      drives: [],
+      userScore: 14,
+      opponentScore: 7,
+      winner: 'user',
+    }
+    store.recordGameResult(result)
+    const state = useGameStore.getState()
+    expect(state.phase).toBe('round-hub')
+    expect(state.simulationResult).toEqual(result)
   })
 })
 
