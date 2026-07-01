@@ -426,6 +426,8 @@ export function GameScreen() {
 
   // Keep handleStep always up-to-date in a ref so the keydown listener never captures a stale closure
   const handleStepRef = useRef(handleStep)
+  // Intentionally runs after every render to keep ref pointing at the latest handleStep closure
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   useEffect(() => { handleStepRef.current = handleStep })
 
   useEffect(() => {

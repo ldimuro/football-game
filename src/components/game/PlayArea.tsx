@@ -177,7 +177,7 @@ export function PlayArea({
       {/* Kicker card + FG attempt */}
       {(phase === 'fg-roll' || phase === 'fg-result') && fgDifficulty !== null && (
         <div className="flex flex-col items-center gap-4">
-          {kicker && (
+          {kicker ? (
             <div className="w-full max-w-xs">
               <PlayerRollCard
                 player={kicker}
@@ -185,7 +185,11 @@ export function PlayArea({
                 isNext={phase === 'fg-roll' && fgRoll === null}
               />
             </div>
-          )}
+          ) : fgRoll !== null ? (
+            <div className="text-center text-2xl font-bold text-white tabular-nums">
+              Rolled: {fgRoll}
+            </div>
+          ) : null}
           <div className="text-center bg-gray-900 rounded-lg p-4 w-full max-w-xs">
             <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Need to beat</p>
             <p className="text-2xl font-bold text-yellow-400">{fgDifficulty}</p>

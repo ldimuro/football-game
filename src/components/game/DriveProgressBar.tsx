@@ -12,7 +12,7 @@ export function DriveProgressBar({ progress, pendingProgress }: DriveProgressBar
       <div className="relative h-5 mb-1">
         <span
           className="absolute bottom-0 text-xs font-bold text-white -translate-x-1/2 transition-all duration-300"
-          style={{ left: `${displayProgress}%` }}
+          style={{ left: `clamp(5%, ${displayProgress}%, 95%)` }}
         >
           Yd {Math.round(displayProgress)}
         </span>
