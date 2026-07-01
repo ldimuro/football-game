@@ -8,7 +8,7 @@ import {
   rollDie, computeAdvantageBonus, computeYardsGained,
   computeFGDifficulty, getOffensePlayers, getDefensePlayers, getPlayerDie,
 } from '../../logic/gameEngine'
-import type { Roster, Player, TeamUnit, DriveResult, SimulationResult } from '../../types'
+import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult } from '../../types'
 
 // ─── Internal types ────────────────────────────────────────────────────────────
 
@@ -102,7 +102,7 @@ function playReset(): Partial<GameState> {
 
 function buildDriveResult(
   state: GameState,
-  outcome: 'TD' | 'FG' | 'Punt',
+  outcome: DriveOutcome,
   points: number,
 ): DriveResult {
   const quarter = Math.floor(state.driveIndex / 4) + 1
@@ -243,7 +243,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const { value } = action
       if (state.fgDifficulty === null) return state
       const made = value >= state.fgDifficulty
-      const driveResult = buildDriveResult(state, made ? 'FG' : 'Punt', made ? 3 : 0)
+      const driveResult = buildDriveResult(state, made ? 'FG' : 'FG-missed', made ? 3 : 0)
       return {
         ...state,
         fgRoll: value,

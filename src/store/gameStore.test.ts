@@ -55,17 +55,6 @@ vi.mock('../logic/weatherGen', () => ({
   generateWeather: vi.fn().mockReturnValue('Clear'),
 }))
 
-vi.mock('../logic/gameSimulator', () => ({
-  simulateGame: vi.fn().mockReturnValue({
-    userTeamLabel: 'Your Team',
-    opponentTeamLabel: "NE '19",
-    drives: [],
-    userScore: 21,
-    opponentScore: 14,
-    winner: 'user' as const,
-  }),
-}))
-
 const mockOpponent = {
   team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1,
   qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8,

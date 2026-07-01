@@ -10,6 +10,7 @@ const QUARTER_LABELS: Record<number, string> = {
 const OUTCOME_LABELS: Record<DriveOutcome, string> = {
   TD: 'Touchdown',
   FG: 'Field Goal',
+  'FG-missed': 'FG Missed',
   Punt: 'Punt',
   Turnover: 'Turnover',
   DefTD: 'Def. Touchdown',
@@ -19,6 +20,7 @@ const OUTCOME_LABELS: Record<DriveOutcome, string> = {
 const OUTCOME_COLORS: Record<DriveOutcome, string> = {
   TD: 'text-green-400',
   FG: 'text-blue-400',
+  'FG-missed': 'text-red-400',
   Punt: 'text-gray-500',
   Turnover: 'text-red-400',
   DefTD: 'text-orange-400',

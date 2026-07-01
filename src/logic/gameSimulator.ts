@@ -38,7 +38,7 @@ function sampleOutcome(probs: number[]): number {
 const OUTCOMES: DriveOutcome[] = ['TD', 'FG', 'Punt', 'Turnover', 'DefTD', 'Safety']
 
 const POINTS: Record<DriveOutcome, number> = {
-  TD: 7, FG: 3, Punt: 0, Turnover: 0, DefTD: 7, Safety: 2,
+  TD: 7, FG: 3, 'FG-missed': 0, Punt: 0, Turnover: 0, DefTD: 7, Safety: 2,
 }
 
 function resolveScoringTeam(

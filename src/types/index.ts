@@ -158,7 +158,7 @@ export interface TeamRosterData {
   units: TeamUnit[]
 }
 
-export type DriveOutcome = 'TD' | 'FG' | 'Punt' | 'Turnover' | 'DefTD' | 'Safety'
+export type DriveOutcome = 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | 'DefTD' | 'Safety'
 
 export interface TeamRatings {
   passRating: number
