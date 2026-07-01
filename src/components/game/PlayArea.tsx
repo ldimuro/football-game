@@ -150,47 +150,47 @@ export function PlayArea({
 
       {/* Advantage breakdown — shown in show-play-result */}
       {phase === 'show-play-result' && yardsGained !== null && offTotal !== null && defTotal !== null && advLabel && bonus !== null && (
-        <div className="bg-gray-900 rounded-xl p-4 text-sm">
-          <div className="flex justify-between mb-2">
-            <span className="text-gray-400">Offense</span>
-            <span className="text-white font-bold tabular-nums">{offTotal}</span>
-          </div>
-          <div className="flex justify-between mb-2">
-            <span className="text-gray-400">Defense</span>
-            <span className="text-white font-bold tabular-nums">{defTotal}</span>
-          </div>
-          <div className="flex justify-between mb-3">
-            <span className="text-gray-400">{advLabel}</span>
-            <span className={`font-bold tabular-nums ${bonus < 0 ? 'text-red-400' : 'text-green-400'}`}>
-              {bonus >= 0 ? '+' : ''}{bonus}
-            </span>
-          </div>
-          <div className="border-t border-gray-700 pt-2 flex justify-between">
-            <span className="text-gray-300 font-semibold">Net yards</span>
-            <span className={`text-lg font-bold tabular-nums ${yardsGained >= 0 ? 'text-green-400' : 'text-red-400'}`}>
-              {yardsGained >= 0 ? '+' : ''}{yardsGained}
-            </span>
+        <div className="max-w-xl mx-auto w-full">
+          <div className="bg-gray-900 rounded-xl p-4 text-sm">
+            <div className="flex justify-between mb-2">
+              <span className="text-gray-400">Offense</span>
+              <span className="text-white font-bold tabular-nums">{offTotal}</span>
+            </div>
+            <div className="flex justify-between mb-2">
+              <span className="text-gray-400">Defense</span>
+              <span className="text-white font-bold tabular-nums">{defTotal}</span>
+            </div>
+            <div className="flex justify-between mb-3">
+              <span className="text-gray-400">{advLabel}</span>
+              <span className={`font-bold tabular-nums ${bonus < 0 ? 'text-red-400' : 'text-green-400'}`}>
+                {bonus >= 0 ? '+' : ''}{bonus}
+              </span>
+            </div>
+            <div className="border-t border-gray-700 pt-2 flex justify-between">
+              <span className="text-gray-300 font-semibold">Net yards</span>
+              <span className={`text-lg font-bold tabular-nums ${yardsGained >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                {yardsGained >= 0 ? '+' : ''}{yardsGained}
+              </span>
+            </div>
           </div>
         </div>
       )}
 
       {/* Kicker card + FG attempt */}
       {(phase === 'fg-roll' || phase === 'fg-result') && fgDifficulty !== null && (
-        <div className="flex flex-col items-center gap-4">
+        <div className="max-w-xl mx-auto w-full flex flex-col gap-4">
           {kicker ? (
-            <div className="w-full max-w-xs">
-              <PlayerRollCard
-                player={kicker}
-                roll={fgRoll}
-                isNext={phase === 'fg-roll' && fgRoll === null}
-              />
-            </div>
+            <PlayerRollCard
+              player={kicker}
+              roll={fgRoll}
+              isNext={phase === 'fg-roll' && fgRoll === null}
+            />
           ) : fgRoll !== null ? (
             <div className="text-center text-2xl font-bold text-white tabular-nums">
               Rolled: {fgRoll}
             </div>
           ) : null}
-          <div className="text-center bg-gray-900 rounded-lg p-4 w-full max-w-xs">
+          <div className="text-center bg-gray-900 rounded-lg p-4">
             <p className="text-xs text-gray-500 uppercase tracking-wider mb-1">Need to beat</p>
             <p className="text-2xl font-bold text-yellow-400">{fgDifficulty}</p>
           </div>
@@ -199,7 +199,7 @@ export function PlayArea({
 
       {/* Drive outcome */}
       {driveOutcome && (
-        <div className="text-center">
+        <div className="max-w-xl mx-auto w-full text-center">
           <p className={`text-2xl font-bold ${OUTCOME_COLORS[driveOutcome] ?? 'text-white'}`}>
             {OUTCOME_LABELS[driveOutcome] ?? driveOutcome}
           </p>
