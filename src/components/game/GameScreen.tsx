@@ -57,6 +57,7 @@ type GameAction =
   | { type: 'RESOLVE_PLAY'; nextOpponentPlayCall: 'run' | 'pass' }
   | { type: 'FG_ROLL'; value: number }
   | { type: 'ADVANCE_DRIVE'; nextOpponentPlayCall: 'run' | 'pass' }
+  | { type: 'KICK_FG' }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -272,6 +273,14 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
     }
 
+    case 'KICK_FG': {
+      return {
+        ...state,
+        fgDifficulty: computeFGDifficulty(state.driveProgress),
+        phase: 'fg-roll',
+      }
+    }
+
     default:
       return state
   }
@@ -408,6 +417,10 @@ export function GameScreen() {
     dispatch({ type: 'CHOOSE_DEF_PLAY', call, offPlayers, defPlayers })
   }
 
+  function handleKickFG() {
+    dispatch({ type: 'KICK_FG' })
+  }
+
   const showStep = ['rolling-offense', 'rolling-defense', 'show-play-result', 'drive-end', 'fg-roll', 'fg-result'].includes(state.phase)
 
   return (
@@ -431,6 +444,9 @@ export function GameScreen() {
             <div className="flex gap-4">
               <Button onClick={() => handleOffPlay('run')}>🏃 Run</Button>
               <Button onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
+              {state.driveProgress >= 65 && (
+                <Button onClick={handleKickFG}>🦵 Kick FG</Button>
+              )}
             </div>
           </div>
         )}

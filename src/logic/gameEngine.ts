@@ -33,7 +33,7 @@ export function computeYardsGained(
 }
 
 export function computeFGDifficulty(progress: number): number {
-  return Math.max(1, 80 - progress)
+  return Math.min(15, Math.max(1, Math.round(15 - ((progress - 65) / 34) * 14)))
 }
 
 export function getOffensePlayers(
