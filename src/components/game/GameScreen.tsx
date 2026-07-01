@@ -434,6 +434,7 @@ export function GameScreen() {
         opponentScore={state.opponentScore}
         possession={state.possession}
         opponentLabel={opponentLabel}
+        pendingYards={state.yardsGained}
       />
 
       <div className="flex-1 overflow-y-auto">
