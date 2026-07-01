@@ -1,8 +1,9 @@
 // src/components/game/GameScreen.tsx
-import { useReducer, useEffect } from 'react'
+import { useReducer, useEffect, useRef } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { GameHUD } from './GameHUD'
 import { PlayArea } from './PlayArea'
+import { PlayerRollCard } from './PlayerRollCard'
 import { Button } from '../ui/Button'
 import {
   rollDie, computeAdvantageBonus, computeYardsGained,
@@ -423,6 +424,19 @@ export function GameScreen() {
 
   const showStep = ['rolling-offense', 'rolling-defense', 'show-play-result', 'drive-end', 'fg-roll', 'fg-result'].includes(state.phase)
 
+  // Keep handleStep always up-to-date in a ref so the keydown listener never captures a stale closure
+  const handleStepRef = useRef(handleStep)
+  useEffect(() => { handleStepRef.current = handleStep })
+
+  useEffect(() => {
+    if (!showStep) return
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Enter') handleStepRef.current()
+    }
+    window.addEventListener('keydown', onKeyDown)
+    return () => window.removeEventListener('keydown', onKeyDown)
+  }, [showStep])
+
   return (
     <div className="min-h-screen bg-gray-950 flex flex-col">
       <GameHUD
@@ -453,24 +467,33 @@ export function GameScreen() {
         )}
 
         {state.phase === 'choose-wr' && (
-          <div className="flex flex-col items-center gap-4 py-12">
+          <div className="flex flex-col items-center gap-4 py-8">
             <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your wide receiver</p>
-            <div className="flex gap-4">
-              <Button onClick={() => handleWRChoice('WR1')}>
-                {userRoster.WR1 ? `WR1: ${'name' in userRoster.WR1 ? userRoster.WR1.name : 'WR1'}` : 'WR1'}
-              </Button>
-              <Button onClick={() => handleWRChoice('WR2')}>
-                {userRoster.WR2 ? `WR2: ${'name' in userRoster.WR2 ? userRoster.WR2.name : 'WR2'}` : 'WR2'}
-              </Button>
+            <div className="grid grid-cols-2 gap-4 w-full max-w-lg px-6">
+              {(['WR1', 'WR2'] as const).map(slot => {
+                const wr = userRoster[slot]
+                return (
+                  <button
+                    key={slot}
+                    onClick={() => handleWRChoice(slot)}
+                    className="text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-xl"
+                  >
+                    {wr ? (
+                      <PlayerRollCard player={wr} roll={null} isNext={false} />
+                    ) : (
+                      <div className="border-2 border-dashed border-gray-700 rounded-xl p-6 text-center text-gray-500 text-sm">
+                        {slot} — Empty
+                      </div>
+                    )}
+                  </button>
+                )
+              })}
             </div>
           </div>
         )}
 
         {state.phase === 'choose-defense' && (
           <div className="flex flex-col items-center gap-4 py-12">
-            <p className="text-xs text-gray-500 uppercase tracking-wider">
-              Opponent plays: <span className="text-white font-bold">{(state.opponentPlayCall ?? 'run').toUpperCase()}</span>
-            </p>
             <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your defense</p>
             <div className="flex gap-4">
               <Button onClick={() => handleDefPlay('run-stop')}>🛑 Run Stop</Button>
