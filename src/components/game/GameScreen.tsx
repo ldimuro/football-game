@@ -155,6 +155,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const { call, offPlayers, defPlayers } = action
       return {
         ...state,
+        offensePlayCall: state.opponentPlayCall ?? 'run',
         defensePlayCall: call,
         offPlayers,
         defPlayers,
@@ -193,7 +194,6 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const { nextOpponentPlayCall } = action
       if (state.yardsGained === null) return state
       const newProgress = Math.min(100, Math.max(0, state.driveProgress + state.yardsGained))
-      const quarter = Math.floor(state.driveIndex / 4) + 1
 
       if (newProgress >= 100) {
         const driveResult = buildDriveResult({ ...state, driveProgress: newProgress }, 'TD', 7)
@@ -341,7 +341,7 @@ export function GameScreen() {
       const result = buildSimulationResult(state, opponentLabel)
       recordGameResult(result)
     }
-  }, [state.phase])
+  }, [state.phase, state.userScore, state.opponentScore, state.driveHistory, opponentLabel, recordGameResult])
 
   const userRoster: Roster = roster
   const oppRoster: Roster = currentOpponentRoster ?? {
