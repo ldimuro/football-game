@@ -149,7 +149,15 @@ Bonus displayed as `-5` (red) or `+5` (green) inline with the label. The net yar
 
 ---
 
-## 6. Out of Scope
+## 6. Enter Key → Step Button
+
+`GameScreen` attaches a `keydown` listener (via `useEffect`) that calls `handleStep()` when `Enter` is pressed and `showStep` is `true`. The listener is cleaned up on unmount. This means the user can advance through all rolling and result phases without touching the mouse.
+
+The listener does **not** fire during choice phases (`choose-offense`, `choose-wr`, `choose-defense`) — those require an explicit button/card click to prevent accidental advancement.
+
+---
+
+## 7. Out of Scope
 
 - Opponent choosing to "Kick FG" on non-4th downs (opponent remains automatic)
 - Ability gameplay effects (still display-only)
