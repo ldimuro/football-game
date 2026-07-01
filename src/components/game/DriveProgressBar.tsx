@@ -1,3 +1,5 @@
+import { FG_RANGE_YARD, RED_ZONE_YARD, TD_YARD } from '../../logic/gameConstants'
+
 interface DriveProgressBarProps {
   progress: number
   pendingProgress?: number
@@ -25,16 +27,16 @@ export function DriveProgressBar({ progress, pendingProgress }: DriveProgressBar
           style={{ width: `${displayProgress}%` }}
         />
         {/* Marker lines rendered inside overflow-hidden so they span the full bar height */}
-        <div className="absolute top-0 h-full w-0.5 bg-yellow-400 opacity-80" style={{ left: '65%' }} />
-        <div className="absolute top-0 h-full w-0.5 bg-red-400 opacity-80" style={{ left: '80%' }} />
-        <div className="absolute top-0 h-full w-0.5 bg-green-400 opacity-80" style={{ left: '99.5%' }} />
+        <div className="absolute top-0 h-full w-0.5 bg-yellow-400 opacity-80" style={{ left: `${FG_RANGE_YARD}%` }} />
+        <div className="absolute top-0 h-full w-0.5 bg-red-400 opacity-80" style={{ left: `${RED_ZONE_YARD}%` }} />
+        <div className="absolute top-0 h-full w-0.5 bg-green-400 opacity-80" style={{ left: `${TD_YARD - 0.5}%` }} />
       </div>
 
       {/* Labels below bar */}
       <div className="relative h-5 mt-1">
-        <span className="absolute text-xs text-yellow-400 -translate-x-1/2" style={{ left: '65%' }}>FG 65</span>
-        <span className="absolute text-xs text-red-400 -translate-x-1/2" style={{ left: '80%' }}>RZ 80</span>
-        <span className="absolute text-xs text-green-400 -translate-x-1/2" style={{ left: '99.5%' }}>TD</span>
+        <span className="absolute text-xs text-yellow-400 -translate-x-1/2" style={{ left: `${FG_RANGE_YARD}%` }}>FG {FG_RANGE_YARD}</span>
+        <span className="absolute text-xs text-red-400 -translate-x-1/2" style={{ left: `${RED_ZONE_YARD}%` }}>RZ {RED_ZONE_YARD}</span>
+        <span className="absolute text-xs text-green-400 -translate-x-1/2" style={{ left: `${TD_YARD - 0.5}%` }}>TD</span>
       </div>
     </div>
   )

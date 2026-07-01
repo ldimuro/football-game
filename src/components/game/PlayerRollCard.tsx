@@ -3,6 +3,7 @@ import { Badge } from '../ui/Badge'
 import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
+import { ROLL_ANIMATION_DURATION_MS, ROLL_ANIMATION_INTERVAL_MS } from '../../logic/gameConstants'
 import type { Player, TeamUnit } from '../../types'
 
 function getPositionLabel(player: Player | TeamUnit): string {
@@ -30,21 +31,19 @@ export function PlayerRollCard({
       setIsAnimating(false)
       return
     }
-    // Animate: cycle random die faces for 600ms then settle on actual roll
+    // Animate: cycle random die faces then settle on actual roll
     const die = getPlayerDie(player)
     setIsAnimating(true)
     let elapsed = 0
-    const DURATION = 600
-    const INTERVAL = 60
     const id = setInterval(() => {
-      elapsed += INTERVAL
+      elapsed += ROLL_ANIMATION_INTERVAL_MS
       setDisplayValue(die[Math.floor(Math.random() * die.length)])
-      if (elapsed >= DURATION) {
+      if (elapsed >= ROLL_ANIMATION_DURATION_MS) {
         clearInterval(id)
         setDisplayValue(roll)
         setIsAnimating(false)
       }
-    }, INTERVAL)
+    }, ROLL_ANIMATION_INTERVAL_MS)
     return () => clearInterval(id)
   }, [roll]) // player doesn't change during a play; roll is the trigger
 

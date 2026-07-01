@@ -9,6 +9,15 @@ import {
   rollDie, computeAdvantageBonus, computeYardsGained,
   computeFGDifficulty, getOffensePlayers, getDefensePlayers, getPlayerDie,
 } from '../../logic/gameEngine'
+import {
+  DRIVES_PER_GAME,
+  DRIVES_PER_QUARTER,
+  STARTING_YARD_LINE,
+  TD_POINTS,
+  FG_POINTS,
+  TD_YARD,
+  FG_RANGE_YARD,
+} from '../../logic/gameConstants'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult } from '../../types'
 
 // ─── Internal types ────────────────────────────────────────────────────────────
@@ -73,7 +82,7 @@ function randomDefCall(): 'run-stop' | 'pass-stop' {
 function driveReset(): Partial<GameState> {
   return {
     down: 1,
-    driveProgress: 20,
+    driveProgress: STARTING_YARD_LINE,
     offensePlayCall: null,
     defensePlayCall: null,
     selectedWR: null,
@@ -107,7 +116,7 @@ function buildDriveResult(
   outcome: DriveOutcome,
   points: number,
 ): DriveResult {
-  const quarter = Math.floor(state.driveIndex / 4) + 1
+  const quarter = Math.floor(state.driveIndex / DRIVES_PER_QUARTER) + 1
   const scoringTeam = points > 0 ? state.possession : null
   return { possession: state.possession, quarter, outcome, scoringTeam, points }
 }
@@ -197,13 +206,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       if (state.yardsGained === null) return state
       const newProgress = Math.min(100, Math.max(0, state.driveProgress + state.yardsGained))
 
-      if (newProgress >= 100) {
-        const driveResult = buildDriveResult({ ...state, driveProgress: newProgress }, 'TD', 7)
+      if (newProgress >= TD_YARD) {
+        const driveResult = buildDriveResult({ ...state, driveProgress: newProgress }, 'TD', TD_POINTS)
         return {
           ...state,
           driveProgress: newProgress,
-          userScore: state.possession === 'user' ? state.userScore + 7 : state.userScore,
-          opponentScore: state.possession === 'opponent' ? state.opponentScore + 7 : state.opponentScore,
+          userScore: state.possession === 'user' ? state.userScore + TD_POINTS : state.userScore,
+          opponentScore: state.possession === 'opponent' ? state.opponentScore + TD_POINTS : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
           driveOutcome: 'TD',
           phase: 'drive-end',
@@ -211,7 +220,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       if (state.down >= 4) {
-        if (newProgress >= 65) {
+        if (newProgress >= FG_RANGE_YARD) {
           return {
             ...state,
             driveProgress: newProgress,
@@ -245,13 +254,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const { value } = action
       if (state.fgDifficulty === null) return state
       const made = value >= state.fgDifficulty
-      const driveResult = buildDriveResult(state, made ? 'FG' : 'FG-missed', made ? 3 : 0)
+      const driveResult = buildDriveResult(state, made ? 'FG' : 'FG-missed', made ? FG_POINTS : 0)
       return {
         ...state,
         fgRoll: value,
         driveOutcome: made ? 'FG' : 'FG-missed',
-        userScore: (made && state.possession === 'user') ? state.userScore + 3 : state.userScore,
-        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + 3 : state.opponentScore,
+        userScore: (made && state.possession === 'user') ? state.userScore + FG_POINTS : state.userScore,
+        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + FG_POINTS : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
         phase: 'fg-result',
       }
@@ -259,7 +268,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case 'ADVANCE_DRIVE': {
       const nextDriveIndex = state.driveIndex + 1
-      if (nextDriveIndex >= 16) {
+      if (nextDriveIndex >= DRIVES_PER_GAME) {
         return { ...state, driveIndex: nextDriveIndex, phase: 'game-over' }
       }
       const nextPossession: 'user' | 'opponent' = nextDriveIndex % 2 === 0 ? 'user' : 'opponent'
@@ -294,7 +303,7 @@ function makeInitialState(): GameState {
     driveIndex: 0,
     possession: 'user',
     down: 1,
-    driveProgress: 20,
+    driveProgress: STARTING_YARD_LINE,
     userScore: 0,
     opponentScore: 0,
     driveHistory: [],
@@ -461,7 +470,7 @@ export function GameScreen() {
             <div className="flex gap-4">
               <Button onClick={() => handleOffPlay('run')}>🏃 Run</Button>
               <Button onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
-              {state.driveProgress >= 65 && (
+              {state.driveProgress >= FG_RANGE_YARD && (
                 <Button onClick={handleKickFG}>🦵 Kick FG</Button>
               )}
             </div>

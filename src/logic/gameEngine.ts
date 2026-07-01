@@ -1,5 +1,12 @@
 // src/logic/gameEngine.ts
 import type { Roster, Player, TeamUnit } from '../types'
+import {
+  ADVANTAGE_BONUS,
+  FG_RANGE_YARD,
+  FG_DIFFICULTY_MAX,
+  FG_DIFFICULTY_MIN,
+  FG_DIFFICULTY_YARD_RANGE,
+} from './gameConstants'
 
 const FALLBACK_DIE = [5, 5, 5, 5, 5, 5]
 
@@ -19,7 +26,7 @@ export function computeAdvantageBonus(
   const defCorrect =
     (offCall === 'run' && defCall === 'run-stop') ||
     (offCall === 'pass' && defCall === 'pass-stop')
-  return defCorrect ? -5 : 5
+  return defCorrect ? -ADVANTAGE_BONUS : ADVANTAGE_BONUS
 }
 
 export function computeYardsGained(
@@ -33,7 +40,13 @@ export function computeYardsGained(
 }
 
 export function computeFGDifficulty(progress: number): number {
-  return Math.min(15, Math.max(1, Math.round(15 - ((progress - 65) / 34) * 14)))
+  return Math.min(
+    FG_DIFFICULTY_MAX,
+    Math.max(
+      FG_DIFFICULTY_MIN,
+      Math.round(FG_DIFFICULTY_MAX - ((progress - FG_RANGE_YARD) / FG_DIFFICULTY_YARD_RANGE) * (FG_DIFFICULTY_MAX - FG_DIFFICULTY_MIN)),
+    ),
+  )
 }
 
 export function getOffensePlayers(
