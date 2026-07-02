@@ -88,7 +88,7 @@ export function PlayerRollCard({
         >
           {displayValue !== null ? displayValue : '?'}
         </div>
-        {displayValue !== null && bonus !== null && bonus !== undefined && (
+        {displayValue !== null && bonus !== null && bonus !== undefined && bonus !== 0 && (
           <span className={`text-sm font-bold tabular-nums ${bonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
             {bonus >= 0 ? `+${bonus}` : `${bonus}`}
           </span>

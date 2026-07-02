@@ -152,7 +152,7 @@ function buildAbilityContext(
   allOffRolls: (number | null)[],
   allDefRolls: (number | null)[],
 ): AbilityContext {
-  const quarter = Math.floor(state.driveIndex / 4) + 1
+  const quarter = Math.floor(state.driveIndex / DRIVES_PER_QUARTER) + 1
   const playerTeamIsUser =
     (side === 'offense' && state.possession === 'user') ||
     (side === 'defense' && state.possession === 'opponent')
@@ -161,12 +161,16 @@ function buildAbilityContext(
     : state.opponentScore < state.userScore
   const isLastTeamDrive =
     side === 'offense' && (
-      (state.possession === 'user' && state.driveIndex === 14) ||
-      (state.possession === 'opponent' && state.driveIndex === 15)
+      (state.possession === 'user' && state.driveIndex === DRIVES_PER_GAME - 2) ||
+      (state.possession === 'opponent' && state.driveIndex === DRIVES_PER_GAME - 1)
     )
-  const ownPlayHistory = state.possession === 'user' ? state.userPlayHistory : state.opponentPlayHistory
-  const oppPlayHistory = state.possession === 'user' ? state.opponentPlayHistory : state.userPlayHistory
-  const ownRunsThisDrive = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
+  // side-relative: own = evaluating player's team, opp = the other team
+  const offenseHistory = state.possession === 'user' ? state.userPlayHistory : state.opponentPlayHistory
+  const defenseHistory = state.possession === 'user' ? state.opponentPlayHistory : state.userPlayHistory
+  const ownPlayHistory = side === 'offense' ? offenseHistory : defenseHistory
+  const oppPlayHistory = side === 'offense' ? defenseHistory : offenseHistory
+  const offenseRunsThisDrive = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
+  const ownRunsThisDrive = side === 'offense' ? offenseRunsThisDrive : 0  // defense has no runs this drive
   const olineIdx = state.offPlayers.findIndex(p => p.position === 'OLine')
   const olineRoll = olineIdx >= 0 ? (allOffRolls[olineIdx] ?? null) : null
   const wrPlayer = state.offPlayers.find(p => isPlayer(p) && p.position === 'WR') as Player | undefined
@@ -201,9 +205,9 @@ function recomputeBlessed(
   allDefRolls: (number | null)[],
 ): (number | null)[] {
   const result = [...bonuses]
+  const ctx = buildAbilityContext(side, state, allOffRolls, allDefRolls)  // hoisted
   players.forEach((player, i) => {
     if (player.ability && isPostRollAbility(player.ability)) {
-      const ctx = buildAbilityContext(side, state, allOffRolls, allDefRolls)
       result[i] = computePostRollBonus(player.ability, ctx)
     }
   })
@@ -293,7 +297,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         // YAC activation: if WR rolls 12+, mark their slot active for future plays
         let newWr1YacActive = state.wr1YacActive
         let newWr2YacActive = state.wr2YacActive
-        if (isPlayer(player) && player.position === 'WR' && value >= 12) {
+        if (isPlayer(player) && player.position === 'WR' && value >= 12 && state.selectedWR !== null) {
           if (state.selectedWR === 'WR1') newWr1YacActive = true
           else newWr2YacActive = true
         }

@@ -180,6 +180,33 @@ describe('computeRollBonus — unknown id', () => {
     expect(computeRollBonus('does-not-exist', 10, base)).toBe(0))
 })
 
+describe('defensive ability — stack-the-box sees offense history', () => {
+  it('fires when oppPlayHistory has consecutive runs (as set by buildAbilityContext for defense)', () => {
+    // When user is on offense running repeatedly, opponent DLine with stack-the-box
+    // should fire. The ctx.oppPlayHistory for a defensive player must be the OFFENSE's history.
+    const ctx: AbilityContext = {
+      ...base,
+      playerSide: 'defense',
+      playCall: 'run',
+      oppPlayHistory: ['run', 'run'],  // this is the OFFENSE's history (correct convention)
+    }
+    expect(computeRollBonus('stack-the-box', 5, ctx)).toBe(7)
+  })
+
+  it('does NOT fire when oppPlayHistory has the WRONG team (defender own history)', () => {
+    // Simulates the old bug: defender's own past offensive runs in oppPlayHistory
+    // should NOT trigger stack-the-box, which should see the current offense's runs
+    const ctx: AbilityContext = {
+      ...base,
+      playerSide: 'defense',
+      playCall: 'run',
+      oppPlayHistory: [],  // offense hasn't run yet this drive
+      ownPlayHistory: ['run', 'run'],  // defender's own PAST offensive runs
+    }
+    expect(computeRollBonus('stack-the-box', 5, ctx)).toBe(0)
+  })
+})
+
 describe('computePostRollBonus — blessed', () => {
   it('blessed-evens: counts evens across all rolls', () => {
     const ctx = { ...base, allOffRolls: [10, 7, null] as (number|null)[], allDefRolls: [8, 9] as (number|null)[] }
