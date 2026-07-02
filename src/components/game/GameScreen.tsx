@@ -18,7 +18,7 @@ import {
   TD_YARD,
   FG_RANGE_YARD,
 } from '../../logic/gameConstants'
-import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult } from '../../types'
+import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
 
 // ─── Internal types ────────────────────────────────────────────────────────────
 
@@ -55,6 +55,15 @@ interface GameState {
   fgRoll: number | null
   fgDifficulty: number | null
   driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | null
+  weather: WeatherCondition
+  userPlayHistory: ('run' | 'pass')[]
+  opponentPlayHistory: ('run' | 'pass')[]
+  userRunsThisDrive: number
+  opponentRunsThisDrive: number
+  wr1YacActive: boolean
+  wr2YacActive: boolean
+  offBonuses: (number | null)[]
+  defBonuses: (number | null)[]
 }
 
 type GameAction =
@@ -94,6 +103,12 @@ function driveReset(): Partial<GameState> {
     fgRoll: null,
     fgDifficulty: null,
     driveOutcome: null,
+    userRunsThisDrive: 0,
+    opponentRunsThisDrive: 0,
+    wr1YacActive: false,
+    wr2YacActive: false,
+    offBonuses: [],
+    defBonuses: [],
   }
 }
 
@@ -108,6 +123,8 @@ function playReset(): Partial<GameState> {
     defRolls: [],
     yardsGained: null,
     driveOutcome: null,
+    offBonuses: [],
+    defBonuses: [],
   }
 }
 
@@ -133,6 +150,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           ...state,
           offensePlayCall: 'pass',
           defPlayers,
+          defBonuses: new Array(defPlayers.length).fill(null),
           phase: 'choose-wr',
         }
       }
@@ -144,6 +162,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defPlayers,
         offRolls: new Array(offPlayers.length).fill(null),
         defRolls: new Array(defPlayers.length).fill(null),
+        offBonuses: new Array(offPlayers.length).fill(null),
+        defBonuses: new Array(defPlayers.length).fill(null),
         phase: 'rolling-offense',
       }
     }
@@ -158,6 +178,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         offPlayers,
         offRolls: new Array(offPlayers.length).fill(null),
         defRolls: new Array(state.defPlayers.length).fill(null),
+        offBonuses: new Array(offPlayers.length).fill(null),
+        defBonuses: new Array(state.defPlayers.length).fill(null),
         phase: 'rolling-offense',
       }
     }
@@ -172,6 +194,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defPlayers,
         offRolls: new Array(offPlayers.length).fill(null),
         defRolls: new Array(defPlayers.length).fill(null),
+        offBonuses: new Array(offPlayers.length).fill(null),
+        defBonuses: new Array(defPlayers.length).fill(null),
         phase: 'rolling-offense',
       }
     }
@@ -204,6 +228,21 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     case 'RESOLVE_PLAY': {
       const { nextOpponentPlayCall } = action
       if (state.yardsGained === null) return state
+
+      // Track play history and run counters (carries across drives)
+      const newUserPlayHistory = state.possession === 'user'
+        ? [...state.userPlayHistory, state.offensePlayCall!]
+        : state.userPlayHistory
+      const newOppPlayHistory = state.possession === 'opponent'
+        ? [...state.opponentPlayHistory, state.offensePlayCall!]
+        : state.opponentPlayHistory
+      const newUserRunsThisDrive = state.possession === 'user' && state.offensePlayCall === 'run'
+        ? state.userRunsThisDrive + 1
+        : state.userRunsThisDrive
+      const newOppRunsThisDrive = state.possession === 'opponent' && state.offensePlayCall === 'run'
+        ? state.opponentRunsThisDrive + 1
+        : state.opponentRunsThisDrive
+
       const newProgress = Math.min(100, Math.max(0, state.driveProgress + state.yardsGained))
 
       if (newProgress >= TD_YARD) {
@@ -215,6 +254,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           opponentScore: state.possession === 'opponent' ? state.opponentScore + TD_POINTS : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
           driveOutcome: 'TD',
+          userPlayHistory: newUserPlayHistory,
+          opponentPlayHistory: newOppPlayHistory,
+          userRunsThisDrive: newUserRunsThisDrive,
+          opponentRunsThisDrive: newOppRunsThisDrive,
           phase: 'drive-end',
         }
       }
@@ -225,6 +268,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             ...state,
             driveProgress: newProgress,
             fgDifficulty: computeFGDifficulty(newProgress),
+            userPlayHistory: newUserPlayHistory,
+            opponentPlayHistory: newOppPlayHistory,
+            userRunsThisDrive: newUserRunsThisDrive,
+            opponentRunsThisDrive: newOppRunsThisDrive,
             phase: 'fg-roll',
           }
         }
@@ -234,6 +281,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           driveProgress: newProgress,
           driveHistory: [...state.driveHistory, driveResult],
           driveOutcome: 'Punt',
+          userPlayHistory: newUserPlayHistory,
+          opponentPlayHistory: newOppPlayHistory,
+          userRunsThisDrive: newUserRunsThisDrive,
+          opponentRunsThisDrive: newOppRunsThisDrive,
           phase: 'drive-end',
         }
       }
@@ -246,6 +297,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         driveProgress: newProgress,
         down: state.down + 1,
         opponentPlayCall: state.possession === 'opponent' ? nextOpponentPlayCall : state.opponentPlayCall,
+        userPlayHistory: newUserPlayHistory,
+        opponentPlayHistory: newOppPlayHistory,
+        userRunsThisDrive: newUserRunsThisDrive,
+        opponentRunsThisDrive: newOppRunsThisDrive,
         phase: nextPhase,
       }
     }
@@ -298,7 +353,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
 // ─── Initial state ─────────────────────────────────────────────────────────────
 
-function makeInitialState(): GameState {
+function makeInitialState(weather: WeatherCondition): GameState {
   return {
     driveIndex: 0,
     possession: 'user',
@@ -320,6 +375,15 @@ function makeInitialState(): GameState {
     fgRoll: null,
     fgDifficulty: null,
     driveOutcome: null,
+    weather,
+    userPlayHistory: [],
+    opponentPlayHistory: [],
+    userRunsThisDrive: 0,
+    opponentRunsThisDrive: 0,
+    wr1YacActive: false,
+    wr2YacActive: false,
+    offBonuses: [],
+    defBonuses: [],
   }
 }
 
@@ -346,8 +410,8 @@ function buildSimulationResult(
 // ─── Component ─────────────────────────────────────────────────────────────────
 
 export function GameScreen() {
-  const { roster, currentOpponentRoster, currentOpponent, recordGameResult } = useGameStore()
-  const [state, dispatch] = useReducer(gameReducer, undefined, makeInitialState)
+  const { roster, currentOpponentRoster, currentOpponent, recordGameResult, currentWeather } = useGameStore()
+  const [state, dispatch] = useReducer(gameReducer, currentWeather ?? 'Clear', makeInitialState)
 
   const opponentLabel = currentOpponent
     ? `${currentOpponent.team} '${String(currentOpponent.year).slice(2)}`
