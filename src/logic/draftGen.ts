@@ -22,8 +22,8 @@ export async function generateDraftOffer(): Promise<DraftOffer> {
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility(p.position) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility(u.position) })),
   }
 }
 
@@ -36,8 +36,8 @@ export async function rerollDraftOfferTeam(currentTeam: string, currentYear: num
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility(p.position) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility(u.position) })),
   }
 }
 
@@ -50,8 +50,8 @@ export async function rerollDraftOfferYear(currentTeam: string, currentYear: num
   return {
     team,
     year,
-    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility() })),
-    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility() })),
+    players: players.map(p => ({ ...p, die: assignDie(p.rating), ability: assignAbility(p.position) })),
+    units: units.map(u => ({ ...u, die: assignDie(u.rating), ability: assignAbility(u.position) })),
   }
 }
 

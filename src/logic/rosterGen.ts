@@ -33,12 +33,12 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 
   if (UNIT_POSITIONS.has(position)) {
     const match = units.find(u => u.position === targetPos)
-    if (match) return { ...match, die: assignDie(match.rating), ability: assignAbility() }
+    if (match) return { ...match, die: assignDie(match.rating), ability: assignAbility(match.position as UnitPosition) }
   } else {
     const matches = players.filter(p => p.position === targetPos)
     if (matches.length > 0) {
       const picked = pickRandom(matches)
-      return { ...picked, die: assignDie(picked.rating), ability: assignAbility() }
+      return { ...picked, die: assignDie(picked.rating), ability: assignAbility(picked.position) }
     }
   }
 
@@ -63,7 +63,7 @@ export async function generateRandomRoster(): Promise<Roster> {
       ? createPracticeSquadUnit(PLAYER_POSITION_MAP[pos] as UnitPosition)
       : createPracticeSquadPlayer(PLAYER_POSITION_MAP[pos] as IndividualPosition)
     slot.die = assignDie(slot.rating)
-    slot.ability = assignAbility()
+    slot.ability = assignAbility(slot.position as IndividualPosition | UnitPosition)
     slots[pos] = slot
   }
   let remainingBudget = 50
@@ -134,7 +134,7 @@ export function selectTopRoster(data: TeamRosterData): Roster {
   const ks = players.filter(p => p.position === 'K')
 
   function withExtras<T extends Player | TeamUnit>(slot: T | null): T | null {
-    return slot ? { ...slot, die: assignDie(slot.rating), ability: assignAbility() } as T : null
+    return slot ? { ...slot, die: assignDie(slot.rating), ability: assignAbility(slot.position) } as T : null
   }
 
   return {
