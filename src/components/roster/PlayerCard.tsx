@@ -6,6 +6,7 @@ import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
+import { ABILITY_DISPLAY } from '../../logic/abilityEngine'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
 interface PlayerCardProps {
@@ -179,7 +180,9 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
       {tab === 'die' && slot.die && <DieFaces faces={slot.die} />}
       {tab === 'die' && !slot.die && <p className="text-xs text-gray-400">—</p>}
       {tab === 'die' && slot.ability && (
-        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">{slot.ability}</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
+          {ABILITY_DISPLAY[slot.ability] ?? slot.ability}
+        </p>
       )}
       {tab === 'stats' && <div>{renderStats(slot)}</div>}
     </div>
