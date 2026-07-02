@@ -1,6 +1,7 @@
-import type { ReactNode } from 'react'
+import { useState, type ReactNode } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { Button } from '../ui/Button'
+import { BoxScore } from './BoxScore'
 import type { DriveOutcome, DriveResult } from '../../types'
 
 const QUARTER_LABELS: Record<number, string> = {
@@ -48,8 +49,26 @@ function DriveRow({ drive, userScore, oppScore }: DriveRowProps) {
   )
 }
 
+type Tab = 'drives' | 'boxscore'
+
+function TabButton({ label, active, onClick }: { label: string; active: boolean; onClick: () => void }) {
+  return (
+    <button
+      onClick={onClick}
+      className={`px-4 py-2.5 text-xs font-bold uppercase tracking-wider border-b-2 transition-colors ${
+        active
+          ? 'text-white border-indigo-500'
+          : 'text-gray-500 border-transparent hover:text-gray-300'
+      }`}
+    >
+      {label}
+    </button>
+  )
+}
+
 export function SimulationModal() {
   const { simulationResult, advanceRound, isLoading } = useGameStore()
+  const [tab, setTab] = useState<Tab>('drives')
   if (!simulationResult) return null
 
   const { userTeamLabel, opponentTeamLabel, drives, userScore, opponentScore, winner } = simulationResult
@@ -80,9 +99,13 @@ export function SimulationModal() {
           <p className={`text-center text-lg font-bold tracking-widest ${winnerColor}`}>{winnerText}</p>
         </div>
 
+        <div className="flex border-b border-gray-800 px-6">
+          <TabButton label="Drive Log" active={tab === 'drives'} onClick={() => setTab('drives')} />
+          <TabButton label="Box Score" active={tab === 'boxscore'} onClick={() => setTab('boxscore')} />
+        </div>
+
         <div className="flex-1 overflow-y-auto px-6 py-4">
-          <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-3">Drive Log</p>
-          {(() => {
+          {tab === 'drives' && (() => {
             const elements: ReactNode[] = []
             let lastQuarter = 0
             for (const { drive, runningUser, runningOpp, key } of rows) {
@@ -98,6 +121,8 @@ export function SimulationModal() {
             }
             return elements
           })()}
+
+          {tab === 'boxscore' && <BoxScore result={simulationResult} />}
         </div>
 
         <div className="p-4 border-t border-gray-800 flex justify-end">

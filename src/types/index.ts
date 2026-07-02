@@ -176,6 +176,13 @@ export interface DriveResult {
   outcome: DriveOutcome
   scoringTeam: 'user' | 'opponent' | null
   points: number
+  // Box score stats (populated by interactive game only)
+  yards?: number
+  runPlays?: number
+  passPlays?: number
+  negativePlays?: number
+  scoringPlayerName?: string
+  scoringPlayerPos?: 'RB' | 'WR'
 }
 
 export interface SimulationResult {
