@@ -19,6 +19,14 @@ import {
   FG_RANGE_YARD,
 } from '../../logic/gameConstants'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
+import {
+  computeRollBonus, computePostRollBonus, isPostRollAbility,
+} from '../../logic/abilityEngine'
+import type { AbilityContext } from '../../logic/abilityEngine'
+
+function isPlayer(p: Player | TeamUnit): p is Player {
+  return 'name' in p
+}
 
 // ─── Internal types ────────────────────────────────────────────────────────────
 
@@ -138,6 +146,70 @@ function buildDriveResult(
   return { possession: state.possession, quarter, outcome, scoringTeam, points }
 }
 
+function buildAbilityContext(
+  side: 'offense' | 'defense',
+  state: GameState,
+  allOffRolls: (number | null)[],
+  allDefRolls: (number | null)[],
+): AbilityContext {
+  const quarter = Math.floor(state.driveIndex / 4) + 1
+  const playerTeamIsUser =
+    (side === 'offense' && state.possession === 'user') ||
+    (side === 'defense' && state.possession === 'opponent')
+  const playerTeamIsLosing = playerTeamIsUser
+    ? state.userScore < state.opponentScore
+    : state.opponentScore < state.userScore
+  const isLastTeamDrive =
+    side === 'offense' && (
+      (state.possession === 'user' && state.driveIndex === 14) ||
+      (state.possession === 'opponent' && state.driveIndex === 15)
+    )
+  const ownPlayHistory = state.possession === 'user' ? state.userPlayHistory : state.opponentPlayHistory
+  const oppPlayHistory = state.possession === 'user' ? state.opponentPlayHistory : state.userPlayHistory
+  const ownRunsThisDrive = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
+  const olineIdx = state.offPlayers.findIndex(p => p.position === 'OLine')
+  const olineRoll = olineIdx >= 0 ? (allOffRolls[olineIdx] ?? null) : null
+  const wrPlayer = state.offPlayers.find(p => isPlayer(p) && p.position === 'WR') as Player | undefined
+  return {
+    quarter,
+    driveIndex: state.driveIndex,
+    possession: state.possession,
+    playerSide: side,
+    playerTeamIsLosing,
+    isLastTeamDrive,
+    driveProgress: state.driveProgress,
+    down: state.down,
+    playCall: state.offensePlayCall!,
+    weather: state.weather,
+    ownPlayHistory,
+    oppPlayHistory,
+    ownRunsThisDrive,
+    wrYacActive: false,   // overridden per-player below for WRs
+    olineRoll,
+    opponentWRRating: wrPlayer?.rating,
+    allOffRolls,
+    allDefRolls,
+  }
+}
+
+function recomputeBlessed(
+  players: (Player | TeamUnit)[],
+  bonuses: (number | null)[],
+  side: 'offense' | 'defense',
+  state: GameState,
+  allOffRolls: (number | null)[],
+  allDefRolls: (number | null)[],
+): (number | null)[] {
+  const result = [...bonuses]
+  players.forEach((player, i) => {
+    if (player.ability && isPostRollAbility(player.ability)) {
+      const ctx = buildAbilityContext(side, state, allOffRolls, allDefRolls)
+      result[i] = computePostRollBonus(player.ability, ctx)
+    }
+  })
+  return result
+}
+
 // ─── Reducer ──────────────────────────────────────────────────────────────────
 
 function gameReducer(state: GameState, action: GameAction): GameState {
@@ -205,24 +277,77 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       if (side === 'offense') {
         const newOffRolls = [...state.offRolls]
         newOffRolls[index] = value
+        const player = state.offPlayers[index]
+
+        // Roll-time bonus for this player
+        let newOffBonuses = [...state.offBonuses]
+        if (player.ability && !isPostRollAbility(player.ability)) {
+          const isWR = isPlayer(player) && player.position === 'WR'
+          const wrYacActive = isWR
+            ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
+            : false
+          const ctx = { ...buildAbilityContext('offense', state, newOffRolls, state.defRolls), wrYacActive }
+          newOffBonuses[index] = computeRollBonus(player.ability, value, ctx)
+        }
+
+        // YAC activation: if WR rolls 12+, mark their slot active for future plays
+        let newWr1YacActive = state.wr1YacActive
+        let newWr2YacActive = state.wr2YacActive
+        if (isPlayer(player) && player.position === 'WR' && value >= 12) {
+          if (state.selectedWR === 'WR1') newWr1YacActive = true
+          else newWr2YacActive = true
+        }
+
+        // Re-evaluate Blessed bonuses for all players now that rolls have changed
+        newOffBonuses = recomputeBlessed(state.offPlayers, newOffBonuses, 'offense', state, newOffRolls, state.defRolls)
+        const newDefBonuses = recomputeBlessed(state.defPlayers, [...state.defBonuses], 'defense', state, newOffRolls, state.defRolls)
+
         const allDone = newOffRolls.every(r => r !== null)
         return {
           ...state,
           offRolls: newOffRolls,
+          offBonuses: newOffBonuses,
+          defBonuses: newDefBonuses,
+          wr1YacActive: newWr1YacActive,
+          wr2YacActive: newWr2YacActive,
           phase: allDone ? 'rolling-defense' : 'rolling-offense',
         }
       }
+
+      // Defense side
       const newDefRolls = [...state.defRolls]
       newDefRolls[index] = value
+      const player = state.defPlayers[index]
+
+      // Roll-time bonus for this player
+      let newDefBonuses = [...state.defBonuses]
+      if (player.ability && !isPostRollAbility(player.ability)) {
+        const ctx = buildAbilityContext('defense', state, state.offRolls, newDefRolls)
+        newDefBonuses[index] = computeRollBonus(player.ability, value, ctx)
+      }
+
+      // Re-evaluate Blessed bonuses
+      const newOffBonuses = recomputeBlessed(state.offPlayers, [...state.offBonuses], 'offense', state, state.offRolls, newDefRolls)
+      newDefBonuses = recomputeBlessed(state.defPlayers, newDefBonuses, 'defense', state, state.offRolls, newDefRolls)
+
       const allDone = newDefRolls.every(r => r !== null)
-      if (!allDone) return { ...state, defRolls: newDefRolls }
+      if (!allDone) {
+        return { ...state, defRolls: newDefRolls, defBonuses: newDefBonuses, offBonuses: newOffBonuses }
+      }
       const bonus = computeAdvantageBonus(state.offensePlayCall!, state.defensePlayCall!)
       const yards = computeYardsGained(
         state.offRolls as number[],
         newDefRolls as number[],
         bonus,
       )
-      return { ...state, defRolls: newDefRolls, yardsGained: yards, phase: 'show-play-result' }
+      return {
+        ...state,
+        defRolls: newDefRolls,
+        defBonuses: newDefBonuses,
+        offBonuses: newOffBonuses,
+        yardsGained: yards,
+        phase: 'show-play-result',
+      }
     }
 
     case 'RESOLVE_PLAY': {
@@ -586,6 +711,8 @@ export function GameScreen() {
             defPlayers={state.defPlayers}
             offRolls={state.offRolls}
             defRolls={state.defRolls}
+            offBonuses={state.offBonuses}
+            defBonuses={state.defBonuses}
             offensePlayCall={state.offensePlayCall}
             defensePlayCall={state.defensePlayCall}
             opponentPlayCall={state.opponentPlayCall}
