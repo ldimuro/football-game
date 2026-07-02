@@ -3,6 +3,7 @@ import { Badge } from '../ui/Badge'
 import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
+import { ABILITY_DISPLAY } from '../../logic/abilityEngine'
 import { ROLL_ANIMATION_DURATION_MS, ROLL_ANIMATION_INTERVAL_MS } from '../../logic/gameConstants'
 import type { Player, TeamUnit } from '../../types'
 
@@ -17,10 +18,12 @@ export function PlayerRollCard({
   player,
   roll,
   isNext,
+  bonus,
 }: {
   player: Player | TeamUnit
   roll: number | null
   isNext: boolean
+  bonus?: number | null
 }) {
   const [displayValue, setDisplayValue] = useState<number | null>(null)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -71,16 +74,25 @@ export function PlayerRollCard({
       </div>
       <DieFaces faces={getPlayerDie(player)} />
       {player.ability && (
-        <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight">{player.ability}</p>
+        <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight">
+          {ABILITY_DISPLAY[player.ability] ?? player.ability}
+        </p>
       )}
-      <div
-        className={`text-center text-2xl font-bold tabular-nums transition-colors ${
-          displayValue !== null
-            ? isAnimating ? 'text-yellow-400' : 'text-white'
-            : 'text-gray-600'
-        }`}
-      >
-        {displayValue !== null ? displayValue : '?'}
+      <div className="flex items-center justify-center gap-1.5">
+        <div
+          className={`text-center text-2xl font-bold tabular-nums transition-colors ${
+            displayValue !== null
+              ? isAnimating ? 'text-yellow-400' : 'text-white'
+              : 'text-gray-600'
+          }`}
+        >
+          {displayValue !== null ? displayValue : '?'}
+        </div>
+        {displayValue !== null && bonus !== null && bonus !== undefined && (
+          <span className={`text-sm font-bold tabular-nums ${bonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+            {bonus >= 0 ? `+${bonus}` : `${bonus}`}
+          </span>
+        )}
       </div>
     </div>
   )

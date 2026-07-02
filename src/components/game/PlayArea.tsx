@@ -9,6 +9,8 @@ interface PlayAreaProps {
   defPlayers: (Player | TeamUnit)[]
   offRolls: (number | null)[]
   defRolls: (number | null)[]
+  offBonuses?: (number | null)[]
+  defBonuses?: (number | null)[]
   offensePlayCall: 'run' | 'pass' | null
   defensePlayCall: 'run-stop' | 'pass-stop' | null
   opponentPlayCall: 'run' | 'pass' | null
@@ -51,6 +53,8 @@ export function PlayArea({
   possession, phase,
   offPlayers, defPlayers,
   offRolls, defRolls,
+  offBonuses = [],
+  defBonuses = [],
   offensePlayCall, defensePlayCall, opponentPlayCall,
   yardsGained, fgRoll, fgDifficulty, driveOutcome,
   kicker,
@@ -116,6 +120,7 @@ export function PlayArea({
                   player={player}
                   roll={offRolls[i] ?? null}
                   isNext={offRollingIdx === i}
+                  bonus={offBonuses[i] ?? null}
                 />
               ))}
             </div>
@@ -136,6 +141,7 @@ export function PlayArea({
                   player={player}
                   roll={defRolls[i] ?? null}
                   isNext={defRollingIdx === i}
+                  bonus={defBonuses[i] ?? null}
                 />
               ))}
             </div>
