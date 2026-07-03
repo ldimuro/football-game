@@ -6,6 +6,7 @@ import {
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
 import { playerCost, slotCost } from '../logic/playerValue'
+import { CAP_SPACE } from '../logic/gameConstants'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
   DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
@@ -58,7 +59,7 @@ function rosterCost(roster: Roster): number {
 }
 
 function coinsForRoster(roster: Roster): number {
-  return 200 - rosterCost(roster)
+  return CAP_SPACE - rosterCost(roster)
 }
 
 async function buildNextRoundData(remainingCoins: number) {

@@ -26,3 +26,10 @@ export function assignAbility(position: IndividualPosition | UnitPosition): stri
   const pool = [...ALL_ABILITY_IDS, ...posSpecific]
   return pool[Math.floor(Math.random() * pool.length)]
 }
+
+/** Always returns an ability, ignoring ABILITY_RATE. Use for guaranteed ability assignment. */
+export function forceAssignAbility(position: IndividualPosition | UnitPosition): string {
+  const posSpecific = POSITION_ABILITY_IDS[position] ?? []
+  const pool = [...ALL_ABILITY_IDS, ...posSpecific]
+  return pool[Math.floor(Math.random() * pool.length)]
+}

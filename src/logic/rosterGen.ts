@@ -2,7 +2,14 @@ import { loadTeamMeta, loadTeamRoster } from './dataLoader'
 import { playerCost } from './playerValue'
 import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 import { assignDie } from './diceGen'
-import { assignAbility } from './abilityGen'
+import { assignAbility, forceAssignAbility } from './abilityGen'
+import {
+  SHOP_SLOTS,
+  SETUP_GOOD_MIN_RATING, SETUP_GOOD_MAX_RATING,
+  SETUP_GREAT_MIN_RATING, SETUP_GREAT_MAX_RATING,
+  SETUP_ELITE_MIN_RATING,
+  SETUP_ABILITY_MIN, SETUP_ABILITY_MAX,
+} from './gameConstants'
 import type {
   Roster, RosterPosition, Player, TeamUnit, TeamMeta, TeamRosterData, IndividualPosition, UnitPosition,
   QBStats, WRStats, RBStats, KStats,
@@ -52,6 +59,38 @@ const ALL_ROSTER_POSITIONS: RosterPosition[] = [...INDIVIDUAL_ROSTER_POSITIONS, 
 
 const GENERATED_SLOT_COUNT = 3
 
+/** Generates a slot whose rating falls within [minRating, maxRating]. Returns without an ability. */
+async function generateSlotInTier(
+  position: RosterPosition,
+  minRating: number,
+  maxRating: number,
+  retries = 15,
+): Promise<Player | TeamUnit> {
+  const meta = await getMeta()
+  const { team, year } = pickRandom(meta)
+  const { players, units } = await loadTeamRoster(year, team)
+  const targetPos = PLAYER_POSITION_MAP[position]
+  const inTier = (r: number | undefined) => r !== undefined && r >= minRating && r <= maxRating
+
+  if (UNIT_POSITIONS.has(position)) {
+    const match = units.find(u => u.position === targetPos && inTier(u.rating))
+    if (match) return { ...match, die: assignDie(match.rating), ability: undefined }
+  } else {
+    const matches = players.filter(p => p.position === targetPos && inTier(p.rating))
+    if (matches.length > 0) {
+      const picked = pickRandom(matches)
+      return { ...picked, die: assignDie(picked.rating), ability: undefined }
+    }
+  }
+
+  if (retries <= 0) {
+    // Fallback: accept any player at this position
+    const slot = await generateRandomSlot(position)
+    return { ...slot, ability: undefined }
+  }
+  return generateSlotInTier(position, minRating, maxRating, retries - 1)
+}
+
 export async function generateRandomRoster(): Promise<Roster> {
   const shuffled = [...ALL_ROSTER_POSITIONS].sort(() => Math.random() - 0.5)
   const generatedPositions = shuffled.slice(0, GENERATED_SLOT_COUNT)
@@ -66,24 +105,33 @@ export async function generateRandomRoster(): Promise<Roster> {
     slot.ability = assignAbility(slot.position as IndividualPosition | UnitPosition)
     slots[pos] = slot
   }
-  let remainingBudget = 50
 
-  for (const pos of generatedPositions) {
-    let best = await generateRandomSlot(pos)
-    let bestCost = playerCost(best.rating)
+  // One player per tier, shuffled across the 3 generated positions
+  const tierBounds: [number, number][] = (
+    [
+      [SETUP_GOOD_MIN_RATING, SETUP_GOOD_MAX_RATING],
+      [SETUP_GREAT_MIN_RATING, SETUP_GREAT_MAX_RATING],
+      [SETUP_ELITE_MIN_RATING, 99],
+    ] as [number, number][]
+  ).sort(() => Math.random() - 0.5)
 
-    for (let attempt = 1; attempt < 5; attempt++) {
-      if (bestCost <= remainingBudget) break
-      const candidate = await generateRandomSlot(pos)
-      const candidateCost = playerCost(candidate.rating)
-      if (candidateCost < bestCost) {
-        best = candidate
-        bestCost = candidateCost
-      }
-    }
+  const generatedSlots: (Player | TeamUnit)[] = []
+  for (let i = 0; i < generatedPositions.length; i++) {
+    const [minRating, maxRating] = tierBounds[i]
+    const slot = await generateSlotInTier(generatedPositions[i], minRating, maxRating)
+    generatedSlots.push(slot)
+    slots[generatedPositions[i]] = slot
+  }
 
-    slots[pos] = best
-    remainingBudget = Math.max(0, remainingBudget - bestCost)
+  // Guarantee 1–2 of the 3 starting players have an ability
+  const abilityCount = SETUP_ABILITY_MIN + Math.floor(Math.random() * (SETUP_ABILITY_MAX - SETUP_ABILITY_MIN + 1))
+  const abilityIndices = [...Array(generatedPositions.length).keys()]
+    .sort(() => Math.random() - 0.5)
+    .slice(0, abilityCount)
+  for (const idx of abilityIndices) {
+    const pos = generatedPositions[idx]
+    const base = generatedSlots[idx]
+    slots[pos] = { ...base, ability: forceAssignAbility(base.position as IndividualPosition | UnitPosition) }
   }
 
   return {
@@ -104,7 +152,7 @@ const SHOP_POSITION_POOL: RosterPosition[] = [
 
 export async function generateShopOffer(remainingCoins: number): Promise<(Player | TeamUnit)[]> {
   const shuffled = [...SHOP_POSITION_POOL].sort(() => Math.random() - 0.5)
-  const positions = shuffled.slice(0, 3)
+  const positions = shuffled.slice(0, SHOP_SLOTS)
   const offer: (Player | TeamUnit)[] = []
 
   for (const pos of positions) {

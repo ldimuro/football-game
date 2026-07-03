@@ -2,6 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { generateRandomRoster, generateRandomSlot, generateShopOffer } from './rosterGen'
 import { slotCost } from './playerValue'
 import { PRACTICE_SQUAD_ID_PREFIX } from './practiceSquad'
+import { SETUP_ABILITY_MIN, SETUP_ABILITY_MAX } from './gameConstants'
 import type { TeamRosterData } from '../types'
 
 vi.mock('./dataLoader', () => ({
@@ -161,16 +162,16 @@ describe('ability assignment', () => {
     expect(slot.ability!.length).toBeGreaterThan(0)
   })
 
-  it('generateRandomRoster assigns an ability to every slot', async () => {
-    vi.spyOn(Math, 'random').mockReturnValue(0.1) // force assignment (< 0.4)
+  it('generateRandomRoster assigns SETUP_ABILITY_MIN–SETUP_ABILITY_MAX abilities among the 3 generated slots', async () => {
+    vi.spyOn(Math, 'random').mockReturnValue(0.1)
     const roster = await generateRandomRoster()
-    const slots = [
+    const allSlots = [
       roster.QB, roster.WR1, roster.WR2, roster.RB,
       roster.K, roster.OLine, roster.DLine, roster.Secondary,
     ]
-    for (const slot of slots) {
-      expect(typeof slot?.ability).toBe('string')
-      expect(slot?.ability!.length).toBeGreaterThan(0)
-    }
+    const generatedSlots = allSlots.filter(s => !s?.id.startsWith(PRACTICE_SQUAD_ID_PREFIX))
+    const abilityCount = generatedSlots.filter(s => s?.ability !== undefined).length
+    expect(abilityCount).toBeGreaterThanOrEqual(SETUP_ABILITY_MIN)
+    expect(abilityCount).toBeLessThanOrEqual(SETUP_ABILITY_MAX)
   })
 })
