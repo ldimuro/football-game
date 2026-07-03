@@ -48,7 +48,7 @@ describe('computeAggregateStats', () => {
       },
       DLine: {
         id: 'd1', position: 'DLine', team: 'XX', year: 2020,
-        stats: { sacksPerGame: 3, rushYPCAllowed: 4.0, rushTDPctAllowed: 0.04, normalizedRank: 9 },
+        stats: { sackPct: 0.08, rushYPCAllowed: 4.0, rushYPGAllowed: 110, rushTDPerGameAllowed: 0.04, blitzPct: null, pressurePct: null, normalizedRank: 9 },
       },
       Secondary: {
         id: 's1', position: 'Secondary', team: 'XX', year: 2020,

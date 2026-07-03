@@ -53,10 +53,6 @@ export function computeRosterSummary(roster: Roster): RosterSummary {
   const wr1 = roster.WR1?.stats as WRStats | undefined
   const wr2 = roster.WR2?.stats as WRStats | undefined
   const rb = roster.RB?.stats as RBStats | undefined
-  const oLineStats = roster.OLine?.stats as OLineStats | undefined
-  const dLineStats = roster.DLine?.stats as DLineStats | undefined
-  const secStats = roster.Secondary?.stats as SecondaryStats | undefined
-
   const passYPG = qb?.passYPG ?? 0
   const recYPG = (wr1?.recYPG ?? 0) + (wr2?.recYPG ?? 0) + (rb?.recYPG ?? 0)
   const rushYPG = rb?.rushYPG ?? 0

@@ -1,4 +1,4 @@
-import { describe, it, expect, vi, beforeEach } from 'vitest'
+import { describe, it, expect, vi } from 'vitest'
 import { generateRandomRoster, generateRandomSlot, generateShopOffer } from './rosterGen'
 import { slotCost } from './playerValue'
 import { PRACTICE_SQUAD_ID_PREFIX } from './practiceSquad'
