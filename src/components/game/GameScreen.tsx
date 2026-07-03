@@ -13,11 +13,10 @@ import {
   DRIVES_PER_GAME,
   DRIVES_PER_QUARTER,
   STARTING_YARD_LINE,
-  TD_POINTS,
-  FG_POINTS,
-  TD_YARD,
-  FG_RANGE_YARD,
 } from '../../logic/gameConstants'
+import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
+import type { RuleOverrides } from '../../logic/leagueRules'
+import type { LeagueRule } from '../../logic/leagueRules'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
 import {
   computeRollBonus, computePostRollBonus, isPostRollAbility,
@@ -40,6 +39,7 @@ type PlayPhase =
   | 'drive-end'
   | 'fg-roll'
   | 'fg-result'
+  | 'turnover'
   | 'game-over'
 
 interface GameState {
@@ -62,7 +62,7 @@ interface GameState {
   yardsGained: number | null
   fgRoll: number | null
   fgDifficulty: number | null
-  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | null
+  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | null
   weather: WeatherCondition
   userPlayHistory: ('run' | 'pass')[]
   opponentPlayHistory: ('run' | 'pass')[]
@@ -76,6 +76,17 @@ interface GameState {
   currentDriveNegativePlays: number
   userPassPlaysThisDrive: number
   opponentPassPlaysThisDrive: number
+  userTurnoverNumbers: number[]
+  opponentTurnoverNumbers: number[]
+  tdPoints: number
+  fgPoints: number
+  tdYard: number
+  fgRangeYard: number
+  maxDowns: number
+  noPuntingRule: boolean
+  pick2Rule: boolean
+  turnoverYardLine: number | null
+  nextDriveStartYard: number
 }
 
 type GameAction =
@@ -125,6 +136,7 @@ function driveReset(): Partial<GameState> {
     currentDriveNegativePlays: 0,
     userPassPlaysThisDrive: 0,
     opponentPassPlaysThisDrive: 0,
+    turnoverYardLine: null,
   }
 }
 
@@ -322,6 +334,31 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         newOffBonuses = recomputeBlessed(state.offPlayers, newOffBonuses, 'offense', state, newOffRolls, state.defRolls)
         const newDefBonuses = recomputeBlessed(state.defPlayers, [...state.defBonuses], 'defense', state, newOffRolls, state.defRolls)
 
+        const defTurnoverNums = state.possession === 'user' ? state.opponentTurnoverNumbers : state.userTurnoverNumbers
+        if (defTurnoverNums.includes(value)) {
+          const driveResult = buildDriveResult(state, 'Turnover', 0, {
+            yards: state.currentDriveYards,
+            runPlays: state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive,
+            passPlays: state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive,
+            negativePlays: state.currentDriveNegativePlays,
+          })
+          return {
+            ...state,
+            offRolls: newOffRolls,
+            offBonuses: newOffBonuses,
+            defBonuses: newDefBonuses,
+            wr1YacActive: newWr1YacActive,
+            wr2YacActive: newWr2YacActive,
+            driveOutcome: 'Turnover',
+            turnoverYardLine: state.driveProgress,
+            nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - state.driveProgress)),
+            userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
+            opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
+            driveHistory: [...state.driveHistory, driveResult],
+            phase: 'turnover',
+          }
+        }
+
         const allDone = newOffRolls.every(r => r !== null)
         return {
           ...state,
@@ -349,6 +386,29 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       // Re-evaluate Blessed bonuses
       const newOffBonuses = recomputeBlessed(state.offPlayers, [...state.offBonuses], 'offense', state, state.offRolls, newDefRolls)
       newDefBonuses = recomputeBlessed(state.defPlayers, newDefBonuses, 'defense', state, state.offRolls, newDefRolls)
+
+      const offTurnoverNums = state.possession === 'user' ? state.userTurnoverNumbers : state.opponentTurnoverNumbers
+      if (offTurnoverNums.includes(value)) {
+        const driveResult = buildDriveResult(state, 'Turnover', 0, {
+          yards: state.currentDriveYards,
+          runPlays: state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive,
+          passPlays: state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive,
+          negativePlays: state.currentDriveNegativePlays,
+        })
+        return {
+          ...state,
+          defRolls: newDefRolls,
+          defBonuses: newDefBonuses,
+          offBonuses: newOffBonuses,
+          driveOutcome: 'Turnover',
+          turnoverYardLine: state.driveProgress,
+          nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - state.driveProgress)),
+          userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
+          opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
+          driveHistory: [...state.driveHistory, driveResult],
+          phase: 'turnover',
+        }
+      }
 
       const allDone = newDefRolls.every(r => r !== null)
       if (!allDone) {
@@ -396,9 +456,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const newOppPassPlays = state.possession === 'opponent' && state.offensePlayCall === 'pass'
         ? state.opponentPassPlaysThisDrive + 1 : state.opponentPassPlaysThisDrive
 
-      const newProgress = Math.min(100, Math.max(0, state.driveProgress + state.yardsGained))
+      const newProgress = Math.min(state.tdYard, Math.max(0, state.driveProgress + state.yardsGained))
 
-      if (newProgress >= TD_YARD) {
+      if (newProgress >= state.tdYard) {
         // Attribute the TD to the ball carrier
         let scoringPlayerName: string | undefined
         let scoringPlayerPos: 'RB' | 'WR' | undefined
@@ -416,14 +476,14 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         const driveResult = buildDriveResult(
           { ...state, driveProgress: newProgress },
           'TD',
-          TD_POINTS,
+          state.tdPoints,
           { yards: newDriveYards, runPlays, passPlays, negativePlays: newNegativePlays, scoringPlayerName, scoringPlayerPos },
         )
         return {
           ...state,
           driveProgress: newProgress,
-          userScore: state.possession === 'user' ? state.userScore + TD_POINTS : state.userScore,
-          opponentScore: state.possession === 'opponent' ? state.opponentScore + TD_POINTS : state.opponentScore,
+          userScore: state.possession === 'user' ? state.userScore + state.tdPoints : state.userScore,
+          opponentScore: state.possession === 'opponent' ? state.opponentScore + state.tdPoints : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
           driveOutcome: 'TD',
           userPlayHistory: newUserPlayHistory,
@@ -434,13 +494,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         }
       }
 
-      if (state.down >= 4) {
-        if (newProgress >= FG_RANGE_YARD) {
+      if (state.down >= state.maxDowns) {
+        if (newProgress >= state.fgRangeYard) {
           // Flush accumulated stats into state so FG_ROLL can read them
           return {
             ...state,
             driveProgress: newProgress,
-            fgDifficulty: computeFGDifficulty(newProgress),
+            fgDifficulty: computeFGDifficulty(newProgress, state.fgRangeYard),
             userPlayHistory: newUserPlayHistory,
             opponentPlayHistory: newOppPlayHistory,
             userRunsThisDrive: newUserRunsThisDrive,
@@ -463,6 +523,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         return {
           ...state,
           driveProgress: newProgress,
+          nextDriveStartYard: state.noPuntingRule
+            ? Math.min(state.tdYard - 1, Math.max(1, state.tdYard - newProgress))
+            : STARTING_YARD_LINE,
           driveHistory: [...state.driveHistory, driveResult],
           driveOutcome: 'Punt',
           userPlayHistory: newUserPlayHistory,
@@ -502,15 +565,15 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const driveResult = buildDriveResult(
         state,
         made ? 'FG' : 'FG-missed',
-        made ? FG_POINTS : 0,
+        made ? state.fgPoints : 0,
         { yards: state.currentDriveYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays },
       )
       return {
         ...state,
         fgRoll: value,
         driveOutcome: made ? 'FG' : 'FG-missed',
-        userScore: (made && state.possession === 'user') ? state.userScore + FG_POINTS : state.userScore,
-        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + FG_POINTS : state.opponentScore,
+        userScore: (made && state.possession === 'user') ? state.userScore + state.fgPoints : state.userScore,
+        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + state.fgPoints : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
         phase: 'fg-result',
       }
@@ -523,9 +586,12 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
       const nextPossession: 'user' | 'opponent' = nextDriveIndex % 2 === 0 ? 'user' : 'opponent'
       const nextPhase: PlayPhase = nextPossession === 'user' ? 'choose-offense' : 'choose-defense'
+      const startYard = state.nextDriveStartYard
       return {
         ...state,
         ...driveReset(),
+        driveProgress: startYard,
+        nextDriveStartYard: STARTING_YARD_LINE,
         driveIndex: nextDriveIndex,
         possession: nextPossession,
         opponentPlayCall: nextPossession === 'opponent' ? action.nextOpponentPlayCall : null,
@@ -536,7 +602,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     case 'KICK_FG': {
       return {
         ...state,
-        fgDifficulty: computeFGDifficulty(state.driveProgress),
+        fgDifficulty: computeFGDifficulty(state.driveProgress, state.fgRangeYard),
         phase: 'fg-roll',
       }
     }
@@ -548,7 +614,12 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
 // ─── Initial state ─────────────────────────────────────────────────────────────
 
-function makeInitialState(weather: WeatherCondition): GameState {
+function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumbers, overrides }: {
+  weather: WeatherCondition
+  userTurnoverNumbers: number[]
+  opponentTurnoverNumbers: number[]
+  overrides: RuleOverrides
+}): GameState {
   return {
     driveIndex: 0,
     possession: 'user',
@@ -571,6 +642,17 @@ function makeInitialState(weather: WeatherCondition): GameState {
     fgDifficulty: null,
     driveOutcome: null,
     weather,
+    userTurnoverNumbers,
+    opponentTurnoverNumbers,
+    tdPoints: overrides.tdPoints,
+    fgPoints: overrides.fgPoints,
+    tdYard: overrides.tdYard,
+    fgRangeYard: overrides.fgRangeYard,
+    maxDowns: overrides.maxDowns,
+    noPuntingRule: overrides.noPuntingRule,
+    pick2Rule: overrides.pick2Rule,
+    turnoverYardLine: null,
+    nextDriveStartYard: STARTING_YARD_LINE,
     userPlayHistory: [],
     opponentPlayHistory: [],
     userRunsThisDrive: 0,
@@ -609,8 +691,17 @@ function buildSimulationResult(
 // ─── Component ─────────────────────────────────────────────────────────────────
 
 export function GameScreen() {
-  const { roster, currentOpponentRoster, currentOpponent, recordGameResult, currentWeather } = useGameStore()
-  const [state, dispatch] = useReducer(gameReducer, currentWeather ?? 'Clear', makeInitialState)
+  const { roster, currentOpponentRoster, currentOpponent, recordGameResult, currentWeather, userTurnoverNumbers, opponentTurnoverNumbers, activeRule } = useGameStore()
+  const [state, dispatch] = useReducer(
+    gameReducer,
+    {
+      weather: currentWeather ?? 'Clear',
+      userTurnoverNumbers,
+      opponentTurnoverNumbers,
+      overrides: activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides(),
+    },
+    makeInitialState,
+  )
 
   const opponentLabel = currentOpponent
     ? `${currentOpponent.team} '${String(currentOpponent.year).slice(2)}`
@@ -658,6 +749,7 @@ export function GameScreen() {
       }
       case 'drive-end':
       case 'fg-result':
+      case 'turnover':
         dispatch({ type: 'ADVANCE_DRIVE', nextOpponentPlayCall: randomPlayCall() })
         break
     }
@@ -694,7 +786,7 @@ export function GameScreen() {
     dispatch({ type: 'KICK_FG' })
   }
 
-  const showStep = ['rolling-offense', 'rolling-defense', 'show-play-result', 'drive-end', 'fg-roll', 'fg-result'].includes(state.phase)
+  const showStep = ['rolling-offense', 'rolling-defense', 'show-play-result', 'drive-end', 'fg-roll', 'fg-result', 'turnover'].includes(state.phase)
 
   // Keep handleStep always up-to-date in a ref so the keydown listener never captures a stale closure
   const handleStepRef = useRef(handleStep)
@@ -723,6 +815,9 @@ export function GameScreen() {
         possession={state.possession}
         opponentLabel={opponentLabel}
         pendingYards={state.yardsGained}
+        userTurnoverNumbers={state.userTurnoverNumbers}
+        opponentTurnoverNumbers={state.opponentTurnoverNumbers}
+        activeRule={activeRule}
       />
 
       <div className="flex-1 overflow-y-auto">
@@ -733,7 +828,7 @@ export function GameScreen() {
             <div className="flex gap-4">
               <Button onClick={() => handleOffPlay('run')}>🏃 Run</Button>
               <Button onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
-              {state.driveProgress >= FG_RANGE_YARD && (
+              {state.driveProgress >= state.fgRangeYard && (
                 <Button onClick={handleKickFG}>🦵 Kick FG</Button>
               )}
             </div>
@@ -796,6 +891,15 @@ export function GameScreen() {
             driveOutcome={state.driveOutcome}
             kicker={state.possession === 'user' ? userRoster.K : oppRoster.K}
           />
+        )}
+
+        {/* Turnover field-position info */}
+        {state.phase === 'turnover' && state.turnoverYardLine !== null && (
+          <div className="flex justify-center py-2 text-sm text-gray-400">
+            Next drive starts at the{' '}
+            <span className="text-white font-bold mx-1">{state.nextDriveStartYard}</span>
+            yd line
+          </div>
         )}
       </div>
 

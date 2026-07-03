@@ -1,3 +1,4 @@
+import type { LeagueRule } from '../../logic/leagueRules'
 import { DriveProgressBar } from './DriveProgressBar'
 
 interface GameHUDProps {
@@ -10,6 +11,9 @@ interface GameHUDProps {
   possession: 'user' | 'opponent'
   opponentLabel: string
   pendingYards?: number | null
+  userTurnoverNumbers: number[]
+  opponentTurnoverNumbers: number[]
+  activeRule?: LeagueRule | null
 }
 
 const DOWN_LABELS = ['1st', '2nd', '3rd', '4th']
@@ -17,6 +21,7 @@ const DOWN_LABELS = ['1st', '2nd', '3rd', '4th']
 export function GameHUD({
   quarter, driveIndex, down, driveProgress,
   userScore, opponentScore, possession, opponentLabel, pendingYards,
+  userTurnoverNumbers, opponentTurnoverNumbers,
 }: GameHUDProps) {
   const driveInQuarter = (driveIndex % 4) + 1
   const downLabel = DOWN_LABELS[down - 1] ?? `${down}th`
@@ -56,6 +61,11 @@ export function GameHUD({
         </span>
       </div>
 
+      <div className="flex items-center justify-center gap-4 mb-3 text-xs text-gray-500">
+        <span>YOUR # <span className="text-amber-400 font-bold">{userTurnoverNumbers.join(', ')}</span></span>
+        <span className="text-gray-700">·</span>
+        <span>OPP # <span className="text-amber-400 font-bold">{opponentTurnoverNumbers.join(', ')}</span></span>
+      </div>
       <DriveProgressBar progress={driveProgress} pendingProgress={pendingProgress} />
     </div>
   )
