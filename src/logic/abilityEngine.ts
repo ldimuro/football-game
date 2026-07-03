@@ -83,7 +83,7 @@ export const ABILITY_DESCRIPTIONS: Record<string, string> = {
   'fresh-legs':        '+8 on 1st-down run plays',
   'goal-line':         '+5 when in the red zone',
   'basketball-player': '+5 when in the red zone',
-  'yac':               'After a teammate WR gains YAC, adds +5 bonus yards to the play',
+  'yac':               '+5 on every roll this drive after scoring 12+ on any roll',
 }
 
 export const ABILITY_DISPLAY: Record<string, string> = {

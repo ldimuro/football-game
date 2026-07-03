@@ -7,6 +7,7 @@ import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
 import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
@@ -24,6 +25,12 @@ const RARITY_COLOR: Record<string, string> = {
   Common:   'text-green-600 dark:text-green-400',
   Uncommon: 'text-orange-500 dark:text-orange-400',
   Rare:     'text-red-500 dark:text-red-400',
+}
+
+const RARITY_BADGE_COLOR: Record<AbilityRarity, 'green' | 'orange' | 'red'> = {
+  Common:   'green',
+  Uncommon: 'orange',
+  Rare:     'red',
 }
 
 const POSITION_LABELS: Record<RosterPosition, string> = {
@@ -149,14 +156,19 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
           {abilityEmoji && (() => {
             const desc = slot.ability ? ABILITY_DESCRIPTIONS[slot.ability] : undefined
             const rarity = slot.ability ? (ABILITY_RARITY[slot.ability] ?? 'Common') : 'Common'
-            const tooltipText = desc ? `${rarity} · ${desc}` : rarity
+            const tooltipContent = (
+              <div className="flex flex-col items-center gap-1">
+                <Badge label={rarity} color={RARITY_BADGE_COLOR[rarity]} />
+                {desc && <span>{desc}</span>}
+              </div>
+            )
             const inner = (
               <div className="text-right leading-none cursor-default">
                 <div className="text-3xl">{abilityEmoji}</div>
                 {abilityName && <div className={`text-[10px] font-semibold mt-0.5 ${RARITY_COLOR[rarity]}`}>{abilityName}</div>}
               </div>
             )
-            return <Tooltip text={tooltipText} position="bottom">{inner}</Tooltip>
+            return <Tooltip content={tooltipContent} position="bottom">{inner}</Tooltip>
           })()}
           {coinValue !== undefined && (
             <span className="flex items-center justify-center w-7 h-7 rounded-full bg-yellow-500 text-gray-900 text-xs font-bold tabular-nums">

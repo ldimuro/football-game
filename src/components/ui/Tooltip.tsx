@@ -1,12 +1,12 @@
 import type { ReactNode } from 'react'
 
 interface TooltipProps {
-  text: string
+  content: ReactNode
   children: ReactNode
   position?: 'top' | 'bottom'
 }
 
-export function Tooltip({ text, children, position = 'top' }: TooltipProps) {
+export function Tooltip({ content, children, position = 'top' }: TooltipProps) {
   return (
     <div className="relative group/tooltip inline-block">
       {children}
@@ -16,7 +16,7 @@ export function Tooltip({ text, children, position = 'top' }: TooltipProps) {
         } left-1/2 -translate-x-1/2 z-50 pointer-events-none w-max max-w-[200px]`}
       >
         <div className="opacity-0 group-hover/tooltip:opacity-100 transition-opacity duration-150 bg-gray-900 text-white text-xs font-normal leading-snug rounded px-2.5 py-1.5 border border-gray-700 shadow-lg text-center">
-          {text}
+          {content}
         </div>
       </div>
     </div>

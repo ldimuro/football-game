@@ -42,7 +42,7 @@ function AbilityEmojis({ roster }: { roster: Roster }) {
         const emoji = (ABILITY_DISPLAY[id] ?? id).split(' ')[0]
         const desc = ABILITY_DESCRIPTIONS[id]
         return desc ? (
-          <Tooltip key={slotIdx} text={desc} position="bottom">
+          <Tooltip key={slotIdx} content={desc} position="bottom">
             <span className="cursor-default text-2xl">{emoji}</span>
           </Tooltip>
         ) : (

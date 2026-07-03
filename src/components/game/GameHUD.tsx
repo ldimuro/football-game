@@ -96,7 +96,7 @@ export function GameHUD({
       {/* League rule */}
       {activeRule && (
         <div className="flex items-center justify-center mb-3">
-          <Tooltip text={activeRule.description}>
+          <Tooltip content={activeRule.description}>
             <span className="text-base font-semibold text-indigo-400 cursor-default">{activeRule.emoji} {activeRule.name}</span>
           </Tooltip>
         </div>

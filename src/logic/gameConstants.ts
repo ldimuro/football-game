@@ -46,6 +46,13 @@ export const ROLL_ANIMATION_INTERVAL_MS = 0//60
 // jump/pop animation on the roll display number.
 export const ROLL_JUMP_THRESHOLD = 15
 
+// ─── Ability activation flash ─────────────────────────────────────────────────
+// Background flash that plays on a PlayerRollCard when its ability bonus activates.
+// ABILITY_FLASH_COLOR: any valid CSS color (rgba recommended for opacity control).
+// ABILITY_FLASH_DURATION_MS: total duration of the flash in/out cycle.
+export const ABILITY_FLASH_COLOR    = 'rgba(34, 197, 94, 0.35)' // green-500 @ 35%
+export const ABILITY_FLASH_DURATION_MS = 700
+
 // ─── Drive progress bar ───────────────────────────────────────────────────────
 // CSS transition duration (ms) for the bar and yard label sliding to a new position.
 export const DRIVE_PROGRESS_TRANSITION_MS = 600

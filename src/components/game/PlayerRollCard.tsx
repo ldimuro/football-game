@@ -4,11 +4,13 @@ import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
 import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import {
   ROLL_ANIMATION_DURATION_MS, ROLL_ANIMATION_INTERVAL_MS,
   FG_ROLL_SCAN_INTERVAL_MS, FG_ROLL_SCAN_DURATION_MS,
   ROLL_JUMP_THRESHOLD,
+  ABILITY_FLASH_COLOR, ABILITY_FLASH_DURATION_MS,
 } from '../../logic/gameConstants'
 import type { Player, TeamUnit } from '../../types'
 
@@ -38,7 +40,9 @@ export function PlayerRollCard({
   const [isAnimating, setIsAnimating] = useState(false)
   const [highlightedIdx, setHighlightedIdx] = useState<number | null>(null)
   const [isJumping, setIsJumping] = useState(false)
+  const [isFlashing, setIsFlashing] = useState(false)
   const bonusRef = useRef(bonus)
+  const hasFlashedRef = useRef(false)
 
   useEffect(() => {
     if (roll === null) {
@@ -46,6 +50,8 @@ export function PlayerRollCard({
       setIsAnimating(false)
       setHighlightedIdx(null)
       setIsJumping(false)
+      setIsFlashing(false)
+      hasFlashedRef.current = false
       return
     }
 
@@ -100,11 +106,15 @@ export function PlayerRollCard({
   // Keep bonusRef current so the jump check can read it without being in the roll effect's deps
   bonusRef.current = bonus
 
-  // Trigger jump when roll settles and die + bonus meets threshold
+  // Trigger jump and ability flash when roll settles
   useEffect(() => {
     if (!isAnimating && displayValue !== null) {
       const total = displayValue + (bonusRef.current ?? 0)
       if (total >= ROLL_JUMP_THRESHOLD) setIsJumping(true)
+      if (bonusRef.current && !hasFlashedRef.current) {
+        hasFlashedRef.current = true
+        setIsFlashing(true)
+      }
     }
   }, [isAnimating, displayValue])
 
@@ -119,8 +129,13 @@ export function PlayerRollCard({
     <div
       className={`border-2 rounded-lg p-2 flex flex-col gap-1.5 bg-white dark:bg-gray-900 ${
         isNext ? 'ring-2 ring-indigo-500 ring-offset-1 ring-offset-gray-950' : ''
-      }`}
-      style={{ borderColor: getTeamColor(player.team) }}
+      } ${isFlashing ? 'animate-ability-flash' : ''}`}
+      style={{
+        borderColor: getTeamColor(player.team),
+        '--ability-flash-color': ABILITY_FLASH_COLOR,
+        '--ability-flash-duration': `${ABILITY_FLASH_DURATION_MS}ms`,
+      } as React.CSSProperties}
+      onAnimationEnd={(e) => { if (e.animationName === 'ability-flash') setIsFlashing(false) }}
     >
       <div className="flex items-start justify-between">
         <div>
@@ -136,18 +151,24 @@ export function PlayerRollCard({
         </div>
         {abilityEmoji && (() => {
           const desc = player.ability ? ABILITY_DESCRIPTIONS[player.ability] : undefined
-          const rarity = player.ability ? (ABILITY_RARITY[player.ability] ?? 'Common') : 'Common'
+          const rarity = (player.ability ? (ABILITY_RARITY[player.ability] ?? 'Common') : 'Common') as AbilityRarity
           const rarityColor = rarity === 'Rare' ? 'text-red-500 dark:text-red-400'
             : rarity === 'Uncommon' ? 'text-orange-500 dark:text-orange-400'
             : 'text-green-600 dark:text-green-400'
-          const tooltipText = desc ? `${rarity} · ${desc}` : rarity
+          const rarityBadgeColor = rarity === 'Rare' ? 'red' : rarity === 'Uncommon' ? 'orange' : 'green'
+          const tooltipContent = (
+            <div className="flex flex-col items-center gap-1">
+              <Badge label={rarity} color={rarityBadgeColor} />
+              {desc && <span>{desc}</span>}
+            </div>
+          )
           const inner = (
             <div className="text-right leading-none cursor-default">
               <div className="text-3xl">{abilityEmoji}</div>
               {abilityName && <div className={`text-[10px] font-semibold mt-0.5 ${rarityColor}`}>{abilityName}</div>}
             </div>
           )
-          return <Tooltip text={tooltipText} position="bottom">{inner}</Tooltip>
+          return <Tooltip content={tooltipContent} position="bottom">{inner}</Tooltip>
         })()}
       </div>
       <DieFaces faces={getPlayerDie(player)} dangerFaces={dangerFaces} highlightedIndex={highlightedIdx} />

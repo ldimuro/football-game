@@ -208,7 +208,7 @@ export function PlayArea({
                   <div key={i} className="flex justify-between mb-2">
                     <span className="text-violet-400 font-semibold">
                       {desc ? (
-                        <Tooltip text={desc} position="top">
+                        <Tooltip content={desc} position="top">
                           <span className="cursor-default">{label}</span>
                         </Tooltip>
                       ) : label}

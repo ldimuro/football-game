@@ -349,10 +349,10 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         newOffBonuses[offIndex] = computeRollBonus(offPlayer.ability, offValue, ctx)
       }
 
-      // YAC activation
+      // YAC activation: only the WR who HAS the yac ability can trigger it
       let newWr1YacActive = state.wr1YacActive
       let newWr2YacActive = state.wr2YacActive
-      if (isPlayer(offPlayer) && offPlayer.position === 'WR' && offValue >= 12 && state.selectedWR !== null) {
+      if (isPlayer(offPlayer) && offPlayer.position === 'WR' && offPlayer.ability === 'yac' && offValue >= 12 && state.selectedWR !== null) {
         if (state.selectedWR === 'WR1') newWr1YacActive = true
         else newWr2YacActive = true
       }

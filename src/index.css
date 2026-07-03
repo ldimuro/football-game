@@ -11,3 +11,12 @@
 .animate-roll-jump {
   animation: roll-jump 0.5s cubic-bezier(0.33, 0, 0.66, 1) both;
 }
+
+@keyframes ability-flash {
+  0%, 100% { background-color: transparent; }
+  50%       { background-color: var(--ability-flash-color); }
+}
+
+.animate-ability-flash {
+  animation: ability-flash var(--ability-flash-duration) ease-in-out;
+}

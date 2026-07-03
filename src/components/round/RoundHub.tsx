@@ -38,7 +38,7 @@ export function RoundHub() {
           </p>
           {activeRule && (
             <div className="mt-1">
-              <Tooltip text={activeRule.description} position="bottom">
+              <Tooltip content={activeRule.description} position="bottom">
                 <span className="text-lg font-bold text-indigo-500 dark:text-indigo-400 cursor-default">
                   {activeRule.emoji} {activeRule.name}
                 </span>
