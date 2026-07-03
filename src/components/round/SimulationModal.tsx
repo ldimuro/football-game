@@ -14,6 +14,7 @@ const OUTCOME_LABELS: Record<DriveOutcome, string> = {
   'FG-missed': 'FG Missed',
   Punt: 'Punt',
   Turnover: 'Turnover',
+  TurnoverOnDowns: 'Turnover on Downs',
   DefTD: 'Def. Touchdown',
   Safety: 'Safety',
 }
@@ -24,6 +25,7 @@ const OUTCOME_COLORS: Record<DriveOutcome, string> = {
   'FG-missed': 'text-red-400',
   Punt: 'text-gray-500',
   Turnover: 'text-red-400',
+  TurnoverOnDowns: 'text-red-400',
   DefTD: 'text-orange-400',
   Safety: 'text-yellow-400',
 }

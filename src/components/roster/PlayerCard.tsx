@@ -127,7 +127,6 @@ export function renderStats(slot: Player | TeamUnit, options?: { showRank?: bool
 
 export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell, dangerFaces }: PlayerCardProps) {
   const [tab, setTab] = useState<'die' | 'stats'>('die')
-  const isUnit = 'position' in slot && !('name' in slot)
   const isPracticeSquad = slot.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)
   const name = isPracticeSquad ? 'Practice Squad' : 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro

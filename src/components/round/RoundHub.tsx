@@ -10,7 +10,7 @@ import { Tooltip } from '../ui/Tooltip'
 export function RoundHub() {
   const {
     round, roster, currentOpponent, currentOpponentRoster, currentWeather,
-    viewDraftOffer, startGame, draftComplete, isLoading, seasonLog,
+    startGame, isLoading, seasonLog,
     coins, shopComplete, userTurnoverNumbers, opponentTurnoverNumbers, activeRule,
   } = useGameStore()
   const [shopOpen, setShopOpen] = useState(false)

@@ -3,7 +3,7 @@ import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS } from '../../logic/abilityEngine
 import { Tooltip } from '../ui/Tooltip'
 import { PlayerRollCard } from './PlayerRollCard'
 import { useGameStore } from '../../store/gameStore'
-import type { Player, TeamUnit } from '../../types'
+import type { Player, TeamUnit, DriveOutcome } from '../../types'
 
 interface PlayAreaProps {
   possession: 'user' | 'opponent'
@@ -20,7 +20,7 @@ interface PlayAreaProps {
   yardsGained: number | null
   fgRoll: number | null
   fgDifficulty: number | null
-  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | null
+  driveOutcome: DriveOutcome | null
   kicker: Player | TeamUnit | null
 }
 
