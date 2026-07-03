@@ -1,12 +1,15 @@
-import { FG_RANGE_YARD, RED_ZONE_YARD, TD_YARD } from '../../logic/gameConstants'
+import { RED_ZONE_YARD } from '../../logic/gameConstants'
 
 interface DriveProgressBarProps {
   progress: number
   pendingProgress?: number
+  tdYard: number
+  fgRangeYard: number
 }
 
-export function DriveProgressBar({ progress, pendingProgress }: DriveProgressBarProps) {
-  const displayProgress = Math.min(100, Math.max(0, pendingProgress ?? progress))
+export function DriveProgressBar({ progress, pendingProgress, tdYard, fgRangeYard }: DriveProgressBarProps) {
+  const rawProgress = Math.max(0, pendingProgress ?? progress)
+  const displayProgress = (rawProgress / tdYard) * 100
 
   return (
     <div className="relative w-full">
@@ -14,9 +17,9 @@ export function DriveProgressBar({ progress, pendingProgress }: DriveProgressBar
       <div className="relative h-5 mb-1">
         <span
           className="absolute bottom-0 text-xs font-bold text-white -translate-x-1/2 transition-all duration-300"
-          style={{ left: `clamp(5%, ${displayProgress}%, 95%)` }}
+          style={{ left: `clamp(5%, ${Math.min(100, displayProgress)}%, 95%)` }}
         >
-          Yd {Math.round(displayProgress)}
+          Yd {Math.round(rawProgress)}
         </span>
       </div>
 
@@ -24,19 +27,19 @@ export function DriveProgressBar({ progress, pendingProgress }: DriveProgressBar
       <div className="relative h-4 bg-gray-800 rounded-full overflow-hidden">
         <div
           className="h-full bg-indigo-500 rounded-full transition-all duration-300"
-          style={{ width: `${displayProgress}%` }}
+          style={{ width: `${Math.min(100, displayProgress)}%` }}
         />
         {/* Marker lines rendered inside overflow-hidden so they span the full bar height */}
-        <div className="absolute top-0 h-full w-0.5 bg-yellow-400 opacity-80" style={{ left: `${FG_RANGE_YARD}%` }} />
-        <div className="absolute top-0 h-full w-0.5 bg-red-400 opacity-80" style={{ left: `${RED_ZONE_YARD}%` }} />
-        <div className="absolute top-0 h-full w-0.5 bg-green-400 opacity-80" style={{ left: `${TD_YARD - 0.5}%` }} />
+        <div className="absolute top-0 h-full w-0.5 bg-yellow-400 opacity-80" style={{ left: `${(fgRangeYard / tdYard) * 100}%` }} />
+        <div className="absolute top-0 h-full w-0.5 bg-red-400 opacity-80" style={{ left: `${(RED_ZONE_YARD / tdYard) * 100}%` }} />
+        <div className="absolute top-0 h-full w-0.5 bg-green-400 opacity-80" style={{ left: `100%` }} />
       </div>
 
       {/* Labels below bar */}
       <div className="relative h-5 mt-1">
-        <span className="absolute text-xs text-yellow-400 -translate-x-1/2" style={{ left: `${FG_RANGE_YARD}%` }}>FG {FG_RANGE_YARD}</span>
-        <span className="absolute text-xs text-red-400 -translate-x-1/2" style={{ left: `${RED_ZONE_YARD}%` }}>RZ {RED_ZONE_YARD}</span>
-        <span className="absolute text-xs text-green-400 -translate-x-1/2" style={{ left: `${TD_YARD - 0.5}%` }}>TD</span>
+        <span className="absolute text-xs text-yellow-400 -translate-x-1/2" style={{ left: `${(fgRangeYard / tdYard) * 100}%` }}>FG {fgRangeYard}</span>
+        <span className="absolute text-xs text-red-400 -translate-x-1/2" style={{ left: `${(RED_ZONE_YARD / tdYard) * 100}%` }}>RZ {RED_ZONE_YARD}</span>
+        <span className="absolute text-xs text-green-400 -translate-x-1/2" style={{ left: `100%` }}>TD</span>
       </div>
     </div>
   )

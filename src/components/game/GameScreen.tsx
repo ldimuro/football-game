@@ -818,6 +818,8 @@ export function GameScreen() {
         userTurnoverNumbers={state.userTurnoverNumbers}
         opponentTurnoverNumbers={state.opponentTurnoverNumbers}
         activeRule={activeRule}
+        tdYard={state.tdYard}
+        fgRangeYard={state.fgRangeYard}
       />
 
       <div className="flex-1 overflow-y-auto">

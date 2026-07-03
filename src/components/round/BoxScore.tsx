@@ -37,6 +37,8 @@ function computeBoxScore(result: SimulationResult) {
 
   const userPunts = userDrives.filter(d => d.outcome === 'Punt').length
   const oppPunts = oppDrives.filter(d => d.outcome === 'Punt').length
+  const userTurnovers = userDrives.filter(d => d.outcome === 'Turnover').length
+  const oppTurnovers = oppDrives.filter(d => d.outcome === 'Turnover').length
 
   return {
     userOffYards, oppOffYards,
@@ -46,6 +48,7 @@ function computeBoxScore(result: SimulationResult) {
     userTDs: userTDs.length, oppTDs: oppTDs.length,
     userFGMade, userFGAtt, oppFGMade, oppFGAtt,
     userPunts, oppPunts,
+    userTurnovers, oppTurnovers,
     userTDScorers: buildScorerMap(userTDs),
     oppTDScorers: buildScorerMap(oppTDs),
   }
@@ -98,15 +101,16 @@ export function BoxScore({ result }: { result: SimulationResult }) {
         <StatRow label="Touchdowns" user={String(s.userTDs)} opp={String(s.oppTDs)} />
         <StatRow label="Field Goals (M/A)" user={`${s.userFGMade}/${s.userFGAtt}`} opp={`${s.oppFGMade}/${s.oppFGAtt}`} />
         <StatRow label="Punts" user={String(s.userPunts)} opp={String(s.oppPunts)} />
+        <StatRow label="Turnovers" user={String(s.userTurnovers)} opp={String(s.oppTurnovers)} />
       </div>
 
       {/* Drive ratio */}
       <div>
         <p className="text-xs font-bold text-gray-500 uppercase tracking-wider mb-1">Drive Outcomes</p>
         <div className="grid grid-cols-[1fr_5rem_5rem] gap-x-2 items-start py-1.5 text-sm">
-          <span className="text-gray-400">TD / FG / Punt</span>
-          <span className="text-right text-indigo-300 font-mono">{s.userTDs} / {s.userFGMade} / {s.userPunts}</span>
-          <span className="text-right text-gray-300 font-mono">{s.oppTDs} / {s.oppFGMade} / {s.oppPunts}</span>
+          <span className="text-gray-400">TD / FG / Punt / TO</span>
+          <span className="text-right text-indigo-300 font-mono">{s.userTDs} / {s.userFGMade} / {s.userPunts} / {s.userTurnovers}</span>
+          <span className="text-right text-gray-300 font-mono">{s.oppTDs} / {s.oppFGMade} / {s.oppPunts} / {s.oppTurnovers}</span>
         </div>
       </div>
 

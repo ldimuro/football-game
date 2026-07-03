@@ -1,4 +1,5 @@
-import { computeRosterSummary } from '../../logic/stats'
+import { computeRatingStats } from '../../logic/stats'
+import { ABILITY_DISPLAY } from '../../logic/abilityEngine'
 import { useGameStore } from '../../store/gameStore'
 import type { Roster } from '../../types'
 
@@ -9,86 +10,94 @@ function ratingColor(val: number | null): string {
   return 'text-red-500 dark:text-red-400'
 }
 
-function SummaryStat({ label, value, valueClassName = 'text-gray-900 dark:text-white' }: {
-  label: string
-  value: string
-  valueClassName?: string
-}) {
-  return (
-    <div className="flex flex-col">
-      <span className="text-xs text-gray-500 dark:text-gray-400 uppercase tracking-wide">{label}</span>
-      <span className={`text-2xl font-bold ${valueClassName}`}>{value}</span>
-    </div>
-  )
+function fmtStat(val: number | null, dec: 0 | 1 = 0): string {
+  if (val === null) return '—'
+  if (dec === 1) return val.toFixed(1)
+  return val % 1 === 0 ? String(val) : val.toFixed(1)
 }
 
-function fmt(val: number | null): string {
-  return val !== null ? val.toFixed(1) : '—'
+function abilityEmoji(abilityId: string): string {
+  return (ABILITY_DISPLAY[abilityId] ?? abilityId).split(' ')[0]
 }
 
 export function RosterSummary({ roster }: { roster: Roster }) {
-  const s = computeRosterSummary(roster)
   const { coins } = useGameStore()
+
+  const slots = [roster.QB, roster.WR1, roster.WR2, roster.RB, roster.K, roster.OLine, roster.DLine, roster.Secondary]
+
+  const offStats = computeRatingStats([roster.QB, roster.WR1, roster.WR2, roster.RB].map(s => s?.rating ?? null))
+  const defStats = computeRatingStats([roster.DLine, roster.Secondary].map(s => s?.rating ?? null))
+  const allStats = computeRatingStats(slots.map(s => s?.rating ?? null))
+
+  const abilities = slots
+    .filter(s => s?.ability)
+    .map(s => ({ emoji: abilityEmoji(s!.ability!), label: ABILITY_DISPLAY[s!.ability!] ?? s!.ability! }))
+
+  const capColor = coins < 20
+    ? 'text-red-500 dark:text-red-400'
+    : coins < 50
+    ? 'text-yellow-500 dark:text-yellow-400'
+    : 'text-green-500 dark:text-green-400'
+
+  const rows = [
+    { label: 'OFF', stats: offStats },
+    { label: 'DEF', stats: defStats },
+    { label: 'All', stats: allStats },
+  ]
 
   return (
     <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5 mb-6">
       <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4">Roster Summary</h3>
 
-      <div className="grid grid-cols-2 sm:grid-cols-6 gap-x-4 gap-y-4">
-        <SummaryStat label="Total Off. YPG" value={s.totalOffensiveYPG.toFixed(1)} />
-        <SummaryStat label="TDs / Game" value={s.totalTDsPerGame.toFixed(2)} />
+      {/* Mean / Median / Mode table */}
+      <table className="w-full mb-5">
+        <thead>
+          <tr>
+            <th className="text-left pb-2" />
+            {(['Mean', 'Median', 'Mode'] as const).map(col => (
+              <th key={col} className="text-center text-xs text-gray-400 dark:text-gray-500 uppercase tracking-wide pb-2 font-medium">
+                {col}
+              </th>
+            ))}
+          </tr>
+        </thead>
+        <tbody>
+          {rows.map(({ label, stats }) => (
+            <tr key={label} className="border-t border-gray-100 dark:border-gray-800">
+              <td className="py-2 pr-4 text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide">{label}</td>
+              <td className={`py-2 text-center text-xl font-bold tabular-nums ${ratingColor(stats.mean)}`}>
+                {fmtStat(stats.mean, 1)}
+              </td>
+              <td className={`py-2 text-center text-xl font-bold tabular-nums ${ratingColor(stats.median)}`}>
+                {fmtStat(stats.median)}
+              </td>
+              <td className={`py-2 text-center text-xl font-bold tabular-nums ${ratingColor(stats.mode)}`}>
+                {fmtStat(stats.mode)}
+              </td>
+            </tr>
+          ))}
+        </tbody>
+      </table>
 
-        <div className="col-span-2 sm:col-span-6 h-px bg-gray-100 dark:bg-gray-800" />
+      {/* Cap Space */}
+      <div className="border-t border-gray-100 dark:border-gray-800 pt-4 mb-4 flex items-baseline gap-2">
+        <span className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider">Cap Space</span>
+        <span className={`text-xl font-bold tabular-nums ${capColor}`}>{coins}</span>
+        <span className="text-sm text-gray-400 dark:text-gray-500">/ 200</span>
+      </div>
 
-        <SummaryStat
-          label="Avg Off. Rank"
-          value={fmt(s.avgOffRating)}
-          valueClassName={ratingColor(s.avgOffRating)}
-        />
-        <SummaryStat
-          label="Avg Def. Rank"
-          value={fmt(s.avgDefRating)}
-          valueClassName={ratingColor(s.avgDefRating)}
-        />
-        <SummaryStat
-          label="O-Line"
-          value={fmt(s.oLineRating)}
-          valueClassName={ratingColor(s.oLineRating)}
-        />
-        <SummaryStat
-          label="D-Line"
-          value={fmt(s.dLineRating)}
-          valueClassName={ratingColor(s.dLineRating)}
-        />
-        <SummaryStat
-          label="Secondary"
-          value={fmt(s.secondaryRating)}
-          valueClassName={ratingColor(s.secondaryRating)}
-        />
-        <SummaryStat
-          label="Avg Rank"
-          value={fmt(s.avgRating)}
-          valueClassName={ratingColor(s.avgRating)}
-        />
-
-        <div className="col-span-2 sm:col-span-6 h-px bg-gray-100 dark:bg-gray-800" />
-
-        <SummaryStat label="All-Pros" value={`${s.allProCount} ⭐️`} />
-        <SummaryStat
-          label="Award Winners"
-          value={String(s.awardWinnerCount)}
-          valueClassName={s.awardWinnerCount > 0 ? 'text-yellow-500 dark:text-yellow-400' : undefined}
-        />
-        <SummaryStat label="Roster Filled" value={`${s.rosterFilled}/${s.rosterSize}`} />
-        <SummaryStat
-          label="Cap Space"
-          value={`${coins} / 200`}
-          valueClassName={
-            coins < 20 ? 'text-red-500 dark:text-red-400'
-            : coins < 50 ? 'text-yellow-500 dark:text-yellow-400'
-            : 'text-green-500 dark:text-green-400'
-          }
-        />
+      {/* Abilities */}
+      <div className="border-t border-gray-100 dark:border-gray-800 pt-4 flex items-center gap-3">
+        <span className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider shrink-0">Abilities</span>
+        {abilities.length === 0 ? (
+          <span className="text-gray-400 dark:text-gray-500 text-sm">—</span>
+        ) : (
+          <span className="flex gap-2 flex-wrap">
+            {abilities.map((a, i) => (
+              <span key={i} title={a.label} className="text-xl cursor-default select-none">{a.emoji}</span>
+            ))}
+          </span>
+        )}
       </div>
     </div>
   )

@@ -18,7 +18,7 @@ interface PlayAreaProps {
   yardsGained: number | null
   fgRoll: number | null
   fgDifficulty: number | null
-  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | null
+  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | null
   kicker: Player | TeamUnit | null
 }
 
@@ -41,6 +41,7 @@ const OUTCOME_LABELS: Record<string, string> = {
   FG: '✅ FIELD GOAL!',
   'FG-missed': '❌ FG MISSED',
   Punt: '📤 PUNT',
+  Turnover: '🔄 TURNOVER!',
 }
 
 const OUTCOME_COLORS: Record<string, string> = {
@@ -48,6 +49,7 @@ const OUTCOME_COLORS: Record<string, string> = {
   FG: 'text-blue-400',
   'FG-missed': 'text-red-400',
   Punt: 'text-gray-400',
+  Turnover: 'text-red-500',
 }
 
 export function PlayArea({

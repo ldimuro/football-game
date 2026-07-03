@@ -14,6 +14,8 @@ interface GameHUDProps {
   userTurnoverNumbers: number[]
   opponentTurnoverNumbers: number[]
   activeRule: LeagueRule | null
+  tdYard: number
+  fgRangeYard: number
 }
 
 const DOWN_LABELS = ['1st', '2nd', '3rd', '4th']
@@ -21,7 +23,7 @@ const DOWN_LABELS = ['1st', '2nd', '3rd', '4th']
 export function GameHUD({
   quarter, driveIndex, down, driveProgress,
   userScore, opponentScore, possession, opponentLabel, pendingYards,
-  userTurnoverNumbers, opponentTurnoverNumbers, activeRule,
+  userTurnoverNumbers, opponentTurnoverNumbers, activeRule, tdYard, fgRangeYard,
 }: GameHUDProps) {
   const driveInQuarter = (driveIndex % 4) + 1
   const downLabel = DOWN_LABELS[down - 1] ?? `${down}th`
@@ -72,7 +74,7 @@ export function GameHUD({
           </>
         )}
       </div>
-      <DriveProgressBar progress={driveProgress} pendingProgress={pendingProgress} />
+      <DriveProgressBar progress={driveProgress} pendingProgress={pendingProgress} tdYard={tdYard} fgRangeYard={fgRangeYard} />
     </div>
   )
 }

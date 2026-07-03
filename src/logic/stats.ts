@@ -1,5 +1,37 @@
 import type { Roster, AggregateStats, RosterSummary, Player, QBStats, WRStats, RBStats, OLineStats, DLineStats, SecondaryStats } from '../types'
 
+export interface RatingStats {
+  mean: number | null
+  median: number | null
+  mode: number | null
+}
+
+export function computeRatingStats(ratings: (number | null)[]): RatingStats {
+  const valid = ratings.filter((r): r is number => r !== null)
+  if (valid.length === 0) return { mean: null, median: null, mode: null }
+
+  const mean = valid.reduce((a, b) => a + b, 0) / valid.length
+
+  const sorted = [...valid].sort((a, b) => a - b)
+  const mid = Math.floor(sorted.length / 2)
+  const median = sorted.length % 2 === 0
+    ? (sorted[mid - 1] + sorted[mid]) / 2
+    : sorted[mid]
+
+  const freq: Record<number, number> = {}
+  let maxFreq = 0
+  for (const v of valid) {
+    freq[v] = (freq[v] ?? 0) + 1
+    if (freq[v] > maxFreq) maxFreq = freq[v]
+  }
+  const modeEntry = maxFreq > 1
+    ? Object.entries(freq).find(([, f]) => f === maxFreq)
+    : null
+  const mode = modeEntry ? Number(modeEntry[0]) : null
+
+  return { mean, median, mode }
+}
+
 export function computeAggregateStats(roster: Roster): AggregateStats {
   const qbStats = roster.QB?.stats as QBStats | undefined
   const rbStats = roster.RB?.stats as RBStats | undefined
