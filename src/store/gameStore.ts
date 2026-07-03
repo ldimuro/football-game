@@ -7,6 +7,8 @@ import {
 import { generateWeather } from '../logic/weatherGen'
 import { playerCost, slotCost } from '../logic/playerValue'
 import { CAP_SPACE } from '../logic/gameConstants'
+import { getRandomRule, getRuleOverrides, getDefaultOverrides } from '../logic/leagueRules'
+import type { LeagueRule } from '../logic/leagueRules'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
   DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
@@ -31,6 +33,9 @@ interface GameStore {
   draftComplete: boolean
   simulationResult: SimulationResult | null
   pendingDraftedId: string | null
+  activeRule: LeagueRule | null
+  userTurnoverNumbers: number[]
+  opponentTurnoverNumbers: number[]
 
   initGame: () => Promise<void>
   rerollSetupSlot: (position: RosterPosition) => Promise<void>
@@ -62,13 +67,21 @@ function coinsForRoster(roster: Roster): number {
   return CAP_SPACE - rosterCost(roster)
 }
 
-async function buildNextRoundData(remainingCoins: number) {
+function generateTurnoverNumbers(dual: boolean): number[] {
+  const first = Math.ceil(Math.random() * 20)
+  if (!dual) return [first]
+  let second = Math.ceil(Math.random() * 20)
+  while (second === first) second = Math.ceil(Math.random() * 20)
+  return [first, second]
+}
+
+async function buildNextRoundData(remainingCoins: number, activeRule: LeagueRule | null = null) {
   const [{ stats: opponent, roster: opponentRoster }, draftOffer, shopOffer] = await Promise.all([
     generateOpponent(),
     generateDraftOffer(),
     generateShopOffer(remainingCoins),
   ])
-  const weather = generateWeather()
+  const weather = activeRule?.id === 'ice-age' ? 'Snow' as const : generateWeather()
   return { opponent, opponentRoster, draftOffer, weather, shopOffer }
 }
 
@@ -91,14 +104,21 @@ export const useGameStore = create<GameStore>((set, get) => ({
   draftComplete: false,
   simulationResult: null,
   pendingDraftedId: null,
+  activeRule: null,
+  userTurnoverNumbers: [],
+  opponentTurnoverNumbers: [],
 
   initGame: async () => {
     set({ isLoading: true })
     const roster = await generateRandomRoster()
     const coins = coinsForRoster(roster)
+    const activeRule = getRandomRule()
+    const { dualTurnoverNumbers } = getRuleOverrides(activeRule)
     set({
       roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
       coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
+      activeRule,
+      userTurnoverNumbers: generateTurnoverNumbers(dualTurnoverNumbers),
     })
   },
 
@@ -116,9 +136,10 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   confirmSetup: async () => {
     set({ isLoading: true })
-    const { roster } = get()
+    const { roster, activeRule } = get()
     const coins = coinsForRoster(roster)
-    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins)
+    const { dualTurnoverNumbers } = activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides()
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins, activeRule)
     set({
       phase: 'round-hub',
       coins,
@@ -129,6 +150,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
       currentWeather: weather,
       currentDraftOffer: draftOffer,
       draftRerollAvailable: true,
+      opponentTurnoverNumbers: generateTurnoverNumbers(dualTurnoverNumbers),
       isLoading: false,
     })
   },
@@ -180,7 +202,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
   advanceRound: async () => {
     const {
       round, seasonLog, currentOpponent, currentWeather,
-      pendingDraftedId, simulationResult, pendingShopBoughtId, coins,
+      pendingDraftedId, simulationResult, pendingShopBoughtId, coins, activeRule,
     } = get()
     if (!currentOpponent || !currentWeather) return
 
@@ -206,7 +228,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     }
 
     set({ isLoading: true })
-    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins)
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins, activeRule)
     set({
       seasonLog: newLog,
       round: round + 1,
@@ -221,6 +243,9 @@ export const useGameStore = create<GameStore>((set, get) => ({
       pendingDraftedId: null,
       shopComplete: false,
       pendingShopBoughtId: null,
+      opponentTurnoverNumbers: generateTurnoverNumbers(
+        activeRule ? getRuleOverrides(activeRule).dualTurnoverNumbers : false
+      ),
       isLoading: false,
     })
   },
