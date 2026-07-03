@@ -68,6 +68,13 @@ describe('computeFGDifficulty', () => {
   it('clamps to 1 at progress 100', () => {
     expect(computeFGDifficulty(100)).toBe(1)
   })
+  it('scales correctly when fgRangeYard=50 (Altitude rule)', () => {
+    // At fgRangeYard=50: difficulty = 15 (MAX)
+    expect(computeFGDifficulty(50, 50)).toBe(15)
+  })
+  it('returns MIN when fgRangeYard=35 and progress=99', () => {
+    expect(computeFGDifficulty(99, 35)).toBe(1)
+  })
 })
 
 describe('getOffensePlayers', () => {
