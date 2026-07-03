@@ -17,7 +17,6 @@ import {
 } from '../../logic/gameConstants'
 import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
 import type { RuleOverrides } from '../../logic/leagueRules'
-import type { LeagueRule } from '../../logic/leagueRules'
 import { RosterGrid } from '../roster/RosterGrid'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
 import {
