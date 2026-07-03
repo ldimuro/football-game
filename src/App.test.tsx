@@ -9,9 +9,11 @@ vi.mock('./store/gameStore', () => ({
 
 const baseState = {
   phase: 'setup', round: 1, roster: { QB: null, WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null },
+  coins: 0, shopOffer: null, shopComplete: false, pendingShopBoughtId: null,
   setupRerollsRemaining: 3, draftRerollAvailable: true,
   currentOpponent: null, currentOpponentRoster: null, currentWeather: null, currentDraftOffer: null,
-  seasonLog: [], isLoading: false,
+  seasonLog: [], isLoading: false, draftComplete: false, simulationResult: null, pendingDraftedId: null,
+  activeRule: null, userTurnoverNumbers: [], opponentTurnoverNumbers: [],
   initGame: vi.fn().mockResolvedValue(undefined),
   rerollSetupSlot: vi.fn(), confirmSetup: vi.fn(), viewDraftOffer: vi.fn(),
   rerollDraftOfferTeam: vi.fn(), rerollDraftOfferYear: vi.fn(), draftPlayer: vi.fn(), skipDraft: vi.fn(),
@@ -31,6 +33,8 @@ describe('App', () => {
       currentOpponent: { team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1, qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8 },
       currentOpponentRoster: { QB: null, WR1: null, WR2: null, RB: null, K: null, OLine: null, DLine: null, Secondary: null },
       currentWeather: 'Clear',
+      userTurnoverNumbers: [1],
+      opponentTurnoverNumbers: [2],
     } as any)
     render(<App />)
     expect(screen.getByText(/Week/i)).toBeInTheDocument()

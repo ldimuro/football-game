@@ -1,8 +1,6 @@
-import { useState } from 'react'
 import { getTeamColor } from '../../logic/teamColors'
-import type { WeatherCondition, Roster, QBStats, WRStats, RBStats, OLineStats, DLineStats, SecondaryStats, RosterPosition } from '../../types'
-
-type View = 'ypg' | 'ratings'
+import { computeRatingStats } from '../../logic/stats'
+import type { WeatherCondition, Roster } from '../../types'
 
 const WEATHER_CONFIG: Record<WeatherCondition, { icon: string; label: string }> = {
   Clear: { icon: '☀️', label: 'Clear' },
@@ -12,15 +10,10 @@ const WEATHER_CONFIG: Record<WeatherCondition, { icon: string; label: string }> 
   Snow: { icon: '❄️', label: 'Snow' },
 }
 
-const POSITIONS: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
-const POSITION_LABELS: Record<RosterPosition, string> = {
-  QB: 'QB', WR1: 'WR 1', WR2: 'WR 2', RB: 'RB', K: 'Kicker',
-  OLine: 'O-Line', DLine: 'D-Line', Secondary: 'Secondary',
-}
-
-function fmt(val: number | null, dec = 1): string {
-  return val === null ? '—' : val.toFixed(dec)
-}
+type RosterKey = keyof Roster
+const OFF_SLOTS: RosterKey[] = ['QB', 'WR1', 'WR2', 'RB']
+const DEF_SLOTS: RosterKey[] = ['DLine', 'Secondary']
+const ALL_SLOTS: RosterKey[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
 
 interface StatColumn {
   label: string
@@ -45,7 +38,7 @@ function StatTable({ columns }: { columns: StatColumn[] }) {
             {columns.map(col => (
               <th
                 key={col.label}
-                className={`text-center px-3 pb-2 uppercase tracking-wider whitespace-nowrap ${col.bold ? 'text-xs font-bold text-gray-600 dark:text-gray-300' : 'text-xs text-gray-400 dark:text-gray-500'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`}
+                className={`text-center px-3 pb-2 text-xs uppercase tracking-wider whitespace-nowrap ${col.bold ? 'font-bold text-gray-600 dark:text-gray-300' : 'font-normal text-gray-400 dark:text-gray-500'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`}
               >
                 {col.label}
               </th>
@@ -71,30 +64,49 @@ function StatTable({ columns }: { columns: StatColumn[] }) {
   )
 }
 
-function getYPGData(roster: Roster) {
-  const qb = roster.QB?.stats as QBStats | undefined
-  const wr1 = roster.WR1?.stats as WRStats | undefined
-  const wr2 = roster.WR2?.stats as WRStats | undefined
-  const rb = roster.RB?.stats as RBStats | undefined
-  const sec = roster.Secondary?.stats as SecondaryStats | undefined
-  const dLine = roster.DLine?.stats as DLineStats | undefined
-
-  const recYPG = (wr1?.recYPG ?? 0) + (wr2?.recYPG ?? 0) + (rb?.recYPG ?? 0)
-  const rushYPG = rb?.rushYPG ?? 0
-  const passYPG = qb?.passYPG ?? 0
-
-  return {
-    totalYPG: passYPG + recYPG + rushYPG,
-    recYPG,
-    rushYPG,
-    passAllowed: sec?.passYPGAllowed ?? null,
-    rushAllowed: dLine?.rushYPGAllowed ?? null,
-  }
+function fmtMean(val: number | null): string {
+  return val !== null ? val.toFixed(1) : '—'
 }
 
-function avg(vals: (number | null)[]): number | null {
-  const valid = vals.filter((v): v is number => v !== null)
-  return valid.length ? valid.reduce((a, b) => a + b, 0) / valid.length : null
+function fmtStat(val: number | null): string {
+  if (val === null) return '—'
+  return val % 1 === 0 ? String(val) : val.toFixed(1)
+}
+
+function hi(a: number | null, b: number | null): boolean {
+  return a !== null && b !== null && a > b
+}
+
+function statsColumns(
+  prefix: string,
+  userStats: ReturnType<typeof computeRatingStats>,
+  oppStats: ReturnType<typeof computeRatingStats>,
+  separator?: boolean,
+): StatColumn[] {
+  return [
+    {
+      label: `${prefix} Mean`,
+      userVal: fmtMean(userStats.mean),
+      oppVal: fmtMean(oppStats.mean),
+      userBetter: hi(userStats.mean, oppStats.mean),
+      oppBetter: hi(oppStats.mean, userStats.mean),
+      separator,
+    },
+    {
+      label: `${prefix} Med`,
+      userVal: fmtStat(userStats.median),
+      oppVal: fmtStat(oppStats.median),
+      userBetter: hi(userStats.median, oppStats.median),
+      oppBetter: hi(oppStats.median, userStats.median),
+    },
+    {
+      label: `${prefix} Mode`,
+      userVal: fmtStat(userStats.mode),
+      oppVal: fmtStat(oppStats.mode),
+      userBetter: hi(userStats.mode, oppStats.mode),
+      oppBetter: hi(oppStats.mode, userStats.mode),
+    },
+  ]
 }
 
 interface Props {
@@ -103,26 +115,36 @@ interface Props {
   opponentTeam: string
   opponentYear: number
   weather: WeatherCondition
+  userTurnoverNumbers: number[]
+  opponentTurnoverNumbers: number[]
 }
 
-export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, opponentYear, weather }: Props) {
-  const [view, setView] = useState<View>('ypg')
+export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, opponentYear, weather, userTurnoverNumbers, opponentTurnoverNumbers }: Props) {
   const { icon, label: weatherLabel } = WEATHER_CONFIG[weather]
   const teamColor = getTeamColor(opponentTeam)
 
-  const user = getYPGData(userRoster)
-  const opp = getYPGData(opponentRoster)
+  const ratings = (slots: RosterKey[], roster: Roster) => slots.map(k => roster[k]?.rating ?? null)
 
-  const userRatings = POSITIONS.map(pos => (userRoster[pos]?.rating ?? null) as number | null)
-  const oppRatings = POSITIONS.map(pos => (opponentRoster[pos]?.rating ?? null) as number | null)
-  const userAvg = avg(userRatings)
-  const oppAvg = avg(oppRatings)
+  const userOff = computeRatingStats(ratings(OFF_SLOTS, userRoster))
+  const oppOff  = computeRatingStats(ratings(OFF_SLOTS, opponentRoster))
+  const userDef = computeRatingStats(ratings(DEF_SLOTS, userRoster))
+  const oppDef  = computeRatingStats(ratings(DEF_SLOTS, opponentRoster))
+  const userAll = computeRatingStats(ratings(ALL_SLOTS, userRoster))
+  const oppAll  = computeRatingStats(ratings(ALL_SLOTS, opponentRoster))
 
-  // indices: QB=0, WR1=1, WR2=2, RB=3 | DLine=6, Secondary=7
-  const userAvgOff = avg([userRatings[0], userRatings[1], userRatings[2], userRatings[3]])
-  const oppAvgOff = avg([oppRatings[0], oppRatings[1], oppRatings[2], oppRatings[3]])
-  const userAvgDef = avg([userRatings[6], userRatings[7]])
-  const oppAvgDef = avg([oppRatings[6], oppRatings[7]])
+  const columns: StatColumn[] = [
+    ...statsColumns('OFF', userOff, oppOff),
+    ...statsColumns('DEF', userDef, oppDef, true),
+    ...statsColumns('All', userAll, oppAll, true),
+    {
+      label: 'T.O. #',
+      userVal: userTurnoverNumbers.join(', '),
+      oppVal: opponentTurnoverNumbers.join(', '),
+      userBetter: false,
+      oppBetter: false,
+      separator: true,
+    },
+  ]
 
   return (
     <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5">
@@ -141,108 +163,7 @@ export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, oppon
         </div>
       </div>
 
-      <div className="flex gap-1 p-1 bg-gray-100 dark:bg-gray-800 rounded-lg mb-4">
-        <button
-          onClick={() => setView('ypg')}
-          className={`flex-1 text-xs font-semibold py-1.5 rounded-md transition-colors ${
-            view === 'ypg'
-              ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
-              : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
-          }`}
-        >
-          Yards Per Game
-        </button>
-        <button
-          onClick={() => setView('ratings')}
-          className={`flex-1 text-xs font-semibold py-1.5 rounded-md transition-colors ${
-            view === 'ratings'
-              ? 'bg-white dark:bg-gray-700 text-gray-900 dark:text-white shadow-sm'
-              : 'text-gray-500 dark:text-gray-400 hover:text-gray-700 dark:hover:text-gray-200'
-          }`}
-        >
-          Ratings
-        </button>
-      </div>
-
-      {view === 'ypg' && (
-        <StatTable columns={[
-          {
-            label: 'Total YPG',
-            userVal: fmt(user.totalYPG),
-            oppVal: fmt(opp.totalYPG),
-            userBetter: user.totalYPG > opp.totalYPG,
-            oppBetter: opp.totalYPG > user.totalYPG,
-          },
-          {
-            label: 'Receiving',
-            userVal: fmt(user.recYPG),
-            oppVal: fmt(opp.recYPG),
-            userBetter: user.recYPG > opp.recYPG,
-            oppBetter: opp.recYPG > user.recYPG,
-          },
-          {
-            label: 'Rushing',
-            userVal: fmt(user.rushYPG),
-            oppVal: fmt(opp.rushYPG),
-            userBetter: user.rushYPG > opp.rushYPG,
-            oppBetter: opp.rushYPG > user.rushYPG,
-          },
-          {
-            label: 'Pass Allowed',
-            userVal: fmt(user.passAllowed),
-            oppVal: fmt(opp.passAllowed),
-            userBetter: user.passAllowed !== null && opp.passAllowed !== null && user.passAllowed < opp.passAllowed,
-            oppBetter: user.passAllowed !== null && opp.passAllowed !== null && opp.passAllowed < user.passAllowed,
-          },
-          {
-            label: 'Rush Allowed',
-            userVal: fmt(user.rushAllowed),
-            oppVal: fmt(opp.rushAllowed),
-            userBetter: user.rushAllowed !== null && opp.rushAllowed !== null && user.rushAllowed < opp.rushAllowed,
-            oppBetter: user.rushAllowed !== null && opp.rushAllowed !== null && opp.rushAllowed < user.rushAllowed,
-          },
-        ]} />
-      )}
-
-      {view === 'ratings' && (
-        <StatTable columns={[
-          ...POSITIONS.map((pos, i) => {
-            const u = userRatings[i]
-            const o = oppRatings[i]
-            return {
-              label: POSITION_LABELS[pos],
-              userVal: u !== null ? String(u) : '—',
-              oppVal: o !== null ? String(o) : '—',
-              userBetter: u !== null && o !== null && u > o,
-              oppBetter: u !== null && o !== null && o > u,
-            }
-          }),
-          {
-            label: 'Avg Off',
-            userVal: userAvgOff !== null ? userAvgOff.toFixed(1) : '—',
-            oppVal: oppAvgOff !== null ? oppAvgOff.toFixed(1) : '—',
-            userBetter: userAvgOff !== null && oppAvgOff !== null && userAvgOff > oppAvgOff,
-            oppBetter: userAvgOff !== null && oppAvgOff !== null && oppAvgOff > userAvgOff,
-            separator: true,
-          },
-          {
-            label: 'Avg Def',
-            userVal: userAvgDef !== null ? userAvgDef.toFixed(1) : '—',
-            oppVal: oppAvgDef !== null ? oppAvgDef.toFixed(1) : '—',
-            userBetter: userAvgDef !== null && oppAvgDef !== null && userAvgDef > oppAvgDef,
-            oppBetter: userAvgDef !== null && oppAvgDef !== null && oppAvgDef > userAvgDef,
-          },
-          {
-            label: 'Average',
-            userVal: userAvg !== null ? userAvg.toFixed(1) : '—',
-            oppVal: oppAvg !== null ? oppAvg.toFixed(1) : '—',
-            userBetter: userAvg !== null && oppAvg !== null && userAvg > oppAvg,
-            oppBetter: userAvg !== null && oppAvg !== null && oppAvg > userAvg,
-            bold: true,
-            separator: true,
-          },
-        ]} />
-      )}
+      <StatTable columns={columns} />
     </div>
   )
 }

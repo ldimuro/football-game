@@ -79,6 +79,9 @@ const INITIAL_STATE = {
   draftComplete: false,
   simulationResult: null,
   pendingDraftedId: null,
+  activeRule: null,
+  userTurnoverNumbers: [],
+  opponentTurnoverNumbers: [],
 }
 
 beforeEach(() => {

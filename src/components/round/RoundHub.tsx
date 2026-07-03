@@ -10,7 +10,7 @@ export function RoundHub() {
   const {
     round, roster, currentOpponent, currentOpponentRoster, currentWeather,
     viewDraftOffer, startGame, draftComplete, isLoading, seasonLog,
-    coins, shopComplete,
+    coins, shopComplete, userTurnoverNumbers, opponentTurnoverNumbers, activeRule,
   } = useGameStore()
   const [shopOpen, setShopOpen] = useState(false)
 
@@ -35,6 +35,11 @@ export function RoundHub() {
             <span className="text-yellow-500 dark:text-yellow-400 font-semibold">{coins}</span>
             <span className="text-gray-500 dark:text-gray-400"> / 200 coins</span>
           </p>
+          {activeRule && (
+            <p className="text-xs mt-0.5">
+              <span className="text-indigo-500 dark:text-indigo-400 font-semibold">{activeRule.emoji} {activeRule.name}</span>
+            </p>
+          )}
         </div>
         <div className="flex gap-2">
           <Button
@@ -58,6 +63,8 @@ export function RoundHub() {
         opponentTeam={currentOpponent.team}
         opponentYear={currentOpponent.year}
         weather={currentWeather}
+        userTurnoverNumbers={userTurnoverNumbers}
+        opponentTurnoverNumbers={opponentTurnoverNumbers}
       />
       <div className="mt-4">
         <PositionMatchups
