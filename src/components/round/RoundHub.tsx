@@ -11,7 +11,7 @@ export function RoundHub() {
   const {
     round, roster, currentOpponent, currentOpponentRoster, currentWeather,
     startGame, isLoading, seasonLog,
-    coins, shopComplete, userTurnoverNumbers, opponentTurnoverNumbers, activeRule,
+    coins, shopComplete, abilityShopComplete, userTurnoverNumbers, opponentTurnoverNumbers, activeRule,
   } = useGameStore()
   const [shopOpen, setShopOpen] = useState(false)
 
@@ -20,6 +20,8 @@ export function RoundHub() {
   const ties = seasonLog.filter(r => r.result === 'tie').length
 
   if (!currentOpponent || !currentOpponentRoster || !currentWeather) return null
+
+  const bothShopsComplete = shopComplete && abilityShopComplete
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
@@ -49,10 +51,10 @@ export function RoundHub() {
         <div className="flex gap-2">
           <Button
             onClick={() => setShopOpen(true)}
-            disabled={isLoading || shopComplete}
+            disabled={isLoading || bothShopsComplete}
             variant="secondary"
           >
-            {shopComplete ? 'Shop ✓' : 'Shop'}
+            {bothShopsComplete ? 'Shop ✓' : 'Shop'}
           </Button>
           {/* <Button onClick={viewDraftOffer} disabled={isLoading || draftComplete} variant="secondary">
             View Draft Offer →
