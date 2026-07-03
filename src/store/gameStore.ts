@@ -1,11 +1,12 @@
 import { create } from 'zustand'
 import { generateRandomRoster, generateRandomSlot, generateShopOffer } from '../logic/rosterGen'
+import { generateAbilityShopOffer } from '../logic/abilityGen'
 import {
   generateDraftOffer, generateOpponent,
   rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
 } from '../logic/draftGen'
 import { generateWeather } from '../logic/weatherGen'
-import { playerCost, slotCost } from '../logic/playerValue'
+import { playerCost, slotCost, abilityCost } from '../logic/playerValue'
 import { CAP_SPACE } from '../logic/gameConstants'
 import { getRandomRule, getRuleOverrides, getDefaultOverrides } from '../logic/leagueRules'
 import type { LeagueRule } from '../logic/leagueRules'
@@ -51,8 +52,11 @@ interface GameStore {
   skipDraft: () => void
   startGame: () => void
   recordGameResult: (result: SimulationResult) => void
+  abilityShopOffer: string[] | null
+  abilityShopComplete: boolean
   advanceRound: () => Promise<void>
   buyFromShop: (buyId: string, sellPosition: RosterPosition) => void
+  buyAbility: (abilityId: string, targetPosition: RosterPosition) => void
   sellPlayer: (position: RosterPosition) => void
 }
 
@@ -85,8 +89,9 @@ async function buildNextRoundData(remainingCoins: number, activeRule: LeagueRule
     generateDraftOffer(),
     generateShopOffer(remainingCoins),
   ])
+  const abilityShopOffer = generateAbilityShopOffer()
   const weather = activeRule?.id === 'ice-age' ? 'Snow' as const : generateWeather()
-  return { opponent, opponentRoster, draftOffer, weather, shopOffer }
+  return { opponent, opponentRoster, draftOffer, weather, shopOffer, abilityShopOffer }
 }
 
 export const useGameStore = create<GameStore>((set, get) => ({
@@ -97,6 +102,8 @@ export const useGameStore = create<GameStore>((set, get) => ({
   shopOffer: null,
   shopComplete: false,
   pendingShopBoughtId: null,
+  abilityShopOffer: null,
+  abilityShopComplete: false,
   setupRerollsRemaining: 3,
   draftRerollAvailable: true,
   currentOpponent: null,
@@ -125,6 +132,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({
       roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
       coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
+      abilityShopOffer: null, abilityShopComplete: false,
       activeRule, simulationHistory: [],
       userTurnoverNumbers: generateTurnoverNumbers(dualTurnoverNumbers),
     })
@@ -147,12 +155,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
     const { roster, activeRule } = get()
     const coins = coinsForRoster(roster)
     const { dualTurnoverNumbers } = activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides()
-    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins, activeRule)
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer, abilityShopOffer } = await buildNextRoundData(coins, activeRule)
     set({
       phase: 'round-hub',
       coins,
       shopOffer,
       shopComplete: false,
+      abilityShopOffer,
+      abilityShopComplete: false,
       currentOpponent: opponent,
       currentOpponentRoster: opponentRoster,
       currentWeather: weather,
@@ -232,12 +242,13 @@ export const useGameStore = create<GameStore>((set, get) => ({
         seasonLog: newLog, phase: 'complete',
         simulationResult: null, draftComplete: false, pendingDraftedId: null,
         shopComplete: false, pendingShopBoughtId: null,
+        abilityShopComplete: false,
       })
       return
     }
 
     set({ isLoading: true })
-    const { opponent, opponentRoster, draftOffer, weather, shopOffer } = await buildNextRoundData(coins, activeRule)
+    const { opponent, opponentRoster, draftOffer, weather, shopOffer, abilityShopOffer } = await buildNextRoundData(coins, activeRule)
     set({
       seasonLog: newLog,
       round: round + 1,
@@ -252,6 +263,8 @@ export const useGameStore = create<GameStore>((set, get) => ({
       pendingDraftedId: null,
       shopComplete: false,
       pendingShopBoughtId: null,
+      abilityShopOffer,
+      abilityShopComplete: false,
       opponentTurnoverNumbers: generateTurnoverNumbers(
         activeRule ? getRuleOverrides(activeRule).dualTurnoverNumbers : false
       ),
@@ -283,6 +296,20 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({
       roster: { ...roster, [position]: null },
       coins: coins + slotCost(player),
+    })
+  },
+
+  buyAbility: (abilityId, targetPosition) => {
+    const { roster, abilityShopOffer, coins } = get()
+    if (!abilityShopOffer || !abilityShopOffer.includes(abilityId)) return
+    const cost = abilityCost(abilityId)
+    if (cost > coins) return
+    const currentSlot = roster[targetPosition]
+    if (!currentSlot) return
+    set({
+      roster: { ...roster, [targetPosition]: { ...currentSlot, ability: abilityId } },
+      coins: coins - cost,
+      abilityShopComplete: true,
     })
   },
 }))

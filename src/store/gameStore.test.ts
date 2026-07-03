@@ -2,6 +2,7 @@ import { describe, it, expect, vi, beforeEach } from 'vitest'
 import { act } from 'react'
 import { useGameStore } from './gameStore'
 import { createPracticeSquadPlayer } from '../logic/practiceSquad'
+import { abilityCost } from '../logic/playerValue'
 import type { Roster, SimulationResult } from '../types'
 
 const { mockRoster } = vi.hoisted(() => {
@@ -55,6 +56,10 @@ vi.mock('../logic/weatherGen', () => ({
   generateWeather: vi.fn().mockReturnValue('Clear'),
 }))
 
+vi.mock('../logic/abilityGen', () => ({
+  generateAbilityShopOffer: vi.fn().mockReturnValue(['second-half', 'clutch', 'rain-man', 'snow-man']),
+}))
+
 const mockOpponent = {
   team: 'NE', year: 2019, offenseRank: 12, defenseRank: 1,
   qbAvgYPG: 240, rbAvgYPG: 94, wrAvgYPG: 118, defPointsAllowed: 13.8,
@@ -82,6 +87,8 @@ const INITIAL_STATE = {
   activeRule: null,
   userTurnoverNumbers: [],
   opponentTurnoverNumbers: [],
+  abilityShopOffer: null,
+  abilityShopComplete: false,
 }
 
 beforeEach(() => {
@@ -386,5 +393,79 @@ describe('sellPlayer', () => {
     const state = useGameStore.getState()
     expect(state.roster.QB).toBeNull()
     expect(state.coins).toBe(40)
+  })
+})
+
+describe('buyAbility', () => {
+  it('sets the ability on the target player, deducts cost, sets abilityShopComplete', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: mockRoster,
+      coins: 50,
+      abilityShopOffer: ['second-half', 'clutch', 'rain-man', 'snow-man'],
+    })
+    useGameStore.getState().buyAbility('second-half', 'QB')
+    const state = useGameStore.getState()
+    expect(state.roster.QB?.ability).toBe('second-half')
+    expect(state.coins).toBe(50 - abilityCost('second-half')) // 50 - 10 = 40
+    expect(state.abilityShopComplete).toBe(true)
+  })
+
+  it('does nothing when abilityShopOffer is null', () => {
+    useGameStore.setState({ ...INITIAL_STATE, roster: mockRoster, coins: 50, abilityShopOffer: null })
+    useGameStore.getState().buyAbility('second-half', 'QB')
+    expect(useGameStore.getState().coins).toBe(50)
+    expect(useGameStore.getState().abilityShopComplete).toBe(false)
+  })
+
+  it('does nothing when abilityId is not in the current offer', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: mockRoster,
+      coins: 50,
+      abilityShopOffer: ['clutch', 'rain-man', 'snow-man', 'comeback-kid'],
+    })
+    useGameStore.getState().buyAbility('second-half', 'QB')
+    expect(useGameStore.getState().coins).toBe(50)
+    expect(useGameStore.getState().abilityShopComplete).toBe(false)
+  })
+
+  it('does nothing when the target slot is empty', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: null },
+      coins: 50,
+      abilityShopOffer: ['second-half', 'clutch', 'rain-man', 'snow-man'],
+    })
+    useGameStore.getState().buyAbility('second-half', 'QB')
+    expect(useGameStore.getState().coins).toBe(50)
+    expect(useGameStore.getState().abilityShopComplete).toBe(false)
+  })
+
+  it('does nothing when the player cannot afford the ability', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: mockRoster,
+      coins: 5,
+      abilityShopOffer: ['second-half', 'clutch', 'rain-man', 'snow-man'],
+    })
+    useGameStore.getState().buyAbility('second-half', 'QB') // costs 10, only 5 coins
+    expect(useGameStore.getState().coins).toBe(5)
+    expect(useGameStore.getState().abilityShopComplete).toBe(false)
+  })
+})
+
+describe('abilityShopComplete resets on advanceRound', () => {
+  it('resets abilityShopComplete to false when advancing to next round', async () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      phase: 'round-hub',
+      roster: mockRoster,
+      currentOpponent: mockOpponent,
+      currentWeather: 'Clear',
+      abilityShopComplete: true,
+    })
+    await act(async () => { await useGameStore.getState().advanceRound() })
+    expect(useGameStore.getState().abilityShopComplete).toBe(false)
   })
 })
