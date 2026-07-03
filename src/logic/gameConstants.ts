@@ -27,6 +27,13 @@ export const ADVANTAGE_BONUS = 5
 export const SHOP_SLOTS = 4       // number of players offered in the shop each round
 export const CAP_SPACE = 200      // total salary cap; coins = CAP_SPACE - roster cost
 
+// ─── Ability Shop pricing ──────────────────────────────────────────────────────
+export const ABILITY_SHOP_COSTS = {
+  Common:   10,
+  Uncommon: 20,
+  Rare:     30,
+} as const
+
 // ─── Setup roster ─────────────────────────────────────────────────────────────
 // The 3 starting players are guaranteed to fall in these rating tiers.
 export const SETUP_GOOD_MIN_RATING = 75    // Good tier: 75–84

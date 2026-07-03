@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest'
-import { playerCost, slotCost } from './playerValue'
+import { playerCost, slotCost, abilityCost } from './playerValue'
 import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 
 describe('playerCost', () => {
@@ -28,5 +28,14 @@ describe('slotCost', () => {
   it('returns playerCost(rating) for a regular player', () => {
     const player = createPracticeSquadPlayer('QB')
     expect(slotCost({ ...player, id: 'real-qb', rating: 90 })).toBe(playerCost(90))
+  })
+})
+
+describe('abilityCost', () => {
+  it('returns 10 for a Common ability (second-half)', () => {
+    expect(abilityCost('second-half')).toBe(10)
+  })
+  it('returns 10 for any ability not found in ABILITY_RARITY (fallback to Common)', () => {
+    expect(abilityCost('nonexistent-ability-xyz')).toBe(10)
   })
 })
