@@ -55,12 +55,12 @@ describe('computeYardsGained', () => {
 })
 
 describe('computeFGDifficulty', () => {
-  it('returns 15 at progress 65 (minimum range)', () => {
-    expect(computeFGDifficulty(65)).toBe(15)
+  it('returns 15 at progress 60 (minimum range)', () => {
+    expect(computeFGDifficulty(60)).toBe(15)
   })
-  it('returns 8 at progress 82 (midpoint)', () => {
-    // round(15 - (17/34)*14) = round(15 - 7) = 8
-    expect(computeFGDifficulty(82)).toBe(8)
+  it('returns 7 at progress 82', () => {
+    // round(15 - ((82-60)/39)*14) = round(15 - 7.9) = 7
+    expect(computeFGDifficulty(82)).toBe(7)
   })
   it('returns 1 at progress 99 (max range)', () => {
     expect(computeFGDifficulty(99)).toBe(1)

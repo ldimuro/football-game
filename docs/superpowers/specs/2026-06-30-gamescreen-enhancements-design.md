@@ -32,7 +32,7 @@ The test in `gameEngine.test.ts` for this function is updated accordingly.
 
 ### 1b. Kick FG Option (User Offense Only)
 
-When `driveProgress >= 65` during `choose-offense`, a third button "Kick FG" appears alongside Run and Pass. Clicking it:
+When `driveProgress >= 60` during `choose-offense`, a third button "Kick FG" appears alongside Run and Pass. Clicking it:
 1. Calls a new `handleKickFG()` handler in `GameScreen`
 2. Dispatches a new `KICK_FG` action (sets `fgDifficulty`, transitions to `fg-roll`)
 3. Skips the rolling phase entirely — the drive goes straight to the kicker

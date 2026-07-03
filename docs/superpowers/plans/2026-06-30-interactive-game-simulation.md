@@ -1022,7 +1022,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       if (state.down >= 4) {
-        if (newProgress >= 65) {
+        if (newProgress >= 60) {
           return {
             ...state,
             driveProgress: newProgress,

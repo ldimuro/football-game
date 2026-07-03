@@ -125,7 +125,7 @@ In `GameScreen.tsx`, replace the existing `choose-offense` JSX block:
     <div className="flex gap-4">
       <Button onClick={() => handleOffPlay('run')}>🏃 Run</Button>
       <Button onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
-      {state.driveProgress >= 65 && (
+      {state.driveProgress >= 60 && (
         <Button onClick={handleKickFG}>🦵 Kick FG</Button>
       )}
     </div>
