@@ -4,7 +4,7 @@ import { Button } from '../ui/Button'
 import type { RosterPosition } from '../../types'
 
 export function SetupScreen() {
-  const { roster, setupRerollsRemaining, rerollSetupSlot, confirmSetup, isLoading } = useGameStore()
+  const { roster, setupRerollsRemaining, rerollSetupSlot, confirmSetup, isLoading, activeRule } = useGameStore()
 
   return (
     <div className="max-w-7xl mx-auto px-4 py-8">
@@ -19,6 +19,13 @@ export function SetupScreen() {
           {isLoading ? 'Loading...' : 'Start Season →'}
         </Button>
       </div>
+      {activeRule && (
+        <div className="mb-6 rounded-xl border border-indigo-500/30 bg-indigo-950/30 dark:bg-indigo-900/20 px-5 py-4">
+          <p className="text-xs font-bold text-indigo-400 uppercase tracking-wider mb-1">League Rule</p>
+          <p className="text-xl font-bold text-gray-900 dark:text-white">{activeRule.emoji} {activeRule.name}</p>
+          <p className="text-sm text-gray-500 dark:text-gray-400 mt-1">{activeRule.description}</p>
+        </div>
+      )}
       <RosterGrid
         roster={roster}
         onReroll={(pos: RosterPosition) => rerollSetupSlot(pos)}
