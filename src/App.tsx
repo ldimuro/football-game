@@ -6,12 +6,13 @@ import { DraftOffer } from './components/draft/DraftOffer'
 import { RosterView } from './components/screens/RosterView'
 import { CompleteScreen } from './components/screens/CompleteScreen'
 import { GameScreen } from './components/game/GameScreen'
-import { ThemeToggle } from './components/ui/ThemeToggle'
+import { SettingsModal } from './components/ui/SettingsModal'
 import { useTheme } from './logic/useTheme'
 
 export default function App() {
-  const { phase, initGame, isLoading, roster, dieColorScheme, setDieColorScheme } = useGameStore()
+  const { phase, initGame, isLoading, roster } = useGameStore()
   const [showRoster, setShowRoster] = useState(false)
+  const [settingsOpen, setSettingsOpen] = useState(false)
   const { theme, toggleTheme } = useTheme()
 
   useEffect(() => { initGame() }, [])
@@ -20,10 +21,21 @@ export default function App() {
     if (phase === 'complete') setShowRoster(false)
   }, [phase])
 
+  const gearButton = (className = '') => (
+    <button
+      onClick={() => setSettingsOpen(true)}
+      aria-label="Open settings"
+      className={`text-lg text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors ${className}`}
+    >
+      ⚙️
+    </button>
+  )
+
   if (isLoading && phase === 'setup' && !roster.QB) {
     return (
       <div className="min-h-screen bg-gray-100 dark:bg-gray-950 flex items-center justify-center">
-        <ThemeToggle theme={theme} onToggle={toggleTheme} className="fixed top-4 right-4" />
+        {gearButton('fixed top-4 right-4')}
+        {settingsOpen && <SettingsModal onClose={() => setSettingsOpen(false)} theme={theme} onToggleTheme={toggleTheme} />}
         <p className="text-gray-500 dark:text-gray-400 animate-pulse">Generating your roster...</p>
       </div>
     )
@@ -36,22 +48,7 @@ export default function App() {
         <nav className="border-b border-gray-200 dark:border-gray-800 px-4 py-3 flex items-center justify-between">
           <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-wide text-sm">NFL DRAFT GAME</span>
           <div className="flex items-center gap-4">
-            <ThemeToggle theme={theme} onToggle={toggleTheme} />
-            <div className="flex rounded-md overflow-hidden border border-gray-200 dark:border-gray-700 text-xs font-semibold">
-              {(['classic', 'rwg'] as const).map(s => (
-                <button
-                  key={s}
-                  onClick={() => setDieColorScheme(s)}
-                  className={`px-2 py-1 transition-colors ${
-                    dieColorScheme === s
-                      ? 'bg-indigo-600 text-white'
-                      : 'bg-white dark:bg-gray-900 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
-                  }`}
-                >
-                  {s === 'classic' ? '🎨 Classic' : '🔴🟢 RWG'}
-                </button>
-              ))}
-            </div>
+            {gearButton()}
             <button
               onClick={() => setShowRoster(v => !v)}
               className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"
@@ -61,8 +58,10 @@ export default function App() {
           </div>
         </nav>
       ) : (
-        <ThemeToggle theme={theme} onToggle={toggleTheme} className="fixed top-4 right-4" />
+        gearButton('fixed top-4 right-4 z-40')
       )}
+
+      {settingsOpen && <SettingsModal onClose={() => setSettingsOpen(false)} theme={theme} onToggleTheme={toggleTheme} />}
 
       {/* Roster overlay */}
       {showRoster ? (

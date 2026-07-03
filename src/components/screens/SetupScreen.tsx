@@ -30,6 +30,7 @@ export function SetupScreen() {
         roster={roster}
         onReroll={(pos: RosterPosition) => rerollSetupSlot(pos)}
         rerollsRemaining={setupRerollsRemaining}
+        dangerTurnoverNumbers={[]}
       />
     </div>
   )
