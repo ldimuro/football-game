@@ -74,7 +74,7 @@ export function PlayerRollCard({
       </div>
       <DieFaces faces={getPlayerDie(player)} />
       {player.ability && (
-        <p className="text-xs text-gray-500 dark:text-gray-400 leading-tight">
+        <p className="text-xs font-semibold text-violet-400 leading-tight">
           {ABILITY_DISPLAY[player.ability] ?? player.ability}
         </p>
       )}
