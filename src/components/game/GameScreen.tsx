@@ -109,6 +109,7 @@ type GameAction =
   | { type: 'KICK_FG' }
   | { type: 'FOURTH_DOWN_GO_FOR_IT' }
   | { type: 'FOURTH_DOWN_PUNT' }
+  | { type: 'BACK_TO_PLAY_CHOICE' }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -472,6 +473,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         )
         return {
           ...state,
+          yardsGained: null,
           // defending team scores 2
           userScore: state.possession === 'opponent' ? state.userScore + 2 : state.userScore,
           opponentScore: state.possession === 'user' ? state.opponentScore + 2 : state.opponentScore,
@@ -509,6 +511,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         )
         return {
           ...state,
+          yardsGained: null,
           driveProgress: newProgress,
           userScore: state.possession === 'user' ? state.userScore + state.tdPoints : state.userScore,
           opponentScore: state.possession === 'opponent' ? state.opponentScore + state.tdPoints : state.opponentScore,
@@ -535,6 +538,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           )
           return {
             ...state,
+            yardsGained: null,
             driveProgress: newProgress,
             nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - newProgress)),
             driveHistory: [...state.driveHistory, driveResult],
@@ -570,6 +574,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           // Flush accumulated stats into state so FG_ROLL can read them
           return {
             ...state,
+            yardsGained: null,
             driveProgress: newProgress,
             fgDifficulty: computeFGDifficulty(newProgress, state.fgRangeYard, state.tdYard),
             userPlayHistory: newUserPlayHistory,
@@ -595,6 +600,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         )
         return {
           ...state,
+          yardsGained: null,
           driveProgress: newProgress,
           nextDriveStartYard: state.noPuntingRule
             ? Math.min(state.tdYard - 1, Math.max(1, state.tdYard - newProgress))
@@ -734,6 +740,19 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         phase: 'drive-end',
       }
     }
+
+    case 'BACK_TO_PLAY_CHOICE':
+      return {
+        ...state,
+        phase: 'choose-offense',
+        offensePlayCall: null,
+        defensePlayCall: null,
+        defPlayers: [],
+        defBonuses: [],
+        offPlayers: [],
+        offBonuses: [],
+        selectedWR: null,
+      }
 
     default:
       return state
@@ -957,7 +976,7 @@ export function GameScreen() {
         opponentScore={state.opponentScore}
         possession={state.possession}
         opponentLabel={opponentLabel}
-        pendingYards={state.yardsGained}
+        pendingYards={['rolling-pairs', 'show-play-result'].includes(state.phase) ? state.yardsGained : null}
         activeRule={activeRule}
         tdYard={state.tdYard}
         fgRangeYard={state.fgRangeYard}
@@ -966,8 +985,8 @@ export function GameScreen() {
         maxDowns={state.maxDowns}
       />
 
-      {/* Roster buttons */}
-      <div className="flex gap-2 px-4 py-2 border-b border-gray-800">
+      {/* Roster buttons + Step */}
+      <div className="flex items-center gap-2 px-4 py-2 border-b border-gray-800">
         <button
           onClick={() => setRosterModal('user')}
           className="text-xs font-semibold text-gray-400 hover:text-white px-3 py-1 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
@@ -980,6 +999,9 @@ export function GameScreen() {
         >
           OPP Roster
         </button>
+        {showStep && (
+          <Button onClick={handleStep} className="ml-auto">Step →</Button>
+        )}
       </div>
 
       {/* Roster modal */}
@@ -1052,6 +1074,12 @@ export function GameScreen() {
                 )
               })}
             </div>
+            <button
+              onClick={() => dispatch({ type: 'BACK_TO_PLAY_CHOICE' })}
+              className="text-xs text-gray-500 hover:text-gray-300 transition-colors mt-1"
+            >
+              ← Back
+            </button>
           </div>
         )}
 
@@ -1120,12 +1148,7 @@ export function GameScreen() {
         )}
       </div>
 
-      {/* Step button */}
-      {showStep && (
-        <div className="border-t border-gray-800 p-4 flex justify-end">
-          <Button onClick={handleStep}>Step →</Button>
-        </div>
-      )}
+
     </div>
   )
 }

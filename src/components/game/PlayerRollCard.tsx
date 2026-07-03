@@ -120,7 +120,6 @@ export function PlayerRollCard({
 
   const name = 'name' in player ? player.name : `${player.team} ${getPositionLabel(player)}`
   const posLabel = getPositionLabel(player)
-  const isUnit = !('name' in player)
   const abilityDisplay = player.ability ? (ABILITY_DISPLAY[player.ability] ?? player.ability) : null
   const abilityEmoji = abilityDisplay ? abilityDisplay.split(' ')[0] : null
   const abilityName = abilityDisplay ? abilityDisplay.split(' ').slice(1).join(' ') : null
@@ -146,7 +145,6 @@ export function PlayerRollCard({
           <div className="flex flex-wrap gap-1 mt-0.5">
             <Badge label={player.team} />
             <Badge label={String(player.year)} color="blue" />
-            {isUnit && <Badge label="Unit" color="gray" />}
           </div>
         </div>
         {abilityEmoji && (() => {
