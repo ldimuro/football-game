@@ -3,8 +3,8 @@ import type { IndividualPosition, UnitPosition } from '../types'
 export const ABILITY_RATE = 0.4
 
 const ALL_ABILITY_IDS = [
-  'evens', 'odds', 'evil-evens', 'evil-odds',
-  'blessed-evens', 'blessed-odds',
+  // 'evens', 'odds', 'evil-evens', 'evil-odds',
+  // 'blessed-evens', 'blessed-odds',
   'second-half', 'clutch',
   'rain-man', 'snow-man',
   'comeback-kid', 'two-minute-drill',
