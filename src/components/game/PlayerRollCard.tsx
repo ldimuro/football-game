@@ -1,10 +1,15 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { Badge } from '../ui/Badge'
 import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
-import { ABILITY_DISPLAY } from '../../logic/abilityEngine'
-import { ROLL_ANIMATION_DURATION_MS, ROLL_ANIMATION_INTERVAL_MS } from '../../logic/gameConstants'
+import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import { Tooltip } from '../ui/Tooltip'
+import {
+  ROLL_ANIMATION_DURATION_MS, ROLL_ANIMATION_INTERVAL_MS,
+  FG_ROLL_SCAN_INTERVAL_MS, FG_ROLL_SCAN_DURATION_MS,
+  ROLL_JUMP_THRESHOLD,
+} from '../../logic/gameConstants'
 import type { Player, TeamUnit } from '../../types'
 
 function getPositionLabel(player: Player | TeamUnit): string {
@@ -19,40 +24,96 @@ export function PlayerRollCard({
   roll,
   isNext,
   bonus,
+  dangerFaces,
+  fgAnimation,
 }: {
   player: Player | TeamUnit
   roll: number | null
   isNext: boolean
   bonus?: number | null
+  dangerFaces?: number[]
+  fgAnimation?: boolean
 }) {
   const [displayValue, setDisplayValue] = useState<number | null>(null)
   const [isAnimating, setIsAnimating] = useState(false)
+  const [highlightedIdx, setHighlightedIdx] = useState<number | null>(null)
+  const [isJumping, setIsJumping] = useState(false)
+  const bonusRef = useRef(bonus)
 
   useEffect(() => {
     if (roll === null) {
       setDisplayValue(null)
       setIsAnimating(false)
+      setHighlightedIdx(null)
+      setIsJumping(false)
       return
     }
-    // Animate: cycle random die faces then settle on actual roll
+
     const die = getPlayerDie(player)
-    setIsAnimating(true)
-    let elapsed = 0
-    const id = setInterval(() => {
-      elapsed += ROLL_ANIMATION_INTERVAL_MS
-      setDisplayValue(die[Math.floor(Math.random() * die.length)])
-      if (elapsed >= ROLL_ANIMATION_DURATION_MS) {
-        clearInterval(id)
-        setDisplayValue(roll)
-        setIsAnimating(false)
-      }
-    }, ROLL_ANIMATION_INTERVAL_MS)
-    return () => clearInterval(id)
-  }, [roll]) // player doesn't change during a play; roll is the trigger
+
+    if (fgAnimation) {
+      // Ping-pong scan: sweep left↔right across die faces, then land on rolled value
+      const targetIdx = Math.max(0, die.findIndex(v => v === roll))
+      let idx = 0
+      let dir = 1
+      let elapsed = 0
+      setIsAnimating(true)
+      setHighlightedIdx(0)
+      setDisplayValue(die[0])
+
+      const id = setInterval(() => {
+        elapsed += FG_ROLL_SCAN_INTERVAL_MS
+        if (elapsed >= FG_ROLL_SCAN_DURATION_MS) {
+          clearInterval(id)
+          setHighlightedIdx(targetIdx)
+          setDisplayValue(roll)
+          setIsAnimating(false)
+          return
+        }
+        idx += dir
+        if (idx >= die.length - 1) { idx = die.length - 1; dir = -1 }
+        if (idx <= 0) { idx = 0; dir = 1 }
+        setHighlightedIdx(idx)
+        setDisplayValue(die[idx])
+      }, FG_ROLL_SCAN_INTERVAL_MS)
+
+      return () => clearInterval(id)
+    } else {
+      // Standard random-cycling animation
+      setIsAnimating(true)
+      let elapsed = 0
+      const id = setInterval(() => {
+        elapsed += ROLL_ANIMATION_INTERVAL_MS
+        setDisplayValue(die[Math.floor(Math.random() * die.length)])
+        if (elapsed >= ROLL_ANIMATION_DURATION_MS) {
+          clearInterval(id)
+          setDisplayValue(roll)
+          const idx = die.findIndex(v => v === roll)
+          setHighlightedIdx(idx >= 0 ? idx : null)
+          setIsAnimating(false)
+        }
+      }, ROLL_ANIMATION_INTERVAL_MS)
+      return () => clearInterval(id)
+    }
+  }, [roll]) // player and fgAnimation don't change mid-play
+
+  // Keep bonusRef current so the jump check can read it without being in the roll effect's deps
+  bonusRef.current = bonus
+
+  // Trigger jump when roll settles and die + bonus meets threshold
+  useEffect(() => {
+    if (!isAnimating && displayValue !== null) {
+      const total = displayValue + (bonusRef.current ?? 0)
+      if (total >= ROLL_JUMP_THRESHOLD) setIsJumping(true)
+    }
+  }, [isAnimating, displayValue])
 
   const name = 'name' in player ? player.name : `${player.team} ${getPositionLabel(player)}`
   const posLabel = getPositionLabel(player)
   const isUnit = !('name' in player)
+  const abilityDisplay = player.ability ? (ABILITY_DISPLAY[player.ability] ?? player.ability) : null
+  const abilityEmoji = abilityDisplay ? abilityDisplay.split(' ')[0] : null
+  const abilityName = abilityDisplay ? abilityDisplay.split(' ').slice(1).join(' ') : null
 
   return (
     <div
@@ -61,35 +122,48 @@ export function PlayerRollCard({
       }`}
       style={{ borderColor: getTeamColor(player.team) }}
     >
-      <div>
-        <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
-          {posLabel}
-        </span>
-        <p className="text-gray-900 dark:text-white font-semibold text-xs mt-0.5 leading-tight">{name}</p>
-        <div className="flex flex-wrap gap-1 mt-0.5">
-          <Badge label={player.team} />
-          <Badge label={String(player.year)} color="blue" />
-          {isUnit && <Badge label="Unit" color="gray" />}
+      <div className="flex items-start justify-between">
+        <div>
+          <span className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider">
+            {posLabel}
+          </span>
+          <p className="text-gray-900 dark:text-white font-semibold text-xs mt-0.5 leading-tight">{name}</p>
+          <div className="flex flex-wrap gap-1 mt-0.5">
+            <Badge label={player.team} />
+            <Badge label={String(player.year)} color="blue" />
+            {isUnit && <Badge label="Unit" color="gray" />}
+          </div>
         </div>
+        {abilityEmoji && (() => {
+          const desc = player.ability ? ABILITY_DESCRIPTIONS[player.ability] : undefined
+          const rarity = player.ability ? (ABILITY_RARITY[player.ability] ?? 'Common') : 'Common'
+          const rarityColor = rarity === 'Rare' ? 'text-red-500 dark:text-red-400'
+            : rarity === 'Uncommon' ? 'text-orange-500 dark:text-orange-400'
+            : 'text-green-600 dark:text-green-400'
+          const tooltipText = desc ? `${rarity} · ${desc}` : rarity
+          const inner = (
+            <div className="text-right leading-none cursor-default">
+              <div className="text-3xl">{abilityEmoji}</div>
+              {abilityName && <div className={`text-[10px] font-semibold mt-0.5 ${rarityColor}`}>{abilityName}</div>}
+            </div>
+          )
+          return <Tooltip text={tooltipText} position="bottom">{inner}</Tooltip>
+        })()}
       </div>
-      <DieFaces faces={getPlayerDie(player)} />
-      {player.ability && (
-        <p className="text-xs font-semibold text-violet-400 leading-tight">
-          {ABILITY_DISPLAY[player.ability] ?? player.ability}
-        </p>
-      )}
+      <DieFaces faces={getPlayerDie(player)} dangerFaces={dangerFaces} highlightedIndex={highlightedIdx} />
       <div className="flex items-center justify-center gap-1.5">
         <div
           className={`text-center text-2xl font-bold tabular-nums transition-colors ${
             displayValue !== null
               ? isAnimating ? 'text-yellow-400' : 'text-white'
               : 'text-gray-600'
-          }`}
+          } ${isJumping ? 'animate-roll-jump' : ''}`}
+          onAnimationEnd={() => setIsJumping(false)}
         >
           {displayValue !== null ? displayValue : '?'}
         </div>
         {displayValue !== null && bonus !== null && bonus !== undefined && bonus !== 0 && (
-          <span className={`text-sm font-bold tabular-nums ${bonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+          <span className={`text-2xl font-bold tabular-nums ${bonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
             {bonus >= 0 ? `+${bonus}` : `${bonus}`}
           </span>
         )}

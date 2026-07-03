@@ -5,6 +5,7 @@ import {
   FG_RANGE_YARD,
   FG_DIFFICULTY_MAX,
   FG_DIFFICULTY_MIN,
+  TD_YARD,
 } from './gameConstants'
 
 const FALLBACK_DIE = [5, 5, 5, 5, 5, 5]
@@ -38,8 +39,8 @@ export function computeYardsGained(
   return offSum - defSum + bonus
 }
 
-export function computeFGDifficulty(progress: number, fgRangeYard = FG_RANGE_YARD): number {
-  const yardRange = 99 - fgRangeYard
+export function computeFGDifficulty(progress: number, fgRangeYard = FG_RANGE_YARD, tdYard = TD_YARD): number {
+  const yardRange = (tdYard - 1) - fgRangeYard
   return Math.min(
     FG_DIFFICULTY_MAX,
     Math.max(

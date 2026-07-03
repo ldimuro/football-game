@@ -5,6 +5,7 @@ import { PositionMatchups } from './PositionMatchups'
 import { SimulationModal } from './SimulationModal'
 import { ShopModal } from './ShopModal'
 import { Button } from '../ui/Button'
+import { Tooltip } from '../ui/Tooltip'
 
 export function RoundHub() {
   const {
@@ -36,9 +37,13 @@ export function RoundHub() {
             <span className="text-gray-500 dark:text-gray-400"> / 200 coins</span>
           </p>
           {activeRule && (
-            <p className="text-xs mt-0.5">
-              <span className="text-indigo-500 dark:text-indigo-400 font-semibold">{activeRule.emoji} {activeRule.name}</span>
-            </p>
+            <div className="mt-1">
+              <Tooltip text={activeRule.description} position="bottom">
+                <span className="text-lg font-bold text-indigo-500 dark:text-indigo-400 cursor-default">
+                  {activeRule.emoji} {activeRule.name}
+                </span>
+              </Tooltip>
+            </div>
           )}
         </div>
         <div className="flex gap-2">
@@ -49,9 +54,9 @@ export function RoundHub() {
           >
             {shopComplete ? 'Shop ✓' : 'Shop'}
           </Button>
-          <Button onClick={viewDraftOffer} disabled={isLoading || draftComplete} variant="secondary">
+          {/* <Button onClick={viewDraftOffer} disabled={isLoading || draftComplete} variant="secondary">
             View Draft Offer →
-          </Button>
+          </Button> */}
           <Button onClick={startGame} disabled={isLoading}>
             Simulate Game
           </Button>

@@ -37,8 +37,8 @@ function computeBoxScore(result: SimulationResult) {
 
   const userPunts = userDrives.filter(d => d.outcome === 'Punt').length
   const oppPunts = oppDrives.filter(d => d.outcome === 'Punt').length
-  const userTurnovers = userDrives.filter(d => d.outcome === 'Turnover').length
-  const oppTurnovers = oppDrives.filter(d => d.outcome === 'Turnover').length
+  const userTurnovers = userDrives.filter(d => d.outcome === 'Turnover' || d.outcome === 'TurnoverOnDowns').length
+  const oppTurnovers = oppDrives.filter(d => d.outcome === 'Turnover' || d.outcome === 'TurnoverOnDowns').length
 
   return {
     userOffYards, oppOffYards,

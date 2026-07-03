@@ -158,7 +158,7 @@ export interface TeamRosterData {
   units: TeamUnit[]
 }
 
-export type DriveOutcome = 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | 'DefTD' | 'Safety'
+export type DriveOutcome = 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | 'TurnoverOnDowns' | 'DefTD' | 'Safety'
 
 export interface TeamRatings {
   passRating: number
@@ -178,11 +178,15 @@ export interface DriveResult {
   points: number
   // Box score stats (populated by interactive game only)
   yards?: number
+  passYards?: number
+  rushYards?: number
   runPlays?: number
   passPlays?: number
   negativePlays?: number
   scoringPlayerName?: string
   scoringPlayerPos?: 'RB' | 'WR'
+  fgRoll?: number
+  fgDifficulty?: number
 }
 
 export interface SimulationResult {

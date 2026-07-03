@@ -10,7 +10,7 @@ import { ThemeToggle } from './components/ui/ThemeToggle'
 import { useTheme } from './logic/useTheme'
 
 export default function App() {
-  const { phase, initGame, isLoading, roster } = useGameStore()
+  const { phase, initGame, isLoading, roster, dieColorScheme, setDieColorScheme } = useGameStore()
   const [showRoster, setShowRoster] = useState(false)
   const { theme, toggleTheme } = useTheme()
 
@@ -37,6 +37,21 @@ export default function App() {
           <span className="text-indigo-600 dark:text-indigo-400 font-bold tracking-wide text-sm">NFL DRAFT GAME</span>
           <div className="flex items-center gap-4">
             <ThemeToggle theme={theme} onToggle={toggleTheme} />
+            <div className="flex rounded-md overflow-hidden border border-gray-200 dark:border-gray-700 text-xs font-semibold">
+              {(['classic', 'rwg'] as const).map(s => (
+                <button
+                  key={s}
+                  onClick={() => setDieColorScheme(s)}
+                  className={`px-2 py-1 transition-colors ${
+                    dieColorScheme === s
+                      ? 'bg-indigo-600 text-white'
+                      : 'bg-white dark:bg-gray-900 text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white'
+                  }`}
+                >
+                  {s === 'classic' ? '🎨 Classic' : '🔴🟢 RWG'}
+                </button>
+              ))}
+            </div>
             <button
               onClick={() => setShowRoster(v => !v)}
               className="text-sm text-gray-500 dark:text-gray-400 hover:text-gray-900 dark:hover:text-white transition-colors"

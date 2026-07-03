@@ -75,6 +75,14 @@ describe('computeFGDifficulty', () => {
   it('returns MIN when fgRangeYard=35 and progress=99', () => {
     expect(computeFGDifficulty(99, 35)).toBe(1)
   })
+  it('scales correctly on a 125-yard field (field-125 rule)', () => {
+    // yardRange = 124 - 60 = 64; at fgRangeYard=60 → MAX
+    expect(computeFGDifficulty(60, 60, 125)).toBe(15)
+    // at yard 124 → MIN
+    expect(computeFGDifficulty(124, 60, 125)).toBe(1)
+    // midpoint ~92: round(15 - ((92-60)/64)*14) = round(15 - 7) = 8
+    expect(computeFGDifficulty(92, 60, 125)).toBe(8)
+  })
 })
 
 describe('getOffensePlayers', () => {

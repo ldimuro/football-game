@@ -1,5 +1,6 @@
 import { PlayerCard } from './PlayerCard'
 import { slotCost } from '../../logic/playerValue'
+import { useGameStore } from '../../store/gameStore'
 import type { Roster, RosterPosition } from '../../types'
 
 interface RosterGridProps {
@@ -7,11 +8,15 @@ interface RosterGridProps {
   onReroll?: (position: RosterPosition) => void
   rerollsRemaining?: number
   onSell?: (position: RosterPosition) => void
+  dangerTurnoverNumbers?: number[]
 }
 
 const POSITIONS: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
+const OFF_POSITIONS = new Set<RosterPosition>(['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine'])
 
-export function RosterGrid({ roster, onReroll, rerollsRemaining = 0, onSell }: RosterGridProps) {
+export function RosterGrid({ roster, onReroll, rerollsRemaining = 0, onSell, dangerTurnoverNumbers }: RosterGridProps) {
+  const storeOpponentTurnoverNumbers = useGameStore(s => s.opponentTurnoverNumbers)
+  const opponentTurnoverNumbers = dangerTurnoverNumbers ?? storeOpponentTurnoverNumbers
   return (
     <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
       {POSITIONS.map(pos => {
@@ -30,6 +35,7 @@ export function RosterGrid({ roster, onReroll, rerollsRemaining = 0, onSell }: R
             rerollsRemaining={rerollsRemaining}
             coinValue={slotCost(slot)}
             onSell={onSell ? () => onSell(pos) : undefined}
+            dangerFaces={OFF_POSITIONS.has(pos) ? opponentTurnoverNumbers : undefined}
           />
         )
       })}

@@ -1,5 +1,5 @@
 // src/components/game/GameScreen.tsx
-import { useReducer, useEffect, useRef } from 'react'
+import { useReducer, useEffect, useRef, useState } from 'react'
 import { useGameStore } from '../../store/gameStore'
 import { GameHUD } from './GameHUD'
 import { PlayArea } from './PlayArea'
@@ -13,10 +13,12 @@ import {
   DRIVES_PER_GAME,
   DRIVES_PER_QUARTER,
   STARTING_YARD_LINE,
+  FG_ROLL_SCAN_DURATION_MS,
 } from '../../logic/gameConstants'
 import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
 import type { RuleOverrides } from '../../logic/leagueRules'
 import type { LeagueRule } from '../../logic/leagueRules'
+import { RosterGrid } from '../roster/RosterGrid'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
 import {
   computeRollBonus, computePostRollBonus, isPostRollAbility,
@@ -33,8 +35,8 @@ type PlayPhase =
   | 'choose-offense'
   | 'choose-wr'
   | 'choose-defense'
-  | 'rolling-offense'
-  | 'rolling-defense'
+  | 'fourth-down-choice'
+  | 'rolling-pairs'
   | 'show-play-result'
   | 'drive-end'
   | 'fg-roll'
@@ -50,6 +52,7 @@ interface GameState {
   userScore: number
   opponentScore: number
   driveHistory: DriveResult[]
+  downHistory: { playCall: 'run' | 'pass', yardsGained: number }[]
   phase: PlayPhase
   offensePlayCall: 'run' | 'pass' | null
   defensePlayCall: 'run-stop' | 'pass-stop' | null
@@ -62,7 +65,7 @@ interface GameState {
   yardsGained: number | null
   fgRoll: number | null
   fgDifficulty: number | null
-  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | null
+  driveOutcome: 'TD' | 'FG' | 'FG-missed' | 'Punt' | 'Turnover' | 'TurnoverOnDowns' | 'Safety' | null
   weather: WeatherCondition
   userPlayHistory: ('run' | 'pass')[]
   opponentPlayHistory: ('run' | 'pass')[]
@@ -73,6 +76,8 @@ interface GameState {
   offBonuses: (number | null)[]
   defBonuses: (number | null)[]
   currentDriveYards: number
+  currentDrivePassYards: number
+  currentDriveRushYards: number
   currentDriveNegativePlays: number
   userPassPlaysThisDrive: number
   opponentPassPlaysThisDrive: number
@@ -82,9 +87,11 @@ interface GameState {
   fgPoints: number
   tdYard: number
   fgRangeYard: number
+  rzYard: number
   maxDowns: number
   noPuntingRule: boolean
   pick2Rule: boolean
+  wentForIt: boolean
   turnoverYardLine: number | null
   nextDriveStartYard: number
 }
@@ -95,11 +102,14 @@ type GameAction =
   // CHOOSE_WR: defPlayers already in state from CHOOSE_OFF_PLAY(pass); only offPlayers changes
   | { type: 'CHOOSE_WR'; wr: 'WR1' | 'WR2'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[] }
   | { type: 'CHOOSE_DEF_PLAY'; call: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
-  | { type: 'ROLL'; side: 'offense' | 'defense'; index: number; value: number }
+  | { type: 'ROLL_PAIR'; offIndex: number; offValue: number; defIndex: number | null; defValue: number | null }
   | { type: 'RESOLVE_PLAY'; nextOpponentPlayCall: 'run' | 'pass' }
+  | { type: 'FG_ROLL_START'; value: number }
   | { type: 'FG_ROLL'; value: number }
   | { type: 'ADVANCE_DRIVE'; nextOpponentPlayCall: 'run' | 'pass' }
   | { type: 'KICK_FG' }
+  | { type: 'FOURTH_DOWN_GO_FOR_IT' }
+  | { type: 'FOURTH_DOWN_PUNT' }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -115,6 +125,8 @@ function driveReset(): Partial<GameState> {
   return {
     down: 1,
     driveProgress: STARTING_YARD_LINE,
+    downHistory: [],
+    wentForIt: false,
     offensePlayCall: null,
     defensePlayCall: null,
     selectedWR: null,
@@ -133,6 +145,8 @@ function driveReset(): Partial<GameState> {
     offBonuses: [],
     defBonuses: [],
     currentDriveYards: 0,
+    currentDrivePassYards: 0,
+    currentDriveRushYards: 0,
     currentDriveNegativePlays: 0,
     userPassPlaysThisDrive: 0,
     opponentPassPlaysThisDrive: 0,
@@ -151,6 +165,7 @@ function playReset(): Partial<GameState> {
     defRolls: [],
     yardsGained: null,
     driveOutcome: null,
+    wentForIt: false,
     offBonuses: [],
     defBonuses: [],
   }
@@ -162,11 +177,15 @@ function buildDriveResult(
   points: number,
   stats?: {
     yards: number
+    passYards: number
+    rushYards: number
     runPlays: number
     passPlays: number
     negativePlays: number
     scoringPlayerName?: string
     scoringPlayerPos?: 'RB' | 'WR'
+    fgRoll?: number
+    fgDifficulty?: number
   },
 ): DriveResult {
   const quarter = Math.floor(state.driveIndex / DRIVES_PER_QUARTER) + 1
@@ -210,6 +229,7 @@ function buildAbilityContext(
     playerTeamIsLosing,
     isLastTeamDrive,
     driveProgress: state.driveProgress,
+    rzYard: state.rzYard,
     down: state.down,
     playCall: state.offensePlayCall!,
     weather: state.weather,
@@ -268,7 +288,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(defPlayers.length).fill(null),
-        phase: 'rolling-offense',
+        phase: 'rolling-pairs',
       }
     }
 
@@ -284,7 +304,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(state.defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(state.defPlayers.length).fill(null),
-        phase: 'rolling-offense',
+        phase: 'rolling-pairs',
       }
     }
 
@@ -300,106 +320,76 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(defPlayers.length).fill(null),
-        phase: 'rolling-offense',
+        phase: 'rolling-pairs',
       }
     }
 
-    case 'ROLL': {
-      const { side, index, value } = action
-      if (side === 'offense') {
-        const newOffRolls = [...state.offRolls]
-        newOffRolls[index] = value
-        const player = state.offPlayers[index]
+    case 'ROLL_PAIR': {
+      const { offIndex, offValue, defIndex, defValue } = action
 
-        // Roll-time bonus for this player
-        let newOffBonuses = [...state.offBonuses]
-        if (player.ability && !isPostRollAbility(player.ability)) {
-          const isWR = isPlayer(player) && player.position === 'WR'
-          const wrYacActive = isWR
-            ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
-            : false
-          const ctx = { ...buildAbilityContext('offense', state, newOffRolls, state.defRolls), wrYacActive }
-          newOffBonuses[index] = computeRollBonus(player.ability, value, ctx)
-        }
+      // Apply offense roll
+      const newOffRolls = [...state.offRolls]
+      newOffRolls[offIndex] = offValue
 
-        // YAC activation: if WR rolls 12+, mark their slot active for future plays
-        let newWr1YacActive = state.wr1YacActive
-        let newWr2YacActive = state.wr2YacActive
-        if (isPlayer(player) && player.position === 'WR' && value >= 12 && state.selectedWR !== null) {
-          if (state.selectedWR === 'WR1') newWr1YacActive = true
-          else newWr2YacActive = true
-        }
-
-        // Re-evaluate Blessed bonuses for all players now that rolls have changed
-        newOffBonuses = recomputeBlessed(state.offPlayers, newOffBonuses, 'offense', state, newOffRolls, state.defRolls)
-        const newDefBonuses = recomputeBlessed(state.defPlayers, [...state.defBonuses], 'defense', state, newOffRolls, state.defRolls)
-
-        const defTurnoverNums = state.possession === 'user' ? state.opponentTurnoverNumbers : state.userTurnoverNumbers
-        if (defTurnoverNums.includes(value)) {
-          const driveResult = buildDriveResult(state, 'Turnover', 0, {
-            yards: state.currentDriveYards,
-            runPlays: state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive,
-            passPlays: state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive,
-            negativePlays: state.currentDriveNegativePlays,
-          })
-          return {
-            ...state,
-            offRolls: newOffRolls,
-            offBonuses: newOffBonuses,
-            defBonuses: newDefBonuses,
-            wr1YacActive: newWr1YacActive,
-            wr2YacActive: newWr2YacActive,
-            driveOutcome: 'Turnover',
-            turnoverYardLine: state.driveProgress,
-            nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - state.driveProgress)),
-            userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
-            opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
-            driveHistory: [...state.driveHistory, driveResult],
-            phase: 'turnover',
-          }
-        }
-
-        const allDone = newOffRolls.every(r => r !== null)
-        return {
-          ...state,
-          offRolls: newOffRolls,
-          offBonuses: newOffBonuses,
-          defBonuses: newDefBonuses,
-          wr1YacActive: newWr1YacActive,
-          wr2YacActive: newWr2YacActive,
-          phase: allDone ? 'rolling-defense' : 'rolling-offense',
-        }
-      }
-
-      // Defense side
+      // Apply defense roll (if this row has a paired def player)
       const newDefRolls = [...state.defRolls]
-      newDefRolls[index] = value
-      const player = state.defPlayers[index]
-
-      // Roll-time bonus for this player
-      let newDefBonuses = [...state.defBonuses]
-      if (player.ability && !isPostRollAbility(player.ability)) {
-        const ctx = buildAbilityContext('defense', state, state.offRolls, newDefRolls)
-        newDefBonuses[index] = computeRollBonus(player.ability, value, ctx)
+      if (defIndex !== null && defValue !== null) {
+        newDefRolls[defIndex] = defValue
       }
 
-      // Re-evaluate Blessed bonuses
-      const newOffBonuses = recomputeBlessed(state.offPlayers, [...state.offBonuses], 'offense', state, state.offRolls, newDefRolls)
-      newDefBonuses = recomputeBlessed(state.defPlayers, newDefBonuses, 'defense', state, state.offRolls, newDefRolls)
+      // Roll-time bonus for the offense player
+      const offPlayer = state.offPlayers[offIndex]
+      let newOffBonuses = [...state.offBonuses]
+      if (offPlayer.ability && !isPostRollAbility(offPlayer.ability)) {
+        const isWR = isPlayer(offPlayer) && offPlayer.position === 'WR'
+        const wrYacActive = isWR
+          ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
+          : false
+        const ctx = { ...buildAbilityContext('offense', state, newOffRolls, newDefRolls), wrYacActive }
+        newOffBonuses[offIndex] = computeRollBonus(offPlayer.ability, offValue, ctx)
+      }
 
-      const offTurnoverNums = state.possession === 'user' ? state.userTurnoverNumbers : state.opponentTurnoverNumbers
-      if (offTurnoverNums.includes(value)) {
+      // YAC activation
+      let newWr1YacActive = state.wr1YacActive
+      let newWr2YacActive = state.wr2YacActive
+      if (isPlayer(offPlayer) && offPlayer.position === 'WR' && offValue >= 12 && state.selectedWR !== null) {
+        if (state.selectedWR === 'WR1') newWr1YacActive = true
+        else newWr2YacActive = true
+      }
+
+      // Roll-time bonus for the paired defense player
+      let newDefBonuses = [...state.defBonuses]
+      if (defIndex !== null && defValue !== null) {
+        const defPlayer = state.defPlayers[defIndex]
+        if (defPlayer.ability && !isPostRollAbility(defPlayer.ability)) {
+          const ctx = buildAbilityContext('defense', state, newOffRolls, newDefRolls)
+          newDefBonuses[defIndex] = computeRollBonus(defPlayer.ability, defValue, ctx)
+        }
+      }
+
+      // Re-evaluate Blessed bonuses across all players
+      newOffBonuses = recomputeBlessed(state.offPlayers, newOffBonuses, 'offense', state, newOffRolls, newDefRolls)
+      newDefBonuses = recomputeBlessed(state.defPlayers, newDefBonuses, 'defense', state, newOffRolls, newDefRolls)
+
+      // Turnover check: offense player rolled the defense's turnover number
+      const defTurnoverNums = state.possession === 'user' ? state.opponentTurnoverNumbers : state.userTurnoverNumbers
+      if (defTurnoverNums.includes(offValue)) {
         const driveResult = buildDriveResult(state, 'Turnover', 0, {
           yards: state.currentDriveYards,
+          passYards: state.currentDrivePassYards,
+          rushYards: state.currentDriveRushYards,
           runPlays: state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive,
           passPlays: state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive,
           negativePlays: state.currentDriveNegativePlays,
         })
         return {
           ...state,
+          offRolls: newOffRolls,
           defRolls: newDefRolls,
-          defBonuses: newDefBonuses,
           offBonuses: newOffBonuses,
+          defBonuses: newDefBonuses,
+          wr1YacActive: newWr1YacActive,
+          wr2YacActive: newWr2YacActive,
           driveOutcome: 'Turnover',
           turnoverYardLine: state.driveProgress,
           nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - state.driveProgress)),
@@ -410,21 +400,32 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         }
       }
 
-      const allDone = newDefRolls.every(r => r !== null)
+      // All rows rolled when every off and def slot is filled
+      const allDone = newOffRolls.every(r => r !== null) && newDefRolls.every(r => r !== null)
       if (!allDone) {
-        return { ...state, defRolls: newDefRolls, defBonuses: newDefBonuses, offBonuses: newOffBonuses }
+        return {
+          ...state,
+          offRolls: newOffRolls,
+          defRolls: newDefRolls,
+          offBonuses: newOffBonuses,
+          defBonuses: newDefBonuses,
+          wr1YacActive: newWr1YacActive,
+          wr2YacActive: newWr2YacActive,
+          phase: 'rolling-pairs',
+        }
       }
+
+      // Compute final yards and show result
       const bonus = computeAdvantageBonus(state.offensePlayCall!, state.defensePlayCall!)
-      const yards = computeYardsGained(
-        state.offRolls as number[],
-        newDefRolls as number[],
-        bonus,
-      )
+      const yards = computeYardsGained(newOffRolls as number[], newDefRolls as number[], bonus)
       return {
         ...state,
+        offRolls: newOffRolls,
         defRolls: newDefRolls,
-        defBonuses: newDefBonuses,
         offBonuses: newOffBonuses,
+        defBonuses: newDefBonuses,
+        wr1YacActive: newWr1YacActive,
+        wr2YacActive: newWr2YacActive,
         yardsGained: yards,
         phase: 'show-play-result',
       }
@@ -450,13 +451,41 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
       // Box score accumulators for this play
       const newDriveYards = state.currentDriveYards + state.yardsGained
+      const newDrivePassYards = state.currentDrivePassYards + (state.offensePlayCall === 'pass' ? state.yardsGained : 0)
+      const newDriveRushYards = state.currentDriveRushYards + (state.offensePlayCall === 'run' ? state.yardsGained : 0)
       const newNegativePlays = state.currentDriveNegativePlays + (state.yardsGained < 0 ? 1 : 0)
       const newUserPassPlays = state.possession === 'user' && state.offensePlayCall === 'pass'
         ? state.userPassPlaysThisDrive + 1 : state.userPassPlaysThisDrive
       const newOppPassPlays = state.possession === 'opponent' && state.offensePlayCall === 'pass'
         ? state.opponentPassPlaysThisDrive + 1 : state.opponentPassPlaysThisDrive
 
-      const newProgress = Math.min(state.tdYard, Math.max(0, state.driveProgress + state.yardsGained))
+      const rawProgress = state.driveProgress + state.yardsGained
+
+      // Safety: offense driven back behind their own goal line
+      if (rawProgress < 0) {
+        const runPlays = state.possession === 'user' ? newUserRunsThisDrive : newOppRunsThisDrive
+        const passPlays = state.possession === 'user' ? newUserPassPlays : newOppPassPlays
+        const driveResult = buildDriveResult(
+          state,
+          'Safety',
+          2,
+          { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays + 1 },
+        )
+        return {
+          ...state,
+          // defending team scores 2
+          userScore: state.possession === 'opponent' ? state.userScore + 2 : state.userScore,
+          opponentScore: state.possession === 'user' ? state.opponentScore + 2 : state.opponentScore,
+          driveHistory: [...state.driveHistory, driveResult],
+          driveOutcome: 'Safety',
+          nextDriveStartYard: STARTING_YARD_LINE,
+          userPlayHistory: newUserPlayHistory,
+          opponentPlayHistory: newOppPlayHistory,
+          phase: 'drive-end',
+        }
+      }
+
+      const newProgress = Math.min(state.tdYard, Math.max(0, rawProgress))
 
       if (newProgress >= state.tdYard) {
         // Attribute the TD to the ball carrier
@@ -477,7 +506,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           { ...state, driveProgress: newProgress },
           'TD',
           state.tdPoints,
-          { yards: newDriveYards, runPlays, passPlays, negativePlays: newNegativePlays, scoringPlayerName, scoringPlayerPos },
+          { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays, scoringPlayerName, scoringPlayerPos },
         )
         return {
           ...state,
@@ -495,30 +524,75 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       if (state.down >= state.maxDowns) {
+        if (state.wentForIt) {
+          // Turnover on downs — opponent gets ball at the spot
+          const runPlays = state.possession === 'user' ? newUserRunsThisDrive : newOppRunsThisDrive
+          const passPlays = state.possession === 'user' ? newUserPassPlays : newOppPassPlays
+          const driveResult = buildDriveResult(
+            { ...state, driveProgress: newProgress },
+            'TurnoverOnDowns',
+            0,
+            { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays },
+          )
+          return {
+            ...state,
+            driveProgress: newProgress,
+            nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - newProgress)),
+            driveHistory: [...state.driveHistory, driveResult],
+            driveOutcome: 'TurnoverOnDowns',
+            userPlayHistory: newUserPlayHistory,
+            opponentPlayHistory: newOppPlayHistory,
+            phase: 'drive-end',
+          }
+        }
+        if (state.possession === 'user') {
+          // User played all downs — now offer Punt / FG / Go For It
+          const newDownHistory = [...state.downHistory, { playCall: state.offensePlayCall!, yardsGained: state.yardsGained }]
+          return {
+            ...state,
+            ...playReset(),
+            driveProgress: newProgress,
+            downHistory: newDownHistory,
+            currentDriveYards: newDriveYards,
+            currentDrivePassYards: newDrivePassYards,
+            currentDriveRushYards: newDriveRushYards,
+            currentDriveNegativePlays: newNegativePlays,
+            userPassPlaysThisDrive: newUserPassPlays,
+            opponentPassPlaysThisDrive: newOppPassPlays,
+            userPlayHistory: newUserPlayHistory,
+            opponentPlayHistory: newOppPlayHistory,
+            userRunsThisDrive: newUserRunsThisDrive,
+            opponentRunsThisDrive: newOppRunsThisDrive,
+            phase: 'fourth-down-choice',
+          }
+        }
+        // Opponent: auto-FG if in range, otherwise auto-punt
         if (newProgress >= state.fgRangeYard) {
           // Flush accumulated stats into state so FG_ROLL can read them
           return {
             ...state,
             driveProgress: newProgress,
-            fgDifficulty: computeFGDifficulty(newProgress, state.fgRangeYard),
+            fgDifficulty: computeFGDifficulty(newProgress, state.fgRangeYard, state.tdYard),
             userPlayHistory: newUserPlayHistory,
             opponentPlayHistory: newOppPlayHistory,
             userRunsThisDrive: newUserRunsThisDrive,
             opponentRunsThisDrive: newOppRunsThisDrive,
             currentDriveYards: newDriveYards,
+            currentDrivePassYards: newDrivePassYards,
+            currentDriveRushYards: newDriveRushYards,
             currentDriveNegativePlays: newNegativePlays,
             userPassPlaysThisDrive: newUserPassPlays,
             opponentPassPlaysThisDrive: newOppPassPlays,
             phase: 'fg-roll',
           }
         }
-        const runPlays = state.possession === 'user' ? newUserRunsThisDrive : newOppRunsThisDrive
-        const passPlays = state.possession === 'user' ? newUserPassPlays : newOppPassPlays
+        const runPlays = newOppRunsThisDrive
+        const passPlays = newOppPassPlays
         const driveResult = buildDriveResult(
           { ...state, driveProgress: newProgress },
           'Punt',
           0,
-          { yards: newDriveYards, runPlays, passPlays, negativePlays: newNegativePlays },
+          { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays },
         )
         return {
           ...state,
@@ -537,18 +611,23 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       // Next down — same drive, same possession
+      const nextDown = state.down + 1
       const nextPhase: PlayPhase = state.possession === 'user' ? 'choose-offense' : 'choose-defense'
+      const newDownHistory = [...state.downHistory, { playCall: state.offensePlayCall!, yardsGained: state.yardsGained }]
       return {
         ...state,
         ...playReset(),
         driveProgress: newProgress,
-        down: state.down + 1,
+        down: nextDown,
+        downHistory: newDownHistory,
         opponentPlayCall: state.possession === 'opponent' ? nextOpponentPlayCall : state.opponentPlayCall,
         userPlayHistory: newUserPlayHistory,
         opponentPlayHistory: newOppPlayHistory,
         userRunsThisDrive: newUserRunsThisDrive,
         opponentRunsThisDrive: newOppRunsThisDrive,
         currentDriveYards: newDriveYards,
+        currentDrivePassYards: newDrivePassYards,
+        currentDriveRushYards: newDriveRushYards,
         currentDriveNegativePlays: newNegativePlays,
         userPassPlaysThisDrive: newUserPassPlays,
         opponentPassPlaysThisDrive: newOppPassPlays,
@@ -556,17 +635,43 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
     }
 
+    case 'FG_ROLL_START': {
+      // Kick has been rolled — animation plays in PlayerRollCard. Result is applied
+      // after FG_ROLL_SCAN_DURATION_MS via a setTimeout in handleStep.
+      return { ...state, fgRoll: action.value }
+    }
+
     case 'FG_ROLL': {
       const { value } = action
       if (state.fgDifficulty === null) return state
-      const made = value >= state.fgDifficulty
       const runPlays = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
       const passPlays = state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive
+
+      // Blocked kick: kicker rolled the defense's turnover number
+      const defTurnoverNums = state.possession === 'user' ? state.opponentTurnoverNumbers : state.userTurnoverNumbers
+      if (defTurnoverNums.includes(value)) {
+        const driveResult = buildDriveResult(state, 'Turnover', 0, {
+          yards: state.currentDriveYards, passYards: state.currentDrivePassYards, rushYards: state.currentDriveRushYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays,
+        })
+        return {
+          ...state,
+          fgRoll: value,
+          driveOutcome: 'Turnover',
+          turnoverYardLine: state.driveProgress,
+          nextDriveStartYard: Math.min(state.tdYard - 1, Math.max(1, state.tdYard - state.driveProgress)),
+          userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
+          opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
+          driveHistory: [...state.driveHistory, driveResult],
+          phase: 'turnover',
+        }
+      }
+
+      const made = value >= state.fgDifficulty
       const driveResult = buildDriveResult(
         state,
         made ? 'FG' : 'FG-missed',
         made ? state.fgPoints : 0,
-        { yards: state.currentDriveYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays },
+        { yards: state.currentDriveYards, passYards: state.currentDrivePassYards, rushYards: state.currentDriveRushYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays, fgRoll: value, fgDifficulty: state.fgDifficulty },
       )
       return {
         ...state,
@@ -602,8 +707,32 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     case 'KICK_FG': {
       return {
         ...state,
-        fgDifficulty: computeFGDifficulty(state.driveProgress, state.fgRangeYard),
+        fgDifficulty: computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard),
         phase: 'fg-roll',
+      }
+    }
+
+    case 'FOURTH_DOWN_GO_FOR_IT': {
+      return { ...state, wentForIt: true, phase: 'choose-offense' }
+    }
+
+    case 'FOURTH_DOWN_PUNT': {
+      const runPlays = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
+      const passPlays = state.possession === 'user' ? state.userPassPlaysThisDrive : state.opponentPassPlaysThisDrive
+      const driveResult = buildDriveResult(state, 'Punt', 0, {
+        yards: state.currentDriveYards,
+        passYards: state.currentDrivePassYards,
+        rushYards: state.currentDriveRushYards,
+        runPlays,
+        passPlays,
+        negativePlays: state.currentDriveNegativePlays,
+      })
+      return {
+        ...state,
+        driveHistory: [...state.driveHistory, driveResult],
+        driveOutcome: 'Punt',
+        nextDriveStartYard: STARTING_YARD_LINE,
+        phase: 'drive-end',
       }
     }
 
@@ -628,6 +757,7 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     userScore: 0,
     opponentScore: 0,
     driveHistory: [],
+    downHistory: [],
     phase: 'choose-offense',
     offensePlayCall: null,
     defensePlayCall: null,
@@ -648,9 +778,11 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     fgPoints: overrides.fgPoints,
     tdYard: overrides.tdYard,
     fgRangeYard: overrides.fgRangeYard,
+    rzYard: overrides.rzYard,
     maxDowns: overrides.maxDowns,
     noPuntingRule: overrides.noPuntingRule,
     pick2Rule: overrides.pick2Rule,
+    wentForIt: false,
     turnoverYardLine: null,
     nextDriveStartYard: STARTING_YARD_LINE,
     userPlayHistory: [],
@@ -662,6 +794,8 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     offBonuses: [],
     defBonuses: [],
     currentDriveYards: 0,
+    currentDrivePassYards: 0,
+    currentDriveRushYards: 0,
     currentDriveNegativePlays: 0,
     userPassPlaysThisDrive: 0,
     opponentPassPlaysThisDrive: 0,
@@ -707,6 +841,8 @@ export function GameScreen() {
     ? `${currentOpponent.team} '${String(currentOpponent.year).slice(2)}`
     : 'Opponent'
   const quarter = Math.floor(state.driveIndex / 4) + 1
+  const [rosterModal, setRosterModal] = useState<'user' | 'opp' | null>(null)
+  const fgRevealTimerRef = useRef<ReturnType<typeof setTimeout> | null>(null)
 
   // When game ends, push result to store (triggers SimulationModal)
   useEffect(() => {
@@ -724,27 +860,34 @@ export function GameScreen() {
 
   function handleStep() {
     switch (state.phase) {
-      case 'rolling-offense': {
-        const idx = state.offRolls.findIndex(r => r === null)
-        if (idx === -1) return
-        const player = state.offPlayers[idx]
-        dispatch({ type: 'ROLL', side: 'offense', index: idx, value: rollDie(getPlayerDie(player)) })
-        break
-      }
-      case 'rolling-defense': {
-        const idx = state.defRolls.findIndex(r => r === null)
-        if (idx === -1) return
-        const player = state.defPlayers[idx]
-        dispatch({ type: 'ROLL', side: 'defense', index: idx, value: rollDie(getPlayerDie(player)) })
+      case 'rolling-pairs': {
+        // off[0] is always solo (QB/RB); off[1] pairs with def[0] (OLine/DLine); off[2] pairs with def[1] (WR/Secondary)
+        const offIdx = state.offRolls.findIndex(r => r === null)
+        if (offIdx === -1) return
+        const offPlayer = state.offPlayers[offIdx]
+        const offValue = rollDie(getPlayerDie(offPlayer))
+
+        const defIdx = offIdx - 1  // off[1]→def[0], off[2]→def[1]; off[0] is solo
+        const defPlayer = defIdx >= 0 && defIdx < state.defPlayers.length ? state.defPlayers[defIdx] : null
+        const defValue = defPlayer ? rollDie(getPlayerDie(defPlayer)) : null
+
+        dispatch({ type: 'ROLL_PAIR', offIndex: offIdx, offValue, defIndex: defPlayer ? defIdx : null, defValue })
         break
       }
       case 'show-play-result':
         dispatch({ type: 'RESOLVE_PLAY', nextOpponentPlayCall: randomPlayCall() })
         break
       case 'fg-roll': {
+        if (state.fgRoll !== null) break // animation already playing
         const kicker = state.possession === 'user' ? userRoster.K : oppRoster.K
         const die = kicker ? getPlayerDie(kicker) : [5, 5, 5, 5, 5, 5]
-        dispatch({ type: 'FG_ROLL', value: rollDie(die) })
+        const value = rollDie(die)
+        dispatch({ type: 'FG_ROLL_START', value })
+        if (fgRevealTimerRef.current) clearTimeout(fgRevealTimerRef.current)
+        fgRevealTimerRef.current = setTimeout(() => {
+          dispatch({ type: 'FG_ROLL', value })
+          fgRevealTimerRef.current = null
+        }, FG_ROLL_SCAN_DURATION_MS)
         break
       }
       case 'drive-end':
@@ -786,7 +929,8 @@ export function GameScreen() {
     dispatch({ type: 'KICK_FG' })
   }
 
-  const showStep = ['rolling-offense', 'rolling-defense', 'show-play-result', 'drive-end', 'fg-roll', 'fg-result', 'turnover'].includes(state.phase)
+  const showStep = ['rolling-pairs', 'show-play-result', 'drive-end', 'fg-result', 'turnover'].includes(state.phase)
+    || (state.phase === 'fg-roll' && state.fgRoll === null)
 
   // Keep handleStep always up-to-date in a ref so the keydown listener never captures a stale closure
   const handleStepRef = useRef(handleStep)
@@ -815,12 +959,61 @@ export function GameScreen() {
         possession={state.possession}
         opponentLabel={opponentLabel}
         pendingYards={state.yardsGained}
-        userTurnoverNumbers={state.userTurnoverNumbers}
-        opponentTurnoverNumbers={state.opponentTurnoverNumbers}
         activeRule={activeRule}
         tdYard={state.tdYard}
         fgRangeYard={state.fgRangeYard}
+        rzYard={state.rzYard}
+        downHistory={state.downHistory}
+        maxDowns={state.maxDowns}
       />
+
+      {/* Roster buttons */}
+      <div className="flex gap-2 px-4 py-2 border-b border-gray-800">
+        <button
+          onClick={() => setRosterModal('user')}
+          className="text-xs font-semibold text-gray-400 hover:text-white px-3 py-1 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
+        >
+          My Roster
+        </button>
+        <button
+          onClick={() => setRosterModal('opp')}
+          className="text-xs font-semibold text-gray-400 hover:text-white px-3 py-1 rounded-full bg-gray-800 hover:bg-gray-700 transition-colors"
+        >
+          OPP Roster
+        </button>
+      </div>
+
+      {/* Roster modal */}
+      {rosterModal && (
+        <div className="fixed inset-0 z-50 bg-black/70 flex flex-col" onClick={() => setRosterModal(null)}>
+          <div
+            className="bg-gray-950 flex-1 overflow-y-auto mt-16 rounded-t-2xl"
+            onClick={e => e.stopPropagation()}
+          >
+            <div className="sticky top-0 bg-gray-950 border-b border-gray-800 px-6 py-4 flex items-center justify-between">
+              <h2 className="text-lg font-bold text-white">
+                {rosterModal === 'user' ? 'My Roster' : `${opponentLabel} Roster`}
+              </h2>
+              <button
+                onClick={() => setRosterModal(null)}
+                className="text-gray-400 hover:text-white text-2xl leading-none"
+              >
+                ×
+              </button>
+            </div>
+            <div className="p-4">
+              {rosterModal === 'user' ? (
+                <RosterGrid roster={userRoster} />
+              ) : (
+                <RosterGrid
+                  roster={oppRoster}
+                  dangerTurnoverNumbers={state.userTurnoverNumbers}
+                />
+              )}
+            </div>
+          </div>
+        </div>
+      )}
 
       <div className="flex-1 overflow-y-auto">
         {/* Choice panels */}
@@ -828,10 +1021,10 @@ export function GameScreen() {
           <div className="flex flex-col items-center gap-4 py-12">
             <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your play</p>
             <div className="flex gap-4">
-              <Button onClick={() => handleOffPlay('run')}>🏃 Run</Button>
-              <Button onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
+              <Button size="lg" onClick={() => handleOffPlay('run')}>🏃 Run</Button>
+              <Button size="lg" onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
               {state.driveProgress >= state.fgRangeYard && (
-                <Button onClick={handleKickFG}>🦵 Kick FG</Button>
+                <Button size="lg" onClick={handleKickFG}>🦵 Kick FG (beat {computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard)})</Button>
               )}
             </div>
           </div>
@@ -867,14 +1060,37 @@ export function GameScreen() {
           <div className="flex flex-col items-center gap-4 py-12">
             <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your defense</p>
             <div className="flex gap-4">
-              <Button onClick={() => handleDefPlay('run-stop')}>🛑 Run Stop</Button>
-              <Button onClick={() => handleDefPlay('pass-stop')}>✋ Pass Stop</Button>
+              <Button size="lg" onClick={() => handleDefPlay('run-stop')}>🛑 Run Stop</Button>
+              <Button size="lg" onClick={() => handleDefPlay('pass-stop')}>✋ Pass Stop</Button>
+            </div>
+          </div>
+        )}
+
+        {state.phase === 'fourth-down-choice' && (
+          <div className="flex flex-col items-center gap-4 py-12">
+            <p className="text-xs text-gray-500 uppercase tracking-wider font-bold text-amber-400">
+              4th Down — What do you do?
+            </p>
+            <div className="flex flex-wrap gap-3 justify-center">
+              <Button size="lg" onClick={() => dispatch({ type: 'FOURTH_DOWN_GO_FOR_IT' })}>
+                🏃 Go For It
+              </Button>
+              {!state.noPuntingRule && (
+                <Button size="lg" variant="secondary" onClick={() => dispatch({ type: 'FOURTH_DOWN_PUNT' })}>
+                  📤 Punt
+                </Button>
+              )}
+              {state.driveProgress >= state.fgRangeYard && (
+                <Button size="lg" variant="secondary" onClick={handleKickFG}>
+                  🦵 Attempt FG (beat {computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard)})
+                </Button>
+              )}
             </div>
           </div>
         )}
 
         {/* Play area (shown during rolling and result phases) */}
-        {!['choose-offense', 'choose-wr', 'choose-defense', 'game-over'].includes(state.phase) && (
+        {!['choose-offense', 'choose-wr', 'choose-defense', 'fourth-down-choice', 'game-over'].includes(state.phase) && (
           <PlayArea
             possession={state.possession}
             phase={state.phase}

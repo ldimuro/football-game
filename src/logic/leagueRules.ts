@@ -1,3 +1,5 @@
+import { ENABLED_LEAGUE_RULES } from './gameConstants'
+
 export interface LeagueRule {
   id: string
   emoji: string
@@ -10,6 +12,7 @@ export interface RuleOverrides {
   fgPoints: number
   tdYard: number
   fgRangeYard: number
+  rzYard: number
   maxDowns: number
   noPuntingRule: boolean
   pick2Rule: boolean
@@ -18,7 +21,7 @@ export interface RuleOverrides {
 }
 
 export const LEAGUE_RULES: LeagueRule[] = [
-  { id: 'rz-starts-at-35',    emoji: '🔴', name: 'RZ Starts at 35',               description: 'FG range begins at the 35 yd line — kickers can attempt from much further back.' },
+  { id: 'rz-starts-at-35',    emoji: '🔴', name: 'RZ Starts at 65',               description: 'The Red Zone begins at the 65 yd line — red zone abilities activate much earlier.' },
   { id: 'field-125',          emoji: '🌎', name: 'Field becomes 125 yards',        description: 'The field extends to 125 yards. Drives need 105 yards to score a TD.' },
   { id: 'altitude',           emoji: '🏔️', name: 'Altitude',                       description: 'Thin air extends FG range to the 50 yd line.' },
   { id: 'kickers-people',     emoji: '🦶', name: 'Kickers are People, Too',        description: 'Field goals are worth 6 points.' },
@@ -36,6 +39,7 @@ export function getDefaultOverrides(): RuleOverrides {
     fgPoints: 3,
     tdYard: 100,
     fgRangeYard: 60,
+    rzYard: 80,
     maxDowns: 4,
     noPuntingRule: false,
     pick2Rule: false,
@@ -47,7 +51,7 @@ export function getDefaultOverrides(): RuleOverrides {
 export function getRuleOverrides(rule: LeagueRule): RuleOverrides {
   const d = getDefaultOverrides()
   switch (rule.id) {
-    case 'rz-starts-at-35':   return { ...d, fgRangeYard: 35 }
+    case 'rz-starts-at-35':   return { ...d, rzYard: 65 }
     case 'field-125':         return { ...d, tdYard: 125 }
     case 'altitude':          return { ...d, fgRangeYard: 50 }
     case 'kickers-people':    return { ...d, fgPoints: 6 }
@@ -61,6 +65,8 @@ export function getRuleOverrides(rule: LeagueRule): RuleOverrides {
   }
 }
 
-export function getRandomRule(): LeagueRule {
-  return LEAGUE_RULES[Math.floor(Math.random() * LEAGUE_RULES.length)]
+export function getRandomRule(): LeagueRule | null {
+  const pool = LEAGUE_RULES.filter(r => ENABLED_LEAGUE_RULES.has(r.id))
+  if (pool.length === 0) return null
+  return pool[Math.floor(Math.random() * pool.length)]
 }

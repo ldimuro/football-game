@@ -12,6 +12,7 @@ const base: AbilityContext = {
   playerTeamIsLosing: false,
   isLastTeamDrive: false,
   driveProgress: 20,
+  rzYard: 80,
   down: 1,
   playCall: 'pass',
   weather: 'Clear',
@@ -80,15 +81,15 @@ describe('computeRollBonus — OLine', () => {
 })
 
 describe('computeRollBonus — psychic', () => {
-  it('0 on first play', () =>
-    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', ownPlayHistory: [], playCall: 'run' })).toBe(0))
-  it('+5 when offense calls same play 2nd time in a row', () =>
-    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', ownPlayHistory: ['run'], playCall: 'run' })).toBe(5))
-  it('+7 on 3rd consecutive same call', () =>
-    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', ownPlayHistory: ['run', 'run'], playCall: 'run' })).toBe(7))
-  it('0 when play type changes', () =>
-    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', ownPlayHistory: ['run', 'run'], playCall: 'pass' })).toBe(0))
-  it('defense uses oppPlayHistory', () =>
+  it('0 when opponent has not repeated', () =>
+    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', oppPlayHistory: [], playCall: 'run' })).toBe(0))
+  it('+5 when opponent repeats same play 2nd time in a row (offense player)', () =>
+    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', oppPlayHistory: ['run'], playCall: 'run' })).toBe(5))
+  it('+7 on 3rd consecutive opponent repeat (offense player)', () =>
+    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', oppPlayHistory: ['run', 'run'], playCall: 'run' })).toBe(7))
+  it('0 when opponent switches play type', () =>
+    expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'offense', oppPlayHistory: ['run', 'run'], playCall: 'pass' })).toBe(0))
+  it('+7 when opponent repeats 3rd time (defense player)', () =>
     expect(computeRollBonus('psychic', 5, { ...base, playerSide: 'defense', oppPlayHistory: ['pass', 'pass'], playCall: 'pass' })).toBe(7))
 })
 

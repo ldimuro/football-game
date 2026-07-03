@@ -22,17 +22,13 @@ export function DraftOffer() {
 
   function handleSelect(item: Player | TeamUnit) {
     setSelectedId(item.id)
-    setShowSlotChooser(false)
-    setConfirmTarget(null)
-  }
-
-  function handleSelectPlayer() {
-    if (!selected) return
-    if (selected.position === 'WR') {
+    if (item.position === 'WR') {
       setShowSlotChooser(true)
-      return
+      setConfirmTarget(null)
+    } else {
+      setShowSlotChooser(false)
+      setConfirmTarget(item.position as RosterPosition)
     }
-    setConfirmTarget(selected.position as RosterPosition)
   }
 
   function handleSlotChosen(slot: RosterPosition) {
@@ -103,9 +99,6 @@ export function DraftOffer() {
           </Button>
           <Button onClick={skipDraft} variant="ghost" disabled={isLoading}>
             Skip
-          </Button>
-          <Button onClick={handleSelectPlayer} disabled={!selectedId || isLoading}>
-            Select Player
           </Button>
         </div>
       </div>

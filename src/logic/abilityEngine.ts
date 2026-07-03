@@ -1,5 +1,38 @@
 import type { WeatherCondition } from '../types'
 
+export type AbilityRarity = 'Common' | 'Uncommon' | 'Rare'
+
+export const ABILITY_RARITY: Record<string, AbilityRarity> = {
+  'evens':             'Common',
+  'odds':              'Common',
+  'evil-evens':        'Common',
+  'evil-odds':         'Common',
+  'blessed-evens':     'Common',
+  'blessed-odds':      'Common',
+  'second-half':       'Common',
+  'clutch':            'Common',
+  'rain-man':          'Common',
+  'snow-man':          'Common',
+  'comeback-kid':      'Common',
+  'two-minute-drill':  'Common',
+  'air-raid':          'Common',
+  'ground-and-pound':  'Common',
+  'psychic':           'Common',
+  'bull-rush':         'Common',
+  'brick-wall':        'Common',
+  'stack-the-box':     'Common',
+  'bend-dont-break':   'Common',
+  'on-an-island':      'Common',
+  'no-fly-zone':       'Common',
+  'play-action':       'Common',
+  'in-rhythm':         'Common',
+  'workhorse':         'Common',
+  'fresh-legs':        'Common',
+  'goal-line':         'Common',
+  'basketball-player': 'Common',
+  'yac':               'Common',
+}
+
 export interface AbilityContext {
   quarter: number
   driveIndex: number
@@ -8,6 +41,7 @@ export interface AbilityContext {
   playerTeamIsLosing: boolean
   isLastTeamDrive: boolean
   driveProgress: number
+  rzYard: number
   down: number
   playCall: 'run' | 'pass'
   weather: WeatherCondition
@@ -19,6 +53,37 @@ export interface AbilityContext {
   opponentWRRating: number | undefined
   allOffRolls: (number | null)[]
   allDefRolls: (number | null)[]
+}
+
+export const ABILITY_DESCRIPTIONS: Record<string, string> = {
+  'evens':             '+5 on even rolls',
+  'odds':              '+5 on odd rolls',
+  'evil-evens':        '+7 on even rolls, −3 on odd rolls',
+  'evil-odds':         '+7 on odd rolls, −3 on even rolls',
+  'blessed-evens':     '+1 for each even roll made by anyone this play (applied after all rolls)',
+  'blessed-odds':      '+1 for each odd roll made by anyone this play (applied after all rolls)',
+  'second-half':       '+5 in the 3rd and 4th quarters',
+  'clutch':            '+10 in the 4th quarter',
+  'rain-man':          '+5 during rain games',
+  'snow-man':          '+5 during snow games',
+  'comeback-kid':      '+5 when your team is losing',
+  'two-minute-drill':  '+15 on the last offensive drive of each half',
+  'air-raid':          '+5 on every pass play',
+  'ground-and-pound':  '+5 on every run play',
+  'psychic':           '+5 when the opponent repeats the same play type; +2 more per additional repeat',
+  'bull-rush':         '+7 on pass plays when this roll beats the O-Line',
+  'brick-wall':        '+7 on run plays when this roll beats the O-Line',
+  'stack-the-box':     '+5 when the offense repeats a run play; +2 more each additional repeat',
+  'bend-dont-break':   '+5 when the offense is in the red zone',
+  'on-an-island':      '+5 when matched against an elite WR (93+ rating)',
+  'no-fly-zone':       '+5 when the offense repeats a pass play; +2 more each additional repeat',
+  'play-action':       '+5 on pass plays when the previous play was a run',
+  'in-rhythm':         '+5 on pass plays when the previous play was also a pass',
+  'workhorse':         '+3 × rushes already called this drive (grows with usage)',
+  'fresh-legs':        '+8 on 1st-down run plays',
+  'goal-line':         '+5 when in the red zone',
+  'basketball-player': '+5 when in the red zone',
+  'yac':               'After a teammate WR gains YAC, adds +5 bonus yards to the play',
 }
 
 export const ABILITY_DISPLAY: Record<string, string> = {
@@ -86,8 +151,7 @@ export function computeRollBonus(abilityId: string, roll: number, ctx: AbilityCo
     case 'air-raid':         return ctx.playCall === 'pass' ? 5 : 0
     case 'ground-and-pound': return ctx.playCall === 'run' ? 5 : 0
     case 'psychic': {
-      const history = ctx.playerSide === 'offense' ? ctx.ownPlayHistory : ctx.oppPlayHistory
-      return consecutiveBonus(consecutiveCount(history, ctx.playCall))
+      return consecutiveBonus(consecutiveCount(ctx.oppPlayHistory, ctx.playCall))
     }
     case 'bull-rush':
       return ctx.playCall === 'pass' && ctx.olineRoll !== null && ctx.olineRoll <= roll ? 7 : 0
@@ -101,14 +165,14 @@ export function computeRollBonus(abilityId: string, roll: number, ctx: AbilityCo
       return ctx.playCall === 'pass'
         ? consecutiveBonus(consecutiveCount(ctx.oppPlayHistory, 'pass'))
         : 0
-    case 'bend-dont-break':  return ctx.driveProgress >= 80 ? 5 : 0
+    case 'bend-dont-break':  return ctx.driveProgress >= ctx.rzYard ? 5 : 0
     case 'on-an-island':     return (ctx.opponentWRRating ?? 0) >= 93 ? 5 : 0
     case 'play-action':      return ctx.ownPlayHistory.at(-1) === 'run' ? 5 : 0
     case 'in-rhythm':        return ctx.ownPlayHistory.at(-1) === 'pass' ? 5 : 0
     case 'workhorse':        return ctx.playCall === 'run' ? (ctx.ownRunsThisDrive + 1) * 3 : 0
     case 'fresh-legs':       return ctx.down === 1 && ctx.playCall === 'run' ? 8 : 0
-    case 'goal-line':        return ctx.driveProgress >= 80 ? 5 : 0
-    case 'basketball-player':return ctx.driveProgress >= 80 ? 5 : 0
+    case 'goal-line':        return ctx.driveProgress >= ctx.rzYard ? 5 : 0
+    case 'basketball-player':return ctx.driveProgress >= ctx.rzYard ? 5 : 0
     case 'yac':              return ctx.wrYacActive ? 5 : 0
     default:                 return 0
   }

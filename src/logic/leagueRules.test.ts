@@ -4,7 +4,7 @@ import { LEAGUE_RULES, getDefaultOverrides, getRuleOverrides, getRandomRule } fr
 describe('getDefaultOverrides', () => {
   it('returns all baseline values', () => {
     expect(getDefaultOverrides()).toEqual({
-      tdPoints: 7, fgPoints: 3, tdYard: 100, fgRangeYard: 60,
+      tdPoints: 7, fgPoints: 3, tdYard: 100, fgRangeYard: 60, rzYard: 80,
       maxDowns: 4, noPuntingRule: false, pick2Rule: false,
       iceAge: false, dualTurnoverNumbers: false,
     })
@@ -16,9 +16,10 @@ describe('getRuleOverrides', () => {
     return LEAGUE_RULES.find(r => r.id === id)!
   }
 
-  it('rz-starts-at-35: fgRangeYard=35, others unchanged', () => {
+  it('rz-starts-at-35: rzYard=65, fgRangeYard unchanged', () => {
     const o = getRuleOverrides(rule('rz-starts-at-35'))
-    expect(o.fgRangeYard).toBe(35)
+    expect(o.rzYard).toBe(65)
+    expect(o.fgRangeYard).toBe(60)
     expect(o.tdPoints).toBe(7)
     expect(o.fgPoints).toBe(3)
   })
@@ -54,10 +55,11 @@ describe('getRuleOverrides', () => {
 })
 
 describe('getRandomRule', () => {
-  it('always returns a rule from LEAGUE_RULES', () => {
+  it('always returns a rule from LEAGUE_RULES (or null if pool is empty)', () => {
     const ids = new Set(LEAGUE_RULES.map(r => r.id))
     for (let i = 0; i < 50; i++) {
-      expect(ids.has(getRandomRule().id)).toBe(true)
+      const rule = getRandomRule()
+      if (rule !== null) expect(ids.has(rule.id)).toBe(true)
     }
   })
   it('LEAGUE_RULES has exactly 10 entries', () => {

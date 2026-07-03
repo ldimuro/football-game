@@ -1,4 +1,5 @@
 import { PlayerCard } from '../roster/PlayerCard'
+import { useGameStore } from '../../store/gameStore'
 import type { Roster, RosterPosition } from '../../types'
 
 const POSITIONS: RosterPosition[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
@@ -22,6 +23,7 @@ function EmptySlot() {
 }
 
 export function PositionMatchups({ opponentTeam, opponentRoster, userRoster }: PositionMatchupsProps) {
+  const { userTurnoverNumbers, opponentTurnoverNumbers } = useGameStore()
   return (
     <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5">
       <h3 className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-4 text-center">Position Matchups</h3>
@@ -37,8 +39,8 @@ export function PositionMatchups({ opponentTeam, opponentRoster, userRoster }: P
             <div key={pos}>
               <p className="text-xs font-bold text-indigo-600 dark:text-indigo-400 uppercase tracking-wider text-center mb-2">{POSITION_LABELS[pos]}</p>
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {userSlot ? <PlayerCard slot={userSlot} position={pos} /> : <EmptySlot />}
-                {opponentSlot ? <PlayerCard slot={opponentSlot} position={pos} /> : <EmptySlot />}
+                {userSlot ? <PlayerCard slot={userSlot} position={pos} dangerFaces={opponentTurnoverNumbers} /> : <EmptySlot />}
+                {opponentSlot ? <PlayerCard slot={opponentSlot} position={pos} dangerFaces={userTurnoverNumbers} /> : <EmptySlot />}
               </div>
             </div>
           )

@@ -9,6 +9,7 @@ import { playerCost, slotCost } from '../logic/playerValue'
 import { CAP_SPACE } from '../logic/gameConstants'
 import { getRandomRule, getRuleOverrides, getDefaultOverrides } from '../logic/leagueRules'
 import type { LeagueRule } from '../logic/leagueRules'
+import type { ColorScheme } from '../logic/diceGen'
 import type {
   GamePhase, Roster, RosterPosition, Player, TeamUnit,
   DraftOffer, TeamStats, WeatherCondition, RoundRecord, SimulationResult,
@@ -36,8 +37,11 @@ interface GameStore {
   activeRule: LeagueRule | null
   userTurnoverNumbers: number[]
   opponentTurnoverNumbers: number[]
+  simulationHistory: SimulationResult[]
+  dieColorScheme: ColorScheme
 
   initGame: () => Promise<void>
+  setDieColorScheme: (scheme: ColorScheme) => void
   rerollSetupSlot: (position: RosterPosition) => Promise<void>
   confirmSetup: () => Promise<void>
   viewDraftOffer: () => void
@@ -107,17 +111,21 @@ export const useGameStore = create<GameStore>((set, get) => ({
   activeRule: null,
   userTurnoverNumbers: [],
   opponentTurnoverNumbers: [],
+  simulationHistory: [],
+  dieColorScheme: 'rwg' as ColorScheme,
+
+  setDieColorScheme: (scheme) => set({ dieColorScheme: scheme }),
 
   initGame: async () => {
     set({ isLoading: true })
     const roster = await generateRandomRoster()
     const coins = coinsForRoster(roster)
     const activeRule = getRandomRule()
-    const { dualTurnoverNumbers } = getRuleOverrides(activeRule)
+    const { dualTurnoverNumbers } = activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides()
     set({
       roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
       coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
-      activeRule,
+      activeRule, simulationHistory: [],
       userTurnoverNumbers: generateTurnoverNumbers(dualTurnoverNumbers),
     })
   },
@@ -196,7 +204,8 @@ export const useGameStore = create<GameStore>((set, get) => ({
   },
 
   recordGameResult: (result: SimulationResult) => {
-    set({ simulationResult: result, phase: 'round-hub' })
+    const { simulationHistory } = get()
+    set({ simulationResult: result, simulationHistory: [...simulationHistory, result], phase: 'round-hub' })
   },
 
   advanceRound: async () => {

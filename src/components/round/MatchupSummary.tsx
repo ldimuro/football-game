@@ -1,6 +1,8 @@
 import { getTeamColor } from '../../logic/teamColors'
-import { computeRatingStats } from '../../logic/stats'
-import type { WeatherCondition, Roster } from '../../types'
+import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS } from '../../logic/abilityEngine'
+import { TurnoverDie } from '../ui/TurnoverDie'
+import { Tooltip } from '../ui/Tooltip'
+import type { WeatherCondition, Roster, Player, TeamUnit } from '../../types'
 
 const WEATHER_CONFIG: Record<WeatherCondition, { icon: string; label: string }> = {
   Clear: { icon: '☀️', label: 'Clear' },
@@ -15,98 +17,66 @@ const OFF_SLOTS: RosterKey[] = ['QB', 'WR1', 'WR2', 'RB']
 const DEF_SLOTS: RosterKey[] = ['DLine', 'Secondary']
 const ALL_SLOTS: RosterKey[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
 
-interface StatColumn {
-  label: string
-  userVal: string
-  oppVal: string
-  userBetter: boolean
-  oppBetter: boolean
-  bold?: boolean
-  separator?: boolean
+function avgDieFace(players: (Player | TeamUnit | null | undefined)[]): number | null {
+  const means = players
+    .filter((p): p is Player | TeamUnit => p != null)
+    .map(p => p.die && p.die.length > 0 ? p.die.reduce((a, b) => a + b, 0) / p.die.length : null)
+    .filter((v): v is number => v !== null)
+  if (means.length === 0) return null
+  return means.reduce((a, b) => a + b, 0) / means.length
 }
 
-function StatTable({ columns }: { columns: StatColumn[] }) {
-  const cellClass = (col: StatColumn, better: boolean) =>
-    `text-center tabular-nums px-3 py-2 whitespace-nowrap ${col.bold ? 'text-sm font-bold' : 'text-sm font-semibold'} ${better ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`
+function mean(slots: RosterKey[], roster: Roster): number | null {
+  return avgDieFace(slots.map(k => roster[k]))
+}
 
+function AbilityEmojis({ roster }: { roster: Roster }) {
+  const entries = ALL_SLOTS
+    .map((k, i) => ({ player: roster[k], slotIdx: i }))
+    .filter(({ player }) => player?.ability)
+  if (entries.length === 0) return <span>—</span>
   return (
-    <div className="overflow-x-auto">
-      <table className="w-full border-collapse">
-        <thead>
-          <tr>
-            <th className="w-0" />
-            {columns.map(col => (
-              <th
-                key={col.label}
-                className={`text-center px-3 pb-2 text-xs uppercase tracking-wider whitespace-nowrap ${col.bold ? 'font-bold text-gray-600 dark:text-gray-300' : 'font-normal text-gray-400 dark:text-gray-500'} ${col.separator ? 'border-l border-gray-200 dark:border-gray-700' : ''}`}
-              >
-                {col.label}
-              </th>
-            ))}
-          </tr>
-        </thead>
-        <tbody>
-          <tr className="border-t border-gray-100 dark:border-gray-800">
-            <td className="text-xs font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wider pr-3 py-2 whitespace-nowrap">Your Team</td>
-            {columns.map(col => (
-              <td key={col.label} className={cellClass(col, col.userBetter)}>{col.userVal}</td>
-            ))}
-          </tr>
-          <tr className="border-t border-gray-100 dark:border-gray-800">
-            <td className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider pr-3 py-2 whitespace-nowrap">Opponent</td>
-            {columns.map(col => (
-              <td key={col.label} className={cellClass(col, col.oppBetter)}>{col.oppVal}</td>
-            ))}
-          </tr>
-        </tbody>
-      </table>
-    </div>
+    <span className="flex items-center justify-center gap-1 flex-wrap">
+      {entries.map(({ player, slotIdx }) => {
+        const id = player!.ability!
+        const emoji = (ABILITY_DISPLAY[id] ?? id).split(' ')[0]
+        const desc = ABILITY_DESCRIPTIONS[id]
+        return desc ? (
+          <Tooltip key={slotIdx} text={desc} position="bottom">
+            <span className="cursor-default text-2xl">{emoji}</span>
+          </Tooltip>
+        ) : (
+          <span key={slotIdx} className="text-2xl">{emoji}</span>
+        )
+      })}
+    </span>
   )
 }
 
-function fmtMean(val: number | null): string {
-  return val !== null ? val.toFixed(1) : '—'
+function fmtMean(v: number | null): string {
+  return v !== null ? v.toFixed(1) : '—'
 }
 
-function fmtStat(val: number | null): string {
-  if (val === null) return '—'
-  return val % 1 === 0 ? String(val) : val.toFixed(1)
-}
-
-function hi(a: number | null, b: number | null): boolean {
-  return a !== null && b !== null && a > b
-}
-
-function statsColumns(
-  prefix: string,
-  userStats: ReturnType<typeof computeRatingStats>,
-  oppStats: ReturnType<typeof computeRatingStats>,
-  separator?: boolean,
-): StatColumn[] {
-  return [
-    {
-      label: `${prefix} Mean`,
-      userVal: fmtMean(userStats.mean),
-      oppVal: fmtMean(oppStats.mean),
-      userBetter: hi(userStats.mean, oppStats.mean),
-      oppBetter: hi(oppStats.mean, userStats.mean),
-      separator,
-    },
-    {
-      label: `${prefix} Med`,
-      userVal: fmtStat(userStats.median),
-      oppVal: fmtStat(oppStats.median),
-      userBetter: hi(userStats.median, oppStats.median),
-      oppBetter: hi(oppStats.median, userStats.median),
-    },
-    {
-      label: `${prefix} Mode`,
-      userVal: fmtStat(userStats.mode),
-      oppVal: fmtStat(oppStats.mode),
-      userBetter: hi(userStats.mode, oppStats.mode),
-      oppBetter: hi(oppStats.mode, userStats.mode),
-    },
-  ]
+function StatRow({
+  label, userVal, oppVal, userBetter, oppBetter,
+}: {
+  label: string
+  userVal: React.ReactNode
+  oppVal: React.ReactNode
+  userBetter?: boolean
+  oppBetter?: boolean
+}) {
+  return (
+    <div className="grid grid-cols-[5rem_1fr_1fr] gap-x-3 items-center py-2 border-t border-gray-100 dark:border-gray-800">
+      <span className="text-xs font-bold text-gray-400 dark:text-gray-500 uppercase tracking-wide">{label}</span>
+      <div className={`text-center text-lg font-bold tabular-nums ${userBetter ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'}`}>
+        {userVal}
+      </div>
+      <div className={`text-center text-lg font-bold tabular-nums ${oppBetter ? 'text-green-500 dark:text-green-400' : 'text-gray-800 dark:text-gray-200'}`}>
+        {oppVal}
+      </div>
+    </div>
+  )
 }
 
 interface Props {
@@ -123,31 +93,18 @@ export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, oppon
   const { icon, label: weatherLabel } = WEATHER_CONFIG[weather]
   const teamColor = getTeamColor(opponentTeam)
 
-  const ratings = (slots: RosterKey[], roster: Roster) => slots.map(k => roster[k]?.rating ?? null)
+  const uOff = mean(OFF_SLOTS, userRoster)
+  const oOff = mean(OFF_SLOTS, opponentRoster)
+  const uDef = mean(DEF_SLOTS, userRoster)
+  const oDef = mean(DEF_SLOTS, opponentRoster)
+  const uAll = mean(ALL_SLOTS, userRoster)
+  const oAll = mean(ALL_SLOTS, opponentRoster)
 
-  const userOff = computeRatingStats(ratings(OFF_SLOTS, userRoster))
-  const oppOff  = computeRatingStats(ratings(OFF_SLOTS, opponentRoster))
-  const userDef = computeRatingStats(ratings(DEF_SLOTS, userRoster))
-  const oppDef  = computeRatingStats(ratings(DEF_SLOTS, opponentRoster))
-  const userAll = computeRatingStats(ratings(ALL_SLOTS, userRoster))
-  const oppAll  = computeRatingStats(ratings(ALL_SLOTS, opponentRoster))
-
-  const columns: StatColumn[] = [
-    ...statsColumns('OFF', userOff, oppOff),
-    ...statsColumns('DEF', userDef, oppDef, true),
-    ...statsColumns('All', userAll, oppAll, true),
-    {
-      label: 'T.O. #',
-      userVal: userTurnoverNumbers.join(', '),
-      oppVal: opponentTurnoverNumbers.join(', '),
-      userBetter: false,
-      oppBetter: false,
-      separator: true,
-    },
-  ]
+  const hi = (a: number | null, b: number | null) => a !== null && b !== null && a > b
 
   return (
     <div className="bg-white dark:bg-gray-900 border border-gray-200 dark:border-gray-800 rounded-xl p-5">
+      {/* Opponent header */}
       <div className="text-center mb-5">
         <p className="text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wider mb-2">Opponent</p>
         <div
@@ -163,7 +120,39 @@ export function MatchupSummary({ userRoster, opponentRoster, opponentTeam, oppon
         </div>
       </div>
 
-      <StatTable columns={columns} />
+      {/* Comparison table */}
+      <div>
+        {/* Column headers */}
+        <div className="grid grid-cols-[5rem_1fr_1fr] gap-x-3 pb-2">
+          <div />
+          <div className="text-center text-xs font-bold text-indigo-500 dark:text-indigo-400 uppercase tracking-wide">Your Team</div>
+          <div className="text-center text-xs font-bold text-gray-500 dark:text-gray-400 uppercase tracking-wide">{opponentTeam}</div>
+        </div>
+
+        <StatRow label="OFF"  userVal={fmtMean(uOff)} oppVal={fmtMean(oOff)} userBetter={hi(uOff, oOff)} oppBetter={hi(oOff, uOff)} />
+        <StatRow label="DEF"  userVal={fmtMean(uDef)} oppVal={fmtMean(oDef)} userBetter={hi(uDef, oDef)} oppBetter={hi(oDef, uDef)} />
+        <StatRow label="All"  userVal={fmtMean(uAll)} oppVal={fmtMean(oAll)} userBetter={hi(uAll, oAll)} oppBetter={hi(oAll, uAll)} />
+
+        <StatRow
+          label="Abilities"
+          userVal={<AbilityEmojis roster={userRoster} />}
+          oppVal={<AbilityEmojis roster={opponentRoster} />}
+        />
+
+        <StatRow
+          label="T.O.#"
+          userVal={
+            <div className="flex justify-center gap-1">
+              {userTurnoverNumbers.map(n => <TurnoverDie key={n} value={n} />)}
+            </div>
+          }
+          oppVal={
+            <div className="flex justify-center gap-1">
+              {opponentTurnoverNumbers.map(n => <TurnoverDie key={n} value={n} />)}
+            </div>
+          }
+        />
+      </div>
     </div>
   )
 }

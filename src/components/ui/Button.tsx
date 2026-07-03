@@ -3,6 +3,7 @@ interface ButtonProps {
   children: React.ReactNode
   disabled?: boolean
   variant?: 'primary' | 'secondary' | 'ghost'
+  size?: 'md' | 'lg'
   className?: string
 }
 
@@ -12,14 +13,19 @@ const VARIANTS = {
   ghost: 'bg-transparent hover:bg-gray-200 dark:hover:bg-gray-800 text-gray-600 dark:text-gray-300',
 }
 
-export function Button({ onClick, children, disabled, variant = 'primary', className = '' }: ButtonProps) {
+const SIZES = {
+  md: 'px-4 py-2 text-sm',
+  lg: 'px-7 py-3.5 text-base',
+}
+
+export function Button({ onClick, children, disabled, variant = 'primary', size = 'md', className = '' }: ButtonProps) {
   return (
     <button
       onClick={onClick}
       disabled={disabled}
-      className={`px-4 py-2 rounded-lg font-semibold text-sm transition-colors
+      className={`rounded-lg font-semibold transition-colors
         disabled:opacity-40 disabled:cursor-not-allowed
-        ${VARIANTS[variant]} ${className}`}
+        ${SIZES[size]} ${VARIANTS[variant]} ${className}`}
     >
       {children}
     </button>

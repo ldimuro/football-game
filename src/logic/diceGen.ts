@@ -63,11 +63,40 @@ export function assignDie(rating: number | undefined): number[] {
   return pool[Math.floor(Math.random() * pool.length)]
 }
 
-export function faceColorClass(value: number): string {
-  if (value >= 19) return 'bg-purple-400'
-  if (value >= 16) return 'bg-green-400'
-  if (value >= 12) return 'bg-blue-400'
-  if (value >= 8)  return 'bg-orange-400'
-  if (value >= 4)  return 'bg-yellow-400'
-  return 'bg-red-400'
+export type ColorScheme = 'classic' | 'rwg'
+
+// Red-White-Green: low values = bright red, midpoint (~10-11) = white, high values = bright green
+const RWG_CLASSES: Record<number, string> = {
+  1:  'bg-red-700 text-white',
+  2:  'bg-red-600 text-white',
+  3:  'bg-red-500 text-white',
+  4:  'bg-red-400 text-white',
+  5:  'bg-red-300 text-gray-900',
+  6:  'bg-red-200 text-gray-900',
+  7:  'bg-red-100 text-gray-900',
+  8:  'bg-red-50 text-gray-900',
+  9:  'bg-white text-gray-900',
+  10: 'bg-white text-gray-900',
+  11: 'bg-white text-gray-900',
+  12: 'bg-green-50 text-gray-900',
+  13: 'bg-green-100 text-gray-900',
+  14: 'bg-green-200 text-gray-900',
+  15: 'bg-green-300 text-gray-900',
+  16: 'bg-green-400 text-gray-900',
+  17: 'bg-green-500 text-white',
+  18: 'bg-green-600 text-white',
+  19: 'bg-green-700 text-white',
+  20: 'bg-green-800 text-white',
+}
+
+export function faceColorClass(value: number, scheme: ColorScheme = 'classic'): string {
+  if (scheme === 'rwg') {
+    return RWG_CLASSES[value] ?? (value <= 10 ? 'bg-red-50 text-gray-900' : 'bg-green-50 text-gray-900')
+  }
+  if (value >= 19) return 'bg-purple-400 text-gray-900 dark:text-white'
+  if (value >= 16) return 'bg-green-400 text-gray-900 dark:text-white'
+  if (value >= 12) return 'bg-blue-400 text-gray-900 dark:text-white'
+  if (value >= 8)  return 'bg-orange-400 text-gray-900 dark:text-white'
+  if (value >= 4)  return 'bg-yellow-400 text-gray-900 dark:text-white'
+  return 'bg-red-400 text-gray-900 dark:text-white'
 }

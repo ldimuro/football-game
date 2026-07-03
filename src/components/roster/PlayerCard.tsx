@@ -6,7 +6,8 @@ import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
-import { ABILITY_DISPLAY } from '../../logic/abilityEngine'
+import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import { Tooltip } from '../ui/Tooltip'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
 
 interface PlayerCardProps {
@@ -16,6 +17,13 @@ interface PlayerCardProps {
   rerollsRemaining?: number
   coinValue?: number
   onSell?: () => void
+  dangerFaces?: number[]
+}
+
+const RARITY_COLOR: Record<string, string> = {
+  Common:   'text-green-600 dark:text-green-400',
+  Uncommon: 'text-orange-500 dark:text-orange-400',
+  Rare:     'text-red-500 dark:text-red-400',
 }
 
 const POSITION_LABELS: Record<RosterPosition, string> = {
@@ -110,13 +118,16 @@ export function renderStats(slot: Player | TeamUnit, options?: { showRank?: bool
   )
 }
 
-export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell }: PlayerCardProps) {
+export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coinValue, onSell, dangerFaces }: PlayerCardProps) {
   const [tab, setTab] = useState<'die' | 'stats'>('die')
   const isUnit = 'position' in slot && !('name' in slot)
   const isPracticeSquad = slot.id.startsWith(PRACTICE_SQUAD_ID_PREFIX)
   const name = isPracticeSquad ? 'Practice Squad' : 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
   const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy) || ('is_dpy' in slot && slot.is_dpy)
+  const abilityDisplay = slot.ability ? (ABILITY_DISPLAY[slot.ability] ?? slot.ability) : null
+  const abilityEmoji = abilityDisplay ? abilityDisplay.split(' ')[0] : null
+  const abilityName = abilityDisplay ? abilityDisplay.split(' ').slice(1).join(' ') : null
 
   return (
     <div
@@ -132,10 +143,21 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
           <div className="flex gap-1 mt-1">
             {!isPracticeSquad && <Badge label={slot.team} />}
             {!isPracticeSquad && <Badge label={String(slot.year)} color="blue" />}
-            {isUnit && <Badge label="Unit" color="gray" />}
           </div>
         </div>
         <div className="flex flex-col items-end gap-1">
+          {abilityEmoji && (() => {
+            const desc = slot.ability ? ABILITY_DESCRIPTIONS[slot.ability] : undefined
+            const rarity = slot.ability ? (ABILITY_RARITY[slot.ability] ?? 'Common') : 'Common'
+            const tooltipText = desc ? `${rarity} · ${desc}` : rarity
+            const inner = (
+              <div className="text-right leading-none cursor-default">
+                <div className="text-3xl">{abilityEmoji}</div>
+                {abilityName && <div className={`text-[10px] font-semibold mt-0.5 ${RARITY_COLOR[rarity]}`}>{abilityName}</div>}
+              </div>
+            )
+            return <Tooltip text={tooltipText} position="bottom">{inner}</Tooltip>
+          })()}
           {coinValue !== undefined && (
             <span className="flex items-center justify-center w-7 h-7 rounded-full bg-yellow-500 text-gray-900 text-xs font-bold tabular-nums">
               {coinValue}
@@ -177,13 +199,8 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
         </button>
       </div>
 
-      {tab === 'die' && slot.die && <DieFaces faces={slot.die} />}
+      {tab === 'die' && slot.die && <DieFaces faces={slot.die} dangerFaces={dangerFaces} />}
       {tab === 'die' && !slot.die && <p className="text-xs text-gray-400">—</p>}
-      {tab === 'die' && slot.ability && (
-        <p className="text-xs text-gray-500 dark:text-gray-400 mt-1">
-          {ABILITY_DISPLAY[slot.ability] ?? slot.ability}
-        </p>
-      )}
       {tab === 'stats' && <div>{renderStats(slot)}</div>}
     </div>
   )
