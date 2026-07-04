@@ -6,7 +6,7 @@ import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
-import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import { ABILITY_DISPLAY, ABILITY_RARITY, getAbilityTooltipDescription } from '../../logic/abilityEngine'
 import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
@@ -153,7 +153,7 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
         </div>
         <div className="flex flex-col items-end gap-1">
           {abilityEmoji && (() => {
-            const desc = slot.ability ? ABILITY_DESCRIPTIONS[slot.ability] : undefined
+            const desc = slot.ability ? getAbilityTooltipDescription(slot.ability, slot.abilityTarget, slot.abilityCounter) : undefined
             const rarity = slot.ability ? (ABILITY_RARITY[slot.ability] ?? 'Common') : 'Common'
             const tooltipContent = (
               <div className="flex flex-col items-center gap-1">

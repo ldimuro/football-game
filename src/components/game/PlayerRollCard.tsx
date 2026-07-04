@@ -3,7 +3,7 @@ import { Badge } from '../ui/Badge'
 import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
-import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import { ABILITY_DISPLAY, ABILITY_RARITY, getAbilityTooltipDescription } from '../../logic/abilityEngine'
 import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import {
@@ -148,7 +148,7 @@ export function PlayerRollCard({
           </div>
         </div>
         {abilityEmoji && (() => {
-          const desc = player.ability ? ABILITY_DESCRIPTIONS[player.ability] : undefined
+          const desc = player.ability ? getAbilityTooltipDescription(player.ability, player.abilityTarget, player.abilityCounter) : undefined
           const rarity = (player.ability ? (ABILITY_RARITY[player.ability] ?? 'Common') : 'Common') as AbilityRarity
           const rarityColor = rarity === 'Rare' ? 'text-red-500 dark:text-red-400'
             : rarity === 'Uncommon' ? 'text-orange-500 dark:text-orange-400'

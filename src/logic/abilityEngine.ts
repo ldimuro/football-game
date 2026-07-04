@@ -242,6 +242,17 @@ export function computeRollBonus(abilityId: string, roll: number, ctx: AbilityCo
   }
 }
 
+export function getAbilityTooltipDescription(
+  abilityId: string,
+  abilityTarget?: number,
+  abilityCounter?: number,
+): string {
+  if (abilityId === 'absorb' && abilityTarget !== undefined) {
+    return `+1 for rolling a ${abilityTarget} (${abilityCounter ?? 0} this season)`
+  }
+  return ABILITY_DESCRIPTIONS[abilityId] ?? abilityId
+}
+
 export function computePostRollBonus(abilityId: string, ctx: AbilityContext): number {
   const rolls = [...ctx.allOffRolls, ...ctx.allDefRolls].filter((r): r is number => r !== null)
   switch (abilityId) {
