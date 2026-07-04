@@ -4,7 +4,7 @@ import { PlayerCard } from '../roster/PlayerCard'
 import { Button } from '../ui/Button'
 import { playerCost, slotCost, abilityCost } from '../../logic/playerValue'
 import { compatibleRosterPositions, abilityPositionLabel } from '../../logic/abilityGen'
-import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY } from '../../logic/abilityEngine'
+import { ABILITY_DISPLAY, ABILITY_DESCRIPTIONS, ABILITY_RARITY, getAbilityDisplayName } from '../../logic/abilityEngine'
 import type { Player, TeamUnit, RosterPosition } from '../../types'
 
 type PlayerShopView = 'browse' | 'replace'
@@ -238,7 +238,7 @@ export function ShopModal({ onClose }: Props) {
             <p className="text-sm text-gray-400">
               Replace{' '}
               <span className="text-white font-semibold">
-                {ABILITY_DISPLAY[slot?.ability ?? ''] ?? slot?.ability}
+                {slot?.ability ? getAbilityDisplayName(slot.ability, slot.abilityTarget) : slot?.ability}
               </span>
               {' '}with{' '}
               <span className="text-white font-semibold">

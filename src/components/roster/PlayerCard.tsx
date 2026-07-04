@@ -6,7 +6,7 @@ import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { statColorClass, rankColorClass } from '../../logic/statColors'
 import { PRACTICE_SQUAD_ID_PREFIX } from '../../logic/practiceSquad'
-import { ABILITY_DISPLAY, ABILITY_RARITY, getAbilityTooltipDescription } from '../../logic/abilityEngine'
+import { ABILITY_RARITY, getAbilityDisplayName, getAbilityTooltipDescription } from '../../logic/abilityEngine'
 import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import type { Player, TeamUnit, RosterPosition, QBStats, WRStats, RBStats, KStats, OLineStats, DLineStats, SecondaryStats } from '../../types'
@@ -131,7 +131,7 @@ export function PlayerCard({ slot, position, onReroll, rerollsRemaining = 0, coi
   const name = isPracticeSquad ? 'Practice Squad' : 'name' in slot ? slot.name : `${slot.team} ${POSITION_LABELS[position]}`
   const isAllPro = 'is_all_pro' in slot && slot.is_all_pro
   const isAwardWinner = ('is_mvp' in slot && slot.is_mvp) || ('is_opy' in slot && slot.is_opy) || ('is_dpy' in slot && slot.is_dpy)
-  const abilityDisplay = slot.ability ? (ABILITY_DISPLAY[slot.ability] ?? slot.ability) : null
+  const abilityDisplay = slot.ability ? getAbilityDisplayName(slot.ability, slot.abilityTarget) : null
   const abilityEmoji = abilityDisplay ? abilityDisplay.split(' ')[0] : null
   const abilityName = abilityDisplay ? abilityDisplay.split(' ').slice(1).join(' ') : null
 

@@ -105,7 +105,7 @@ export const ABILITY_DESCRIPTIONS: Record<string, string> = {
   'elevate':           '+5 if any opponent rolls 15+ (raw die) during the play',
   'long-leg':          'FG range extended by 5 yards',
   'money-ball':        'FGs scored from the Red Zone are worth 5 points',
-  'absorb':            '+1 for each time your target value is rolled across the season',
+  'absorb':            '+1 each time you roll your target number (1–20) — stacks immediately per roll and persists across the season',
   'td-merchant':       '+1 for every offensive TD your team scores in the season',
   'to-merchant':       '+1 for every defensive turnover your team forces in the season',
   'patience-qb':       '+15 on 4th Down if the first 3 downs of the drive were run plays',
@@ -240,6 +240,15 @@ export function computeRollBonus(abilityId: string, roll: number, ctx: AbilityCo
     case 'dual-threat-rb':     return 0  // handled in GameScreen
     default:                 return 0
   }
+}
+
+export function getAbilityDisplayName(abilityId: string, abilityTarget?: number): string {
+  const base = ABILITY_DISPLAY[abilityId] ?? abilityId
+  if (abilityId === 'absorb' && abilityTarget !== undefined) {
+    const [emoji, ...words] = base.split(' ')
+    return `${emoji} ${words.join(' ')} (${abilityTarget})`
+  }
+  return base
 }
 
 export function getAbilityTooltipDescription(

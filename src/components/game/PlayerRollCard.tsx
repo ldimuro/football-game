@@ -3,7 +3,7 @@ import { Badge } from '../ui/Badge'
 import { DieFaces } from '../ui/DieFaces'
 import { getTeamColor } from '../../logic/teamColors'
 import { getPlayerDie } from '../../logic/gameEngine'
-import { ABILITY_DISPLAY, ABILITY_RARITY, getAbilityTooltipDescription } from '../../logic/abilityEngine'
+import { ABILITY_RARITY, getAbilityDisplayName, getAbilityTooltipDescription } from '../../logic/abilityEngine'
 import type { AbilityRarity } from '../../logic/abilityEngine'
 import { Tooltip } from '../ui/Tooltip'
 import {
@@ -120,7 +120,7 @@ export function PlayerRollCard({
 
   const name = 'name' in player ? player.name : `${player.team} ${getPositionLabel(player)}`
   const posLabel = getPositionLabel(player)
-  const abilityDisplay = player.ability ? (ABILITY_DISPLAY[player.ability] ?? player.ability) : null
+  const abilityDisplay = player.ability ? getAbilityDisplayName(player.ability, player.abilityTarget) : null
   const abilityEmoji = abilityDisplay ? abilityDisplay.split(' ')[0] : null
   const abilityName = abilityDisplay ? abilityDisplay.split(' ').slice(1).join(' ') : null
 
