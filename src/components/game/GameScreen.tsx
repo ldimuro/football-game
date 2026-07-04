@@ -98,6 +98,7 @@ interface GameState {
   wentForIt: boolean
   turnoverYardLine: number | null
   nextDriveStartYard: number
+  allGameRolls: number[]
 }
 
 type GameAction =
@@ -262,9 +263,10 @@ function recomputeBlessed(
   allDefRolls: (number | null)[],
 ): (number | null)[] {
   const result = [...bonuses]
-  const ctx = buildAbilityContext(side, state, allOffRolls, allDefRolls)  // hoisted
+  const baseCtx = buildAbilityContext(side, state, allOffRolls, allDefRolls)  // hoisted
   players.forEach((player, i) => {
     if (player.ability && isPostRollAbility(player.ability)) {
+      const ctx = { ...baseCtx, abilityCounter: player.abilityCounter ?? 0 }
       result[i] = computePostRollBonus(player.ability, ctx)
     }
   })
@@ -354,7 +356,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         const wrYacActive = isWR
           ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
           : false
-        const ctx = { ...buildAbilityContext('offense', state, newOffRolls, newDefRolls), wrYacActive }
+        const offAbilityCounter = offPlayer.abilityCounter ?? 0
+        const ctx = {
+          ...buildAbilityContext('offense', state, newOffRolls, newDefRolls),
+          wrYacActive,
+          feedTheBeastBonus: 0,
+          abilityCounter: offAbilityCounter,
+        }
         newOffBonuses[offIndex] = computeRollBonus(offPlayer.ability, offValue, ctx)
       }
 
@@ -371,8 +379,14 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       if (defIndex !== null && defValue !== null) {
         const defPlayer = state.defPlayers[defIndex]
         if (defPlayer.ability && !isPostRollAbility(defPlayer.ability)) {
-          const ctx = buildAbilityContext('defense', state, newOffRolls, newDefRolls)
-          newDefBonuses[defIndex] = computeRollBonus(defPlayer.ability, defValue, ctx)
+          const defAbilityCounter = defPlayer.abilityCounter ?? 0
+          const defCtx = {
+            ...buildAbilityContext('defense', state, newOffRolls, newDefRolls),
+            wrYacActive: false,
+            feedTheBeastBonus: 0,
+            abilityCounter: defAbilityCounter,
+          }
+          newDefBonuses[defIndex] = computeRollBonus(defPlayer.ability, defValue, defCtx)
         }
       }
 
@@ -405,6 +419,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
           opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
+          allGameRolls: [
+            ...state.allGameRolls,
+            offValue,
+            ...(defValue !== null ? [defValue] : []),
+          ],
           phase: 'turnover',
         }
       }
@@ -420,6 +439,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           defBonuses: newDefBonuses,
           wr1YacActive: newWr1YacActive,
           wr2YacActive: newWr2YacActive,
+          allGameRolls: [
+            ...state.allGameRolls,
+            offValue,
+            ...(defValue !== null ? [defValue] : []),
+          ],
           phase: 'rolling-pairs',
         }
       }
@@ -436,6 +460,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         wr1YacActive: newWr1YacActive,
         wr2YacActive: newWr2YacActive,
         yardsGained: yards,
+        allGameRolls: [
+          ...state.allGameRolls,
+          offValue,
+          ...(defValue !== null ? [defValue] : []),
+        ],
         phase: 'show-play-result',
       }
     }
@@ -680,6 +709,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
           opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
+          allGameRolls: [...state.allGameRolls, action.value],
           phase: 'turnover',
         }
       }
@@ -699,6 +729,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         userScore: (made && state.possession === 'user') ? state.userScore + effectivePts : state.userScore,
         opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + effectivePts : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
+        allGameRolls: [...state.allGameRolls, action.value],
         phase: 'fg-result',
       }
     }
@@ -827,6 +858,7 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     wentForIt: false,
     turnoverYardLine: null,
     nextDriveStartYard: STARTING_YARD_LINE,
+    allGameRolls: [],
     userPlayHistory: [],
     opponentPlayHistory: [],
     userRunsThisDrive: 0,
@@ -904,7 +936,7 @@ export function GameScreen() {
   useEffect(() => {
     if (state.phase === 'game-over') {
       const result = buildSimulationResult(state, opponentLabel)
-      recordGameResult(result)
+      recordGameResult(result, state.allGameRolls)
     }
   }, [state.phase, state.userScore, state.opponentScore, state.driveHistory, opponentLabel, recordGameResult])
 

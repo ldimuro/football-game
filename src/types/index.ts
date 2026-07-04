@@ -73,6 +73,8 @@ export interface Player {
   is_dpy?: boolean
   die?: number[]
   ability?: string
+  abilityCounter?: number   // season-accumulated bonus for counter abilities
+  abilityTarget?: number    // random die value to track (Absorb only)
 }
 
 export interface TeamUnit {
@@ -84,6 +86,8 @@ export interface TeamUnit {
   rating?: number
   die?: number[]
   ability?: string
+  abilityCounter?: number
+  abilityTarget?: number
 }
 
 export interface TeamMeta {

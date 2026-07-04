@@ -1,6 +1,6 @@
 import { create } from 'zustand'
 import { generateRandomRoster, generateRandomSlot, generateShopOffer } from '../logic/rosterGen'
-import { generateAbilityShopOffer } from '../logic/abilityGen'
+import { generateAbilityShopOffer, generateAbsorbTarget } from '../logic/abilityGen'
 import {
   generateDraftOffer, generateOpponent,
   rerollDraftOfferTeam as genOfferNewTeam, rerollDraftOfferYear as genOfferNewYear,
@@ -51,7 +51,7 @@ interface GameStore {
   draftPlayer: (id: string, targetPosition: RosterPosition) => void
   skipDraft: () => void
   startGame: () => void
-  recordGameResult: (result: SimulationResult) => void
+  recordGameResult: (result: SimulationResult, allGameRolls: number[]) => void
   abilityShopOffer: string[] | null
   abilityShopComplete: boolean
   advanceRound: () => Promise<void>
@@ -213,9 +213,40 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({ phase: 'game' })
   },
 
-  recordGameResult: (result: SimulationResult) => {
-    const { simulationHistory } = get()
-    set({ simulationResult: result, simulationHistory: [...simulationHistory, result], phase: 'round-hub' })
+  recordGameResult: (result: SimulationResult, allGameRolls: number[]) => {
+    const { simulationHistory, roster } = get()
+
+    // Count season-relevant events from this game
+    const offTDs = result.drives.filter(d => d.possession === 'user' && d.outcome === 'TD').length
+    const defTOs = result.drives.filter(
+      d => d.possession === 'opponent' && (d.outcome === 'Turnover' || d.outcome === 'DefTD')
+    ).length
+
+    // Update ability counters for each roster slot
+    const updatedRoster = { ...roster } as typeof roster
+    const positions: (keyof typeof roster)[] = ['QB', 'WR1', 'WR2', 'RB', 'K', 'OLine', 'DLine', 'Secondary']
+    for (const pos of positions) {
+      const slot = roster[pos]
+      if (!slot?.ability) continue
+      let increment = 0
+      if (slot.ability === 'td-merchant' && ['QB', 'WR1', 'WR2', 'RB'].includes(pos)) {
+        increment = offTDs
+      } else if (slot.ability === 'to-merchant' && ['DLine', 'Secondary'].includes(pos)) {
+        increment = defTOs
+      } else if (slot.ability === 'absorb' && slot.abilityTarget !== undefined) {
+        increment = allGameRolls.filter(r => r === slot.abilityTarget).length
+      }
+      if (increment > 0) {
+        updatedRoster[pos] = { ...slot, abilityCounter: (slot.abilityCounter ?? 0) + increment } as typeof slot
+      }
+    }
+
+    set({
+      roster: updatedRoster,
+      simulationResult: result,
+      simulationHistory: [...simulationHistory, result],
+      phase: 'round-hub',
+    })
   },
 
   advanceRound: async () => {
@@ -306,8 +337,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
     if (cost > coins) return
     const currentSlot = roster[targetPosition]
     if (!currentSlot) return
+    const updatedSlot = {
+      ...currentSlot,
+      ability: abilityId,
+      abilityTarget: abilityId === 'absorb' ? generateAbsorbTarget() : currentSlot.abilityTarget,
+      abilityCounter: undefined,  // reset counter when ability changes
+    }
     set({
-      roster: { ...roster, [targetPosition]: { ...currentSlot, ability: abilityId } },
+      roster: { ...roster, [targetPosition]: updatedSlot },
       coins: coins - cost,
       abilityShopComplete: true,
     })

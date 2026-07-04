@@ -58,6 +58,7 @@ vi.mock('../logic/weatherGen', () => ({
 
 vi.mock('../logic/abilityGen', () => ({
   generateAbilityShopOffer: vi.fn().mockReturnValue(['second-half', 'clutch', 'rain-man', 'snow-man']),
+  generateAbsorbTarget: vi.fn().mockReturnValue(7),
 }))
 
 const mockOpponent = {
@@ -238,10 +239,73 @@ describe('recordGameResult', () => {
       opponentScore: 7,
       winner: 'user',
     }
-    store.recordGameResult(result)
+    store.recordGameResult(result, [])
     const state = useGameStore.getState()
     expect(state.phase).toBe('round-hub')
     expect(state.simulationResult).toEqual(result)
+  })
+})
+
+describe('recordGameResult — ability counter updates', () => {
+  const makeResult = (drives: Partial<{ possession: 'user' | 'opponent'; outcome: string }>[]) => ({
+    userTeamLabel: 'User', opponentTeamLabel: 'Opp',
+    drives: drives.map(d => ({
+      possession: (d.possession ?? 'user') as 'user' | 'opponent',
+      quarter: 1,
+      outcome: (d.outcome ?? 'TD') as import('../types').DriveOutcome,
+      scoringTeam: null as 'user' | 'opponent' | null,
+      points: 0,
+    })),
+    userScore: 0, opponentScore: 0, winner: 'tie' as const,
+  })
+
+  it('increments td-merchant counter for user offensive TDs', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: { ...mockRoster.QB!, ability: 'td-merchant', abilityCounter: 2 } },
+    })
+    useGameStore.getState().recordGameResult(
+      makeResult([
+        { possession: 'user', outcome: 'TD' },
+        { possession: 'user', outcome: 'TD' },
+        { possession: 'opponent', outcome: 'TD' },
+      ]),
+      []
+    )
+    expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(4)  // 2 + 2 user TDs
+  })
+
+  it('increments to-merchant counter for defensive turnovers', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, DLine: { ...mockRoster.DLine!, ability: 'to-merchant', abilityCounter: 0 } },
+    })
+    useGameStore.getState().recordGameResult(
+      makeResult([
+        { possession: 'opponent', outcome: 'Turnover' },
+        { possession: 'opponent', outcome: 'DefTD' },
+      ]),
+      []
+    )
+    expect(useGameStore.getState().roster.DLine?.abilityCounter).toBe(2)
+  })
+
+  it('increments absorb counter for matching rolls', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: { ...mockRoster.QB!, ability: 'absorb', abilityTarget: 7, abilityCounter: 3 } },
+    })
+    useGameStore.getState().recordGameResult(makeResult([]), [7, 7, 5, 7])
+    expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(6)  // 3 + 3 sevens
+  })
+
+  it('does not increment counter for non-counter abilities', () => {
+    useGameStore.setState({
+      ...INITIAL_STATE,
+      roster: { ...mockRoster, QB: { ...mockRoster.QB!, ability: 'clutch', abilityCounter: 5 } },
+    })
+    useGameStore.getState().recordGameResult(makeResult([{ possession: 'user', outcome: 'TD' }]), [])
+    expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(5)  // unchanged
   })
 })
 

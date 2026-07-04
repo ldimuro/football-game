@@ -2,7 +2,7 @@ import { loadTeamMeta, loadTeamRoster } from './dataLoader'
 import { playerCost } from './playerValue'
 import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 import { assignDie } from './diceGen'
-import { assignAbility, forceAssignAbility } from './abilityGen'
+import { assignAbility, forceAssignAbility, generateAbsorbTarget } from './abilityGen'
 import {
   SHOP_SLOTS,
   SETUP_GOOD_MIN_RATING, SETUP_GOOD_MAX_RATING,
@@ -26,6 +26,13 @@ function pickRandom<T>(arr: T[]): T {
   return arr[Math.floor(Math.random() * arr.length)]
 }
 
+function withAbsorbTarget<T extends Player | TeamUnit>(player: T): T {
+  if (player.ability === 'absorb') {
+    return { ...player, abilityTarget: generateAbsorbTarget() } as T
+  }
+  return player
+}
+
 const UNIT_POSITIONS = new Set<RosterPosition>(['OLine', 'DLine', 'Secondary'])
 const PLAYER_POSITION_MAP: Record<RosterPosition, string> = {
   QB: 'QB', WR1: 'WR', WR2: 'WR', RB: 'RB', K: 'K',
@@ -40,12 +47,12 @@ export async function generateRandomSlot(position: RosterPosition, retries = 5):
 
   if (UNIT_POSITIONS.has(position)) {
     const match = units.find(u => u.position === targetPos)
-    if (match) return { ...match, die: assignDie(match.rating), ability: assignAbility(match.position as UnitPosition) }
+    if (match) return withAbsorbTarget({ ...match, die: assignDie(match.rating), ability: assignAbility(match.position as UnitPosition) })
   } else {
     const matches = players.filter(p => p.position === targetPos)
     if (matches.length > 0) {
       const picked = pickRandom(matches)
-      return { ...picked, die: assignDie(picked.rating), ability: assignAbility(picked.position) }
+      return withAbsorbTarget({ ...picked, die: assignDie(picked.rating), ability: assignAbility(picked.position) })
     }
   }
 
@@ -102,7 +109,9 @@ export async function generateRandomRoster(): Promise<Roster> {
       ? createPracticeSquadUnit(PLAYER_POSITION_MAP[pos] as UnitPosition)
       : createPracticeSquadPlayer(PLAYER_POSITION_MAP[pos] as IndividualPosition)
     slot.die = assignDie(slot.rating)
-    slot.ability = assignAbility(slot.position as IndividualPosition | UnitPosition)
+    const ab = assignAbility(slot.position as IndividualPosition | UnitPosition)
+    slot.ability = ab
+    if (ab === 'absorb') slot.abilityTarget = generateAbsorbTarget()
     slots[pos] = slot
   }
 
@@ -131,7 +140,7 @@ export async function generateRandomRoster(): Promise<Roster> {
   for (const idx of abilityIndices) {
     const pos = generatedPositions[idx]
     const base = generatedSlots[idx]
-    slots[pos] = { ...base, ability: forceAssignAbility(base.position as IndividualPosition | UnitPosition) }
+    slots[pos] = withAbsorbTarget({ ...base, ability: forceAssignAbility(base.position as IndividualPosition | UnitPosition) })
   }
 
   return {
@@ -182,7 +191,7 @@ export function selectTopRoster(data: TeamRosterData): Roster {
   const ks = players.filter(p => p.position === 'K')
 
   function withExtras<T extends Player | TeamUnit>(slot: T | null): T | null {
-    return slot ? { ...slot, die: assignDie(slot.rating), ability: assignAbility(slot.position) } as T : null
+    return slot ? withAbsorbTarget({ ...slot, die: assignDie(slot.rating), ability: assignAbility(slot.position) } as T) : null
   }
 
   return {
