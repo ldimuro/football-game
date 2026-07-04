@@ -51,7 +51,7 @@ interface GameStore {
   draftPlayer: (id: string, targetPosition: RosterPosition) => void
   skipDraft: () => void
   startGame: () => void
-  recordGameResult: (result: SimulationResult, allGameRolls: number[]) => void
+  recordGameResult: (result: SimulationResult, absorbHits: number) => void
   abilityShopOffer: string[] | null
   abilityShopComplete: boolean
   advanceRound: () => Promise<void>
@@ -213,7 +213,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
     set({ phase: 'game' })
   },
 
-  recordGameResult: (result: SimulationResult, allGameRolls: number[]) => {
+  recordGameResult: (result: SimulationResult, absorbHits: number) => {
     const { simulationHistory, roster } = get()
 
     // Count season-relevant events from this game
@@ -233,8 +233,8 @@ export const useGameStore = create<GameStore>((set, get) => ({
         increment = offTDs
       } else if (slot.ability === 'to-merchant' && ['DLine', 'Secondary'].includes(pos)) {
         increment = defTOs
-      } else if (slot.ability === 'absorb' && slot.abilityTarget !== undefined) {
-        increment = allGameRolls.filter(r => r === slot.abilityTarget).length
+      } else if (slot.ability === 'absorb') {
+        increment = absorbHits
       }
       if (increment > 0) {
         updatedRoster[pos] = { ...slot, abilityCounter: (slot.abilityCounter ?? 0) + increment } as never

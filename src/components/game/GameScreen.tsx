@@ -119,7 +119,7 @@ interface GameState {
   wentForIt: boolean
   turnoverYardLine: number | null
   nextDriveStartYard: number
-  allGameRolls: number[]
+  userAbsorbHits: number
 }
 
 type GameAction =
@@ -480,13 +480,27 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
           opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
-          allGameRolls: [
-            ...state.allGameRolls,
-            offValue,
-            ...(defValue !== null ? [defValue] : []),
-          ],
+          // Check if the user's off or def player has absorb and hit their target
+          userAbsorbHits: state.userAbsorbHits + (
+            (state.possession === 'user' && offPlayer.ability === 'absorb' && offValue === offPlayer.abilityTarget) ? 1 : 0
+          ) + (
+            (defIndex !== null && defValue !== null && state.possession === 'opponent') ? (() => {
+              const dp = state.defPlayers[defIndex]
+              return dp.ability === 'absorb' && defValue === dp.abilityTarget ? 1 : 0
+            })() : 0
+          ),
           phase: 'turnover',
         }
+      }
+
+      // Track absorb hits for this roll pair
+      let absorbHitsDelta = 0
+      if (state.possession === 'user' && offPlayer.ability === 'absorb' && offValue === offPlayer.abilityTarget) {
+        absorbHitsDelta += 1
+      }
+      if (defIndex !== null && defValue !== null && state.possession === 'opponent') {
+        const dp = state.defPlayers[defIndex]
+        if (dp.ability === 'absorb' && defValue === dp.abilityTarget) absorbHitsDelta += 1
       }
 
       // All rows rolled when every off and def slot is filled
@@ -500,11 +514,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           defBonuses: newDefBonuses,
           wr1YacActive: newWr1YacActive,
           wr2YacActive: newWr2YacActive,
-          allGameRolls: [
-            ...state.allGameRolls,
-            offValue,
-            ...(defValue !== null ? [defValue] : []),
-          ],
+          userAbsorbHits: state.userAbsorbHits + absorbHitsDelta,
           phase: 'rolling-pairs',
         }
       }
@@ -521,11 +531,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         wr1YacActive: newWr1YacActive,
         wr2YacActive: newWr2YacActive,
         yardsGained: yards,
-        allGameRolls: [
-          ...state.allGameRolls,
-          offValue,
-          ...(defValue !== null ? [defValue] : []),
-        ],
+        userAbsorbHits: state.userAbsorbHits + absorbHitsDelta,
         phase: 'show-play-result',
       }
     }
@@ -821,7 +827,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           userScore: (state.possession === 'opponent' && state.pick2Rule) ? state.userScore + 2 : state.userScore,
           opponentScore: (state.possession === 'user' && state.pick2Rule) ? state.opponentScore + 2 : state.opponentScore,
           driveHistory: [...state.driveHistory, driveResult],
-          allGameRolls: [...state.allGameRolls, action.value],
+          // FG kicker absorb tracking skipped — kicker rolling absorb is niche and
+          // abilityTarget is not easily accessible from reducer state.
           phase: 'turnover',
         }
       }
@@ -851,7 +858,6 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         userScore: (made && state.possession === 'user') ? state.userScore + effectivePts : state.userScore,
         opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + effectivePts : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
-        allGameRolls: [...state.allGameRolls, action.value],
         userFeedTheBeast: newUserFeedTheBeastFG,
         opponentFeedTheBeast: newOpponentFeedTheBeastFG,
         phase: 'fg-result',
@@ -992,7 +998,7 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     wentForIt: false,
     turnoverYardLine: null,
     nextDriveStartYard: STARTING_YARD_LINE,
-    allGameRolls: [],
+    userAbsorbHits: 0,
     userPlayHistory: [],
     opponentPlayHistory: [],
     userRunsThisDrive: 0,
@@ -1075,7 +1081,7 @@ export function GameScreen() {
   useEffect(() => {
     if (state.phase === 'game-over') {
       const result = buildSimulationResult(state, opponentLabel)
-      recordGameResult(result, state.allGameRolls)
+      recordGameResult(result, state.userAbsorbHits)
     }
   }, [state.phase, state.userScore, state.opponentScore, state.driveHistory, opponentLabel, recordGameResult])
 

@@ -239,7 +239,7 @@ describe('recordGameResult', () => {
       opponentScore: 7,
       winner: 'user',
     }
-    store.recordGameResult(result, [])
+    store.recordGameResult(result, 0)
     const state = useGameStore.getState()
     expect(state.phase).toBe('round-hub')
     expect(state.simulationResult).toEqual(result)
@@ -270,7 +270,7 @@ describe('recordGameResult — ability counter updates', () => {
         { possession: 'user', outcome: 'TD' },
         { possession: 'opponent', outcome: 'TD' },
       ]),
-      []
+      0
     )
     expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(4)  // 2 + 2 user TDs
   })
@@ -285,7 +285,7 @@ describe('recordGameResult — ability counter updates', () => {
         { possession: 'opponent', outcome: 'Turnover' },
         { possession: 'opponent', outcome: 'DefTD' },
       ]),
-      []
+      0
     )
     expect(useGameStore.getState().roster.DLine?.abilityCounter).toBe(2)
   })
@@ -295,8 +295,8 @@ describe('recordGameResult — ability counter updates', () => {
       ...INITIAL_STATE,
       roster: { ...mockRoster, QB: { ...mockRoster.QB!, ability: 'absorb', abilityTarget: 7, abilityCounter: 3 } },
     })
-    useGameStore.getState().recordGameResult(makeResult([]), [7, 7, 5, 7])
-    expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(6)  // 3 + 3 sevens
+    useGameStore.getState().recordGameResult(makeResult([]), 3)
+    expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(6)  // 3 + 3 absorb hits
   })
 
   it('does not increment counter for non-counter abilities', () => {
@@ -304,7 +304,7 @@ describe('recordGameResult — ability counter updates', () => {
       ...INITIAL_STATE,
       roster: { ...mockRoster, QB: { ...mockRoster.QB!, ability: 'clutch', abilityCounter: 5 } },
     })
-    useGameStore.getState().recordGameResult(makeResult([{ possession: 'user', outcome: 'TD' }]), [])
+    useGameStore.getState().recordGameResult(makeResult([{ possession: 'user', outcome: 'TD' }]), 0)
     expect(useGameStore.getState().roster.QB?.abilityCounter).toBe(5)  // unchanged
   })
 })

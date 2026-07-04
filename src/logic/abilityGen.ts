@@ -69,9 +69,9 @@ export function forceAssignAbility(position: IndividualPosition | UnitPosition):
   return weightedPick(pool)
 }
 
-/** Returns a random die value (1–12) to track for the Absorb ability. */
+/** Returns a random die value (1–20) to track for the Absorb ability. */
 export function generateAbsorbTarget(): number {
-  return Math.floor(Math.random() * 12) + 1
+  return Math.floor(Math.random() * 20) + 1
 }
 
 /** Returns SHOP_SLOTS unique ability IDs sampled from ENABLED_ABILITIES using rarity weights. */
