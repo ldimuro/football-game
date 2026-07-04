@@ -48,6 +48,7 @@ function checkFeedTheBeastTrigger(
 type PlayPhase =
   | 'choose-offense'
   | 'choose-wr'
+  | 'choose-runner'
   | 'choose-defense'
   | 'fourth-down-choice'
   | 'rolling-pairs'
@@ -70,7 +71,7 @@ interface GameState {
   phase: PlayPhase
   offensePlayCall: 'run' | 'pass' | null
   defensePlayCall: 'run-stop' | 'pass-stop' | null
-  selectedWR: 'WR1' | 'WR2' | null
+  selectedWR: 'WR1' | 'WR2' | 'RB' | null
   opponentPlayCall: 'run' | 'pass' | null
   offPlayers: (Player | TeamUnit)[]
   defPlayers: (Player | TeamUnit)[]
@@ -125,7 +126,9 @@ type GameAction =
   // For run: opponentDefCall required; for pass: omit it (set in CHOOSE_WR instead)
   | { type: 'CHOOSE_OFF_PLAY'; call: 'run' | 'pass'; opponentDefCall?: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   // CHOOSE_WR: defPlayers already in state from CHOOSE_OFF_PLAY(pass); only offPlayers changes
-  | { type: 'CHOOSE_WR'; wr: 'WR1' | 'WR2'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[] }
+  | { type: 'CHOOSE_WR'; wr: 'WR1' | 'WR2' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[] }
+  | { type: 'SHOW_RUNNER_CHOICE' }
+  | { type: 'CHOOSE_RUNNER'; runner: 'QB' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   | { type: 'CHOOSE_DEF_PLAY'; call: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   | { type: 'ROLL_PAIR'; offIndex: number; offValue: number; defIndex: number | null; defValue: number | null }
   | { type: 'RESOLVE_PLAY'; nextOpponentPlayCall: 'run' | 'pass' }
@@ -338,6 +341,26 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(state.defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(state.defPlayers.length).fill(null),
+        phase: 'rolling-pairs',
+      }
+    }
+
+    case 'SHOW_RUNNER_CHOICE': {
+      return { ...state, phase: 'choose-runner' }
+    }
+
+    case 'CHOOSE_RUNNER': {
+      const { runner, opponentDefCall, offPlayers, defPlayers } = action
+      return {
+        ...state,
+        offensePlayCall: 'run',
+        defensePlayCall: opponentDefCall,
+        offPlayers,
+        defPlayers,
+        offRolls: new Array(offPlayers.length).fill(null),
+        defRolls: new Array(defPlayers.length).fill(null),
+        offBonuses: new Array(offPlayers.length).fill(null),
+        defBonuses: new Array(defPlayers.length).fill(null),
         phase: 'rolling-pairs',
       }
     }
@@ -1101,8 +1124,12 @@ export function GameScreen() {
   }
 
   function handleOffPlay(call: 'run' | 'pass') {
+    if (call === 'run' && userRoster.QB?.ability === 'dual-threat-qb') {
+      dispatch({ type: 'SHOW_RUNNER_CHOICE' })
+      return
+    }
     if (call === 'pass') {
-      // opponentDefCall is generated in handleWRChoice so it's one random value per play
+      // opponentDefCall is generated in handleReceiverChoice so it's one random value per play
       const defPlayers = getDefensePlayers(oppRoster, 'pass')
       dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'pass', offPlayers: [], defPlayers })
     } else {
@@ -1113,11 +1140,26 @@ export function GameScreen() {
     }
   }
 
-  function handleWRChoice(wr: 'WR1' | 'WR2') {
+  function handleRunnerChoice(runner: 'QB' | 'RB') {
     const opponentDefCall = randomDefCall()
-    const offPlayers = getOffensePlayers(userRoster, 'pass', wr)
-    // defPlayers already in state from CHOOSE_OFF_PLAY(pass)
-    dispatch({ type: 'CHOOSE_WR', wr, opponentDefCall, offPlayers })
+    const offPlayers: (Player | TeamUnit)[] = runner === 'QB'
+      ? [userRoster.QB, userRoster.OLine].filter(Boolean) as (Player | TeamUnit)[]
+      : getOffensePlayers(userRoster, 'run', 'WR1')
+    const defPlayers = getDefensePlayers(oppRoster, 'run')
+    dispatch({ type: 'CHOOSE_RUNNER', runner, opponentDefCall, offPlayers, defPlayers })
+  }
+
+  function handleReceiverChoice(slot: 'WR1' | 'WR2' | 'RB') {
+    const opponentDefCall = randomDefCall()
+    if (slot === 'RB') {
+      // RB acts as receiver — [QB, OLine, RB]
+      const offPlayers = [userRoster.QB, userRoster.OLine, userRoster.RB].filter(Boolean) as (Player | TeamUnit)[]
+      dispatch({ type: 'CHOOSE_WR', wr: 'RB', opponentDefCall, offPlayers })
+    } else {
+      const offPlayers = getOffensePlayers(userRoster, 'pass', slot)
+      // defPlayers already in state from CHOOSE_OFF_PLAY(pass)
+      dispatch({ type: 'CHOOSE_WR', wr: slot, opponentDefCall, offPlayers })
+    }
   }
 
   function handleDefPlay(call: 'run-stop' | 'pass-stop') {
@@ -1241,14 +1283,14 @@ export function GameScreen() {
 
         {state.phase === 'choose-wr' && (
           <div className="flex flex-col items-center gap-4 py-8">
-            <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your wide receiver</p>
+            <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your receiver</p>
             <div className="grid grid-cols-2 gap-4 w-full max-w-lg px-6">
               {(['WR1', 'WR2'] as const).map(slot => {
                 const wr = userRoster[slot]
                 return (
                   <button
                     key={slot}
-                    onClick={() => handleWRChoice(slot)}
+                    onClick={() => handleReceiverChoice(slot)}
                     className="text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-xl"
                   >
                     {wr ? (
@@ -1261,6 +1303,46 @@ export function GameScreen() {
                   </button>
                 )
               })}
+              {userRoster.RB?.ability === 'dual-threat-rb' && (
+                <button
+                  onClick={() => handleReceiverChoice('RB')}
+                  className="text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-xl"
+                >
+                  <PlayerRollCard player={userRoster.RB} roll={null} isNext={false} />
+                </button>
+              )}
+            </div>
+            <button
+              onClick={() => dispatch({ type: 'BACK_TO_PLAY_CHOICE' })}
+              className="text-xs text-gray-500 hover:text-gray-300 transition-colors mt-1"
+            >
+              ← Back
+            </button>
+          </div>
+        )}
+
+        {state.phase === 'choose-runner' && (
+          <div className="flex flex-col items-center gap-4 py-8">
+            <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your runner</p>
+            <div className="grid grid-cols-2 gap-4 w-full max-w-lg px-6">
+              {([
+                { slot: 'QB' as const, player: userRoster.QB },
+                { slot: 'RB' as const, player: userRoster.RB },
+              ]).map(({ slot, player }) => (
+                <button
+                  key={slot}
+                  onClick={() => handleRunnerChoice(slot)}
+                  className="text-left focus:outline-none focus:ring-2 focus:ring-indigo-500 rounded-xl"
+                >
+                  {player ? (
+                    <PlayerRollCard player={player} roll={null} isNext={false} />
+                  ) : (
+                    <div className="border-2 border-dashed border-gray-700 rounded-xl p-6 text-center text-gray-500 text-sm">
+                      {slot} — Empty
+                    </div>
+                  )}
+                </button>
+              ))}
             </div>
             <button
               onClick={() => dispatch({ type: 'BACK_TO_PLAY_CHOICE' })}
@@ -1305,7 +1387,7 @@ export function GameScreen() {
         )}
 
         {/* Play area (shown during rolling and result phases) */}
-        {!['choose-offense', 'choose-wr', 'choose-defense', 'fourth-down-choice', 'game-over'].includes(state.phase) && (
+        {!['choose-offense', 'choose-wr', 'choose-runner', 'choose-defense', 'fourth-down-choice', 'game-over'].includes(state.phase) && (
           <PlayArea
             possession={state.possession}
             phase={state.phase}
