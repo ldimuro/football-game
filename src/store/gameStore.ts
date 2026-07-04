@@ -237,7 +237,7 @@ export const useGameStore = create<GameStore>((set, get) => ({
         increment = allGameRolls.filter(r => r === slot.abilityTarget).length
       }
       if (increment > 0) {
-        updatedRoster[pos] = { ...slot, abilityCounter: (slot.abilityCounter ?? 0) + increment } as typeof slot
+        updatedRoster[pos] = { ...slot, abilityCounter: (slot.abilityCounter ?? 0) + increment } as never
       }
     }
 

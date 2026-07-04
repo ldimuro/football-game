@@ -350,7 +350,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     }
 
     case 'CHOOSE_RUNNER': {
-      const { runner, opponentDefCall, offPlayers, defPlayers } = action
+      const { opponentDefCall, offPlayers, defPlayers } = action
       return {
         ...state,
         offensePlayCall: 'run',
