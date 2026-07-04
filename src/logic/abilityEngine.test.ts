@@ -252,6 +252,74 @@ describe('warming-up', () => {
   })
 })
 
+describe('patience abilities', () => {
+  const makeCtx = (down: number, downHistory: { playCall: 'run' | 'pass'; yardsGained: number }[]): AbilityContext => ({
+    quarter: 2, driveIndex: 2, possession: 'user', playerSide: 'offense',
+    playerTeamIsLosing: false, isLastTeamDrive: false, driveProgress: 50,
+    rzYard: 80, down, playCall: down === 4 ? 'run' : 'run', weather: 'Clear',
+    ownPlayHistory: [], oppPlayHistory: [], ownRunsThisDrive: 0,
+    wrYacActive: false, olineRoll: null, opponentWRRating: undefined,
+    allOffRolls: [], allDefRolls: [],
+    downHistory,
+    feedTheBeastBonus: 0, abilityCounter: 0,
+  })
+  const allRuns = [
+    { playCall: 'run' as const, yardsGained: 2 },
+    { playCall: 'run' as const, yardsGained: 3 },
+    { playCall: 'run' as const, yardsGained: 1 },
+  ]
+  const allPasses = [
+    { playCall: 'pass' as const, yardsGained: 5 },
+    { playCall: 'pass' as const, yardsGained: 7 },
+    { playCall: 'pass' as const, yardsGained: 3 },
+  ]
+
+  it('patience-qb: returns 15 on 4th down when prior 3 downs were all runs', () => {
+    expect(computeRollBonus('patience-qb', 8, makeCtx(4, allRuns))).toBe(15)
+  })
+  it('patience-qb: returns 0 when not on 4th down', () => {
+    expect(computeRollBonus('patience-qb', 8, makeCtx(3, allRuns.slice(0, 2)))).toBe(0)
+  })
+  it('patience-qb: returns 0 when prior downs include a pass', () => {
+    const mixed = [allRuns[0], allPasses[0], allRuns[1]]
+    expect(computeRollBonus('patience-qb', 8, makeCtx(4, mixed))).toBe(0)
+  })
+  it('patience-rb: returns 15 on 4th down when prior 3 downs were all passes', () => {
+    expect(computeRollBonus('patience-rb', 8, makeCtx(4, allPasses))).toBe(15)
+  })
+  it('patience-rb: returns 0 when prior downs include a run', () => {
+    const mixed = [allPasses[0], allRuns[0], allPasses[1]]
+    expect(computeRollBonus('patience-rb', 8, makeCtx(4, mixed))).toBe(0)
+  })
+  it('patience-wr: returns 10 on 4th down when prior 3 downs were all runs', () => {
+    expect(computeRollBonus('patience-wr', 8, makeCtx(4, allRuns))).toBe(10)
+  })
+  it('patience-wr: returns 0 on 4th down when prior downs were not all runs', () => {
+    expect(computeRollBonus('patience-wr', 8, makeCtx(4, allPasses))).toBe(0)
+  })
+})
+
+describe('feed-the-beast', () => {
+  const makeCtx = (ftbBonus: number): AbilityContext => ({
+    quarter: 2, driveIndex: 4, possession: 'user', playerSide: 'offense',
+    playerTeamIsLosing: false, isLastTeamDrive: false, driveProgress: 50,
+    rzYard: 80, down: 2, playCall: 'run', weather: 'Clear',
+    ownPlayHistory: [], oppPlayHistory: [], ownRunsThisDrive: 3,
+    wrYacActive: false, olineRoll: null, opponentWRRating: undefined,
+    allOffRolls: [], allDefRolls: [], downHistory: [],
+    feedTheBeastBonus: ftbBonus, abilityCounter: 0,
+  })
+  it('returns 0 when no FTB bonus accumulated', () => {
+    expect(computeRollBonus('feed-the-beast-rb', 8, makeCtx(0))).toBe(0)
+  })
+  it('returns the accumulated bonus (+5 per qualifying drive)', () => {
+    expect(computeRollBonus('feed-the-beast-rb', 8, makeCtx(10))).toBe(10)
+  })
+  it('feed-the-beast-wr returns the same bonus', () => {
+    expect(computeRollBonus('feed-the-beast-wr', 8, makeCtx(15))).toBe(15)
+  })
+})
+
 describe('elevate', () => {
   const baseCtx: AbilityContext = {
     quarter: 2, driveIndex: 2, possession: 'user', playerSide: 'offense',

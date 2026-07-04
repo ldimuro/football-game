@@ -28,6 +28,21 @@ function isPlayer(p: Player | TeamUnit): p is Player {
   return 'name' in p
 }
 
+function checkFeedTheBeastTrigger(
+  totalRuns: number,
+  totalPasses: number,
+  wr1Plays: number,
+  wr2Plays: number,
+): { rbTrigger: boolean; wr1Trigger: boolean; wr2Trigger: boolean } {
+  const total = totalRuns + totalPasses
+  if (total < 4) return { rbTrigger: false, wr1Trigger: false, wr2Trigger: false }
+  return {
+    rbTrigger: totalPasses === 0,
+    wr1Trigger: totalRuns === 0 && wr1Plays === total,
+    wr2Trigger: totalRuns === 0 && wr2Plays === total,
+  }
+}
+
 // ─── Internal types ────────────────────────────────────────────────────────────
 
 type PlayPhase =
@@ -80,6 +95,11 @@ interface GameState {
   currentDriveNegativePlays: number
   userPassPlaysThisDrive: number
   opponentPassPlaysThisDrive: number
+  userFeedTheBeast: { RB: number; WR1: number; WR2: number }
+  opponentFeedTheBeast: { RB: number; WR1: number; WR2: number }
+  userDriveWR1Plays: number
+  userDriveWR2Plays: number
+  opponentDriveWR1Plays: number
   userTurnoverNumbers: number[]
   opponentTurnoverNumbers: number[]
   tdPoints: number
@@ -157,6 +177,9 @@ function driveReset(): Partial<GameState> {
     currentDriveNegativePlays: 0,
     userPassPlaysThisDrive: 0,
     opponentPassPlaysThisDrive: 0,
+    userDriveWR1Plays: 0,
+    userDriveWR2Plays: 0,
+    opponentDriveWR1Plays: 0,
     turnoverYardLine: null,
   }
 }
@@ -357,10 +380,25 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
           : false
         const offAbilityCounter = offPlayer.abilityCounter ?? 0
+        // Look up FTB bonus for this specific player
+        let offFtbBonus = 0
+        if (state.possession === 'user') {
+          if (isPlayer(offPlayer) && offPlayer.ability === 'feed-the-beast-rb' && offPlayer.position === 'RB') {
+            offFtbBonus = state.userFeedTheBeast.RB
+          } else if (isPlayer(offPlayer) && offPlayer.ability === 'feed-the-beast-wr' && offPlayer.position === 'WR') {
+            offFtbBonus = state.selectedWR === 'WR1' ? state.userFeedTheBeast.WR1 : state.userFeedTheBeast.WR2
+          }
+        } else {
+          if (isPlayer(offPlayer) && offPlayer.ability === 'feed-the-beast-rb' && offPlayer.position === 'RB') {
+            offFtbBonus = state.opponentFeedTheBeast.RB
+          } else if (isPlayer(offPlayer) && offPlayer.ability === 'feed-the-beast-wr' && offPlayer.position === 'WR') {
+            offFtbBonus = state.opponentFeedTheBeast.WR1
+          }
+        }
         const ctx = {
           ...buildAbilityContext('offense', state, newOffRolls, newDefRolls),
           wrYacActive,
-          feedTheBeastBonus: 0,
+          feedTheBeastBonus: offFtbBonus,
           abilityCounter: offAbilityCounter,
         }
         newOffBonuses[offIndex] = computeRollBonus(offPlayer.ability, offValue, ctx)
@@ -496,6 +534,12 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         ? state.userPassPlaysThisDrive + 1 : state.userPassPlaysThisDrive
       const newOppPassPlays = state.possession === 'opponent' && state.offensePlayCall === 'pass'
         ? state.opponentPassPlaysThisDrive + 1 : state.opponentPassPlaysThisDrive
+      const newUserDriveWR1Plays = state.possession === 'user' && state.offensePlayCall === 'pass' && state.selectedWR === 'WR1'
+        ? state.userDriveWR1Plays + 1 : state.userDriveWR1Plays
+      const newUserDriveWR2Plays = state.possession === 'user' && state.offensePlayCall === 'pass' && state.selectedWR === 'WR2'
+        ? state.userDriveWR2Plays + 1 : state.userDriveWR2Plays
+      const newOpponentDriveWR1Plays = state.possession === 'opponent' && state.offensePlayCall === 'pass'
+        ? state.opponentDriveWR1Plays + 1 : state.opponentDriveWR1Plays
 
       const rawProgress = state.driveProgress + state.yardsGained
 
@@ -509,6 +553,15 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           2,
           { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays + 1 },
         )
+        let newUserFeedTheBeast = state.userFeedTheBeast
+        let newOpponentFeedTheBeast = state.opponentFeedTheBeast
+        if (state.possession === 'user') {
+          const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newUserRunsThisDrive, newUserPassPlays, newUserDriveWR1Plays, newUserDriveWR2Plays)
+          newUserFeedTheBeast = { RB: state.userFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.userFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.userFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+        } else {
+          const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newOppRunsThisDrive, newOppPassPlays, newOpponentDriveWR1Plays, 0)
+          newOpponentFeedTheBeast = { RB: state.opponentFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.opponentFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.opponentFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+        }
         return {
           ...state,
           yardsGained: null,
@@ -520,6 +573,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           nextDriveStartYard: STARTING_YARD_LINE,
           userPlayHistory: newUserPlayHistory,
           opponentPlayHistory: newOppPlayHistory,
+          userFeedTheBeast: newUserFeedTheBeast,
+          opponentFeedTheBeast: newOpponentFeedTheBeast,
           phase: 'drive-end',
         }
       }
@@ -547,6 +602,15 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           state.tdPoints,
           { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays, scoringPlayerName, scoringPlayerPos },
         )
+        let newUserFeedTheBeastTD = state.userFeedTheBeast
+        let newOpponentFeedTheBeastTD = state.opponentFeedTheBeast
+        if (state.possession === 'user') {
+          const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newUserRunsThisDrive, newUserPassPlays, newUserDriveWR1Plays, newUserDriveWR2Plays)
+          newUserFeedTheBeastTD = { RB: state.userFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.userFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.userFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+        } else {
+          const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newOppRunsThisDrive, newOppPassPlays, newOpponentDriveWR1Plays, 0)
+          newOpponentFeedTheBeastTD = { RB: state.opponentFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.opponentFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.opponentFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+        }
         return {
           ...state,
           yardsGained: null,
@@ -559,6 +623,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           opponentPlayHistory: newOppPlayHistory,
           userRunsThisDrive: newUserRunsThisDrive,
           opponentRunsThisDrive: newOppRunsThisDrive,
+          userFeedTheBeast: newUserFeedTheBeastTD,
+          opponentFeedTheBeast: newOpponentFeedTheBeastTD,
           phase: 'drive-end',
         }
       }
@@ -574,6 +640,15 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             0,
             { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays },
           )
+          let newUserFeedTheBeastTOD = state.userFeedTheBeast
+          let newOpponentFeedTheBeastTOD = state.opponentFeedTheBeast
+          if (state.possession === 'user') {
+            const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newUserRunsThisDrive, newUserPassPlays, newUserDriveWR1Plays, newUserDriveWR2Plays)
+            newUserFeedTheBeastTOD = { RB: state.userFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.userFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.userFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+          } else {
+            const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(newOppRunsThisDrive, newOppPassPlays, newOpponentDriveWR1Plays, 0)
+            newOpponentFeedTheBeastTOD = { RB: state.opponentFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.opponentFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.opponentFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+          }
           return {
             ...state,
             yardsGained: null,
@@ -583,6 +658,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             driveOutcome: 'TurnoverOnDowns',
             userPlayHistory: newUserPlayHistory,
             opponentPlayHistory: newOppPlayHistory,
+            userFeedTheBeast: newUserFeedTheBeastTOD,
+            opponentFeedTheBeast: newOpponentFeedTheBeastTOD,
             phase: 'drive-end',
           }
         }
@@ -604,6 +681,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             opponentPlayHistory: newOppPlayHistory,
             userRunsThisDrive: newUserRunsThisDrive,
             opponentRunsThisDrive: newOppRunsThisDrive,
+            userDriveWR1Plays: newUserDriveWR1Plays,
+            userDriveWR2Plays: newUserDriveWR2Plays,
+            opponentDriveWR1Plays: newOpponentDriveWR1Plays,
             phase: 'fourth-down-choice',
           }
         }
@@ -629,6 +709,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             currentDriveNegativePlays: newNegativePlays,
             userPassPlaysThisDrive: newUserPassPlays,
             opponentPassPlaysThisDrive: newOppPassPlays,
+            userDriveWR1Plays: newUserDriveWR1Plays,
+            userDriveWR2Plays: newUserDriveWR2Plays,
+            opponentDriveWR1Plays: newOpponentDriveWR1Plays,
             phase: 'fg-roll',
           }
         }
@@ -640,6 +723,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           0,
           { yards: newDriveYards, passYards: newDrivePassYards, rushYards: newDriveRushYards, runPlays, passPlays, negativePlays: newNegativePlays },
         )
+        const { rbTrigger: oppPuntRB, wr1Trigger: oppPuntWR1, wr2Trigger: oppPuntWR2 } = checkFeedTheBeastTrigger(newOppRunsThisDrive, newOppPassPlays, newOpponentDriveWR1Plays, 0)
+        const newOpponentFeedTheBeastPunt = { RB: state.opponentFeedTheBeast.RB + (oppPuntRB ? 5 : 0), WR1: state.opponentFeedTheBeast.WR1 + (oppPuntWR1 ? 5 : 0), WR2: state.opponentFeedTheBeast.WR2 + (oppPuntWR2 ? 5 : 0) }
         return {
           ...state,
           yardsGained: null,
@@ -653,6 +738,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           opponentPlayHistory: newOppPlayHistory,
           userRunsThisDrive: newUserRunsThisDrive,
           opponentRunsThisDrive: newOppRunsThisDrive,
+          opponentFeedTheBeast: newOpponentFeedTheBeastPunt,
           phase: 'drive-end',
         }
       }
@@ -678,6 +764,9 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         currentDriveNegativePlays: newNegativePlays,
         userPassPlaysThisDrive: newUserPassPlays,
         opponentPassPlaysThisDrive: newOppPassPlays,
+        userDriveWR1Plays: newUserDriveWR1Plays,
+        userDriveWR2Plays: newUserDriveWR2Plays,
+        opponentDriveWR1Plays: newOpponentDriveWR1Plays,
         phase: nextPhase,
       }
     }
@@ -722,6 +811,16 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         made ? effectivePts : 0,
         { yards: state.currentDriveYards, passYards: state.currentDrivePassYards, rushYards: state.currentDriveRushYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays, fgRoll: value, fgDifficulty: state.fgDifficulty },
       )
+      // FTB check at FG drive-end (made or missed)
+      let newUserFeedTheBeastFG = state.userFeedTheBeast
+      let newOpponentFeedTheBeastFG = state.opponentFeedTheBeast
+      if (state.possession === 'user') {
+        const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(state.userRunsThisDrive, state.userPassPlaysThisDrive, state.userDriveWR1Plays, state.userDriveWR2Plays)
+        newUserFeedTheBeastFG = { RB: state.userFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.userFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.userFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+      } else {
+        const { rbTrigger, wr1Trigger, wr2Trigger } = checkFeedTheBeastTrigger(state.opponentRunsThisDrive, state.opponentPassPlaysThisDrive, state.opponentDriveWR1Plays, 0)
+        newOpponentFeedTheBeastFG = { RB: state.opponentFeedTheBeast.RB + (rbTrigger ? 5 : 0), WR1: state.opponentFeedTheBeast.WR1 + (wr1Trigger ? 5 : 0), WR2: state.opponentFeedTheBeast.WR2 + (wr2Trigger ? 5 : 0) }
+      }
       return {
         ...state,
         fgRoll: value,
@@ -730,6 +829,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + effectivePts : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
         allGameRolls: [...state.allGameRolls, action.value],
+        userFeedTheBeast: newUserFeedTheBeastFG,
+        opponentFeedTheBeast: newOpponentFeedTheBeastFG,
         phase: 'fg-result',
       }
     }
@@ -778,11 +879,21 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         passPlays,
         negativePlays: state.currentDriveNegativePlays,
       })
+      // FTB check — FOURTH_DOWN_PUNT is always user possession
+      const { rbTrigger: puntRB, wr1Trigger: puntWR1, wr2Trigger: puntWR2 } = checkFeedTheBeastTrigger(
+        state.userRunsThisDrive, state.userPassPlaysThisDrive, state.userDriveWR1Plays, state.userDriveWR2Plays,
+      )
+      const newUserFeedTheBeastPunt = {
+        RB:  state.userFeedTheBeast.RB  + (puntRB  ? 5 : 0),
+        WR1: state.userFeedTheBeast.WR1 + (puntWR1 ? 5 : 0),
+        WR2: state.userFeedTheBeast.WR2 + (puntWR2 ? 5 : 0),
+      }
       return {
         ...state,
         driveHistory: [...state.driveHistory, driveResult],
         driveOutcome: 'Punt',
         nextDriveStartYard: STARTING_YARD_LINE,
+        userFeedTheBeast: newUserFeedTheBeastPunt,
         phase: 'drive-end',
       }
     }
@@ -873,6 +984,11 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     currentDriveNegativePlays: 0,
     userPassPlaysThisDrive: 0,
     opponentPassPlaysThisDrive: 0,
+    userFeedTheBeast: { RB: 0, WR1: 0, WR2: 0 },
+    opponentFeedTheBeast: { RB: 0, WR1: 0, WR2: 0 },
+    userDriveWR1Plays: 0,
+    userDriveWR2Plays: 0,
+    opponentDriveWR1Plays: 0,
   }
 }
 
