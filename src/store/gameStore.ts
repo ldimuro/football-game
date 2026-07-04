@@ -8,6 +8,7 @@ import {
 import { generateWeather } from '../logic/weatherGen'
 import { playerCost, slotCost, abilityCost } from '../logic/playerValue'
 import { CAP_SPACE } from '../logic/gameConstants'
+import { generateSeed, seedRng, rng } from '../logic/rng'
 import { getRandomRule, getRuleOverrides, getDefaultOverrides } from '../logic/leagueRules'
 import type { LeagueRule } from '../logic/leagueRules'
 import type { ColorScheme } from '../logic/diceGen'
@@ -17,6 +18,7 @@ import type {
 } from '../types'
 
 interface GameStore {
+  seed: string
   phase: GamePhase
   round: number
   roster: Roster
@@ -76,10 +78,10 @@ function coinsForRoster(roster: Roster): number {
 }
 
 function generateTurnoverNumbers(dual: boolean): number[] {
-  const first = Math.ceil(Math.random() * 20)
+  const first = Math.ceil(rng() * 20)
   if (!dual) return [first]
-  let second = Math.ceil(Math.random() * 20)
-  while (second === first) second = Math.ceil(Math.random() * 20)
+  let second = Math.ceil(rng() * 20)
+  while (second === first) second = Math.ceil(rng() * 20)
   return [first, second]
 }
 
@@ -95,6 +97,7 @@ async function buildNextRoundData(remainingCoins: number, activeRule: LeagueRule
 }
 
 export const useGameStore = create<GameStore>((set, get) => ({
+  seed: '',
   phase: 'setup',
   round: 1,
   roster: EMPTY_ROSTER,
@@ -125,12 +128,14 @@ export const useGameStore = create<GameStore>((set, get) => ({
 
   initGame: async () => {
     set({ isLoading: true })
+    const seed = generateSeed()
+    seedRng(seed)
     const roster = await generateRandomRoster()
     const coins = coinsForRoster(roster)
     const activeRule = getRandomRule()
     const { dualTurnoverNumbers } = activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides()
     set({
-      roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
+      seed, roster, phase: 'setup', round: 1, setupRerollsRemaining: 3, seasonLog: [],
       coins, shopOffer: null, shopComplete: false, pendingShopBoughtId: null, isLoading: false,
       abilityShopOffer: null, abilityShopComplete: false,
       activeRule, simulationHistory: [],

@@ -1,3 +1,5 @@
+import { rng } from './rng'
+
 export const DIE_POOLS: Record<string, number[][]> = {
   LEGENDARY: [
     [20, 20, 20, 20, 20, 20],
@@ -60,7 +62,7 @@ function tierForRating(rating: number | undefined): string {
 
 export function assignDie(rating: number | undefined): number[] {
   const pool = DIE_POOLS[tierForRating(rating)]
-  return pool[Math.floor(Math.random() * pool.length)]
+  return pool[Math.floor(rng() * pool.length)]
 }
 
 export type ColorScheme = 'classic' | 'rwg'

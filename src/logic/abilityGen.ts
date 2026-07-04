@@ -1,6 +1,7 @@
 import type { IndividualPosition, UnitPosition, RosterPosition } from '../types'
 import { ENABLED_ABILITIES, ABILITY_RARITY_WEIGHTS, SHOP_SLOTS } from './gameConstants'
 import { ABILITY_RARITY } from './abilityEngine'
+import { rng } from './rng'
 
 export const ABILITY_RATE = 0.4
 
@@ -45,7 +46,7 @@ const ALL_ROSTER_POSITIONS: RosterPosition[] = [
 function weightedPick(pool: string[]): string {
   const weights = pool.map(id => ABILITY_RARITY_WEIGHTS[ABILITY_RARITY[id] ?? 'Common'])
   const total = weights.reduce((s, w) => s + w, 0)
-  let r = Math.random() * total
+  let r = rng() * total
   for (let i = 0; i < pool.length; i++) {
     r -= weights[i]
     if (r <= 0) return pool[i]
@@ -54,7 +55,7 @@ function weightedPick(pool: string[]): string {
 }
 
 export function assignAbility(position: IndividualPosition | UnitPosition): string | undefined {
-  if (Math.random() >= ABILITY_RATE) return undefined
+  if (rng() >= ABILITY_RATE) return undefined
   const posSpecific = POSITION_ABILITY_IDS[position] ?? []
   const pool = [...ALL_ABILITY_IDS, ...posSpecific].filter(id => ENABLED_ABILITIES.has(id))
   if (pool.length === 0) return undefined
@@ -71,7 +72,7 @@ export function forceAssignAbility(position: IndividualPosition | UnitPosition):
 
 /** Returns a random die value (1–20) to track for the Absorb ability. */
 export function generateAbsorbTarget(): number {
-  return Math.floor(Math.random() * 20) + 1
+  return Math.floor(rng() * 20) + 1
 }
 
 /** Returns SHOP_SLOTS unique ability IDs sampled from ENABLED_ABILITIES using rarity weights. */

@@ -1,4 +1,5 @@
 import type { Roster, TeamRatings, DriveResult, DriveOutcome, SimulationResult, QBStats } from '../types'
+import { rng } from './rng'
 
 export function computeTeamRatings(roster: Roster): TeamRatings {
   const qbStats = roster.QB?.stats as QBStats | undefined
@@ -16,7 +17,7 @@ export function computeTeamRatings(roster: Roster): TeamRatings {
 const TEMPERATURE = 20
 
 function noise(range: number): number {
-  return Math.random() * range * 2 - range
+  return rng() * range * 2 - range
 }
 
 function softmax(scores: number[]): number[] {
@@ -26,7 +27,7 @@ function softmax(scores: number[]): number[] {
 }
 
 function sampleOutcome(probs: number[]): number {
-  const r = Math.random()
+  const r = rng()
   let cumulative = 0
   for (let i = 0; i < probs.length; i++) {
     cumulative += probs[i]

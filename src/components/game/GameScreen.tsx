@@ -16,6 +16,7 @@ import {
   FG_ROLL_SCAN_DURATION_MS,
 } from '../../logic/gameConstants'
 import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
+import { rng } from '../../logic/rng'
 import type { RuleOverrides } from '../../logic/leagueRules'
 import { RosterGrid } from '../roster/RosterGrid'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
@@ -143,11 +144,11 @@ type GameAction =
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
 function randomPlayCall(): 'run' | 'pass' {
-  return Math.random() < 0.5 ? 'run' : 'pass'
+  return rng() < 0.5 ? 'run' : 'pass'
 }
 
 function randomDefCall(): 'run-stop' | 'pass-stop' {
-  return Math.random() < 0.5 ? 'run-stop' : 'pass-stop'
+  return rng() < 0.5 ? 'run-stop' : 'pass-stop'
 }
 
 function driveReset(): Partial<GameState> {

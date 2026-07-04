@@ -12,10 +12,11 @@ const POSITION_LABELS: Record<RosterPosition, string> = {
 }
 
 function buildSaveJson(store: ReturnType<typeof useGameStore.getState>): string {
-  const { roster, coins, round, activeRule, seasonLog, simulationHistory } = store
+  const { seed, roster, coins, round, activeRule, seasonLog, simulationHistory } = store
   return JSON.stringify(
     {
       savedAt: new Date().toISOString(),
+      seed,
       round,
       coins,
       activeRule,

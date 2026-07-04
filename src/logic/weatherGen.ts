@@ -1,4 +1,5 @@
 import type { WeatherCondition } from '../types'
+import { rng } from './rng'
 
 const WEATHER_WEIGHTS: [WeatherCondition, number][] = [
   ['Clear', 50],
@@ -11,7 +12,7 @@ const WEATHER_WEIGHTS: [WeatherCondition, number][] = [
 const TOTAL_WEIGHT = WEATHER_WEIGHTS.reduce((sum, [, w]) => sum + w, 0)
 
 export function generateWeather(): WeatherCondition {
-  let rand = Math.random() * TOTAL_WEIGHT
+  let rand = rng() * TOTAL_WEIGHT
   for (const [condition, weight] of WEATHER_WEIGHTS) {
     rand -= weight
     if (rand <= 0) return condition

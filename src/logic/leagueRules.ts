@@ -1,4 +1,5 @@
 import { ENABLED_LEAGUE_RULES } from './gameConstants'
+import { rng } from './rng'
 
 export interface LeagueRule {
   id: string
@@ -68,5 +69,5 @@ export function getRuleOverrides(rule: LeagueRule): RuleOverrides {
 export function getRandomRule(): LeagueRule | null {
   const pool = LEAGUE_RULES.filter(r => ENABLED_LEAGUE_RULES.has(r.id))
   if (pool.length === 0) return null
-  return pool[Math.floor(Math.random() * pool.length)]
+  return pool[Math.floor(rng() * pool.length)]
 }

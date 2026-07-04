@@ -1,4 +1,5 @@
 import { loadTeamMeta, loadTeamRoster, loadTeamStats } from './dataLoader'
+import { rng } from './rng'
 import { selectTopRoster } from './rosterGen'
 import { assignDie } from './diceGen'
 import { assignAbility } from './abilityGen'
@@ -12,7 +13,7 @@ async function getMeta(): Promise<TeamMeta[]> {
 }
 
 function pickRandom<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)]
+  return arr[Math.floor(rng() * arr.length)]
 }
 
 export async function generateDraftOffer(): Promise<DraftOffer> {

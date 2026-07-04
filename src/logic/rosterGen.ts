@@ -1,4 +1,5 @@
 import { loadTeamMeta, loadTeamRoster } from './dataLoader'
+import { rng } from './rng'
 import { playerCost } from './playerValue'
 import { createPracticeSquadPlayer, createPracticeSquadUnit } from './practiceSquad'
 import { assignDie } from './diceGen'
@@ -23,7 +24,7 @@ async function getMeta(): Promise<TeamMeta[]> {
 }
 
 function pickRandom<T>(arr: T[]): T {
-  return arr[Math.floor(Math.random() * arr.length)]
+  return arr[Math.floor(rng() * arr.length)]
 }
 
 function withAbsorbTarget<T extends Player | TeamUnit>(player: T): T {
@@ -99,7 +100,7 @@ async function generateSlotInTier(
 }
 
 export async function generateRandomRoster(): Promise<Roster> {
-  const shuffled = [...ALL_ROSTER_POSITIONS].sort(() => Math.random() - 0.5)
+  const shuffled = [...ALL_ROSTER_POSITIONS].sort(() => rng() - 0.5)
   const generatedPositions = shuffled.slice(0, GENERATED_SLOT_COUNT)
   const practiceSquadPositions = shuffled.slice(GENERATED_SLOT_COUNT)
 
@@ -122,7 +123,7 @@ export async function generateRandomRoster(): Promise<Roster> {
       [SETUP_GREAT_MIN_RATING, SETUP_GREAT_MAX_RATING],
       [SETUP_ELITE_MIN_RATING, 99],
     ] as [number, number][]
-  ).sort(() => Math.random() - 0.5)
+  ).sort(() => rng() - 0.5)
 
   const generatedSlots: (Player | TeamUnit)[] = []
   for (let i = 0; i < generatedPositions.length; i++) {
@@ -133,9 +134,9 @@ export async function generateRandomRoster(): Promise<Roster> {
   }
 
   // Guarantee 1–2 of the 3 starting players have an ability
-  const abilityCount = SETUP_ABILITY_MIN + Math.floor(Math.random() * (SETUP_ABILITY_MAX - SETUP_ABILITY_MIN + 1))
+  const abilityCount = SETUP_ABILITY_MIN + Math.floor(rng() * (SETUP_ABILITY_MAX - SETUP_ABILITY_MIN + 1))
   const abilityIndices = [...Array(generatedPositions.length).keys()]
-    .sort(() => Math.random() - 0.5)
+    .sort(() => rng() - 0.5)
     .slice(0, abilityCount)
   for (const idx of abilityIndices) {
     const pos = generatedPositions[idx]
@@ -160,7 +161,7 @@ const SHOP_POSITION_POOL: RosterPosition[] = [
 ]
 
 export async function generateShopOffer(remainingCoins: number): Promise<(Player | TeamUnit)[]> {
-  const shuffled = [...SHOP_POSITION_POOL].sort(() => Math.random() - 0.5)
+  const shuffled = [...SHOP_POSITION_POOL].sort(() => rng() - 0.5)
   const positions = shuffled.slice(0, SHOP_SLOTS)
   const offer: (Player | TeamUnit)[] = []
 

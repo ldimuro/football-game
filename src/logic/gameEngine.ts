@@ -1,5 +1,6 @@
 // src/logic/gameEngine.ts
 import type { Roster, Player, TeamUnit } from '../types'
+import { rng } from './rng'
 import {
   ADVANTAGE_BONUS,
   FG_RANGE_YARD,
@@ -16,7 +17,7 @@ export function getPlayerDie(player: Player | TeamUnit): number[] {
 
 export function rollDie(die: number[]): number {
   if (die.length === 0) return FALLBACK_DIE[0]
-  return die[Math.floor(Math.random() * die.length)]
+  return die[Math.floor(rng() * die.length)]
 }
 
 export function computeAdvantageBonus(
