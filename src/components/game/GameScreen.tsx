@@ -86,6 +86,11 @@ interface GameState {
   fgPoints: number
   tdYard: number
   fgRangeYard: number
+  userFgRangeYard: number
+  opponentFgRangeYard: number
+  activeFgPoints: number | null  // overrides fgPoints for the current FG kick; null = use fgPoints
+  userKickerAbility: string | undefined
+  opponentKickerAbility: string | undefined
   rzYard: number
   maxDowns: number
   noPuntingRule: boolean
@@ -106,7 +111,7 @@ type GameAction =
   | { type: 'FG_ROLL_START'; value: number }
   | { type: 'FG_ROLL'; value: number }
   | { type: 'ADVANCE_DRIVE'; nextOpponentPlayCall: 'run' | 'pass' }
-  | { type: 'KICK_FG' }
+  | { type: 'KICK_FG'; effectiveFgRangeYard: number; effectiveFgPoints: number }
   | { type: 'FOURTH_DOWN_GO_FOR_IT' }
   | { type: 'FOURTH_DOWN_PUNT' }
   | { type: 'BACK_TO_PLAY_CHOICE' }
@@ -138,6 +143,7 @@ function driveReset(): Partial<GameState> {
     fgRoll: null,
     fgDifficulty: null,
     driveOutcome: null,
+    activeFgPoints: null,
     userRunsThisDrive: 0,
     opponentRunsThisDrive: 0,
     wr1YacActive: false,
@@ -573,13 +579,17 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           }
         }
         // Opponent: auto-FG if in range, otherwise auto-punt
-        if (newProgress >= state.fgRangeYard) {
+        if (newProgress >= state.opponentFgRangeYard) {
+          const inRZ = newProgress >= state.rzYard
+          const activeFgPoints = (state.opponentKickerAbility === 'money-ball' && inRZ)
+            ? 5 : state.fgPoints
           // Flush accumulated stats into state so FG_ROLL can read them
           return {
             ...state,
             yardsGained: null,
             driveProgress: newProgress,
-            fgDifficulty: computeFGDifficulty(newProgress, state.fgRangeYard, state.tdYard),
+            fgDifficulty: computeFGDifficulty(newProgress, state.opponentFgRangeYard, state.tdYard),
+            activeFgPoints,
             userPlayHistory: newUserPlayHistory,
             opponentPlayHistory: newOppPlayHistory,
             userRunsThisDrive: newUserRunsThisDrive,
@@ -675,18 +685,19 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
 
       const made = value >= state.fgDifficulty
+      const effectivePts = state.activeFgPoints ?? state.fgPoints
       const driveResult = buildDriveResult(
         state,
         made ? 'FG' : 'FG-missed',
-        made ? state.fgPoints : 0,
+        made ? effectivePts : 0,
         { yards: state.currentDriveYards, passYards: state.currentDrivePassYards, rushYards: state.currentDriveRushYards, runPlays, passPlays, negativePlays: state.currentDriveNegativePlays, fgRoll: value, fgDifficulty: state.fgDifficulty },
       )
       return {
         ...state,
         fgRoll: value,
         driveOutcome: made ? 'FG' : 'FG-missed',
-        userScore: (made && state.possession === 'user') ? state.userScore + state.fgPoints : state.userScore,
-        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + state.fgPoints : state.opponentScore,
+        userScore: (made && state.possession === 'user') ? state.userScore + effectivePts : state.userScore,
+        opponentScore: (made && state.possession === 'opponent') ? state.opponentScore + effectivePts : state.opponentScore,
         driveHistory: [...state.driveHistory, driveResult],
         phase: 'fg-result',
       }
@@ -715,7 +726,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
     case 'KICK_FG': {
       return {
         ...state,
-        fgDifficulty: computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard),
+        fgDifficulty: computeFGDifficulty(state.driveProgress, action.effectiveFgRangeYard, state.tdYard),
+        activeFgPoints: action.effectiveFgPoints,
         phase: 'fg-roll',
       }
     }
@@ -764,11 +776,15 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
 // ─── Initial state ─────────────────────────────────────────────────────────────
 
-function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumbers, overrides }: {
+function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumbers, overrides, userFgRangeYard, opponentFgRangeYard, userKickerAbility, opponentKickerAbility }: {
   weather: WeatherCondition
   userTurnoverNumbers: number[]
   opponentTurnoverNumbers: number[]
   overrides: RuleOverrides
+  userFgRangeYard: number
+  opponentFgRangeYard: number
+  userKickerAbility: string | undefined
+  opponentKickerAbility: string | undefined
 }): GameState {
   return {
     driveIndex: 0,
@@ -792,6 +808,7 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     fgRoll: null,
     fgDifficulty: null,
     driveOutcome: null,
+    activeFgPoints: null,
     weather,
     userTurnoverNumbers,
     opponentTurnoverNumbers,
@@ -799,6 +816,10 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     fgPoints: overrides.fgPoints,
     tdYard: overrides.tdYard,
     fgRangeYard: overrides.fgRangeYard,
+    userFgRangeYard,
+    opponentFgRangeYard,
+    userKickerAbility,
+    opponentKickerAbility,
     rzYard: overrides.rzYard,
     maxDowns: overrides.maxDowns,
     noPuntingRule: overrides.noPuntingRule,
@@ -847,13 +868,27 @@ function buildSimulationResult(
 
 export function GameScreen() {
   const { roster, currentOpponentRoster, currentOpponent, recordGameResult, currentWeather, userTurnoverNumbers, opponentTurnoverNumbers, activeRule } = useGameStore()
+  const overrides = activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides()
+  const baseFgRangeYard = overrides.fgRangeYard
+  const userFgRangeYard = roster.K?.ability === 'long-leg'
+    ? baseFgRangeYard - 5 : baseFgRangeYard
+  const computedOppRoster = currentOpponentRoster ?? {
+    QB: null, WR1: null, WR2: null, RB: null,
+    K: null, OLine: null, DLine: null, Secondary: null,
+  }
+  const opponentFgRangeYard = computedOppRoster.K?.ability === 'long-leg'
+    ? baseFgRangeYard - 5 : baseFgRangeYard
   const [state, dispatch] = useReducer(
     gameReducer,
     {
       weather: currentWeather ?? 'Clear',
       userTurnoverNumbers,
       opponentTurnoverNumbers,
-      overrides: activeRule ? getRuleOverrides(activeRule) : getDefaultOverrides(),
+      overrides,
+      userFgRangeYard,
+      opponentFgRangeYard,
+      userKickerAbility: roster.K?.ability,
+      opponentKickerAbility: computedOppRoster.K?.ability,
     },
     makeInitialState,
   )
@@ -874,10 +909,8 @@ export function GameScreen() {
   }, [state.phase, state.userScore, state.opponentScore, state.driveHistory, opponentLabel, recordGameResult])
 
   const userRoster: Roster = roster
-  const oppRoster: Roster = currentOpponentRoster ?? {
-    QB: null, WR1: null, WR2: null, RB: null,
-    K: null, OLine: null, DLine: null, Secondary: null,
-  }
+  const oppRoster: Roster = computedOppRoster
+  const activeFgRangeYard = state.possession === 'user' ? state.userFgRangeYard : state.opponentFgRangeYard
 
   function handleStep() {
     switch (state.phase) {
@@ -947,7 +980,11 @@ export function GameScreen() {
   }
 
   function handleKickFG() {
-    dispatch({ type: 'KICK_FG' })
+    const kicker = state.possession === 'user' ? userRoster.K : oppRoster.K
+    const activeFgRangeYardForKick = state.possession === 'user' ? state.userFgRangeYard : state.opponentFgRangeYard
+    const inRZ = state.driveProgress >= state.rzYard
+    const effectiveFgPoints = (kicker?.ability === 'money-ball' && inRZ) ? 5 : state.fgPoints
+    dispatch({ type: 'KICK_FG', effectiveFgRangeYard: activeFgRangeYardForKick, effectiveFgPoints })
   }
 
   const showStep = ['rolling-pairs', 'show-play-result', 'drive-end', 'fg-result', 'turnover'].includes(state.phase)
@@ -982,7 +1019,7 @@ export function GameScreen() {
         pendingYards={['rolling-pairs', 'show-play-result'].includes(state.phase) ? state.yardsGained : null}
         activeRule={activeRule}
         tdYard={state.tdYard}
-        fgRangeYard={state.fgRangeYard}
+        fgRangeYard={activeFgRangeYard}
         rzYard={state.rzYard}
         downHistory={state.downHistory}
         maxDowns={state.maxDowns}
@@ -1047,8 +1084,8 @@ export function GameScreen() {
             <div className="flex gap-4">
               <Button size="lg" onClick={() => handleOffPlay('run')}>🏃 Run</Button>
               <Button size="lg" onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
-              {state.driveProgress >= state.fgRangeYard && (
-                <Button size="lg" onClick={handleKickFG}>🦵 Kick FG (beat {computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard)})</Button>
+              {state.driveProgress >= activeFgRangeYard && (
+                <Button size="lg" onClick={handleKickFG}>🦵 Kick FG (beat {computeFGDifficulty(state.driveProgress, activeFgRangeYard, state.tdYard)})</Button>
               )}
             </div>
           </div>
@@ -1110,9 +1147,9 @@ export function GameScreen() {
                   📤 Punt
                 </Button>
               )}
-              {state.driveProgress >= state.fgRangeYard && (
+              {state.driveProgress >= activeFgRangeYard && (
                 <Button size="lg" variant="secondary" onClick={handleKickFG}>
-                  🦵 Attempt FG (beat {computeFGDifficulty(state.driveProgress, state.fgRangeYard, state.tdYard)})
+                  🦵 Attempt FG (beat {computeFGDifficulty(state.driveProgress, activeFgRangeYard, state.tdYard)})
                 </Button>
               )}
             </div>
