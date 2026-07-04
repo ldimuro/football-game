@@ -402,7 +402,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         const wrYacActive = isWR
           ? (state.selectedWR === 'WR1' ? state.wr1YacActive : state.wr2YacActive)
           : false
-        const offAbilityCounter = offPlayer.abilityCounter ?? 0
+        const offAbilityCounter = (offPlayer.abilityCounter ?? 0) +
+          (offPlayer.ability === 'absorb' && state.possession === 'user' ? state.userAbsorbHits : 0)
         // Look up FTB bonus for this specific player
         let offFtbBonus = 0
         if (state.possession === 'user') {
@@ -440,7 +441,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       if (defIndex !== null && defValue !== null) {
         const defPlayer = state.defPlayers[defIndex]
         if (defPlayer.ability && !isPostRollAbility(defPlayer.ability)) {
-          const defAbilityCounter = defPlayer.abilityCounter ?? 0
+          const defAbilityCounter = (defPlayer.abilityCounter ?? 0) +
+            (defPlayer.ability === 'absorb' && state.possession === 'opponent' ? state.userAbsorbHits : 0)
           const defCtx = {
             ...buildAbilityContext('defense', state, newOffRolls, newDefRolls),
             wrYacActive: false,
