@@ -241,6 +241,9 @@ function buildAbilityContext(
     opponentWRRating: wrPlayer?.rating,
     allOffRolls,
     allDefRolls,
+    downHistory: state.downHistory,
+    feedTheBeastBonus: 0,   // overridden per-player in ROLL_PAIR (Task 4)
+    abilityCounter: 0,      // overridden per-player in ROLL_PAIR (Task 3)
   }
 }
 

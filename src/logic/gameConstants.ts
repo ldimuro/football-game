@@ -127,6 +127,26 @@ export const ENABLED_ABILITIES = new Set([
   // Secondary
   'on-an-island',
   'no-fly-zone',
+  // General (new)
+  'warming-up',
+  'elevate',
+  'absorb',
+  // QB (new)
+  'patience-qb',
+  'td-merchant',
+  'dual-threat-qb',
+  // RB (new)
+  'patience-rb',
+  'feed-the-beast-rb',
+  'dual-threat-rb',
+  // WR (new)
+  'patience-wr',
+  'feed-the-beast-wr',
+  // K (new)
+  'long-leg',
+  'money-ball',
+  // DLine / Secondary (new)
+  'to-merchant',
 ])
 
 // ─── FG scan animation ────────────────────────────────────────────────────────

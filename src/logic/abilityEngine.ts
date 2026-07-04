@@ -31,6 +31,20 @@ export const ABILITY_RARITY: Record<string, AbilityRarity> = {
   'goal-line':         'Common',
   'basketball-player': 'Common',
   'yac':               'Common',
+  'warming-up':        'Common',
+  'elevate':           'Common',
+  'long-leg':          'Common',
+  'money-ball':        'Common',
+  'absorb':            'Common',
+  'td-merchant':       'Common',
+  'to-merchant':       'Common',
+  'patience-qb':       'Common',
+  'patience-rb':       'Common',
+  'patience-wr':       'Common',
+  'feed-the-beast-rb': 'Common',
+  'feed-the-beast-wr': 'Common',
+  'dual-threat-qb':    'Common',
+  'dual-threat-rb':    'Common',
 }
 
 export interface AbilityContext {
@@ -53,6 +67,9 @@ export interface AbilityContext {
   opponentWRRating: number | undefined
   allOffRolls: (number | null)[]
   allDefRolls: (number | null)[]
+  downHistory: { playCall: 'run' | 'pass'; yardsGained: number }[]
+  feedTheBeastBonus: number
+  abilityCounter: number
 }
 
 export const ABILITY_DESCRIPTIONS: Record<string, string> = {
@@ -84,6 +101,20 @@ export const ABILITY_DESCRIPTIONS: Record<string, string> = {
   'goal-line':         '+5 when in the red zone',
   'basketball-player': '+5 when in the red zone',
   'yac':               '+5 on every roll this drive after scoring 12+ on any roll',
+  'warming-up':        '−3 in the 1st Half; +10 in the 2nd Half',
+  'elevate':           '+5 if any opponent rolls 15+ (raw die) during the play',
+  'long-leg':          'FG range extended by 5 yards',
+  'money-ball':        'FGs scored from the Red Zone are worth 5 points',
+  'absorb':            '+1 for each time your target value is rolled across the season',
+  'td-merchant':       '+1 for every offensive TD your team scores in the season',
+  'to-merchant':       '+1 for every defensive turnover your team forces in the season',
+  'patience-qb':       '+15 on 4th Down if the first 3 downs of the drive were run plays',
+  'patience-rb':       '+15 on 4th Down if the first 3 downs of the drive were pass plays',
+  'patience-wr':       '+10 on 4th Down if the first 3 downs of the drive were run plays',
+  'feed-the-beast-rb': '+5 (stacking) for each drive where the RB played every down; bonus persists for the game',
+  'feed-the-beast-wr': '+5 (stacking) for each drive where this WR played every down; bonus persists for the game',
+  'dual-threat-qb':    'QB can be selected in place of the RB on Run plays',
+  'dual-threat-rb':    'RB can be selected in place of a WR on Pass plays',
 }
 
 export const ABILITY_DISPLAY: Record<string, string> = {
@@ -115,9 +146,23 @@ export const ABILITY_DISPLAY: Record<string, string> = {
   'goal-line':         '🏈 Goal Line',
   'basketball-player': '🏀 Basketball Player',
   'yac':               '🏈 YAC',
+  'warming-up':        '🔥 Warming Up',
+  'elevate':           '⬆️ Elevate',
+  'long-leg':          '🦵 Long Leg',
+  'money-ball':        '💰 Money Ball',
+  'absorb':            '🧽 Absorb',
+  'td-merchant':       '💰 TD Merchant',
+  'to-merchant':       '💰 TO Merchant',
+  'patience-qb':       '🧘 Patience',
+  'patience-rb':       '🧘 Patience',
+  'patience-wr':       '🧘 Patience',
+  'feed-the-beast-rb': '👹 Feed the Beast',
+  'feed-the-beast-wr': '👹 Feed the Beast',
+  'dual-threat-qb':    '2️⃣ Dual Threat',
+  'dual-threat-rb':    '2️⃣ Dual Threat',
 }
 
-const POST_ROLL_ABILITIES = new Set(['blessed-evens', 'blessed-odds'])
+const POST_ROLL_ABILITIES = new Set(['blessed-evens', 'blessed-odds', 'elevate'])
 
 export function isPostRollAbility(abilityId: string): boolean {
   return POST_ROLL_ABILITIES.has(abilityId)
@@ -174,6 +219,25 @@ export function computeRollBonus(abilityId: string, roll: number, ctx: AbilityCo
     case 'goal-line':        return ctx.driveProgress >= ctx.rzYard ? 5 : 0
     case 'basketball-player':return ctx.driveProgress >= ctx.rzYard ? 5 : 0
     case 'yac':              return ctx.wrYacActive ? 5 : 0
+    case 'warming-up': return ctx.quarter <= 2 ? -3 : 10
+    case 'absorb':           return ctx.abilityCounter
+    case 'td-merchant':      return ctx.abilityCounter
+    case 'to-merchant':      return ctx.abilityCounter
+    case 'patience-qb':
+      return (ctx.down === 4 && ctx.downHistory.length === 3
+        && ctx.downHistory.every(e => e.playCall === 'run')) ? 15 : 0
+    case 'patience-rb':
+      return (ctx.down === 4 && ctx.downHistory.length === 3
+        && ctx.downHistory.every(e => e.playCall === 'pass')) ? 15 : 0
+    case 'patience-wr':
+      return (ctx.down === 4 && ctx.downHistory.length === 3
+        && ctx.downHistory.every(e => e.playCall === 'run')) ? 10 : 0
+    case 'feed-the-beast-rb':  return ctx.feedTheBeastBonus
+    case 'feed-the-beast-wr':  return ctx.feedTheBeastBonus
+    case 'long-leg':           return 0  // handled in GameScreen
+    case 'money-ball':         return 0  // handled in GameScreen
+    case 'dual-threat-qb':     return 0  // handled in GameScreen
+    case 'dual-threat-rb':     return 0  // handled in GameScreen
     default:                 return 0
   }
 }
@@ -183,6 +247,12 @@ export function computePostRollBonus(abilityId: string, ctx: AbilityContext): nu
   switch (abilityId) {
     case 'blessed-evens': return rolls.filter(r => r % 2 === 0).length
     case 'blessed-odds':  return rolls.filter(r => r % 2 !== 0).length
+    case 'elevate': {
+      const opponentRolls = ctx.playerSide === 'offense'
+        ? ctx.allDefRolls.filter((r): r is number => r !== null)
+        : ctx.allOffRolls.filter((r): r is number => r !== null)
+      return opponentRolls.some(r => r >= 15) ? 5 : 0
+    }
     default:              return 0
   }
 }

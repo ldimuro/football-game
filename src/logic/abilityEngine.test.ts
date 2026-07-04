@@ -24,6 +24,9 @@ const base: AbilityContext = {
   opponentWRRating: undefined,
   allOffRolls: [],
   allDefRolls: [],
+  downHistory: [],
+  feedTheBeastBonus: 0,
+  abilityCounter: 0,
 }
 
 describe('ABILITY_DISPLAY', () => {
@@ -223,4 +226,56 @@ describe('computePostRollBonus — blessed', () => {
   })
   it('returns 0 for unknown post-roll ability', () =>
     expect(computePostRollBonus('does-not-exist', base)).toBe(0))
+})
+
+describe('warming-up', () => {
+  const baseCtx: AbilityContext = {
+    quarter: 1, driveIndex: 0, possession: 'user', playerSide: 'offense',
+    playerTeamIsLosing: false, isLastTeamDrive: false, driveProgress: 50,
+    rzYard: 80, down: 1, playCall: 'run', weather: 'Clear',
+    ownPlayHistory: [], oppPlayHistory: [], ownRunsThisDrive: 0,
+    wrYacActive: false, olineRoll: null, opponentWRRating: undefined,
+    allOffRolls: [], allDefRolls: [],
+    downHistory: [], feedTheBeastBonus: 0, abilityCounter: 0,
+  }
+  it('returns -3 in quarter 1', () => {
+    expect(computeRollBonus('warming-up', 8, { ...baseCtx, quarter: 1 })).toBe(-3)
+  })
+  it('returns -3 in quarter 2', () => {
+    expect(computeRollBonus('warming-up', 8, { ...baseCtx, quarter: 2 })).toBe(-3)
+  })
+  it('returns +10 in quarter 3', () => {
+    expect(computeRollBonus('warming-up', 8, { ...baseCtx, quarter: 3 })).toBe(10)
+  })
+  it('returns +10 in quarter 4', () => {
+    expect(computeRollBonus('warming-up', 8, { ...baseCtx, quarter: 4 })).toBe(10)
+  })
+})
+
+describe('elevate', () => {
+  const baseCtx: AbilityContext = {
+    quarter: 2, driveIndex: 2, possession: 'user', playerSide: 'offense',
+    playerTeamIsLosing: false, isLastTeamDrive: false, driveProgress: 40,
+    rzYard: 80, down: 2, playCall: 'pass', weather: 'Clear',
+    ownPlayHistory: [], oppPlayHistory: [], ownRunsThisDrive: 0,
+    wrYacActive: false, olineRoll: null, opponentWRRating: undefined,
+    allOffRolls: [], allDefRolls: [],
+    downHistory: [], feedTheBeastBonus: 0, abilityCounter: 0,
+  }
+  it('returns 0 when no opponent rolled 15+', () => {
+    const ctx = { ...baseCtx, playerSide: 'offense' as const, allDefRolls: [10, 12] }
+    expect(computePostRollBonus('elevate', ctx)).toBe(0)
+  })
+  it('returns +5 when an opponent raw roll is exactly 15', () => {
+    const ctx = { ...baseCtx, playerSide: 'offense' as const, allDefRolls: [15, 8] }
+    expect(computePostRollBonus('elevate', ctx)).toBe(5)
+  })
+  it('returns +5 when an opponent raw roll exceeds 15', () => {
+    const ctx = { ...baseCtx, playerSide: 'defense' as const, allOffRolls: [16], allDefRolls: [] }
+    expect(computePostRollBonus('elevate', ctx)).toBe(5)
+  })
+  it('returns 0 when holding side is offense and no defender rolled 15+', () => {
+    const ctx = { ...baseCtx, playerSide: 'offense' as const, allDefRolls: [14] }
+    expect(computePostRollBonus('elevate', ctx)).toBe(0)
+  })
 })

@@ -41,16 +41,16 @@ describe('assignAbility', () => {
     vi.spyOn(Math, 'random')
       .mockReturnValueOnce(0.1)
       .mockReturnValueOnce(0.999) // last in DLine pool
-    // DLine pool = 12 ALL + ['bull-rush','brick-wall','stack-the-box','psychic','bend-dont-break'] = 17; last = 'bend-dont-break'
-    expect(assignAbility('DLine')).toBe('bend-dont-break')
+    // DLine pool = 9 ALL + ['bull-rush','brick-wall','stack-the-box','psychic','bend-dont-break','to-merchant'] = 15; last = 'to-merchant'
+    expect(assignAbility('DLine')).toBe('to-merchant')
   })
 
   it('Secondary can receive Secondary-specific abilities', () => {
     vi.spyOn(Math, 'random')
       .mockReturnValueOnce(0.1)
       .mockReturnValueOnce(0.999)
-    // Secondary pool = 12 ALL + ['bend-dont-break','on-an-island','no-fly-zone','psychic'] = 16; last = 'psychic'
-    expect(assignAbility('Secondary')).toBe('psychic')
+    // Secondary pool = 9 ALL + ['bend-dont-break','on-an-island','no-fly-zone','psychic','to-merchant'] = 14; last = 'to-merchant'
+    expect(assignAbility('Secondary')).toBe('to-merchant')
   })
 })
 

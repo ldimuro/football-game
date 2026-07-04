@@ -10,16 +10,17 @@ export const ALL_ABILITY_IDS = [
   'second-half', 'clutch',
   'rain-man', 'snow-man',
   'comeback-kid', 'two-minute-drill',
+  'warming-up', 'elevate', 'absorb',
 ]
 
 export const POSITION_ABILITY_IDS: Record<string, string[]> = {
-  QB:        ['play-action', 'in-rhythm'],
-  WR:        ['basketball-player', 'yac'],
-  RB:        ['workhorse', 'fresh-legs', 'goal-line'],
-  K:         [],
+  QB:        ['play-action', 'in-rhythm', 'patience-qb', 'td-merchant', 'dual-threat-qb'],
+  WR:        ['basketball-player', 'yac', 'td-merchant', 'patience-wr', 'feed-the-beast-wr'],
+  RB:        ['workhorse', 'fresh-legs', 'goal-line', 'td-merchant', 'patience-rb', 'feed-the-beast-rb', 'dual-threat-rb'],
+  K:         ['long-leg', 'money-ball'],
   OLine:     ['air-raid', 'ground-and-pound', 'psychic'],
-  DLine:     ['bull-rush', 'brick-wall', 'stack-the-box', 'psychic', 'bend-dont-break'],
-  Secondary: ['bend-dont-break', 'on-an-island', 'no-fly-zone', 'psychic'],
+  DLine:     ['bull-rush', 'brick-wall', 'stack-the-box', 'psychic', 'bend-dont-break', 'to-merchant'],
+  Secondary: ['bend-dont-break', 'on-an-island', 'no-fly-zone', 'psychic', 'to-merchant'],
 }
 
 const POSITION_ROSTER_MAP: Record<string, RosterPosition[]> = {
