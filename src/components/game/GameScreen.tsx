@@ -18,8 +18,9 @@ import {
 import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
 import { rng } from '../../logic/rng'
 import type { RuleOverrides } from '../../logic/leagueRules'
+import { drawHand, applyCardYards, CARDS } from '../../logic/playbookCards'
 import { RosterGrid } from '../roster/RosterGrid'
-import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition } from '../../types'
+import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition, PlaybookCard } from '../../types'
 import {
   computeRollBonus, computePostRollBonus, isPostRollAbility,
 } from '../../logic/abilityEngine'
@@ -121,14 +122,18 @@ interface GameState {
   turnoverYardLine: number | null
   nextDriveStartYard: number
   userAbsorbHits: number
+  userHand: PlaybookCard[]
+  activeCard: PlaybookCard | null
+  cardBonus: number
+  deepShotFallback: { off: (Player | TeamUnit)[]; def: (Player | TeamUnit)[] } | null
 }
 
 type GameAction =
   // For run: opponentDefCall required; for pass: omit it (set in CHOOSE_WR instead)
-  | { type: 'CHOOSE_OFF_PLAY'; call: 'run' | 'pass'; opponentDefCall?: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
+  | { type: 'CHOOSE_OFF_PLAY'; call: 'run' | 'pass'; opponentDefCall?: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[]; card: PlaybookCard }
   // CHOOSE_WR: defPlayers already in state from CHOOSE_OFF_PLAY(pass); only offPlayers changes
-  | { type: 'CHOOSE_WR'; wr: 'WR1' | 'WR2' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[] }
-  | { type: 'SHOW_RUNNER_CHOICE' }
+  | { type: 'CHOOSE_WR'; wr: 'WR1' | 'WR2' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; deepShotFallback?: { off: (Player | TeamUnit)[]; def: (Player | TeamUnit)[] } }
+  | { type: 'SHOW_RUNNER_CHOICE'; card: PlaybookCard }
   | { type: 'CHOOSE_RUNNER'; runner: 'QB' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   | { type: 'CHOOSE_DEF_PLAY'; call: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   | { type: 'ROLL_PAIR'; offIndex: number; offValue: number; defIndex: number | null; defValue: number | null }
@@ -140,6 +145,7 @@ type GameAction =
   | { type: 'FOURTH_DOWN_GO_FOR_IT' }
   | { type: 'FOURTH_DOWN_PUNT' }
   | { type: 'BACK_TO_PLAY_CHOICE' }
+  | { type: 'DEEP_SHOT_SWITCH'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
 
 // ─── Helpers ───────────────────────────────────────────────────────────────────
 
@@ -151,7 +157,7 @@ function randomDefCall(): 'run-stop' | 'pass-stop' {
   return rng() < 0.5 ? 'run-stop' : 'pass-stop'
 }
 
-function driveReset(): Partial<GameState> {
+function driveReset(maxDowns: number): Partial<GameState> {
   return {
     down: 1,
     driveProgress: STARTING_YARD_LINE,
@@ -185,6 +191,10 @@ function driveReset(): Partial<GameState> {
     userDriveWR2Plays: 0,
     opponentDriveWR1Plays: 0,
     turnoverYardLine: null,
+    userHand: drawHand(maxDowns),
+    activeCard: null,
+    cardBonus: 0,
+    deepShotFallback: null,
   }
 }
 
@@ -202,6 +212,9 @@ function playReset(): Partial<GameState> {
     wentForIt: false,
     offBonuses: [],
     defBonuses: [],
+    activeCard: null,
+    cardBonus: 0,
+    deepShotFallback: null,
   }
 }
 
@@ -305,7 +318,7 @@ function recomputeBlessed(
 function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
     case 'CHOOSE_OFF_PLAY': {
-      const { call, opponentDefCall, offPlayers, defPlayers } = action
+      const { call, opponentDefCall, offPlayers, defPlayers, card } = action
       if (call === 'pass') {
         // opponentDefCall is set later in CHOOSE_WR to avoid generating two random values
         return {
@@ -313,6 +326,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           offensePlayCall: 'pass',
           defPlayers,
           defBonuses: new Array(defPlayers.length).fill(null),
+          activeCard: card,
           phase: 'choose-wr',
         }
       }
@@ -326,6 +340,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(defPlayers.length).fill(null),
+        activeCard: card,
         phase: 'rolling-pairs',
       }
     }
@@ -342,12 +357,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         defRolls: new Array(state.defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(state.defPlayers.length).fill(null),
+        deepShotFallback: action.deepShotFallback ?? null,
         phase: 'rolling-pairs',
       }
     }
 
     case 'SHOW_RUNNER_CHOICE': {
-      return { ...state, phase: 'choose-runner' }
+      return { ...state, phase: 'choose-runner', activeCard: action.card }
     }
 
     case 'CHOOSE_RUNNER': {
@@ -877,7 +893,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const startYard = state.nextDriveStartYard
       return {
         ...state,
-        ...driveReset(),
+        ...driveReset(state.maxDowns),
         driveProgress: startYard,
         nextDriveStartYard: STARTING_YARD_LINE,
         driveIndex: nextDriveIndex,
@@ -941,7 +957,23 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         offPlayers: [],
         offBonuses: [],
         selectedWR: null,
+        activeCard: null,
+        deepShotFallback: null,
       }
+
+    case 'DEEP_SHOT_SWITCH': {
+      const { offPlayers, defPlayers } = action
+      return {
+        ...state,
+        offPlayers,
+        defPlayers,
+        offRolls: new Array(offPlayers.length).fill(null),
+        defRolls: new Array(defPlayers.length).fill(null),
+        offBonuses: new Array(offPlayers.length).fill(null),
+        defBonuses: new Array(defPlayers.length).fill(null),
+        phase: 'rolling-pairs',
+      }
+    }
 
     default:
       return state
@@ -1002,6 +1034,10 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     turnoverYardLine: null,
     nextDriveStartYard: STARTING_YARD_LINE,
     userAbsorbHits: 0,
+    userHand: drawHand(overrides.maxDowns),
+    activeCard: null,
+    cardBonus: 0,
+    deepShotFallback: null,
     userPlayHistory: [],
     opponentPlayHistory: [],
     userRunsThisDrive: 0,
@@ -1134,18 +1170,18 @@ export function GameScreen() {
 
   function handleOffPlay(call: 'run' | 'pass') {
     if (call === 'run' && userRoster.QB?.ability === 'dual-threat-qb') {
-      dispatch({ type: 'SHOW_RUNNER_CHOICE' })
+      dispatch({ type: 'SHOW_RUNNER_CHOICE', card: CARDS['dive'] })
       return
     }
     if (call === 'pass') {
       // opponentDefCall is generated in handleReceiverChoice so it's one random value per play
       const defPlayers = getDefensePlayers(oppRoster, 'pass')
-      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'pass', offPlayers: [], defPlayers })
+      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'pass', offPlayers: [], defPlayers, card: CARDS['quick-pass'] })
     } else {
       const opponentDefCall = randomDefCall()
       const offPlayers = getOffensePlayers(userRoster, 'run', 'WR1')
       const defPlayers = getDefensePlayers(oppRoster, 'run')
-      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'run', opponentDefCall, offPlayers, defPlayers })
+      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'run', opponentDefCall, offPlayers, defPlayers, card: CARDS['dive'] })
     }
   }
 
