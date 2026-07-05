@@ -201,3 +201,33 @@ export interface SimulationResult {
   opponentScore: number
   winner: 'user' | 'opponent' | 'tie'
 }
+
+export type CardMechanic =
+  | 'vanilla'
+  | 'off-tackle'
+  | 'power-run'
+  | 'ramp-run'
+  | 'play-action-bonus'
+  | 'double-move'
+  | 'checkdown'
+  | 'threshold-shot'
+  | 'hail-mary'
+
+export type PlaybookCardId =
+  | 'dive' | 'quick-pass' | 'off-tackle' | 'power-run'
+  | 'ground-and-pound' | 'play-action' | 'double-move'
+  | 'checkdown' | 'deep-shot' | 'hail-mary'
+
+export interface PlaybookCard {
+  id: PlaybookCardId
+  name: string
+  description: string
+  playType: 'run' | 'pass'
+  mechanic: CardMechanic
+}
+
+export interface CardYardsContext {
+  runsThisDrive: number
+  prevPlayCall: 'run' | 'pass' | null
+  qbRoll: number
+}
