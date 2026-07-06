@@ -569,9 +569,21 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         }
       }
 
-      // Compute final yards and show result
-      const bonus = computeAdvantageBonus(state.offensePlayCall!, state.defensePlayCall!)
-      const yards = computeYardsGained(newOffRolls as number[], newDefRolls as number[], bonus)
+      // Compute final yards with card effects
+      const advBonus = computeAdvantageBonus(state.offensePlayCall!, state.defensePlayCall!)
+      const offTotal = (newOffRolls as number[]).reduce((a, b) => a + b, 0)
+      const defTotal = (newDefRolls as number[]).reduce((a, b) => a + b, 0)
+      const runsThisDrive = state.possession === 'user' ? state.userRunsThisDrive : state.opponentRunsThisDrive
+      const prevPlayCall = state.downHistory.length > 0
+        ? state.downHistory[state.downHistory.length - 1].playCall
+        : null
+      const { yards, cardBonus } = applyCardYards(
+        state.possession === 'user' ? state.activeCard : null,
+        offTotal,
+        defTotal,
+        advBonus,
+        { runsThisDrive, prevPlayCall, qbRoll: (newOffRolls[0] as number) ?? 0 },
+      )
       return {
         ...state,
         offRolls: newOffRolls,
@@ -581,6 +593,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         wr1YacActive: newWr1YacActive,
         wr2YacActive: newWr2YacActive,
         yardsGained: yards,
+        cardBonus,
         userAbsorbHits: state.userAbsorbHits + absorbHitsDelta,
         phase: 'show-play-result',
       }
