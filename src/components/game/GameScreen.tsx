@@ -1543,6 +1543,8 @@ export function GameScreen() {
             fgDifficulty={state.fgDifficulty}
             driveOutcome={state.driveOutcome}
             kicker={state.possession === 'user' ? userRoster.K : oppRoster.K}
+            activeCard={state.activeCard}
+            cardBonus={state.cardBonus}
           />
         )}
 

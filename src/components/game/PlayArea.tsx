@@ -22,6 +22,8 @@ interface PlayAreaProps {
   fgDifficulty: number | null
   driveOutcome: DriveOutcome | null
   kicker: Player | TeamUnit | null
+  activeCard?: import('../../types').PlaybookCard | null
+  cardBonus?: number | null
 }
 
 const PLAY_CALL_LABELS: Record<string, string> = {
@@ -67,6 +69,8 @@ export function PlayArea({
   offensePlayCall, defensePlayCall, opponentPlayCall,
   yardsGained, fgRoll, fgDifficulty, driveOutcome,
   kicker,
+  activeCard,
+  cardBonus,
 }: PlayAreaProps) {
   const { userTurnoverNumbers, opponentTurnoverNumbers } = useGameStore()
   const offLabel = possession === 'user' ? 'Your Offense' : 'Opp Offense'
@@ -105,7 +109,7 @@ export function PlayArea({
         <div className="flex items-center justify-center gap-3 text-sm">
           {matchupOff && (
             <span className="bg-indigo-900/50 text-indigo-300 px-3 py-1 rounded-full font-bold">
-              {PLAY_CALL_LABELS[matchupOff]}
+              {activeCard ? activeCard.name.toUpperCase() : PLAY_CALL_LABELS[matchupOff]}
             </span>
           )}
           {matchupOff && matchupDef && <span className="text-gray-600">vs</span>}
@@ -220,6 +224,24 @@ export function PlayArea({
                   </div>
                 )
               })}
+              {cardBonus !== null && cardBonus !== undefined && cardBonus !== 0 && (() => {
+                let label = activeCard?.name ?? 'Card'
+                if (activeCard?.mechanic === 'hail-mary') {
+                  label = cardBonus > 0 ? 'Hail Mary (×2)' : 'Hail Mary (Failed)'
+                } else if (activeCard?.mechanic === 'ramp-run') {
+                  label = 'Ground & Pound'
+                } else if (activeCard?.mechanic === 'play-action-bonus') {
+                  label = 'Play Action'
+                }
+                return (
+                  <div className="flex justify-between mb-2">
+                    <span className="text-amber-400 font-semibold">{label}</span>
+                    <span className={`font-bold tabular-nums ${cardBonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
+                      {cardBonus >= 0 ? '+' : ''}{cardBonus}
+                    </span>
+                  </div>
+                )
+              })()}
               <div className="border-t border-gray-700 pt-2 flex justify-between mt-1">
                 <span className="text-gray-300 font-semibold">Net yards</span>
                 <span className={`text-lg font-bold tabular-nums ${yardsGained >= 0 ? 'text-green-400' : 'text-red-400'}`}>
