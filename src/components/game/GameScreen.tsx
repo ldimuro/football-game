@@ -6,7 +6,7 @@ import { PlayArea } from './PlayArea'
 import { PlayerRollCard } from './PlayerRollCard'
 import { Button } from '../ui/Button'
 import {
-  rollDie, computeAdvantageBonus, computeYardsGained,
+  rollDie, computeAdvantageBonus,
   computeFGDifficulty, getOffensePlayers, getDefensePlayers, getPlayerDie,
 } from '../../logic/gameEngine'
 import {
