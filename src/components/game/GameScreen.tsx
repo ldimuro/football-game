@@ -1272,7 +1272,7 @@ export function GameScreen() {
     if (state.activeCard?.mechanic === 'threshold-shot') {
       const wr = slot === 'WR2' ? userRoster.WR2 : slot === 'RB' ? userRoster.RB : userRoster.WR1
       const offPlayers = [wr].filter(Boolean) as (Player | TeamUnit)[]
-      const fallbackOff = [userRoster.OLine].filter(Boolean) as (Player | TeamUnit)[]
+      const fallbackOff = [userRoster.RB, userRoster.OLine].filter(Boolean) as (Player | TeamUnit)[]
       const fallbackDef = [oppRoster.DLine].filter(Boolean) as (Player | TeamUnit)[]
       dispatch({
         type: 'CHOOSE_WR',
