@@ -79,6 +79,7 @@ interface GameState {
   offPlayers: (Player | TeamUnit)[]
   defPlayers: (Player | TeamUnit)[]
   offRolls: (number | null)[]
+  offRollPairs: ([number, number] | null)[]
   defRolls: (number | null)[]
   yardsGained: number | null
   fgRoll: number | null
@@ -137,7 +138,7 @@ type GameAction =
   | { type: 'SHOW_RUNNER_CHOICE'; card: PlaybookCard }
   | { type: 'CHOOSE_RUNNER'; runner: 'QB' | 'RB'; opponentDefCall: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
   | { type: 'CHOOSE_DEF_PLAY'; call: 'run-stop' | 'pass-stop'; offPlayers: (Player | TeamUnit)[]; defPlayers: (Player | TeamUnit)[] }
-  | { type: 'ROLL_PAIR'; offIndex: number; offValue: number; defIndex: number | null; defValue: number | null }
+  | { type: 'ROLL_PAIR'; offIndex: number; offValue: number; defIndex: number | null; defValue: number | null; offRollPair?: [number, number] }
   | { type: 'RESOLVE_PLAY'; nextOpponentPlayCall: 'run' | 'pass' }
   | { type: 'FG_ROLL_START'; value: number }
   | { type: 'FG_ROLL'; value: number }
@@ -170,6 +171,7 @@ function driveReset(maxDowns: number): Partial<GameState> {
     offPlayers: [],
     defPlayers: [],
     offRolls: [],
+    offRollPairs: [],
     defRolls: [],
     yardsGained: null,
     fgRoll: null,
@@ -207,6 +209,7 @@ function playReset(): Partial<GameState> {
     offPlayers: [],
     defPlayers: [],
     offRolls: [],
+    offRollPairs: [],
     defRolls: [],
     yardsGained: null,
     driveOutcome: null,
@@ -414,6 +417,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       const newOffRolls = [...state.offRolls]
       newOffRolls[offIndex] = offValue
 
+      // Track roll pair (for double-roll mechanics)
+      const newOffRollPairs = [...state.offRollPairs]
+      while (newOffRollPairs.length <= offIndex) newOffRollPairs.push(null)
+      newOffRollPairs[offIndex] = action.offRollPair ?? null
+
       // Apply defense roll (if this row has a paired def player)
       const newDefRolls = [...state.defRolls]
       if (defIndex !== null && defValue !== null) {
@@ -491,6 +499,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
           return {
             ...state,
             offRolls: newOffRolls,
+            offRollPairs: newOffRollPairs,
             defRolls: newDefRolls,
             offBonuses: newOffBonuses,
             defBonuses: newDefBonuses,
@@ -505,6 +514,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
             offPlayers: fallback.off,
             defPlayers: fallback.def,
             offRolls: new Array(fallback.off.length).fill(null),
+            offRollPairs: [],
             defRolls: new Array(fallback.def.length).fill(null),
             offBonuses: new Array(fallback.off.length).fill(null),
             defBonuses: new Array(fallback.def.length).fill(null),
@@ -527,6 +537,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         return {
           ...state,
           offRolls: newOffRolls,
+          offRollPairs: newOffRollPairs,
           defRolls: newDefRolls,
           offBonuses: newOffBonuses,
           defBonuses: newDefBonuses,
@@ -567,6 +578,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         return {
           ...state,
           offRolls: newOffRolls,
+          offRollPairs: newOffRollPairs,
           defRolls: newDefRolls,
           offBonuses: newOffBonuses,
           defBonuses: newDefBonuses,
@@ -595,6 +607,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       return {
         ...state,
         offRolls: newOffRolls,
+        offRollPairs: newOffRollPairs,
         defRolls: newDefRolls,
         offBonuses: newOffBonuses,
         defBonuses: newDefBonuses,
@@ -1020,6 +1033,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
         offPlayers,
         defPlayers,
         offRolls: new Array(offPlayers.length).fill(null),
+        offRollPairs: [],
         defRolls: new Array(defPlayers.length).fill(null),
         offBonuses: new Array(offPlayers.length).fill(null),
         defBonuses: new Array(defPlayers.length).fill(null),
@@ -1061,6 +1075,7 @@ function makeInitialState({ weather, userTurnoverNumbers, opponentTurnoverNumber
     offPlayers: [],
     defPlayers: [],
     offRolls: [],
+    offRollPairs: [],
     defRolls: [],
     yardsGained: null,
     fgRoll: null,
@@ -1191,21 +1206,25 @@ export function GameScreen() {
         const isLastOff = offIdx === state.offPlayers.length - 1
 
         let offValue: number
+        let offRollPair: [number, number] | undefined
         if (mechanic === 'off-tackle' && isFirstOff) {
           // RB rolls twice, keep lower
-          const r1 = rollDie(getPlayerDie(offPlayer))
-          const r2 = rollDie(getPlayerDie(offPlayer))
+          const offDie = getPlayerDie(offPlayer)
+          const r1 = rollDie(offDie); const r2 = rollDie(offDie)
           offValue = Math.min(r1, r2)
+          offRollPair = [r1, r2]
         } else if (mechanic === 'power-run' && isFirstOff) {
           // RB rolls twice, keep higher
-          const r1 = rollDie(getPlayerDie(offPlayer))
-          const r2 = rollDie(getPlayerDie(offPlayer))
+          const offDie = getPlayerDie(offPlayer)
+          const r1 = rollDie(offDie); const r2 = rollDie(offDie)
           offValue = Math.max(r1, r2)
+          offRollPair = [r1, r2]
         } else if (mechanic === 'double-move' && isLastOff) {
           // WR rolls twice, keep higher
-          const r1 = rollDie(getPlayerDie(offPlayer))
-          const r2 = rollDie(getPlayerDie(offPlayer))
+          const offDie = getPlayerDie(offPlayer)
+          const r1 = rollDie(offDie); const r2 = rollDie(offDie)
           offValue = Math.max(r1, r2)
+          offRollPair = [r1, r2]
         } else if (mechanic === 'checkdown' && isLastOff) {
           // WR uses floor value — no randomness
           const die = getPlayerDie(offPlayer)
@@ -1218,7 +1237,7 @@ export function GameScreen() {
         const defPlayer = defIdx >= 0 && defIdx < state.defPlayers.length ? state.defPlayers[defIdx] : null
         const defValue = defPlayer ? rollDie(getPlayerDie(defPlayer)) : null
 
-        dispatch({ type: 'ROLL_PAIR', offIndex: offIdx, offValue, defIndex: defPlayer ? defIdx : null, defValue })
+        dispatch({ type: 'ROLL_PAIR', offIndex: offIdx, offValue, defIndex: defPlayer ? defIdx : null, defValue, offRollPair })
         break
       }
       case 'show-play-result':
@@ -1540,6 +1559,7 @@ export function GameScreen() {
             offPlayers={state.offPlayers}
             defPlayers={state.defPlayers}
             offRolls={state.offRolls}
+            offRollPairs={state.offRollPairs}
             defRolls={state.defRolls}
             offBonuses={state.offBonuses}
             defBonuses={state.defBonuses}

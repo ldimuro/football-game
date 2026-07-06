@@ -11,6 +11,7 @@ interface PlayAreaProps {
   offPlayers: (Player | TeamUnit)[]
   defPlayers: (Player | TeamUnit)[]
   offRolls: (number | null)[]
+  offRollPairs?: ([number, number] | null)[]
   defRolls: (number | null)[]
   offBonuses?: (number | null)[]
   defBonuses?: (number | null)[]
@@ -63,7 +64,8 @@ const OUTCOME_COLORS: Record<string, string> = {
 export function PlayArea({
   possession, phase,
   offPlayers, defPlayers,
-  offRolls, defRolls,
+  offRolls, offRollPairs = [],
+  defRolls,
   offBonuses = [],
   defBonuses = [],
   offensePlayCall, defensePlayCall, opponentPlayCall,
@@ -142,6 +144,7 @@ export function PlayArea({
                   isNext={offRollingIdx === offIdx}
                   bonus={offBonuses[offIdx] ?? null}
                   dangerFaces={offDangerFaces}
+                  rollPair={offRollPairs[offIdx] ?? undefined}
                 />
                 {defPlayer ? (
                   <PlayerRollCard

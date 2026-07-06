@@ -28,6 +28,7 @@ export function PlayerRollCard({
   bonus,
   dangerFaces,
   fgAnimation,
+  rollPair,
 }: {
   player: Player | TeamUnit
   roll: number | null
@@ -35,6 +36,7 @@ export function PlayerRollCard({
   bonus?: number | null
   dangerFaces?: number[]
   fgAnimation?: boolean
+  rollPair?: [number, number]
 }) {
   const [displayValue, setDisplayValue] = useState<number | null>(null)
   const [isAnimating, setIsAnimating] = useState(false)
@@ -181,6 +183,15 @@ export function PlayerRollCard({
         >
           {displayValue !== null ? displayValue : '?'}
         </div>
+        {rollPair !== undefined && (
+          <div className={`text-center text-2xl font-bold tabular-nums ${
+            roll !== null ? 'text-gray-500' : 'text-gray-600'
+          }`}>
+            {roll !== null
+              ? (rollPair[0] === roll ? rollPair[1] : rollPair[0])
+              : '?'}
+          </div>
+        )}
         {displayValue !== null && bonus !== null && bonus !== undefined && bonus !== 0 && (
           <span className={`text-2xl font-bold tabular-nums ${bonus >= 0 ? 'text-green-400' : 'text-red-400'}`}>
             {bonus >= 0 ? `+${bonus}` : `${bonus}`}
