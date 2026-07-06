@@ -475,9 +475,39 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       newOffBonuses = recomputeBlessed(state.offPlayers, newOffBonuses, 'offense', state, newOffRolls, newDefRolls)
       newDefBonuses = recomputeBlessed(state.defPlayers, newDefBonuses, 'defense', state, newOffRolls, newDefRolls)
 
+      // Deep Shot: after WR rolls, branch on threshold
+      if (state.activeCard?.mechanic === 'threshold-shot' && offIndex === 0) {
+        if (offValue >= 14) {
+          // Success: WR's raw value is the full offense; no defense paired
+          const advBonus = computeAdvantageBonus(state.offensePlayCall!, state.defensePlayCall!)
+          return {
+            ...state,
+            offRolls: newOffRolls,
+            defRolls: newDefRolls,
+            offBonuses: newOffBonuses,
+            defBonuses: newDefBonuses,
+            yardsGained: offValue + advBonus,
+            phase: 'show-play-result',
+          }
+        } else {
+          // Fail: switch to OLine vs DLine using pre-stored fallback
+          const fallback = state.deepShotFallback ?? { off: [], def: [] }
+          return {
+            ...state,
+            offPlayers: fallback.off,
+            defPlayers: fallback.def,
+            offRolls: new Array(fallback.off.length).fill(null),
+            defRolls: new Array(fallback.def.length).fill(null),
+            offBonuses: new Array(fallback.off.length).fill(null),
+            defBonuses: new Array(fallback.def.length).fill(null),
+            phase: 'rolling-pairs',
+          }
+        }
+      }
+
       // Turnover check: offense player rolled the defense's turnover number
       const defTurnoverNums = state.possession === 'user' ? state.opponentTurnoverNumbers : state.userTurnoverNumbers
-      if (defTurnoverNums.includes(offValue)) {
+      if (state.activeCard?.mechanic !== 'checkdown' && defTurnoverNums.includes(offValue)) {
         const driveResult = buildDriveResult(state, 'Turnover', 0, {
           yards: state.currentDriveYards,
           passYards: state.currentDrivePassYards,
@@ -1132,13 +1162,38 @@ export function GameScreen() {
   function handleStep() {
     switch (state.phase) {
       case 'rolling-pairs': {
-        // off[0] is always solo (QB/RB); off[1] pairs with def[0] (OLine/DLine); off[2] pairs with def[1] (WR/Secondary)
         const offIdx = state.offRolls.findIndex(r => r === null)
         if (offIdx === -1) return
         const offPlayer = state.offPlayers[offIdx]
-        const offValue = rollDie(getPlayerDie(offPlayer))
+        const mechanic = state.activeCard?.mechanic
+        const isFirstOff = offIdx === 0
+        const isLastOff = offIdx === state.offPlayers.length - 1
 
-        const defIdx = offIdx - 1  // off[1]→def[0], off[2]→def[1]; off[0] is solo
+        let offValue: number
+        if (mechanic === 'off-tackle' && isFirstOff) {
+          // RB rolls twice, keep lower
+          const r1 = rollDie(getPlayerDie(offPlayer))
+          const r2 = rollDie(getPlayerDie(offPlayer))
+          offValue = Math.min(r1, r2)
+        } else if (mechanic === 'power-run' && isFirstOff) {
+          // RB rolls twice, keep higher
+          const r1 = rollDie(getPlayerDie(offPlayer))
+          const r2 = rollDie(getPlayerDie(offPlayer))
+          offValue = Math.max(r1, r2)
+        } else if (mechanic === 'double-move' && isLastOff) {
+          // WR rolls twice, keep higher
+          const r1 = rollDie(getPlayerDie(offPlayer))
+          const r2 = rollDie(getPlayerDie(offPlayer))
+          offValue = Math.max(r1, r2)
+        } else if (mechanic === 'checkdown' && isLastOff) {
+          // WR uses floor value — no randomness
+          const die = getPlayerDie(offPlayer)
+          offValue = Math.min(...die)
+        } else {
+          offValue = rollDie(getPlayerDie(offPlayer))
+        }
+
+        const defIdx = offIdx - 1
         const defPlayer = defIdx >= 0 && defIdx < state.defPlayers.length ? state.defPlayers[defIdx] : null
         const defValue = defPlayer ? rollDie(getPlayerDie(defPlayer)) : null
 
