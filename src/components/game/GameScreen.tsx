@@ -18,7 +18,7 @@ import {
 import { getRuleOverrides, getDefaultOverrides } from '../../logic/leagueRules'
 import { rng } from '../../logic/rng'
 import type { RuleOverrides } from '../../logic/leagueRules'
-import { drawHand, applyCardYards, CARDS } from '../../logic/playbookCards'
+import { drawHand, applyCardYards } from '../../logic/playbookCards'
 import { RosterGrid } from '../roster/RosterGrid'
 import { PlaybookCardButton } from './PlaybookCardButton'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition, PlaybookCard } from '../../types'
