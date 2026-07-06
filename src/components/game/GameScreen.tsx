@@ -385,8 +385,16 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case 'CHOOSE_DEF_PLAY': {
       const { call, offPlayers, defPlayers } = action
+      // Consume the active card from the hand for this down
+      const newHand = state.activeCard
+        ? (() => {
+            const idx = state.userHand.findIndex(c => c.id === state.activeCard!.id)
+            return idx >= 0 ? state.userHand.filter((_, i) => i !== idx) : state.userHand
+          })()
+        : state.userHand
       return {
         ...state,
+        userHand: newHand,
         offensePlayCall: state.opponentPlayCall ?? 'run',
         defensePlayCall: call,
         offPlayers,
