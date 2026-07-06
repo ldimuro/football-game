@@ -323,10 +323,13 @@ function gameReducer(state: GameState, action: GameAction): GameState {
   switch (action.type) {
     case 'CHOOSE_OFF_PLAY': {
       const { call, opponentDefCall, offPlayers, defPlayers, card } = action
+      const cardIdx = state.userHand.findIndex(c => c.id === card.id)
+      const newHand = cardIdx >= 0 ? state.userHand.filter((_, i) => i !== cardIdx) : state.userHand
       if (call === 'pass') {
         // opponentDefCall is set later in CHOOSE_WR to avoid generating two random values
         return {
           ...state,
+          userHand: newHand,
           offensePlayCall: 'pass',
           defPlayers,
           defBonuses: new Array(defPlayers.length).fill(null),
@@ -336,6 +339,7 @@ function gameReducer(state: GameState, action: GameAction): GameState {
       }
       return {
         ...state,
+        userHand: newHand,
         offensePlayCall: 'run',
         defensePlayCall: opponentDefCall ?? 'run-stop',
         offPlayers,
@@ -372,8 +376,11 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case 'CHOOSE_RUNNER': {
       const { opponentDefCall, offPlayers, defPlayers } = action
+      const runnerCardIdx = state.activeCard ? state.userHand.findIndex(c => c.id === state.activeCard!.id) : -1
+      const runnerHand = runnerCardIdx >= 0 ? state.userHand.filter((_, i) => i !== runnerCardIdx) : state.userHand
       return {
         ...state,
+        userHand: runnerHand,
         offensePlayCall: 'run',
         defensePlayCall: opponentDefCall,
         offPlayers,
@@ -388,16 +395,8 @@ function gameReducer(state: GameState, action: GameAction): GameState {
 
     case 'CHOOSE_DEF_PLAY': {
       const { call, offPlayers, defPlayers } = action
-      // Consume the active card from the hand for this down
-      const newHand = state.activeCard
-        ? (() => {
-            const idx = state.userHand.findIndex(c => c.id === state.activeCard!.id)
-            return idx >= 0 ? state.userHand.filter((_, i) => i !== idx) : state.userHand
-          })()
-        : state.userHand
       return {
         ...state,
-        userHand: newHand,
         offensePlayCall: state.opponentPlayCall ?? 'run',
         defensePlayCall: call,
         offPlayers,
