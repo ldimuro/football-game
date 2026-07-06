@@ -20,6 +20,7 @@ import { rng } from '../../logic/rng'
 import type { RuleOverrides } from '../../logic/leagueRules'
 import { drawHand, applyCardYards, CARDS } from '../../logic/playbookCards'
 import { RosterGrid } from '../roster/RosterGrid'
+import { PlaybookCardButton } from './PlaybookCardButton'
 import type { Roster, Player, TeamUnit, DriveResult, DriveOutcome, SimulationResult, WeatherCondition, PlaybookCard } from '../../types'
 import {
   computeRollBonus, computePostRollBonus, isPostRollAbility,
@@ -1168,20 +1169,22 @@ export function GameScreen() {
     }
   }
 
-  function handleOffPlay(call: 'run' | 'pass') {
-    if (call === 'run' && userRoster.QB?.ability === 'dual-threat-qb') {
-      dispatch({ type: 'SHOW_RUNNER_CHOICE', card: CARDS['dive'] })
+  function handleCardPlay(card: PlaybookCard) {
+    if (card.playType === 'run' && userRoster.QB?.ability === 'dual-threat-qb') {
+      dispatch({ type: 'SHOW_RUNNER_CHOICE', card })
       return
     }
-    if (call === 'pass') {
-      // opponentDefCall is generated in handleReceiverChoice so it's one random value per play
-      const defPlayers = getDefensePlayers(oppRoster, 'pass')
-      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'pass', offPlayers: [], defPlayers, card: CARDS['quick-pass'] })
-    } else {
+    if (card.playType === 'run') {
       const opponentDefCall = randomDefCall()
       const offPlayers = getOffensePlayers(userRoster, 'run', 'WR1')
       const defPlayers = getDefensePlayers(oppRoster, 'run')
-      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'run', opponentDefCall, offPlayers, defPlayers, card: CARDS['dive'] })
+      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'run', opponentDefCall, offPlayers, defPlayers, card })
+    } else {
+      // pass card — determine initial defPlayers (empty for Deep Shot; normal for others)
+      const defPlayers = card.mechanic === 'threshold-shot'
+        ? []
+        : getDefensePlayers(oppRoster, 'pass')
+      dispatch({ type: 'CHOOSE_OFF_PLAY', call: 'pass', offPlayers: [], defPlayers, card })
     }
   }
 
@@ -1196,13 +1199,28 @@ export function GameScreen() {
 
   function handleReceiverChoice(slot: 'WR1' | 'WR2' | 'RB') {
     const opponentDefCall = randomDefCall()
+
+    // Deep Shot: WR rolls solo vs no defense; pre-compute OLine fallback
+    if (state.activeCard?.mechanic === 'threshold-shot') {
+      const wr = slot === 'WR2' ? userRoster.WR2 : slot === 'RB' ? userRoster.RB : userRoster.WR1
+      const offPlayers = [wr].filter(Boolean) as (Player | TeamUnit)[]
+      const fallbackOff = [userRoster.OLine].filter(Boolean) as (Player | TeamUnit)[]
+      const fallbackDef = [oppRoster.DLine].filter(Boolean) as (Player | TeamUnit)[]
+      dispatch({
+        type: 'CHOOSE_WR',
+        wr: slot,
+        opponentDefCall,
+        offPlayers,
+        deepShotFallback: { off: fallbackOff, def: fallbackDef },
+      })
+      return
+    }
+
     if (slot === 'RB') {
-      // RB acts as receiver — [QB, OLine, RB]
       const offPlayers = [userRoster.QB, userRoster.OLine, userRoster.RB].filter(Boolean) as (Player | TeamUnit)[]
       dispatch({ type: 'CHOOSE_WR', wr: 'RB', opponentDefCall, offPlayers })
     } else {
       const offPlayers = getOffensePlayers(userRoster, 'pass', slot)
-      // defPlayers already in state from CHOOSE_OFF_PLAY(pass)
       dispatch({ type: 'CHOOSE_WR', wr: slot, opponentDefCall, offPlayers })
     }
   }
@@ -1314,15 +1332,22 @@ export function GameScreen() {
       <div className="flex-1 overflow-y-auto">
         {/* Choice panels */}
         {state.phase === 'choose-offense' && (
-          <div className="flex flex-col items-center gap-4 py-12">
+          <div className="flex flex-col items-center gap-4 py-8">
             <p className="text-xs text-gray-500 uppercase tracking-wider">Choose your play</p>
-            <div className="flex gap-4">
-              <Button size="lg" onClick={() => handleOffPlay('run')}>🏃 Run</Button>
-              <Button size="lg" onClick={() => handleOffPlay('pass')}>🏈 Pass</Button>
-              {state.driveProgress >= activeFgRangeYard && (
-                <Button size="lg" onClick={handleKickFG}>🦵 Kick FG (beat {computeFGDifficulty(state.driveProgress, activeFgRangeYard, state.tdYard)})</Button>
-              )}
+            <div className="grid grid-cols-2 gap-3 w-full max-w-lg px-6">
+              {state.userHand.map((card, i) => (
+                <PlaybookCardButton
+                  key={i}
+                  card={card}
+                  onClick={() => handleCardPlay(card)}
+                />
+              ))}
             </div>
+            {state.driveProgress >= activeFgRangeYard && (
+              <Button size="lg" onClick={handleKickFG}>
+                🦵 Kick FG (beat {computeFGDifficulty(state.driveProgress, activeFgRangeYard, state.tdYard)})
+              </Button>
+            )}
           </div>
         )}
 
